@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+352,Cross-Site Request Forgery (CSRF),2099.5060737728563,base_query
+434,Unrestricted Upload of File with Dangerous Type,2018.710077189566,base_query
+862,Missing Authorization,1977.8948640904,base_query
+285,Improper Authorization,1947.2290657520998,base_query
+863,Incorrect Authorization,1942.0465602237693,base_query

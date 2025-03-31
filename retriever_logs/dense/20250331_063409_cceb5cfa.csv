@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+407,Inefficient Algorithmic Complexity,Class,0.7768728103339348
+668,Exposure of Resource to Wrong Sphere,Class,0.7362175473383917
+41,Improper Resolution of Path Equivalence,Base,0.7338243396915461
+1176,Inefficient CPU Computation,Class,0.7337568277526261
+617,Reachable Assertion,Base,0.732952805821719
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7317782252456938
+1333,Inefficient Regular Expression Complexity,Base,0.7316990079358512
+799,Improper Control of Interaction Frequency,Class,0.7311696047528002
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7310784114131652
+129,Improper Validation of Array Index,Variant,0.7294202807666978

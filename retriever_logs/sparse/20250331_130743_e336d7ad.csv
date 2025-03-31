@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6860.556108045295,base_query
+667,Improper Locking,6850.030442247156,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6814.213160901782,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6656.643545954397,base_query
+116,Improper Encoding or Escaping of Output,6467.006831206012,base_query

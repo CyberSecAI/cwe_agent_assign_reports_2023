@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Base,0.7941833222441794
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7645498441479932
+73,External Control of File Name or Path,Base,0.7617485806225771
+184,Incomplete List of Disallowed Inputs,Base,0.7565870860521713
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.755130492026941
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7548947510502062
+41,Improper Resolution of Path Equivalence,Base,0.7542253493294263
+138,Improper Neutralization of Special Elements,Class,0.7526508740613648
+668,Exposure of Resource to Wrong Sphere,Class,0.7500370377659167
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7496411953003996

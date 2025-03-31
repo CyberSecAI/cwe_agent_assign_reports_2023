@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.794778247398837
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.782226986964562
+183,Permissive List of Allowed Inputs,Base,0.7652317749893989
+184,Incomplete List of Disallowed Inputs,Base,0.7624325234752651
+653,Improper Isolation or Compartmentalization,Class,0.7621242194900452
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7612855554778137
+274,Improper Handling of Insufficient Privileges,Base,0.7601231069973744
+668,Exposure of Resource to Wrong Sphere,Class,0.758135183452211
+472,External Control of Assumed-Immutable Web Parameter,Base,0.756152803885536
+657,Violation of Secure Design Principles,Class,0.75414979432269

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6132.467509404164,base_query
+863,Incorrect Authorization,5686.799855955642,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,5685.052727940639,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5536.265363163489,base_query
+306,Missing Authentication for Critical Function,5480.073286311072,base_query

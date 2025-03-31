@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7906992390364177
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7636549173564655
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7551605207325236
+799,Improper Control of Interaction Frequency,Class,0.7537654150331122
+1288,Improper Validation of Consistency within Input,Base,0.7527298756137139
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.749625657175667
+404,Improper Resource Shutdown or Release,Class,0.7490989048563206
+606,Unchecked Input for Loop Condition,Base,0.7482589670147697
+1286,Improper Validation of Syntactic Correctness of Input,Base,0.7472171464266275
+668,Exposure of Resource to Wrong Sphere,Class,0.7461837437512049

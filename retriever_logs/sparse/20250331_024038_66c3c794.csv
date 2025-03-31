@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,6846.04880750896,base_query
+1250,Improper Preservation of Consistency Between Independent Representations of Shared State,6635.440383444646,base_query
+184,Incomplete List of Disallowed Inputs,6487.572651744109,base_query
+252,Unchecked Return Value,6479.299940539664,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6460.222627716097,base_query

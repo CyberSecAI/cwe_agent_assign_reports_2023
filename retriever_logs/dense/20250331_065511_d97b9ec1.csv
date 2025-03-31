@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.753895628017865
+73,External Control of File Name or Path,Base,0.7392177118061987
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7371351450748983
+184,Incomplete List of Disallowed Inputs,Base,0.7291146375892542
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7268279140921716
+691,Insufficient Control Flow Management,Pillar,0.7260014388490876
+41,Improper Resolution of Path Equivalence,Base,0.720085958626082
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),Base,0.7198778515782182
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7183694702746213
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Base,0.7178870233386165

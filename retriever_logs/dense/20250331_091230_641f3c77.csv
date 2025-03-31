@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+204,Observable Response Discrepancy,Base,0.7925624035288299
+203,Observable Discrepancy,Base,0.7759093570538818
+208,Observable Timing Discrepancy,Base,0.7748378286478285
+668,Exposure of Resource to Wrong Sphere,Class,0.7673065007004731
+205,Observable Behavioral Discrepancy,Base,0.758112432135889
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7564101480618572
+41,Improper Resolution of Path Equivalence,Base,0.7512436795136601
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.750728463918358
+755,Improper Handling of Exceptional Conditions,Class,0.7491785661881973
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7483851975319736

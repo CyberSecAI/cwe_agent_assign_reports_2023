@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7744318632014956
+1004,Sensitive Cookie Without 'HttpOnly' Flag,Variant,0.7683613540173058
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.767572594256671
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,Variant,0.7553908634856054
+784,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,Variant,0.7545292027872961
+565,Reliance on Cookies without Validation and Integrity Checking,Base,0.7489395158575758
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7454269348980778
+319,Cleartext Transmission of Sensitive Information,Base,0.7380475164546633
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7374436898535262
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7352433109461985

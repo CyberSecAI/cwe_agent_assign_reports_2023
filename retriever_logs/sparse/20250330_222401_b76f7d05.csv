@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+212,Improper Removal of Sensitive Information Before Storage or Transfer,4783.698993364785,unknown
+319,Cleartext Transmission of Sensitive Information,4755.993470105857,unknown
+863,Incorrect Authorization,4739.970802838118,unknown
+522,Insufficiently Protected Credentials,4660.98189033557,unknown
+639,Authorization Bypass Through User-Controlled Key,4620.065066482759,unknown

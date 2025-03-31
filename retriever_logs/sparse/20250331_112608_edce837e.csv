@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,8124.950160850329,base_query
+170,Improper Null Termination,7782.326303707558,base_query
+1284,Improper Validation of Specified Quantity in Input,7767.923453597459,base_query
+190,Integer Overflow or Wraparound,7750.354257887775,base_query
+125,Out-of-bounds Read,7744.763215623773,base_query

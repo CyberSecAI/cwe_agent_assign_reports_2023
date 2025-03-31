@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.803500397753343
+334,Small Space of Random Values,Base,0.7772045050550098
+208,Observable Timing Discrepancy,Base,0.7730712552507096
+203,Observable Discrepancy,Base,0.7662999633242861
+331,Insufficient Entropy,Base,0.7657255153304319
+340,Generation of Predictable Numbers or Identifiers,Class,0.7630792246500635
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7590698879708366
+41,Improper Resolution of Path Equivalence,Base,0.7578993376474084
+204,Observable Response Discrepancy,Base,0.7578137506178597
+667,Improper Locking,Class,0.7564752691532786

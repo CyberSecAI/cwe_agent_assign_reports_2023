@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7714279624168432
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7701452460686952
+184,Incomplete List of Disallowed Inputs,Base,0.765921959662937
+41,Improper Resolution of Path Equivalence,Base,0.7653242494287196
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7586798881414957
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7581368790009638
+23,Relative Path Traversal,Base,0.7581335734506758
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7561578096567875
+668,Exposure of Resource to Wrong Sphere,Class,0.7552971044059512
+923,Improper Restriction of Communication Channel to Intended Endpoints,Class,0.7525740264325584

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,6470.185079806483,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,6449.325082320695,base_query
+330,Use of Insufficiently Random Values,6398.016736771212,base_query
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),6213.073664034766,base_query
+295,Improper Certificate Validation,6177.743809203628,base_query

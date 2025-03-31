@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.784789808558315
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7517077905996136
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7441447883962433
+184,Incomplete List of Disallowed Inputs,Base,0.7413612842459061
+653,Improper Isolation or Compartmentalization,Class,0.7405628635010492
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7387049823042324
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7379702211134935
+41,Improper Resolution of Path Equivalence,Base,0.737672180903225
+404,Improper Resource Shutdown or Release,Class,0.7363444041071775
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7359788407727154

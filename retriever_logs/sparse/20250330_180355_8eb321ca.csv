@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,6177.0652583732435,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,6035.247509981667,unknown
+863,Incorrect Authorization,5990.684787174099,unknown
+319,Cleartext Transmission of Sensitive Information,5934.770247438983,unknown
+116,Improper Encoding or Escaping of Output,5913.724911120796,unknown

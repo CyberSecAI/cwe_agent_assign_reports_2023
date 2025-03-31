@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+601,URL Redirection to Untrusted Site ('Open Redirect'),Base,0.8116036058540581
+41,Improper Resolution of Path Equivalence,Base,0.7617841122395995
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7543337841277227
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7509805598287904
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7505588480702672
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7503316766745979
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7494256875223613
+1022,Use of Web Link to Untrusted Target with window.opener Access,Variant,0.7458279851871727
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7417019621666368
+23,Relative Path Traversal,Base,0.7407329582426779

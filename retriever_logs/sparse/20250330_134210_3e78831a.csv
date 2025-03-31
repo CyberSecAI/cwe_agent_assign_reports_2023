@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6448.278074706398,unknown
+772,Missing Release of Resource after Effective Lifetime,6396.879389615728,unknown
+1284,Improper Validation of Specified Quantity in Input,6305.395686702775,unknown
+125,Out-of-bounds Read,6272.223528528741,unknown
+404,Improper Resource Shutdown or Release,6271.330691361112,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7573415898035023
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7567759072556559
+405,Asymmetric Resource Consumption (Amplification),Class,0.7525399999874323
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7465245080917067
+404,Improper Resource Shutdown or Release,Class,0.7458050873066084
+606,Unchecked Input for Loop Condition,Base,0.7377923521829579
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7351888806833619
+805,Buffer Access with Incorrect Length Value,Base,0.7342819639418974
+789,Memory Allocation with Excessive Size Value,Variant,0.7312103944501536
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7278155994530512

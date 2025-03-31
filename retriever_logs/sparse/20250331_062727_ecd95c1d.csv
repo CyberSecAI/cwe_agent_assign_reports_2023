@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,4740.455065704562,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),4652.7223779545375,base_query
+23,Relative Path Traversal,4514.749073270244,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),4436.169506165365,base_query
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),4369.144943706123,base_query

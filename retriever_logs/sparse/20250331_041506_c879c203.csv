@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,8754.136658929321,unknown
+337,Predictable Seed in Pseudo-Random Number Generator (PRNG),8394.331197703961,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8302.061762905534,unknown
+20,Improper Input Validation,8053.690442175403,unknown
+916,Use of Password Hash With Insufficient Computational Effort,8026.844436461044,unknown

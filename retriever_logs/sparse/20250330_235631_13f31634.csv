@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,5338.146183707593,unknown
+863,Incorrect Authorization,5281.329156970812,unknown
+1390,Weak Authentication,5243.539218324781,unknown
+319,Cleartext Transmission of Sensitive Information,5222.369873653761,unknown
+287,Improper Authentication,5180.150868076586,unknown

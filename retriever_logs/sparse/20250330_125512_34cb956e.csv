@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,6200.739631660085,unknown
+1249,Application-Level Admin Tool with Inconsistent View of Underlying Operating System,6050.3600568194315,unknown
+863,Incorrect Authorization,6020.345667781042,unknown
+639,Authorization Bypass Through User-Controlled Key,5827.242854686844,unknown
+400,Uncontrolled Resource Consumption,5823.4727808552,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+667,Improper Locking,6148.274185934605,unknown
+116,Improper Encoding or Escaping of Output,6145.595244987229,unknown
+611,Improper Restriction of XML External Entity Reference,5971.556696893203,unknown
+184,Incomplete List of Disallowed Inputs,5965.766205783738,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5961.271524742553,unknown

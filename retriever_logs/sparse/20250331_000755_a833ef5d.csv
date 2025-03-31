@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,8650.368832668668,base_query
+1284,Improper Validation of Specified Quantity in Input,8438.101337938482,base_query
+789,Memory Allocation with Excessive Size Value,8436.472666769274,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8421.558530647182,base_query
+190,Integer Overflow or Wraparound,8240.129755511087,base_query

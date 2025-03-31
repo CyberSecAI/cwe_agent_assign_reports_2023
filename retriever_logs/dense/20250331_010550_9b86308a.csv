@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7700498854565216
+1220,Insufficient Granularity of Access Control,Base,0.7619576334536806
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7591464075011478
+274,Improper Handling of Insufficient Privileges,Base,0.7571103883115187
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7563689368110807
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.756201023154979
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7534156927438264
+404,Improper Resource Shutdown or Release,Class,0.7527208902307723
+639,Authorization Bypass Through User-Controlled Key,Base,0.7525873129303453
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7493144733364377

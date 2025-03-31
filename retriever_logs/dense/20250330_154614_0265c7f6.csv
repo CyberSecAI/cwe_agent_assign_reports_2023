@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.765400491824036
+1391,Use of Weak Credentials,Class,0.7567392416980198
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.756527041854866
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7509472662561647
+345,Insufficient Verification of Data Authenticity,Class,0.7505212277228476
+798,Use of Hard-coded Credentials,Base,0.7478136594367227
+405,Asymmetric Resource Consumption (Amplification),Class,0.7453443390066694
+294,Authentication Bypass by Capture-replay,Base,0.744563759596913
+668,Exposure of Resource to Wrong Sphere,Class,0.7437267510761768
+1390,Weak Authentication,Class,0.7428365518571209

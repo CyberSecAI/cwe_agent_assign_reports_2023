@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6945.788742583714,base_query
+347,Improper Verification of Cryptographic Signature,6718.8217053211965,base_query
+611,Improper Restriction of XML External Entity Reference,6382.28022335897,base_query
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),6342.234152763197,base_query
+306,Missing Authentication for Critical Function,6313.157732447998,base_query

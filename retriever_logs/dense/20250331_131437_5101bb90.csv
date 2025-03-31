@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+131,Incorrect Calculation of Buffer Size,Base,0.7756472584217355
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7715738591720829
+667,Improper Locking,Class,0.7645291897338629
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7638689019408579
+191,Integer Underflow (Wrap or Wraparound),Base,0.7626183197670828
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.761426197255777
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7610603231730866
+668,Exposure of Resource to Wrong Sphere,Class,0.7603160777067177
+404,Improper Resource Shutdown or Release,Class,0.7601674061651365
+824,Access of Uninitialized Pointer,Base,0.7576034395080106

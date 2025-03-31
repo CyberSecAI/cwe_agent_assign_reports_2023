@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+191,Integer Underflow (Wrap or Wraparound),Base,0.7926847304564002
+823,Use of Out-of-range Pointer Offset,Base,0.7756450007393174
+131,Incorrect Calculation of Buffer Size,Base,0.7731615227926926
+193,Off-by-one Error,Base,0.7696245730284229
+476,NULL Pointer Dereference,Base,0.7664648312815308
+125,Out-of-bounds Read,Base,0.7619116250852171
+197,Numeric Truncation Error,Base,0.7564765796662041
+824,Access of Uninitialized Pointer,Base,0.7557361445797459
+404,Improper Resource Shutdown or Release,Class,0.7554866720016798
+667,Improper Locking,Class,0.7538482983452541

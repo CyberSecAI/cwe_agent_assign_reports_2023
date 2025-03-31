@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),4523.875594822451,unknown
+909,Missing Initialization of Resource,4440.797577457321,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4427.310950086746,unknown
+927,Use of Implicit Intent for Sensitive Communication,4404.992933571883,unknown
+665,Improper Initialization,4361.381191824799,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+667,Improper Locking,Class,0.7382619534761722
+131,Incorrect Calculation of Buffer Size,Base,0.7366756762683987
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7325210619835619
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7309033689827396
+668,Exposure of Resource to Wrong Sphere,Class,0.7259828492323037
+696,Incorrect Behavior Order,Class,0.7229639160800937
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7201115541319056
+208,Observable Timing Discrepancy,Base,0.7200992127279483
+73,External Control of File Name or Path,Base,0.7162768270212889
+1391,Use of Weak Credentials,Class,0.7158155907756121

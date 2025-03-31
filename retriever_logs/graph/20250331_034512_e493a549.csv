@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+471,Modification of Assumed-Immutable Data (MAID),base,3.7206,0
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,base,3.6399999999999997,0
+502,Deserialization of Untrusted Data,base,3.6399999999999997,0
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),base,3.1356,0
+94,Improper Control of Generation of Code ('Code Injection'),base,3.1356,0
+1282,Assumed-Immutable Data is Stored in Writable Memory,base,2.8651999999999997,0
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),variant,2.6784000000000003,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+183,Permissive List of Allowed Inputs,base,2.6104000000000003,0

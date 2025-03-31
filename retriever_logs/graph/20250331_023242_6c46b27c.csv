@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+488,Exposure of Data Element to Wrong Session,base,4.329000000000001,0
+567,Unsynchronized Access to Shared Data in a Multithreaded Context,base,4.329000000000001,0
+613,Insufficient Session Expiration,base,4.329000000000001,0
+472,External Control of Assumed-Immutable Web Parameter,base,4.212000000000001,0
+352,Cross-Site Request Forgery (CSRF),compound,3.002,0
+804,Guessable CAPTCHA,base,2.8651999999999997,0
+471,Modification of Assumed-Immutable Data (MAID),base,2.7196000000000002,0
+384,Session Fixation,compound,2.7,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+312,Cleartext Storage of Sensitive Information,base,2.6104000000000003,0

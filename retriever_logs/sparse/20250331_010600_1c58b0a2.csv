@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1236,Improper Neutralization of Formula Elements in a CSV File,4504.849947068454,unknown
+918,Server-Side Request Forgery (SSRF),4482.360283253894,unknown
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,4465.5572007842065,unknown
+502,Deserialization of Untrusted Data,4410.871607100256,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),4342.363441180531,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+214,Invocation of Process Using Visible Sensitive Information,6291.1302917238745,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6280.17372185298,base_query
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,6093.40066135731,base_query
+863,Incorrect Authorization,5875.1228321416565,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5839.763305570892,base_query

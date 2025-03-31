@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+757,Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade'),Base,0.7800973447441747
+345,Insufficient Verification of Data Authenticity,Class,0.7642745320666244
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7632577204923097
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7632442484224129
+203,Observable Discrepancy,Base,0.7628355699442027
+668,Exposure of Resource to Wrong Sphere,Class,0.7565317292351177
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7563968935624346
+755,Improper Handling of Exceptional Conditions,Class,0.7557974268799686
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.754223301830566
+274,Improper Handling of Insufficient Privileges,Base,0.7525133107835948

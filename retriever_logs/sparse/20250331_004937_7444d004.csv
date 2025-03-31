@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+212,Improper Removal of Sensitive Information Before Storage or Transfer,6824.995147315773,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),6477.012626347337,base_query
+1390,Weak Authentication,6245.675645832135,base_query
+201,Insertion of Sensitive Information Into Sent Data,6211.541619595815,base_query
+863,Incorrect Authorization,6112.638169493712,base_query

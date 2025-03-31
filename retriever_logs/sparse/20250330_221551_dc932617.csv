@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6308.713382830243,unknown
+941,Incorrectly Specified Destination in a Communication Channel,5674.029241456317,unknown
+667,Improper Locking,5629.372217513712,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5576.477950100447,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5474.71046926498,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+73,External Control of File Name or Path,Base,0.7755946596963958
+125,Out-of-bounds Read,Base,0.7608589764945131
+41,Improper Resolution of Path Equivalence,Base,0.7605491589131871
+552,Files or Directories Accessible to External Parties,Base,0.7568172732654765
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7567376725516304
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.752752114663918
+23,Relative Path Traversal,Base,0.7526067978124591
+378,Creation of Temporary File With Insecure Permissions,Base,0.7490607366434038
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7472714521487975
+184,Incomplete List of Disallowed Inputs,Base,0.7472710406130885

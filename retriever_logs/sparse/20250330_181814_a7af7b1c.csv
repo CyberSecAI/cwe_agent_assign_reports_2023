@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+345,Insufficient Verification of Data Authenticity,4853.723670952999,unknown
+295,Improper Certificate Validation,4838.673847160414,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,4793.2750772088975,unknown
+1391,Use of Weak Credentials,4725.732580898577,unknown
+347,Improper Verification of Cryptographic Signature,4709.277814252646,unknown

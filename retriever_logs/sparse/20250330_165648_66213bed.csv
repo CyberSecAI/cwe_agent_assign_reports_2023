@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1240,Use of a Cryptographic Primitive with a Risky Implementation,9555.810125733698,unknown
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),8326.337873858798,unknown
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),8279.791535864391,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,8172.215904932937,unknown
+1204,Generation of Weak Initialization Vector (IV),7924.919178857579,unknown

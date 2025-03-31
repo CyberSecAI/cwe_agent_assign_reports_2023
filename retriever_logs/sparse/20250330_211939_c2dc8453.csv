@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6288.66517964134,unknown
+1284,Improper Validation of Specified Quantity in Input,6229.376729560152,unknown
+125,Out-of-bounds Read,6183.721363006512,unknown
+190,Integer Overflow or Wraparound,6114.045886988714,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6056.3330922568475,unknown

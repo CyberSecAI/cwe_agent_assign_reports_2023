@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+385,Covert Timing Channel,base,4.329000000000001,0
+259,Use of Hard-coded Password,variant,4.0104,0
+321,Use of Hard-coded Cryptographic Key,variant,4.0104,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,3.6399999999999997,0
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),base,3.6399999999999997,0
+208,Observable Timing Discrepancy,Base,2.90621283219516,0
+41,Improper Resolution of Path Equivalence,Base,2.9047547491255346,0
+73,External Control of File Name or Path,base,2.8651999999999997,0
+205,Observable Behavioral Discrepancy,base,2.8651999999999997,0

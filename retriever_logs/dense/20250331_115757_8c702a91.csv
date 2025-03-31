@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+131,Incorrect Calculation of Buffer Size,Base,0.7584922118053952
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7557870800382549
+197,Numeric Truncation Error,Base,0.7544073608688479
+805,Buffer Access with Incorrect Length Value,Base,0.7505647264939848
+404,Improper Resource Shutdown or Release,Class,0.7483223438770381
+191,Integer Underflow (Wrap or Wraparound),Base,0.7482562740379787
+909,Missing Initialization of Resource,Class,0.746925009757273
+170,Improper Null Termination,Base,0.7409162416675928
+665,Improper Initialization,Class,0.737703176642335
+667,Improper Locking,Class,0.7376829585752156

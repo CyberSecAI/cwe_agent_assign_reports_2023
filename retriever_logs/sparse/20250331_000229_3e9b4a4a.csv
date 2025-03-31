@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,5319.985445457061,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,5244.187621357899,base_query
+754,Improper Check for Unusual or Exceptional Conditions,5180.3487988223815,base_query
+209,Generation of Error Message Containing Sensitive Information,5127.336582748534,base_query
+863,Incorrect Authorization,5047.80375221939,base_query

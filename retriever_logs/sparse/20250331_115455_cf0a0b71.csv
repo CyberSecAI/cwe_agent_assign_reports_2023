@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+823,Use of Out-of-range Pointer Offset,6111.068810480336,base_query
+822,Untrusted Pointer Dereference,5538.543106165541,base_query
+125,Out-of-bounds Read,5452.657487395656,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5451.651330967679,base_query
+124,Buffer Underwrite ('Buffer Underflow'),5422.088035340217,base_query

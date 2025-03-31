@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.79934571307387
+667,Improper Locking,Class,0.7854781123906388
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7712236977708248
+404,Improper Resource Shutdown or Release,Class,0.7710746572776901
+125,Out-of-bounds Read,Base,0.7638160953794642
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7619548460147778
+208,Observable Timing Discrepancy,Base,0.7588400279093162
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7583703331038731
+824,Access of Uninitialized Pointer,Base,0.7568564294920076
+823,Use of Out-of-range Pointer Offset,Base,0.7562147518457076

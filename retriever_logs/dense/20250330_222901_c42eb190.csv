@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7647324607433539
+184,Incomplete List of Disallowed Inputs,Base,0.7455496635482564
+138,Improper Neutralization of Special Elements,Class,0.7377409686006295
+407,Inefficient Algorithmic Complexity,Class,0.7316881983236014
+41,Improper Resolution of Path Equivalence,Base,0.7311945292596784
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7309902611536165
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7249112914937957
+799,Improper Control of Interaction Frequency,Class,0.7230591370609266
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7220327483589248
+668,Exposure of Resource to Wrong Sphere,Class,0.7203682467311519

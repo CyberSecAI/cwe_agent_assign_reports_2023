@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7831013391600455
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7829753991014977
+667,Improper Locking,Class,0.7810238649262384
+789,Memory Allocation with Excessive Size Value,Variant,0.7743932113426532
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),Base,0.7683093773137377
+606,Unchecked Input for Loop Condition,Base,0.767289296357923
+909,Missing Initialization of Resource,Class,0.7669825740473712
+131,Incorrect Calculation of Buffer Size,Base,0.7648897212918015
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7609668194488072
+191,Integer Underflow (Wrap or Wraparound),Base,0.7606002549847057

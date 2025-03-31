@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+178,Improper Handling of Case Sensitivity,base,3.6399999999999997,0
+1289,Improper Validation of Unsafe Equivalence in Input,base,3.6399999999999997,0
+259,Use of Hard-coded Password,variant,2.8104,0
+456,Missing Initialization of a Variable,variant,2.5507200000000005,0
+274,Improper Handling of Insufficient Privileges,Base,2.496436039265913,0
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,2.4919145981853195,0
+1283,Mutable Attestation or Measurement Reporting Data,base,2.4699999999999998,0
+798,Use of Hard-coded Credentials,base,2.4699999999999998,0
+1230,Exposure of Sensitive Information Through Metadata,base,2.4699999999999998,0
+347,Improper Verification of Cryptographic Signature,base,2.4699999999999998,0

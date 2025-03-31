@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,6818.914200504076,base_query
+125,Out-of-bounds Read,6397.463710880224,base_query
+193,Off-by-one Error,6358.726026341629,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6271.406515936871,base_query
+124,Buffer Underwrite ('Buffer Underflow'),6216.478993225762,base_query

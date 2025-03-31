@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+927,Use of Implicit Intent for Sensitive Communication,3965.1356988194,unknown
+909,Missing Initialization of Resource,3895.1194950359663,unknown
+191,Integer Underflow (Wrap or Wraparound),3823.5552437258384,unknown
+252,Unchecked Return Value,3812.7990025141876,unknown
+665,Improper Initialization,3795.420887512784,unknown

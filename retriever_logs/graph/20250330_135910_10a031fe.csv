@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+824,Access of Uninitialized Pointer,Base,2.8873930712328,0
+125,Out-of-bounds Read,Base,2.8694392377420153,0
+787,Out-of-bounds Write,base,2.7196000000000002,0
+131,Incorrect Calculation of Buffer Size,Base,2.56351907944643,0
+193,Off-by-one Error,Base,2.5521522737873257,0
+681,Incorrect Conversion between Numeric Types,Base,2.4748542444200914,0
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),base,2.3295999999999997,0
+126,Buffer Over-read,variant,2.2704,0
+128,Wrap-around Error,base,2.2698,0
+1339,Insufficient Precision or Accuracy of a Real Number,base,2.2698,0

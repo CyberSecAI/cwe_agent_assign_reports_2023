@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,7023.585352051567,unknown
+346,Origin Validation Error,6671.966454863811,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,6620.628307506953,unknown
+295,Improper Certificate Validation,6274.8437151974595,unknown
+1385,Missing Origin Validation in WebSockets,6153.078157955037,unknown

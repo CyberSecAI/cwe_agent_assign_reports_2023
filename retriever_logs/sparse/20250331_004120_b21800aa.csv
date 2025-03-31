@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,4262.811859725025,unknown
+125,Out-of-bounds Read,4141.814141881662,unknown
+617,Reachable Assertion,4106.944930201934,unknown
+639,Authorization Bypass Through User-Controlled Key,4075.2896797915682,unknown
+754,Improper Check for Unusual or Exceptional Conditions,4059.7718120023364,unknown

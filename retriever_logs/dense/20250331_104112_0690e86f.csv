@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.803621388081744
+404,Improper Resource Shutdown or Release,Class,0.7796095913785344
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.774167191773447
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7727475617992505
+668,Exposure of Resource to Wrong Sphere,Class,0.7717731809141672
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7679830406985111
+41,Improper Resolution of Path Equivalence,Base,0.7615774818963191
+73,External Control of File Name or Path,Base,0.761068662011782
+653,Improper Isolation or Compartmentalization,Class,0.7583056999026448
+669,Incorrect Resource Transfer Between Spheres,Class,0.7565211370538295

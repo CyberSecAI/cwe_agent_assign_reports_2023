@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),Variant,0.7521104834156291
+668,Exposure of Resource to Wrong Sphere,Class,0.7460969702618208
+41,Improper Resolution of Path Equivalence,Base,0.7423979601227391
+138,Improper Neutralization of Special Elements,Class,0.7372313624675246
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7318772845520484
+407,Inefficient Algorithmic Complexity,Class,0.7309424463609282
+625,Permissive Regular Expression,Base,0.7292989186031993
+184,Incomplete List of Disallowed Inputs,Base,0.72846678065034
+693,Protection Mechanism Failure,Pillar,0.7284215380268688
+345,Insufficient Verification of Data Authenticity,Class,0.7278911141780032

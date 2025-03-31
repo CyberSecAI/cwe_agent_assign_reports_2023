@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7905679572542026
+425,Direct Request ('Forced Browsing'),Base,0.7898655805996918
+184,Incomplete List of Disallowed Inputs,Base,0.7867045166465404
+319,Cleartext Transmission of Sensitive Information,Base,0.7853332328860928
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7792100799226926
+41,Improper Resolution of Path Equivalence,Base,0.777932278838217
+668,Exposure of Resource to Wrong Sphere,Class,0.7735397553755305
+552,Files or Directories Accessible to External Parties,Base,0.770271952982424
+923,Improper Restriction of Communication Channel to Intended Endpoints,Class,0.7692668962266014
+799,Improper Control of Interaction Frequency,Class,0.7677142894373514

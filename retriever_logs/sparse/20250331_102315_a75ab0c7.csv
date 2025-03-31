@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5999.209920556636,base_query
+1021,Improper Restriction of Rendered UI Layers or Frames,5006.257314605948,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,4976.840099957219,base_query
+346,Origin Validation Error,4973.5184326194085,base_query
+125,Out-of-bounds Read,4956.348922780222,base_query

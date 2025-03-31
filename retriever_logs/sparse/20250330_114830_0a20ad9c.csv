@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1389,Incorrect Parsing of Numbers with Different Radices,5898.417821740634,base_query
+295,Improper Certificate Validation,5489.706010505779,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5424.100191117352,base_query
+1299,Missing Protection Mechanism for Alternate Hardware Interface,5346.544816867269,base_query
+125,Out-of-bounds Read,5231.494074744441,base_query

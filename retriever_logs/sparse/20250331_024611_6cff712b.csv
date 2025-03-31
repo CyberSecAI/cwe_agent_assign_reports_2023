@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,6501.321348516094,base_query
+916,Use of Password Hash With Insufficient Computational Effort,6162.8185447194755,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6094.736322820539,base_query
+125,Out-of-bounds Read,6089.983334149261,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6073.702150738927,base_query

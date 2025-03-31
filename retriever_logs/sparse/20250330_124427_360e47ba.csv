@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,9490.015930102694,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,8732.371819862563,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),8596.842119313062,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8371.112065464406,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),8345.054845429913,base_query

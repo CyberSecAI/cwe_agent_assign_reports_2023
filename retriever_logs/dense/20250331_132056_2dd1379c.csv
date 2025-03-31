@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+457,Use of Uninitialized Variable,Variant,0.7819390437842494
+667,Improper Locking,Class,0.7634525811780576
+909,Missing Initialization of Resource,Class,0.7610398159618174
+789,Memory Allocation with Excessive Size Value,Variant,0.7605088776716515
+606,Unchecked Input for Loop Condition,Base,0.7595780243608807
+824,Access of Uninitialized Pointer,Base,0.7588777731942609
+131,Incorrect Calculation of Buffer Size,Base,0.7583701425700501
+908,Use of Uninitialized Resource,Base,0.757958559262744
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7562214392530912
+252,Unchecked Return Value,Base,0.7548151230250175

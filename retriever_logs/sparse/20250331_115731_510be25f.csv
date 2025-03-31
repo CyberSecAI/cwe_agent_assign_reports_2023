@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5031.816518687191,unknown
+415,Double Free,4992.204505657936,unknown
+125,Out-of-bounds Read,4889.5091971269985,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4824.505163304208,unknown
+190,Integer Overflow or Wraparound,4802.589030309171,unknown

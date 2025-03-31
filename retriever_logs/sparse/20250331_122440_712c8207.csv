@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,5857.676476282176,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,5847.758690769176,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5816.803111844058,base_query
+312,Cleartext Storage of Sensitive Information,5796.839821314968,base_query
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,5661.381502866019,base_query

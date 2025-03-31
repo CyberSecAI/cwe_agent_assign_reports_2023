@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1390,Weak Authentication,4689.899168923613,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),4474.061610489403,base_query
+287,Improper Authentication,4469.407182079207,base_query
+347,Improper Verification of Cryptographic Signature,4430.191441688305,base_query
+863,Incorrect Authorization,4327.519444430906,base_query

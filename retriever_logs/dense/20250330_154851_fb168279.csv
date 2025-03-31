@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+789,Memory Allocation with Excessive Size Value,Variant,0.755191996911338
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),Base,0.7528521211866913
+404,Improper Resource Shutdown or Release,Class,0.7491233794140073
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7483174378637225
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7451133315083772
+41,Improper Resolution of Path Equivalence,Base,0.7417029683422789
+606,Unchecked Input for Loop Condition,Base,0.7388637997955882
+668,Exposure of Resource to Wrong Sphere,Class,0.7378549508646972
+667,Improper Locking,Class,0.7366897881935373
+799,Improper Control of Interaction Frequency,Class,0.7366870406293092

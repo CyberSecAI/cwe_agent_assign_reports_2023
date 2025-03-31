@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,7487.9240699703905,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),6766.753530330487,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6701.5571360467375,unknown
+1386,Insecure Operation on Windows Junction / Mount Point,6377.326607605506,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6377.133331106409,unknown

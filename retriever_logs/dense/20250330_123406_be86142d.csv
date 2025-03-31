@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1391,Use of Weak Credentials,Class,0.7930908989038753
+657,Violation of Secure Design Principles,Class,0.7925491352407585
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7897034198879198
+312,Cleartext Storage of Sensitive Information,Base,0.7821170390810779
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7799665095000718
+798,Use of Hard-coded Credentials,Base,0.77970121615417
+345,Insufficient Verification of Data Authenticity,Class,0.7795679560666932
+319,Cleartext Transmission of Sensitive Information,Base,0.7727516354965238
+294,Authentication Bypass by Capture-replay,Base,0.7713411772799315
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7696710427035309

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7783491530998767
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7457591348775361
+668,Exposure of Resource to Wrong Sphere,Class,0.7420406839417164
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7363875832768989
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7363445550337508
+41,Improper Resolution of Path Equivalence,Base,0.7339587378201891
+356,Product UI does not Warn User of Unsafe Actions,Base,0.729476739735565
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7293133398992249
+204,Observable Response Discrepancy,Base,0.7269269587501062
+653,Improper Isolation or Compartmentalization,Class,0.7259726948357649

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+345,Insufficient Verification of Data Authenticity,Class,0.7570700473615416
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7453418958969051
+41,Improper Resolution of Path Equivalence,Base,0.7409593017756542
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7409378335250117
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7386603854968092
+657,Violation of Secure Design Principles,Class,0.73818098428916
+274,Improper Handling of Insufficient Privileges,Base,0.7375727911144059
+73,External Control of File Name or Path,Base,0.7375211197816495
+552,Files or Directories Accessible to External Parties,Base,0.7370186552204402
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7363497006794933

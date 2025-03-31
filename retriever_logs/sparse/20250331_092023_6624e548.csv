@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,5152.0017682902635,unknown
+1284,Improper Validation of Specified Quantity in Input,5146.973437391185,unknown
+476,NULL Pointer Dereference,5142.237775423545,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5133.886012617607,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5104.146900168709,unknown

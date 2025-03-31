@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+693,Protection Mechanism Failure,Pillar,0.7705147582576444
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7537008396071899
+184,Incomplete List of Disallowed Inputs,Base,0.7452049308700893
+668,Exposure of Resource to Wrong Sphere,Class,0.7418285102468671
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7417404534222226
+41,Improper Resolution of Path Equivalence,Base,0.7370897253420138
+657,Violation of Secure Design Principles,Class,0.7353460715506133
+424,Improper Protection of Alternate Path,Class,0.7346389907250547
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7336785606912597
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7333464979866309

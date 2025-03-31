@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5123.1450803589105,unknown
+927,Use of Implicit Intent for Sensitive Communication,4988.495866555316,unknown
+863,Incorrect Authorization,4969.577041978842,unknown
+125,Out-of-bounds Read,4951.41387423971,unknown
+252,Unchecked Return Value,4921.983279680671,unknown

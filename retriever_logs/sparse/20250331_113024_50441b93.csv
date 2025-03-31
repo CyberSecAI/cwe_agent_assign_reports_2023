@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,5725.29181741399,base_query
+204,Observable Response Discrepancy,5349.81037801338,base_query
+208,Observable Timing Discrepancy,5278.823052684277,base_query
+207,Observable Behavioral Discrepancy With Equivalent Products,4537.40511264124,base_query
+206,Observable Internal Behavioral Discrepancy,4530.936212578912,base_query

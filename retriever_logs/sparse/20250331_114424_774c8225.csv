@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6893.376202109156,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),6700.732653429281,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6672.885070956134,base_query
+863,Incorrect Authorization,6597.445473772317,base_query
+23,Relative Path Traversal,6502.290121184917,base_query

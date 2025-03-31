@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6373.359017194689,base_query
+125,Out-of-bounds Read,6319.083771896462,base_query
+863,Incorrect Authorization,6314.668942060329,base_query
+1284,Improper Validation of Specified Quantity in Input,6314.547715734462,base_query
+639,Authorization Bypass Through User-Controlled Key,6267.428039443483,base_query

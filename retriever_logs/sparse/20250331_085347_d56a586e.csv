@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6264.107374416448,unknown
+823,Use of Out-of-range Pointer Offset,6186.44891974372,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6063.093991702405,unknown
+415,Double Free,6006.047740883132,unknown
+364,Signal Handler Race Condition,5924.030932870942,unknown

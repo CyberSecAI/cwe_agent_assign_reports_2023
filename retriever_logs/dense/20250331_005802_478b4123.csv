@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+653,Improper Isolation or Compartmentalization,Class,0.8269535925840052
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7662595519430944
+404,Improper Resource Shutdown or Release,Class,0.7655718590972952
+274,Improper Handling of Insufficient Privileges,Base,0.7649519818416196
+667,Improper Locking,Class,0.7643284324223839
+657,Violation of Secure Design Principles,Class,0.76192316965802
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7615343682125681
+668,Exposure of Resource to Wrong Sphere,Class,0.7590755980162687
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7568751219583735
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7530185992235793

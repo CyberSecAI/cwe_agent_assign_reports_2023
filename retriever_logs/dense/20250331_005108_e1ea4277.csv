@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7792936810966995
+1391,Use of Weak Credentials,Class,0.7716128903971367
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7710295216989101
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7709154618585614
+668,Exposure of Resource to Wrong Sphere,Class,0.7703877582632008
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7703234247972041
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7684609485203422
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7678213530681499
+41,Improper Resolution of Path Equivalence,Base,0.7676712090564859
+639,Authorization Bypass Through User-Controlled Key,Base,0.7651430345726092

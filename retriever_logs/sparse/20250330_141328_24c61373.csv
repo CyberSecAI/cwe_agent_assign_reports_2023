@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,7230.33341697887,unknown
+943,Improper Neutralization of Special Elements in Data Query Logic,6978.261837614677,unknown
+138,Improper Neutralization of Special Elements,6908.309204434005,unknown
+184,Incomplete List of Disallowed Inputs,6832.51750715918,unknown
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),6811.598579665082,unknown

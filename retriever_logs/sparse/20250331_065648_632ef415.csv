@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+789,Memory Allocation with Excessive Size Value,6567.2683504787865,base_query
+770,Allocation of Resources Without Limits or Throttling,6485.526378204078,base_query
+754,Improper Check for Unusual or Exceptional Conditions,6427.929958851598,base_query
+1284,Improper Validation of Specified Quantity in Input,6275.38154688235,base_query
+441,Unintended Proxy or Intermediary ('Confused Deputy'),6264.7715882414195,base_query

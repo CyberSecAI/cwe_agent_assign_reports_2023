@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,5759.562037439179,unknown
+863,Incorrect Authorization,5712.231243633704,unknown
+285,Improper Authorization,5702.962758505737,unknown
+1390,Weak Authentication,5594.843162637629,unknown
+287,Improper Authentication,5561.287976551356,unknown

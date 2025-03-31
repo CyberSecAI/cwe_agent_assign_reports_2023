@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+942,Permissive Cross-domain Policy with Untrusted Domains,Variant,0.7975698498349517
+184,Incomplete List of Disallowed Inputs,Base,0.7884091677052817
+41,Improper Resolution of Path Equivalence,Base,0.7881835705841134
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7855197017020267
+668,Exposure of Resource to Wrong Sphere,Class,0.7819610208564449
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7805607030181315
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7790535035938541
+923,Improper Restriction of Communication Channel to Intended Endpoints,Class,0.776294822554791
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7754014429699131
+116,Improper Encoding or Escaping of Output,Class,0.7706648273259789

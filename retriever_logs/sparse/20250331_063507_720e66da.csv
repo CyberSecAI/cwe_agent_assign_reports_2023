@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+306,Missing Authentication for Critical Function,4849.210888123547,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),4742.106397444602,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,4726.632202518241,unknown
+287,Improper Authentication,4666.208271332888,unknown
+863,Incorrect Authorization,4657.812236015063,unknown

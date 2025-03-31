@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,9131.989475435668,base_query
+836,Use of Password Hash Instead of Password for Authentication,8429.384016518361,base_query
+294,Authentication Bypass by Capture-replay,8077.564196040096,base_query
+130,Improper Handling of Length Parameter Inconsistency,7849.315772265181,base_query
+337,Predictable Seed in Pseudo-Random Number Generator (PRNG),7432.602249934015,base_query

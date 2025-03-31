@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,5191.295380089463,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5068.46884957672,base_query
+252,Unchecked Return Value,4863.649810596389,base_query
+927,Use of Implicit Intent for Sensitive Communication,4841.823061316499,base_query
+863,Incorrect Authorization,4777.885416581609,base_query

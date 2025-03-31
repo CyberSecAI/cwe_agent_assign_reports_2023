@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,6134.40325690523,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,6038.764300416192,unknown
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),6036.2774180752795,unknown
+770,Allocation of Resources Without Limits or Throttling,5910.441336758583,unknown
+789,Memory Allocation with Excessive Size Value,5884.625644462271,unknown

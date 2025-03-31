@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6159.92515274854,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),6087.4312449266545,base_query
+1386,Insecure Operation on Windows Junction / Mount Point,5789.277501032493,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5502.697714524475,base_query
+61,UNIX Symbolic Link (Symlink) Following,5443.904400238227,base_query

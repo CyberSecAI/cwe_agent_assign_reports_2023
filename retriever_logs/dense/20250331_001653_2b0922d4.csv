@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+407,Inefficient Algorithmic Complexity,Class,0.7644899725437038
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7591962406056768
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7570123328181666
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7535373624399865
+204,Observable Response Discrepancy,Base,0.7508240928903854
+328,Use of Weak Hash,Base,0.749901833103609
+330,Use of Insufficiently Random Values,Class,0.7498708168160598
+668,Exposure of Resource to Wrong Sphere,Class,0.747614962186683
+41,Improper Resolution of Path Equivalence,Base,0.7465967416496966
+138,Improper Neutralization of Special Elements,Class,0.7429335793400691

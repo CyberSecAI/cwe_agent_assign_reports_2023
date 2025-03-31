@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+131,Incorrect Calculation of Buffer Size,Base,0.7696822981786866
+191,Integer Underflow (Wrap or Wraparound),Base,0.7644531207417028
+681,Incorrect Conversion between Numeric Types,Base,0.7612892562261178
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7596133883161973
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7529073677021152
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7495030762417962
+125,Out-of-bounds Read,Base,0.7485662446570565
+805,Buffer Access with Incorrect Length Value,Base,0.7477821855876117
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7471674363736562
+129,Improper Validation of Array Index,Variant,0.7453828498012434

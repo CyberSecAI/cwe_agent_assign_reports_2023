@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+749,Exposed Dangerous Method or Function,Base,0.802749556933912
+434,Unrestricted Upload of File with Dangerous Type,Base,0.7933002360364559
+23,Relative Path Traversal,Base,0.7891430169832854
+552,Files or Directories Accessible to External Parties,Base,0.7866683502461322
+41,Improper Resolution of Path Equivalence,Base,0.785296230662851
+73,External Control of File Name or Path,Base,0.7841875583202935
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7783130163536439
+184,Incomplete List of Disallowed Inputs,Base,0.7767769735659518
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7763409129335441
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.776151733317448

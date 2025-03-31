@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+125,Out-of-bounds Read,base,4.329000000000001,0
+190,Integer Overflow or Wraparound,base,4.329000000000001,0
+193,Off-by-one Error,base,4.329000000000001,0
+476,NULL Pointer Dereference,base,4.329000000000001,0
+1284,Improper Validation of Specified Quantity in Input,base,3.8870000000000005,0
+128,Wrap-around Error,base,2.9120000000000004,0
+1339,Insufficient Precision or Accuracy of a Real Number,base,2.9120000000000004,0
+131,Incorrect Calculation of Buffer Size,Base,2.8855217791271572,0
+824,Access of Uninitialized Pointer,Base,2.8784902457680572,0
+252,Unchecked Return Value,Base,2.8719906089468714,0

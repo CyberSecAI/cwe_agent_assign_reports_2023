@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7817140549908397
+552,Files or Directories Accessible to External Parties,Base,0.77381479521421
+184,Incomplete List of Disallowed Inputs,Base,0.7649492331675405
+41,Improper Resolution of Path Equivalence,Base,0.7646371647715908
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7645244638903894
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7624965048059358
+434,Unrestricted Upload of File with Dangerous Type,Base,0.759200806780741
+274,Improper Handling of Insufficient Privileges,Base,0.7565010519567551
+183,Permissive List of Allowed Inputs,Base,0.7560041774575916
+425,Direct Request ('Forced Browsing'),Base,0.7539314687676573

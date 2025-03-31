@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+312,Cleartext Storage of Sensitive Information,Base,0.7797753519288666
+319,Cleartext Transmission of Sensitive Information,Base,0.7517626825089622
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7500328824017968
+667,Improper Locking,Class,0.749431467162683
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7472702423390218
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7401197269675988
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.739417563543697
+316,Cleartext Storage of Sensitive Information in Memory,Variant,0.7389299814038999
+366,Race Condition within a Thread,Base,0.730514012541759
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7281019823217645

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1391,Use of Weak Credentials,Class,0.7772087406246246
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7699059456266764
+274,Improper Handling of Insufficient Privileges,Base,0.7662590719262561
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7650139977650026
+1390,Weak Authentication,Class,0.761811178448521
+639,Authorization Bypass Through User-Controlled Key,Base,0.7607345063323074
+798,Use of Hard-coded Credentials,Base,0.7569904041859371
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7568295447820235
+472,External Control of Assumed-Immutable Web Parameter,Base,0.756690612175838
+257,Storing Passwords in a Recoverable Format,Base,0.7545292439725491

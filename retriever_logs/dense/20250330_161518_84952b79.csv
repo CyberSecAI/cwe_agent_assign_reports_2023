@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+328,Use of Weak Hash,Base,0.7980603622535984
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7738452224574826
+1391,Use of Weak Credentials,Class,0.7581894351563463
+330,Use of Insufficiently Random Values,Class,0.7576794341753006
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7562393583427907
+407,Inefficient Algorithmic Complexity,Class,0.7555904866257391
+319,Cleartext Transmission of Sensitive Information,Base,0.7547376647054388
+41,Improper Resolution of Path Equivalence,Base,0.7523418706641551
+116,Improper Encoding or Escaping of Output,Class,0.7521894003004133
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7507865290309801

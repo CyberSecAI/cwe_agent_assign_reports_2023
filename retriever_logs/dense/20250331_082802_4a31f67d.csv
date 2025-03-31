@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.8050544462175895
+41,Improper Resolution of Path Equivalence,Base,0.7913742200855663
+668,Exposure of Resource to Wrong Sphere,Class,0.7824086446980064
+23,Relative Path Traversal,Base,0.772143708922922
+61,UNIX Symbolic Link (Symlink) Following,Compound,0.7685787356695233
+73,External Control of File Name or Path,Base,0.7682276438051274
+345,Insufficient Verification of Data Authenticity,Class,0.768029166052101
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.767905329016227
+923,Improper Restriction of Communication Channel to Intended Endpoints,Class,0.7662232682028814
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7653251141396923

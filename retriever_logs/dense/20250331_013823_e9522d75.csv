@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+311,Missing Encryption of Sensitive Data,Class,0.7764297082789957
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7751798026329472
+312,Cleartext Storage of Sensitive Information,Base,0.7629060733008941
+1204,Generation of Weak Initialization Vector (IV),Base,0.7514616458870718
+1391,Use of Weak Credentials,Class,0.7470203079005597
+325,Missing Cryptographic Step,Base,0.7459412888016284
+331,Insufficient Entropy,Base,0.7446322040453706
+656,Reliance on Security Through Obscurity,Class,0.7422951116955132
+319,Cleartext Transmission of Sensitive Information,Base,0.7324052248543731
+330,Use of Insufficiently Random Values,Class,0.7293485959942043

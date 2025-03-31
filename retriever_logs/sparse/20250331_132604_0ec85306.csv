@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,4731.242559299414,unknown
+863,Incorrect Authorization,4639.090124319863,unknown
+61,UNIX Symbolic Link (Symlink) Following,4619.017894917439,unknown
+807,Reliance on Untrusted Inputs in a Security Decision,4609.428651258834,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),4542.039910666057,unknown

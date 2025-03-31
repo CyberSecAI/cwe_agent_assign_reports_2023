@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),6700.201116571481,unknown
+1284,Improper Validation of Specified Quantity in Input,6697.7667151515325,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6645.423990598095,unknown
+789,Memory Allocation with Excessive Size Value,6570.016234433691,unknown
+116,Improper Encoding or Escaping of Output,6533.773907960053,unknown

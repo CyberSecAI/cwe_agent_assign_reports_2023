@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+274,Improper Handling of Insufficient Privileges,Base,0.7716875756598092
+798,Use of Hard-coded Credentials,Base,0.7712843918105896
+1391,Use of Weak Credentials,Class,0.7674079008701347
+312,Cleartext Storage of Sensitive Information,Base,0.7621764410681617
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7611966056312205
+266,Incorrect Privilege Assignment,Base,0.7582978147545013
+653,Improper Isolation or Compartmentalization,Class,0.7579222784009088
+257,Storing Passwords in a Recoverable Format,Base,0.7542657004927347
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7533659459342206
+267,Privilege Defined With Unsafe Actions,Base,0.7525523749838112

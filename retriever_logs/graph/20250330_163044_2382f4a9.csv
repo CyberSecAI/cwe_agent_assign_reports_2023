@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+385,Covert Timing Channel,base,4.329000000000001,0
+125,Out-of-bounds Read,base,3.8870000000000005,0
+295,Improper Certificate Validation,base,3.6399999999999997,0
+322,Key Exchange without Entity Authentication,base,3.6399999999999997,0
+787,Out-of-bounds Write,base,3.302,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.984,0
+170,Improper Null Termination,base,2.9120000000000004,0
+208,Observable Timing Discrepancy,Base,2.8991372648845743,0
+463,Deletion of Data Structure Sentinel,base,2.7742,0
+126,Buffer Over-read,variant,2.4864,0

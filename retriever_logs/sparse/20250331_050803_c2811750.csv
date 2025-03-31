@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1240,Use of a Cryptographic Primitive with a Risky Implementation,8130.633538190955,unknown
+1204,Generation of Weak Initialization Vector (IV),6908.54609663144,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,6863.880847458756,unknown
+203,Observable Discrepancy,6373.608610682577,unknown
+916,Use of Password Hash With Insufficient Computational Effort,6283.281090286807,unknown

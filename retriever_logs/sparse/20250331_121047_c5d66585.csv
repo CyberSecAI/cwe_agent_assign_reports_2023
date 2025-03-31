@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,7420.302400648829,base_query
+295,Improper Certificate Validation,6569.654888160535,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,6551.345347565404,base_query
+863,Incorrect Authorization,6377.357231197873,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6362.746421204356,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+287,Improper Authentication,5553.091693144319,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),5484.288414241555,base_query
+306,Missing Authentication for Critical Function,5462.40135138141,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5444.64746777331,base_query
+863,Incorrect Authorization,5388.788258812162,base_query

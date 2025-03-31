@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,6041.4103089737555,unknown
+789,Memory Allocation with Excessive Size Value,5985.43736773002,unknown
+772,Missing Release of Resource after Effective Lifetime,5788.098382475522,unknown
+404,Improper Resource Shutdown or Release,5596.7542373288,unknown
+400,Uncontrolled Resource Consumption,5580.3982512872635,unknown

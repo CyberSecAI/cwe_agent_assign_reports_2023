@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,6469.828373421688,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6412.5194493548215,base_query
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),6328.753428465537,base_query
+138,Improper Neutralization of Special Elements,6292.002621466411,base_query
+259,Use of Hard-coded Password,6268.025824857723,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+358,Improperly Implemented Security Check for Standard,Base,0.7964463455450264
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7926293596274239
+404,Improper Resource Shutdown or Release,Class,0.7846791304615097
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7839831661873339
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7837131772066603
+667,Improper Locking,Class,0.7806449469517234
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7784320272717601
+657,Violation of Secure Design Principles,Class,0.7776531240894604
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7747369552108092
+366,Race Condition within a Thread,Base,0.7725408101992928

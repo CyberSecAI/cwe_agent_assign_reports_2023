@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7582861381377186
+407,Inefficient Algorithmic Complexity,Class,0.743629181645804
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7431292457735077
+789,Memory Allocation with Excessive Size Value,Variant,0.7374351367483861
+799,Improper Control of Interaction Frequency,Class,0.7355300713499326
+131,Incorrect Calculation of Buffer Size,Base,0.7345152236974475
+404,Improper Resource Shutdown or Release,Class,0.7328912767233384
+405,Asymmetric Resource Consumption (Amplification),Class,0.7323452138784787
+129,Improper Validation of Array Index,Variant,0.7309114282791898
+41,Improper Resolution of Path Equivalence,Base,0.7294968999817621

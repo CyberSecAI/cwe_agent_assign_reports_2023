@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Base,0.7718932406652232
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7682717631939525
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7568718294831208
+138,Improper Neutralization of Special Elements,Class,0.7489209299274296
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7441842296857698
+668,Exposure of Resource to Wrong Sphere,Class,0.7429909126339416
+184,Incomplete List of Disallowed Inputs,Base,0.7417347968115665
+345,Insufficient Verification of Data Authenticity,Class,0.7369992710478539
+41,Improper Resolution of Path Equivalence,Base,0.7360092476200211
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.73496876031574

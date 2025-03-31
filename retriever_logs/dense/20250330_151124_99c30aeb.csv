@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7685002842938456
+668,Exposure of Resource to Wrong Sphere,Class,0.7659044415823636
+138,Improper Neutralization of Special Elements,Class,0.7583075947433577
+23,Relative Path Traversal,Base,0.7563516781404731
+41,Improper Resolution of Path Equivalence,Base,0.755119730140256
+502,Deserialization of Untrusted Data,Base,0.7529650265873317
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7525854429479268
+404,Improper Resource Shutdown or Release,Class,0.7518059412270575
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.74956102404849
+405,Asymmetric Resource Consumption (Amplification),Class,0.7478039284089033

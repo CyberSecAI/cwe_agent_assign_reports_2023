@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),7683.032337425582,base_query
+1286,Improper Validation of Syntactic Correctness of Input,7374.81980638433,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7308.215854807653,base_query
+116,Improper Encoding or Escaping of Output,7305.685988252295,base_query
+138,Improper Neutralization of Special Elements,7275.463077783676,base_query

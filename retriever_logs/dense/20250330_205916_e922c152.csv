@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7630176354583812
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7595010293977069
+276,Incorrect Default Permissions,Base,0.7534184300818252
+502,Deserialization of Untrusted Data,Base,0.7524592638463143
+345,Insufficient Verification of Data Authenticity,Class,0.7509092505028401
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7504566536361779
+404,Improper Resource Shutdown or Release,Class,0.7502343498472768
+274,Improper Handling of Insufficient Privileges,Base,0.7484843911985766
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7482552649236062
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7460207941856636

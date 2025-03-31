@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+407,Inefficient Algorithmic Complexity,Class,0.7815316527692953
+405,Asymmetric Resource Consumption (Amplification),Class,0.7745686813246785
+799,Improper Control of Interaction Frequency,Class,0.7614611577107167
+789,Memory Allocation with Excessive Size Value,Variant,0.7601161835722143
+404,Improper Resource Shutdown or Release,Class,0.7590144617127924
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7572231207515597
+1176,Inefficient CPU Computation,Class,0.7451457119261031
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7428450861242156
+617,Reachable Assertion,Base,0.7426502244090807
+668,Exposure of Resource to Wrong Sphere,Class,0.741348123658094

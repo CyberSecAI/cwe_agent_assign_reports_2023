@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),7768.452764061531,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7736.92156827488,unknown
+23,Relative Path Traversal,7289.180349649756,unknown
+73,External Control of File Name or Path,7252.344438098468,unknown
+1284,Improper Validation of Specified Quantity in Input,7169.3502394169645,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,7102.72571968624,unknown
+138,Improper Neutralization of Special Elements,6811.706253641128,unknown
+184,Incomplete List of Disallowed Inputs,6796.892088845323,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6727.56448622364,unknown
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),6504.407511550111,unknown

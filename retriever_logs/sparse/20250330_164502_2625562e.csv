@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,4051.1325777209595,unknown
+256,Plaintext Storage of a Password,4029.352802648461,unknown
+522,Insufficiently Protected Credentials,3986.7232988599476,unknown
+863,Incorrect Authorization,3968.9696035418483,unknown
+285,Improper Authorization,3870.2378525253343,unknown

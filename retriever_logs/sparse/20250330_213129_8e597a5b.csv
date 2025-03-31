@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1249,Application-Level Admin Tool with Inconsistent View of Underlying Operating System,4584.225626337671,base_query
+1390,Weak Authentication,4459.303331542839,base_query
+863,Incorrect Authorization,4426.265784334078,base_query
+287,Improper Authentication,4348.775071844082,base_query
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),4289.41939963017,base_query

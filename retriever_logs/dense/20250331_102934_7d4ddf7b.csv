@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+312,Cleartext Storage of Sensitive Information,Base,0.8436356189029645
+256,Plaintext Storage of a Password,Base,0.7945363749001658
+319,Cleartext Transmission of Sensitive Information,Base,0.7936885749514166
+311,Missing Encryption of Sensitive Data,Class,0.7900790785643581
+522,Insufficiently Protected Credentials,Class,0.7842294334070301
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7786627462089355
+316,Cleartext Storage of Sensitive Information in Memory,Variant,0.7663478712071715
+922,Insecure Storage of Sensitive Information,Class,0.7654396665355526
+313,Cleartext Storage in a File or on Disk,Variant,0.7634801326195013
+257,Storing Passwords in a Recoverable Format,Base,0.762706891093208

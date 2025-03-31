@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7627332023599214
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7620300151879018
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7603180411857839
+667,Improper Locking,Class,0.7573969624826724
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7513614970764433
+668,Exposure of Resource to Wrong Sphere,Class,0.7491936472989674
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7471836426583764
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7457796431228424
+203,Observable Discrepancy,Base,0.7419435895981954
+345,Insufficient Verification of Data Authenticity,Class,0.7400849606601235

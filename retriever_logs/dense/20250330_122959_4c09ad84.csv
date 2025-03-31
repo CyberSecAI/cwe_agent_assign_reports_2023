@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+131,Incorrect Calculation of Buffer Size,Base,0.749407725370332
+191,Integer Underflow (Wrap or Wraparound),Base,0.747904583876211
+674,Uncontrolled Recursion,Class,0.7470425741840081
+129,Improper Validation of Array Index,Variant,0.7465275939499065
+126,Buffer Over-read,Variant,0.7417728708335531
+193,Off-by-one Error,Base,0.7394891385533664
+125,Out-of-bounds Read,Base,0.7386499434838262
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7377190349834181
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7361168609039401
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7349762140046575

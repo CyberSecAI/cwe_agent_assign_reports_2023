@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,6202.295478782585,unknown
+197,Numeric Truncation Error,5980.7797662281855,unknown
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),5710.155498206354,unknown
+125,Out-of-bounds Read,5702.838681537314,unknown
+1339,Insufficient Precision or Accuracy of a Real Number,5684.997117694411,unknown

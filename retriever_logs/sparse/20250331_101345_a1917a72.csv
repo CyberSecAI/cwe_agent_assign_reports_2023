@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,5364.647857749779,unknown
+1284,Improper Validation of Specified Quantity in Input,5130.213675028083,unknown
+252,Unchecked Return Value,5128.586237939146,unknown
+667,Improper Locking,5112.404669672548,unknown
+770,Allocation of Resources Without Limits or Throttling,5068.736663033844,unknown

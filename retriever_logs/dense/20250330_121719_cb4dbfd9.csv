@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+691,Insufficient Control Flow Management,Pillar,0.7490367409667062
+667,Improper Locking,Class,0.7471722993538069
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7428050864461896
+184,Incomplete List of Disallowed Inputs,Base,0.7423123835502796
+73,External Control of File Name or Path,Base,0.7394170877566927
+653,Improper Isolation or Compartmentalization,Class,0.7388672423824003
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7380626593521192
+427,Uncontrolled Search Path Element,Base,0.7344205072459028
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Base,0.7343843799710236
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7340700077968112

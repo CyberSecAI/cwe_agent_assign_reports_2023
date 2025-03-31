@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6415.324018501555,unknown
+312,Cleartext Storage of Sensitive Information,6156.451550245403,unknown
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5930.67361218277,unknown
+319,Cleartext Transmission of Sensitive Information,5909.215948127109,unknown
+201,Insertion of Sensitive Information Into Sent Data,5880.01770883547,unknown

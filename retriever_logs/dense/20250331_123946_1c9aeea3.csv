@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+606,Unchecked Input for Loop Condition,Base,0.7736209001641285
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7586716997114741
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7447752297989048
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),Base,0.7436599428098075
+824,Access of Uninitialized Pointer,Base,0.7433985390046902
+691,Insufficient Control Flow Management,Pillar,0.7411909753911998
+617,Reachable Assertion,Base,0.7409880473590931
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.737513284667936
+667,Improper Locking,Class,0.7366143467022028
+404,Improper Resource Shutdown or Release,Class,0.7364285473594323

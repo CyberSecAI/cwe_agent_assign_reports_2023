@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,4855.211191352595,base_query
+312,Cleartext Storage of Sensitive Information,4840.709784011686,base_query
+1004,Sensitive Cookie Without 'HttpOnly' Flag,4784.287570773564,base_query
+1390,Weak Authentication,4649.796449980692,base_query
+319,Cleartext Transmission of Sensitive Information,4547.577557346254,base_query

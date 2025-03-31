@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7900408751504795
+404,Improper Resource Shutdown or Release,Class,0.7805381808938916
+667,Improper Locking,Class,0.778528537015384
+208,Observable Timing Discrepancy,Base,0.7745307080312915
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7728912842496823
+668,Exposure of Resource to Wrong Sphere,Class,0.7708791690082347
+41,Improper Resolution of Path Equivalence,Base,0.7660471142006796
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7657349150169759
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7643473759434931
+755,Improper Handling of Exceptional Conditions,Class,0.7632025521189606

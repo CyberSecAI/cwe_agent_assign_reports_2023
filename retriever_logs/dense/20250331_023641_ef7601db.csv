@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7488003302568003
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7430304992007336
+405,Asymmetric Resource Consumption (Amplification),Class,0.7424447744456828
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7402683150015296
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7349754911791067
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7311992084719794
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Base,0.7297524455200914
+789,Memory Allocation with Excessive Size Value,Variant,0.7279056072815322
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7253405793939529
+799,Improper Control of Interaction Frequency,Class,0.7247392687738146

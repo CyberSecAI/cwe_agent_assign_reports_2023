@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+363,Race Condition Enabling Link Following,base,4.329000000000001,0
+619,Dangling Database Cursor ('Cursor Injection'),base,4.329000000000001,0
+252,Unchecked Return Value,base,3.8038000000000003,0
+386,Symbolic Name not Mapping to Correct Object,base,3.4502,0
+61,UNIX Symbolic Link (Symlink) Following,compound,3.002,0
+59,Improper Link Resolution Before File Access ('Link Following'),Base,2.9130891476815557,0
+410,Insufficient Resource Pool,base,2.8651999999999997,0
+911,Improper Update of Reference Count,base,2.8651999999999997,0
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,base,2.7742,0
+681,Incorrect Conversion between Numeric Types,base,2.73416,0

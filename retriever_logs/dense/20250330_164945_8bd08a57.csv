@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+693,Protection Mechanism Failure,Pillar,0.7727665983184716
+274,Improper Handling of Insufficient Privileges,Base,0.7496723269084261
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7485396575081917
+1390,Weak Authentication,Class,0.7463614981844648
+668,Exposure of Resource to Wrong Sphere,Class,0.7432516000229152
+1391,Use of Weak Credentials,Class,0.74305326595017
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7405119114244492
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7403399801620449
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7397830464116479
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7396331097580713

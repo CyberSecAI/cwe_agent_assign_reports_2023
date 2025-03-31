@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,5584.120665825718,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5455.282126312001,base_query
+822,Untrusted Pointer Dereference,5403.083970767548,base_query
+125,Out-of-bounds Read,5385.743161250924,base_query
+1422,Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution,5354.830936034019,base_query

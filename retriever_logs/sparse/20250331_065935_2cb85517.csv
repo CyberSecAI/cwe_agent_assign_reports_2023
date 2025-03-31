@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),6687.979717829057,unknown
+1284,Improper Validation of Specified Quantity in Input,6364.928814237345,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6340.26273087832,unknown
+1333,Inefficient Regular Expression Complexity,6306.345575465307,unknown
+918,Server-Side Request Forgery (SSRF),6231.746948131109,unknown

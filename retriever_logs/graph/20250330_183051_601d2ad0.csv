@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+1284,Improper Validation of Specified Quantity in Input,base,4.329000000000001,0
+789,Memory Allocation with Excessive Size Value,variant,3.7507200000000003,0
+617,Reachable Assertion,base,3.4866,0
+190,Integer Overflow or Wraparound,base,3.4200400000000006,0
+73,External Control of File Name or Path,base,3.3566,0
+416,Use After Free,variant,3.24,0
+410,Insufficient Resource Pool,Base,2.904368008729946,0
+41,Improper Resolution of Path Equivalence,Base,2.8958673146610234,0
+911,Improper Update of Reference Count,base,2.8651999999999997,0
+770,Allocation of Resources Without Limits or Throttling,base,2.8651999999999997,0

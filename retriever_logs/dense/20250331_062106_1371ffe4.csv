@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7749043029265644
+405,Asymmetric Resource Consumption (Amplification),Class,0.7702886146851056
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7694538232456549
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7670148798910128
+274,Improper Handling of Insufficient Privileges,Base,0.7640206781081812
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7623319905564294
+799,Improper Control of Interaction Frequency,Class,0.7559792618721084
+653,Improper Isolation or Compartmentalization,Class,0.7539127581608364
+668,Exposure of Resource to Wrong Sphere,Class,0.7531738741339613
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7515419248473446

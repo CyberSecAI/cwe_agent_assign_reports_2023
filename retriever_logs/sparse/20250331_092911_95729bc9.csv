@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+918,Server-Side Request Forgery (SSRF),4580.802661700239,unknown
+502,Deserialization of Untrusted Data,4527.904285368437,unknown
+425,Direct Request ('Forced Browsing'),4516.652946233993,unknown
+204,Observable Response Discrepancy,4428.449573256857,unknown
+602,Client-Side Enforcement of Server-Side Security,4425.679231834222,unknown

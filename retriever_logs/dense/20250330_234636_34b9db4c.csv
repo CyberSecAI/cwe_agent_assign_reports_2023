@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7660458276919092
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7601932747422618
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7508514347946049
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7478080316123954
+345,Insufficient Verification of Data Authenticity,Class,0.7472735131813599
+798,Use of Hard-coded Credentials,Base,0.7454647236632858
+693,Protection Mechanism Failure,Pillar,0.7453780708120317
+41,Improper Resolution of Path Equivalence,Base,0.7447339175020288
+1391,Use of Weak Credentials,Class,0.7445568815408581
+653,Improper Isolation or Compartmentalization,Class,0.7444222428465175

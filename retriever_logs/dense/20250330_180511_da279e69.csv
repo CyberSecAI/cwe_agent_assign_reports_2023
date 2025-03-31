@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.8082034064459328
+1391,Use of Weak Credentials,Class,0.8057329856099178
+331,Insufficient Entropy,Base,0.7962619650784133
+312,Cleartext Storage of Sensitive Information,Base,0.7897754560621906
+330,Use of Insufficiently Random Values,Class,0.7862001914730118
+311,Missing Encryption of Sensitive Data,Class,0.7849755387711445
+798,Use of Hard-coded Credentials,Base,0.7841539107178314
+328,Use of Weak Hash,Base,0.7826993557877677
+916,Use of Password Hash With Insufficient Computational Effort,Base,0.7818683511530389
+319,Cleartext Transmission of Sensitive Information,Base,0.7783111039016348

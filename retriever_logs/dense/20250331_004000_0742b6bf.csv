@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7761858608917385
+345,Insufficient Verification of Data Authenticity,Class,0.7749527588074299
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7701274757597587
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7690582526562311
+203,Observable Discrepancy,Base,0.7669852147412111
+668,Exposure of Resource to Wrong Sphere,Class,0.7664600852029452
+41,Improper Resolution of Path Equivalence,Base,0.7638379200404758
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7617728720818462
+358,Improperly Implemented Security Check for Standard,Base,0.7607675178467942
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.760662165762835

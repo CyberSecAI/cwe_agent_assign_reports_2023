@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+312,Cleartext Storage of Sensitive Information,4040.1668928042545,base_query
+191,Integer Underflow (Wrap or Wraparound),3969.975673017001,base_query
+203,Observable Discrepancy,3947.9557981901708,base_query
+252,Unchecked Return Value,3887.2077371127552,base_query
+863,Incorrect Authorization,3883.4315272391805,base_query

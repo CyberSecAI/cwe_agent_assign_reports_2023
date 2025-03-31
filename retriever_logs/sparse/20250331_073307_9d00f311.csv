@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),7128.899640607236,unknown
+1284,Improper Validation of Specified Quantity in Input,7088.490289403215,unknown
+190,Integer Overflow or Wraparound,7013.449095997167,unknown
+789,Memory Allocation with Excessive Size Value,6923.853980018544,unknown
+125,Out-of-bounds Read,6902.351821651257,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+330,Use of Insufficiently Random Values,6611.838092823895,unknown
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),6446.77590686511,unknown
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),6055.7785620095365,unknown
+340,Generation of Predictable Numbers or Identifiers,5810.644937048548,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,5644.898355024837,unknown

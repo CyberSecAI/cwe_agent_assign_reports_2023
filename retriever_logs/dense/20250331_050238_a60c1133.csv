@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7803288535104423
+657,Violation of Secure Design Principles,Class,0.7696778070460291
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7683581069574659
+653,Improper Isolation or Compartmentalization,Class,0.7675445088098914
+1391,Use of Weak Credentials,Class,0.7636236165543533
+274,Improper Handling of Insufficient Privileges,Base,0.7615719929536945
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7603823979133859
+1390,Weak Authentication,Class,0.7565378904493011
+294,Authentication Bypass by Capture-replay,Base,0.7563811570792843
+602,Client-Side Enforcement of Server-Side Security,Class,0.7554166893957714

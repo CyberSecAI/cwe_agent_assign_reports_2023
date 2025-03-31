@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1420,Exposure of Sensitive Information during Transient Execution,Base,0.8253808745904103
+205,Observable Behavioral Discrepancy,Base,0.7660168358147486
+1421,Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution,Base,0.7657673009456007
+1422,Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution,Base,0.7613640022817567
+208,Observable Timing Discrepancy,Base,0.7607512218613738
+1342,Information Exposure through Microarchitectural State after Transient Execution,Base,0.759846706260493
+203,Observable Discrepancy,Base,0.733939468417331
+207,Observable Behavioral Discrepancy With Equivalent Products,Variant,0.733795548280725
+204,Observable Response Discrepancy,Base,0.7303400533284206
+206,Observable Internal Behavioral Discrepancy,Variant,0.725095953738489

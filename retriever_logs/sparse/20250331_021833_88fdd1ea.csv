@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+312,Cleartext Storage of Sensitive Information,4882.907950251135,base_query
+472,External Control of Assumed-Immutable Web Parameter,4867.1928356703775,base_query
+1391,Use of Weak Credentials,4770.103101284475,base_query
+732,Incorrect Permission Assignment for Critical Resource,4761.941008655905,base_query
+863,Incorrect Authorization,4735.309116238864,base_query

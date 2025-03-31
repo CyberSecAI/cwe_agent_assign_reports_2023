@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,5678.06078785365,base_query
+617,Reachable Assertion,5298.901758416694,base_query
+625,Permissive Regular Expression,5215.50189249254,base_query
+943,Improper Neutralization of Special Elements in Data Query Logic,4969.703868726949,base_query
+626,Null Byte Interaction Error (Poison Null Byte),4960.912286752542,base_query

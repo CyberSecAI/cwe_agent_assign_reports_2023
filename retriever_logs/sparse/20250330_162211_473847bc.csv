@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,5981.992343277054,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5913.139917670864,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,5874.404540107844,unknown
+918,Server-Side Request Forgery (SSRF),5726.915897197409,unknown
+295,Improper Certificate Validation,5657.0322405439665,unknown

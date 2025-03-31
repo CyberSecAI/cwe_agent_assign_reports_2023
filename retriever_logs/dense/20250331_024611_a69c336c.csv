@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7877873448937955
+1391,Use of Weak Credentials,Class,0.7805495928620227
+294,Authentication Bypass by Capture-replay,Base,0.7756202468975427
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7746384005378524
+328,Use of Weak Hash,Base,0.7707520911971542
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7682044701679417
+41,Improper Resolution of Path Equivalence,Base,0.7664589420505381
+345,Insufficient Verification of Data Authenticity,Class,0.765310643960952
+1390,Weak Authentication,Class,0.7641681537581498
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.7632701308681091

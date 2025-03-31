@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7803539408784728
+552,Files or Directories Accessible to External Parties,Base,0.7650354346419247
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7618670271723382
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7617510610963554
+319,Cleartext Transmission of Sensitive Information,Base,0.7604325804956704
+1391,Use of Weak Credentials,Class,0.7597567660238458
+312,Cleartext Storage of Sensitive Information,Base,0.757812530296474
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7552945492063934
+798,Use of Hard-coded Credentials,Base,0.7540586543599349
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7526351057240794

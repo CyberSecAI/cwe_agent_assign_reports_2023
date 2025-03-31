@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7705050996411602
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7656511972816793
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.762218573449251
+41,Improper Resolution of Path Equivalence,Base,0.7600438177645165
+799,Improper Control of Interaction Frequency,Class,0.7596340040959835
+184,Incomplete List of Disallowed Inputs,Base,0.7566948416047254
+404,Improper Resource Shutdown or Release,Class,0.7559441527450329
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.755384370617217
+639,Authorization Bypass Through User-Controlled Key,Base,0.7549953418990016
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7545241660059049

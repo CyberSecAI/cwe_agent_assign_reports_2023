@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+183,Permissive List of Allowed Inputs,base,4.505800000000001,0
+187,Partial String Comparison,variant,4.39872,0
+182,Collapse of Data into Unsafe Value,base,4.329000000000001,0
+471,Modification of Assumed-Immutable Data (MAID),base,4.329000000000001,0
+186,Overly Restrictive Regular Expression,base,3.6399999999999997,0
+35,Path Traversal: '.../...//',variant,3.24,0
+34,Path Traversal: '....//',variant,3.24,0
+33,Path Traversal: '....' (Multiple Dot),variant,3.24,0
+184,Incomplete List of Disallowed Inputs,Base,2.9255844980656276,0
+41,Improper Resolution of Path Equivalence,Base,2.8807008533945906,0

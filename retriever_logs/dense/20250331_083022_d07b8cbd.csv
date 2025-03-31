@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+405,Asymmetric Resource Consumption (Amplification),Class,0.7494867467778449
+789,Memory Allocation with Excessive Size Value,Variant,0.7449509499940514
+404,Improper Resource Shutdown or Release,Class,0.7438041628462121
+407,Inefficient Algorithmic Complexity,Class,0.7391859752557937
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7377974113145247
+674,Uncontrolled Recursion,Class,0.7333072278110718
+799,Improper Control of Interaction Frequency,Class,0.7305768198144049
+668,Exposure of Resource to Wrong Sphere,Class,0.7297661187530287
+776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),Base,0.7274480817835929
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.727423060995428

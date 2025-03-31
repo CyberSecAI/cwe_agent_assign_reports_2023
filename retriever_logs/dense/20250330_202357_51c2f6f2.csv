@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7938661761984647
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7887407001825271
+203,Observable Discrepancy,Base,0.7765556093011656
+667,Improper Locking,Class,0.7731023071972722
+330,Use of Insufficiently Random Values,Class,0.7720170455885518
+319,Cleartext Transmission of Sensitive Information,Base,0.7715409218111378
+345,Insufficient Verification of Data Authenticity,Class,0.7710273309683675
+125,Out-of-bounds Read,Base,0.7678717492316347
+191,Integer Underflow (Wrap or Wraparound),Base,0.7659060783243192
+328,Use of Weak Hash,Base,0.7642295424727014

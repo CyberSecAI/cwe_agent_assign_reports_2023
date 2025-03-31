@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+23,Relative Path Traversal,Base,0.77818699753133
+41,Improper Resolution of Path Equivalence,Base,0.7759162765476939
+668,Exposure of Resource to Wrong Sphere,Class,0.7717708982931561
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7716734303239422
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7715559268919199
+345,Insufficient Verification of Data Authenticity,Class,0.7709505980338555
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7642889013849209
+552,Files or Directories Accessible to External Parties,Base,0.7640817722344566
+602,Client-Side Enforcement of Server-Side Security,Class,0.761867233278339
+204,Observable Response Discrepancy,Base,0.7592385876530873

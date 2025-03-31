@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,4919.618739567784,base_query
+754,Improper Check for Unusual or Exceptional Conditions,4756.855835356753,base_query
+208,Observable Timing Discrepancy,4693.749326731712,base_query
+789,Memory Allocation with Excessive Size Value,4611.988032559428,base_query
+125,Out-of-bounds Read,4608.531057708109,base_query

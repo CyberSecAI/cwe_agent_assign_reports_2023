@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+41,Improper Resolution of Path Equivalence,Base,0.7667195055509508
+73,External Control of File Name or Path,Base,0.7656156798388678
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7652422663167863
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7651763055945119
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.760209136341163
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7597659705142895
+131,Incorrect Calculation of Buffer Size,Base,0.7596060672324552
+125,Out-of-bounds Read,Base,0.759530853109947
+653,Improper Isolation or Compartmentalization,Class,0.7587200631178213
+799,Improper Control of Interaction Frequency,Class,0.7577954133874814

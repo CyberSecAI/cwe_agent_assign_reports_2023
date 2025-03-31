@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),Base,0.8044130469415871
+330,Use of Insufficiently Random Values,Class,0.7858006753475226
+337,Predictable Seed in Pseudo-Random Number Generator (PRNG),Variant,0.7690962602216145
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),Base,0.7643550444334061
+340,Generation of Predictable Numbers or Identifiers,Class,0.7516477820000091
+331,Insufficient Entropy,Base,0.7449168404817703
+667,Improper Locking,Class,0.7332082954917568
+41,Improper Resolution of Path Equivalence,Base,0.7287608427639796
+334,Small Space of Random Values,Base,0.7280765798455544
+665,Improper Initialization,Class,0.7256186354805394

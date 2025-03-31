@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,4822.2931978422575,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,4380.041740763255,base_query
+295,Improper Certificate Validation,4319.675804401667,base_query
+346,Origin Validation Error,4278.000714288312,base_query
+863,Incorrect Authorization,4256.528678508902,base_query

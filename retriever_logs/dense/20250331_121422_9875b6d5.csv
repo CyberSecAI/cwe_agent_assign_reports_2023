@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7970347934430174
+668,Exposure of Resource to Wrong Sphere,Class,0.7725630000079855
+319,Cleartext Transmission of Sensitive Information,Base,0.772122893120309
+799,Improper Control of Interaction Frequency,Class,0.7679729110976835
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7655695357934187
+345,Insufficient Verification of Data Authenticity,Class,0.7591148607073451
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7587968335464075
+294,Authentication Bypass by Capture-replay,Base,0.7581556657262907
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7580823228037747
+1391,Use of Weak Credentials,Class,0.7580296917136146

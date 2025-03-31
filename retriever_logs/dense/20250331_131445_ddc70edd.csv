@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7920704383104972
+667,Improper Locking,Class,0.790917478953622
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7870167406255912
+366,Race Condition within a Thread,Base,0.785987435373285
+356,Product UI does not Warn User of Unsafe Actions,Base,0.780514109676292
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7786097081102374
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7774394082729617
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7740666973691046
+824,Access of Uninitialized Pointer,Base,0.7732682682141128
+668,Exposure of Resource to Wrong Sphere,Class,0.7718861602808316

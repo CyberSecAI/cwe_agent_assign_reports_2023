@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7805504999368814
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7658150745218126
+41,Improper Resolution of Path Equivalence,Base,0.7652579090323358
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7648909149695726
+267,Privilege Defined With Unsafe Actions,Base,0.7631215121065897
+653,Improper Isolation or Compartmentalization,Class,0.7615200027351255
+274,Improper Handling of Insufficient Privileges,Base,0.7613418765429436
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7588877046766987
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7531819424498828
+23,Relative Path Traversal,Base,0.7510790579153421

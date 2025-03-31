@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,8965.705007406817,base_query
+125,Out-of-bounds Read,8548.259058580812,base_query
+1284,Improper Validation of Specified Quantity in Input,8511.127582053608,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8404.726076903169,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),8333.56676935264,base_query

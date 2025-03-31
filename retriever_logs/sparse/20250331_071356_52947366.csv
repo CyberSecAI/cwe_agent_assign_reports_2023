@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+923,Improper Restriction of Communication Channel to Intended Endpoints,4969.96010046562,unknown
+1256,Improper Restriction of Software Interfaces to Hardware Features,4968.85438323437,unknown
+668,Exposure of Resource to Wrong Sphere,4937.464525843318,unknown
+863,Incorrect Authorization,4934.353894441264,unknown
+639,Authorization Bypass Through User-Controlled Key,4893.137866646899,unknown

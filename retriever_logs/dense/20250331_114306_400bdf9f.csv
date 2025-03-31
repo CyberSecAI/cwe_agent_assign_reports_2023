@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7726327477557517
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7673451126210025
+639,Authorization Bypass Through User-Controlled Key,Base,0.7623699248472635
+274,Improper Handling of Insufficient Privileges,Base,0.7573427707785
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7561065751771576
+668,Exposure of Resource to Wrong Sphere,Class,0.7558766197170378
+1390,Weak Authentication,Class,0.7550270172809945
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7549033694295832
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7530917093418048
+472,External Control of Assumed-Immutable Web Parameter,Base,0.748787680052993

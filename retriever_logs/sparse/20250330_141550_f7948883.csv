@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,8665.451185855109,base_query
+943,Improper Neutralization of Special Elements in Data Query Logic,8506.644532277773,base_query
+138,Improper Neutralization of Special Elements,8177.016034485651,base_query
+1427,Improper Neutralization of Input Used for LLM Prompting,8049.054509872901,base_query
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),8009.4304503883695,base_query

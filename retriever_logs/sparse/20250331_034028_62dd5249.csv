@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,7097.938891453703,unknown
+943,Improper Neutralization of Special Elements in Data Query Logic,7017.933351828489,unknown
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),6837.829744633945,unknown
+1284,Improper Validation of Specified Quantity in Input,6812.209355130966,unknown
+190,Integer Overflow or Wraparound,6771.308172728901,unknown

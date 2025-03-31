@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,5422.561517275157,base_query
+927,Use of Implicit Intent for Sensitive Communication,5200.028567962118,base_query
+863,Incorrect Authorization,4798.76737545911,base_query
+203,Observable Discrepancy,4719.229559604341,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4684.454155853325,base_query

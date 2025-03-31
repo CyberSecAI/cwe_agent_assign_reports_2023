@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,6709.945224468085,unknown
+190,Integer Overflow or Wraparound,6535.54341089117,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6502.0961626461685,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6499.951493889666,unknown
+667,Improper Locking,6491.052829712705,unknown

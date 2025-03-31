@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+129,Improper Validation of Array Index,Variant,0.7195633976427591
+131,Incorrect Calculation of Buffer Size,Base,0.7164089278312297
+824,Access of Uninitialized Pointer,Base,0.7164025639805759
+125,Out-of-bounds Read,Base,0.7096179608863996
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.6999378892766142
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.6984794180888585
+788,Access of Memory Location After End of Buffer,Base,0.698089503418723
+1391,Use of Weak Credentials,Class,0.6979675562088213
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.6947689073049395
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.6944144101679344

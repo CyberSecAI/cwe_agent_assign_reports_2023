@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,7597.499592917172,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7456.32694915569,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7441.56810413474,base_query
+116,Improper Encoding or Escaping of Output,7424.869811087843,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7383.240632267723,base_query

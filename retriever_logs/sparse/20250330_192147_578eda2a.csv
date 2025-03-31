@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,6318.792417681453,unknown
+863,Incorrect Authorization,6191.900738069438,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,6140.321496832605,unknown
+319,Cleartext Transmission of Sensitive Information,6098.295377692031,unknown
+1385,Missing Origin Validation in WebSockets,6065.881729740795,unknown

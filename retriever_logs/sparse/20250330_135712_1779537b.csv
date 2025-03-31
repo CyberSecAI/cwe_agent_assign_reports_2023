@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,8935.790325259857,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8892.541168987436,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,8842.092659529784,base_query
+789,Memory Allocation with Excessive Size Value,8745.183910133355,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,8706.585757126473,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+476,NULL Pointer Dereference,5854.0333586192555,base_query
+667,Improper Locking,5754.707526829223,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5674.59527940415,base_query
+911,Improper Update of Reference Count,5557.598684671881,base_query
+252,Unchecked Return Value,5542.156947788799,base_query

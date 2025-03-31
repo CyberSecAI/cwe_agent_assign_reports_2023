@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6578.331589352896,base_query
+125,Out-of-bounds Read,6423.503229705201,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6410.1005780264195,base_query
+639,Authorization Bypass Through User-Controlled Key,6390.129439025807,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6368.21707691128,base_query

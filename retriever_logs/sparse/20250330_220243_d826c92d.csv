@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,6618.656440252672,unknown
+125,Out-of-bounds Read,6388.434145308246,unknown
+193,Off-by-one Error,6089.034528234473,unknown
+1284,Improper Validation of Specified Quantity in Input,5980.467591758387,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5936.918254212499,unknown

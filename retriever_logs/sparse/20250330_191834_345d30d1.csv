@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,5140.1042992140265,base_query
+770,Allocation of Resources Without Limits or Throttling,4691.918536124034,base_query
+754,Improper Check for Unusual or Exceptional Conditions,4636.31984871165,base_query
+775,Missing Release of File Descriptor or Handle after Effective Lifetime,4588.380381857068,base_query
+1286,Improper Validation of Syntactic Correctness of Input,4575.606809442885,base_query

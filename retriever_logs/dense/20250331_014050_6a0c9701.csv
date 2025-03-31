@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1220,Insufficient Granularity of Access Control,Base,0.76366390276794
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7536669633181008
+213,Exposure of Sensitive Information Due to Incompatible Policies,Base,0.752797134575589
+653,Improper Isolation or Compartmentalization,Class,0.7514274223710844
+274,Improper Handling of Insufficient Privileges,Base,0.7490651933649668
+668,Exposure of Resource to Wrong Sphere,Class,0.7482114486684843
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7473494564054863
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.745958403734905
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7433942326353489
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7429563115469475

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+259,Use of Hard-coded Password,variant,4.0104,0
+472,External Control of Assumed-Immutable Web Parameter,base,3.8870000000000005,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+358,Improperly Implemented Security Check for Standard,base,3.6399999999999997,0
+322,Key Exchange without Entity Authentication,base,3.4361600000000005,0
+770,Allocation of Resources Without Limits or Throttling,base,2.8651999999999997,0
+471,Modification of Assumed-Immutable Data (MAID),base,2.821,0
+804,Guessable CAPTCHA,base,2.73416,0
+425,Direct Request ('Forced Browsing'),base,2.73416,0
+321,Use of Hard-coded Cryptographic Key,Variant,2.7195409531047536,0

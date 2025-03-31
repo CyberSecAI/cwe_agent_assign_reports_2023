@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.8213078446312077
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7729411019940731
+404,Improper Resource Shutdown or Release,Class,0.7716099762407426
+667,Improper Locking,Class,0.7694063904427323
+131,Incorrect Calculation of Buffer Size,Base,0.763158066996265
+203,Observable Discrepancy,Base,0.7599202435084688
+126,Buffer Over-read,Variant,0.7588372889680924
+665,Improper Initialization,Class,0.7576614585395202
+909,Missing Initialization of Resource,Class,0.756310615142505
+208,Observable Timing Discrepancy,Base,0.7561025798363028

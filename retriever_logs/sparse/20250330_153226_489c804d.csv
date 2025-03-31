@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8611.831863117874,base_query
+23,Relative Path Traversal,8387.161396700762,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8225.087703146883,base_query
+138,Improper Neutralization of Special Elements,8076.869264718383,base_query
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),7938.22905284604,base_query

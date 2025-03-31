@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+364,Signal Handler Race Condition,7348.735314756695,unknown
+252,Unchecked Return Value,6744.0099244999265,unknown
+415,Double Free,6620.682256086369,unknown
+190,Integer Overflow or Wraparound,6576.874677784777,unknown
+476,NULL Pointer Dereference,6331.270203245079,unknown

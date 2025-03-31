@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7583986738150458
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7537380941847499
+918,Server-Side Request Forgery (SSRF),Base,0.7480763964649714
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7464035868347754
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7457824896209871
+799,Improper Control of Interaction Frequency,Class,0.744843840795178
+668,Exposure of Resource to Wrong Sphere,Class,0.7356910805044483
+184,Incomplete List of Disallowed Inputs,Base,0.7353815060287163
+407,Inefficient Algorithmic Complexity,Class,0.732803996683763
+41,Improper Resolution of Path Equivalence,Base,0.731765442064217

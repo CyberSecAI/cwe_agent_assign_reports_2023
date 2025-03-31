@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+385,Covert Timing Channel,base,4.329000000000001,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.984,0
+208,Observable Timing Discrepancy,Base,2.9072531849349,0
+804,Guessable CAPTCHA,base,2.8651999999999997,0
+259,Use of Hard-coded Password,variant,2.8104,0
+290,Authentication Bypass by Spoofing,base,2.6104000000000003,0
+306,Missing Authentication for Critical Function,base,2.4699999999999998,0
+1392,Use of Default Credentials,base,2.4699999999999998,0
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),base,2.4699999999999998,0
+1204,Generation of Weak Initialization Vector (IV),base,2.4699999999999998,0

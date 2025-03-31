@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+41,Improper Resolution of Path Equivalence,Base,0.7637355183779367
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),Variant,0.762691607827927
+23,Relative Path Traversal,Base,0.7609383776147486
+73,External Control of File Name or Path,Base,0.7549849192232898
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7500915811786666
+668,Exposure of Resource to Wrong Sphere,Class,0.7474902797017723
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7384061795506448
+184,Incomplete List of Disallowed Inputs,Base,0.732084188481649
+36,Absolute Path Traversal,Base,0.7300905120890842
+138,Improper Neutralization of Special Elements,Class,0.7291795920029587

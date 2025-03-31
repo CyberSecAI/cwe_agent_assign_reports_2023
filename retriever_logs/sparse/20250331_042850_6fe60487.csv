@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1250,Improper Preservation of Consistency Between Independent Representations of Shared State,6994.430564859468,base_query
+770,Allocation of Resources Without Limits or Throttling,6808.186241249479,base_query
+754,Improper Check for Unusual or Exceptional Conditions,6620.007058430248,base_query
+789,Memory Allocation with Excessive Size Value,6453.29246903411,base_query
+401,Missing Release of Memory after Effective Lifetime,6373.741794759008,base_query

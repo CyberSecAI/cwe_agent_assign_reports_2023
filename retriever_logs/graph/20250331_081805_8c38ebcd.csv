@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+499,Serializable Class Containing Sensitive Data,variant,3.8784,0
+498,Cloneable Class Containing Sensitive Information,variant,2.6784000000000003,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+200,Exposure of Sensitive Information to an Unauthorized Actor,class,2.5519999999999996,0
+116,Improper Encoding or Escaping of Output,class,2.5519999999999996,0
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),variant,2.5507200000000005,0
+274,Improper Handling of Insufficient Privileges,Base,2.4938771748083184,0
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,2.4894557489501006,0
+203,Observable Discrepancy,base,2.4699999999999998,0
+201,Insertion of Sensitive Information Into Sent Data,base,2.4699999999999998,0

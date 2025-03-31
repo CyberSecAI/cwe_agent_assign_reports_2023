@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.8042789872641184
+41,Improper Resolution of Path Equivalence,Base,0.7739235333904555
+184,Incomplete List of Disallowed Inputs,Base,0.7704402321857962
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7690970137707499
+203,Observable Discrepancy,Base,0.7682278972629906
+334,Small Space of Random Values,Base,0.767664871620108
+208,Observable Timing Discrepancy,Base,0.7669061465080946
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7640933572332993
+204,Observable Response Discrepancy,Base,0.7632416399268579
+668,Exposure of Resource to Wrong Sphere,Class,0.7628627828432321

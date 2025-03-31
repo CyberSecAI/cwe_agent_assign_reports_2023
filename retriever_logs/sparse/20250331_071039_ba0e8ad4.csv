@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1204,Generation of Weak Initialization Vector (IV),6194.3981117172825,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,6162.389668341655,base_query
+916,Use of Password Hash With Insufficient Computational Effort,6116.771127164675,base_query
+1240,Use of a Cryptographic Primitive with a Risky Implementation,6008.705310023242,base_query
+312,Cleartext Storage of Sensitive Information,5995.220640132,base_query

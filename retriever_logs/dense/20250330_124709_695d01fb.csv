@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+274,Improper Handling of Insufficient Privileges,Base,0.7774220573559876
+41,Improper Resolution of Path Equivalence,Base,0.7766154030227034
+668,Exposure of Resource to Wrong Sphere,Class,0.7746050532362605
+472,External Control of Assumed-Immutable Web Parameter,Base,0.770237494391397
+639,Authorization Bypass Through User-Controlled Key,Base,0.7701817076783928
+425,Direct Request ('Forced Browsing'),Base,0.7685575728586315
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7673107958030401
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7661583870199351
+1390,Weak Authentication,Class,0.7654336593425575
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7650753583249646

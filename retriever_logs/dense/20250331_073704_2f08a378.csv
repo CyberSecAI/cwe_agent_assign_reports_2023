@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7783869824638632
+667,Improper Locking,Class,0.7752078073403827
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7751136422537069
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7744723831179263
+662,Improper Synchronization,Class,0.7723681075996449
+366,Race Condition within a Thread,Base,0.7702468651114369
+73,External Control of File Name or Path,Base,0.7606525744780626
+404,Improper Resource Shutdown or Release,Class,0.7590563951077587
+41,Improper Resolution of Path Equivalence,Base,0.7495424823503527
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7458644461873002

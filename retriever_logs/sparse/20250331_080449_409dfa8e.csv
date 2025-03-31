@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,7300.6939010096385,unknown
+295,Improper Certificate Validation,7263.384245422709,unknown
+789,Memory Allocation with Excessive Size Value,7257.687072446861,unknown
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),7169.829447572282,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,7156.527204643025,unknown

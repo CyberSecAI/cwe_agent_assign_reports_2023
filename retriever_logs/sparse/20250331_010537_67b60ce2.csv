@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,6004.912680224388,base_query
+406,Insufficient Control of Network Message Volume (Network Amplification),5877.835470192498,base_query
+799,Improper Control of Interaction Frequency,5764.319002353909,base_query
+770,Allocation of Resources Without Limits or Throttling,5759.680475796374,base_query
+789,Memory Allocation with Excessive Size Value,5653.936511496743,base_query

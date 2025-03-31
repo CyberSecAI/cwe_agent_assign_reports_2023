@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,5942.8656149217995,base_query
+295,Improper Certificate Validation,5839.231420328633,base_query
+297,Improper Validation of Certificate with Host Mismatch,5733.7928915920065,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),5601.8033887439315,base_query
+1333,Inefficient Regular Expression Complexity,5595.925573252902,base_query

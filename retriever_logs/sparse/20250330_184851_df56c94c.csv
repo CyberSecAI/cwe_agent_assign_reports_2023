@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7022.152497097776,unknown
+863,Incorrect Authorization,6922.786016094752,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6860.979259443098,unknown
+125,Out-of-bounds Read,6840.678541142463,unknown
+639,Authorization Bypass Through User-Controlled Key,6823.795241714476,unknown

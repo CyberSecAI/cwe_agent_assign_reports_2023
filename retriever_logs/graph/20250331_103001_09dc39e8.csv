@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+321,Use of Hard-coded Cryptographic Key,variant,4.0104,0
+259,Use of Hard-coded Password,variant,4.0104,0
+178,Improper Handling of Case Sensitivity,base,3.055,0
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0
+208,Observable Timing Discrepancy,base,2.821,0
+425,Direct Request ('Forced Browsing'),base,2.73416,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+472,External Control of Assumed-Immutable Web Parameter,Base,2.6261680586482856,0
+798,Use of Hard-coded Credentials,Base,2.489531745964171,0
+257,Storing Passwords in a Recoverable Format,Base,2.4769011181278726,0

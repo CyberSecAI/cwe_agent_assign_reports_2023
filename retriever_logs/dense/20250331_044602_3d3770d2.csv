@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+824,Access of Uninitialized Pointer,Base,0.7449190415454506
+668,Exposure of Resource to Wrong Sphere,Class,0.7419764264311293
+129,Improper Validation of Array Index,Variant,0.7415019736718427
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7288260455206454
+131,Incorrect Calculation of Buffer Size,Base,0.7284688055019548
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.728194647585388
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7258338163438185
+657,Violation of Secure Design Principles,Class,0.7226657404603873
+788,Access of Memory Location After End of Buffer,Base,0.7220057654750915
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7198239532712031

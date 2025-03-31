@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+601,URL Redirection to Untrusted Site ('Open Redirect'),Base,0.8082502593096579
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7790250488917616
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7741789423130306
+41,Improper Resolution of Path Equivalence,Base,0.773667955494833
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7691741998319629
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7689361164664323
+923,Improper Restriction of Communication Channel to Intended Endpoints,Class,0.7622294930938237
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7620987757987552
+184,Incomplete List of Disallowed Inputs,Base,0.7616281417297815
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.761602690817542

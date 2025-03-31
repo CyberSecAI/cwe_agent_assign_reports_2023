@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5889.97536233813,base_query
+1390,Weak Authentication,5384.633533664946,base_query
+178,Improper Handling of Case Sensitivity,5324.282876990735,base_query
+1391,Use of Weak Credentials,5242.207203564593,base_query
+287,Improper Authentication,5240.206295440583,base_query

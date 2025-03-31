@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6641.602841292132,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6592.321168978592,base_query
+639,Authorization Bypass Through User-Controlled Key,6544.598761719809,base_query
+1284,Improper Validation of Specified Quantity in Input,6535.811930912264,base_query
+347,Improper Verification of Cryptographic Signature,6528.603921578097,base_query

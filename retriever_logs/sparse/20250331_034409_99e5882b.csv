@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7393.8885028570185,base_query
+352,Cross-Site Request Forgery (CSRF),7156.442895668852,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),7116.8135741592805,base_query
+863,Incorrect Authorization,7040.977953367921,base_query
+285,Improper Authorization,6973.293358140075,base_query

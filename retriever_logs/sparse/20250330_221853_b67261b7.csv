@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,7724.964385286249,base_query
+916,Use of Password Hash With Insufficient Computational Effort,7348.158072325414,base_query
+116,Improper Encoding or Escaping of Output,7311.658587582221,base_query
+941,Incorrectly Specified Destination in a Communication Channel,7227.262426756181,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,7145.390245098398,base_query

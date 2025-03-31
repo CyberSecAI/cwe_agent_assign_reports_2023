@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.8108633861636602
+667,Improper Locking,Class,0.7783361657349781
+606,Unchecked Input for Loop Condition,Base,0.7744871760389254
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7733493773043241
+184,Incomplete List of Disallowed Inputs,Base,0.7727687993229542
+183,Permissive List of Allowed Inputs,Base,0.7702653462925729
+822,Untrusted Pointer Dereference,Base,0.769512151537725
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7680007356002165
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7666347143784089
+252,Unchecked Return Value,Base,0.7662240375175109

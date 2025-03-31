@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+639,Authorization Bypass Through User-Controlled Key,Base,0.7628220052980946
+668,Exposure of Resource to Wrong Sphere,Class,0.7563465786661207
+41,Improper Resolution of Path Equivalence,Base,0.7503134953798692
+1390,Weak Authentication,Class,0.7473698898088483
+404,Improper Resource Shutdown or Release,Class,0.7466816035092776
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7442168744891071
+23,Relative Path Traversal,Base,0.7438276423924366
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7426990904943654
+267,Privilege Defined With Unsafe Actions,Base,0.7425095065758238
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7420212197611911

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+798,Use of Hard-coded Credentials,5145.622038594828,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),4849.492480795425,unknown
+312,Cleartext Storage of Sensitive Information,4846.0061403368545,unknown
+668,Exposure of Resource to Wrong Sphere,4810.883819389298,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4737.647467331256,unknown

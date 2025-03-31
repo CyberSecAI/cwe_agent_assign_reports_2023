@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+667,Improper Locking,Class,0.8001407269596591
+404,Improper Resource Shutdown or Release,Class,0.7898979264061177
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.76860722212192
+662,Improper Synchronization,Class,0.765206839898164
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7608581124628324
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7597480720642242
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7585177579319233
+755,Improper Handling of Exceptional Conditions,Class,0.7571673452077718
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7501034440030119
+833,Deadlock,Base,0.749288321252804

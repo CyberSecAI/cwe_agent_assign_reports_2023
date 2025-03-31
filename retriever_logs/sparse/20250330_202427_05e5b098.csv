@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,4962.754508722582,unknown
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,4778.586884477054,unknown
+94,Improper Control of Generation of Code ('Code Injection'),4614.748572416048,unknown
+427,Uncontrolled Search Path Element,4566.227841151283,unknown
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),4537.232129470723,unknown

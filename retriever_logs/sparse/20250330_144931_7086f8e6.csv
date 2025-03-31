@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,4424.835879709024,base_query
+732,Incorrect Permission Assignment for Critical Resource,4394.424459170601,base_query
+276,Incorrect Default Permissions,4370.763174598549,base_query
+1390,Weak Authentication,4351.504141535605,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),4325.79162568233,base_query

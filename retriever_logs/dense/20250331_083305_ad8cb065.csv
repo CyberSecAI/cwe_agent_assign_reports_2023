@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7648127365139802
+667,Improper Locking,Class,0.7614708758044353
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.756053619114677
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7546290223132777
+274,Improper Handling of Insufficient Privileges,Base,0.7529998195043559
+653,Improper Isolation or Compartmentalization,Class,0.7524218589770766
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7509027261400139
+662,Improper Synchronization,Class,0.7499715783153369
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7490582236272738
+668,Exposure of Resource to Wrong Sphere,Class,0.7484221146607803

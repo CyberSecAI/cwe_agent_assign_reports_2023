@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.8174041998321994
+798,Use of Hard-coded Credentials,Base,0.7925115596997528
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7835060408973518
+1391,Use of Weak Credentials,Class,0.7799401244371585
+345,Insufficient Verification of Data Authenticity,Class,0.7797131901818604
+668,Exposure of Resource to Wrong Sphere,Class,0.7789944024357214
+41,Improper Resolution of Path Equivalence,Base,0.7765064307632891
+319,Cleartext Transmission of Sensitive Information,Base,0.7727856935118631
+667,Improper Locking,Class,0.7701890738022321
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7694249838518603

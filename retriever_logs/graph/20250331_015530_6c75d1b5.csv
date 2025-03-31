@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),base,4.8204,0
+787,Out-of-bounds Write,base,4.329000000000001,0
+123,Write-what-where Condition,base,4.329000000000001,0
+476,NULL Pointer Dereference,base,4.329000000000001,0
+1284,Improper Validation of Specified Quantity in Input,base,3.8870000000000005,0
+456,Missing Initialization of a Variable,variant,3.8784,0
+416,Use After Free,variant,3.0043200000000003,0
+124,Buffer Underwrite ('Buffer Underflow'),Base,2.9305111819470833,0
+131,Incorrect Calculation of Buffer Size,Base,2.9031576872883273,0
+824,Access of Uninitialized Pointer,Base,2.8999129575382283,0

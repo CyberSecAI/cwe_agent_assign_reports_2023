@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+386,Symbolic Name not Mapping to Correct Object,base,4.4954,0
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,base,3.6399999999999997,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,2.821,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+486,Comparison of Classes by Name,variant,2.6039999999999996,0
+256,Plaintext Storage of a Password,base,2.4699999999999998,0
+379,Creation of Temporary File in Directory with Insecure Permissions,base,2.4699999999999998,0
+306,Missing Authentication for Critical Function,base,2.4699999999999998,0
+620,Unverified Password Change,base,2.4699999999999998,0
+770,Allocation of Resources Without Limits or Throttling,base,2.4232000000000005,0

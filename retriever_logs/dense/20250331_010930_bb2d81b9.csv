@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+788,Access of Memory Location After End of Buffer,Base,0.7582900544850703
+131,Incorrect Calculation of Buffer Size,Base,0.7564094710947579
+805,Buffer Access with Incorrect Length Value,Base,0.755235288798326
+125,Out-of-bounds Read,Base,0.7541271139654272
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7519179436345236
+404,Improper Resource Shutdown or Release,Class,0.74878983123277
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7457356874537957
+667,Improper Locking,Class,0.7445177112402362
+126,Buffer Over-read,Variant,0.7437640994377257
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7378669005696161

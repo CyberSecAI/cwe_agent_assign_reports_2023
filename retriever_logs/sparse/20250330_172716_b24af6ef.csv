@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+306,Missing Authentication for Critical Function,6907.506848135251,base_query
+294,Authentication Bypass by Capture-replay,6891.991081263537,base_query
+20,Improper Input Validation,6515.821371260243,base_query
+668,Exposure of Resource to Wrong Sphere,6271.238091910803,base_query
+425,Direct Request ('Forced Browsing'),6174.250373743681,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,6616.034035305733,unknown
+1284,Improper Validation of Specified Quantity in Input,6480.987469716498,unknown
+1286,Improper Validation of Syntactic Correctness of Input,6287.7175287724485,unknown
+125,Out-of-bounds Read,6285.658750107676,unknown
+789,Memory Allocation with Excessive Size Value,6260.148105747524,unknown

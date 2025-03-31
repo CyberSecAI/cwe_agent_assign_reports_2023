@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+366,Race Condition within a Thread,Base,0.7851008760597571
+191,Integer Underflow (Wrap or Wraparound),Base,0.7799438908778906
+681,Incorrect Conversion between Numeric Types,Base,0.7609726711680629
+667,Improper Locking,Class,0.756938110800118
+131,Incorrect Calculation of Buffer Size,Base,0.7556363454713941
+190,Integer Overflow or Wraparound,Base,0.7546807152688627
+197,Numeric Truncation Error,Base,0.7537297981794773
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7537082994201114
+680,Integer Overflow to Buffer Overflow,Compound,0.752137284438654
+404,Improper Resource Shutdown or Release,Class,0.7454149233772938

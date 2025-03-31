@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+130,Improper Handling of Length Parameter Inconsistency,4669.02960860522,base_query
+193,Off-by-one Error,4602.880823110097,base_query
+191,Integer Underflow (Wrap or Wraparound),4549.163948840695,base_query
+125,Out-of-bounds Read,4510.565949864833,base_query
+1284,Improper Validation of Specified Quantity in Input,4487.375027097159,base_query

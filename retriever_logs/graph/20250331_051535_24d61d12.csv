@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,4.329000000000001,0
+798,Use of Hard-coded Credentials,base,3.6399999999999997,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+259,Use of Hard-coded Password,variant,3.2424,0
+471,Modification of Assumed-Immutable Data (MAID),base,3.055,0
+41,Improper Resolution of Path Equivalence,Base,2.8873747005924835,0
+322,Key Exchange without Entity Authentication,base,2.8651999999999997,0
+73,External Control of File Name or Path,base,2.8651999999999997,0
+117,Improper Output Neutralization for Logs,base,2.8651999999999997,0
+321,Use of Hard-coded Cryptographic Key,variant,2.8104,0

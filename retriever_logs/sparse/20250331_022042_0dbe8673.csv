@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,6591.002798629498,unknown
+125,Out-of-bounds Read,6527.264468760301,unknown
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),6513.591129797326,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6466.683054473085,unknown
+190,Integer Overflow or Wraparound,6417.612582683439,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,7994.358267675862,unknown
+611,Improper Restriction of XML External Entity Reference,7957.328375519142,unknown
+863,Incorrect Authorization,7954.9495690924305,unknown
+639,Authorization Bypass Through User-Controlled Key,7867.961011506996,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7862.287068062908,unknown

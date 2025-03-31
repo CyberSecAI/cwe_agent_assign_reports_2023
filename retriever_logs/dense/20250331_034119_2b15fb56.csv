@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7826449729926808
+331,Insufficient Entropy,Base,0.7796557149810903
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7605585715224059
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7551895367901686
+613,Insufficient Session Expiration,Base,0.7545895195597732
+1391,Use of Weak Credentials,Class,0.7528532958689502
+203,Observable Discrepancy,Base,0.748586207340755
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.748554598254908
+41,Improper Resolution of Path Equivalence,Base,0.7482882504766462
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7476600851653079

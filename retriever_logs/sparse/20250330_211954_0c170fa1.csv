@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,6467.226324037272,unknown
+639,Authorization Bypass Through User-Controlled Key,5723.365032852411,unknown
+297,Improper Validation of Certificate with Host Mismatch,5701.321122262476,unknown
+1390,Weak Authentication,5586.896041878823,unknown
+347,Improper Verification of Cryptographic Signature,5573.2560925547905,unknown

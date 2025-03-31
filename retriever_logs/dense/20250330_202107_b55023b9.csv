@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7816661882349019
+274,Improper Handling of Insufficient Privileges,Base,0.7778910398065794
+552,Files or Directories Accessible to External Parties,Base,0.7774336609867585
+434,Unrestricted Upload of File with Dangerous Type,Base,0.7732191768392496
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.767554458461979
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7656955761018622
+639,Authorization Bypass Through User-Controlled Key,Base,0.7656880767382337
+668,Exposure of Resource to Wrong Sphere,Class,0.7618424978930507
+41,Improper Resolution of Path Equivalence,Base,0.7617135670139262
+73,External Control of File Name or Path,Base,0.7609884515441562

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+667,Improper Locking,Class,0.7762518855289322
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),Base,0.7605875647597298
+606,Unchecked Input for Loop Condition,Base,0.7586028948488434
+404,Improper Resource Shutdown or Release,Class,0.7504908598993281
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7498584257615584
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7492184142014304
+41,Improper Resolution of Path Equivalence,Base,0.7455702236408833
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.745507759786245
+755,Improper Handling of Exceptional Conditions,Class,0.741880242725667
+799,Improper Control of Interaction Frequency,Class,0.7416515728709508

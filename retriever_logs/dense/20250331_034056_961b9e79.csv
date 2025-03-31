@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+653,Improper Isolation or Compartmentalization,Class,0.7478111146205022
+274,Improper Handling of Insufficient Privileges,Base,0.7347495926555898
+841,Improper Enforcement of Behavioral Workflow,Base,0.7344084067342564
+657,Violation of Secure Design Principles,Class,0.7338336448365778
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7316730961629021
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7296254818336898
+667,Improper Locking,Class,0.7295393076360237
+662,Improper Synchronization,Class,0.7288653501668183
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7286989863070956
+696,Incorrect Behavior Order,Class,0.7281960306353296

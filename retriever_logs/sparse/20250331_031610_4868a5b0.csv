@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,7448.909692195482,unknown
+1284,Improper Validation of Specified Quantity in Input,7089.740095802617,unknown
+916,Use of Password Hash With Insufficient Computational Effort,7085.055529756437,unknown
+789,Memory Allocation with Excessive Size Value,6995.19122675895,unknown
+190,Integer Overflow or Wraparound,6960.617833474634,unknown

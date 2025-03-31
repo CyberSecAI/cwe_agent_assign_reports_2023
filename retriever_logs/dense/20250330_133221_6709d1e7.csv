@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+822,Untrusted Pointer Dereference,Base,0.7798480813843716
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7673135803475631
+824,Access of Uninitialized Pointer,Base,0.763102932748005
+252,Unchecked Return Value,Base,0.7602307371163324
+476,NULL Pointer Dereference,Base,0.76009936444893
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7562611483862198
+191,Integer Underflow (Wrap or Wraparound),Base,0.7551071182076388
+184,Incomplete List of Disallowed Inputs,Base,0.7550264393268308
+667,Improper Locking,Class,0.7549837501831342
+41,Improper Resolution of Path Equivalence,Base,0.7537669252466674

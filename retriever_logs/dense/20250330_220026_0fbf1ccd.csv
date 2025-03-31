@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7493844240026506
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7445089110986345
+838,Inappropriate Encoding for Output Context,Base,0.7398309279444394
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Base,0.7355862952307052
+184,Incomplete List of Disallowed Inputs,Base,0.7329232201279641
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7314495588699647
+691,Insufficient Control Flow Management,Pillar,0.7310134284802594
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7298889158158912
+138,Improper Neutralization of Special Elements,Class,0.7242166369148202
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7209918961099843

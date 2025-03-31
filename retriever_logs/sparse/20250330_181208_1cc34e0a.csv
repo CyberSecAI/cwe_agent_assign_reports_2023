@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1007,Insufficient Visual Distinction of Homoglyphs Presented to User,4603.7701816184945,base_query
+639,Authorization Bypass Through User-Controlled Key,4118.086671852539,base_query
+863,Incorrect Authorization,4117.853945304463,base_query
+732,Incorrect Permission Assignment for Critical Resource,4068.2872632148906,base_query
+285,Improper Authorization,4010.092700632361,base_query

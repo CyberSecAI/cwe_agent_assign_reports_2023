@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,6421.446918917258,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6368.32543990561,unknown
+116,Improper Encoding or Escaping of Output,6300.891963132487,unknown
+1333,Inefficient Regular Expression Complexity,6279.488960887554,unknown
+1286,Improper Validation of Syntactic Correctness of Input,6238.726056107516,unknown

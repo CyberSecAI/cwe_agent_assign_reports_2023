@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+73,External Control of File Name or Path,base,4.8204,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,4.329000000000001,0
+184,Incomplete List of Disallowed Inputs,base,3.5698000000000003,0
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),variant,3.3936,0
+178,Improper Handling of Case Sensitivity,base,3.055,0
+20,Improper Input Validation,class,2.984,0
+59,Improper Link Resolution Before File Access ('Link Following'),Base,2.9015567633096397,0
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0
+201,Insertion of Sensitive Information Into Sent Data,base,2.8651999999999997,0
+183,Permissive List of Allowed Inputs,base,2.831400000000001,0

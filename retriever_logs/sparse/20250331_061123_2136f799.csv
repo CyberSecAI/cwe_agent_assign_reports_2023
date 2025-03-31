@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+923,Improper Restriction of Communication Channel to Intended Endpoints,7144.007472851323,unknown
+295,Improper Certificate Validation,7003.937747132525,unknown
+863,Incorrect Authorization,6932.703252684815,unknown
+287,Improper Authentication,6852.563067006509,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6820.7431915561865,unknown

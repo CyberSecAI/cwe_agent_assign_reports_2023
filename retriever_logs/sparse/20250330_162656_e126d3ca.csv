@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,7962.508656412421,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7832.337507134699,base_query
+789,Memory Allocation with Excessive Size Value,7800.083184623469,base_query
+1284,Improper Validation of Specified Quantity in Input,7738.892125623916,base_query
+611,Improper Restriction of XML External Entity Reference,7711.357112976294,base_query

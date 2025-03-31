@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1390,Weak Authentication,4897.685067098,unknown
+425,Direct Request ('Forced Browsing'),4792.639266099211,unknown
+178,Improper Handling of Case Sensitivity,4758.765143344974,unknown
+287,Improper Authentication,4726.8034106135465,unknown
+863,Incorrect Authorization,4725.891192974315,unknown

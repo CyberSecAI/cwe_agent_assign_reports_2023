@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+657,Violation of Secure Design Principles,5568.850960921749,unknown
+770,Allocation of Resources Without Limits or Throttling,5479.073903657719,unknown
+287,Improper Authentication,5459.959195858376,unknown
+732,Incorrect Permission Assignment for Critical Resource,5447.075836577274,unknown
+863,Incorrect Authorization,5423.552848941207,unknown

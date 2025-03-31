@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+911,Improper Update of Reference Count,4481.180652105257,unknown
+415,Double Free,4465.285292968111,unknown
+404,Improper Resource Shutdown or Release,4303.259906687278,unknown
+190,Integer Overflow or Wraparound,4219.815600758835,unknown
+252,Unchecked Return Value,4197.057784469708,unknown

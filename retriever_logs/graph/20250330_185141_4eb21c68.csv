@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+178,Improper Handling of Case Sensitivity,base,3.757,0
+1304,Improperly Preserved Integrity of Hardware Configuration State During a Power Save/Restore Operation,base,3.6399999999999997,0
+1271,Uninitialized Value on Reset for Registers Holding Security Settings,base,3.6399999999999997,0
+1289,Improper Validation of Unsafe Equivalence in Input,base,3.6399999999999997,0
+322,Key Exchange without Entity Authentication,base,3.5671999999999997,0
+613,Insufficient Session Expiration,Base,2.902981313003644,0
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0
+911,Improper Update of Reference Count,base,2.8651999999999997,0
+193,Off-by-one Error,base,2.821,0
+295,Improper Certificate Validation,base,2.7742,0

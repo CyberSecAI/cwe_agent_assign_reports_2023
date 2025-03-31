@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+434,Unrestricted Upload of File with Dangerous Type,base,4.329000000000001,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,3.5671999999999997,0
+184,Incomplete List of Disallowed Inputs,Base,3.2103317041659025,0
+183,Permissive List of Allowed Inputs,Base,3.2060568000098577,0
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,2.8651999999999997,0
+290,Authentication Bypass by Spoofing,base,2.7742,0
+274,Improper Handling of Insufficient Privileges,Base,2.489455891350057,0
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,2.4860297004160934,0
+357,Insufficient UI Warning of Dangerous Operations,base,2.4699999999999998,0
+305,Authentication Bypass by Primary Weakness,base,2.4699999999999998,0

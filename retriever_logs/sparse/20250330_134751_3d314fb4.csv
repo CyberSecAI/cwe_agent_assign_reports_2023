@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,6615.872619564918,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6585.053317326351,base_query
+1286,Improper Validation of Syntactic Correctness of Input,6412.845361913933,base_query
+125,Out-of-bounds Read,6396.608757784605,base_query
+190,Integer Overflow or Wraparound,6339.191520346625,base_query

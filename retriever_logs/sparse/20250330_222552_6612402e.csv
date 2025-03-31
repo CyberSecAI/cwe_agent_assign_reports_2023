@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1256,Improper Restriction of Software Interfaces to Hardware Features,5027.476181226859,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,4892.528560517405,unknown
+863,Incorrect Authorization,4820.842309373797,unknown
+287,Improper Authentication,4803.769634705004,unknown
+639,Authorization Bypass Through User-Controlled Key,4775.213794827494,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+674,Uncontrolled Recursion,Class,0.7406050517743623
+191,Integer Underflow (Wrap or Wraparound),Base,0.7401307789648006
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7305027376544206
+131,Incorrect Calculation of Buffer Size,Base,0.7254338358795489
+124,Buffer Underwrite ('Buffer Underflow'),Base,0.7220025685508259
+197,Numeric Truncation Error,Base,0.7201288694140763
+680,Integer Overflow to Buffer Overflow,Compound,0.7197771877578146
+125,Out-of-bounds Read,Base,0.7150192506377597
+691,Insufficient Control Flow Management,Pillar,0.714038290404946
+193,Off-by-one Error,Base,0.7112739129706466

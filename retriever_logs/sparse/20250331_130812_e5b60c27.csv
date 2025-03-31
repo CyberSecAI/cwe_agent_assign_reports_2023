@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,6846.601597947646,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),6385.6009803717325,base_query
+1386,Insecure Operation on Windows Junction / Mount Point,5901.368836040842,base_query
+732,Incorrect Permission Assignment for Critical Resource,5803.291424576954,base_query
+61,UNIX Symbolic Link (Symlink) Following,5783.100706220917,base_query

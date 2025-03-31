@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+613,Insufficient Session Expiration,base,4.329000000000001,0
+309,Use of Password System for Primary Authentication,base,3.6399999999999997,0
+420,Unprotected Alternate Channel,base,3.6399999999999997,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+287,Improper Authentication,class,2.5519999999999996,0
+288,Authentication Bypass Using an Alternate Path or Channel,Base,2.484841702249302,0
+308,Use of Single-factor Authentication,Base,2.480440978780523,0
+654,Reliance on a Single Factor in a Security Decision,base,2.4699999999999998,0
+306,Missing Authentication for Critical Function,base,2.4699999999999998,0
+250,Execution with Unnecessary Privileges,base,2.4699999999999998,0

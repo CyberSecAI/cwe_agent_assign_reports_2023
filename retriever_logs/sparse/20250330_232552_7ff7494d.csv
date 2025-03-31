@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+798,Use of Hard-coded Credentials,6675.940774826725,unknown
+259,Use of Hard-coded Password,6645.274786716275,unknown
+1188,Initialization of a Resource with an Insecure Default,6392.998855483995,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,6322.938828032295,unknown
+321,Use of Hard-coded Cryptographic Key,6283.989696371375,unknown

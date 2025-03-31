@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,7194.777049057068,base_query
+502,Deserialization of Untrusted Data,7076.313965004703,base_query
+943,Improper Neutralization of Special Elements in Data Query Logic,6889.005747696621,base_query
+94,Improper Control of Generation of Code ('Code Injection'),6811.463006786867,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6788.169995801793,base_query

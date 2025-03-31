@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,7740.822365171468,base_query
+770,Allocation of Resources Without Limits or Throttling,7720.170923523145,base_query
+799,Improper Control of Interaction Frequency,7710.043267548097,base_query
+941,Incorrectly Specified Destination in a Communication Channel,7677.597545726745,base_query
+287,Improper Authentication,7608.842186513457,base_query

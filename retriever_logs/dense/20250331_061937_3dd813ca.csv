@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+476,NULL Pointer Dereference,Base,0.7687744790856732
+191,Integer Underflow (Wrap or Wraparound),Base,0.7515868483040543
+404,Improper Resource Shutdown or Release,Class,0.7508260725011384
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7505714011449163
+170,Improper Null Termination,Base,0.7489740886548812
+824,Access of Uninitialized Pointer,Base,0.7428845394100902
+131,Incorrect Calculation of Buffer Size,Base,0.7409873752169698
+822,Untrusted Pointer Dereference,Base,0.7409097328228601
+667,Improper Locking,Class,0.7408689984853035
+252,Unchecked Return Value,Base,0.7374123356247693

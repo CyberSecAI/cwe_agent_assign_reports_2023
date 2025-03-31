@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+787,Out-of-bounds Write,base,4.329000000000001,0
+825,Expired Pointer Dereference,base,4.329000000000001,0
+190,Integer Overflow or Wraparound,base,4.329000000000001,0
+1284,Improper Validation of Specified Quantity in Input,base,3.2188,0
+126,Buffer Over-read,variant,3.1008,0
+128,Wrap-around Error,base,2.9120000000000004,0
+1339,Insufficient Precision or Accuracy of a Real Number,base,2.9120000000000004,0
+824,Access of Uninitialized Pointer,Base,2.894789993969317,0
+131,Incorrect Calculation of Buffer Size,Base,2.8862050661086505,0
+125,Out-of-bounds Read,Base,2.8827923172799923,0

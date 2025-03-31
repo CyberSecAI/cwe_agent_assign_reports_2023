@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+289,Authentication Bypass by Alternate Name,Base,0.7251570518035271
+653,Improper Isolation or Compartmentalization,Class,0.7180802373313516
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7165706549872711
+41,Improper Resolution of Path Equivalence,Base,0.7133185880201629
+300,Channel Accessible by Non-Endpoint,Class,0.7095393521631407
+552,Files or Directories Accessible to External Parties,Base,0.7095334796726229
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7093262320885925
+23,Relative Path Traversal,Base,0.7058668303214459
+424,Improper Protection of Alternate Path,Class,0.7052171224094267
+73,External Control of File Name or Path,Base,0.7044922224559546

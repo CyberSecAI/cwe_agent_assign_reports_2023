@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+822,Untrusted Pointer Dereference,base,4.329000000000001,0
+787,Out-of-bounds Write,base,4.329000000000001,0
+476,NULL Pointer Dereference,base,4.329000000000001,0
+781,Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code,variant,3.8784,0
+416,Use After Free,variant,3.7507200000000003,0
+123,Write-what-where Condition,base,3.3566,0
+131,Incorrect Calculation of Buffer Size,Base,2.9066976064115444,0
+125,Out-of-bounds Read,Base,2.904838695442734,0
+805,Buffer Access with Incorrect Length Value,Base,2.9041751709974757,0
+386,Symbolic Name not Mapping to Correct Object,base,2.9005600000000005,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7700320821901431
+404,Improper Resource Shutdown or Release,Class,0.7655571870725224
+552,Files or Directories Accessible to External Parties,Base,0.7643192003873416
+434,Unrestricted Upload of File with Dangerous Type,Base,0.7636301704053885
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7599661409152647
+184,Incomplete List of Disallowed Inputs,Base,0.7578733225390621
+668,Exposure of Resource to Wrong Sphere,Class,0.7576669286293809
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7551845630611327
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.753168231965338
+73,External Control of File Name or Path,Base,0.7523489168543596

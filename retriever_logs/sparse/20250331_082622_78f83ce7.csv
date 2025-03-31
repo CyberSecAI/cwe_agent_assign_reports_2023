@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),6174.7695065084035,unknown
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,5974.540818759898,unknown
+125,Out-of-bounds Read,5950.270913779328,unknown
+502,Deserialization of Untrusted Data,5903.936731411926,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5836.512741225917,unknown

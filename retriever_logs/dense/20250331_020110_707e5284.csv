@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+691,Insufficient Control Flow Management,Pillar,0.7692700743393189
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7655525412807064
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7546600633676352
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7523028260277391
+41,Improper Resolution of Path Equivalence,Base,0.752215844203266
+653,Improper Isolation or Compartmentalization,Class,0.7470207461493388
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7464667173566898
+274,Improper Handling of Insufficient Privileges,Base,0.7455591643674829
+73,External Control of File Name or Path,Base,0.7450164190798719
+668,Exposure of Resource to Wrong Sphere,Class,0.7442254636782646

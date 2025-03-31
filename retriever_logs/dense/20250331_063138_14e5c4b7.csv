@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.791423886074336
+1286,Improper Validation of Syntactic Correctness of Input,Base,0.7588876603511248
+824,Access of Uninitialized Pointer,Base,0.7537490652462552
+184,Incomplete List of Disallowed Inputs,Base,0.751128034447178
+183,Permissive List of Allowed Inputs,Base,0.7485350019888632
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.747573506046291
+252,Unchecked Return Value,Base,0.74583211288866
+129,Improper Validation of Array Index,Variant,0.7457397616355294
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7450140367326115
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7447352041164967

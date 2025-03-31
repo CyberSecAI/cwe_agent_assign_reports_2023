@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7785339205748041
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7742002787441336
+274,Improper Handling of Insufficient Privileges,Base,0.7662560631459567
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7581851343474622
+653,Improper Isolation or Compartmentalization,Class,0.7560052521698025
+184,Incomplete List of Disallowed Inputs,Base,0.755406794391685
+41,Improper Resolution of Path Equivalence,Base,0.7544409099741654
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7538171923405452
+266,Incorrect Privilege Assignment,Base,0.748759195886733
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7485179341923313

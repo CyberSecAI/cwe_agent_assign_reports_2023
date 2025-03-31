@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+295,Improper Certificate Validation,Base,0.75928696728996
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7577085367770884
+1390,Weak Authentication,Class,0.7565690157442096
+407,Inefficient Algorithmic Complexity,Class,0.7494673915364112
+345,Insufficient Verification of Data Authenticity,Class,0.7485891488265842
+799,Improper Control of Interaction Frequency,Class,0.7477613569877051
+41,Improper Resolution of Path Equivalence,Base,0.7455138746080786
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7433136252257765
+668,Exposure of Resource to Wrong Sphere,Class,0.7419849035714862
+639,Authorization Bypass Through User-Controlled Key,Base,0.7412763580376485

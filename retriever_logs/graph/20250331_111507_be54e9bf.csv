@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+476,NULL Pointer Dereference,base,4.329000000000001,0
+363,Race Condition Enabling Link Following,base,4.329000000000001,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,4.329000000000001,0
+184,Incomplete List of Disallowed Inputs,base,3.5698000000000003,0
+416,Use After Free,variant,3.24,0
+73,External Control of File Name or Path,Base,3.193052119982987,0
+386,Symbolic Name not Mapping to Correct Object,base,3.0316000000000005,0
+59,Improper Link Resolution Before File Access ('Link Following'),Base,2.907864044705513,0
+41,Improper Resolution of Path Equivalence,Base,2.9007261354090015,0
+364,Signal Handler Race Condition,base,2.8651999999999997,0

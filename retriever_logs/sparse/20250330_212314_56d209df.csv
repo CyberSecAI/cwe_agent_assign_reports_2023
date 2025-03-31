@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6602.573600207638,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),6401.883317421581,base_query
+138,Improper Neutralization of Special Elements,6285.6851197611895,base_query
+184,Incomplete List of Disallowed Inputs,6284.576691416229,base_query
+116,Improper Encoding or Escaping of Output,6249.588052555099,base_query

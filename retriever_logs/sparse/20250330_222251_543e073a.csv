@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,6715.534049460858,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6708.095619537251,base_query
+259,Use of Hard-coded Password,6479.7233214909675,base_query
+319,Cleartext Transmission of Sensitive Information,6445.931627589772,base_query
+276,Incorrect Default Permissions,6436.1376417519805,base_query

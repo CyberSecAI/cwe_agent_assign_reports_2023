@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,5119.1874005583,unknown
+1390,Weak Authentication,4874.262911532544,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,4810.645904804218,unknown
+287,Improper Authentication,4741.9661398406715,unknown
+295,Improper Certificate Validation,4728.7315603896495,unknown

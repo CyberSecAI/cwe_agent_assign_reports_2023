@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7781471658772765
+274,Improper Handling of Insufficient Privileges,Base,0.7738203681120429
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.763797428408169
+691,Insufficient Control Flow Management,Pillar,0.7627125582545566
+653,Improper Isolation or Compartmentalization,Class,0.7585382748917664
+345,Insufficient Verification of Data Authenticity,Class,0.758016526957659
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7578896044072101
+404,Improper Resource Shutdown or Release,Class,0.7573114010235291
+667,Improper Locking,Class,0.7559846164877061
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7551765520613969

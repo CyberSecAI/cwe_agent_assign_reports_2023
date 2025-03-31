@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1391,Use of Weak Credentials,Class,0.7823545009720716
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7653646789148588
+798,Use of Hard-coded Credentials,Base,0.7639863303559118
+41,Improper Resolution of Path Equivalence,Base,0.7605929944038201
+330,Use of Insufficiently Random Values,Class,0.7560112317198335
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7558984499883783
+345,Insufficient Verification of Data Authenticity,Class,0.7557164103199913
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7550188765230306
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7541375823805565
+73,External Control of File Name or Path,Base,0.7540287559413641

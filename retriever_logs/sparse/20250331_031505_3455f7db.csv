@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5599.706999567517,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,4963.2863351684255,base_query
+346,Origin Validation Error,4746.88003959416,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4742.986967946449,base_query
+204,Observable Response Discrepancy,4697.7544147887365,base_query

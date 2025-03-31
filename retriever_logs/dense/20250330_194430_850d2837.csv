@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7799867907721336
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7494369141372721
+345,Insufficient Verification of Data Authenticity,Class,0.7444904823667143
+657,Violation of Secure Design Principles,Class,0.7403427269437097
+204,Observable Response Discrepancy,Base,0.7388591105461899
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7370839277739193
+356,Product UI does not Warn User of Unsafe Actions,Base,0.7356478357617078
+668,Exposure of Resource to Wrong Sphere,Class,0.7347018708852602
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7345363659655666
+41,Improper Resolution of Path Equivalence,Base,0.733051400738971

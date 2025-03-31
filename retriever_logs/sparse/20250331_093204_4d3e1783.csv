@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,6015.947016330339,unknown
+1004,Sensitive Cookie Without 'HttpOnly' Flag,5973.327197541385,unknown
+312,Cleartext Storage of Sensitive Information,5971.251591825524,unknown
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),5955.37842101391,unknown
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,5932.336372111356,unknown

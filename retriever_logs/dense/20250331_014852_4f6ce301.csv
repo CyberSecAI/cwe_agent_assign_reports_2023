@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7708078496624532
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7627885479386878
+404,Improper Resource Shutdown or Release,Class,0.7513692923896461
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7502178784369348
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7469319141774459
+669,Incorrect Resource Transfer Between Spheres,Class,0.7463969657362735
+653,Improper Isolation or Compartmentalization,Class,0.7442216845331941
+405,Asymmetric Resource Consumption (Amplification),Class,0.7422895768977202
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7417408669803427
+41,Improper Resolution of Path Equivalence,Base,0.7328625942213055

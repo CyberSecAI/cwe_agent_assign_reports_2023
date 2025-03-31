@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7537621803461725
+274,Improper Handling of Insufficient Privileges,Base,0.7518686296458937
+41,Improper Resolution of Path Equivalence,Base,0.745780321692252
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7454624538923222
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7419712991582825
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7415647122765427
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7395849329589654
+552,Files or Directories Accessible to External Parties,Base,0.7386290100023123
+693,Protection Mechanism Failure,Pillar,0.7383598933718473
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7371376708610685

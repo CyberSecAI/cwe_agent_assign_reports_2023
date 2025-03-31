@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6262.378989379347,unknown
+798,Use of Hard-coded Credentials,6098.735086432677,unknown
+1249,Application-Level Admin Tool with Inconsistent View of Underlying Operating System,6087.033077707058,unknown
+203,Observable Discrepancy,6005.218799008153,unknown
+863,Incorrect Authorization,5958.765777178945,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7448739230795633
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7442964244075031
+209,Generation of Error Message Containing Sensitive Information,Base,0.7440831348888799
+23,Relative Path Traversal,Base,0.7409443623124992
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7346198935860608
+639,Authorization Bypass Through User-Controlled Key,Base,0.7309773526913519
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),Base,0.7301132946092597
+61,UNIX Symbolic Link (Symlink) Following,Compound,0.7300144178503885
+41,Improper Resolution of Path Equivalence,Base,0.7297003947649714
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7289331931956377

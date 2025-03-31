@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+208,Observable Timing Discrepancy,Base,0.7902728389826587
+204,Observable Response Discrepancy,Base,0.7594376825594573
+662,Improper Synchronization,Class,0.7577313194014804
+203,Observable Discrepancy,Base,0.7568751738815968
+668,Exposure of Resource to Wrong Sphere,Class,0.7496909457713947
+667,Improper Locking,Class,0.7430029984920639
+345,Insufficient Verification of Data Authenticity,Class,0.7388008656854881
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7378830377196124
+41,Improper Resolution of Path Equivalence,Base,0.737432285768818
+330,Use of Insufficiently Random Values,Class,0.7361665884879154

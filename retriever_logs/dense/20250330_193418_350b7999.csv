@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+693,Protection Mechanism Failure,Pillar,0.7738478431603691
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7661023636424178
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7648494340761314
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7645860564142879
+668,Exposure of Resource to Wrong Sphere,Class,0.7533263381853885
+404,Improper Resource Shutdown or Release,Class,0.7463950411303574
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7451724846072787
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7433662818786658
+657,Violation of Secure Design Principles,Class,0.7428561367785399
+274,Improper Handling of Insufficient Privileges,Base,0.7423268949842834

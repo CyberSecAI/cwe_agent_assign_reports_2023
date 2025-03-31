@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+178,Improper Handling of Case Sensitivity,Base,0.7710397434237151
+668,Exposure of Resource to Wrong Sphere,Class,0.755273601263737
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7539333927133213
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7529681434990931
+41,Improper Resolution of Path Equivalence,Base,0.7525921565019187
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7516982018610103
+639,Authorization Bypass Through User-Controlled Key,Base,0.7508397969527995
+274,Improper Handling of Insufficient Privileges,Base,0.7500855885105515
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7435738494769703
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7406155919823776

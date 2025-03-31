@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+266,Incorrect Privilege Assignment,4829.202738523691,unknown
+863,Incorrect Authorization,4780.495618744066,unknown
+732,Incorrect Permission Assignment for Critical Resource,4727.164934652534,unknown
+285,Improper Authorization,4656.825233017634,unknown
+639,Authorization Bypass Through User-Controlled Key,4638.79857904746,unknown

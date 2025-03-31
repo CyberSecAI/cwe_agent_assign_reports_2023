@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+697,Incorrect Comparison,Pillar,0.7685717008256775
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7461012658504551
+1391,Use of Weak Credentials,Class,0.7418825005371178
+1390,Weak Authentication,Class,0.7387295634369169
+668,Exposure of Resource to Wrong Sphere,Class,0.737952239045125
+41,Improper Resolution of Path Equivalence,Base,0.7365073766076815
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.734570986997208
+682,Incorrect Calculation,Pillar,0.7340554715649688
+257,Storing Passwords in a Recoverable Format,Base,0.7302359918272403
+204,Observable Response Discrepancy,Base,0.7301864676812455

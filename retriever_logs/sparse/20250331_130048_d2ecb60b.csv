@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,7340.377010178601,base_query
+203,Observable Discrepancy,6784.108414561763,base_query
+1391,Use of Weak Credentials,6732.541004185637,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,6625.308681893831,base_query
+208,Observable Timing Discrepancy,6443.343652862042,base_query

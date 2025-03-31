@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+804,Guessable CAPTCHA,base,4.329000000000001,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+836,Use of Password Hash Instead of Password for Authentication,Base,2.478725812736586,0
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),base,2.4699999999999998,0
+480,Use of Incorrect Operator,base,2.3998000000000004,0
+613,Insufficient Session Expiration,base,2.2100000000000004,0
+471,Modification of Assumed-Immutable Data (MAID),base,2.2100000000000004,0
+425,Direct Request ('Forced Browsing'),base,2.2089600000000003,0
+301,Reflection Attack in an Authentication Protocol,base,2.1762,0
+290,Authentication Bypass by Spoofing,base,2.1762,0

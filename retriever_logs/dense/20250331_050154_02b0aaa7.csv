@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+457,Use of Uninitialized Variable,Variant,0.7800527118111824
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7686753754375641
+606,Unchecked Input for Loop Condition,Base,0.7509071746289644
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7508005720366692
+665,Improper Initialization,Class,0.7477005327664917
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7457448842863681
+252,Unchecked Return Value,Base,0.7403238438519035
+191,Integer Underflow (Wrap or Wraparound),Base,0.7375478766467436
+667,Improper Locking,Class,0.7357689834741586
+908,Use of Uninitialized Resource,Base,0.7347528224432194

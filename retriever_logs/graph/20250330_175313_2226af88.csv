@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,5.031000000000001,0
+494,Download of Code Without Integrity Check,base,4.329000000000001,0
+193,Off-by-one Error,base,3.6540400000000006,0
+178,Improper Handling of Case Sensitivity,base,3.6399999999999997,0
+41,Improper Resolution of Path Equivalence,Base,3.3242323945469687,0
+352,Cross-Site Request Forgery (CSRF),compound,3.22,0
+20,Improper Input Validation,class,2.984,0
+170,Improper Null Termination,base,2.8651999999999997,0
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0
+1322,Use of Blocking Code in Single-threaded  Non-blocking Context,base,2.8651999999999997,0

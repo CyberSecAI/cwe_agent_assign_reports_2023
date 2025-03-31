@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7935867815918658
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7773614804317426
+184,Incomplete List of Disallowed Inputs,Base,0.7686263639498703
+41,Improper Resolution of Path Equivalence,Base,0.7617016027962604
+427,Uncontrolled Search Path Element,Base,0.757694379716519
+64,Windows Shortcut Following (.LNK),Variant,0.7558585829422608
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7554728821847083
+61,UNIX Symbolic Link (Symlink) Following,Compound,0.7539864682078479
+73,External Control of File Name or Path,Base,0.7530764156627049
+356,Product UI does not Warn User of Unsafe Actions,Base,0.7433919838375598

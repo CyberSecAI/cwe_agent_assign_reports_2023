@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,5437.695778134651,base_query
+476,NULL Pointer Dereference,5005.142413597513,base_query
+617,Reachable Assertion,4772.822571710948,base_query
+824,Access of Uninitialized Pointer,4768.210528169212,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),4592.972794485052,base_query

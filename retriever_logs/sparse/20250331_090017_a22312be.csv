@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),6240.41434153256,base_query
+472,External Control of Assumed-Immutable Web Parameter,6125.520039889234,base_query
+784,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,6069.851160513806,base_query
+312,Cleartext Storage of Sensitive Information,5923.685318735373,base_query
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,5879.209152999668,base_query

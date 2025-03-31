@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7373566496479695
+668,Exposure of Resource to Wrong Sphere,Class,0.7365856679018222
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7349818672320465
+345,Insufficient Verification of Data Authenticity,Class,0.7345576990064029
+274,Improper Handling of Insufficient Privileges,Base,0.7343891095944048
+1390,Weak Authentication,Class,0.7298800955478852
+639,Authorization Bypass Through User-Controlled Key,Base,0.7285580138964416
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7260183049286193
+41,Improper Resolution of Path Equivalence,Base,0.7257889789528086
+404,Improper Resource Shutdown or Release,Class,0.7257054063644389

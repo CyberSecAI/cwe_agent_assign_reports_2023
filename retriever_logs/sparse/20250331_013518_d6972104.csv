@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6783.461015560108,base_query
+252,Unchecked Return Value,6548.169514547725,base_query
+770,Allocation of Resources Without Limits or Throttling,6482.54965425897,base_query
+789,Memory Allocation with Excessive Size Value,6463.205554832612,base_query
+116,Improper Encoding or Escaping of Output,6384.670529718849,base_query

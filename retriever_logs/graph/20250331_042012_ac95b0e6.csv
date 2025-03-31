@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,3.8870000000000005,0
+426,Untrusted Search Path,base,3.6399999999999997,0
+427,Uncontrolled Search Path Element,Base,2.483225998759346,0
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),variant,2.2800000000000002,0
+59,Improper Link Resolution Before File Access ('Link Following'),Base,2.2222017585368086,0
+363,Race Condition Enabling Link Following,base,2.2100000000000004,0
+428,Unquoted Search Path or Element,base,2.1762,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.04,0
+61,UNIX Symbolic Link (Symlink) Following,compound,2.002,0
+73,External Control of File Name or Path,Base,1.920418301848451,0

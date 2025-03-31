@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,3255.3387281743744,unknown
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),3139.5784924935047,unknown
+138,Improper Neutralization of Special Elements,2921.1282551818936,unknown
+707,Improper Neutralization,2887.443715361588,unknown
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),2872.6589179541047,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+312,Cleartext Storage of Sensitive Information,Base,0.7714974352321462
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7600008609261811
+639,Authorization Bypass Through User-Controlled Key,Base,0.7550322187522625
+1391,Use of Weak Credentials,Class,0.7546611157574035
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7526967686594157
+319,Cleartext Transmission of Sensitive Information,Base,0.7501431587788114
+1390,Weak Authentication,Class,0.7500444071966109
+668,Exposure of Resource to Wrong Sphere,Class,0.7499061686502972
+798,Use of Hard-coded Credentials,Base,0.74971724518972
+73,External Control of File Name or Path,Base,0.7495062697479488

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7527627019547799
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7518882833590642
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),Base,0.7401650396521002
+1236,Improper Neutralization of Formula Elements in a CSV File,Base,0.7374677584991933
+138,Improper Neutralization of Special Elements,Class,0.7318225657196246
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7250644824414988
+943,Improper Neutralization of Special Elements in Data Query Logic,Class,0.7240105344719879
+184,Incomplete List of Disallowed Inputs,Base,0.721712057654772
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7140387247422908
+41,Improper Resolution of Path Equivalence,Base,0.7130349477497346

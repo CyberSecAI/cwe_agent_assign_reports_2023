@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,5924.264789130927,unknown
+863,Incorrect Authorization,5802.853571520221,unknown
+295,Improper Certificate Validation,5788.407971167322,unknown
+285,Improper Authorization,5750.344608263735,unknown
+287,Improper Authentication,5723.835881656656,unknown

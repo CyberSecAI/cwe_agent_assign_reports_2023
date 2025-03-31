@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7260641374350343
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7171675013245613
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7170988732057497
+829,Inclusion of Functionality from Untrusted Control Sphere,Base,0.7114420912176317
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7069803079060524
+115,Misinterpretation of Input,Base,0.7055814814924215
+653,Improper Isolation or Compartmentalization,Class,0.7031081679832272
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Base,0.7015070526056746
+405,Asymmetric Resource Consumption (Amplification),Class,0.7006624189769596
+436,Interpretation Conflict,Class,0.6987882605702553

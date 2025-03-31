@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+178,Improper Handling of Case Sensitivity,base,5.031000000000001,0
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,4.329000000000001,0
+289,Authentication Bypass by Alternate Name,base,4.329000000000001,0
+434,Unrestricted Upload of File with Dangerous Type,base,4.329000000000001,0
+471,Modification of Assumed-Immutable Data (MAID),base,3.7206,0
+184,Incomplete List of Disallowed Inputs,Base,3.202250870551387,0
+183,Permissive List of Allowed Inputs,Base,3.1988645212351905,0
+41,Improper Resolution of Path Equivalence,Base,3.059199962597786,0
+322,Key Exchange without Entity Authentication,base,2.8651999999999997,0
+1282,Assumed-Immutable Data is Stored in Writable Memory,base,2.8651999999999997,0

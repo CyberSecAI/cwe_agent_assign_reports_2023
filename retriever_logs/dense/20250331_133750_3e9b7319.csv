@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7741541824146487
+667,Improper Locking,Class,0.7692790503625477
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7684002230648326
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.75764480928703
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7552463517184544
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.754797036399259
+665,Improper Initialization,Class,0.7488133736635709
+405,Asymmetric Resource Consumption (Amplification),Class,0.7483937780756018
+789,Memory Allocation with Excessive Size Value,Variant,0.7481748381007617
+252,Unchecked Return Value,Base,0.7477036006628114

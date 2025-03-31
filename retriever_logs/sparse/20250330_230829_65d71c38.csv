@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5392.245063296149,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,5358.936586497346,base_query
+295,Improper Certificate Validation,5275.428792148854,base_query
+863,Incorrect Authorization,5082.113695743626,base_query
+347,Improper Verification of Cryptographic Signature,5023.970985090663,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+787,Out-of-bounds Write,base,4.329000000000001,0
+190,Integer Overflow or Wraparound,base,4.329000000000001,0
+781,Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code,variant,3.7507200000000003,0
+128,Wrap-around Error,base,2.9120000000000004,0
+1339,Insufficient Precision or Accuracy of a Real Number,base,2.9120000000000004,0
+823,Use of Out-of-range Pointer Offset,Base,2.9111096174720252,0
+805,Buffer Access with Incorrect Length Value,Base,2.9076424339342455,0
+131,Incorrect Calculation of Buffer Size,Base,2.9055160888552773,0
+125,Out-of-bounds Read,Base,2.9045133370135967,0
+386,Symbolic Name not Mapping to Correct Object,base,2.9005600000000005,0

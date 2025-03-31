@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+667,Improper Locking,Class,0.773744122748276
+404,Improper Resource Shutdown or Release,Class,0.7724747139387532
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7668506589351183
+1021,Improper Restriction of Rendered UI Layers or Frames,Base,0.7629164404226392
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7616287495970062
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.757115708240267
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7520572435143584
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7512303544395856
+665,Improper Initialization,Class,0.7510572459139837
+668,Exposure of Resource to Wrong Sphere,Class,0.749561837356103

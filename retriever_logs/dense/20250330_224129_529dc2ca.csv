@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+653,Improper Isolation or Compartmentalization,Class,0.7610918557411691
+691,Insufficient Control Flow Management,Pillar,0.7606579066226844
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7581656434622974
+274,Improper Handling of Insufficient Privileges,Base,0.7545453453530248
+667,Improper Locking,Class,0.7513776239869714
+668,Exposure of Resource to Wrong Sphere,Class,0.7482543513675766
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7470531854895812
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.746218413868585
+404,Improper Resource Shutdown or Release,Class,0.7461564743597593
+41,Improper Resolution of Path Equivalence,Base,0.7460251055101322

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7118.8797223612655,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7061.957086402416,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6946.780198095205,base_query
+427,Uncontrolled Search Path Element,6752.585264491334,base_query
+138,Improper Neutralization of Special Elements,6692.161748445019,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,6254.252884006339,base_query
+941,Incorrectly Specified Destination in a Communication Channel,6177.601200051981,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6115.652975403714,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6046.099210944524,base_query
+1284,Improper Validation of Specified Quantity in Input,5932.696885040294,base_query

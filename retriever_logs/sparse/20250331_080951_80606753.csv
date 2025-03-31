@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,6463.019763546149,base_query
+941,Incorrectly Specified Destination in a Communication Channel,6141.232288445433,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,5918.664146109843,base_query
+918,Server-Side Request Forgery (SSRF),5885.7985237376815,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5758.181089901029,base_query

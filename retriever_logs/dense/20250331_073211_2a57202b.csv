@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+191,Integer Underflow (Wrap or Wraparound),Base,0.7901471158003184
+681,Incorrect Conversion between Numeric Types,Base,0.7822552189172736
+194,Unexpected Sign Extension,Variant,0.7797599987714077
+405,Asymmetric Resource Consumption (Amplification),Class,0.763170625194524
+131,Incorrect Calculation of Buffer Size,Base,0.7631004626482122
+197,Numeric Truncation Error,Base,0.7625576291876497
+195,Signed to Unsigned Conversion Error,Variant,0.7543943006694254
+190,Integer Overflow or Wraparound,Base,0.7502302069366131
+125,Out-of-bounds Read,Base,0.7495869971287359
+682,Incorrect Calculation,Pillar,0.7457797881275209

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+203,Observable Discrepancy,Base,0.7763707874307271
+208,Observable Timing Discrepancy,Base,0.7703725251071114
+204,Observable Response Discrepancy,Base,0.7698857182163147
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7691542414541919
+345,Insufficient Verification of Data Authenticity,Class,0.7651816803405693
+668,Exposure of Resource to Wrong Sphere,Class,0.7628772078854794
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7611670747370288
+404,Improper Resource Shutdown or Release,Class,0.7569512366091493
+667,Improper Locking,Class,0.7567892076512212
+755,Improper Handling of Exceptional Conditions,Class,0.7533232627995068

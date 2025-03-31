@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7689283176736095
+667,Improper Locking,Class,0.7688502214128088
+653,Improper Isolation or Compartmentalization,Class,0.7683109225198825
+274,Improper Handling of Insufficient Privileges,Base,0.767149327978103
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.763461715264313
+131,Incorrect Calculation of Buffer Size,Base,0.7623016032335311
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7613692098019147
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7573794531146163
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.756596174989034
+191,Integer Underflow (Wrap or Wraparound),Base,0.7521681242879507

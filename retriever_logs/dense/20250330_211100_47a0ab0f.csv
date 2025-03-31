@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+697,Incorrect Comparison,Pillar,0.766182354760376
+682,Incorrect Calculation,Pillar,0.7507976810261328
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7491612477864986
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7403347064659791
+405,Asymmetric Resource Consumption (Amplification),Class,0.7398938134056072
+691,Insufficient Control Flow Management,Pillar,0.7392205374834363
+653,Improper Isolation or Compartmentalization,Class,0.7357439893505708
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7336819296123002
+41,Improper Resolution of Path Equivalence,Base,0.7327969363929852
+668,Exposure of Resource to Wrong Sphere,Class,0.7318446735424848

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+770,Allocation of Resources Without Limits or Throttling,base,4.329000000000001,0
+476,NULL Pointer Dereference,base,4.329000000000001,0
+190,Integer Overflow or Wraparound,base,4.329000000000001,0
+252,Unchecked Return Value,base,4.329000000000001,0
+787,Out-of-bounds Write,base,4.329000000000001,0
+130,Improper Handling of Length Parameter Inconsistency,base,4.329000000000001,0
+1325,Improperly Controlled Sequential Memory Allocation,Base,3.3298641570632745,0
+789,Memory Allocation with Excessive Size Value,Variant,3.026075505764955,0
+131,Incorrect Calculation of Buffer Size,Base,2.915189550252069,0
+908,Use of Uninitialized Resource,Base,2.9147762321214854,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,5.915,0
+494,Download of Code Without Integrity Check,base,3.263,0
+611,Improper Restriction of XML External Entity Reference,base,2.7742,0
+471,Modification of Assumed-Immutable Data (MAID),base,2.7196000000000002,0
+352,Cross-Site Request Forgery (CSRF),compound,2.6308000000000002,0
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,2.5334626849121658,0
+94,Improper Control of Generation of Code ('Code Injection'),base,2.4232000000000005,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,2.4232000000000005,0
+425,Direct Request ('Forced Browsing'),Base,2.338613189271414,0
+73,External Control of File Name or Path,base,2.2089600000000003,0

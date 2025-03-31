@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,5729.633508529102,unknown
+798,Use of Hard-coded Credentials,5618.2615701980885,unknown
+259,Use of Hard-coded Password,5566.833562881448,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,5505.883659134305,unknown
+863,Incorrect Authorization,5504.658473835094,unknown

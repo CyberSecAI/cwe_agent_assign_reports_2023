@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+125,Out-of-bounds Read,Base,0.7616059706940258
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7589740463245613
+41,Improper Resolution of Path Equivalence,Base,0.7532242803084408
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7525633861886312
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7491112847017527
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.74851984628757
+23,Relative Path Traversal,Base,0.7465772294874407
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7465004307200601
+131,Incorrect Calculation of Buffer Size,Base,0.7457204832492191
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7431623633519767

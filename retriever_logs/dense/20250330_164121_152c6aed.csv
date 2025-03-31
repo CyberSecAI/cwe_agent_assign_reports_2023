@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7554083189839969
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7541238361845397
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.7535142695859787
+203,Observable Discrepancy,Base,0.7519347706486955
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7498482600365735
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7495114229355455
+1390,Weak Authentication,Class,0.7493379935143025
+668,Exposure of Resource to Wrong Sphere,Class,0.7493046513077266
+345,Insufficient Verification of Data Authenticity,Class,0.748691170227963
+653,Improper Isolation or Compartmentalization,Class,0.7485596514796335

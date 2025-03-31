@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,5500.457639076848,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5280.409347351894,unknown
+125,Out-of-bounds Read,5195.149027752485,unknown
+863,Incorrect Authorization,5190.551619677141,unknown
+639,Authorization Bypass Through User-Controlled Key,5150.996264215208,unknown

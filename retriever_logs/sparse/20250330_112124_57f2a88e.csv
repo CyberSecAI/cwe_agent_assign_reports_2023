@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,7154.539039313315,base_query
+863,Incorrect Authorization,7056.185724922642,base_query
+639,Authorization Bypass Through User-Controlled Key,6925.529761135975,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6855.393255822539,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6820.6384464735975,base_query

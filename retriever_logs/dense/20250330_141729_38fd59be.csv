@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7714944098548103
+667,Improper Locking,Class,0.752858860050319
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7502556500769209
+404,Improper Resource Shutdown or Release,Class,0.7485516673117873
+131,Incorrect Calculation of Buffer Size,Base,0.7445714426827885
+1288,Improper Validation of Consistency within Input,Base,0.7412891311957959
+606,Unchecked Input for Loop Condition,Base,0.7408266834751533
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7399632089200654
+252,Unchecked Return Value,Base,0.739240335333685
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7386558624555402

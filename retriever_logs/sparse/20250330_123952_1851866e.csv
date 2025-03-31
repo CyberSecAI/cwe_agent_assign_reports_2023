@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,6021.042728325838,base_query
+639,Authorization Bypass Through User-Controlled Key,5937.16532789081,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5861.346899884082,base_query
+611,Improper Restriction of XML External Entity Reference,5816.680520337202,base_query
+770,Allocation of Resources Without Limits or Throttling,5618.041417899923,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6758.716619635978,base_query
+125,Out-of-bounds Read,6733.506934618824,base_query
+823,Use of Out-of-range Pointer Offset,6731.500957687974,base_query
+863,Incorrect Authorization,6680.899598811471,base_query
+639,Authorization Bypass Through User-Controlled Key,6588.236171801832,base_query

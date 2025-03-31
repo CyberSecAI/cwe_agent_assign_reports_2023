@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7775711318747487
+552,Files or Directories Accessible to External Parties,Base,0.7674199679146433
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7642147144893064
+668,Exposure of Resource to Wrong Sphere,Class,0.7634598441812174
+404,Improper Resource Shutdown or Release,Class,0.7540672131333468
+41,Improper Resolution of Path Equivalence,Base,0.7536615272399689
+653,Improper Isolation or Compartmentalization,Class,0.7536244058688862
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7534723914639119
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7517669011309215
+73,External Control of File Name or Path,Base,0.7434981087614498

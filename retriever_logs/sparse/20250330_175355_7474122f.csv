@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1240,Use of a Cryptographic Primitive with a Risky Implementation,9165.845056659966,base_query
+328,Use of Weak Hash,8166.895637173924,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,7914.687865210985,base_query
+916,Use of Password Hash With Insufficient Computational Effort,7619.705859002862,base_query
+347,Improper Verification of Cryptographic Signature,7128.4230004983565,base_query

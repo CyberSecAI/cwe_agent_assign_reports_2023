@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,6107.608639370694,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5938.997358165812,base_query
+918,Server-Side Request Forgery (SSRF),5863.468090901377,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5828.499727098845,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),5773.593480870308,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7850235497820844
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7809984463024962
+170,Improper Null Termination,Base,0.769751950593675
+252,Unchecked Return Value,Base,0.7689163851439328
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7675084356742852
+755,Improper Handling of Exceptional Conditions,Class,0.76682669406868
+824,Access of Uninitialized Pointer,Base,0.7644642492449385
+617,Reachable Assertion,Base,0.7643558796132098
+668,Exposure of Resource to Wrong Sphere,Class,0.7632371384218788
+404,Improper Resource Shutdown or Release,Class,0.76302876318399

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,9054.997659447927,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),8936.022414490266,base_query
+138,Improper Neutralization of Special Elements,8550.488258477773,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8423.408707432072,base_query
+1284,Improper Validation of Specified Quantity in Input,8358.534874821406,base_query

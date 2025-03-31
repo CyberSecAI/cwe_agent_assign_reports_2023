@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7719744981323404
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7512892070587149
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7390853455272204
+41,Improper Resolution of Path Equivalence,Base,0.7370280176631485
+668,Exposure of Resource to Wrong Sphere,Class,0.736803119657328
+331,Insufficient Entropy,Base,0.7335503958651773
+138,Improper Neutralization of Special Elements,Class,0.7327985511923959
+73,External Control of File Name or Path,Base,0.7314944953455185
+345,Insufficient Verification of Data Authenticity,Class,0.7303212274851761
+184,Incomplete List of Disallowed Inputs,Base,0.7298138888547542

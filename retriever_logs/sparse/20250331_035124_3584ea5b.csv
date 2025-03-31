@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+476,NULL Pointer Dereference,5834.359172482296,base_query
+125,Out-of-bounds Read,5733.698706471582,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5713.853602542587,base_query
+415,Double Free,5672.619719543606,base_query
+190,Integer Overflow or Wraparound,5660.477947392357,base_query

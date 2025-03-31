@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+208,Observable Timing Discrepancy,base,4.329000000000001,0
+385,Covert Timing Channel,base,4.329000000000001,0
+259,Use of Hard-coded Password,variant,2.9184000000000005,0
+1204,Generation of Weak Initialization Vector (IV),base,2.4699999999999998,0
+798,Use of Hard-coded Credentials,base,2.4699999999999998,0
+321,Use of Hard-coded Cryptographic Key,variant,2.4432,0
+804,Guessable CAPTCHA,base,2.2100000000000004,0
+1272,Sensitive Information Uncleared Before Debug/Power State Transition,base,2.2100000000000004,0
+1291,Public Key Re-Use for Signing both Debug and Production Code,base,2.1762,0
+358,Improperly Implemented Security Check for Standard,base,2.1762,0

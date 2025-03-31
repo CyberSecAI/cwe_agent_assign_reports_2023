@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+208,Observable Timing Discrepancy,Base,0.7988324709462007
+204,Observable Response Discrepancy,Base,0.7749846884499347
+203,Observable Discrepancy,Base,0.7721709293919314
+668,Exposure of Resource to Wrong Sphere,Class,0.7619969333155834
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.76166167061899
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7575505731361545
+41,Improper Resolution of Path Equivalence,Base,0.7571795652725304
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7542036563777963
+799,Improper Control of Interaction Frequency,Class,0.7539135083422728
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7535481723903408

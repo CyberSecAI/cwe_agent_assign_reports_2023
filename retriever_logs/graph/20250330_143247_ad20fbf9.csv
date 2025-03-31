@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,4.329000000000001,0
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,4.329000000000001,0
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),base,3.4866,0
+184,Incomplete List of Disallowed Inputs,Base,2.893299434174704,0
+791,Incomplete Filtering of Special Elements,base,2.4699999999999998,0
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),base,2.4699999999999998,0
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),base,2.4699999999999998,0
+94,Improper Control of Generation of Code ('Code Injection'),base,2.4232000000000005,0
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),base,2.3998000000000004,0
+1287,Improper Validation of Specified Type of Input,base,2.3998000000000004,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+476,NULL Pointer Dereference,Base,0.7833265689434505
+131,Incorrect Calculation of Buffer Size,Base,0.7731335556548606
+805,Buffer Access with Incorrect Length Value,Base,0.7723712716747635
+126,Buffer Over-read,Variant,0.7591038358969034
+191,Integer Underflow (Wrap or Wraparound),Base,0.7585334925456013
+170,Improper Null Termination,Base,0.7581199567186301
+129,Improper Validation of Array Index,Variant,0.7516649866458059
+125,Out-of-bounds Read,Base,0.7516267658888178
+824,Access of Uninitialized Pointer,Base,0.7488323578805014
+193,Off-by-one Error,Base,0.7473236127121028

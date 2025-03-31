@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+274,Improper Handling of Insufficient Privileges,Base,0.7668331958467021
+653,Improper Isolation or Compartmentalization,Class,0.7643233699908212
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7581075858445425
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7567352538369599
+266,Incorrect Privilege Assignment,Base,0.751894765649642
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7491647700522011
+691,Insufficient Control Flow Management,Pillar,0.7482899121220042
+267,Privilege Defined With Unsafe Actions,Base,0.7455579661991413
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7451644650319875
+1220,Insufficient Granularity of Access Control,Base,0.743195239602187

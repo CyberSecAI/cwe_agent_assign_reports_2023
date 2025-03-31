@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7954894471986521
+184,Incomplete List of Disallowed Inputs,Base,0.7815921867393278
+295,Improper Certificate Validation,Base,0.7774339770192349
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7752199768423145
+138,Improper Neutralization of Special Elements,Class,0.7733692380141822
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7731982710746308
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7687281934346044
+345,Insufficient Verification of Data Authenticity,Class,0.7679875129306221
+41,Improper Resolution of Path Equivalence,Base,0.7665390031099084
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7612102761462329

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,4.329000000000001,0
+201,Insertion of Sensitive Information Into Sent Data,base,4.329000000000001,0
+178,Improper Handling of Case Sensitivity,base,3.6399999999999997,0
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,2.896024571620814,0
+322,Key Exchange without Entity Authentication,base,2.8651999999999997,0
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,2.8651999999999997,0
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),base,2.8651999999999997,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,2.8651999999999997,0
+226,Sensitive Information in Resource Not Removed Before Reuse,base,2.8651999999999997,0

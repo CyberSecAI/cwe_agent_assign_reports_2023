@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,7754.960768103297,unknown
+863,Incorrect Authorization,7562.119186181174,unknown
+639,Authorization Bypass Through User-Controlled Key,7520.315872684054,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),7507.973692448926,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7505.174461743139,unknown

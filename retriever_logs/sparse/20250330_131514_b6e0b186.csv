@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+201,Insertion of Sensitive Information Into Sent Data,7005.795862042501,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,6838.0249901612015,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),6765.402233889091,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,6713.341306558359,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,6628.708360324915,base_query

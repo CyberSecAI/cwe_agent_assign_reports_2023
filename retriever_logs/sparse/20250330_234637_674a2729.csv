@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+923,Improper Restriction of Communication Channel to Intended Endpoints,5723.968042140756,unknown
+287,Improper Authentication,5613.611901022591,unknown
+1390,Weak Authentication,5611.185268738667,unknown
+863,Incorrect Authorization,5553.589744825183,unknown
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,5544.810729130346,unknown

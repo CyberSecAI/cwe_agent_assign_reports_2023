@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),6475.077575729404,base_query
+184,Incomplete List of Disallowed Inputs,6468.9398547614,base_query
+158,Improper Neutralization of Null Byte or NUL Character,6411.538953130929,base_query
+427,Uncontrolled Search Path Element,6300.343063715238,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6210.743249185791,base_query

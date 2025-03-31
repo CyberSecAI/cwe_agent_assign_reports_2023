@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,5769.870279422058,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5742.360759613187,base_query
+668,Exposure of Resource to Wrong Sphere,5677.717119379323,base_query
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,5645.912500197107,base_query
+201,Insertion of Sensitive Information Into Sent Data,5538.421420959443,base_query

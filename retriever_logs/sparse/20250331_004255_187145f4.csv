@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1256,Improper Restriction of Software Interfaces to Hardware Features,5577.0368581855655,base_query
+319,Cleartext Transmission of Sensitive Information,5415.292470268938,base_query
+1421,Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution,5240.219434011996,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5197.159141490553,base_query
+863,Incorrect Authorization,5188.3805821272845,base_query

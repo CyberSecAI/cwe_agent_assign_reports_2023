@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,8009.809997418089,unknown
+328,Use of Weak Hash,7562.789454448288,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,7069.8636807569565,unknown
+1391,Use of Weak Credentials,6998.6042805364605,unknown
+259,Use of Hard-coded Password,6869.918028408112,unknown

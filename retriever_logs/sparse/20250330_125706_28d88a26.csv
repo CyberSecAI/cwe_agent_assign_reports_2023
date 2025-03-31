@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,5663.360598047093,base_query
+328,Use of Weak Hash,5532.233598415766,base_query
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),5497.241332035858,base_query
+208,Observable Timing Discrepancy,5411.790719069738,base_query
+799,Improper Control of Interaction Frequency,5334.045742347735,base_query

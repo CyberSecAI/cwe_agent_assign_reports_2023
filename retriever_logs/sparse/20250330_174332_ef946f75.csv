@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,7760.623046485745,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,7697.286287759114,unknown
+1284,Improper Validation of Specified Quantity in Input,7665.826443425536,unknown
+789,Memory Allocation with Excessive Size Value,7617.705027882464,unknown
+190,Integer Overflow or Wraparound,7566.112294538411,unknown

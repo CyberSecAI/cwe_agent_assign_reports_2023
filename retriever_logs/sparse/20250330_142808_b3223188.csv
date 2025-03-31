@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,6189.819976809258,unknown
+1236,Improper Neutralization of Formula Elements in a CSV File,6087.396602500994,unknown
+116,Improper Encoding or Escaping of Output,6085.84940751275,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6018.622336943973,unknown
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),5881.441975126808,unknown

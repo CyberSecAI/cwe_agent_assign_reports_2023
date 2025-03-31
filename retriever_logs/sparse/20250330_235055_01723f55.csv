@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5473.716004801753,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5324.488238315033,unknown
+502,Deserialization of Untrusted Data,5291.645297065932,unknown
+918,Server-Side Request Forgery (SSRF),5237.120289889471,unknown
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,5163.94631479004,unknown

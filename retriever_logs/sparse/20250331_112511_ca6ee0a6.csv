@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,6953.102887954248,base_query
+1284,Improper Validation of Specified Quantity in Input,6915.658321714016,base_query
+789,Memory Allocation with Excessive Size Value,6894.712628505493,base_query
+190,Integer Overflow or Wraparound,6686.671935351201,base_query
+863,Incorrect Authorization,6579.959003229397,base_query

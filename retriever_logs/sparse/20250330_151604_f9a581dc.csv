@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,6484.434638960676,unknown
+125,Out-of-bounds Read,6296.299836293487,unknown
+789,Memory Allocation with Excessive Size Value,6249.671724669364,unknown
+1284,Improper Validation of Specified Quantity in Input,6240.286188835954,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6213.700433336264,unknown

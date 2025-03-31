@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,5337.951408951641,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),5262.01002107051,base_query
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,4998.782065333011,base_query
+312,Cleartext Storage of Sensitive Information,4990.599383708759,base_query
+1390,Weak Authentication,4963.977522988666,base_query

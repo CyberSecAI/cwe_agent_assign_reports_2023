@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,4058.45165643883,base_query
+209,Generation of Error Message Containing Sensitive Information,4034.2552580514885,base_query
+1390,Weak Authentication,3953.874703398229,base_query
+863,Incorrect Authorization,3873.6480137269164,base_query
+451,User Interface (UI) Misrepresentation of Critical Information,3870.5121933094415,base_query

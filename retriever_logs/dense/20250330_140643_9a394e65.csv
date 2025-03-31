@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7711682678725991
+208,Observable Timing Discrepancy,Base,0.771167319369728
+341,Predictable from Observable State,Base,0.7702379382531428
+340,Generation of Predictable Numbers or Identifiers,Class,0.7575171486528172
+203,Observable Discrepancy,Base,0.7499520308405618
+131,Incorrect Calculation of Buffer Size,Base,0.7458842300460322
+667,Improper Locking,Class,0.7456388988929614
+125,Out-of-bounds Read,Base,0.7397201215163278
+345,Insufficient Verification of Data Authenticity,Class,0.733861898361812
+755,Improper Handling of Exceptional Conditions,Class,0.7333579095626072

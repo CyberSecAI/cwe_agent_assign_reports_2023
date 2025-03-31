@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+798,Use of Hard-coded Credentials,Base,0.757560992296971
+639,Authorization Bypass Through User-Controlled Key,Base,0.7561504580077617
+41,Improper Resolution of Path Equivalence,Base,0.7557414443452314
+668,Exposure of Resource to Wrong Sphere,Class,0.7546990013726271
+1391,Use of Weak Credentials,Class,0.7546081193467147
+1390,Weak Authentication,Class,0.7529694925782029
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7525401296856147
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7496079226369017
+653,Improper Isolation or Compartmentalization,Class,0.7474766196299432
+274,Improper Handling of Insufficient Privileges,Base,0.7453786390919226

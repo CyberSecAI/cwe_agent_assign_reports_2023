@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7918345501203062
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7784907885222025
+300,Channel Accessible by Non-Endpoint,Class,0.7730579449624861
+799,Improper Control of Interaction Frequency,Class,0.7698118227216044
+1220,Insufficient Granularity of Access Control,Base,0.7687699617587488
+319,Cleartext Transmission of Sensitive Information,Base,0.7611499628749873
+668,Exposure of Resource to Wrong Sphere,Class,0.7605719860367453
+41,Improper Resolution of Path Equivalence,Base,0.7598669068667652
+653,Improper Isolation or Compartmentalization,Class,0.7597780210485998
+425,Direct Request ('Forced Browsing'),Base,0.7570728197319999

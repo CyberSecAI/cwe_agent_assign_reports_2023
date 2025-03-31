@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7453428938698459
+404,Improper Resource Shutdown or Release,Class,0.7406298785382557
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7386076371231465
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.73775317922037
+667,Improper Locking,Class,0.7364636488811431
+125,Out-of-bounds Read,Base,0.7355009258942133
+191,Integer Underflow (Wrap or Wraparound),Base,0.7337753696848776
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7331567214911043
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7328336827680542
+606,Unchecked Input for Loop Condition,Base,0.7308721084309582

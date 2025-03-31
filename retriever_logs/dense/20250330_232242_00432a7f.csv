@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+674,Uncontrolled Recursion,Class,0.7387501882172132
+606,Unchecked Input for Loop Condition,Base,0.7327167489421522
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),Base,0.730356132344708
+191,Integer Underflow (Wrap or Wraparound),Base,0.7295484315543943
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7292304611815323
+834,Excessive Iteration,Class,0.7199964989639502
+789,Memory Allocation with Excessive Size Value,Variant,0.7137516316828458
+1265,Unintended Reentrant Invocation of Non-reentrant Code Via Nested Calls,Base,0.7134611290676047
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7116205119314221
+197,Numeric Truncation Error,Base,0.7111485730029508

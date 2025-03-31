@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+201,Insertion of Sensitive Information Into Sent Data,base,4.329000000000001,0
+226,Sensitive Information in Resource Not Removed Before Reuse,base,4.329000000000001,0
+178,Improper Handling of Case Sensitivity,base,3.757,0
+1304,Improperly Preserved Integrity of Hardware Configuration State During a Power Save/Restore Operation,base,3.6399999999999997,0
+708,Incorrect Ownership Assignment,base,3.6399999999999997,0
+1271,Uninitialized Value on Reset for Registers Holding Security Settings,base,3.6399999999999997,0
+1289,Improper Validation of Unsafe Equivalence in Input,base,3.6399999999999997,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,3.302,0
+41,Improper Resolution of Path Equivalence,Base,3.053985293926607,0
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,2.8975984380360558,0

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,5822.724636793319,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5247.903087743243,base_query
+319,Cleartext Transmission of Sensitive Information,5080.324778600028,base_query
+1390,Weak Authentication,5069.793258239756,base_query
+347,Improper Verification of Cryptographic Signature,5067.390114226034,base_query

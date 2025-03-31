@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,5173.453957247672,unknown
+125,Out-of-bounds Read,5101.147388130838,unknown
+1257,Improper Access Control Applied to Mirrored or Aliased Memory Regions,5048.123577105804,unknown
+1284,Improper Validation of Specified Quantity in Input,5032.068807594262,unknown
+191,Integer Underflow (Wrap or Wraparound),5013.746158692467,unknown

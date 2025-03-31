@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6239.792856033565,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5943.602225696347,base_query
+472,External Control of Assumed-Immutable Web Parameter,5900.7159580808275,base_query
+863,Incorrect Authorization,5847.439021780649,base_query
+201,Insertion of Sensitive Information Into Sent Data,5733.180272881958,base_query

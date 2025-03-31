@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1236,Improper Neutralization of Formula Elements in a CSV File,Base,0.7910731735788428
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7848792368265101
+73,External Control of File Name or Path,Base,0.7679775874774707
+23,Relative Path Traversal,Base,0.7642404688056688
+668,Exposure of Resource to Wrong Sphere,Class,0.7576324160178316
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7547511804771331
+41,Improper Resolution of Path Equivalence,Base,0.7530476651647525
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7528316711876913
+552,Files or Directories Accessible to External Parties,Base,0.7525699510861003
+427,Uncontrolled Search Path Element,Base,0.7520617074660836

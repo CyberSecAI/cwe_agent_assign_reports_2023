@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+259,Use of Hard-coded Password,variant,4.0104,0
+1339,Insufficient Precision or Accuracy of a Real Number,base,3.055,0
+804,Guessable CAPTCHA,base,2.8651999999999997,0
+208,Observable Timing Discrepancy,base,2.8651999999999997,0
+321,Use of Hard-coded Cryptographic Key,Variant,2.712274676899466,0
+798,Use of Hard-coded Credentials,Base,2.494879172081507,0
+257,Storing Passwords in a Recoverable Format,Base,2.493489864199487,0
+549,Missing Password Field Masking,base,2.4699999999999998,0
+190,Integer Overflow or Wraparound,base,2.2698,0
+613,Insufficient Session Expiration,base,2.2100000000000004,0

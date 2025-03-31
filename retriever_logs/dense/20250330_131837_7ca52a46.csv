@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.792818062045018
+173,Improper Handling of Alternate Encoding,Variant,0.7662812603062172
+41,Improper Resolution of Path Equivalence,Base,0.7612676393303988
+176,Improper Handling of Unicode Encoding,Variant,0.7596865839567033
+184,Incomplete List of Disallowed Inputs,Base,0.7595881944436677
+138,Improper Neutralization of Special Elements,Class,0.758389550724028
+73,External Control of File Name or Path,Base,0.7554256791276391
+838,Inappropriate Encoding for Output Context,Base,0.7547109150889976
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7542046722617681
+177,Improper Handling of URL Encoding (Hex Encoding),Variant,0.7530021780604117

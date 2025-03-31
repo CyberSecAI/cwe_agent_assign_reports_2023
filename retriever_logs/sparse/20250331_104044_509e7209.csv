@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1285,Improper Validation of Specified Index  Position  or Offset in Input,6305.503428015624,base_query
+754,Improper Check for Unusual or Exceptional Conditions,6186.819419467519,base_query
+770,Allocation of Resources Without Limits or Throttling,6051.4804404579545,base_query
+401,Missing Release of Memory after Effective Lifetime,5946.568602987228,base_query
+1250,Improper Preservation of Consistency Between Independent Representations of Shared State,5935.576908772066,base_query

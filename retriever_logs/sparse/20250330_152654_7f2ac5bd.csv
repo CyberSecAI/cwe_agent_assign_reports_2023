@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,7466.183677490773,base_query
+328,Use of Weak Hash,7199.753011860343,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,7153.902106758299,base_query
+611,Improper Restriction of XML External Entity Reference,7147.4190826569375,base_query
+863,Incorrect Authorization,7072.858127874472,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+425,Direct Request ('Forced Browsing'),Base,0.7817418146695094
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7756721322105189
+639,Authorization Bypass Through User-Controlled Key,Base,0.773699736963092
+184,Incomplete List of Disallowed Inputs,Base,0.7714944041404983
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7670698339120604
+41,Improper Resolution of Path Equivalence,Base,0.7645302819586088
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7600689299336577
+799,Improper Control of Interaction Frequency,Class,0.7585170422945104
+552,Files or Directories Accessible to External Parties,Base,0.7574936642367113
+116,Improper Encoding or Escaping of Output,Class,0.7532570976320418

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7569241013341603
+704,Incorrect Type Conversion or Cast,Class,0.7533813735269248
+681,Incorrect Conversion between Numeric Types,Base,0.7435238537989914
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7322167579167771
+668,Exposure of Resource to Wrong Sphere,Class,0.7318513866241642
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7310170268986467
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.727813612392372
+404,Improper Resource Shutdown or Release,Class,0.7255786654355694
+41,Improper Resolution of Path Equivalence,Base,0.7249532154232153
+197,Numeric Truncation Error,Base,0.724129127992799

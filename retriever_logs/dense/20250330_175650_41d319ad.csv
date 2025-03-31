@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+407,Inefficient Algorithmic Complexity,Class,0.7727831899216597
+1176,Inefficient CPU Computation,Class,0.7463792948393506
+789,Memory Allocation with Excessive Size Value,Variant,0.7369946316327249
+405,Asymmetric Resource Consumption (Amplification),Class,0.7356939629654113
+131,Incorrect Calculation of Buffer Size,Base,0.7289477323046045
+129,Improper Validation of Array Index,Variant,0.7282236472465207
+674,Uncontrolled Recursion,Class,0.7279174648610223
+681,Incorrect Conversion between Numeric Types,Base,0.7264860717089298
+191,Integer Underflow (Wrap or Wraparound),Base,0.7257777344843682
+125,Out-of-bounds Read,Base,0.724387974200305

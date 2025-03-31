@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6246.4224365527925,unknown
+201,Insertion of Sensitive Information Into Sent Data,5952.7038188185625,unknown
+863,Incorrect Authorization,5952.000368888083,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5928.803421775243,unknown
+472,External Control of Assumed-Immutable Web Parameter,5908.998475001452,unknown

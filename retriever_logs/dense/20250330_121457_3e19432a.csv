@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+798,Use of Hard-coded Credentials,Base,0.7999703722530755
+1391,Use of Weak Credentials,Class,0.7857335132050989
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.7823952104190415
+312,Cleartext Storage of Sensitive Information,Base,0.7703895874840846
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7691109800825806
+294,Authentication Bypass by Capture-replay,Base,0.7662283702779986
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7659115019889676
+257,Storing Passwords in a Recoverable Format,Base,0.7629018396260522
+657,Violation of Secure Design Principles,Class,0.761522481876025
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7608003623816089

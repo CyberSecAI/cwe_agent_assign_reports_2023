@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,4969.970777497954,unknown
+502,Deserialization of Untrusted Data,4885.908451529819,unknown
+863,Incorrect Authorization,4833.925389003234,unknown
+306,Missing Authentication for Critical Function,4740.005066682884,unknown
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,4734.799902240708,unknown

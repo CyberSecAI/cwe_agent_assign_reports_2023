@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),9993.020106954089,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),9988.226221321658,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),9857.411193755726,base_query
+116,Improper Encoding or Escaping of Output,9562.009200469485,base_query
+138,Improper Neutralization of Special Elements,9544.776214095016,base_query

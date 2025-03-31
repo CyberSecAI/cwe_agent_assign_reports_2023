@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+457,Use of Uninitialized Variable,Variant,0.7837505488873145
+191,Integer Underflow (Wrap or Wraparound),Base,0.7803754842196873
+131,Incorrect Calculation of Buffer Size,Base,0.7745420223687349
+126,Buffer Over-read,Variant,0.7653339878729419
+193,Off-by-one Error,Base,0.7628072747474668
+125,Out-of-bounds Read,Base,0.761769489621716
+190,Integer Overflow or Wraparound,Base,0.7610918340643451
+908,Use of Uninitialized Resource,Base,0.7595238425918645
+197,Numeric Truncation Error,Base,0.7566072445022066
+129,Improper Validation of Array Index,Variant,0.7555669362592567

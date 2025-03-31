@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+552,Files or Directories Accessible to External Parties,5880.2024396667575,base_query
+319,Cleartext Transmission of Sensitive Information,5656.030501663347,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5408.363743336086,base_query
+863,Incorrect Authorization,5394.001515996165,base_query
+61,UNIX Symbolic Link (Symlink) Following,5388.162888091835,base_query

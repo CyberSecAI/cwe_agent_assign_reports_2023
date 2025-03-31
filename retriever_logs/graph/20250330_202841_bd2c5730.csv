@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+178,Improper Handling of Case Sensitivity,base,3.6399999999999997,0
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,base,3.6399999999999997,0
+502,Deserialization of Untrusted Data,base,3.6399999999999997,0
+1289,Improper Validation of Unsafe Equivalence in Input,base,3.6399999999999997,0
+289,Authentication Bypass by Alternate Name,base,2.73416,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+252,Unchecked Return Value,base,2.6104000000000003,0
+456,Missing Initialization of a Variable,variant,2.5507200000000005,0
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,2.4980371696309844,0
+274,Improper Handling of Insufficient Privileges,Base,2.4978848515368424,0

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+927,Use of Implicit Intent for Sensitive Communication,6275.56716054233,base_query
+285,Improper Authorization,5887.899569572286,base_query
+863,Incorrect Authorization,5851.120048458796,base_query
+287,Improper Authentication,5750.349881240611,base_query
+306,Missing Authentication for Critical Function,5618.260746232367,base_query

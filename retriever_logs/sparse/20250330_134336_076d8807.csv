@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+404,Improper Resource Shutdown or Release,6285.592390181719,unknown
+226,Sensitive Information in Resource Not Removed Before Reuse,6043.494819839369,unknown
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),5952.021592178703,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,5868.979716078408,unknown
+1333,Inefficient Regular Expression Complexity,5827.774140275774,unknown

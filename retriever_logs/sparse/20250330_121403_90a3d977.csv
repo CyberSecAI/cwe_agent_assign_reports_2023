@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,5972.07550068176,unknown
+1284,Improper Validation of Specified Quantity in Input,5706.402169708957,unknown
+125,Out-of-bounds Read,5663.39424182739,unknown
+1390,Weak Authentication,5658.463631890505,unknown
+863,Incorrect Authorization,5653.915526360453,unknown

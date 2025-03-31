@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+352,Cross-Site Request Forgery (CSRF),Compound,0.7271772756593774
+116,Improper Encoding or Escaping of Output,Class,0.7252455960276588
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7240356233205473
+425,Direct Request ('Forced Browsing'),Base,0.7202952471466233
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7117136148507035
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7110793415771726
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7097164393535156
+138,Improper Neutralization of Special Elements,Class,0.7077277264808817
+1391,Use of Weak Credentials,Class,0.7055339639867235
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7038588494117293

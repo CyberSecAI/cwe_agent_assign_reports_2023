@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,6875.086794144698,unknown
+125,Out-of-bounds Read,6808.249270660886,unknown
+667,Improper Locking,6803.810869284275,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6765.212233469891,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6751.368477872147,unknown

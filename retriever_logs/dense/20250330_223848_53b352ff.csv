@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+653,Improper Isolation or Compartmentalization,Class,0.7600752767236034
+23,Relative Path Traversal,Base,0.7585047446065089
+274,Improper Handling of Insufficient Privileges,Base,0.7581494612890025
+668,Exposure of Resource to Wrong Sphere,Class,0.7552194411260165
+184,Incomplete List of Disallowed Inputs,Base,0.7551566543827622
+41,Improper Resolution of Path Equivalence,Base,0.7542915846553345
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7531867825750475
+639,Authorization Bypass Through User-Controlled Key,Base,0.7530933828539274
+73,External Control of File Name or Path,Base,0.7527306343108158
+266,Incorrect Privilege Assignment,Base,0.7500197532114985

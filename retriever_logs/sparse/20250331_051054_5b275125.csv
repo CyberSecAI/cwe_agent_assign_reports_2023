@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+327,Use of a Broken or Risky Cryptographic Algorithm,5008.417872988177,base_query
+312,Cleartext Storage of Sensitive Information,4995.535496292228,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,4959.691995918323,base_query
+916,Use of Password Hash With Insufficient Computational Effort,4802.163746454271,base_query
+209,Generation of Error Message Containing Sensitive Information,4799.746160068044,base_query

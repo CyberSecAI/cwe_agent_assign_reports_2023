@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+281,Improper Preservation of Permissions,Base,0.7663792990533489
+404,Improper Resource Shutdown or Release,Class,0.7526165506480782
+274,Improper Handling of Insufficient Privileges,Base,0.7476699220564811
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7474016754214301
+668,Exposure of Resource to Wrong Sphere,Class,0.743750186482852
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7433479631274884
+639,Authorization Bypass Through User-Controlled Key,Base,0.7407828540477821
+667,Improper Locking,Class,0.7404769033386712
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7401307230605003
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7393994383081152

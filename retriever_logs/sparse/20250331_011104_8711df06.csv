@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5602.4219534508675,unknown
+863,Incorrect Authorization,4989.6135512388,unknown
+1390,Weak Authentication,4983.1815693869075,unknown
+285,Improper Authorization,4972.013944023716,unknown
+287,Improper Authentication,4958.894470212793,unknown

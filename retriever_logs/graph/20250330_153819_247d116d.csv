@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+295,Improper Certificate Validation,base,3.6399999999999997,0
+322,Key Exchange without Entity Authentication,base,3.6399999999999997,0
+178,Improper Handling of Case Sensitivity,Base,3.3233888561951566,0
+433,Unparsed Raw Web Content Delivery,variant,3.24,0
+471,Modification of Assumed-Immutable Data (MAID),base,3.055,0
+289,Authentication Bypass by Alternate Name,Base,2.9080756680974815,0
+425,Direct Request ('Forced Browsing'),base,2.73416,0
+73,External Control of File Name or Path,base,2.6816400000000002,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+52,Path Equivalence: '/multiple/trailing/slash//',variant,2.5507200000000005,0

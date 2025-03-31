@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7830112057271332
+184,Incomplete List of Disallowed Inputs,Base,0.7573251487871672
+1391,Use of Weak Credentials,Class,0.7515078006824114
+138,Improper Neutralization of Special Elements,Class,0.7512487847041583
+41,Improper Resolution of Path Equivalence,Base,0.7500553884169157
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7445009274750964
+73,External Control of File Name or Path,Base,0.7441645513912019
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7433521820929296
+134,Use of Externally-Controlled Format String,Base,0.7417389501149714
+345,Insufficient Verification of Data Authenticity,Class,0.7398884899894503

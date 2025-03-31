@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+156,Improper Neutralization of Whitespace,Variant,0.7761059274140676
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7647377888876543
+366,Race Condition within a Thread,Base,0.7491462414422689
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7421906842093553
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7415569484476495
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7401044769427736
+125,Out-of-bounds Read,Base,0.7395575138664631
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7394219797673346
+404,Improper Resource Shutdown or Release,Class,0.7381137367430779
+41,Improper Resolution of Path Equivalence,Base,0.737975280131781

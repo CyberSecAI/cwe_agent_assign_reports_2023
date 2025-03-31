@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+668,Exposure of Resource to Wrong Sphere,6134.452469042207,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6001.376612504981,base_query
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,6000.995045615165,base_query
+863,Incorrect Authorization,5995.6653808160545,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),5932.286436099026,base_query

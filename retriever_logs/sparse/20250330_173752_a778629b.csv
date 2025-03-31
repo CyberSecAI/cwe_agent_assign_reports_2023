@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,7699.72238501186,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,7606.103158751249,unknown
+138,Improper Neutralization of Special Elements,7285.920712897361,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7280.067976171116,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7249.212445913487,unknown

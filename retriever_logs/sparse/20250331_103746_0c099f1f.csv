@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,6516.926288851631,base_query
+203,Observable Discrepancy,6446.312913756893,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,6441.937436683434,base_query
+502,Deserialization of Untrusted Data,6316.701721514776,base_query
+306,Missing Authentication for Critical Function,6243.646284511712,base_query

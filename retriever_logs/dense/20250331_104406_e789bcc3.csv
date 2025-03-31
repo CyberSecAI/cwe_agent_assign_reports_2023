@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7447674198767984
+653,Improper Isolation or Compartmentalization,Class,0.7310400426219466
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7283427810111472
+707,Improper Neutralization,Pillar,0.7272342749276687
+184,Incomplete List of Disallowed Inputs,Base,0.7264134929351298
+138,Improper Neutralization of Special Elements,Class,0.725378061746883
+41,Improper Resolution of Path Equivalence,Base,0.7212616173416924
+162,Improper Neutralization of Trailing Special Elements,Variant,0.7170793078781617
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7132216400689015
+436,Interpretation Conflict,Class,0.7118567949427022

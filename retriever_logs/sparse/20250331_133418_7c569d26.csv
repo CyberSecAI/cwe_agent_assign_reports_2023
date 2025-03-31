@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,5269.352407228723,base_query
+116,Improper Encoding or Escaping of Output,4991.275490524943,base_query
+183,Permissive List of Allowed Inputs,4939.723869130372,base_query
+295,Improper Certificate Validation,4850.476096501664,base_query
+863,Incorrect Authorization,4685.660880153534,base_query

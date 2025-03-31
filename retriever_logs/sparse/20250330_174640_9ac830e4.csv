@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,5434.415297549394,base_query
+319,Cleartext Transmission of Sensitive Information,5367.811658468809,base_query
+863,Incorrect Authorization,5347.49741700826,base_query
+287,Improper Authentication,5320.146728657542,base_query
+306,Missing Authentication for Critical Function,5315.954179903022,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,4370.527661022756,unknown
+625,Permissive Regular Expression,4105.480817048902,unknown
+407,Inefficient Algorithmic Complexity,3868.7993284938216,unknown
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),3708.2502910011663,unknown
+405,Asymmetric Resource Consumption (Amplification),3689.179177680024,unknown

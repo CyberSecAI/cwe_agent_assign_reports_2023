@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+226,Sensitive Information in Resource Not Removed Before Reuse,4876.275164729323,base_query
+312,Cleartext Storage of Sensitive Information,4841.9982262169315,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,4810.478418080861,base_query
+639,Authorization Bypass Through User-Controlled Key,4674.7645266915315,base_query
+1240,Use of a Cryptographic Primitive with a Risky Implementation,4654.711430782209,base_query

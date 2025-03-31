@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,7623.374500261705,base_query
+611,Improper Restriction of XML External Entity Reference,7335.561990114483,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,7116.362180348717,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),7061.302792082977,base_query
+1333,Inefficient Regular Expression Complexity,7040.085860176826,base_query

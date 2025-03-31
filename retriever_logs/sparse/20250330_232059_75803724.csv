@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+823,Use of Out-of-range Pointer Offset,5861.712767684801,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5840.213081918096,unknown
+667,Improper Locking,5839.945534598467,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5804.888061138483,unknown
+125,Out-of-bounds Read,5709.505563864347,unknown

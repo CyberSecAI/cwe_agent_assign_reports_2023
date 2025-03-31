@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+363,Race Condition Enabling Link Following,base,4.329000000000001,0
+1284,Improper Validation of Specified Quantity in Input,base,4.329000000000001,0
+804,Guessable CAPTCHA,base,4.329000000000001,0
+789,Memory Allocation with Excessive Size Value,variant,3.8784,0
+770,Allocation of Resources Without Limits or Throttling,base,3.4866,0
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,base,3.2656,0
+386,Symbolic Name not Mapping to Correct Object,base,3.0316000000000005,0
+190,Integer Overflow or Wraparound,base,2.998840000000001,0
+1325,Improperly Controlled Sequential Memory Allocation,base,2.9250000000000003,0
+59,Improper Link Resolution Before File Access ('Link Following'),Base,2.8922546870127817,0

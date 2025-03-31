@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1390,Weak Authentication,5871.208236798346,unknown
+125,Out-of-bounds Read,5841.21741614133,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5837.990626857128,unknown
+863,Incorrect Authorization,5833.666063615374,unknown
+287,Improper Authentication,5829.539060815884,unknown

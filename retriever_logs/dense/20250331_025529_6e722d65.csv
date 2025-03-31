@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+824,Access of Uninitialized Pointer,Base,0.7933689135959994
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7848094345823708
+129,Improper Validation of Array Index,Variant,0.7798186192269778
+252,Unchecked Return Value,Base,0.7795897063666278
+617,Reachable Assertion,Base,0.7794282362481679
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7778282311669085
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7769656682014721
+681,Incorrect Conversion between Numeric Types,Base,0.7751216650965609
+1286,Improper Validation of Syntactic Correctness of Input,Base,0.7747641254625355
+125,Out-of-bounds Read,Base,0.7746405498994511

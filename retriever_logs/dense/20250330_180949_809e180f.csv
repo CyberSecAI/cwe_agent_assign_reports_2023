@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+602,Client-Side Enforcement of Server-Side Security,Class,0.7823936229855211
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7686924672882964
+1390,Weak Authentication,Class,0.7661358870409531
+303,Incorrect Implementation of Authentication Algorithm,Base,0.764282483393972
+1391,Use of Weak Credentials,Class,0.7628867035616569
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7587594762028648
+639,Authorization Bypass Through User-Controlled Key,Base,0.7581487187565343
+668,Exposure of Resource to Wrong Sphere,Class,0.7571303402120311
+319,Cleartext Transmission of Sensitive Information,Base,0.7564198210561339
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7564103013116951

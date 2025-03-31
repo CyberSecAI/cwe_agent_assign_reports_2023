@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+205,Observable Behavioral Discrepancy,base,4.329000000000001,0
+1284,Improper Validation of Specified Quantity in Input,base,4.329000000000001,0
+789,Memory Allocation with Excessive Size Value,variant,3.8784,0
+770,Allocation of Resources Without Limits or Throttling,base,3.4866,0
+190,Integer Overflow or Wraparound,base,3.4200400000000006,0
+1325,Improperly Controlled Sequential Memory Allocation,base,2.9250000000000003,0
+476,NULL Pointer Dereference,base,2.8651999999999997,0
+201,Insertion of Sensitive Information Into Sent Data,base,2.73416,0
+619,Dangling Database Cursor ('Cursor Injection'),base,2.73416,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0

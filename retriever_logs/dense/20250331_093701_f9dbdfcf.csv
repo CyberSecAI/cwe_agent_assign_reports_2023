@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+653,Improper Isolation or Compartmentalization,Class,0.7664460818620178
+274,Improper Handling of Insufficient Privileges,Base,0.7598284520339619
+266,Incorrect Privilege Assignment,Base,0.751725943993218
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7497229239600441
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7486442415961958
+267,Privilege Defined With Unsafe Actions,Base,0.742364566163541
+691,Insufficient Control Flow Management,Pillar,0.7399149350046031
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7356639941711622
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7352005421293991
+73,External Control of File Name or Path,Base,0.7350659961524766

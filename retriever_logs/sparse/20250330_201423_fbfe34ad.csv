@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8899.189421654197,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,8453.578325834365,base_query
+116,Improper Encoding or Escaping of Output,8441.981643986064,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,8437.702840579463,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),8368.147173665091,base_query

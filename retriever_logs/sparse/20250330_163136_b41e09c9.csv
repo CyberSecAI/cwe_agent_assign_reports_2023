@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,8584.433446480067,base_query
+328,Use of Weak Hash,8558.525855253938,base_query
+1284,Improper Validation of Specified Quantity in Input,8414.504690774877,base_query
+789,Memory Allocation with Excessive Size Value,8403.104344693678,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8391.426530095043,base_query

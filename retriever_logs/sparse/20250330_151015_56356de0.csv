@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,6205.727951963124,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6064.528793523421,unknown
+1427,Improper Neutralization of Input Used for LLM Prompting,5947.976661332722,unknown
+707,Improper Neutralization,5810.664078734519,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5771.7920547095055,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8917.83993267399,unknown
+116,Improper Encoding or Escaping of Output,8651.900962109783,unknown
+942,Permissive Cross-domain Policy with Untrusted Domains,8373.604627146768,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,8303.280483961482,unknown
+184,Incomplete List of Disallowed Inputs,8214.751445055192,unknown

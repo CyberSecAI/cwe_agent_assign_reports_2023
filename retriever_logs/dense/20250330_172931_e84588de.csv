@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7805920635209856
+345,Insufficient Verification of Data Authenticity,Class,0.776626486793303
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7721266925808568
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7710333818264667
+755,Improper Handling of Exceptional Conditions,Class,0.7699069800980599
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7686592438266509
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7670129007468796
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7652775998292476
+330,Use of Insufficiently Random Values,Class,0.7649261874588227
+1391,Use of Weak Credentials,Class,0.7647397040115314

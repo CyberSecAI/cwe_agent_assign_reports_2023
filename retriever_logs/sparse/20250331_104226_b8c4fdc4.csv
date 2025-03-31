@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,6418.525212724248,base_query
+190,Integer Overflow or Wraparound,6324.826483524594,base_query
+125,Out-of-bounds Read,6203.46201547582,base_query
+667,Improper Locking,6170.934065328333,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6084.474975006059,base_query

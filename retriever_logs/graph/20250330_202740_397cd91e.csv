@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,5.031000000000001,0
+201,Insertion of Sensitive Information Into Sent Data,base,4.329000000000001,0
+1272,Sensitive Information Uncleared Before Debug/Power State Transition,base,4.329000000000001,0
+494,Download of Code Without Integrity Check,base,4.329000000000001,0
+472,External Control of Assumed-Immutable Web Parameter,base,3.0654000000000003,0
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,2.903951122758947,0
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,2.901640143113,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,2.8651999999999997,0
+117,Improper Output Neutralization for Logs,base,2.8651999999999997,0
+352,Cross-Site Request Forgery (CSRF),compound,2.8280000000000003,0

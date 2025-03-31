@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+208,Observable Timing Discrepancy,Base,0.7854284234034112
+204,Observable Response Discrepancy,Base,0.7807789188002984
+203,Observable Discrepancy,Base,0.7685864193762877
+205,Observable Behavioral Discrepancy,Base,0.7597417359385238
+330,Use of Insufficiently Random Values,Class,0.7533832293964643
+668,Exposure of Resource to Wrong Sphere,Class,0.7438338291654414
+131,Incorrect Calculation of Buffer Size,Base,0.7402378878405722
+345,Insufficient Verification of Data Authenticity,Class,0.7382582899461999
+755,Improper Handling of Exceptional Conditions,Class,0.7370763740620705
+125,Out-of-bounds Read,Base,0.7370645656755718

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+787,Out-of-bounds Write,base,4.329000000000001,0
+170,Improper Null Termination,base,4.329000000000001,0
+617,Reachable Assertion,base,4.329000000000001,0
+126,Buffer Over-read,variant,3.8784,0
+781,Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code,variant,3.7507200000000003,0
+823,Use of Out-of-range Pointer Offset,Base,2.9172284453244868,0
+824,Access of Uninitialized Pointer,Base,2.9160504958885376,0
+822,Untrusted Pointer Dereference,Base,2.915033760410798,0
+252,Unchecked Return Value,Base,2.905093749056336,0
+125,Out-of-bounds Read,Base,2.9034846523251296,0

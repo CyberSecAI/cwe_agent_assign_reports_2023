@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7781085231140338
+204,Observable Response Discrepancy,Base,0.7669775319780867
+203,Observable Discrepancy,Base,0.7667038560369375
+205,Observable Behavioral Discrepancy,Base,0.7643482813318128
+208,Observable Timing Discrepancy,Base,0.7583141460198333
+420,Unprotected Alternate Channel,Base,0.7553503721353525
+668,Exposure of Resource to Wrong Sphere,Class,0.7543007869550091
+345,Insufficient Verification of Data Authenticity,Class,0.7490986204359755
+667,Improper Locking,Class,0.746050943983899
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7443004125143093

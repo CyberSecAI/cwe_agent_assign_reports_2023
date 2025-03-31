@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,4909.488772401324,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4816.434444860858,unknown
+476,NULL Pointer Dereference,4672.497229555914,unknown
+252,Unchecked Return Value,4634.278631268134,unknown
+125,Out-of-bounds Read,4609.734131472985,unknown

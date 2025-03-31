@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,4949.071991443985,unknown
+617,Reachable Assertion,4681.6959128878325,unknown
+158,Improper Neutralization of Null Byte or NUL Character,4586.792678054517,unknown
+626,Null Byte Interaction Error (Poison Null Byte),4551.283075201704,unknown
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),4509.183558260625,unknown

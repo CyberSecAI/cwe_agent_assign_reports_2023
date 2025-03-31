@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+37,Path Traversal: '/absolute/pathname/here',Variant,0.7819842667355933
+24,Path Traversal: '../filedir',Variant,0.7791257488174725
+25,Path Traversal: '/../filedir',Variant,0.7711861258512476
+26,Path Traversal: '/dir/../filename',Variant,0.7653782675161878
+35,Path Traversal: '.../...//',Variant,0.7650381544634322
+27,Path Traversal: 'dir/../../filename',Variant,0.7641588362499379
+36,Absolute Path Traversal,Base,0.7639918743346227
+23,Relative Path Traversal,Base,0.7608309297190268
+29,Path Traversal: '\..\filename',Variant,0.7546040734868893
+34,Path Traversal: '....//',Variant,0.7435345864905678

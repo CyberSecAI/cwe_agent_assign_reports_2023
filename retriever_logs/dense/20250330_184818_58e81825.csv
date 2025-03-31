@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+208,Observable Timing Discrepancy,Base,0.774259718709817
+203,Observable Discrepancy,Base,0.7741981421459418
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7717424985082694
+1391,Use of Weak Credentials,Class,0.7654914496725993
+345,Insufficient Verification of Data Authenticity,Class,0.7623936045670885
+668,Exposure of Resource to Wrong Sphere,Class,0.756998732984373
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7564058450846599
+330,Use of Insufficiently Random Values,Class,0.7560887092782478
+319,Cleartext Transmission of Sensitive Information,Base,0.7557512385167606
+204,Observable Response Discrepancy,Base,0.7537619743888875

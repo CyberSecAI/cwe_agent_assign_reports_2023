@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+400,Uncontrolled Resource Consumption,13012.774655661422,base_query
+20,Improper Input Validation,9575.483128681391,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8812.57879002242,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),8707.946937178185,base_query
+863,Incorrect Authorization,8614.645733396588,base_query

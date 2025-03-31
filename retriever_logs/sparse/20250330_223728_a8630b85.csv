@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,7539.861468183827,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),7514.591641068857,base_query
+639,Authorization Bypass Through User-Controlled Key,7507.354836965053,base_query
+138,Improper Neutralization of Special Elements,7425.74287391468,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7408.020478293889,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1188,Initialization of a Resource with an Insecure Default,5916.825522649623,base_query
+502,Deserialization of Untrusted Data,5209.450570744986,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5177.20746738624,base_query
+863,Incorrect Authorization,5173.820693306429,base_query
+306,Missing Authentication for Critical Function,5155.250243536323,base_query

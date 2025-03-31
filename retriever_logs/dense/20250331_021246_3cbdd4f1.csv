@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7753467498807046
+404,Improper Resource Shutdown or Release,Class,0.77444933035275
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7733186267908304
+405,Asymmetric Resource Consumption (Amplification),Class,0.7711086765528603
+131,Incorrect Calculation of Buffer Size,Base,0.7691050295761
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7649360265048599
+682,Incorrect Calculation,Pillar,0.7626973361496401
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7624480759815285
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7616459080563012
+407,Inefficient Algorithmic Complexity,Class,0.7589977313531464

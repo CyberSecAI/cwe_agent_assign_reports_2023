@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+476,NULL Pointer Dereference,Base,0.7633719462556385
+366,Race Condition within a Thread,Base,0.7623724253895374
+667,Improper Locking,Class,0.7620269426163648
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7583488619718254
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7411208971992036
+404,Improper Resource Shutdown or Release,Class,0.7408645430320865
+822,Untrusted Pointer Dereference,Base,0.740427635350575
+364,Signal Handler Race Condition,Base,0.7359507436836175
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7334142946406452
+824,Access of Uninitialized Pointer,Base,0.7327258698436057

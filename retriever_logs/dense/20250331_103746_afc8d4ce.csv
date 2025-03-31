@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+345,Insufficient Verification of Data Authenticity,Class,0.7685956773617812
+319,Cleartext Transmission of Sensitive Information,Base,0.7576508642247978
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7576112411342248
+668,Exposure of Resource to Wrong Sphere,Class,0.7564792774521776
+203,Observable Discrepancy,Base,0.7557310126509558
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7528255298166087
+657,Violation of Secure Design Principles,Class,0.7511895175351546
+312,Cleartext Storage of Sensitive Information,Base,0.7489275313828463
+755,Improper Handling of Exceptional Conditions,Class,0.7482598340485918
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7466075489842309

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6547.686678348321,base_query
+203,Observable Discrepancy,6104.859550154212,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,6040.904512339985,base_query
+347,Improper Verification of Cryptographic Signature,6024.743140433658,base_query
+295,Improper Certificate Validation,6002.08279653988,base_query

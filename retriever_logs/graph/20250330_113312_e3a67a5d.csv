@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,4.329000000000001,0
+613,Insufficient Session Expiration,base,4.329000000000001,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,4.3056,0
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),base,3.6399999999999997,0
+94,Improper Control of Generation of Code ('Code Injection'),base,3.302,0
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),variant,3.1987200000000002,0
+384,Session Fixation,compound,3.0919999999999996,0
+73,External Control of File Name or Path,Base,2.9008273519329317,0
+386,Symbolic Name not Mapping to Correct Object,base,2.9005600000000005,0
+59,Improper Link Resolution Before File Access ('Link Following'),Base,2.89905146349285,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+307,Improper Restriction of Excessive Authentication Attempts,Base,0.7807812650157838
+330,Use of Insufficiently Random Values,Class,0.7732701584206505
+1391,Use of Weak Credentials,Class,0.7703317953721237
+331,Insufficient Entropy,Base,0.7655782799894841
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7642238291864997
+345,Insufficient Verification of Data Authenticity,Class,0.7603432548084299
+799,Improper Control of Interaction Frequency,Class,0.7568940597564722
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.756102122015585
+203,Observable Discrepancy,Base,0.756066955476503
+667,Improper Locking,Class,0.7514031643362191

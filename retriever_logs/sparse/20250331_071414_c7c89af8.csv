@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,6173.5333376139015,unknown
+770,Allocation of Resources Without Limits or Throttling,5938.042940137379,unknown
+1250,Improper Preservation of Consistency Between Independent Representations of Shared State,5911.9084869540175,unknown
+401,Missing Release of Memory after Effective Lifetime,5853.3905444935335,unknown
+789,Memory Allocation with Excessive Size Value,5827.647553765245,unknown

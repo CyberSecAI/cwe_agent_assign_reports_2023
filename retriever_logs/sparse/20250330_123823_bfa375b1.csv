@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6332.491107517349,unknown
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),6196.723017796166,unknown
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),6034.977121927684,unknown
+611,Improper Restriction of XML External Entity Reference,5910.526468708037,unknown
+138,Improper Neutralization of Special Elements,5880.239430537293,unknown

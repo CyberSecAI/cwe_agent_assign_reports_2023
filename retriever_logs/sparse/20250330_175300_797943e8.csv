@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,6248.891898326752,unknown
+1333,Inefficient Regular Expression Complexity,5656.0258032918555,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),5420.4589402675765,unknown
+617,Reachable Assertion,5271.965695827817,unknown
+407,Inefficient Algorithmic Complexity,5222.568420313693,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+1336,Improper Neutralization of Special Elements Used in a Template Engine,base,3.6399999999999997,0
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),base,3.6399999999999997,0
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,3.2760000000000002,0
+94,Improper Control of Generation of Code ('Code Injection'),base,3.1356,0
+184,Incomplete List of Disallowed Inputs,base,2.8651999999999997,0
+494,Download of Code Without Integrity Check,base,2.73416,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+499,Serializable Class Containing Sensitive Data,variant,2.6784000000000003,0
+498,Cloneable Class Containing Sensitive Information,variant,2.6784000000000003,0
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),variant,2.5507200000000005,0

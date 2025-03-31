@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,7334.289224044279,base_query
+208,Observable Timing Discrepancy,7127.267054957675,base_query
+1254,Incorrect Comparison Logic Granularity,6936.837817526164,base_query
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),6911.709366370231,base_query
+319,Cleartext Transmission of Sensitive Information,6903.0919928949,base_query

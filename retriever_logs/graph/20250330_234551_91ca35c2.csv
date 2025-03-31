@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+523,Unprotected Transport of Credentials,base,3.6399999999999997,0
+280,Improper Handling of Insufficient Permissions or Privileges ,base,3.6399999999999997,0
+274,Improper Handling of Insufficient Privileges,base,3.6399999999999997,0
+312,Cleartext Storage of Sensitive Information,Base,2.488433496459081,0
+916,Use of Password Hash With Insufficient Computational Effort,base,2.4699999999999998,0
+778,Insufficient Logging,base,2.4699999999999998,0
+223,Omission of Security-relevant Information,base,2.4699999999999998,0
+201,Insertion of Sensitive Information Into Sent Data,base,2.4699999999999998,0
+779,Logging of Excessive Data,base,2.4699999999999998,0
+208,Observable Timing Discrepancy,base,2.2100000000000004,0

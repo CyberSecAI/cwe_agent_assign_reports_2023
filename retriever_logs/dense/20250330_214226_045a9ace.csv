@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+23,Relative Path Traversal,Base,0.7910418904314085
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7901027735471172
+41,Improper Resolution of Path Equivalence,Base,0.7867655276929144
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7858256933928145
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7847805685434333
+73,External Control of File Name or Path,Base,0.7798355591039658
+668,Exposure of Resource to Wrong Sphere,Class,0.7772624336693141
+552,Files or Directories Accessible to External Parties,Base,0.7746574549895152
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7745415531590893
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7704327524649746

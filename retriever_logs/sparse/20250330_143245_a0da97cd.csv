@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+790,Improper Filtering of Special Elements,3969.0085513019258,unknown
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),3888.17998337345,unknown
+138,Improper Neutralization of Special Elements,3882.962574037352,unknown
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),3865.524995103656,unknown
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),3841.718138471396,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7318.2343259714735,base_query
+319,Cleartext Transmission of Sensitive Information,7221.942270812257,base_query
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,7141.4763875606095,base_query
+472,External Control of Assumed-Immutable Web Parameter,6996.400183562314,base_query
+312,Cleartext Storage of Sensitive Information,6973.819983299257,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5640.538757384077,base_query
+942,Permissive Cross-domain Policy with Untrusted Domains,4893.858393699109,base_query
+356,Product UI does not Warn User of Unsafe Actions,4642.930758947425,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4575.287144877918,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,4556.493471013368,base_query

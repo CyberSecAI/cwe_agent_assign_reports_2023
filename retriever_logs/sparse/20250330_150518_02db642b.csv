@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6127.985878946074,unknown
+116,Improper Encoding or Escaping of Output,5846.067440398852,unknown
+611,Improper Restriction of XML External Entity Reference,5795.3699565841225,unknown
+138,Improper Neutralization of Special Elements,5711.497225766124,unknown
+94,Improper Control of Generation of Code ('Code Injection'),5706.723400070517,unknown

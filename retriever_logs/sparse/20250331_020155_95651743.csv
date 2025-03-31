@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,7033.381597482327,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),6671.82942463858,base_query
+116,Improper Encoding or Escaping of Output,6573.7912051630365,base_query
+502,Deserialization of Untrusted Data,6355.280468128287,base_query
+918,Server-Side Request Forgery (SSRF),6269.183420542898,base_query

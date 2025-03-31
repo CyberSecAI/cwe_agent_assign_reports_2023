@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+289,Authentication Bypass by Alternate Name,Base,0.7489604283552955
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7454889307956492
+1390,Weak Authentication,Class,0.7445806811632774
+41,Improper Resolution of Path Equivalence,Base,0.7405648929888802
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7393015398869993
+668,Exposure of Resource to Wrong Sphere,Class,0.7379295570537405
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7358505968137599
+345,Insufficient Verification of Data Authenticity,Class,0.7354652932842257
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7346378460172636
+639,Authorization Bypass Through User-Controlled Key,Base,0.7340010224226989

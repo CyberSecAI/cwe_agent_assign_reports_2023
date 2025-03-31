@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+476,NULL Pointer Dereference,base,4.329000000000001,0
+321,Use of Hard-coded Cryptographic Key,variant,4.1184,0
+259,Use of Hard-coded Password,variant,4.1184,0
+798,Use of Hard-coded Credentials,base,3.6399999999999997,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+426,Untrusted Search Path,base,3.6399999999999997,0
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),variant,3.3264,0
+416,Use After Free,variant,3.24,0
+73,External Control of File Name or Path,Base,3.2096767823926955,0
+386,Symbolic Name not Mapping to Correct Object,base,3.0316000000000005,0

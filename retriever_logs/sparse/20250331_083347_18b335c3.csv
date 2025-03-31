@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+347,Improper Verification of Cryptographic Signature,5719.459619630404,unknown
+1390,Weak Authentication,5248.799219656609,unknown
+295,Improper Certificate Validation,5246.349456979105,unknown
+287,Improper Authentication,5196.175335788799,unknown
+863,Incorrect Authorization,5172.92990855436,unknown

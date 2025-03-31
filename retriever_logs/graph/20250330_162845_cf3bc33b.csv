@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+1325,Improperly Controlled Sequential Memory Allocation,base,3.0420000000000007,0
+833,Deadlock,base,2.4699999999999998,0
+770,Allocation of Resources Without Limits or Throttling,base,2.4699999999999998,0
+789,Memory Allocation with Excessive Size Value,Variant,2.3273716142911143,0
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,2.2355516789426373,0
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,2.2311765025023305,0
+201,Insertion of Sensitive Information Into Sent Data,base,2.2100000000000004,0
+476,NULL Pointer Dereference,base,2.2100000000000004,0
+1284,Improper Validation of Specified Quantity in Input,base,2.2100000000000004,0
+390,Detection of Error Condition Without Action,base,2.2100000000000004,0

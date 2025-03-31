@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+170,Improper Null Termination,4254.318139730912,unknown
+252,Unchecked Return Value,4241.32906155162,unknown
+125,Out-of-bounds Read,4190.931507965834,unknown
+193,Off-by-one Error,4187.407203220822,unknown
+295,Improper Certificate Validation,4182.676706880385,unknown

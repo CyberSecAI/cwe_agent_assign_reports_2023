@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7967921276001237
+340,Generation of Predictable Numbers or Identifiers,Class,0.7607031268810136
+41,Improper Resolution of Path Equivalence,Base,0.7572476287021388
+184,Incomplete List of Disallowed Inputs,Base,0.7562167193998518
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7549198453380055
+668,Exposure of Resource to Wrong Sphere,Class,0.7523994535970747
+345,Insufficient Verification of Data Authenticity,Class,0.7521997498727607
+203,Observable Discrepancy,Base,0.7517723872886508
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7508924756235545
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7473955125931412

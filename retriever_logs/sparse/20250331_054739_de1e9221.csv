@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,4964.032405553893,unknown
+757,Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade'),4777.393451602779,unknown
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,4773.8255517932275,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,4684.095529054164,unknown
+1204,Generation of Weak Initialization Vector (IV),4674.148789166974,unknown

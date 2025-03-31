@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+73,External Control of File Name or Path,Base,0.7594660879204818
+668,Exposure of Resource to Wrong Sphere,Class,0.7588751305778136
+639,Authorization Bypass Through User-Controlled Key,Base,0.7563116941500543
+41,Improper Resolution of Path Equivalence,Base,0.7556047074159794
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7518515609412648
+23,Relative Path Traversal,Base,0.7515181869305814
+552,Files or Directories Accessible to External Parties,Base,0.7501849535995232
+345,Insufficient Verification of Data Authenticity,Class,0.7438445877878122
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7431054980561749
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7424296476134908

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,5740.639451790644,unknown
+297,Improper Validation of Certificate with Host Mismatch,5731.880982754415,unknown
+1333,Inefficient Regular Expression Complexity,5586.425060003836,unknown
+226,Sensitive Information in Resource Not Removed Before Reuse,5577.409756345393,unknown
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5491.839111781241,unknown

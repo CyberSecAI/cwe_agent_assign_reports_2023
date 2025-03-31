@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,5.031000000000001,0
+804,Guessable CAPTCHA,base,4.329000000000001,0
+494,Download of Code Without Integrity Check,base,4.329000000000001,0
+352,Cross-Site Request Forgery (CSRF),compound,2.9444000000000004,0
+184,Incomplete List of Disallowed Inputs,base,2.8651999999999997,0
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),variant,2.5507200000000005,0
+1241,Use of Predictable Algorithm in Random Number Generator,base,2.4699999999999998,0
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),base,2.4699999999999998,0
+334,Small Space of Random Values,base,2.4699999999999998,0
+341,Predictable from Observable State,base,2.4699999999999998,0

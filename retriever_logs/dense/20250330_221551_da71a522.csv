@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.8022320735919757
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7824810222988896
+667,Improper Locking,Class,0.7818971677508177
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7815819679746905
+404,Improper Resource Shutdown or Release,Class,0.7722860618104017
+799,Improper Control of Interaction Frequency,Class,0.7660320342707612
+203,Observable Discrepancy,Base,0.7648014190758898
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7634654103136544
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7631426691667216
+41,Improper Resolution of Path Equivalence,Base,0.7619488870045616

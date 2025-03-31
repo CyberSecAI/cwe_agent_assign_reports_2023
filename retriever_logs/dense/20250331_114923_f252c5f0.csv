@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1285,Improper Validation of Specified Index  Position  or Offset in Input,Base,0.8066039064075652
+822,Untrusted Pointer Dereference,Base,0.8007507100413842
+131,Incorrect Calculation of Buffer Size,Base,0.799743929931461
+252,Unchecked Return Value,Base,0.794580520150226
+129,Improper Validation of Array Index,Variant,0.7857919285815457
+345,Insufficient Verification of Data Authenticity,Class,0.7848305257579917
+667,Improper Locking,Class,0.7841309485999375
+824,Access of Uninitialized Pointer,Base,0.783369337035877
+755,Improper Handling of Exceptional Conditions,Class,0.7830816303894257
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7828374911299696

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,8030.3635988151045,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),7535.039323117501,base_query
+1284,Improper Validation of Specified Quantity in Input,7319.120505101695,base_query
+125,Out-of-bounds Read,7290.595353567267,base_query
+190,Integer Overflow or Wraparound,7256.959549079966,base_query

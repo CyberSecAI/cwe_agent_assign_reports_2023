@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7684679903396627
+404,Improper Resource Shutdown or Release,Class,0.7573103938093684
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7552092760369304
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7534201355430009
+668,Exposure of Resource to Wrong Sphere,Class,0.7529805132988487
+345,Insufficient Verification of Data Authenticity,Class,0.7497571486739812
+667,Improper Locking,Class,0.7490332693310195
+303,Incorrect Implementation of Authentication Algorithm,Base,0.74649497580951
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7463914143512089
+1390,Weak Authentication,Class,0.7460874905167283

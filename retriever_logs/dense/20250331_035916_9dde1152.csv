@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7340170628726815
+162,Improper Neutralization of Trailing Special Elements,Variant,0.7319422470245479
+707,Improper Neutralization,Pillar,0.7273514401690914
+150,Improper Neutralization of Escape  Meta  or Control Sequences,Variant,0.7272893943212736
+160,Improper Neutralization of Leading Special Elements,Variant,0.7245712048894316
+184,Incomplete List of Disallowed Inputs,Base,0.7243274708445232
+164,Improper Neutralization of Internal Special Elements,Variant,0.7181318211966597
+73,External Control of File Name or Path,Base,0.716757802606246
+161,Improper Neutralization of Multiple Leading Special Elements,Variant,0.7165994201784486
+653,Improper Isolation or Compartmentalization,Class,0.7163140051018246

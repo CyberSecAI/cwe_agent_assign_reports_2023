@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7471174349214208
+1336,Improper Neutralization of Special Elements Used in a Template Engine,Base,0.741232820462734
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7305932143451821
+639,Authorization Bypass Through User-Controlled Key,Base,0.7296694282235718
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7296666225252666
+184,Incomplete List of Disallowed Inputs,Base,0.7278658796988928
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.727203310904118
+653,Improper Isolation or Compartmentalization,Class,0.7259981239052202
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7256774096000517
+41,Improper Resolution of Path Equivalence,Base,0.7247167423937582

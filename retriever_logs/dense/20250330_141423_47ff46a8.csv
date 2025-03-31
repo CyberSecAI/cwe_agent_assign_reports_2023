@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+23,Relative Path Traversal,Base,0.7787801334294632
+41,Improper Resolution of Path Equivalence,Base,0.7739574784212156
+1391,Use of Weak Credentials,Class,0.7692493966386293
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7683759492926571
+330,Use of Insufficiently Random Values,Class,0.7676833406087434
+345,Insufficient Verification of Data Authenticity,Class,0.7672604898005424
+203,Observable Discrepancy,Base,0.7623569522341485
+319,Cleartext Transmission of Sensitive Information,Base,0.7617804238204192
+312,Cleartext Storage of Sensitive Information,Base,0.7609429768828693
+73,External Control of File Name or Path,Base,0.7589624133116933

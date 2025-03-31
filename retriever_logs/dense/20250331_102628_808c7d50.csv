@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+208,Observable Timing Discrepancy,Base,0.8034101621802118
+203,Observable Discrepancy,Base,0.7712523166643386
+204,Observable Response Discrepancy,Base,0.7681512268283868
+330,Use of Insufficiently Random Values,Class,0.7671001328716271
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7603186239032356
+41,Improper Resolution of Path Equivalence,Base,0.7534118029822765
+668,Exposure of Resource to Wrong Sphere,Class,0.7533882678305235
+407,Inefficient Algorithmic Complexity,Class,0.7515662137916006
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7514537200998428
+345,Insufficient Verification of Data Authenticity,Class,0.75057771862593

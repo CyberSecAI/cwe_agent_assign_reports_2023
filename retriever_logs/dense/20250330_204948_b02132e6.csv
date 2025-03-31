@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7468611157998063
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7392867480483163
+639,Authorization Bypass Through User-Controlled Key,Base,0.7391400852955095
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7372774371826609
+1220,Insufficient Granularity of Access Control,Base,0.7368305021522961
+274,Improper Handling of Insufficient Privileges,Base,0.7354524026503316
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7341865386448947
+799,Improper Control of Interaction Frequency,Class,0.7335013333322655
+668,Exposure of Resource to Wrong Sphere,Class,0.7325790454639551
+267,Privilege Defined With Unsafe Actions,Base,0.7311390366370589

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+602,Client-Side Enforcement of Server-Side Security,Class,0.804584621704032
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.796875869981673
+657,Violation of Secure Design Principles,Class,0.7696096408849147
+603,Use of Client-Side Authentication,Base,0.7640177872367713
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7627997968784854
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.762634801276216
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7585460983504114
+1390,Weak Authentication,Class,0.7576517157165449
+345,Insufficient Verification of Data Authenticity,Class,0.7536925279593623
+1391,Use of Weak Credentials,Class,0.7527282628155494

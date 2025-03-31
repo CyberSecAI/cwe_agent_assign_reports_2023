@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7503576603456261
+41,Improper Resolution of Path Equivalence,Base,0.748130501446593
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7477674590717494
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7453710739488161
+653,Improper Isolation or Compartmentalization,Class,0.7338370943942858
+1390,Weak Authentication,Class,0.7337020773163281
+799,Improper Control of Interaction Frequency,Class,0.7333879058618682
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7310146602373118
+23,Relative Path Traversal,Base,0.7309711465692854
+668,Exposure of Resource to Wrong Sphere,Class,0.7308893991314166

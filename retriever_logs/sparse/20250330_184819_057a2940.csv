@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1240,Use of a Cryptographic Primitive with a Risky Implementation,9356.278622939519,unknown
+203,Observable Discrepancy,9122.465869564016,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,8313.312799064704,unknown
+208,Observable Timing Discrepancy,7882.54522407345,unknown
+321,Use of Hard-coded Cryptographic Key,7628.925309750518,unknown

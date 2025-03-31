@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+328,Use of Weak Hash,Base,0.7906027260226296
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7563637177532792
+407,Inefficient Algorithmic Complexity,Class,0.753360642967586
+1391,Use of Weak Credentials,Class,0.7523946268061852
+330,Use of Insufficiently Random Values,Class,0.7470724716876925
+404,Improper Resource Shutdown or Release,Class,0.7467465534233051
+639,Authorization Bypass Through User-Controlled Key,Base,0.7449320518804226
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7434994053848409
+668,Exposure of Resource to Wrong Sphere,Class,0.7419665722842179
+667,Improper Locking,Class,0.7410757834982489

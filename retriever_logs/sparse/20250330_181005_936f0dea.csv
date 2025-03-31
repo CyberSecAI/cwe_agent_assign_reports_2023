@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+226,Sensitive Information in Resource Not Removed Before Reuse,6106.10109366957,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5964.506768986837,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5861.901582801325,base_query
+125,Out-of-bounds Read,5659.361952111149,base_query
+667,Improper Locking,5619.152443223817,base_query

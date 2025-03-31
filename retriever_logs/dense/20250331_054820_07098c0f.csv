@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+274,Improper Handling of Insufficient Privileges,Base,0.7617664796282277
+653,Improper Isolation or Compartmentalization,Class,0.7614167165458232
+1220,Insufficient Granularity of Access Control,Base,0.7592559263687323
+691,Insufficient Control Flow Management,Pillar,0.7568315329601824
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7568301589158443
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7505363829801525
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7496689640396997
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7467244804429435
+639,Authorization Bypass Through User-Controlled Key,Base,0.7413720167979853
+668,Exposure of Resource to Wrong Sphere,Class,0.7408011302522786

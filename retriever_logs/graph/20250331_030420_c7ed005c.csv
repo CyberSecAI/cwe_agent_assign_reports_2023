@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+804,Guessable CAPTCHA,base,4.329000000000001,0
+613,Insufficient Session Expiration,base,4.329000000000001,0
+1284,Improper Validation of Specified Quantity in Input,base,4.329000000000001,0
+789,Memory Allocation with Excessive Size Value,variant,3.24,0
+190,Integer Overflow or Wraparound,base,3.06904,0
+352,Cross-Site Request Forgery (CSRF),compound,3.002,0
+346,Origin Validation Error,class,2.912,0
+770,Allocation of Resources Without Limits or Throttling,base,2.7196000000000002,0
+129,Improper Validation of Array Index,variant,2.6784000000000003,0
+20,Improper Input Validation,class,2.5888,0

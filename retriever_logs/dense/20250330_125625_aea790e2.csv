@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7867477001524945
+252,Unchecked Return Value,Base,0.7694132044346726
+457,Use of Uninitialized Variable,Variant,0.7601946667195442
+606,Unchecked Input for Loop Condition,Base,0.7533262917724678
+824,Access of Uninitialized Pointer,Base,0.750454946608477
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7498822337913489
+691,Insufficient Control Flow Management,Pillar,0.7498289039922319
+183,Permissive List of Allowed Inputs,Base,0.7491184602612835
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7478378347284185
+73,External Control of File Name or Path,Base,0.7476561809532836

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+613,Insufficient Session Expiration,base,4.329000000000001,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,4.329000000000001,0
+73,External Control of File Name or Path,Base,3.2109071720104216,0
+41,Improper Resolution of Path Equivalence,Base,2.9243526774970463,0
+59,Improper Link Resolution Before File Access ('Link Following'),Base,2.914730378023769,0
+208,Observable Timing Discrepancy,base,2.8651999999999997,0
+183,Permissive List of Allowed Inputs,base,2.831400000000001,0
+35,Path Traversal: '.../...//',variant,2.6784000000000003,0
+34,Path Traversal: '....//',variant,2.6784000000000003,0
+33,Path Traversal: '....' (Multiple Dot),variant,2.6784000000000003,0

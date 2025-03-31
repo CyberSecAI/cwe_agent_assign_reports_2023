@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,5959.2589427083385,base_query
+297,Improper Validation of Certificate with Host Mismatch,5734.347694305911,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),5541.873599632679,base_query
+116,Improper Encoding or Escaping of Output,5291.4211993267145,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5288.187783874317,base_query

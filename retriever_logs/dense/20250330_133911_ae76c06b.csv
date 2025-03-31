@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.77276220953667
+125,Out-of-bounds Read,Base,0.7595982640407447
+184,Incomplete List of Disallowed Inputs,Base,0.7544076978964169
+789,Memory Allocation with Excessive Size Value,Variant,0.7529021603806068
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7518614457925283
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7510402446612962
+131,Incorrect Calculation of Buffer Size,Base,0.7503076043581842
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7491542001077778
+404,Improper Resource Shutdown or Release,Class,0.7490318683698555
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7488218915797185

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+407,Inefficient Algorithmic Complexity,Class,0.7444255620850551
+834,Excessive Iteration,Class,0.7413058640739153
+345,Insufficient Verification of Data Authenticity,Class,0.7365046569028948
+208,Observable Timing Discrepancy,Base,0.736101021059294
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7357042045736701
+330,Use of Insufficiently Random Values,Class,0.7318916114300276
+328,Use of Weak Hash,Base,0.7297855347163555
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7296496734358853
+799,Improper Control of Interaction Frequency,Class,0.7288971858871194
+668,Exposure of Resource to Wrong Sphere,Class,0.7283113966884873

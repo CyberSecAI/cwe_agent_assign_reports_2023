@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,5642.484614693025,unknown
+125,Out-of-bounds Read,5621.919089273565,unknown
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),5620.793159225161,unknown
+190,Integer Overflow or Wraparound,5601.583237629394,unknown
+770,Allocation of Resources Without Limits or Throttling,5540.3109924474475,unknown

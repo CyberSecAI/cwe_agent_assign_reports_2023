@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,5652.336620535068,unknown
+290,Authentication Bypass by Spoofing,5238.905382441191,unknown
+916,Use of Password Hash With Insufficient Computational Effort,5232.212574926563,unknown
+125,Out-of-bounds Read,5045.524615111767,unknown
+295,Improper Certificate Validation,5015.450115443369,unknown

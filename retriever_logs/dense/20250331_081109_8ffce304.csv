@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+457,Use of Uninitialized Variable,Variant,0.8050499268689255
+909,Missing Initialization of Resource,Class,0.7968761482269331
+908,Use of Uninitialized Resource,Base,0.7739503911020496
+456,Missing Initialization of a Variable,Variant,0.7639164204319279
+191,Integer Underflow (Wrap or Wraparound),Base,0.7631750587050881
+665,Improper Initialization,Class,0.7625567524040051
+667,Improper Locking,Class,0.7603111569520766
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7499016497238
+824,Access of Uninitialized Pointer,Base,0.7490039152229471
+131,Incorrect Calculation of Buffer Size,Base,0.7468817357177135

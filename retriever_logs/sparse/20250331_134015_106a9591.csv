@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+441,Unintended Proxy or Intermediary ('Confused Deputy'),8777.97772727313,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,8701.218876801999,base_query
+863,Incorrect Authorization,8663.621506132788,base_query
+918,Server-Side Request Forgery (SSRF),8580.456685085317,base_query
+770,Allocation of Resources Without Limits or Throttling,8554.871213355695,base_query

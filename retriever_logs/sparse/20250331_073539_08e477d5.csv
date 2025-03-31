@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,6544.495863459349,base_query
+770,Allocation of Resources Without Limits or Throttling,6532.973981590335,base_query
+1284,Improper Validation of Specified Quantity in Input,6523.266037642687,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,6464.076301996588,base_query
+863,Incorrect Authorization,6403.5018111819445,base_query

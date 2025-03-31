@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7448.683636034945,unknown
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),7387.452585258495,unknown
+116,Improper Encoding or Escaping of Output,7001.978310169198,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6906.8710788789485,unknown
+138,Improper Neutralization of Special Elements,6705.923569037217,unknown

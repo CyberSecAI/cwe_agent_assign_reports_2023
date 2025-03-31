@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,7086.084181088162,unknown
+639,Authorization Bypass Through User-Controlled Key,6820.528715139505,unknown
+863,Incorrect Authorization,6539.6995333547375,unknown
+285,Improper Authorization,6413.469723956233,unknown
+201,Insertion of Sensitive Information Into Sent Data,6157.6624372736105,unknown

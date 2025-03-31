@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+705,Incorrect Control Flow Scoping,Class,0.7882643528100963
+73,External Control of File Name or Path,Base,0.7814121250840032
+691,Insufficient Control Flow Management,Pillar,0.7756475277007392
+41,Improper Resolution of Path Equivalence,Base,0.774571799130519
+653,Improper Isolation or Compartmentalization,Class,0.7697270592069718
+668,Exposure of Resource to Wrong Sphere,Class,0.7646628970952057
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7619388446836529
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7607307573636142
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.757749370375512
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7573790979075006

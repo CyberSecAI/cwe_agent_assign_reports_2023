@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7893166512928981
+805,Buffer Access with Incorrect Length Value,Base,0.7791191120488961
+606,Unchecked Input for Loop Condition,Base,0.768346494223918
+191,Integer Underflow (Wrap or Wraparound),Base,0.7674006779999741
+131,Incorrect Calculation of Buffer Size,Base,0.7670627615565717
+193,Off-by-one Error,Base,0.750171943949716
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),Base,0.7497921681171644
+41,Improper Resolution of Path Equivalence,Base,0.7488552974023174
+125,Out-of-bounds Read,Base,0.7471581943552248
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7468005921059433

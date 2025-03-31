@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+787,Out-of-bounds Write,5464.743912663358,unknown
+125,Out-of-bounds Read,5423.321468536763,unknown
+124,Buffer Underwrite ('Buffer Underflow'),5367.31321047556,unknown
+190,Integer Overflow or Wraparound,5361.307913988207,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5355.179951674455,unknown

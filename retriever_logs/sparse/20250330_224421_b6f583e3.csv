@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1236,Improper Neutralization of Formula Elements in a CSV File,3921.3198971015963,base_query
+184,Incomplete List of Disallowed Inputs,3892.90829057294,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),3892.0533906354526,base_query
+183,Permissive List of Allowed Inputs,3872.5256557339244,base_query
+356,Product UI does not Warn User of Unsafe Actions,3743.3493719410662,base_query

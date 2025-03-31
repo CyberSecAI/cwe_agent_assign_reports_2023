@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1220,Insufficient Granularity of Access Control,Base,0.7494363040663384
+404,Improper Resource Shutdown or Release,Class,0.7463493345749364
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7455218193334573
+274,Improper Handling of Insufficient Privileges,Base,0.7451197997242651
+667,Improper Locking,Class,0.7440337760856417
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7405823713343435
+665,Improper Initialization,Class,0.7403727945385784
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7401979667122502
+668,Exposure of Resource to Wrong Sphere,Class,0.7401094860160071
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7377726466147648

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,5831.80193225636,base_query
+625,Permissive Regular Expression,5193.785872973427,base_query
+617,Reachable Assertion,5188.524052187379,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),5178.622843951865,base_query
+770,Allocation of Resources Without Limits or Throttling,5024.691134839813,base_query

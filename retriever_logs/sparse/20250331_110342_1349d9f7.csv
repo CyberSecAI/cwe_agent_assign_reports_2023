@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,6727.562764521587,base_query
+667,Improper Locking,6438.577352675343,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6354.796958605376,base_query
+415,Double Free,6345.356672629468,base_query
+754,Improper Check for Unusual or Exceptional Conditions,6334.740191273342,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+691,Insufficient Control Flow Management,Pillar,0.8062925387286977
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7713551936369282
+41,Improper Resolution of Path Equivalence,Base,0.760605427496539
+653,Improper Isolation or Compartmentalization,Class,0.7582716095736013
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7561972209891157
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7549664424759244
+667,Improper Locking,Class,0.7545810704058943
+73,External Control of File Name or Path,Base,0.7534279424543725
+668,Exposure of Resource to Wrong Sphere,Class,0.7459524536852873
+404,Improper Resource Shutdown or Release,Class,0.744021987822084

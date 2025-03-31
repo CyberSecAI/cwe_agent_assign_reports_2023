@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+178,Improper Handling of Case Sensitivity,base,5.031000000000001,0
+433,Unparsed Raw Web Content Delivery,variant,3.24,0
+289,Authentication Bypass by Alternate Name,Base,2.8871184726908594,0
+322,Key Exchange without Entity Authentication,base,2.8651999999999997,0
+350,Reliance on Reverse DNS Resolution for a Security-Critical Action,variant,2.6784000000000003,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+52,Path Equivalence: '/multiple/trailing/slash//',variant,2.5507200000000005,0
+46,Path Equivalence: 'filename ' (Trailing Space),variant,2.5507200000000005,0
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,2.4849202501192154,0
+274,Improper Handling of Insufficient Privileges,Base,2.484855291749911,0

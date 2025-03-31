@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+312,Cleartext Storage of Sensitive Information,Base,0.7620863007375842
+1220,Insufficient Granularity of Access Control,Base,0.7508527798849807
+274,Improper Handling of Insufficient Privileges,Base,0.7495519002796333
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7467483298946275
+653,Improper Isolation or Compartmentalization,Class,0.744965849942157
+1391,Use of Weak Credentials,Class,0.7441995612474368
+657,Violation of Secure Design Principles,Class,0.7438113240810573
+319,Cleartext Transmission of Sensitive Information,Base,0.74320484618728
+311,Missing Encryption of Sensitive Data,Class,0.7417163811088188
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7413446754623072

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+328,Use of Weak Hash,Base,0.8133469084077285
+330,Use of Insufficiently Random Values,Class,0.8088846890460311
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),Base,0.8030683553319992
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7885981540578608
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),Base,0.7810267602809476
+1391,Use of Weak Credentials,Class,0.7765409722270482
+331,Insufficient Entropy,Base,0.7759603084187524
+916,Use of Password Hash With Insufficient Computational Effort,Base,0.7642637832505323
+345,Insufficient Verification of Data Authenticity,Class,0.7581884249312872
+340,Generation of Predictable Numbers or Identifiers,Class,0.7522432704337862

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+611,Improper Restriction of XML External Entity Reference,base,3.6399999999999997,0
+73,External Control of File Name or Path,base,3.3566,0
+386,Symbolic Name not Mapping to Correct Object,base,3.0316000000000005,0
+441,Unintended Proxy or Intermediary ('Confused Deputy'),class,2.984,0
+322,Key Exchange without Entity Authentication,base,2.8651999999999997,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+350,Reliance on Reverse DNS Resolution for a Security-Critical Action,variant,2.5507200000000005,0
+274,Improper Handling of Insufficient Privileges,Base,2.4955295131064865,0
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,2.4941531936862167,0

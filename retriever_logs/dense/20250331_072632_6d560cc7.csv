@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+331,Insufficient Entropy,Base,0.7812735080308448
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7767983831275379
+330,Use of Insufficiently Random Values,Class,0.7759280041866474
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7682659375073833
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7652605903167885
+312,Cleartext Storage of Sensitive Information,Base,0.7598144514973706
+1391,Use of Weak Credentials,Class,0.7580994597520858
+319,Cleartext Transmission of Sensitive Information,Base,0.7565411790754588
+668,Exposure of Resource to Wrong Sphere,Class,0.7552485950675212
+345,Insufficient Verification of Data Authenticity,Class,0.7529813145771452

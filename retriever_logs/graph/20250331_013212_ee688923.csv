@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+1336,Improper Neutralization of Special Elements Used in a Template Engine,base,3.6399999999999997,0
+20,Improper Input Validation,class,2.984,0
+606,Unchecked Input for Loop Condition,base,2.73416,0
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,2.5101123965913237,0
+115,Misinterpretation of Input,base,2.4699999999999998,0
+112,Missing XML Validation,base,2.4699999999999998,0
+347,Improper Verification of Cryptographic Signature,base,2.4699999999999998,0
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),base,2.4699999999999998,0
+1333,Inefficient Regular Expression Complexity,base,2.4699999999999998,0
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),base,2.3998000000000004,0

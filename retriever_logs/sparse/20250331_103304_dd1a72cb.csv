@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1240,Use of a Cryptographic Primitive with a Risky Implementation,9337.83177217443,base_query
+789,Memory Allocation with Excessive Size Value,8343.420610462706,base_query
+770,Allocation of Resources Without Limits or Throttling,8236.36103834018,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,8227.12344333115,base_query
+203,Observable Discrepancy,8079.558007614766,base_query

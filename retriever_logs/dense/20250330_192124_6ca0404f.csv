@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7590892263716149
+789,Memory Allocation with Excessive Size Value,Variant,0.7566304014647215
+405,Asymmetric Resource Consumption (Amplification),Class,0.7537286023454866
+131,Incorrect Calculation of Buffer Size,Base,0.7518962243544267
+404,Improper Resource Shutdown or Release,Class,0.7498451577651593
+668,Exposure of Resource to Wrong Sphere,Class,0.7497371094081018
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7479348449282529
+41,Improper Resolution of Path Equivalence,Base,0.7466208966047997
+409,Improper Handling of Highly Compressed Data (Data Amplification),Base,0.74522208997465
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.743304935175159

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,5374.252844132992,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5064.573642570713,base_query
+1284,Improper Validation of Specified Quantity in Input,5059.081013079536,base_query
+789,Memory Allocation with Excessive Size Value,5056.298922450933,base_query
+209,Generation of Error Message Containing Sensitive Information,5032.689208942456,base_query

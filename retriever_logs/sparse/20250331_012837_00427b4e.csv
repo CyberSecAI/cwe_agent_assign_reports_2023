@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+790,Improper Filtering of Special Elements,9092.828516017573,unknown
+138,Improper Neutralization of Special Elements,8221.05337654605,unknown
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),8121.753300487741,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),8053.7481200344555,unknown
+116,Improper Encoding or Escaping of Output,8014.603109414256,unknown

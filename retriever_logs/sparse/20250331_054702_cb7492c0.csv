@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,4669.495196253328,unknown
+285,Improper Authorization,4640.177299940076,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4565.019133294709,unknown
+942,Permissive Cross-domain Policy with Untrusted Domains,4560.90490724843,unknown
+639,Authorization Bypass Through User-Controlled Key,4506.522589112623,unknown

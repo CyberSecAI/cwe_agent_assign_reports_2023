@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5358.192530948334,unknown
+125,Out-of-bounds Read,5354.2982958806215,unknown
+823,Use of Out-of-range Pointer Offset,5287.969948373699,unknown
+476,NULL Pointer Dereference,5262.671740234214,unknown
+824,Access of Uninitialized Pointer,5259.578890949124,unknown

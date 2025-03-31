@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+657,Violation of Secure Design Principles,5307.616645021076,base_query
+287,Improper Authentication,5268.162418793139,base_query
+306,Missing Authentication for Critical Function,5252.91361021731,base_query
+770,Allocation of Resources Without Limits or Throttling,5205.702678634617,base_query
+863,Incorrect Authorization,5187.625739210796,base_query

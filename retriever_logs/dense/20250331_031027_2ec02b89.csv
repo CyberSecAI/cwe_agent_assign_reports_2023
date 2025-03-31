@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1021,Improper Restriction of Rendered UI Layers or Frames,Base,0.7753598778384113
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7695970177045492
+404,Improper Resource Shutdown or Release,Class,0.7675881241152994
+667,Improper Locking,Class,0.763801184849312
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7580911690645935
+799,Improper Control of Interaction Frequency,Class,0.7555054107544914
+668,Exposure of Resource to Wrong Sphere,Class,0.7541886972784266
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7507802668199594
+405,Asymmetric Resource Consumption (Amplification),Class,0.7487967304929317
+789,Memory Allocation with Excessive Size Value,Variant,0.7474804927769262

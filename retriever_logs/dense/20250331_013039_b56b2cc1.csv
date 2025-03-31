@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1336,Improper Neutralization of Special Elements Used in a Template Engine,Base,0.765410984886618
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7573973747736574
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7511382480154014
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7456397239956225
+184,Incomplete List of Disallowed Inputs,Base,0.7448717617370215
+138,Improper Neutralization of Special Elements,Class,0.7266942664072857
+96,Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection'),Base,0.7258692937566411
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7200179949491521
+116,Improper Encoding or Escaping of Output,Class,0.7151209401355487
+41,Improper Resolution of Path Equivalence,Base,0.7139523038632498

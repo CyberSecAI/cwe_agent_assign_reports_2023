@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1392,Use of Default Credentials,Base,0.7837343873669704
+1391,Use of Weak Credentials,Class,0.78142403883266
+1188,Initialization of a Resource with an Insecure Default,Base,0.7722906087022119
+798,Use of Hard-coded Credentials,Base,0.7656286000252668
+1393,Use of Default Password,Base,0.7625310670363954
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7435992847979602
+1394,Use of Default Cryptographic Key,Base,0.7419518319938805
+312,Cleartext Storage of Sensitive Information,Base,0.7414486567623328
+345,Insufficient Verification of Data Authenticity,Class,0.739192268723201
+665,Improper Initialization,Class,0.7352702665713786

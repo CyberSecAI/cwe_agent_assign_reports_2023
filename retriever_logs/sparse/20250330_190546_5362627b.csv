@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+364,Signal Handler Race Condition,8253.312663814575,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),7593.7591624583,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7509.778933111047,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7384.587309713529,base_query
+667,Improper Locking,7232.71744006266,base_query

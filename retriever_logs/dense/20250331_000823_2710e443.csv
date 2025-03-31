@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.78153434928648
+41,Improper Resolution of Path Equivalence,Base,0.7489354649456704
+129,Improper Validation of Array Index,Variant,0.7487316817674374
+184,Incomplete List of Disallowed Inputs,Base,0.743401745745367
+138,Improper Neutralization of Special Elements,Class,0.743064494888007
+23,Relative Path Traversal,Base,0.7381899825490603
+179,Incorrect Behavior Order: Early Validation,Base,0.737103045240282
+1288,Improper Validation of Consistency within Input,Base,0.7369180701733506
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7364679773581561
+606,Unchecked Input for Loop Condition,Base,0.7348843686261383

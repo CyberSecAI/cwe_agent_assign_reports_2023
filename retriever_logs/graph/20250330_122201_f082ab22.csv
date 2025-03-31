@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+426,Untrusted Search Path,base,3.6399999999999997,0
+427,Uncontrolled Search Path Element,base,3.6399999999999997,0
+386,Symbolic Name not Mapping to Correct Object,base,2.9005600000000005,0
+201,Insertion of Sensitive Information Into Sent Data,base,2.821,0
+212,Improper Removal of Sensitive Information Before Storage or Transfer,base,2.73416,0
+499,Serializable Class Containing Sensitive Data,variant,2.6784000000000003,0
+498,Cloneable Class Containing Sensitive Information,variant,2.6784000000000003,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+274,Improper Handling of Insufficient Privileges,Base,2.474873088187143,0
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,2.4734534731994477,0

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+193,Off-by-one Error,4758.598559549487,unknown
+1284,Improper Validation of Specified Quantity in Input,4703.6578682207955,unknown
+824,Access of Uninitialized Pointer,4693.941175082367,unknown
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),4661.557806367152,unknown
+681,Incorrect Conversion between Numeric Types,4659.11903654577,unknown

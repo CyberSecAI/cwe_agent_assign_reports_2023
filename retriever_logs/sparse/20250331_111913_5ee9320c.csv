@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+425,Direct Request ('Forced Browsing'),5216.832957426828,unknown
+863,Incorrect Authorization,5209.752764780158,unknown
+285,Improper Authorization,5156.954141179767,unknown
+639,Authorization Bypass Through User-Controlled Key,5078.556202643065,unknown
+732,Incorrect Permission Assignment for Critical Resource,4950.832978189292,unknown

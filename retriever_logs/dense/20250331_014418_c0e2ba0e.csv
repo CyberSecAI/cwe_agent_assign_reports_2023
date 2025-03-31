@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+798,Use of Hard-coded Credentials,Base,0.761460137327949
+1391,Use of Weak Credentials,Class,0.7534383346621698
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7494453391721425
+41,Improper Resolution of Path Equivalence,Base,0.7405687094735112
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7374432038031923
+653,Improper Isolation or Compartmentalization,Class,0.7373916770533483
+134,Use of Externally-Controlled Format String,Base,0.7359504612454258
+131,Incorrect Calculation of Buffer Size,Base,0.7356829251458639
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7349495745638299
+191,Integer Underflow (Wrap or Wraparound),Base,0.7337402330741776

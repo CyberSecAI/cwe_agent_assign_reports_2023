@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+789,Memory Allocation with Excessive Size Value,Variant,0.7813545094219336
+674,Uncontrolled Recursion,Class,0.7693928014831468
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7559762670525998
+191,Integer Underflow (Wrap or Wraparound),Base,0.7557475797462059
+131,Incorrect Calculation of Buffer Size,Base,0.7519874923502254
+125,Out-of-bounds Read,Base,0.7505963308868739
+405,Asymmetric Resource Consumption (Amplification),Class,0.7495533958411015
+776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),Base,0.7489097953169636
+404,Improper Resource Shutdown or Release,Class,0.748257603068853
+668,Exposure of Resource to Wrong Sphere,Class,0.7451059550488872

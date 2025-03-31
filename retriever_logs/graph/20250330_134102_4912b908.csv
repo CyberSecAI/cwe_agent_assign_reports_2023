@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+94,Improper Control of Generation of Code ('Code Injection'),base,3.653,0
+625,Permissive Regular Expression,base,3.6399999999999997,0
+187,Partial String Comparison,variant,3.2424,0
+184,Incomplete List of Disallowed Inputs,Base,3.0572755426154465,0
+434,Unrestricted Upload of File with Dangerous Type,base,2.9120000000000004,0
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,2.8651999999999997,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,2.8651999999999997,0
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),variant,2.6784000000000003,0
+170,Improper Null Termination,base,2.4700000000000006,0
+1333,Inefficient Regular Expression Complexity,base,2.4699999999999998,0

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6087.516460721822,unknown
+770,Allocation of Resources Without Limits or Throttling,6066.346676003041,unknown
+639,Authorization Bypass Through User-Controlled Key,6005.778547656167,unknown
+472,External Control of Assumed-Immutable Web Parameter,5969.913764432567,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5927.72716636662,unknown

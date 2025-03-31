@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),4820.417939995945,base_query
+502,Deserialization of Untrusted Data,4787.524298837572,base_query
+863,Incorrect Authorization,4762.390697710193,base_query
+116,Improper Encoding or Escaping of Output,4720.245272673115,base_query
+94,Improper Control of Generation of Code ('Code Injection'),4718.383248960718,base_query

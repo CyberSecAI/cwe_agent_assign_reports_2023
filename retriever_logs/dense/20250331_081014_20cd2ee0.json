@@ -1,0 +1,70 @@
+{
+  "retriever": "dense",
+  "query": "# Vulnerability Description\n\n    go-getter up to 1.5.11 and 2.0.2 allowed arbitrary host access via go-getter **path traversal**, **symlink processing**, and **command injection** flaws. Fixed in 1.6.1 and 2.1.0.\n\n    # Keyphrase-Specific CWE Analysis\n    This vulnerability contains multiple keyphrases that may map to different CWEs. \n    Please analyze each keyphrase separately and determine the most appropriate CWE(s) for each.\n\n    ## ROOTCAUSE: 'path traversal'\n\nRelevant CWEs for this ROOTCAUSE:\n\n### 1. CWE-23: Relative Path Traversal (Score: 242.12)\n\nThe product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize sequences such as \"..\" that can resolve to a location that is outside of that directory....\n\n### 2. CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (Score: 232.42)\n\nThe product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location th...\n\n### 3. CWE-59: Improper Link Resolution Before File Access ('Link Following') (Score: 226.24)\n\nThe product attempts to access a file based on the filename, but it does not properly prevent that filename from identifying a link or shortcut that resolves to an unintended resource....\n\n### 4. CWE-36: Absolute Path Traversal (Score: 197.44)\n\nThe product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize absolute path sequences such as \"/abs/path\" that can resolve to a location that is outside of that directory....\n\n### 5. CWE-73: External Control of File Name or Path (Score: 196.83)\n\nThe product allows user input to control or influence paths or file names that are used in filesystem operations....\n\n## ROOTCAUSE: 'symlink processing'\n\nRelevant CWEs for this ROOTCAUSE:\n\n### 1. CWE-23: Relative Path Traversal (Score: 242.12)\n\nThe product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize sequences such as \"..\" that can resolve to a location that is outside of that directory....\n\n### 2. CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (Score: 232.42)\n\nThe product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location th...\n\n### 3. CWE-61: UNIX Symbolic Link (Symlink) Following (Score: 230.67)\n\nThe product, when opening a file or directory, does not sufficiently account for when the file is a symbolic link that resolves to a target outside of the intended control sphere. This could allow an attacker to cause the product to operate on unauthorized files....\n\n### 4. CWE-59: Improper Link Resolution Before File Access ('Link Following') (Score: 226.24)\n\nThe product attempts to access a file based on the filename, but it does not properly prevent that filename from identifying a link or shortcut that resolves to an unintended resource....\n\n### 5. CWE-367: Time-of-check Time-of-use (TOCTOU) Race Condition (Score: 193.17)\n\nThe product checks the state of a resource before using that resource, but the resource's state can change between the check and the use in a way that invalidates the results of the check. This can cause the product to perform invalid actions when the resource is in an unexpected state....\n\n## ROOTCAUSE: 'command injection'\n\nRelevant CWEs for this ROOTCAUSE:\n\n### 1. CWE-23: Relative Path Traversal (Score: 242.12)\n\nThe product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize sequences such as \"..\" that can resolve to a location that is outside of that directory....\n\n### 2. CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (Score: 232.42)\n\nThe product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location th...\n\n### 3. CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection') (Score: 211.38)\n\nThe product constructs all or part of a command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended command when it is sent to a downstream component....\n\n### 4. CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') (Score: 206.77)\n\nThe product constructs all or part of an OS command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended OS command when it is sent to a downstream component....\n\n### 5. CWE-138: Improper Neutralization of Special Elements (Score: 194.94)\n\nThe product receives input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could be interpreted as control elements or syntactic markers when they are sent to a downstream component....\n\n## IMPACT: 'arbitrary host access'\n\nRelevant CWEs for this IMPACT:\n\n### 1. CWE-23: Relative Path Traversal (Score: 242.12)\n\nThe product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize sequences such as \"..\" that can resolve to a location that is outside of that directory....\n\n### 2. CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (Score: 232.42)\n\nThe product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location th...\n\n### 3. CWE-61: UNIX Symbolic Link (Symlink) Following (Score: 230.67)\n\nThe product, when opening a file or directory, does not sufficiently account for when the file is a symbolic link that resolves to a target outside of the intended control sphere. This could allow an attacker to cause the product to operate on unauthorized files....\n\n### 4. CWE-59: Improper Link Resolution Before File Access ('Link Following') (Score: 226.24)\n\nThe product attempts to access a file based on the filename, but it does not properly prevent that filename from identifying a link or shortcut that resolves to an unintended resource....\n\n### 5. CWE-74: Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') (Score: 66.87)\n\nThe product constructs all or part of a command, data structure, or record using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify how it is parsed or interpreted when it is sent to a downstream component....\n\n## PRODUCT: 'go-getter'\n\nRelevant CWEs for this PRODUCT:\n\n### 1. CWE-23: Relative Path Traversal (Score: 242.12)\n\nThe product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize sequences such as \"..\" that can resolve to a location that is outside of that directory....\n\n### 2. CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (Score: 232.42)\n\nThe product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location th...\n\n### 3. CWE-61: UNIX Symbolic Link (Symlink) Following (Score: 230.67)\n\nThe product, when opening a file or directory, does not sufficiently account for when the file is a symbolic link that resolves to a target outside of the intended control sphere. This could allow an attacker to cause the product to operate on unauthorized files....\n\n### 4. CWE-59: Improper Link Resolution Before File Access ('Link Following') (Score: 226.24)\n\nThe product attempts to access a file based on the filename, but it does not properly prevent that filename from identifying a link or shortcut that resolves to an unintended resource....\n\n### 5. CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection') (Score: 211.38)\n\nThe product constructs all or part of a command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended command when it is sent to a downstream component....\n\n## VERSION: 'up to 1.5.11 and 2.0.2'\n\nRelevant CWEs for this VERSION:\n\n### 1. CWE-23: Relative Path Traversal (Score: 242.12)\n\nThe product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize sequences such as \"..\" that can resolve to a location that is outside of that directory....\n\n### 2. CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (Score: 232.42)\n\nThe product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location th...\n\n### 3. CWE-61: UNIX Symbolic Link (Symlink) Following (Score: 230.67)\n\nThe product, when opening a file or directory, does not sufficiently account for when the file is a symbolic link that resolves to a target outside of the intended control sphere. This could allow an attacker to cause the product to operate on unauthorized files....\n\n### 4. CWE-59: Improper Link Resolution Before File Access ('Link Following') (Score: 226.24)\n\nThe product attempts to access a file based on the filename, but it does not properly prevent that filename from identifying a link or shortcut that resolves to an unintended resource....\n\n### 5. CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection') (Score: 211.38)\n\nThe product constructs all or part of a command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended command when it is sent to a downstream component....\n\n\n    # Analysis Instructions\n    1. For each keyphrase, identify the most appropriate CWE(s) that represent the weakness.\n    2. Consider how the different keyphrases might relate to each other in the vulnerability chain.\n    3. Provide a final determination of primary CWE(s) and any secondary CWEs.\n    4. Format your response using the standard analysis template.\n\n    Please analyze how these different weaknesses interact and provide a comprehensive CWE classification.\n    ",
+  "keyphrases": {},
+  "timestamp": "2025-03-31 08:10:14",
+  "cve_id": "unknown",
+  "result_count": 10,
+  "results": [
+    {
+      "cwe_id": "41",
+      "name": "Improper Resolution of Path Equivalence",
+      "type": "Base",
+      "score": 0.7514351816492612
+    },
+    {
+      "cwe_id": "74",
+      "name": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')",
+      "type": "Class",
+      "score": 0.7441630323374255
+    },
+    {
+      "cwe_id": "59",
+      "name": "Improper Link Resolution Before File Access ('Link Following')",
+      "type": "Base",
+      "score": 0.7384294419627863
+    },
+    {
+      "cwe_id": "23",
+      "name": "Relative Path Traversal",
+      "type": "Base",
+      "score": 0.7380294230721675
+    },
+    {
+      "cwe_id": "73",
+      "name": "External Control of File Name or Path",
+      "type": "Base",
+      "score": 0.7373178227919645
+    },
+    {
+      "cwe_id": "668",
+      "name": "Exposure of Resource to Wrong Sphere",
+      "type": "Class",
+      "score": 0.7271497877544326
+    },
+    {
+      "cwe_id": "138",
+      "name": "Improper Neutralization of Special Elements",
+      "type": "Class",
+      "score": 0.7253361599072197
+    },
+    {
+      "cwe_id": "497",
+      "name": "Exposure of Sensitive System Information to an Unauthorized Control Sphere",
+      "type": "Base",
+      "score": 0.7239106222570779
+    },
+    {
+      "cwe_id": "88",
+      "name": "Improper Neutralization of Argument Delimiters in a Command ('Argument Injection')",
+      "type": "Base",
+      "score": 0.7204000976194621
+    },
+    {
+      "cwe_id": "61",
+      "name": "UNIX Symbolic Link (Symlink) Following",
+      "type": "Compound",
+      "score": 0.720289207161823
+    }
+  ]
+}

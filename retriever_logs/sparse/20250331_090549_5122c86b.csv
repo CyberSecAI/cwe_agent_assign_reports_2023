@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6936.233321754923,unknown
+943,Improper Neutralization of Special Elements in Data Query Logic,6681.299610873309,unknown
+138,Improper Neutralization of Special Elements,6671.970394672843,unknown
+1236,Improper Neutralization of Formula Elements in a CSV File,6656.352704187073,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6642.351293852422,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,4948.573966108801,unknown
+943,Improper Neutralization of Special Elements in Data Query Logic,4870.2848714777665,unknown
+863,Incorrect Authorization,4744.761427026011,unknown
+1333,Inefficient Regular Expression Complexity,4714.105416567817,unknown
+697,Incorrect Comparison,4696.154306282305,unknown

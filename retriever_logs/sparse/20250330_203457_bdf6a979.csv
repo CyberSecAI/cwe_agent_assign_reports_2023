@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,5542.214679760124,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),5244.606925495747,base_query
+1333,Inefficient Regular Expression Complexity,5239.211029858495,base_query
+415,Double Free,5023.1916099544205,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5009.194719189325,base_query

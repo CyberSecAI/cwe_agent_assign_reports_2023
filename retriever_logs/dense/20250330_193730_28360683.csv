@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+653,Improper Isolation or Compartmentalization,Class,0.7475839347557354
+1220,Insufficient Granularity of Access Control,Base,0.7471045099444541
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7334922208315778
+691,Insufficient Control Flow Management,Pillar,0.7261795268577524
+1263,Improper Physical Access Control,Class,0.725379821235161
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7219308487959222
+274,Improper Handling of Insufficient Privileges,Base,0.7204662395553667
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7171988816363932
+424,Improper Protection of Alternate Path,Class,0.7118953453607517
+73,External Control of File Name or Path,Base,0.7094289527779394

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+476,NULL Pointer Dereference,base,4.329000000000001,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,3.8870000000000005,0
+190,Integer Overflow or Wraparound,base,3.4200400000000006,0
+1325,Improperly Controlled Sequential Memory Allocation,Base,3.3148149606742208,0
+770,Allocation of Resources Without Limits or Throttling,base,3.302,0
+73,External Control of File Name or Path,base,3.2255600000000006,0
+789,Memory Allocation with Excessive Size Value,Variant,3.005990813942764,0
+1339,Insufficient Precision or Accuracy of a Real Number,base,2.9120000000000004,0
+1322,Use of Blocking Code in Single-threaded  Non-blocking Context,base,2.8651999999999997,0
+1333,Inefficient Regular Expression Complexity,base,2.4699999999999998,0

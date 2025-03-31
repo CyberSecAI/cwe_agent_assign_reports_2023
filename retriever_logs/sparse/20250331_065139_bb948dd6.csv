@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+472,External Control of Assumed-Immutable Web Parameter,5096.995809355867,base_query
+1220,Insufficient Granularity of Access Control,5083.176727919033,base_query
+863,Incorrect Authorization,5045.089370508274,base_query
+285,Improper Authorization,4987.262839734325,base_query
+287,Improper Authentication,4954.337494620539,base_query

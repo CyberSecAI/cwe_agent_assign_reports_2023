@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6534.426352926601,base_query
+611,Improper Restriction of XML External Entity Reference,6503.860907834355,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6478.355177400891,base_query
+863,Incorrect Authorization,6356.7966585760605,base_query
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,6309.218966465088,base_query

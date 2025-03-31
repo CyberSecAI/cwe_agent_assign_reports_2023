@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,6805.272191237676,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6396.88829250843,base_query
+208,Observable Timing Discrepancy,6386.246597036675,base_query
+125,Out-of-bounds Read,6070.694722576424,base_query
+116,Improper Encoding or Escaping of Output,6008.79128938266,base_query

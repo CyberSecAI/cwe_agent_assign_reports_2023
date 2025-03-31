@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+354,Improper Validation of Integrity Check Value,base,3.6399999999999997,0
+353,Missing Support for Integrity Check,base,3.6399999999999997,0
+322,Key Exchange without Entity Authentication,base,2.8651999999999997,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+350,Reliance on Reverse DNS Resolution for a Security-Critical Action,variant,2.6784000000000003,0
+312,Cleartext Storage of Sensitive Information,base,2.6104000000000003,0
+274,Improper Handling of Insufficient Privileges,Base,2.493951180232801,0
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,2.4939473701692156,0
+306,Missing Authentication for Critical Function,base,2.4699999999999998,0
+347,Improper Verification of Cryptographic Signature,base,2.4699999999999998,0

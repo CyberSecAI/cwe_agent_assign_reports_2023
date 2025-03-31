@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+778,Insufficient Logging,Base,0.8012634974668239
+1391,Use of Weak Credentials,Class,0.7504979341718274
+208,Observable Timing Discrepancy,Base,0.745989657534266
+798,Use of Hard-coded Credentials,Base,0.7450726068043428
+312,Cleartext Storage of Sensitive Information,Base,0.7447866064585642
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7438451083535057
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7424323195844635
+319,Cleartext Transmission of Sensitive Information,Base,0.741637276475416
+204,Observable Response Discrepancy,Base,0.7406070904826535
+1390,Weak Authentication,Class,0.7404325838284094

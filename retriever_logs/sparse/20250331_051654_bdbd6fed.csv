@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),8420.206842577963,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8220.63134642719,base_query
+138,Improper Neutralization of Special Elements,8083.750104560035,base_query
+116,Improper Encoding or Escaping of Output,8081.502324895156,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7922.601334963207,base_query

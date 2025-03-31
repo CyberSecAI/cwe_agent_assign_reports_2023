@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6255.311226250432,base_query
+116,Improper Encoding or Escaping of Output,5867.035382547625,base_query
+94,Improper Control of Generation of Code ('Code Injection'),5865.519623036305,base_query
+138,Improper Neutralization of Special Elements,5857.643157340252,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5855.874790305111,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+59,Improper Link Resolution Before File Access ('Link Following'),6604.486913414649,unknown
+61,UNIX Symbolic Link (Symlink) Following,6234.963475620317,unknown
+863,Incorrect Authorization,6185.878182095429,unknown
+285,Improper Authorization,6133.86073774683,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6054.905400558292,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6132.428078908748,base_query
+1007,Insufficient Visual Distinction of Homoglyphs Presented to User,6092.180540371487,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5461.423588109346,base_query
+125,Out-of-bounds Read,5294.055676439532,base_query
+639,Authorization Bypass Through User-Controlled Key,5243.378841783396,base_query

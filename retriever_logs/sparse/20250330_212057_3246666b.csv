@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1390,Weak Authentication,5816.610287733835,unknown
+611,Improper Restriction of XML External Entity Reference,5598.957287073427,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5516.615866048357,unknown
+287,Improper Authentication,5437.677278198653,unknown
+798,Use of Hard-coded Credentials,5412.693763960405,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6403.5622516984395,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),6346.789867174241,unknown
+61,UNIX Symbolic Link (Symlink) Following,5933.994229025041,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5812.965529357277,unknown
+732,Incorrect Permission Assignment for Critical Resource,5348.93672039151,unknown

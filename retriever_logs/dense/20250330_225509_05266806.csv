@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+705,Incorrect Control Flow Scoping,Class,0.7651133916363062
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7622314317839712
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7571114513772538
+41,Improper Resolution of Path Equivalence,Base,0.7499617466701847
+691,Insufficient Control Flow Management,Pillar,0.7499311907740486
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7493175663115927
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7470066169074849
+404,Improper Resource Shutdown or Release,Class,0.7468390137642357
+668,Exposure of Resource to Wrong Sphere,Class,0.7449439057471725
+138,Improper Neutralization of Special Elements,Class,0.7447704254723536

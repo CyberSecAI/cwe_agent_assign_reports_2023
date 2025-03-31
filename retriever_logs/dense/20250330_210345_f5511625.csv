@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7859740585923758
+606,Unchecked Input for Loop Condition,Base,0.7558321123636836
+1288,Improper Validation of Consistency within Input,Base,0.7554760792111743
+184,Incomplete List of Disallowed Inputs,Base,0.7506788819246311
+183,Permissive List of Allowed Inputs,Base,0.7495279331040844
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7433404462518757
+138,Improper Neutralization of Special Elements,Class,0.7405808045653329
+115,Misinterpretation of Input,Base,0.7379173944294478
+404,Improper Resource Shutdown or Release,Class,0.7378964140702681
+179,Incorrect Behavior Order: Early Validation,Base,0.7370205874848068

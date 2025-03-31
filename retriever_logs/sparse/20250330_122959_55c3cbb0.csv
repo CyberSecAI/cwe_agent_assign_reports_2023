@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,5055.838183144449,base_query
+617,Reachable Assertion,4908.25477532995,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),4819.1170713778465,base_query
+193,Off-by-one Error,4702.8527170054895,base_query
+626,Null Byte Interaction Error (Poison Null Byte),4607.373794906834,base_query

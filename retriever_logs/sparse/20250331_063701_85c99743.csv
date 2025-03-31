@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,7520.799868674762,unknown
+190,Integer Overflow or Wraparound,7445.545096557502,unknown
+1284,Improper Validation of Specified Quantity in Input,7442.510384042061,unknown
+125,Out-of-bounds Read,7399.405268436244,unknown
+116,Improper Encoding or Escaping of Output,7380.604978823766,unknown

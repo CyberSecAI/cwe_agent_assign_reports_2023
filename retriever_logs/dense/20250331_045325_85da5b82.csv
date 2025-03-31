@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,Variant,0.7704197368034222
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7669634589731278
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7659012632556652
+668,Exposure of Resource to Wrong Sphere,Class,0.7617843370668719
+345,Insufficient Verification of Data Authenticity,Class,0.7571811470656491
+319,Cleartext Transmission of Sensitive Information,Base,0.7542788735874997
+203,Observable Discrepancy,Base,0.7523102272304235
+639,Authorization Bypass Through User-Controlled Key,Base,0.7517218014607983
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7484058327879332
+41,Improper Resolution of Path Equivalence,Base,0.7462082544567181

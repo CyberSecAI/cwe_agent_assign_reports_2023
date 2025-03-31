@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6346.644229819862,base_query
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),6149.946804721686,base_query
+1204,Generation of Weak Initialization Vector (IV),5785.46192539029,base_query
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),5784.535398493364,base_query
+330,Use of Insufficiently Random Values,5661.516223314356,base_query

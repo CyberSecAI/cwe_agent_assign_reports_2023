@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+405,Asymmetric Resource Consumption (Amplification),Class,0.7814388387908164
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.779783966059518
+404,Improper Resource Shutdown or Release,Class,0.778012687202018
+799,Improper Control of Interaction Frequency,Class,0.7690968366595164
+691,Insufficient Control Flow Management,Pillar,0.7574357137007575
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7554107884757197
+789,Memory Allocation with Excessive Size Value,Variant,0.7486135574727626
+1220,Insufficient Granularity of Access Control,Base,0.7478586899853067
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7465387013872673
+667,Improper Locking,Class,0.7462936004237066

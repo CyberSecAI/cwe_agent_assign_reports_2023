@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+277,Insecure Inherited Permissions,5672.17286301165,unknown
+190,Integer Overflow or Wraparound,5500.592611680909,unknown
+770,Allocation of Resources Without Limits or Throttling,5319.916388331428,unknown
+863,Incorrect Authorization,5302.391527763229,unknown
+295,Improper Certificate Validation,5203.353891596886,unknown

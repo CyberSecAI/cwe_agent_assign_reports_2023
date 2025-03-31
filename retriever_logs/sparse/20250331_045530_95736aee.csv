@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+668,Exposure of Resource to Wrong Sphere,4126.189238788028,unknown
+1391,Use of Weak Credentials,4058.7497330246174,unknown
+321,Use of Hard-coded Cryptographic Key,4025.6599084461054,unknown
+257,Storing Passwords in a Recoverable Format,4019.138255700246,unknown
+798,Use of Hard-coded Credentials,4008.9094591524763,unknown

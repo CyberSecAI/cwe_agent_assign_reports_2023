@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7867079998352408
+693,Protection Mechanism Failure,Pillar,0.780465839716113
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7759039642161738
+345,Insufficient Verification of Data Authenticity,Class,0.7727302202717188
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.7711838379728782
+1391,Use of Weak Credentials,Class,0.7662528149684257
+294,Authentication Bypass by Capture-replay,Base,0.7633438539159243
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7629585725160151
+1390,Weak Authentication,Class,0.7624171117043421
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7619453131546337

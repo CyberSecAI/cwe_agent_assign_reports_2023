@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,8859.30818812947,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),8552.617378754372,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8212.384679533065,unknown
+23,Relative Path Traversal,8006.228612655068,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7840.014439259251,unknown

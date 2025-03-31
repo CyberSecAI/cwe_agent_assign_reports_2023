@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7707799180407594
+345,Insufficient Verification of Data Authenticity,Class,0.7554868602136255
+657,Violation of Secure Design Principles,Class,0.7429866038128201
+328,Use of Weak Hash,Base,0.7413661437602915
+1391,Use of Weak Credentials,Class,0.7371240579654748
+203,Observable Discrepancy,Base,0.7341595304689412
+330,Use of Insufficiently Random Values,Class,0.7318742456163648
+347,Improper Verification of Cryptographic Signature,Base,0.7303162879386051
+208,Observable Timing Discrepancy,Base,0.7258096452830636
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7257299208809268

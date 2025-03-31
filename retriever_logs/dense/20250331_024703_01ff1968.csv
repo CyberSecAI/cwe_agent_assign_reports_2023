@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7768192377078715
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7687728341256839
+668,Exposure of Resource to Wrong Sphere,Class,0.7672153813516809
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7668105954423428
+667,Improper Locking,Class,0.7667864778985402
+404,Improper Resource Shutdown or Release,Class,0.764429506555091
+824,Access of Uninitialized Pointer,Base,0.7640656265552024
+252,Unchecked Return Value,Base,0.7629635279453046
+755,Improper Handling of Exceptional Conditions,Class,0.761965861747939
+131,Incorrect Calculation of Buffer Size,Base,0.7617945823266012

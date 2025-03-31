@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7945040053805148
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7839939792309659
+404,Improper Resource Shutdown or Release,Class,0.7742753683282511
+295,Improper Certificate Validation,Base,0.7719448687541743
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7710394417327586
+668,Exposure of Resource to Wrong Sphere,Class,0.7680169704942968
+1286,Improper Validation of Syntactic Correctness of Input,Base,0.7673205617403536
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7663870322847062
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7656143156263033
+617,Reachable Assertion,Base,0.7655564570457961

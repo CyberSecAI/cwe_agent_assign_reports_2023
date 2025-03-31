@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+611,Improper Restriction of XML External Entity Reference,Base,0.7707335333598975
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.765980415973608
+502,Deserialization of Untrusted Data,Base,0.7590007297812719
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7563012677249166
+138,Improper Neutralization of Special Elements,Class,0.7553701379301085
+345,Insufficient Verification of Data Authenticity,Class,0.7527427853826709
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7517120414148524
+41,Improper Resolution of Path Equivalence,Base,0.7511415420923089
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7491200121642921
+184,Incomplete List of Disallowed Inputs,Base,0.7476185884015881

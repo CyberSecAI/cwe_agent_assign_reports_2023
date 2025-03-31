@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+657,Violation of Secure Design Principles,7267.666641618253,unknown
+916,Use of Password Hash With Insufficient Computational Effort,6941.539636405703,unknown
+287,Improper Authentication,6323.730263205914,unknown
+732,Incorrect Permission Assignment for Critical Resource,6234.132137020115,unknown
+770,Allocation of Resources Without Limits or Throttling,6212.301653623321,unknown

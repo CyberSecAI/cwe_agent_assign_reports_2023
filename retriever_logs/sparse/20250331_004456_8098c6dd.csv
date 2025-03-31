@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+757,Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade'),5825.74434179587,unknown
+1390,Weak Authentication,5411.880652850243,unknown
+287,Improper Authentication,5350.628591513171,unknown
+319,Cleartext Transmission of Sensitive Information,5276.389952586867,unknown
+863,Incorrect Authorization,5202.825190505726,unknown

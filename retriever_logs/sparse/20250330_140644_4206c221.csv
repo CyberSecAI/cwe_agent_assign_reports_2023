@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,7085.616252038993,unknown
+125,Out-of-bounds Read,6814.85773657818,unknown
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6718.449690152741,unknown
+1284,Improper Validation of Specified Quantity in Input,6339.2976229182195,unknown
+197,Numeric Truncation Error,6328.306208285495,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7647865073349651
+668,Exposure of Resource to Wrong Sphere,Class,0.7613345150167024
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7537000690237605
+345,Insufficient Verification of Data Authenticity,Class,0.7524593839858345
+1390,Weak Authentication,Class,0.7511147216274425
+203,Observable Discrepancy,Base,0.7488405769262108
+1391,Use of Weak Credentials,Class,0.7484929542888061
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7467526999083127
+41,Improper Resolution of Path Equivalence,Base,0.7454497297209286
+657,Violation of Secure Design Principles,Class,0.7440362032482466

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,6425.72575111633,base_query
+823,Use of Out-of-range Pointer Offset,6025.445358224469,base_query
+839,Numeric Range Comparison Without Minimum Check,5916.147975424841,base_query
+125,Out-of-bounds Read,5912.854886952641,base_query
+124,Buffer Underwrite ('Buffer Underflow'),5892.279355471295,base_query

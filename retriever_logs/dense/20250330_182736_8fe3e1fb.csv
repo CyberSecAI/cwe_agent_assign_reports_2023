@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+366,Race Condition within a Thread,Base,0.8163132885624544
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7760860503419253
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7734945228110452
+662,Improper Synchronization,Class,0.7695855574395286
+667,Improper Locking,Class,0.7681381224791856
+368,Context Switching Race Condition,Base,0.7599425294219628
+404,Improper Resource Shutdown or Release,Class,0.7473627181459752
+823,Use of Out-of-range Pointer Offset,Base,0.7397890736509163
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7385561308486814
+125,Out-of-bounds Read,Base,0.7380495123986522

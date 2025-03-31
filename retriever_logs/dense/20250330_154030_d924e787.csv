@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.8038154043386591
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7764355441859535
+184,Incomplete List of Disallowed Inputs,Base,0.7671227762490146
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7618881843718429
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7599451757329777
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7591695984944217
+838,Inappropriate Encoding for Output Context,Base,0.7587777864555493
+116,Improper Encoding or Escaping of Output,Class,0.7566531584267249
+41,Improper Resolution of Path Equivalence,Base,0.756070280572477
+138,Improper Neutralization of Special Elements,Class,0.7530930259744971

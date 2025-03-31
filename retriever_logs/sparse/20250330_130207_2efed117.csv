@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,5762.513175693047,base_query
+116,Improper Encoding or Escaping of Output,5731.590362547749,base_query
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),5340.021637755113,base_query
+776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),5325.051273075798,base_query
+863,Incorrect Authorization,5265.5784203118965,base_query

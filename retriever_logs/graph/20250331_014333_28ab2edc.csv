@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+385,Covert Timing Channel,base,4.329000000000001,0
+804,Guessable CAPTCHA,base,4.329000000000001,0
+481,Assigning instead of Comparing,variant,3.8784,0
+209,Generation of Error Message Containing Sensitive Information,base,3.6399999999999997,0
+201,Insertion of Sensitive Information Into Sent Data,base,3.6399999999999997,0
+202,Exposure of Sensitive Information Through Data Queries,base,3.6399999999999997,0
+178,Improper Handling of Case Sensitivity,base,3.6399999999999997,0
+252,Unchecked Return Value,base,3.0784,0
+208,Observable Timing Discrepancy,Base,2.9229599392383463,0
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0

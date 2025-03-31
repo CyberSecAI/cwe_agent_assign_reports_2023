@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+667,Improper Locking,Class,0.794803212037888
+404,Improper Resource Shutdown or Release,Class,0.7748095697965753
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7690764885669225
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7625214891097519
+662,Improper Synchronization,Class,0.7613724274428929
+653,Improper Isolation or Compartmentalization,Class,0.7581699786399145
+665,Improper Initialization,Class,0.7554617294706767
+131,Incorrect Calculation of Buffer Size,Base,0.7478708341867899
+125,Out-of-bounds Read,Base,0.7453649792257868
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7448987207692092

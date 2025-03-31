@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+798,Use of Hard-coded Credentials,6162.107967596086,unknown
+259,Use of Hard-coded Password,6159.818619714099,unknown
+1390,Weak Authentication,6066.340238889263,unknown
+287,Improper Authentication,5982.717465550867,unknown
+863,Incorrect Authorization,5970.536619610777,unknown

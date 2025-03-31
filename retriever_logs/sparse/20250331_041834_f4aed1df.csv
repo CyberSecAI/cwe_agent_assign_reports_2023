@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,5287.670371439712,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,5241.420296528928,unknown
+1390,Weak Authentication,5223.355419872499,unknown
+306,Missing Authentication for Critical Function,5160.476636934455,unknown
+863,Incorrect Authorization,5138.527950621629,unknown

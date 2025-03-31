@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+601,URL Redirection to Untrusted Site ('Open Redirect'),Base,0.803795672294235
+41,Improper Resolution of Path Equivalence,Base,0.7668838146337543
+472,External Control of Assumed-Immutable Web Parameter,Base,0.763693150002845
+425,Direct Request ('Forced Browsing'),Base,0.7632903210637827
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.760135344951973
+23,Relative Path Traversal,Base,0.7564308775581863
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7550799064018328
+639,Authorization Bypass Through User-Controlled Key,Base,0.7543914491451523
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7540309658937148
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7539963895506641

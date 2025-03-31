@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+649,Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking,5516.4198003719775,base_query
+319,Cleartext Transmission of Sensitive Information,5399.791117910489,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,5380.089042985817,base_query
+347,Improper Verification of Cryptographic Signature,5250.320906563083,base_query
+1390,Weak Authentication,5219.489868929073,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8099.82950362255,unknown
+611,Improper Restriction of XML External Entity Reference,8038.956922946723,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7989.919298206897,unknown
+116,Improper Encoding or Escaping of Output,7989.4171780674005,unknown
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),7898.07164384365,unknown

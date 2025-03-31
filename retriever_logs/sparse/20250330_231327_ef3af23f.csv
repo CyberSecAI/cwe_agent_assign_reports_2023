@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,5702.5092400342,base_query
+770,Allocation of Resources Without Limits or Throttling,5560.526416621487,base_query
+1250,Improper Preservation of Consistency Between Independent Representations of Shared State,5552.00593670129,base_query
+789,Memory Allocation with Excessive Size Value,5431.947414837416,base_query
+1285,Improper Validation of Specified Index  Position  or Offset in Input,5401.404081934323,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+653,Improper Isolation or Compartmentalization,Class,0.7721282028452175
+131,Incorrect Calculation of Buffer Size,Base,0.7647462686957346
+274,Improper Handling of Insufficient Privileges,Base,0.7647307128314413
+404,Improper Resource Shutdown or Release,Class,0.7617937584461043
+691,Insufficient Control Flow Management,Pillar,0.7613661879835628
+667,Improper Locking,Class,0.761310984247311
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7578548856898033
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7573065233938667
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7560294472063374
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7552928348910435

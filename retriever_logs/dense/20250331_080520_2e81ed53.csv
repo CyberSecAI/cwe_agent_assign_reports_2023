@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7839058025392752
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.778706337072379
+73,External Control of File Name or Path,Base,0.7714334614469784
+274,Improper Handling of Insufficient Privileges,Base,0.7707614121158671
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7700765606457787
+345,Insufficient Verification of Data Authenticity,Class,0.7657290130199124
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7624323131098654
+41,Improper Resolution of Path Equivalence,Base,0.7606846665738984
+184,Incomplete List of Disallowed Inputs,Base,0.7583207467074711
+668,Exposure of Resource to Wrong Sphere,Class,0.7567656940018324

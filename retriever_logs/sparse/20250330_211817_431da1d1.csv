@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6686.053274969494,base_query
+116,Improper Encoding or Escaping of Output,5869.658088479167,base_query
+203,Observable Discrepancy,5854.325787570654,base_query
+472,External Control of Assumed-Immutable Web Parameter,5629.332127568404,base_query
+209,Generation of Error Message Containing Sensitive Information,5608.645736470442,base_query

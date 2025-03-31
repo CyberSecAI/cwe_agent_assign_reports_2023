@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+59,Improper Link Resolution Before File Access ('Link Following'),5146.798503769227,unknown
+611,Improper Restriction of XML External Entity Reference,5065.945330572151,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4956.722445452106,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),4913.9191306431985,unknown
+789,Memory Allocation with Excessive Size Value,4865.304474744582,unknown

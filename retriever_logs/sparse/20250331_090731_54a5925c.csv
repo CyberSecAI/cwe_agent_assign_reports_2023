@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6371.459952768038,unknown
+639,Authorization Bypass Through User-Controlled Key,5999.699496790985,unknown
+942,Permissive Cross-domain Policy with Untrusted Domains,5845.972955265786,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,5760.08047116983,unknown
+863,Incorrect Authorization,5532.579346156209,unknown

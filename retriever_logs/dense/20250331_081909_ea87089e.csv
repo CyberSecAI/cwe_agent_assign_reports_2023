@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+674,Uncontrolled Recursion,Class,0.759685105150233
+197,Numeric Truncation Error,Base,0.75012572025329
+191,Integer Underflow (Wrap or Wraparound),Base,0.7418338143029588
+131,Incorrect Calculation of Buffer Size,Base,0.741251437120179
+125,Out-of-bounds Read,Base,0.7373350257703901
+404,Improper Resource Shutdown or Release,Class,0.7360315339649491
+667,Improper Locking,Class,0.7349092972786069
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7332542104227812
+789,Memory Allocation with Excessive Size Value,Variant,0.7309184147705916
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7288362339940435

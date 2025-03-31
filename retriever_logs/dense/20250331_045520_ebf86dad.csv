@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+331,Insufficient Entropy,Base,0.7961471854629771
+312,Cleartext Storage of Sensitive Information,Base,0.7916545220594942
+311,Missing Encryption of Sensitive Data,Class,0.7680037133331317
+1391,Use of Weak Credentials,Class,0.7590867706969994
+330,Use of Insufficiently Random Values,Class,0.7576243746747551
+257,Storing Passwords in a Recoverable Format,Base,0.7554944420239355
+916,Use of Password Hash With Insufficient Computational Effort,Base,0.7489234275647878
+319,Cleartext Transmission of Sensitive Information,Base,0.748848910966919
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7454596044284849
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7414033603705201

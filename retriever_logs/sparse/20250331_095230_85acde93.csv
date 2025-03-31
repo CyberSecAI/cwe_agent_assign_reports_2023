@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6868.769842892841,unknown
+319,Cleartext Transmission of Sensitive Information,6628.762251016434,unknown
+312,Cleartext Storage of Sensitive Information,6488.478988377208,unknown
+1004,Sensitive Cookie Without 'HttpOnly' Flag,6469.243825526989,unknown
+352,Cross-Site Request Forgery (CSRF),6388.678085283577,unknown

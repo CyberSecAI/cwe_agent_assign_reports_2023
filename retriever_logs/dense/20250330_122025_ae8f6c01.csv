@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+300,Channel Accessible by Non-Endpoint,Class,0.8108179946536654
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7806306431343468
+319,Cleartext Transmission of Sensitive Information,Base,0.7669284401546137
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.761890868350962
+203,Observable Discrepancy,Base,0.7597451275973361
+41,Improper Resolution of Path Equivalence,Base,0.7579227969889593
+668,Exposure of Resource to Wrong Sphere,Class,0.7560065658439727
+799,Improper Control of Interaction Frequency,Class,0.7544877062849961
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7527921092501437
+1391,Use of Weak Credentials,Class,0.7517664633201269

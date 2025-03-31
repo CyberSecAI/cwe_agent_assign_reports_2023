@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,5851.800740524504,unknown
+472,External Control of Assumed-Immutable Web Parameter,5659.553672541853,unknown
+863,Incorrect Authorization,5514.468112837562,unknown
+23,Relative Path Traversal,5445.259462698674,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5438.123557834426,unknown

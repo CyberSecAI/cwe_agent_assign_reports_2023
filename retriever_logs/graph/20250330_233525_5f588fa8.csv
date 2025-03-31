@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+385,Covert Timing Channel,base,4.329000000000001,0
+804,Guessable CAPTCHA,base,4.329000000000001,0
+73,External Control of File Name or Path,base,3.2255600000000006,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.984,0
+208,Observable Timing Discrepancy,Base,2.888106061179222,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,2.821,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+203,Observable Discrepancy,base,2.4699999999999998,0
+639,Authorization Bypass Through User-Controlled Key,base,2.4699999999999998,0
+41,Improper Resolution of Path Equivalence,base,2.4232000000000005,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+798,Use of Hard-coded Credentials,Base,0.7708465038691183
+1391,Use of Weak Credentials,Class,0.7561618184608482
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7528950487718616
+639,Authorization Bypass Through User-Controlled Key,Base,0.7492039472424089
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7488998522910331
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7458647318316507
+668,Exposure of Resource to Wrong Sphere,Class,0.7454983878509469
+41,Improper Resolution of Path Equivalence,Base,0.7437285601189684
+552,Files or Directories Accessible to External Parties,Base,0.7418961291988925
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7413900666536761

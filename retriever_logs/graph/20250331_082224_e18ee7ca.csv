@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,3.8870000000000005,0
+471,Modification of Assumed-Immutable Data (MAID),base,2.7196000000000002,0
+434,Unrestricted Upload of File with Dangerous Type,Base,2.476082407062648,0
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,2.4700000000000006,0
+425,Direct Request ('Forced Browsing'),Base,2.3525324606389653,0
+94,Improper Control of Generation of Code ('Code Injection'),base,2.2776000000000005,0
+73,External Control of File Name or Path,base,2.2100000000000004,0
+183,Permissive List of Allowed Inputs,base,2.2100000000000004,0
+472,External Control of Assumed-Immutable Web Parameter,Base,2.1318471209822283,0
+613,Insufficient Session Expiration,base,2.0930000000000004,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+824,Access of Uninitialized Pointer,Base,0.7935197337061296
+822,Untrusted Pointer Dereference,Base,0.7859373596484971
+476,NULL Pointer Dereference,Base,0.7845636458776332
+131,Incorrect Calculation of Buffer Size,Base,0.7834548939758761
+457,Use of Uninitialized Variable,Variant,0.7829106933421577
+252,Unchecked Return Value,Base,0.7800423986259815
+667,Improper Locking,Class,0.7756277929911881
+805,Buffer Access with Incorrect Length Value,Base,0.7754825013546597
+823,Use of Out-of-range Pointer Offset,Base,0.7744885868130782
+665,Improper Initialization,Class,0.7743037170992509

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+364,Signal Handler Race Condition,8135.7479170977485,unknown
+789,Memory Allocation with Excessive Size Value,7978.7401130550215,unknown
+770,Allocation of Resources Without Limits or Throttling,7898.181571391227,unknown
+190,Integer Overflow or Wraparound,7837.028884049127,unknown
+404,Improper Resource Shutdown or Release,7674.003751754057,unknown

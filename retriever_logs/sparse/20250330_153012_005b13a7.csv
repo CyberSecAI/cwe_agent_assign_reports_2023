@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,7110.470321496078,base_query
+1284,Improper Validation of Specified Quantity in Input,6685.811802940713,base_query
+125,Out-of-bounds Read,6669.308518374505,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,6654.3280344425575,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6564.26245685511,base_query

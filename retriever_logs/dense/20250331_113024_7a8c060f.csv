@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+204,Observable Response Discrepancy,Base,0.7795603809964203
+208,Observable Timing Discrepancy,Base,0.777725509144825
+207,Observable Behavioral Discrepancy With Equivalent Products,Variant,0.7730556402114247
+205,Observable Behavioral Discrepancy,Base,0.7730227308382924
+341,Predictable from Observable State,Base,0.7700767140035025
+330,Use of Insufficiently Random Values,Class,0.7590889735221567
+203,Observable Discrepancy,Base,0.757766024013147
+206,Observable Internal Behavioral Discrepancy,Variant,0.754322232867141
+668,Exposure of Resource to Wrong Sphere,Class,0.740028222931085
+340,Generation of Predictable Numbers or Identifiers,Class,0.7390205183424936

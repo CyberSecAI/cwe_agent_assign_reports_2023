@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5508.114983406825,unknown
+415,Double Free,5041.816961194218,unknown
+190,Integer Overflow or Wraparound,4916.085586738928,unknown
+125,Out-of-bounds Read,4900.6323907652595,unknown
+364,Signal Handler Race Condition,4819.111121987663,unknown

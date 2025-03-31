@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,5469.225827249349,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,5232.312392579015,base_query
+863,Incorrect Authorization,5145.021868336835,base_query
+770,Allocation of Resources Without Limits or Throttling,5043.2527298359155,base_query
+347,Improper Verification of Cryptographic Signature,5000.183531789944,base_query

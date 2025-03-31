@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+668,Exposure of Resource to Wrong Sphere,4505.868929378284,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),4502.783695783781,base_query
+863,Incorrect Authorization,4472.819021752573,base_query
+285,Improper Authorization,4337.943287554882,base_query
+639,Authorization Bypass Through User-Controlled Key,4329.107300994897,base_query

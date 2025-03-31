@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+201,Insertion of Sensitive Information Into Sent Data,base,5.031000000000001,0
+489,Active Debug Code,base,4.329000000000001,0
+215,Insertion of Sensitive Information Into Debugging Code,base,4.329000000000001,0
+941,Incorrectly Specified Destination in a Communication Channel,base,4.329000000000001,0
+1275,Sensitive Cookie with Improper SameSite Attribute,variant,3.8784,0
+178,Improper Handling of Case Sensitivity,base,3.6399999999999997,0
+1289,Improper Validation of Unsafe Equivalence in Input,base,3.6399999999999997,0
+252,Unchecked Return Value,base,3.055,0
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,2.910015870272278,0
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,2.9096438828357587,0

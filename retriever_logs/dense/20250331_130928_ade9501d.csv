@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+156,Improper Neutralization of Whitespace,Variant,0.7605327322465738
+138,Improper Neutralization of Special Elements,Class,0.7534867295227055
+41,Improper Resolution of Path Equivalence,Base,0.7468309597124101
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7464348949288568
+184,Incomplete List of Disallowed Inputs,Base,0.745397414549885
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7445454066766507
+668,Exposure of Resource to Wrong Sphere,Class,0.7365602517609415
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7341553834668901
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7330821329164863
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7313949208506348

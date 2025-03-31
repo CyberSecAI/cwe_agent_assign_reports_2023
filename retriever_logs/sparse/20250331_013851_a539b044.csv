@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,5493.310961486512,unknown
+285,Improper Authorization,5427.56890005327,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),5316.248100471936,unknown
+639,Authorization Bypass Through User-Controlled Key,5315.587472054622,unknown
+287,Improper Authentication,5288.128095469262,unknown

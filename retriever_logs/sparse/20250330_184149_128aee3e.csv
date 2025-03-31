@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7213.370257479323,base_query
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),7189.036274887041,base_query
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),6994.543614039121,base_query
+116,Improper Encoding or Escaping of Output,6847.455012538955,base_query
+1333,Inefficient Regular Expression Complexity,6707.096365033324,base_query

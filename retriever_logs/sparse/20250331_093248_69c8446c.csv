@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,5554.228754530167,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,5477.945133056209,unknown
+943,Improper Neutralization of Special Elements in Data Query Logic,5217.478391292609,unknown
+204,Observable Response Discrepancy,5216.883842923609,unknown
+863,Incorrect Authorization,5130.971891262552,unknown

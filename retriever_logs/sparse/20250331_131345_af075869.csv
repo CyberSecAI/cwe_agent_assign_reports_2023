@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6456.323600573466,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,6242.13977990944,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6196.104825042048,base_query
+23,Relative Path Traversal,6180.166163759674,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,6176.85751242069,base_query

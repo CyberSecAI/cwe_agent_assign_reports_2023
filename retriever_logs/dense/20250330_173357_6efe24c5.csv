@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+405,Asymmetric Resource Consumption (Amplification),Class,0.757566824456569
+404,Improper Resource Shutdown or Release,Class,0.755282924536915
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7536544929794868
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7524784162734289
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7516356866541709
+653,Improper Isolation or Compartmentalization,Class,0.7453428174535532
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7452851294274261
+668,Exposure of Resource to Wrong Sphere,Class,0.7387908789233195
+41,Improper Resolution of Path Equivalence,Base,0.7362582700538225
+667,Improper Locking,Class,0.7361632051985774

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,6000.979133641055,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5821.256188458078,base_query
+1236,Improper Neutralization of Formula Elements in a CSV File,5759.590112684228,base_query
+287,Improper Authentication,5746.39475273084,base_query
+138,Improper Neutralization of Special Elements,5731.533279131824,base_query

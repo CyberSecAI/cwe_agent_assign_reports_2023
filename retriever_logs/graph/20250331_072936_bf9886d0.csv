@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+499,Serializable Class Containing Sensitive Data,variant,2.6784000000000003,0
+498,Cloneable Class Containing Sensitive Information,variant,2.6784000000000003,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+260,Password in Configuration File,base,2.4699999999999998,0
+549,Missing Password Field Masking,base,2.4699999999999998,0
+256,Plaintext Storage of a Password,base,2.4699999999999998,0
+613,Insufficient Session Expiration,base,2.2100000000000004,0
+1272,Sensitive Information Uncleared Before Debug/Power State Transition,base,2.2100000000000004,0
+523,Unprotected Transport of Credentials,base,2.1762,0
+555,J2EE Misconfiguration: Plaintext Password in Configuration File,variant,2.1624,0

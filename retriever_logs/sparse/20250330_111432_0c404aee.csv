@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,5972.7505822497715,base_query
+770,Allocation of Resources Without Limits or Throttling,5919.378112148388,base_query
+863,Incorrect Authorization,5917.032318138175,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5880.0318639696925,base_query
+116,Improper Encoding or Escaping of Output,5854.834187690917,base_query

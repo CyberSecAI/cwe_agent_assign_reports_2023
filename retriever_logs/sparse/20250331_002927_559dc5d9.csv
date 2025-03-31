@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,5519.271037990208,unknown
+226,Sensitive Information in Resource Not Removed Before Reuse,5509.043143820173,unknown
+472,External Control of Assumed-Immutable Web Parameter,5491.411770378143,unknown
+770,Allocation of Resources Without Limits or Throttling,5488.057896438636,unknown
+863,Incorrect Authorization,5473.959986525034,unknown

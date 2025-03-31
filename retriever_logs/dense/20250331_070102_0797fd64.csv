@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.8017646690246386
+312,Cleartext Storage of Sensitive Information,Base,0.7751469614120003
+345,Insufficient Verification of Data Authenticity,Class,0.7672679122457491
+1391,Use of Weak Credentials,Class,0.7653017582650408
+319,Cleartext Transmission of Sensitive Information,Base,0.7609264973395169
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7600704888631825
+1390,Weak Authentication,Class,0.759195568820427
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7572898503580094
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7571020276412075
+798,Use of Hard-coded Credentials,Base,0.756579221168522

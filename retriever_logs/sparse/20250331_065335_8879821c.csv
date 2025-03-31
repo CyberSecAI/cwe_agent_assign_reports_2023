@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6970.6741442518205,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),6940.887355390452,base_query
+285,Improper Authorization,6894.476131357685,base_query
+639,Authorization Bypass Through User-Controlled Key,6817.708677161832,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6758.922554857693,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7616513857135044
+639,Authorization Bypass Through User-Controlled Key,Base,0.7612538233450468
+668,Exposure of Resource to Wrong Sphere,Class,0.7611556419515371
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7550353868357392
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7549697807818585
+405,Asymmetric Resource Consumption (Amplification),Class,0.7532829419795255
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7506000047414503
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7501603285161939
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7501424364826226
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7498036259113943

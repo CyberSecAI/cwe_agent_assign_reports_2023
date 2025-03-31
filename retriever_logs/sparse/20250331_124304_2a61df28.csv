@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6871.254401311117,base_query
+1269,Product Released in Non-Release Configuration,6709.315467426374,base_query
+116,Improper Encoding or Escaping of Output,6602.4693645442985,base_query
+522,Insufficiently Protected Credentials,6528.692745003206,base_query
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),6445.2462916921,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+347,Improper Verification of Cryptographic Signature,6099.614106862327,base_query
+1284,Improper Validation of Specified Quantity in Input,6068.851182431804,base_query
+639,Authorization Bypass Through User-Controlled Key,6021.514727309208,base_query
+425,Direct Request ('Forced Browsing'),6019.776867216315,base_query
+863,Incorrect Authorization,6017.9058762872555,base_query

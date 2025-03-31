@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7543345385569535
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7506266820993887
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7493339009276101
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7399030706683862
+138,Improper Neutralization of Special Elements,Class,0.7391262884584291
+1391,Use of Weak Credentials,Class,0.7380835898192512
+184,Incomplete List of Disallowed Inputs,Base,0.7352458143357933
+73,External Control of File Name or Path,Base,0.7352135827280029
+434,Unrestricted Upload of File with Dangerous Type,Base,0.7351299356906649
+23,Relative Path Traversal,Base,0.7341716342463865

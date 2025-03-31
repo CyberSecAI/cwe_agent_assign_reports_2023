@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7710329135336833
+131,Incorrect Calculation of Buffer Size,Base,0.7679365502051935
+665,Improper Initialization,Class,0.7669161480903142
+404,Improper Resource Shutdown or Release,Class,0.7663390238326987
+1204,Generation of Weak Initialization Vector (IV),Base,0.7648624407126723
+330,Use of Insufficiently Random Values,Class,0.7637452252154653
+667,Improper Locking,Class,0.763695596506998
+203,Observable Discrepancy,Base,0.7624682691070239
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7616228118166849
+208,Observable Timing Discrepancy,Base,0.7597346537490715

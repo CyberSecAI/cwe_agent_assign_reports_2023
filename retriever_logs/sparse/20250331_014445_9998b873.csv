@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5568.860554477887,base_query
+667,Improper Locking,5514.039455806148,base_query
+1284,Improper Validation of Specified Quantity in Input,5488.306901808226,base_query
+116,Improper Encoding or Escaping of Output,5478.906821501339,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5477.955803241629,base_query

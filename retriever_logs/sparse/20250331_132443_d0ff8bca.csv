@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+276,Incorrect Default Permissions,5132.046562694059,base_query
+863,Incorrect Authorization,5119.084506239981,base_query
+285,Improper Authorization,5096.041342251921,base_query
+668,Exposure of Resource to Wrong Sphere,5050.706878327077,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,4980.640543883925,base_query

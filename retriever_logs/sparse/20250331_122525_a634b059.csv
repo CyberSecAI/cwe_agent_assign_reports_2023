@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+782,Exposed IOCTL with Insufficient Access Control,5985.465388514686,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5865.831182460621,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5815.046059206807,base_query
+125,Out-of-bounds Read,5795.36257845215,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5704.86612907413,base_query

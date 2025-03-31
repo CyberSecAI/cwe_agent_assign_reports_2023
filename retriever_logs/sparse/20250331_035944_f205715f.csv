@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,8050.304936409201,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8028.451456362898,base_query
+352,Cross-Site Request Forgery (CSRF),7725.753358760265,base_query
+434,Unrestricted Upload of File with Dangerous Type,7413.445839880923,base_query
+863,Incorrect Authorization,7379.59341590262,base_query

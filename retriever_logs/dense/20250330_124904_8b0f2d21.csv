@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7639715238776021
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7577843021360171
+405,Asymmetric Resource Consumption (Amplification),Class,0.7557462209799101
+668,Exposure of Resource to Wrong Sphere,Class,0.7531689525414986
+799,Improper Control of Interaction Frequency,Class,0.7517281921111139
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7493881992254936
+404,Improper Resource Shutdown or Release,Class,0.7471370212276295
+131,Incorrect Calculation of Buffer Size,Base,0.7470969238249581
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7457944903360418
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7452246330362474

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8138.540918255406,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7958.9850908461585,base_query
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),7897.957182420185,base_query
+116,Improper Encoding or Escaping of Output,7766.419723405807,base_query
+918,Server-Side Request Forgery (SSRF),7576.0543367473165,base_query

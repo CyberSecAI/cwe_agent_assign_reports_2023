@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7615066022606349
+639,Authorization Bypass Through User-Controlled Key,Base,0.7565808516762131
+274,Improper Handling of Insufficient Privileges,Base,0.7561443550174993
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7561143122064187
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7484133718541048
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7469407475980325
+1220,Insufficient Granularity of Access Control,Base,0.7462545122519078
+1390,Weak Authentication,Class,0.7426081802118069
+653,Improper Isolation or Compartmentalization,Class,0.7372461142527316
+266,Incorrect Privilege Assignment,Base,0.7349977938030238

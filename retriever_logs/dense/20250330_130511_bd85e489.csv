@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.8009067425548408
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7947333332587004
+415,Double Free,Variant,0.787811814878491
+366,Race Condition within a Thread,Base,0.7798048372379833
+667,Improper Locking,Class,0.7688837632020981
+416,Use After Free,Variant,0.7596418519109855
+131,Incorrect Calculation of Buffer Size,Base,0.7504130054895277
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7493375731280159
+824,Access of Uninitialized Pointer,Base,0.7485727494516989
+908,Use of Uninitialized Resource,Base,0.7474789610085499

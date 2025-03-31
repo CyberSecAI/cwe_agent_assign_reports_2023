@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7746489398935537
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7741187122509035
+668,Exposure of Resource to Wrong Sphere,Class,0.7681534097108307
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7601509993069859
+392,Missing Report of Error Condition,Base,0.7589145364638513
+41,Improper Resolution of Path Equivalence,Base,0.7577037874813641
+404,Improper Resource Shutdown or Release,Class,0.7565383095626348
+345,Insufficient Verification of Data Authenticity,Class,0.7559379417678519
+617,Reachable Assertion,Base,0.7552135620612693
+755,Improper Handling of Exceptional Conditions,Class,0.7537236007135338

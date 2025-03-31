@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7733175760592547
+668,Exposure of Resource to Wrong Sphere,Class,0.7698871630162615
+667,Improper Locking,Class,0.7692886519993146
+41,Improper Resolution of Path Equivalence,Base,0.7689149647943283
+404,Improper Resource Shutdown or Release,Class,0.766731065414765
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.765093264853965
+653,Improper Isolation or Compartmentalization,Class,0.7623275305093591
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7623248504327094
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7602502041273062
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7596902819636545

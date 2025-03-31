@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,5606.573546460229,base_query
+941,Incorrectly Specified Destination in a Communication Channel,5461.818984765078,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5189.785873149041,base_query
+776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),5124.782633829659,base_query
+116,Improper Encoding or Escaping of Output,5029.5254885235645,base_query

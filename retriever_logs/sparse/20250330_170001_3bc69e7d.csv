@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1240,Use of a Cryptographic Primitive with a Risky Implementation,8806.247275057853,base_query
+295,Improper Certificate Validation,8579.028543327797,base_query
+296,Improper Following of a Certificate's Chain of Trust,8110.285101604479,base_query
+297,Improper Validation of Certificate with Host Mismatch,7910.343010099656,base_query
+345,Insufficient Verification of Data Authenticity,7765.509183231054,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1204,Generation of Weak Initialization Vector (IV),5701.13724010758,unknown
+329,Generation of Predictable IV with CBC Mode,5132.090483753036,unknown
+321,Use of Hard-coded Cryptographic Key,5106.880609596417,unknown
+203,Observable Discrepancy,5089.308404449175,unknown
+295,Improper Certificate Validation,5082.108237335662,unknown

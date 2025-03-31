@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7904.639770760493,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7576.96022636442,base_query
+611,Improper Restriction of XML External Entity Reference,7528.9039911956015,base_query
+918,Server-Side Request Forgery (SSRF),7443.020310768709,base_query
+116,Improper Encoding or Escaping of Output,7393.289071552868,base_query

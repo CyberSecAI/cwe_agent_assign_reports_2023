@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),5248.682845067314,unknown
+116,Improper Encoding or Escaping of Output,5244.221665309596,unknown
+1390,Weak Authentication,5201.859338315539,unknown
+138,Improper Neutralization of Special Elements,5148.288115528195,unknown
+287,Improper Authentication,5134.584377093228,unknown

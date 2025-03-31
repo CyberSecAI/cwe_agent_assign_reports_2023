@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,4757.750662217412,unknown
+863,Incorrect Authorization,4673.467328800987,unknown
+639,Authorization Bypass Through User-Controlled Key,4642.349666655326,unknown
+653,Improper Isolation or Compartmentalization,4631.008426803286,unknown
+287,Improper Authentication,4597.878076936114,unknown

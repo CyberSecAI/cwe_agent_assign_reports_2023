@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+838,Inappropriate Encoding for Output Context,Base,0.7739687061580133
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7681898561516718
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7671468170021951
+125,Out-of-bounds Read,Base,0.7626788320369507
+404,Improper Resource Shutdown or Release,Class,0.7606315773589768
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7595703687520685
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.757170221659224
+824,Access of Uninitialized Pointer,Base,0.7558980585582727
+138,Improper Neutralization of Special Elements,Class,0.7534760611147135
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7521188080850101

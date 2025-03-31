@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5785.229242367959,base_query
+184,Incomplete List of Disallowed Inputs,5286.745581387592,base_query
+356,Product UI does not Warn User of Unsafe Actions,4945.904724287289,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),4839.469384616475,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4809.425314334221,base_query

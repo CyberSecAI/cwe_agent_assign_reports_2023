@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+303,Incorrect Implementation of Authentication Algorithm,Base,0.777054556899209
+274,Improper Handling of Insufficient Privileges,Base,0.7658839432229064
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7656144782013656
+1390,Weak Authentication,Class,0.7649147632105607
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7584951040771055
+1391,Use of Weak Credentials,Class,0.7569031708347123
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.7514562354695616
+345,Insufficient Verification of Data Authenticity,Class,0.7503587085970006
+295,Improper Certificate Validation,Base,0.7490828236170639
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7489342243385941

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+923,Improper Restriction of Communication Channel to Intended Endpoints,6951.070032004456,unknown
+201,Insertion of Sensitive Information Into Sent Data,6859.907572880908,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,6854.276546004327,unknown
+941,Incorrectly Specified Destination in a Communication Channel,6838.123115707692,unknown
+125,Out-of-bounds Read,6594.748543448564,unknown

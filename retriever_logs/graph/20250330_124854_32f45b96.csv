@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+385,Covert Timing Channel,base,4.329000000000001,0
+208,Observable Timing Discrepancy,Base,2.893057676357845,0
+804,Guessable CAPTCHA,base,2.8651999999999997,0
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),base,2.4699999999999998,0
+301,Reflection Attack in an Authentication Protocol,base,2.1762,0
+1004,Sensitive Cookie Without 'HttpOnly' Flag,variant,2.1624,0
+392,Missing Report of Error Condition,base,2.1189999999999998,0
+327,Use of a Broken or Risky Cryptographic Algorithm,Class,2.0833669351428177,0
+523,Unprotected Transport of Credentials,base,2.04516,0
+332,Insufficient Entropy in PRNG,variant,1.96992,0

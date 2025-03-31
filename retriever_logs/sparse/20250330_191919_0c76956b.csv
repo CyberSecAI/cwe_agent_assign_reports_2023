@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,5143.378584252872,base_query
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),5088.661653848905,base_query
+190,Integer Overflow or Wraparound,5007.572599699292,base_query
+1284,Improper Validation of Specified Quantity in Input,4865.519361005648,base_query
+1390,Weak Authentication,4846.807403404275,base_query

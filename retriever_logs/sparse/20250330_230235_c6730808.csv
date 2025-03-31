@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,5478.230462531553,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5379.993707821405,unknown
+863,Incorrect Authorization,5374.762773918628,unknown
+266,Incorrect Privilege Assignment,5313.272300416029,unknown
+732,Incorrect Permission Assignment for Critical Resource,5291.300609029751,unknown

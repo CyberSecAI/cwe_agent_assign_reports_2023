@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+798,Use of Hard-coded Credentials,6924.731825782748,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,6865.632852127125,base_query
+321,Use of Hard-coded Cryptographic Key,6835.463723552783,base_query
+532,Insertion of Sensitive Information into Log File,6803.92237134472,base_query
+1391,Use of Weak Credentials,6802.422501108715,base_query

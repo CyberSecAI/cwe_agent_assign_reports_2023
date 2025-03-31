@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+611,Improper Restriction of XML External Entity Reference,Base,0.8154019690019136
+776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),Base,0.7761670128828742
+41,Improper Resolution of Path Equivalence,Base,0.7757704190807816
+23,Relative Path Traversal,Base,0.7719298433166535
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7615124585574893
+668,Exposure of Resource to Wrong Sphere,Class,0.7612521755988472
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7599828935535017
+73,External Control of File Name or Path,Base,0.7589182448317608
+552,Files or Directories Accessible to External Parties,Base,0.7587428219510801
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7583233666650632

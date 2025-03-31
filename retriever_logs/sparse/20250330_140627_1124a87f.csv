@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,5699.466968143366,unknown
+208,Observable Timing Discrepancy,5220.27837723373,unknown
+204,Observable Response Discrepancy,5151.838719093071,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,4981.485892034207,unknown
+799,Improper Control of Interaction Frequency,4950.3941659375305,unknown

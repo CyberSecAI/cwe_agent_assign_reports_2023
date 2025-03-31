@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+327,Use of a Broken or Risky Cryptographic Algorithm,5289.823784907483,base_query
+321,Use of Hard-coded Cryptographic Key,5198.553245876889,base_query
+798,Use of Hard-coded Credentials,5170.511410239864,base_query
+916,Use of Password Hash With Insufficient Computational Effort,5103.744236180169,base_query
+1391,Use of Weak Credentials,5091.12597577753,base_query

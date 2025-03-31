@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7880286137357926
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7695226139272077
+131,Incorrect Calculation of Buffer Size,Base,0.7693042192472164
+252,Unchecked Return Value,Base,0.7643892475391756
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.763577834477046
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7626541754002542
+667,Improper Locking,Class,0.7596210833444083
+345,Insufficient Verification of Data Authenticity,Class,0.7592877174229465
+125,Out-of-bounds Read,Base,0.7580915791983966
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7571939261091568

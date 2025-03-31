@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.751790209471804
+184,Incomplete List of Disallowed Inputs,Base,0.7344970540502356
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7322903684172166
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7316709481257083
+1288,Improper Validation of Consistency within Input,Base,0.7287281498744954
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7270752772371886
+41,Improper Resolution of Path Equivalence,Base,0.7266265702431454
+131,Incorrect Calculation of Buffer Size,Base,0.726162190300939
+138,Improper Neutralization of Special Elements,Class,0.725665672334483
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7256249271388292

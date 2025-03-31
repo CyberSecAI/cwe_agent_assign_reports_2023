@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+41,Improper Resolution of Path Equivalence,Base,0.7495767985800039
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7417340362814461
+606,Unchecked Input for Loop Condition,Base,0.7394125381843506
+23,Relative Path Traversal,Base,0.7354677039979369
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),Base,0.7322615900742613
+24,Path Traversal: '../filedir',Variant,0.7309721157136237
+73,External Control of File Name or Path,Base,0.7278156260428322
+691,Insufficient Control Flow Management,Pillar,0.7183079957793059
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7174926400654202
+36,Absolute Path Traversal,Base,0.7163540055027844

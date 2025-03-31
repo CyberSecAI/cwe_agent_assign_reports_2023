@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,5201.142752932166,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,5175.00151850982,unknown
+319,Cleartext Transmission of Sensitive Information,5031.776966715288,unknown
+1240,Use of a Cryptographic Primitive with a Risky Implementation,5021.446248489494,unknown
+916,Use of Password Hash With Insufficient Computational Effort,4956.686678293619,unknown

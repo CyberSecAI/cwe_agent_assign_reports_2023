@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7098.67719623072,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6992.051150808541,base_query
+125,Out-of-bounds Read,6956.20465487338,base_query
+1284,Improper Validation of Specified Quantity in Input,6898.789679143559,base_query
+190,Integer Overflow or Wraparound,6859.848940001906,base_query

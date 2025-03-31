@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+73,External Control of File Name or Path,Base,0.8076988259338532
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7968248916076592
+668,Exposure of Resource to Wrong Sphere,Class,0.7907150821128806
+41,Improper Resolution of Path Equivalence,Base,0.7862481060212136
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7837997480839923
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7808356889837047
+23,Relative Path Traversal,Base,0.7747538086037995
+552,Files or Directories Accessible to External Parties,Base,0.7702623339392274
+404,Improper Resource Shutdown or Release,Class,0.7648035654145883
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7629114970601609

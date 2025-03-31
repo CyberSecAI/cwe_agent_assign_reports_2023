@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,4873.664127362449,base_query
+770,Allocation of Resources Without Limits or Throttling,4505.855785029524,base_query
+863,Incorrect Authorization,4411.255577091826,base_query
+667,Improper Locking,4381.574805724206,base_query
+203,Observable Discrepancy,4372.291847591932,base_query

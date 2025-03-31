@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+364,Signal Handler Race Condition,7634.737497617228,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6747.289403333727,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6677.849127811761,base_query
+415,Double Free,6496.988378275987,base_query
+823,Use of Out-of-range Pointer Offset,6375.957458161723,base_query

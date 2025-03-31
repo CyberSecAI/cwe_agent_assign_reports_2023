@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,4684.045483584158,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,4514.49114546421,base_query
+203,Observable Discrepancy,4458.22392765757,base_query
+312,Cleartext Storage of Sensitive Information,4391.674880030825,base_query
+295,Improper Certificate Validation,4306.453937597868,base_query

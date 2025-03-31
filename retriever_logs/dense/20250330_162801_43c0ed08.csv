@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+203,Observable Discrepancy,Base,0.7697196841478878
+208,Observable Timing Discrepancy,Base,0.7682377543435913
+1204,Generation of Weak Initialization Vector (IV),Base,0.7679386299827927
+1391,Use of Weak Credentials,Class,0.7592252309182497
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7587822748064832
+204,Observable Response Discrepancy,Base,0.7558494107598299
+330,Use of Insufficiently Random Values,Class,0.7557160895761936
+345,Insufficient Verification of Data Authenticity,Class,0.7422313813224786
+329,Generation of Predictable IV with CBC Mode,Variant,0.7338450630675752
+331,Insufficient Entropy,Base,0.7337989151207551

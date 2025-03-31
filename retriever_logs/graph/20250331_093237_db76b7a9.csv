@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+208,Observable Timing Discrepancy,base,4.329000000000001,0
+385,Covert Timing Channel,base,4.329000000000001,0
+73,External Control of File Name or Path,base,3.2255600000000006,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.984,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,2.4699999999999998,0
+211,Externally-Generated Error Message Containing Sensitive Information,base,2.4699999999999998,0
+1240,Use of a Cryptographic Primitive with a Risky Implementation,base,2.4699999999999998,0
+59,Improper Link Resolution Before File Access ('Link Following'),base,2.4232000000000005,0
+386,Symbolic Name not Mapping to Correct Object,base,2.3296000000000006,0

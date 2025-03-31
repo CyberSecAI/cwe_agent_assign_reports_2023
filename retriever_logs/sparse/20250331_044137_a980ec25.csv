@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5663.682888427057,unknown
+770,Allocation of Resources Without Limits or Throttling,5587.334275674617,unknown
+1333,Inefficient Regular Expression Complexity,5532.290345408979,unknown
+789,Memory Allocation with Excessive Size Value,5493.326422385976,unknown
+346,Origin Validation Error,5458.237512998952,unknown

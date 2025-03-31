@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7770873546432036
+41,Improper Resolution of Path Equivalence,Base,0.7483398585363621
+184,Incomplete List of Disallowed Inputs,Base,0.7470377378479862
+138,Improper Neutralization of Special Elements,Class,0.7420792710445123
+23,Relative Path Traversal,Base,0.7419759543235789
+407,Inefficient Algorithmic Complexity,Class,0.741595520698394
+129,Improper Validation of Array Index,Variant,0.7404322948882709
+1286,Improper Validation of Syntactic Correctness of Input,Base,0.740212909581756
+1288,Improper Validation of Consistency within Input,Base,0.7400907054303034
+606,Unchecked Input for Loop Condition,Base,0.7398529765259265

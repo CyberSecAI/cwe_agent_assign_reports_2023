@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5396.866895862283,unknown
+863,Incorrect Authorization,5337.123810075134,unknown
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5261.758792232099,unknown
+639,Authorization Bypass Through User-Controlled Key,5260.831056056004,unknown
+209,Generation of Error Message Containing Sensitive Information,5242.48037949611,unknown

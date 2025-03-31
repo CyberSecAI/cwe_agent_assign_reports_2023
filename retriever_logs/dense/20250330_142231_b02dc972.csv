@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+407,Inefficient Algorithmic Complexity,Class,0.7423945572482522
+674,Uncontrolled Recursion,Class,0.7391800919707745
+789,Memory Allocation with Excessive Size Value,Variant,0.7359589422528889
+668,Exposure of Resource to Wrong Sphere,Class,0.7331830043836849
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7328764667121255
+617,Reachable Assertion,Base,0.7322916454864958
+799,Improper Control of Interaction Frequency,Class,0.7303136203731309
+125,Out-of-bounds Read,Base,0.7302648632343467
+131,Incorrect Calculation of Buffer Size,Base,0.7298427127702488
+405,Asymmetric Resource Consumption (Amplification),Class,0.7294887802967778

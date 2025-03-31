@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7793758821002846
+184,Incomplete List of Disallowed Inputs,Base,0.7707940079974857
+73,External Control of File Name or Path,Base,0.7706340831381531
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7698977355681962
+434,Unrestricted Upload of File with Dangerous Type,Base,0.7689510419494201
+345,Insufficient Verification of Data Authenticity,Class,0.767324883059503
+41,Improper Resolution of Path Equivalence,Base,0.7656962219268366
+23,Relative Path Traversal,Base,0.7629779147113399
+552,Files or Directories Accessible to External Parties,Base,0.7629529022605703
+427,Uncontrolled Search Path Element,Base,0.756127700362393

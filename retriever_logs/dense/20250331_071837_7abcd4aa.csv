@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7485229026251572
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7483010650547129
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7397137132348471
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7359381071212789
+131,Incorrect Calculation of Buffer Size,Base,0.735489985914042
+668,Exposure of Resource to Wrong Sphere,Class,0.7348293178008263
+404,Improper Resource Shutdown or Release,Class,0.7333360209692865
+274,Improper Handling of Insufficient Privileges,Base,0.7325344257756521
+667,Improper Locking,Class,0.7303867439182221
+129,Improper Validation of Array Index,Variant,0.728936410677007

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1263,Improper Physical Access Control,Class,0.762239000504753
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.752075825243963
+274,Improper Handling of Insufficient Privileges,Base,0.7469074320790752
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7454165238597319
+657,Violation of Secure Design Principles,Class,0.7452608429337522
+424,Improper Protection of Alternate Path,Class,0.7421893702706516
+653,Improper Isolation or Compartmentalization,Class,0.7421816143963
+356,Product UI does not Warn User of Unsafe Actions,Base,0.7393033882617585
+668,Exposure of Resource to Wrong Sphere,Class,0.7368775218013368
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7360682182207963

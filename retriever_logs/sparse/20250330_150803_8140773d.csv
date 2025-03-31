@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5815.330650398266,unknown
+639,Authorization Bypass Through User-Controlled Key,5700.743180024098,unknown
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),5494.445760842273,unknown
+138,Improper Neutralization of Special Elements,5468.486210276562,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5459.850082381187,unknown

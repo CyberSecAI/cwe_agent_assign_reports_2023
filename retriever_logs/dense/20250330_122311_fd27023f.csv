@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7569261067943966
+653,Improper Isolation or Compartmentalization,Class,0.7487238711592805
+1220,Insufficient Granularity of Access Control,Base,0.7486291775139968
+691,Insufficient Control Flow Management,Pillar,0.7463467253075777
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7462603054326731
+184,Incomplete List of Disallowed Inputs,Base,0.7448222925200776
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7434113796431907
+799,Improper Control of Interaction Frequency,Class,0.7433938655239173
+405,Asymmetric Resource Consumption (Amplification),Class,0.7404583221388703
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7393002696236741

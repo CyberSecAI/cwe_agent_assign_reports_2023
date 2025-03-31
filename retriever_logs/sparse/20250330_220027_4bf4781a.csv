@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+170,Improper Null Termination,7611.76846561459,unknown
+116,Improper Encoding or Escaping of Output,7471.654617306419,unknown
+125,Out-of-bounds Read,7426.321091847276,unknown
+1284,Improper Validation of Specified Quantity in Input,7342.811846313586,unknown
+190,Integer Overflow or Wraparound,7310.71231090254,unknown

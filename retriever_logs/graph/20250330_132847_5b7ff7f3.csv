@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+1328,Security Version Number Mutable to Older Versions,base,3.6399999999999997,0
+757,Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade'),base,3.6399999999999997,0
+322,Key Exchange without Entity Authentication,base,2.8651999999999997,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+499,Serializable Class Containing Sensitive Data,variant,2.6784000000000003,0
+498,Cloneable Class Containing Sensitive Information,variant,2.6784000000000003,0
+325,Missing Cryptographic Step,base,2.6104000000000003,0
+350,Reliance on Reverse DNS Resolution for a Security-Critical Action,variant,2.5507200000000005,0
+274,Improper Handling of Insufficient Privileges,Base,2.489547851473605,0
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,2.487934373025473,0

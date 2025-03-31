@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7745730511004072
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7734780546315712
+345,Insufficient Verification of Data Authenticity,Class,0.7719291761276283
+668,Exposure of Resource to Wrong Sphere,Class,0.7678249966943176
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7667058603073281
+319,Cleartext Transmission of Sensitive Information,Base,0.7658779910966909
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7653621996958273
+41,Improper Resolution of Path Equivalence,Base,0.7634595029177635
+138,Improper Neutralization of Special Elements,Class,0.7631589630876965
+295,Improper Certificate Validation,Base,0.7616176820598203

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.785405019178131
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.780209435784947
+131,Incorrect Calculation of Buffer Size,Base,0.7796061222112356
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7707751494414666
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7685959295860878
+404,Improper Resource Shutdown or Release,Class,0.7667306467099728
+125,Out-of-bounds Read,Base,0.7659987369173571
+668,Exposure of Resource to Wrong Sphere,Class,0.7658228362357623
+681,Incorrect Conversion between Numeric Types,Base,0.7629939905439396
+191,Integer Underflow (Wrap or Wraparound),Base,0.7624470560150692

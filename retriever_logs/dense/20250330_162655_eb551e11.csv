@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+611,Improper Restriction of XML External Entity Reference,Base,0.7918283206617908
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7620377107033134
+776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),Base,0.7567115360193433
+668,Exposure of Resource to Wrong Sphere,Class,0.7561439882235286
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7546682475719209
+404,Improper Resource Shutdown or Release,Class,0.7544683131721954
+405,Asymmetric Resource Consumption (Amplification),Class,0.7510320334264483
+41,Improper Resolution of Path Equivalence,Base,0.744467127734862
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7388785471274593
+184,Incomplete List of Disallowed Inputs,Base,0.7375396408512351

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7622039330964525
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7465272173049093
+1288,Improper Validation of Consistency within Input,Base,0.738536134168247
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.738390165896542
+345,Insufficient Verification of Data Authenticity,Class,0.731219518248331
+330,Use of Insufficiently Random Values,Class,0.7299705457936069
+208,Observable Timing Discrepancy,Base,0.7289586015283546
+407,Inefficient Algorithmic Complexity,Class,0.7271553160075285
+252,Unchecked Return Value,Base,0.7267088436369622
+203,Observable Discrepancy,Base,0.7264392121878821

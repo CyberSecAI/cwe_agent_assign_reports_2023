@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+184,Incomplete List of Disallowed Inputs,Base,0.7798212557518965
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7723592347666922
+434,Unrestricted Upload of File with Dangerous Type,Base,0.7669506683702878
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7577723590937515
+41,Improper Resolution of Path Equivalence,Base,0.7563746388037484
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7562684228805128
+183,Permissive List of Allowed Inputs,Base,0.7543338467614151
+73,External Control of File Name or Path,Base,0.7535269109419358
+138,Improper Neutralization of Special Elements,Class,0.7519938992350522
+552,Files or Directories Accessible to External Parties,Base,0.7507737957938891

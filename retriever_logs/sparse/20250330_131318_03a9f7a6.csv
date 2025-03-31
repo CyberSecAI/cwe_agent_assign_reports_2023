@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+823,Use of Out-of-range Pointer Offset,5875.82799232011,base_query
+1284,Improper Validation of Specified Quantity in Input,5837.421024860263,base_query
+125,Out-of-bounds Read,5812.9848234787005,base_query
+1285,Improper Validation of Specified Index  Position  or Offset in Input,5779.703526101199,base_query
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),5709.462832457349,base_query

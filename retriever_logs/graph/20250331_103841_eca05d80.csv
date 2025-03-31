@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+1339,Insufficient Precision or Accuracy of a Real Number,base,5.031000000000001,0
+190,Integer Overflow or Wraparound,base,5.031000000000001,0
+201,Insertion of Sensitive Information Into Sent Data,base,5.031000000000001,0
+193,Off-by-one Error,base,4.329000000000001,0
+209,Generation of Error Message Containing Sensitive Information,base,3.6399999999999997,0
+202,Exposure of Sensitive Information Through Data Queries,base,3.6399999999999997,0
+128,Wrap-around Error,base,3.5671999999999997,0
+125,Out-of-bounds Read,base,3.1356,0
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,2.901834073407873,0
+1322,Use of Blocking Code in Single-threaded  Non-blocking Context,base,2.8651999999999997,0

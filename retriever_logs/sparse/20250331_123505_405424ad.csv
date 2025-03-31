@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1299,Missing Protection Mechanism for Alternate Hardware Interface,5229.414360780213,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),5113.1236846024885,base_query
+863,Incorrect Authorization,5024.947488539593,base_query
+287,Improper Authentication,4980.589308294788,base_query
+639,Authorization Bypass Through User-Controlled Key,4963.6864403194695,base_query

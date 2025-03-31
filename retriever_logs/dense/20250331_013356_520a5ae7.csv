@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.8196928889870934
+184,Incomplete List of Disallowed Inputs,Base,0.7764072320137037
+125,Out-of-bounds Read,Base,0.7745147252827804
+252,Unchecked Return Value,Base,0.7700763208638395
+41,Improper Resolution of Path Equivalence,Base,0.7700278416592458
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7682261227643552
+131,Incorrect Calculation of Buffer Size,Base,0.7681816370124482
+668,Exposure of Resource to Wrong Sphere,Class,0.7681306579792232
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7680660228427096
+183,Permissive List of Allowed Inputs,Base,0.7674709730908573

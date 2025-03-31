@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+705,Incorrect Control Flow Scoping,Class,0.777751640572767
+41,Improper Resolution of Path Equivalence,Base,0.770146090691197
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7674641466106176
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7601337003974727
+668,Exposure of Resource to Wrong Sphere,Class,0.7591296276732302
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7580940356733604
+184,Incomplete List of Disallowed Inputs,Base,0.755134817045221
+691,Insufficient Control Flow Management,Pillar,0.7546907880364955
+799,Improper Control of Interaction Frequency,Class,0.7544936304737608
+138,Improper Neutralization of Special Elements,Class,0.7527477765076339

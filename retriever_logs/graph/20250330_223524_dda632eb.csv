@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+183,Permissive List of Allowed Inputs,base,5.031000000000001,0
+187,Partial String Comparison,variant,4.5264,0
+434,Unrestricted Upload of File with Dangerous Type,base,4.329000000000001,0
+182,Collapse of Data into Unsafe Value,base,4.329000000000001,0
+184,Incomplete List of Disallowed Inputs,Base,3.2934007948740462,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,2.8651999999999997,0
+625,Permissive Regular Expression,Base,2.478504604733338,0
+186,Overly Restrictive Regular Expression,Base,2.4769505005621917,0
+624,Executable Regular Expression Error,base,2.4699999999999998,0
+617,Reachable Assertion,base,2.3295999999999997,0

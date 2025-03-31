@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6192.0507211976,base_query
+116,Improper Encoding or Escaping of Output,6172.2612676662875,base_query
+201,Insertion of Sensitive Information Into Sent Data,6082.69803818425,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,6050.344472617032,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,6000.719948933397,base_query

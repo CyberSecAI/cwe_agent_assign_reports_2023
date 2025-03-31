@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5747.110744691706,base_query
+190,Integer Overflow or Wraparound,5162.928987017219,base_query
+125,Out-of-bounds Read,5156.634000670287,base_query
+843,Access of Resource Using Incompatible Type ('Type Confusion'),5100.589660267194,base_query
+911,Improper Update of Reference Count,5055.425958161557,base_query

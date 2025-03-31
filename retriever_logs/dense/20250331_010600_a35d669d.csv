@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.805049667818617
+918,Server-Side Request Forgery (SSRF),Base,0.7874596264566655
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7816752585881248
+668,Exposure of Resource to Wrong Sphere,Class,0.7810551481793404
+345,Insufficient Verification of Data Authenticity,Class,0.7758096803613327
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7743347181850435
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7742392928814719
+116,Improper Encoding or Escaping of Output,Class,0.7735700785371097
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7730708969785194
+200,Exposure of Sensitive Information to an Unauthorized Actor,Class,0.7730595548293406

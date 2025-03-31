@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+203,Observable Discrepancy,Base,0.761466452854923
+208,Observable Timing Discrepancy,Base,0.7558033787384889
+204,Observable Response Discrepancy,Base,0.7553555534202696
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7523266685812996
+191,Integer Underflow (Wrap or Wraparound),Base,0.7478117665531578
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7464377811510603
+668,Exposure of Resource to Wrong Sphere,Class,0.7445713652231081
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7442857972604018
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.74367497074214
+205,Observable Behavioral Discrepancy,Base,0.7425842677922917

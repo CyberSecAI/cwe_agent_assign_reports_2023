@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+226,Sensitive Information in Resource Not Removed Before Reuse,5856.316746179567,unknown
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5840.70055466778,unknown
+259,Use of Hard-coded Password,5774.707125848146,unknown
+863,Incorrect Authorization,5731.006813811066,unknown
+214,Invocation of Process Using Visible Sensitive Information,5725.676572939509,unknown

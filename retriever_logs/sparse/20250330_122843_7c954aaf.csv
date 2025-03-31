@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,4722.085399949673,unknown
+770,Allocation of Resources Without Limits or Throttling,4535.1499218846975,unknown
+863,Incorrect Authorization,4496.731762853256,unknown
+1021,Improper Restriction of Rendered UI Layers or Frames,4447.494808310646,unknown
+667,Improper Locking,4445.034056108552,unknown

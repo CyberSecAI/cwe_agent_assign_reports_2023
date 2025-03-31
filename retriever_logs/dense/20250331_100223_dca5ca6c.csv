@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7837097764112071
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7616061342723428
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7486938201993754
+345,Insufficient Verification of Data Authenticity,Class,0.7441872203768929
+319,Cleartext Transmission of Sensitive Information,Base,0.7437807501990086
+312,Cleartext Storage of Sensitive Information,Base,0.7431632544840858
+1391,Use of Weak Credentials,Class,0.7404503885907749
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7404451930539219
+657,Violation of Secure Design Principles,Class,0.7392019713136004
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7379764192399176

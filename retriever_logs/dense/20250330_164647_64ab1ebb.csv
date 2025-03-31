@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7775137571485499
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7579817233640882
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7549735661398749
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7515275184787873
+41,Improper Resolution of Path Equivalence,Base,0.7474819519658502
+184,Incomplete List of Disallowed Inputs,Base,0.7461186246078889
+1390,Weak Authentication,Class,0.7454331834806613
+183,Permissive List of Allowed Inputs,Base,0.7451781977309513
+653,Improper Isolation or Compartmentalization,Class,0.7451059027113227
+668,Exposure of Resource to Wrong Sphere,Class,0.7441208029569154

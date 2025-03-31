@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,4475.490270211359,base_query
+407,Inefficient Algorithmic Complexity,4266.536837044188,base_query
+617,Reachable Assertion,4149.696017147898,base_query
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),4017.629912260421,base_query
+843,Access of Resource Using Incompatible Type ('Type Confusion'),3979.235595980669,base_query

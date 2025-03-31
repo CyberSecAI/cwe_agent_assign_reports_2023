@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1391,Use of Weak Credentials,Class,0.7789509492787936
+798,Use of Hard-coded Credentials,Base,0.7654905140887043
+312,Cleartext Storage of Sensitive Information,Base,0.7585071440171408
+330,Use of Insufficiently Random Values,Class,0.7538329625249218
+345,Insufficient Verification of Data Authenticity,Class,0.7521810819478085
+319,Cleartext Transmission of Sensitive Information,Base,0.7517459467386787
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7512230294828065
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7503491625237415
+1390,Weak Authentication,Class,0.7487060875595044
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7485871707080674

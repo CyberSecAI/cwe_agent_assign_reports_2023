@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7975463652845338
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7669891547540231
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7596048023597963
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7576186674546527
+184,Incomplete List of Disallowed Inputs,Base,0.7549656065499812
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7548824310344361
+41,Improper Resolution of Path Equivalence,Base,0.7535944630512004
+404,Improper Resource Shutdown or Release,Class,0.753274346146815
+668,Exposure of Resource to Wrong Sphere,Class,0.75284328555191
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7484852273722329

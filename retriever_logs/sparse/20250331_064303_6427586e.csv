@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,7485.855454540755,base_query
+1284,Improper Validation of Specified Quantity in Input,6825.083328353034,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6735.36124944774,base_query
+116,Improper Encoding or Escaping of Output,6658.982083193774,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6639.180982651406,base_query

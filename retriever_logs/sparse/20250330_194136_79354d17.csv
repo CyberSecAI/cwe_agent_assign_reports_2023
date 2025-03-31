@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,5684.7457310755,base_query
+125,Out-of-bounds Read,5590.077782609373,base_query
+476,NULL Pointer Dereference,5533.452512132828,base_query
+789,Memory Allocation with Excessive Size Value,5525.816033937587,base_query
+770,Allocation of Resources Without Limits or Throttling,5511.459602598087,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,4803.324405548779,unknown
+863,Incorrect Authorization,4630.972299896017,unknown
+285,Improper Authorization,4608.002887965677,unknown
+927,Use of Implicit Intent for Sensitive Communication,4599.805252645405,unknown
+287,Improper Authentication,4556.091519343436,unknown

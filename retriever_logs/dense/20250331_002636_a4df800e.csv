@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7879242524419761
+668,Exposure of Resource to Wrong Sphere,Class,0.777648842226824
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7701932136280913
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7616894564454333
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.760235216782013
+345,Insufficient Verification of Data Authenticity,Class,0.7570261812656058
+213,Exposure of Sensitive Information Due to Incompatible Policies,Base,0.7565992160467898
+319,Cleartext Transmission of Sensitive Information,Base,0.7557960052064602
+41,Improper Resolution of Path Equivalence,Base,0.7541701690141216
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7535469789118601

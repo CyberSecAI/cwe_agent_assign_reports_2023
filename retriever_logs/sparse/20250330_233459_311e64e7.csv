@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,7135.233948414697,base_query
+863,Incorrect Authorization,7070.66927131386,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,7063.119709887201,base_query
+668,Exposure of Resource to Wrong Sphere,6899.856425973081,base_query
+639,Authorization Bypass Through User-Controlled Key,6861.2518585864955,base_query

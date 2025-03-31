@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),Variant,0.7545975982166642
+41,Improper Resolution of Path Equivalence,Base,0.740350944926579
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7401037137108745
+668,Exposure of Resource to Wrong Sphere,Class,0.7377244645988718
+138,Improper Neutralization of Special Elements,Class,0.7372582827124179
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7349132281981439
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7336827090947594
+73,External Control of File Name or Path,Base,0.7331928249584693
+693,Protection Mechanism Failure,Pillar,0.726587963520028
+23,Relative Path Traversal,Base,0.7244573543094585

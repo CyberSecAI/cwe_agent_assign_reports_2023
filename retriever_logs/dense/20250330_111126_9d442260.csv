@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+667,Improper Locking,Class,0.7758188932092798
+125,Out-of-bounds Read,Base,0.7704106411080158
+404,Improper Resource Shutdown or Release,Class,0.7684929568277901
+131,Incorrect Calculation of Buffer Size,Base,0.7642801409453647
+908,Use of Uninitialized Resource,Base,0.7576487740738507
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7566965777837926
+665,Improper Initialization,Class,0.7564258221623692
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7555880916938102
+252,Unchecked Return Value,Base,0.7554383930265967
+909,Missing Initialization of Resource,Class,0.7549252602742327

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+307,Improper Restriction of Excessive Authentication Attempts,Base,0.774022148490577
+799,Improper Control of Interaction Frequency,Class,0.7699246479610287
+405,Asymmetric Resource Consumption (Amplification),Class,0.7593817060791588
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7591753065852889
+668,Exposure of Resource to Wrong Sphere,Class,0.757708173621098
+41,Improper Resolution of Path Equivalence,Base,0.7468360599518302
+404,Improper Resource Shutdown or Release,Class,0.746832654314203
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7440985834030602
+274,Improper Handling of Insufficient Privileges,Base,0.7398558544690523
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7397051236404035

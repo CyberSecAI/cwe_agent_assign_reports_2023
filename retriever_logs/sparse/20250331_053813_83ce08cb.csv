@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+425,Direct Request ('Forced Browsing'),5519.24818243655,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),5387.338129463344,unknown
+306,Missing Authentication for Critical Function,5108.015335040159,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5101.817232516557,unknown
+116,Improper Encoding or Escaping of Output,5101.140272775002,unknown

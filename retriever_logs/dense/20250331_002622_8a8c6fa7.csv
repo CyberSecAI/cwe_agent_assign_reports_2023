@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7837991945607017
+274,Improper Handling of Insufficient Privileges,Base,0.7713057334781894
+404,Improper Resource Shutdown or Release,Class,0.7710906673317459
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.770649886270783
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7690524181440324
+668,Exposure of Resource to Wrong Sphere,Class,0.7688482700080589
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7679896315179016
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7678749230223754
+653,Improper Isolation or Compartmentalization,Class,0.7663762416367873
+667,Improper Locking,Class,0.7625471899915381

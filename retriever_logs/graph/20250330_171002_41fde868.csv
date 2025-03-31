@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+1284,Improper Validation of Specified Quantity in Input,base,4.329000000000001,0
+123,Write-what-where Condition,base,3.7206,0
+1332,Improper Handling of Faults that Lead to Instruction Skips,base,3.6399999999999997,0
+1247,Improper Protection Against Voltage and Clock Glitches,base,3.6399999999999997,0
+128,Wrap-around Error,base,3.5671999999999997,0
+120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),base,3.5671999999999997,0
+126,Buffer Over-read,variant,3.4704,0
+190,Integer Overflow or Wraparound,Base,3.3143412599417164,0
+1339,Insufficient Precision or Accuracy of a Real Number,Base,3.311180355774276,0
+787,Out-of-bounds Write,base,3.302,0

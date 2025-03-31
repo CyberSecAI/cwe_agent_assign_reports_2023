@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+347,Improper Verification of Cryptographic Signature,6002.258626134428,base_query
+789,Memory Allocation with Excessive Size Value,5960.709607880522,base_query
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),5907.242090450338,base_query
+295,Improper Certificate Validation,5905.938140484834,base_query
+770,Allocation of Resources Without Limits or Throttling,5869.776977263841,base_query

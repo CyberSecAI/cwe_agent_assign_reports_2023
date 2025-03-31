@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+943,Improper Neutralization of Special Elements in Data Query Logic,5260.031079146927,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),4975.254944927584,unknown
+116,Improper Encoding or Escaping of Output,4924.963382629693,unknown
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),4912.759036544728,unknown
+1333,Inefficient Regular Expression Complexity,4892.414474795622,unknown

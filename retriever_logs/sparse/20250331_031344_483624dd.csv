@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+798,Use of Hard-coded Credentials,5747.768194638149,base_query
+184,Incomplete List of Disallowed Inputs,5687.58234701752,base_query
+287,Improper Authentication,5600.526092523283,base_query
+1390,Weak Authentication,5592.818898180334,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,5563.616686488744,base_query

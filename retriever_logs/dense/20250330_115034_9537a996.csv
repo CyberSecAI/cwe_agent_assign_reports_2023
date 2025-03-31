@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7480182228194128
+693,Protection Mechanism Failure,Pillar,0.7433928121719948
+1390,Weak Authentication,Class,0.7420811234390152
+668,Exposure of Resource to Wrong Sphere,Class,0.741656098234692
+1391,Use of Weak Credentials,Class,0.7409345130684932
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7383527503022679
+345,Insufficient Verification of Data Authenticity,Class,0.7373733335715837
+798,Use of Hard-coded Credentials,Base,0.7347767813644789
+319,Cleartext Transmission of Sensitive Information,Base,0.7334036346875048
+639,Authorization Bypass Through User-Controlled Key,Base,0.7329804966468028

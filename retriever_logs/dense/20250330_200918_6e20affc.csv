@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+667,Improper Locking,Class,0.7757130461899865
+404,Improper Resource Shutdown or Release,Class,0.7656265163361836
+653,Improper Isolation or Compartmentalization,Class,0.7542176056910949
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7523684003001392
+1263,Improper Physical Access Control,Class,0.751363460595682
+657,Violation of Secure Design Principles,Class,0.7460660519853517
+665,Improper Initialization,Class,0.7421173058745238
+668,Exposure of Resource to Wrong Sphere,Class,0.7414669061116657
+662,Improper Synchronization,Class,0.7405193021000909
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7399740141473895

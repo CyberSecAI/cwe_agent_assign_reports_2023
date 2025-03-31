@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,4975.4060930750575,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,4939.710359658596,base_query
+732,Incorrect Permission Assignment for Critical Resource,4911.434963809267,base_query
+285,Improper Authorization,4875.779764247156,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4831.797734906365,base_query

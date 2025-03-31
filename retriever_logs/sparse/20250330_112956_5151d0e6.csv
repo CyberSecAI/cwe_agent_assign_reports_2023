@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,7970.645492523261,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7941.844125435739,base_query
+863,Incorrect Authorization,7611.5622640493775,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7486.757998434065,base_query
+138,Improper Neutralization of Special Elements,7482.870361538747,base_query

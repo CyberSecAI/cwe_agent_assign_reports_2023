@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,5736.547921325274,unknown
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),5613.920500071424,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),5563.636926096471,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5444.0148914628935,unknown
+125,Out-of-bounds Read,5431.697722433519,unknown

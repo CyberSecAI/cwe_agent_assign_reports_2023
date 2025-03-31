@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7771365967039767
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7624858633365929
+184,Incomplete List of Disallowed Inputs,Base,0.758957571760266
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7550303137178677
+138,Improper Neutralization of Special Elements,Class,0.7500322721739061
+183,Permissive List of Allowed Inputs,Base,0.7418849394073139
+838,Inappropriate Encoding for Output Context,Base,0.734492871452614
+653,Improper Isolation or Compartmentalization,Class,0.7328900021678237
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7319736444804625
+115,Misinterpretation of Input,Base,0.7314427759601544

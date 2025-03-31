@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+284,Improper Access Control,10034.774054023752,base_query
+20,Improper Input Validation,9535.8450826868,base_query
+94,Improper Control of Generation of Code ('Code Injection'),9098.102362198146,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,9020.690323247598,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,8831.766714844678,base_query

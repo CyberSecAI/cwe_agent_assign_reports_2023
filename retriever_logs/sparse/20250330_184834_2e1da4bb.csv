@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,6975.293284027398,base_query
+1391,Use of Weak Credentials,5853.082431543959,base_query
+295,Improper Certificate Validation,5703.943655023158,base_query
+502,Deserialization of Untrusted Data,5667.325662446467,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5649.299989387897,base_query

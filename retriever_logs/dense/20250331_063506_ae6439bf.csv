@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+345,Insufficient Verification of Data Authenticity,Class,0.7614832985857167
+1188,Initialization of a Resource with an Insecure Default,Base,0.7605732082131986
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7599935355342993
+1391,Use of Weak Credentials,Class,0.758889648766465
+665,Improper Initialization,Class,0.7582747850808796
+668,Exposure of Resource to Wrong Sphere,Class,0.755839629532515
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7525929161159959
+798,Use of Hard-coded Credentials,Base,0.7513238233573034
+755,Improper Handling of Exceptional Conditions,Class,0.7486787733777821
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7476500008206158

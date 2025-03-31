@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+789,Memory Allocation with Excessive Size Value,8241.216347868954,base_query
+772,Missing Release of Resource after Effective Lifetime,8239.620381022856,base_query
+770,Allocation of Resources Without Limits or Throttling,8203.808593615762,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8199.781776470114,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,7843.047315402412,base_query

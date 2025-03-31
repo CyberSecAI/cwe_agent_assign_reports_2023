@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,7021.948011884031,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6052.985907935176,base_query
+1391,Use of Weak Credentials,6001.383840573943,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),5954.583527055574,base_query
+61,UNIX Symbolic Link (Symlink) Following,5914.833014780016,base_query

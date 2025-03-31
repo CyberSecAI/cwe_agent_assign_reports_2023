@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+789,Memory Allocation with Excessive Size Value,Variant,0.7617874264621758
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7581713392963059
+131,Incorrect Calculation of Buffer Size,Base,0.7486154611412164
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7418443351727508
+617,Reachable Assertion,Base,0.7414265570835685
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7412648866291448
+130,Improper Handling of Length Parameter Inconsistency,Base,0.740622970905133
+125,Out-of-bounds Read,Base,0.740493924933567
+252,Unchecked Return Value,Base,0.7397822994737753
+129,Improper Validation of Array Index,Variant,0.739717320377989

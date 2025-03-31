@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+434,Unrestricted Upload of File with Dangerous Type,Base,0.7847179942676706
+184,Incomplete List of Disallowed Inputs,Base,0.7817111559119951
+552,Files or Directories Accessible to External Parties,Base,0.7767927311422989
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7743898453924722
+73,External Control of File Name or Path,Base,0.7668945836436348
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7660346751125056
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7656757216885293
+23,Relative Path Traversal,Base,0.7653048376211878
+183,Permissive List of Allowed Inputs,Base,0.7652766344948759
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7652515610352907

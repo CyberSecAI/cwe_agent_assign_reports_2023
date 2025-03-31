@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+208,Observable Timing Discrepancy,4986.543627099028,base_query
+1390,Weak Authentication,4870.339871309818,base_query
+863,Incorrect Authorization,4848.311811105152,base_query
+472,External Control of Assumed-Immutable Web Parameter,4799.932689132585,base_query
+639,Authorization Bypass Through User-Controlled Key,4768.521321553134,base_query

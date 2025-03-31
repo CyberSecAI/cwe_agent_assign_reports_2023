@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+184,Incomplete List of Disallowed Inputs,Base,0.7465672155889933
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7372416601476934
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.732820377604319
+138,Improper Neutralization of Special Elements,Class,0.7307273185274961
+183,Permissive List of Allowed Inputs,Base,0.7174780615467258
+134,Use of Externally-Controlled Format String,Base,0.7151676831547886
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7148611102531539
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7140319946825976
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7132350599125752
+653,Improper Isolation or Compartmentalization,Class,0.7127793664872963

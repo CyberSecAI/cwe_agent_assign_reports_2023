@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,5.031000000000001,0
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,4.329000000000001,0
+201,Insertion of Sensitive Information Into Sent Data,base,4.329000000000001,0
+226,Sensitive Information in Resource Not Removed Before Reuse,base,4.329000000000001,0
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),base,3.6399999999999997,0
+434,Unrestricted Upload of File with Dangerous Type,base,3.5671999999999997,0
+184,Incomplete List of Disallowed Inputs,Base,3.321506952631059,0
+86,Improper Neutralization of Invalid Characters in Identifiers in Web Pages,variant,3.2424,0
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),variant,3.1987200000000002,0
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,2.9024776167848794,0

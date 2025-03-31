@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7731658527561198
+41,Improper Resolution of Path Equivalence,Base,0.7615328707958047
+1390,Weak Authentication,Class,0.7603922508935033
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7583833236255088
+639,Authorization Bypass Through User-Controlled Key,Base,0.755952245854542
+407,Inefficient Algorithmic Complexity,Class,0.7543266019174941
+799,Improper Control of Interaction Frequency,Class,0.7539126522239754
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7501730735048885
+755,Improper Handling of Exceptional Conditions,Class,0.7494993594599516
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7493583262578829

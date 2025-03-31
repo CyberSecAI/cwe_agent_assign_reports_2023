@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,7903.488479795528,base_query
+116,Improper Encoding or Escaping of Output,7419.026125656649,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6922.767726379003,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6882.491980243511,base_query
+125,Out-of-bounds Read,6848.711629776522,base_query

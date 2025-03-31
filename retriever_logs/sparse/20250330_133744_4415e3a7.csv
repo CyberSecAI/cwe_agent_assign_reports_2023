@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),5939.326558947188,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5523.133912062123,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5278.742916766601,unknown
+502,Deserialization of Untrusted Data,5189.644403356246,unknown
+94,Improper Control of Generation of Code ('Code Injection'),5109.881541095438,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,5360.880663547441,base_query
+754,Improper Check for Unusual or Exceptional Conditions,5045.568217924781,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),4879.9107120614135,base_query
+1284,Improper Validation of Specified Quantity in Input,4813.9317409156865,base_query
+476,NULL Pointer Dereference,4798.447893103546,base_query

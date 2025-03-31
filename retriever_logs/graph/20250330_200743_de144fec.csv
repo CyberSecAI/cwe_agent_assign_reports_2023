@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+209,Generation of Error Message Containing Sensitive Information,base,4.329000000000001,0
+756,Missing Custom Error Page,base,4.329000000000001,0
+178,Improper Handling of Case Sensitivity,base,3.6399999999999997,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,3.302,0
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),base,3.1616,0
+41,Improper Resolution of Path Equivalence,Base,3.0580781049811496,0
+941,Incorrectly Specified Destination in a Communication Channel,Base,2.9132992626431444,0
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0
+322,Key Exchange without Entity Authentication,base,2.8651999999999997,0
+457,Use of Uninitialized Variable,variant,2.8320000000000003,0

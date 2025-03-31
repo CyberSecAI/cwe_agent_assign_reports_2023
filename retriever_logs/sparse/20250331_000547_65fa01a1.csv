@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5950.996755764053,base_query
+190,Integer Overflow or Wraparound,5071.123492125665,base_query
+125,Out-of-bounds Read,5060.115439803795,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,4995.591310896413,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4980.739398663749,base_query

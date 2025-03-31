@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+653,Improper Isolation or Compartmentalization,Class,0.7619655590690253
+274,Improper Handling of Insufficient Privileges,Base,0.7581566192759194
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.747861727166721
+1390,Weak Authentication,Class,0.7448348617560936
+1391,Use of Weak Credentials,Class,0.7442024187750537
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7436283316964996
+657,Violation of Secure Design Principles,Class,0.7436201855008283
+1220,Insufficient Granularity of Access Control,Base,0.7433216224790433
+693,Protection Mechanism Failure,Pillar,0.7430083957706004
+691,Insufficient Control Flow Management,Pillar,0.7401495985898725

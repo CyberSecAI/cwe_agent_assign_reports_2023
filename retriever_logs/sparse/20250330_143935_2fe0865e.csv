@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,5586.689925001867,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),5542.908949434669,base_query
+1386,Insecure Operation on Windows Junction / Mount Point,5303.226324853912,base_query
+916,Use of Password Hash With Insufficient Computational Effort,5260.187696408678,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5190.229971972424,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5851.042391968686,base_query
+415,Double Free,5496.260128003399,base_query
+911,Improper Update of Reference Count,5417.922105307811,base_query
+190,Integer Overflow or Wraparound,5351.656953115453,base_query
+404,Improper Resource Shutdown or Release,5299.757951294969,base_query

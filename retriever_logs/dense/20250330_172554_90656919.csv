@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7861413450576336
+471,Modification of Assumed-Immutable Data (MAID),Base,0.7611730618586792
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7601331059640335
+274,Improper Handling of Insufficient Privileges,Base,0.7588456019618195
+639,Authorization Bypass Through User-Controlled Key,Base,0.7565195375573248
+266,Incorrect Privilege Assignment,Base,0.7479351327079162
+668,Exposure of Resource to Wrong Sphere,Class,0.7466516862621528
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.746120961588705
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7445873909455712
+424,Improper Protection of Alternate Path,Class,0.7443739645801543

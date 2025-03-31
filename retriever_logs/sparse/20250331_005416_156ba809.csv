@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,6205.372773351775,unknown
+319,Cleartext Transmission of Sensitive Information,6157.64646142665,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,6083.522962115409,unknown
+863,Incorrect Authorization,6081.104083336224,unknown
+1390,Weak Authentication,6054.748719331366,unknown

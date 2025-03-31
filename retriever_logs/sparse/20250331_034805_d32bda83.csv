@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,7469.866625654363,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7455.419111876427,unknown
+297,Improper Validation of Certificate with Host Mismatch,7296.378320172051,unknown
+23,Relative Path Traversal,7198.884539736835,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),6917.479119820395,unknown

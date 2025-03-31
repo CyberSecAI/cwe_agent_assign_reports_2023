@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+226,Sensitive Information in Resource Not Removed Before Reuse,5076.734495018031,unknown
+212,Improper Removal of Sensitive Information Before Storage or Transfer,4868.509847710677,unknown
+1284,Improper Validation of Specified Quantity in Input,4723.71169409723,unknown
+125,Out-of-bounds Read,4676.996160849153,unknown
+201,Insertion of Sensitive Information Into Sent Data,4586.315329467357,unknown

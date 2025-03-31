@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6425.670717902485,unknown
+441,Unintended Proxy or Intermediary ('Confused Deputy'),6374.024415242432,unknown
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,6330.1314827200795,unknown
+863,Incorrect Authorization,6216.11048184774,unknown
+639,Authorization Bypass Through User-Controlled Key,6189.105971125886,unknown

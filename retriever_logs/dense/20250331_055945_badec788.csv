@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),Base,0.7767397573044479
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.768271282186258
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7651458298449285
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.762587216465947
+41,Improper Resolution of Path Equivalence,Base,0.7601650177441306
+668,Exposure of Resource to Wrong Sphere,Class,0.7551660064578616
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7547032590444787
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7513851853029885
+653,Improper Isolation or Compartmentalization,Class,0.7489561577725521
+300,Channel Accessible by Non-Endpoint,Class,0.7487595220416542

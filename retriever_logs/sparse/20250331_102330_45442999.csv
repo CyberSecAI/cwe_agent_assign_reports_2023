@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+789,Memory Allocation with Excessive Size Value,8285.431058653607,unknown
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8221.853569981982,unknown
+116,Improper Encoding or Escaping of Output,8212.24781677944,unknown
+1284,Improper Validation of Specified Quantity in Input,8146.189076539892,unknown
+770,Allocation of Resources Without Limits or Throttling,7999.082445627288,unknown

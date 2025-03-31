@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+798,Use of Hard-coded Credentials,6646.733835864072,unknown
+347,Improper Verification of Cryptographic Signature,6635.1150406245815,unknown
+125,Out-of-bounds Read,6613.740901569168,unknown
+259,Use of Hard-coded Password,6601.241560244278,unknown
+1391,Use of Weak Credentials,6598.56729514078,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,5937.812386909853,unknown
+125,Out-of-bounds Read,5910.821935725351,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,5851.557146325945,unknown
+190,Integer Overflow or Wraparound,5750.20895864092,unknown
+191,Integer Underflow (Wrap or Wraparound),5749.773169827077,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+457,Use of Uninitialized Variable,Variant,0.7873953015485088
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7827848953603231
+667,Improper Locking,Class,0.7695469371843122
+665,Improper Initialization,Class,0.7691163637017608
+252,Unchecked Return Value,Base,0.7634157811860789
+131,Incorrect Calculation of Buffer Size,Base,0.7626200837143082
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7612651659142144
+125,Out-of-bounds Read,Base,0.7578637013223406
+908,Use of Uninitialized Resource,Base,0.7578250337872926
+404,Improper Resource Shutdown or Release,Class,0.7573348539537665

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0
+499,Serializable Class Containing Sensitive Data,variant,2.6784000000000003,0
+498,Cloneable Class Containing Sensitive Information,variant,2.6784000000000003,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+178,Improper Handling of Case Sensitivity,Base,2.547527658947172,0
+1289,Improper Validation of Unsafe Equivalence in Input,Base,2.480771530294087,0
+41,Improper Resolution of Path Equivalence,base,2.4700000000000006,0
+261,Weak Encoding for Password,base,2.4699999999999998,0
+260,Password in Configuration File,base,2.4699999999999998,0

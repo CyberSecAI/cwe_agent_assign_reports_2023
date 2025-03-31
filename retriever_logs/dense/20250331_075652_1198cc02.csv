@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7690633709431596
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7675281377910073
+191,Integer Underflow (Wrap or Wraparound),Base,0.764572713637965
+125,Out-of-bounds Read,Base,0.7581626855013119
+131,Incorrect Calculation of Buffer Size,Base,0.7547373420009502
+805,Buffer Access with Incorrect Length Value,Base,0.75393416217997
+197,Numeric Truncation Error,Base,0.750923880036539
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7484628375367839
+252,Unchecked Return Value,Base,0.7462993319407444
+823,Use of Out-of-range Pointer Offset,Base,0.7455983223185082

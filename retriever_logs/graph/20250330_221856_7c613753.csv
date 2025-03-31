@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+73,External Control of File Name or Path,base,5.031000000000001,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,4.329000000000001,0
+471,Modification of Assumed-Immutable Data (MAID),base,4.329000000000001,0
+201,Insertion of Sensitive Information Into Sent Data,base,4.329000000000001,0
+776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),base,4.329000000000001,0
+941,Incorrectly Specified Destination in a Communication Channel,base,4.329000000000001,0
+827,Improper Control of Document Type Definition,variant,3.8784,0
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,3.4866,0
+386,Symbolic Name not Mapping to Correct Object,base,3.4502,0
+441,Unintended Proxy or Intermediary ('Confused Deputy'),class,2.984,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7954821951804232
+565,Reliance on Cookies without Validation and Integrity Checking,Base,0.7635471472375195
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7634316623822025
+784,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,Variant,0.7627114018371294
+602,Client-Side Enforcement of Server-Side Security,Class,0.7515164597806661
+1390,Weak Authentication,Class,0.7465340085260979
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7461720571830774
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7454587221045511
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7450195485611437
+41,Improper Resolution of Path Equivalence,Base,0.7422780299650046

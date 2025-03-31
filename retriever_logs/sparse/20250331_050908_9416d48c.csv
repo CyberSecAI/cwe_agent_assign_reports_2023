@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+364,Signal Handler Race Condition,7527.96745371548,base_query
+252,Unchecked Return Value,7387.962498063844,base_query
+476,NULL Pointer Dereference,7240.069954179303,base_query
+823,Use of Out-of-range Pointer Offset,6937.2905959657755,base_query
+822,Untrusted Pointer Dereference,6882.493088792672,base_query

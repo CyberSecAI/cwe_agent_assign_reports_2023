@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+41,Improper Resolution of Path Equivalence,Base,0.7987285926165847
+23,Relative Path Traversal,Base,0.7986890624174281
+36,Absolute Path Traversal,Base,0.7811196040444531
+73,External Control of File Name or Path,Base,0.7804197767438494
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7777059093387679
+24,Path Traversal: '../filedir',Variant,0.7750856115846005
+798,Use of Hard-coded Credentials,Base,0.773815736631198
+1391,Use of Weak Credentials,Class,0.7735268724444413
+427,Uncontrolled Search Path Element,Base,0.7698724056628925
+1390,Weak Authentication,Class,0.7680899166709114

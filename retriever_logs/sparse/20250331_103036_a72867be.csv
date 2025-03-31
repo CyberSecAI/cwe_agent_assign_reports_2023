@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+208,Observable Timing Discrepancy,9862.552307106482,base_query
+94,Improper Control of Generation of Code ('Code Injection'),9359.045139859094,base_query
+326,Inadequate Encryption Strength,9311.318263019271,base_query
+770,Allocation of Resources Without Limits or Throttling,7799.042657132173,base_query
+269,Improper Privilege Management,7479.943193093584,base_query

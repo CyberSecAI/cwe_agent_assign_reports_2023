@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+799,Improper Control of Interaction Frequency,Class,0.7456282114753379
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7456153952216009
+405,Asymmetric Resource Consumption (Amplification),Class,0.742161540902994
+291,Reliance on IP Address for Authentication,Variant,0.7369324722485182
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7363765105301381
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7346336362522559
+668,Exposure of Resource to Wrong Sphere,Class,0.7320509541462379
+300,Channel Accessible by Non-Endpoint,Class,0.7311054282229081
+289,Authentication Bypass by Alternate Name,Base,0.7309267135047668
+653,Improper Isolation or Compartmentalization,Class,0.7302986492126428

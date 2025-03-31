@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+356,Product UI does not Warn User of Unsafe Actions,Base,0.79443841515519
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.782251754506888
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7814332463373546
+668,Exposure of Resource to Wrong Sphere,Class,0.7689719631027074
+41,Improper Resolution of Path Equivalence,Base,0.7649371484688787
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7615650635133835
+184,Incomplete List of Disallowed Inputs,Base,0.7607162576377616
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7592527512761844
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7576192476125403
+657,Violation of Secure Design Principles,Class,0.7568075084754419

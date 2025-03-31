@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+420,Unprotected Alternate Channel,base,3.6399999999999997,0
+1191,On-Chip Debug and Test Interface With Improper Access Control,base,3.6399999999999997,0
+499,Serializable Class Containing Sensitive Data,variant,2.6784000000000003,0
+498,Cloneable Class Containing Sensitive Information,variant,2.6784000000000003,0
+798,Use of Hard-coded Credentials,Base,2.4959676549164778,0
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,2.4882466049056733,0
+257,Storing Passwords in a Recoverable Format,Base,2.483578770184136,0
+288,Authentication Bypass Using an Alternate Path or Channel,Base,2.4835301660322324,0
+344,Use of Invariant Value in Dynamically Changing Context,base,2.4699999999999998,0
+134,Use of Externally-Controlled Format String,base,2.4699999999999998,0

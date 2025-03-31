@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7283.793044050602,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7245.299862223137,base_query
+116,Improper Encoding or Escaping of Output,7176.087433305149,base_query
+667,Improper Locking,7113.403178037977,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7090.330140533198,base_query

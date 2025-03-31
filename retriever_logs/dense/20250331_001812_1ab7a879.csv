@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7900567541571154
+552,Files or Directories Accessible to External Parties,Base,0.7699330854390454
+404,Improper Resource Shutdown or Release,Class,0.7671370765286994
+274,Improper Handling of Insufficient Privileges,Base,0.7667235338312153
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7660034664555326
+73,External Control of File Name or Path,Base,0.7656501177348005
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7655585580916695
+266,Incorrect Privilege Assignment,Base,0.7647135984667413
+41,Improper Resolution of Path Equivalence,Base,0.7634619736964667
+267,Privilege Defined With Unsafe Actions,Base,0.7623740174052663

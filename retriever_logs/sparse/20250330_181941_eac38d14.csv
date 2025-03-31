@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+347,Improper Verification of Cryptographic Signature,6804.914321601645,base_query
+203,Observable Discrepancy,6551.334601157089,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,6442.196979533972,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6432.679293573315,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6404.692504448282,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+912,Hidden Functionality,7205.844805020329,unknown
+184,Incomplete List of Disallowed Inputs,6808.259502077149,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6635.12933781974,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,6597.320363661175,unknown
+288,Authentication Bypass Using an Alternate Path or Channel,6569.386310341295,unknown

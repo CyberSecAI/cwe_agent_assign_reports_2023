@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6423.128852947586,unknown
+328,Use of Weak Hash,6337.424534072326,unknown
+295,Improper Certificate Validation,6000.058676332692,unknown
+347,Improper Verification of Cryptographic Signature,5887.750013197731,unknown
+330,Use of Insufficiently Random Values,5728.5136478467175,unknown

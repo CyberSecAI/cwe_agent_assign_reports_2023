@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+799,Improper Control of Interaction Frequency,Class,0.7788392124306309
+208,Observable Timing Discrepancy,Base,0.752055936010417
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7466486867772776
+203,Observable Discrepancy,Base,0.7446043861011544
+1391,Use of Weak Credentials,Class,0.7402021260632728
+405,Asymmetric Resource Consumption (Amplification),Class,0.7387297666789178
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7378397347994684
+330,Use of Insufficiently Random Values,Class,0.7375631748896035
+204,Observable Response Discrepancy,Base,0.7363314968460097
+668,Exposure of Resource to Wrong Sphere,Class,0.7304318856214007

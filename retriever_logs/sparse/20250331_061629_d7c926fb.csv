@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,4796.257213780039,unknown
+782,Exposed IOCTL with Insufficient Access Control,4750.235602155865,unknown
+125,Out-of-bounds Read,4696.256217591292,unknown
+863,Incorrect Authorization,4638.246274241239,unknown
+639,Authorization Bypass Through User-Controlled Key,4601.242297517955,unknown

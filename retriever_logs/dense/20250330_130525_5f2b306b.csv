@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+653,Improper Isolation or Compartmentalization,Class,0.7537061302077124
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7504711701926376
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7491833955559348
+1390,Weak Authentication,Class,0.7439982483177454
+274,Improper Handling of Insufficient Privileges,Base,0.7417633469084299
+1220,Insufficient Granularity of Access Control,Base,0.7413291644602072
+345,Insufficient Verification of Data Authenticity,Class,0.740964192495388
+691,Insufficient Control Flow Management,Pillar,0.7382428112848258
+657,Violation of Secure Design Principles,Class,0.7380921504623535
+667,Improper Locking,Class,0.7376312454763165

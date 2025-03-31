@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1289,Improper Validation of Unsafe Equivalence in Input,4744.397462301837,base_query
+184,Incomplete List of Disallowed Inputs,4697.824754248502,base_query
+625,Permissive Regular Expression,4565.82306970469,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),4545.376858554451,base_query
+863,Incorrect Authorization,4454.308330557355,base_query

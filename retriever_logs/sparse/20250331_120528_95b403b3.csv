@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),5636.029559453507,base_query
+611,Improper Restriction of XML External Entity Reference,5487.447651637064,base_query
+1333,Inefficient Regular Expression Complexity,5227.581722515737,base_query
+770,Allocation of Resources Without Limits or Throttling,5208.759464859421,base_query
+834,Excessive Iteration,5208.569118669596,base_query

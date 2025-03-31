@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+278,Insecure Preserved Inherited Permissions,3186.6654671113142,base_query
+427,Uncontrolled Search Path Element,2787.391381431376,base_query
+732,Incorrect Permission Assignment for Critical Resource,2763.156311215765,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),2705.8332516553837,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),2449.15409652619,base_query

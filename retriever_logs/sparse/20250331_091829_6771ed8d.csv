@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,6386.627121722713,unknown
+941,Incorrectly Specified Destination in a Communication Channel,5934.387967641792,unknown
+918,Server-Side Request Forgery (SSRF),5752.150642227166,unknown
+116,Improper Encoding or Escaping of Output,5658.555954754642,unknown
+138,Improper Neutralization of Special Elements,5635.963176607289,unknown

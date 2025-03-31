@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+41,Improper Resolution of Path Equivalence,Base,0.7836516098979283
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.773146501577016
+668,Exposure of Resource to Wrong Sphere,Class,0.7730332192305427
+23,Relative Path Traversal,Base,0.7705833539457116
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.76972627022696
+184,Incomplete List of Disallowed Inputs,Base,0.7669917772304645
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7632302306967502
+552,Files or Directories Accessible to External Parties,Base,0.7626442871496426
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.762635645610577
+425,Direct Request ('Forced Browsing'),Base,0.7625544191126238

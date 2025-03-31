@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+787,Out-of-bounds Write,base,4.329000000000001,0
+825,Expired Pointer Dereference,base,4.329000000000001,0
+781,Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code,variant,3.8784,0
+789,Memory Allocation with Excessive Size Value,variant,3.24,0
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,2.9169619468486676,0
+823,Use of Out-of-range Pointer Offset,Base,2.9166435245989875,0
+822,Untrusted Pointer Dereference,Base,2.916060404487322,0
+824,Access of Uninitialized Pointer,Base,2.913471055812062,0
+1325,Improperly Controlled Sequential Memory Allocation,base,2.9120000000000004,0
+125,Out-of-bounds Read,Base,2.9089201228720905,0

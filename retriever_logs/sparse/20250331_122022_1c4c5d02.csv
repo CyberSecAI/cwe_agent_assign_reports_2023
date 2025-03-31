@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6980.7199469022935,unknown
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,6715.353884893834,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6685.2140410301645,unknown
+23,Relative Path Traversal,6662.797523639376,unknown
+441,Unintended Proxy or Intermediary ('Confused Deputy'),6621.514399013583,unknown

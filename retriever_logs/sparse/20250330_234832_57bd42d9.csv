@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,6353.275753093668,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6331.198327659286,base_query
+789,Memory Allocation with Excessive Size Value,6164.456556834711,base_query
+116,Improper Encoding or Escaping of Output,6161.67131284754,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6114.168391917406,base_query

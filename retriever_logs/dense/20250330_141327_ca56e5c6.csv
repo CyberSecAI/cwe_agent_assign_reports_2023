@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+943,Improper Neutralization of Special Elements in Data Query Logic,Class,0.769869383161187
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.763286165103624
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),Base,0.7616911108268151
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7485724644517648
+184,Incomplete List of Disallowed Inputs,Base,0.7470013598653088
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7442232132284526
+1236,Improper Neutralization of Formula Elements in a CSV File,Base,0.7402461321741054
+138,Improper Neutralization of Special Elements,Class,0.7395001114121735
+204,Observable Response Discrepancy,Base,0.7201023933155295
+162,Improper Neutralization of Trailing Special Elements,Variant,0.7196124002115751

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+345,Insufficient Verification of Data Authenticity,Class,0.7683048260076126
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7577035630744807
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7547836997327958
+668,Exposure of Resource to Wrong Sphere,Class,0.7498744656604446
+347,Improper Verification of Cryptographic Signature,Base,0.7490991691873454
+41,Improper Resolution of Path Equivalence,Base,0.7485565610852427
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7456620124064648
+274,Improper Handling of Insufficient Privileges,Base,0.7452491310362248
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7448266654679576
+203,Observable Discrepancy,Base,0.743404060987645

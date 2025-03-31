@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+131,Incorrect Calculation of Buffer Size,Base,0.7947377882426219
+667,Improper Locking,Class,0.7860333312262413
+191,Integer Underflow (Wrap or Wraparound),Base,0.784916575196428
+125,Out-of-bounds Read,Base,0.7829763274281306
+126,Buffer Over-read,Variant,0.7825269637600365
+824,Access of Uninitialized Pointer,Base,0.7822161005490521
+805,Buffer Access with Incorrect Length Value,Base,0.7794356876178145
+909,Missing Initialization of Resource,Class,0.7791383748032304
+823,Use of Out-of-range Pointer Offset,Base,0.7775395344480918
+908,Use of Uninitialized Resource,Base,0.7761519421757821

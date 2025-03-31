@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+178,Improper Handling of Case Sensitivity,4243.677456660103,base_query
+295,Improper Certificate Validation,4154.954469293602,base_query
+472,External Control of Assumed-Immutable Web Parameter,4146.223748729888,base_query
+1390,Weak Authentication,4078.219444349942,base_query
+863,Incorrect Authorization,4030.1697685183335,base_query

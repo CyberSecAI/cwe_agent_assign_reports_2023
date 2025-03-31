@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+321,Use of Hard-coded Cryptographic Key,variant,4.0104,0
+259,Use of Hard-coded Password,variant,4.0104,0
+1191,On-Chip Debug and Test Interface With Improper Access Control,base,3.6399999999999997,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+322,Key Exchange without Entity Authentication,base,2.8651999999999997,0
+350,Reliance on Reverse DNS Resolution for a Security-Critical Action,variant,2.6784000000000003,0
+798,Use of Hard-coded Credentials,Base,2.4924319587265424,0
+1244,Internal Asset Exposed to Unsafe Debug Access Level or State,base,2.4699999999999998,0
+306,Missing Authentication for Critical Function,base,2.4699999999999998,0
+344,Use of Invariant Value in Dynamically Changing Context,base,2.4699999999999998,0

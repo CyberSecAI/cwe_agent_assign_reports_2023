@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+457,Use of Uninitialized Variable,Variant,0.8103361329876801
+456,Missing Initialization of a Variable,Variant,0.7880388399998979
+665,Improper Initialization,Class,0.7733447124455224
+909,Missing Initialization of Resource,Class,0.7636882818781764
+908,Use of Uninitialized Resource,Base,0.7602834773485845
+1419,Incorrect Initialization of Resource,Class,0.7602212971113944
+252,Unchecked Return Value,Base,0.7589102817109052
+667,Improper Locking,Class,0.7562389751307456
+453,Insecure Default Variable Initialization,Variant,0.754331416726832
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7539916263886778

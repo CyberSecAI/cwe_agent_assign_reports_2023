@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,5061.866859473882,base_query
+190,Integer Overflow or Wraparound,4963.239921644732,base_query
+193,Off-by-one Error,4950.410798682572,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),4948.4288279273005,base_query
+191,Integer Underflow (Wrap or Wraparound),4884.40120291133,base_query

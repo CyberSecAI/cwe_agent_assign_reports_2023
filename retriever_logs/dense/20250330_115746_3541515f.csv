@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+798,Use of Hard-coded Credentials,Base,0.7931173059180108
+1391,Use of Weak Credentials,Class,0.7790896496160338
+312,Cleartext Storage of Sensitive Information,Base,0.7623063691611714
+257,Storing Passwords in a Recoverable Format,Base,0.7607012395568205
+259,Use of Hard-coded Password,Variant,0.7557670920841001
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7539987981265059
+1392,Use of Default Credentials,Base,0.7481595390828286
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7478696992760561
+1188,Initialization of a Resource with an Insecure Default,Base,0.7473271156242136
+319,Cleartext Transmission of Sensitive Information,Base,0.7468989569883661

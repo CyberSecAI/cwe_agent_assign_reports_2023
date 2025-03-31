@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+183,Permissive List of Allowed Inputs,base,4.505800000000001,0
+184,Incomplete List of Disallowed Inputs,base,4.505800000000001,0
+385,Covert Timing Channel,base,4.329000000000001,0
+481,Assigning instead of Comparing,variant,3.8784,0
+625,Permissive Regular Expression,base,3.6399999999999997,0
+178,Improper Handling of Case Sensitivity,base,3.5464,0
+187,Partial String Comparison,Variant,2.996018716324953,0
+208,Observable Timing Discrepancy,Base,2.8721670074050984,0
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0
+131,Incorrect Calculation of Buffer Size,base,2.821,0

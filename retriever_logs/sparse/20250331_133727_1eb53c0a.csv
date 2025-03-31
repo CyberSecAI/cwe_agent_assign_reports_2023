@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+312,Cleartext Storage of Sensitive Information,5329.771795723849,unknown
+1299,Missing Protection Mechanism for Alternate Hardware Interface,5113.655895280612,unknown
+319,Cleartext Transmission of Sensitive Information,5104.329796736539,unknown
+798,Use of Hard-coded Credentials,4988.6258197288635,unknown
+522,Insufficiently Protected Credentials,4774.837673486413,unknown

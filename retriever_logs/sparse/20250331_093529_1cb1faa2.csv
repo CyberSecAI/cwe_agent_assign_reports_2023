@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1421,Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution,4160.168490394364,base_query
+639,Authorization Bypass Through User-Controlled Key,4158.521212290218,base_query
+863,Incorrect Authorization,4068.5870344414166,base_query
+209,Generation of Error Message Containing Sensitive Information,4058.3435777365653,base_query
+668,Exposure of Resource to Wrong Sphere,4048.610828148416,base_query

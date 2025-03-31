@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,5258.89765017114,unknown
+183,Permissive List of Allowed Inputs,5219.968947843854,unknown
+285,Improper Authorization,5172.105772013388,unknown
+668,Exposure of Resource to Wrong Sphere,5096.695187384275,unknown
+942,Permissive Cross-domain Policy with Untrusted Domains,5080.072502964897,unknown

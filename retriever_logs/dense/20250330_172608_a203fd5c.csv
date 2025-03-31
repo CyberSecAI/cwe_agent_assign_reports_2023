@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+156,Improper Neutralization of Whitespace,Variant,0.7692143017315328
+366,Race Condition within a Thread,Base,0.7527625088327445
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7430158623859059
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7419796396925237
+125,Out-of-bounds Read,Base,0.7415551946233002
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7413635531010683
+404,Improper Resource Shutdown or Release,Class,0.7408260948224041
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7391944961340524
+667,Improper Locking,Class,0.7379913894122054
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7370804518277897

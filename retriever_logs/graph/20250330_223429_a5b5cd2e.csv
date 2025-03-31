@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+259,Use of Hard-coded Password,variant,4.0104,0
+321,Use of Hard-coded Cryptographic Key,Variant,2.710148428444073,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.5507200000000005,0
+798,Use of Hard-coded Credentials,Base,2.4957838367841725,0
+836,Use of Password Hash Instead of Password for Authentication,Base,2.492691089398992,0
+257,Storing Passwords in a Recoverable Format,Base,2.48687576460733,0
+256,Plaintext Storage of a Password,base,2.4699999999999998,0
+480,Use of Incorrect Operator,base,2.3998000000000004,0
+1282,Assumed-Immutable Data is Stored in Writable Memory,base,2.3400000000000003,0

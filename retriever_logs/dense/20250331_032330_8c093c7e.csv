@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7737595898459222
+184,Incomplete List of Disallowed Inputs,Base,0.755462053577207
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7538784383602134
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.751492911084372
+138,Improper Neutralization of Special Elements,Class,0.7492439745317331
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),Base,0.7405229250740053
+183,Permissive List of Allowed Inputs,Base,0.7372358869626893
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7353547709093364
+41,Improper Resolution of Path Equivalence,Base,0.7352700617432093
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7343774938377072

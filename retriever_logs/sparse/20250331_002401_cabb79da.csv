@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+667,Improper Locking,4223.176753421772,unknown
+125,Out-of-bounds Read,4119.100732624427,unknown
+843,Access of Resource Using Incompatible Type ('Type Confusion'),4087.729655630772,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,3996.267497316684,unknown
+665,Improper Initialization,3950.789839069951,unknown

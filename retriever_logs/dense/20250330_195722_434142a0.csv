@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+300,Channel Accessible by Non-Endpoint,Class,0.805610766588125
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7590969753812801
+799,Improper Control of Interaction Frequency,Class,0.7579703183842177
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.757583880450784
+1391,Use of Weak Credentials,Class,0.7544830508382591
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7539170482607715
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7519368772451319
+319,Cleartext Transmission of Sensitive Information,Base,0.7502926029372308
+345,Insufficient Verification of Data Authenticity,Class,0.7492896375730962
+1390,Weak Authentication,Class,0.747982421451959

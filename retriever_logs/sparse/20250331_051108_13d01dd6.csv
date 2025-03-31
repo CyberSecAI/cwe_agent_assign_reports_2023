@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+667,Improper Locking,4896.432882163836,base_query
+833,Deadlock,4895.77621232573,base_query
+770,Allocation of Resources Without Limits or Throttling,4832.692380776857,base_query
+125,Out-of-bounds Read,4823.468694669099,base_query
+1284,Improper Validation of Specified Quantity in Input,4794.4073477111015,base_query

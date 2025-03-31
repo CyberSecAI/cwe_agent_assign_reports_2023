@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,7087.809624621073,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7034.116374144114,unknown
+1284,Improper Validation of Specified Quantity in Input,6854.2463013861,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6663.643191916433,unknown
+863,Incorrect Authorization,6622.5455800820455,unknown

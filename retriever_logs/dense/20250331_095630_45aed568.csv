@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7672123420069056
+1004,Sensitive Cookie Without 'HttpOnly' Flag,Variant,0.7631456331462034
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7599041705816055
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7576999127000356
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7548569015333002
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7541811751741185
+41,Improper Resolution of Path Equivalence,Base,0.753491100796306
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7526386406003336
+184,Incomplete List of Disallowed Inputs,Base,0.7501551895271701
+319,Cleartext Transmission of Sensitive Information,Base,0.7487603075994341

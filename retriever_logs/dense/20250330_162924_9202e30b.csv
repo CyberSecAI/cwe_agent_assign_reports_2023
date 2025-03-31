@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7773014893591621
+404,Improper Resource Shutdown or Release,Class,0.7684569206363652
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7672006612040003
+668,Exposure of Resource to Wrong Sphere,Class,0.7609599105644103
+41,Improper Resolution of Path Equivalence,Base,0.7566569824274526
+667,Improper Locking,Class,0.7499819926162576
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.747249143251223
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.74587736007776
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7427142838766302
+23,Relative Path Traversal,Base,0.7412976757938204

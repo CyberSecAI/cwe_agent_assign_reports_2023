@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),9392.922567427067,base_query
+451,User Interface (UI) Misrepresentation of Critical Information,9206.815285780163,base_query
+116,Improper Encoding or Escaping of Output,9163.037844864424,base_query
+942,Permissive Cross-domain Policy with Untrusted Domains,8635.618391968806,base_query
+138,Improper Neutralization of Special Elements,8495.007182988611,base_query

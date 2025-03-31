@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+804,Guessable CAPTCHA,base,4.329000000000001,0
+321,Use of Hard-coded Cryptographic Key,Variant,2.7062051470102757,0
+259,Use of Hard-coded Password,Variant,2.695106273189378,0
+798,Use of Hard-coded Credentials,Base,2.485922000720649,0
+257,Storing Passwords in a Recoverable Format,Base,2.474747967823598,0
+344,Use of Invariant Value in Dynamically Changing Context,base,2.4699999999999998,0
+1394,Use of Default Cryptographic Key,base,2.4699999999999998,0
+613,Insufficient Session Expiration,base,2.2100000000000004,0
+208,Observable Timing Discrepancy,base,2.2100000000000004,0
+1291,Public Key Re-Use for Signing both Debug and Production Code,base,2.1762,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7739137577914772
+1288,Improper Validation of Consistency within Input,Base,0.7431700029893586
+345,Insufficient Verification of Data Authenticity,Class,0.7287341178472119
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7286204107652965
+1286,Improper Validation of Syntactic Correctness of Input,Base,0.7220401955734757
+179,Incorrect Behavior Order: Early Validation,Base,0.7201418260455673
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7178880509950041
+129,Improper Validation of Array Index,Variant,0.7165443027201487
+347,Improper Verification of Cryptographic Signature,Base,0.7156867418176798
+681,Incorrect Conversion between Numeric Types,Base,0.7148134551641753

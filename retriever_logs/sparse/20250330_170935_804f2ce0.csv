@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6464.73043336988,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),6436.5941102581955,base_query
+138,Improper Neutralization of Special Elements,6016.433581994738,base_query
+611,Improper Restriction of XML External Entity Reference,5991.0611819948235,base_query
+116,Improper Encoding or Escaping of Output,5949.146857574251,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+775,Missing Release of File Descriptor or Handle after Effective Lifetime,6987.081224761347,base_query
+754,Improper Check for Unusual or Exceptional Conditions,6759.204806415497,base_query
+770,Allocation of Resources Without Limits or Throttling,6696.513311305227,base_query
+789,Memory Allocation with Excessive Size Value,6411.334073735463,base_query
+252,Unchecked Return Value,6363.8307551695525,base_query

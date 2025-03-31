@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,7622.258036944578,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,7169.666010542173,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,6803.486023024219,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6695.424999534949,unknown
+863,Incorrect Authorization,6631.308450081517,unknown

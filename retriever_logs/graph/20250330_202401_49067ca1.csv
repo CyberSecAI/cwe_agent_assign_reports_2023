@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+201,Insertion of Sensitive Information Into Sent Data,base,4.329000000000001,0
+1272,Sensitive Information Uncleared Before Debug/Power State Transition,base,4.329000000000001,0
+681,Incorrect Conversion between Numeric Types,base,4.329000000000001,0
+190,Integer Overflow or Wraparound,base,4.329000000000001,0
+170,Improper Null Termination,base,4.329000000000001,0
+787,Out-of-bounds Write,base,4.329000000000001,0
+822,Untrusted Pointer Dereference,base,4.329000000000001,0
+195,Signed to Unsigned Conversion Error,variant,3.8784,0
+126,Buffer Over-read,variant,3.8784,0
+1339,Insufficient Precision or Accuracy of a Real Number,base,3.5671999999999997,0

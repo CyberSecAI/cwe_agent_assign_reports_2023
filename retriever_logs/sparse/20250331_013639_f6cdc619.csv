@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+59,Improper Link Resolution Before File Access ('Link Following'),6471.266355078983,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6312.338773129207,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6145.198493053203,base_query
+379,Creation of Temporary File in Directory with Insecure Permissions,6052.43321269356,base_query
+732,Incorrect Permission Assignment for Critical Resource,5974.046819838258,base_query

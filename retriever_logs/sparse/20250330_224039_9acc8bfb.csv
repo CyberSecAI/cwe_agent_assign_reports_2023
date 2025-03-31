@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+226,Sensitive Information in Resource Not Removed Before Reuse,5407.454797000617,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5330.577466404714,base_query
+918,Server-Side Request Forgery (SSRF),4988.496802036522,base_query
+639,Authorization Bypass Through User-Controlled Key,4927.565638377568,base_query
+863,Incorrect Authorization,4922.392907335582,base_query

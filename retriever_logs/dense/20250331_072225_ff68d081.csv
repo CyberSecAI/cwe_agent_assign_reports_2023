@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.805968419107145
+668,Exposure of Resource to Wrong Sphere,Class,0.7793816829750096
+799,Improper Control of Interaction Frequency,Class,0.7762753195163663
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.775025142324145
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7728166931186458
+319,Cleartext Transmission of Sensitive Information,Base,0.7709965060822492
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7709459582883362
+345,Insufficient Verification of Data Authenticity,Class,0.7697449823051714
+1390,Weak Authentication,Class,0.7695561034434166
+1391,Use of Weak Credentials,Class,0.7694797850166761

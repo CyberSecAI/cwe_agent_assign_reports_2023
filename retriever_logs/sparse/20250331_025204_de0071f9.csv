@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7811.706779724257,base_query
+784,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,7690.102728795083,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,7568.737645636474,base_query
+1390,Weak Authentication,7391.576367098461,base_query
+1004,Sensitive Cookie Without 'HttpOnly' Flag,7321.263761583403,base_query

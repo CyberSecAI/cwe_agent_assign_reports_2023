@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,5704.2120726902795,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),5384.976730767917,base_query
+1333,Inefficient Regular Expression Complexity,5288.787229030657,base_query
+138,Improper Neutralization of Special Elements,5121.388698659466,base_query
+347,Improper Verification of Cryptographic Signature,5070.404647597784,base_query

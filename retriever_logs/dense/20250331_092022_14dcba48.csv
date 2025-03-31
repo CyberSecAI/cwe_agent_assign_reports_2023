@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7588668072405986
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7551535000768255
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7416027187747422
+667,Improper Locking,Class,0.7389421366767375
+662,Improper Synchronization,Class,0.738879475286255
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7368368748562775
+653,Improper Isolation or Compartmentalization,Class,0.7347702720957248
+405,Asymmetric Resource Consumption (Amplification),Class,0.7331823117353365
+131,Incorrect Calculation of Buffer Size,Base,0.7310403358764834
+805,Buffer Access with Incorrect Length Value,Base,0.7282354483617762

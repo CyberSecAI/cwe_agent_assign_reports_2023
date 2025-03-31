@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1391,Use of Weak Credentials,Class,0.7651058437631945
+798,Use of Hard-coded Credentials,Base,0.7574761952482536
+312,Cleartext Storage of Sensitive Information,Base,0.7567688546104738
+1392,Use of Default Credentials,Base,0.7538219022637986
+1393,Use of Default Password,Base,0.7402719321939651
+1188,Initialization of a Resource with an Insecure Default,Base,0.7388907473261934
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7388242056006
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7307924415795402
+319,Cleartext Transmission of Sensitive Information,Base,0.7304070329294243
+1390,Weak Authentication,Class,0.7292252600923421

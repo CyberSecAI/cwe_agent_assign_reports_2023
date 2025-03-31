@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+208,Observable Timing Discrepancy,Base,0.7856393510628421
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7698686438566428
+203,Observable Discrepancy,Base,0.7576479166295602
+668,Exposure of Resource to Wrong Sphere,Class,0.7575105007915515
+404,Improper Resource Shutdown or Release,Class,0.7565782360545472
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.755216055997058
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7530985310541108
+204,Observable Response Discrepancy,Base,0.7519983789581337
+41,Improper Resolution of Path Equivalence,Base,0.7516708118780089
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7515018513954289

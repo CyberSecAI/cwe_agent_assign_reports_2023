@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5712.110150528589,unknown
+667,Improper Locking,5670.401056716305,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5638.86532260495,unknown
+125,Out-of-bounds Read,5610.067659606498,unknown
+662,Improper Synchronization,5556.267007663948,unknown

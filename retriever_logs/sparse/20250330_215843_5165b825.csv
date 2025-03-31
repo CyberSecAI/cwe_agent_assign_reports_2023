@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6225.494867882201,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5924.077616250319,unknown
+184,Incomplete List of Disallowed Inputs,5901.5814153608235,unknown
+863,Incorrect Authorization,5831.1301676056355,unknown
+285,Improper Authorization,5666.700111836783,unknown

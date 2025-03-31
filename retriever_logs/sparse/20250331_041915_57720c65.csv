@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+472,External Control of Assumed-Immutable Web Parameter,5469.004682516835,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5455.115891741286,base_query
+138,Improper Neutralization of Special Elements,5195.619453375549,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5175.618121826732,base_query
+116,Improper Encoding or Escaping of Output,5169.368370285375,base_query

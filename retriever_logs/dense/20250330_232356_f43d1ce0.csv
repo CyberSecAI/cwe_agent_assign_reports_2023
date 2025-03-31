@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7899365380801098
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7776402304430545
+319,Cleartext Transmission of Sensitive Information,Base,0.7684821618398989
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7668757963331605
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7655282339601351
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7601239296374183
+345,Insufficient Verification of Data Authenticity,Class,0.7600648270619168
+312,Cleartext Storage of Sensitive Information,Base,0.7593115023843691
+668,Exposure of Resource to Wrong Sphere,Class,0.7575324340271523
+639,Authorization Bypass Through User-Controlled Key,Base,0.7572231130995022

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.790086202660699
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7671892747650768
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7582708560905522
+404,Improper Resource Shutdown or Release,Class,0.7496412508012666
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7478425543949707
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7419671610930746
+657,Violation of Secure Design Principles,Class,0.7412200518165304
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7404503468495833
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7401555039275994
+358,Improperly Implemented Security Check for Standard,Base,0.739097450837812

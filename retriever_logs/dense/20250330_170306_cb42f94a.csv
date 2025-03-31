@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+328,Use of Weak Hash,Base,0.8125416920043113
+916,Use of Password Hash With Insufficient Computational Effort,Base,0.7860482510184834
+1391,Use of Weak Credentials,Class,0.7724548400717901
+330,Use of Insufficiently Random Values,Class,0.7618861481506716
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7565538202838906
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7552536573026232
+836,Use of Password Hash Instead of Password for Authentication,Base,0.7550188160525724
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7538081166850694
+319,Cleartext Transmission of Sensitive Information,Base,0.7520830173488438
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7473104837720241

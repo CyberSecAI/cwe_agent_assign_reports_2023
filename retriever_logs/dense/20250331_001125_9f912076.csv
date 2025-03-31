@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+184,Incomplete List of Disallowed Inputs,Base,0.7657520571633124
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7596833971511459
+138,Improper Neutralization of Special Elements,Class,0.7515621553090078
+41,Improper Resolution of Path Equivalence,Base,0.7491396284596554
+73,External Control of File Name or Path,Base,0.7430993367235876
+668,Exposure of Resource to Wrong Sphere,Class,0.7408622077370507
+653,Improper Isolation or Compartmentalization,Class,0.7401927533091519
+134,Use of Externally-Controlled Format String,Base,0.7373878624217398
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7360558897997083
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7341161249007309

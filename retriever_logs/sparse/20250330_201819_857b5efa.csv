@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6703.239121117563,base_query
+506,Embedded Malicious Code,6632.1225874399925,base_query
+427,Uncontrolled Search Path Element,6489.676243587805,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6463.187290962678,base_query
+125,Out-of-bounds Read,6419.25084901952,base_query

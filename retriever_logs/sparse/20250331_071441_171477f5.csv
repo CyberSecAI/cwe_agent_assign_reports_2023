@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,6340.562029841412,unknown
+941,Incorrectly Specified Destination in a Communication Channel,6130.6627130590605,unknown
+203,Observable Discrepancy,6081.068958589965,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,6073.285362651493,unknown
+312,Cleartext Storage of Sensitive Information,6072.7470674031165,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+124,Buffer Underwrite ('Buffer Underflow'),4839.862496285012,base_query
+125,Out-of-bounds Read,4806.502144982562,base_query
+190,Integer Overflow or Wraparound,4708.031845727884,base_query
+476,NULL Pointer Dereference,4608.920899151917,base_query
+197,Numeric Truncation Error,4497.029119471181,base_query

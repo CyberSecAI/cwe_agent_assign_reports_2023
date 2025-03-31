@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+124,Buffer Underwrite ('Buffer Underflow'),Base,0.8231151877410644
+131,Incorrect Calculation of Buffer Size,Base,0.8197174427443459
+191,Integer Underflow (Wrap or Wraparound),Base,0.8058642846970717
+805,Buffer Access with Incorrect Length Value,Base,0.7941694615500593
+126,Buffer Over-read,Variant,0.7920019039185002
+822,Untrusted Pointer Dereference,Base,0.791563460207788
+667,Improper Locking,Class,0.787152394574381
+127,Buffer Under-read,Variant,0.7834183971894235
+252,Unchecked Return Value,Base,0.7819149572265449
+125,Out-of-bounds Read,Base,0.7817702756153223

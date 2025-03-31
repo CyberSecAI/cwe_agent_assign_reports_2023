@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+131,Incorrect Calculation of Buffer Size,Base,0.7758489468350388
+208,Observable Timing Discrepancy,Base,0.7700669704638103
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7655706937117106
+203,Observable Discrepancy,Base,0.7651712172131522
+191,Integer Underflow (Wrap or Wraparound),Base,0.7591463121851125
+126,Buffer Over-read,Variant,0.7582527203474753
+204,Observable Response Discrepancy,Base,0.757350289325933
+125,Out-of-bounds Read,Base,0.7570137388117564
+667,Improper Locking,Class,0.7527279128843722
+205,Observable Behavioral Discrepancy,Base,0.7507336882431315

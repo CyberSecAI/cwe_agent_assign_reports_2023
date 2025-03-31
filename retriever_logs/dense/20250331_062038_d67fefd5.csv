@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7550331479204826
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7541128278883968
+415,Double Free,Variant,0.7445787301992483
+667,Improper Locking,Class,0.7425788630612309
+131,Incorrect Calculation of Buffer Size,Base,0.740832307824984
+41,Improper Resolution of Path Equivalence,Base,0.7376409994990337
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7364925550479695
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7364099748935321
+125,Out-of-bounds Read,Base,0.735855328471767
+252,Unchecked Return Value,Base,0.7348391840876506

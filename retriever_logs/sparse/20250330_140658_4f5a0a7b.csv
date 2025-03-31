@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6232.168524698202,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6159.605903836372,unknown
+667,Improper Locking,6112.671181582562,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),6061.039377710074,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5935.724332311248,unknown

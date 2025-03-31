@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6256.384315730869,unknown
+1390,Weak Authentication,5971.994595835781,unknown
+287,Improper Authentication,5908.850733445468,unknown
+798,Use of Hard-coded Credentials,5892.711094373853,unknown
+863,Incorrect Authorization,5816.563306754142,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+59,Improper Link Resolution Before File Access ('Link Following'),6632.358794850098,unknown
+863,Incorrect Authorization,6286.359548193834,unknown
+259,Use of Hard-coded Password,6270.391997078762,unknown
+1386,Insecure Operation on Windows Junction / Mount Point,6246.772278767251,unknown
+798,Use of Hard-coded Credentials,6214.299730614985,unknown

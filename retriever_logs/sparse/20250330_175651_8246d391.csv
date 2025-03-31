@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,5928.956378208176,base_query
+328,Use of Weak Hash,5915.634860544642,base_query
+407,Inefficient Algorithmic Complexity,5873.392483736039,base_query
+789,Memory Allocation with Excessive Size Value,5699.29998758815,base_query
+1333,Inefficient Regular Expression Complexity,5632.673974517616,base_query

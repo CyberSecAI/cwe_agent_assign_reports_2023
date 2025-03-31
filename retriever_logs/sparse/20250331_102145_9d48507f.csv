@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,4893.555231109809,base_query
+639,Authorization Bypass Through User-Controlled Key,4890.393842759677,base_query
+1421,Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution,4863.565514106458,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,4853.877178655457,base_query
+287,Improper Authentication,4835.1204220461095,base_query

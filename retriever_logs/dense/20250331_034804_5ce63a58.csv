@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7711008658492094
+345,Insufficient Verification of Data Authenticity,Class,0.7686062788278747
+295,Improper Certificate Validation,Base,0.7583052110589883
+347,Improper Verification of Cryptographic Signature,Base,0.7576463617732486
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7556822999740027
+296,Improper Following of a Certificate's Chain of Trust,Base,0.7478245630390183
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7346313360698116
+203,Observable Discrepancy,Base,0.730305396655879
+668,Exposure of Resource to Wrong Sphere,Class,0.7296411916429895
+657,Violation of Secure Design Principles,Class,0.7295994718040592

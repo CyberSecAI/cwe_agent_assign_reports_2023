@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+197,Numeric Truncation Error,Base,0.7519964477236479
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7502335522545771
+191,Integer Underflow (Wrap or Wraparound),Base,0.7494993145267848
+789,Memory Allocation with Excessive Size Value,Variant,0.7485624651292497
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7444070689444243
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7432824424551133
+404,Improper Resource Shutdown or Release,Class,0.7416117937113487
+125,Out-of-bounds Read,Base,0.7408445844540527
+131,Incorrect Calculation of Buffer Size,Base,0.7399115439039229
+252,Unchecked Return Value,Base,0.7392875420469811

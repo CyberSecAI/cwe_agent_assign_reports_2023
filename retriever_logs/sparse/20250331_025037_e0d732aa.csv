@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6505.222863327393,unknown
+823,Use of Out-of-range Pointer Offset,6326.964378737954,unknown
+863,Incorrect Authorization,6321.059870897057,unknown
+1284,Improper Validation of Specified Quantity in Input,6251.241004631282,unknown
+125,Out-of-bounds Read,6186.214971830369,unknown

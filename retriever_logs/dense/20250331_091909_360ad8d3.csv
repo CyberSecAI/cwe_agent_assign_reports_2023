@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+425,Direct Request ('Forced Browsing'),Base,0.7282275342031554
+352,Cross-Site Request Forgery (CSRF),Compound,0.7251175656122631
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7044711439600622
+639,Authorization Bypass Through User-Controlled Key,Base,0.6966189637392781
+116,Improper Encoding or Escaping of Output,Class,0.6887960793988019
+178,Improper Handling of Case Sensitivity,Base,0.6876271703279242
+1391,Use of Weak Credentials,Class,0.6853062260246879
+303,Incorrect Implementation of Authentication Algorithm,Base,0.6841983984981925
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.683811173993773
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.6837391704339698

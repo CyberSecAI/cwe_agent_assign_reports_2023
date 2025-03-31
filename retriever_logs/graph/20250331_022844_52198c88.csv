@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+73,External Control of File Name or Path,base,5.031000000000001,0
+613,Insufficient Session Expiration,base,4.329000000000001,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,4.329000000000001,0
+386,Symbolic Name not Mapping to Correct Object,base,3.4502,0
+61,UNIX Symbolic Link (Symlink) Following,compound,2.9236000000000004,0
+911,Improper Update of Reference Count,base,2.8651999999999997,0
+59,Improper Link Resolution Before File Access ('Link Following'),base,2.8651999999999997,0
+770,Allocation of Resources Without Limits or Throttling,base,2.8651999999999997,0
+826,Premature Release of Resource During Expected Lifetime,base,2.73416,0
+434,Unrestricted Upload of File with Dangerous Type,base,2.73416,0

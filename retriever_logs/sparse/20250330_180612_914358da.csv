@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,6027.262500848155,base_query
+863,Incorrect Authorization,5767.289558696686,base_query
+184,Incomplete List of Disallowed Inputs,5681.062044621033,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5643.023314577804,base_query
+285,Improper Authorization,5578.219125402702,base_query

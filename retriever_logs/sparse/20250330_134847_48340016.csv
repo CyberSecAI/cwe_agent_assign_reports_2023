@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,7360.499711571763,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7247.5645666105975,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),7194.228326817352,unknown
+116,Improper Encoding or Escaping of Output,7134.973657347672,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7129.906143322849,unknown

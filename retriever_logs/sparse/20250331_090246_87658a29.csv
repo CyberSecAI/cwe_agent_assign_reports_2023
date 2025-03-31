@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,5968.616056256562,base_query
+259,Use of Hard-coded Password,5950.725461266525,base_query
+798,Use of Hard-coded Credentials,5937.852259104708,base_query
+319,Cleartext Transmission of Sensitive Information,5731.700404738596,base_query
+321,Use of Hard-coded Cryptographic Key,5715.751422173507,base_query

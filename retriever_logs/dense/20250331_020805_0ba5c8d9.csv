@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+789,Memory Allocation with Excessive Size Value,Variant,0.8056479334224872
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7883508930254204
+131,Incorrect Calculation of Buffer Size,Base,0.7833420802741169
+805,Buffer Access with Incorrect Length Value,Base,0.7754840446042255
+126,Buffer Over-read,Variant,0.7694669785298961
+125,Out-of-bounds Read,Base,0.7689913540824866
+404,Improper Resource Shutdown or Release,Class,0.7648210028429114
+191,Integer Underflow (Wrap or Wraparound),Base,0.7628593997186586
+681,Incorrect Conversion between Numeric Types,Base,0.7627340452274858
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7612735821904584

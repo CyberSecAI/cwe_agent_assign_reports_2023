@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5953.566346227364,unknown
+1256,Improper Restriction of Software Interfaces to Hardware Features,5867.7626803649,unknown
+863,Incorrect Authorization,5726.017826532442,unknown
+287,Improper Authentication,5689.055402636217,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5652.022470522444,unknown

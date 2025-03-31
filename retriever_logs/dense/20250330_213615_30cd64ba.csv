@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.8060584301613919
+61,UNIX Symbolic Link (Symlink) Following,Compound,0.7792372827407278
+64,Windows Shortcut Following (.LNK),Variant,0.7645287378033426
+41,Improper Resolution of Path Equivalence,Base,0.7550846246443771
+427,Uncontrolled Search Path Element,Base,0.7420891382846622
+73,External Control of File Name or Path,Base,0.7374649083976882
+65,Windows Hard Link,Variant,0.7340665284753718
+23,Relative Path Traversal,Base,0.7315050546563109
+667,Improper Locking,Class,0.730986066864463
+668,Exposure of Resource to Wrong Sphere,Class,0.7293402467891885

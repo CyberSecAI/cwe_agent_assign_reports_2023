@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+306,Missing Authentication for Critical Function,6819.787063871352,base_query
+20,Improper Input Validation,6523.324796334342,base_query
+294,Authentication Bypass by Capture-replay,6501.293718493428,base_query
+116,Improper Encoding or Escaping of Output,6193.566633957896,base_query
+668,Exposure of Resource to Wrong Sphere,6169.609067557658,base_query

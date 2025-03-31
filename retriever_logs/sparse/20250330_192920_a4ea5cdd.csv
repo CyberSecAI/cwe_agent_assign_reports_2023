@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1256,Improper Restriction of Software Interfaces to Hardware Features,5419.526859356822,base_query
+1421,Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution,5214.392827475368,base_query
+863,Incorrect Authorization,5006.305638250357,base_query
+639,Authorization Bypass Through User-Controlled Key,4995.884563844921,base_query
+347,Improper Verification of Cryptographic Signature,4972.02202274807,base_query

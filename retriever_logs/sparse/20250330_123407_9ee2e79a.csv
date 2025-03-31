@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+347,Improper Verification of Cryptographic Signature,4198.53152077247,unknown
+1391,Use of Weak Credentials,4154.65614843229,unknown
+1390,Weak Authentication,4138.52742891404,unknown
+916,Use of Password Hash With Insufficient Computational Effort,4137.756061518239,unknown
+321,Use of Hard-coded Cryptographic Key,4130.371953827672,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+923,Improper Restriction of Communication Channel to Intended Endpoints,5438.594088333979,base_query
+425,Direct Request ('Forced Browsing'),5406.8049934439305,base_query
+863,Incorrect Authorization,5401.410174830808,base_query
+285,Improper Authorization,5319.120448318005,base_query
+639,Authorization Bypass Through User-Controlled Key,5313.14384915532,base_query

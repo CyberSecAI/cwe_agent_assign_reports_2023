@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+125,Out-of-bounds Read,Base,0.7894576457338172
+789,Memory Allocation with Excessive Size Value,Variant,0.7773904178220367
+404,Improper Resource Shutdown or Release,Class,0.776619071395576
+131,Incorrect Calculation of Buffer Size,Base,0.775272200075435
+823,Use of Out-of-range Pointer Offset,Base,0.7751408776503457
+788,Access of Memory Location After End of Buffer,Base,0.7743981596876138
+824,Access of Uninitialized Pointer,Base,0.7734067327530028
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7728367431733487
+805,Buffer Access with Incorrect Length Value,Base,0.7726932614930506
+822,Untrusted Pointer Dereference,Base,0.7710285993717475

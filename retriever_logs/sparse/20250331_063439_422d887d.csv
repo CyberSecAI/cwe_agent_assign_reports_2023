@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,5868.706349526453,base_query
+1333,Inefficient Regular Expression Complexity,5816.210495619817,base_query
+789,Memory Allocation with Excessive Size Value,5638.241193451429,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),5510.376418730931,base_query
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),5442.653087789979,base_query

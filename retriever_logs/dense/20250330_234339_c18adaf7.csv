@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+656,Reliance on Security Through Obscurity,Class,0.8043029248611595
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7969592349743958
+657,Violation of Secure Design Principles,Class,0.7848383122265098
+1391,Use of Weak Credentials,Class,0.7784111526244812
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.764047105667443
+798,Use of Hard-coded Credentials,Base,0.762355514250368
+328,Use of Weak Hash,Base,0.7533267604788854
+330,Use of Insufficiently Random Values,Class,0.7529968393478181
+312,Cleartext Storage of Sensitive Information,Base,0.7519589122170878
+916,Use of Password Hash With Insufficient Computational Effort,Base,0.7503196733772632

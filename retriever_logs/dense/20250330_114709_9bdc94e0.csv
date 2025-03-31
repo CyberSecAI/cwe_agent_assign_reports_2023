@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+625,Permissive Regular Expression,Base,0.7830767668281675
+185,Incorrect Regular Expression,Class,0.7631781178085071
+186,Overly Restrictive Regular Expression,Base,0.7463563191961542
+1333,Inefficient Regular Expression Complexity,Base,0.7458388214914032
+777,Regular Expression without Anchors,Variant,0.7379765549697688
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7352589904887027
+184,Incomplete List of Disallowed Inputs,Base,0.7318375798919582
+138,Improper Neutralization of Special Elements,Class,0.725055731918629
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7228857910190427
+183,Permissive List of Allowed Inputs,Base,0.7225130881954319

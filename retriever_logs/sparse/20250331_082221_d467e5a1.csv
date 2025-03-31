@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),2551.1702743400315,base_query
+434,Unrestricted Upload of File with Dangerous Type,2434.745198084936,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),2333.6121061553667,base_query
+352,Cross-Site Request Forgery (CSRF),2310.6517661013545,base_query
+96,Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection'),2276.3359929479966,base_query

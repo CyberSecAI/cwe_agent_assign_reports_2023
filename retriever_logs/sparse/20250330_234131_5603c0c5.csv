@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,5378.079461875919,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,5190.643496500609,base_query
+1391,Use of Weak Credentials,5033.96349165963,base_query
+319,Cleartext Transmission of Sensitive Information,5027.632149101903,base_query
+208,Observable Timing Discrepancy,4957.171187980273,base_query

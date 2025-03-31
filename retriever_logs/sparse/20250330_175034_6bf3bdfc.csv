@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+312,Cleartext Storage of Sensitive Information,4878.397958041265,unknown
+319,Cleartext Transmission of Sensitive Information,4795.377772496761,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,4700.865171775729,unknown
+209,Generation of Error Message Containing Sensitive Information,4623.484128840891,unknown
+916,Use of Password Hash With Insufficient Computational Effort,4492.614883585529,unknown

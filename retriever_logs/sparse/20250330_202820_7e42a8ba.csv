@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,4860.142876729985,base_query
+1236,Improper Neutralization of Formula Elements in a CSV File,4701.145414815185,base_query
+138,Improper Neutralization of Special Elements,4562.616137970193,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),4535.08486435116,base_query
+116,Improper Encoding or Escaping of Output,4526.462057978103,base_query

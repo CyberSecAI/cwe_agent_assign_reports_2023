@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+312,Cleartext Storage of Sensitive Information,Base,0.7739725610240102
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7709637334172885
+1391,Use of Weak Credentials,Class,0.7706425028822826
+319,Cleartext Transmission of Sensitive Information,Base,0.7685491277496259
+203,Observable Discrepancy,Base,0.7614167014548215
+345,Insufficient Verification of Data Authenticity,Class,0.75937811536191
+311,Missing Encryption of Sensitive Data,Class,0.7561973935914889
+208,Observable Timing Discrepancy,Base,0.7561885584272118
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7523079605024734
+204,Observable Response Discrepancy,Base,0.7517138050178853

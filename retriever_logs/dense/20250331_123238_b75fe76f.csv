@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+602,Client-Side Enforcement of Server-Side Security,Class,0.7762354306275867
+653,Improper Isolation or Compartmentalization,Class,0.7543340942504069
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7524052403748587
+668,Exposure of Resource to Wrong Sphere,Class,0.7494018998069347
+657,Violation of Secure Design Principles,Class,0.747019286305019
+274,Improper Handling of Insufficient Privileges,Base,0.74661771671208
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7459003167914259
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7455182796981615
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.74362088274819
+1220,Insufficient Granularity of Access Control,Base,0.7395915664128606

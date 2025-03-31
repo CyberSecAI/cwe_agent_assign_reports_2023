@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7846907603511983
+838,Inappropriate Encoding for Output Context,Base,0.7752278393309674
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7690544107724855
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7641725111240447
+116,Improper Encoding or Escaping of Output,Class,0.7588932265562862
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7571562551137501
+134,Use of Externally-Controlled Format String,Base,0.7562802287953057
+138,Improper Neutralization of Special Elements,Class,0.7538543681168889
+653,Improper Isolation or Compartmentalization,Class,0.7521997972026548
+41,Improper Resolution of Path Equivalence,Base,0.7510533206933381

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7779358308381714
+131,Incorrect Calculation of Buffer Size,Base,0.7755887336273384
+404,Improper Resource Shutdown or Release,Class,0.7718688736444743
+125,Out-of-bounds Read,Base,0.7704205338536111
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7693965096641839
+129,Improper Validation of Array Index,Variant,0.7679883765377535
+667,Improper Locking,Class,0.7645995757724527
+191,Integer Underflow (Wrap or Wraparound),Base,0.7644517877681736
+823,Use of Out-of-range Pointer Offset,Base,0.7643630016940828
+681,Incorrect Conversion between Numeric Types,Base,0.7640610321187317

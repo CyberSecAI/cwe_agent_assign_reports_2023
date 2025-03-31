@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+804,Guessable CAPTCHA,base,4.329000000000001,0
+259,Use of Hard-coded Password,variant,2.9184000000000005,0
+208,Observable Timing Discrepancy,base,2.2100000000000004,0
+1291,Public Key Re-Use for Signing both Debug and Production Code,base,2.1762,0
+301,Reflection Attack in an Authentication Protocol,base,2.1762,0
+311,Missing Encryption of Sensitive Data,class,2.1279999999999997,0
+392,Missing Report of Error Condition,base,2.1189999999999998,0
+257,Storing Passwords in a Recoverable Format,base,2.04516,0
+332,Insufficient Entropy in PRNG,variant,1.96992,0
+330,Use of Insufficiently Random Values,Class,1.8514464095179537,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+259,Use of Hard-coded Password,variant,4.0104,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+208,Observable Timing Discrepancy,base,2.8651999999999997,0
+804,Guessable CAPTCHA,base,2.8651999999999997,0
+321,Use of Hard-coded Cryptographic Key,Variant,2.706360464989218,0
+798,Use of Hard-coded Credentials,Base,2.4876301510388936,0
+836,Use of Password Hash Instead of Password for Authentication,Base,2.4867361560237056,0
+203,Observable Discrepancy,base,2.4699999999999998,0
+344,Use of Invariant Value in Dynamically Changing Context,base,2.4699999999999998,0
+204,Observable Response Discrepancy,base,2.4699999999999998,0

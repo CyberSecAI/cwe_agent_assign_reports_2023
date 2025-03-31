@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+208,Observable Timing Discrepancy,Base,0.8038818122325936
+203,Observable Discrepancy,Base,0.7700390261125084
+204,Observable Response Discrepancy,Base,0.7681177353571376
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7610818499653575
+668,Exposure of Resource to Wrong Sphere,Class,0.7578994568541748
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7507227865718751
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.750300110230671
+799,Improper Control of Interaction Frequency,Class,0.7497970932821201
+41,Improper Resolution of Path Equivalence,Base,0.7492436862943734
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7487084406327211

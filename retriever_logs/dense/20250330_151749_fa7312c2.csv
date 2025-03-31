@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+613,Insufficient Session Expiration,Base,0.7827312808074585
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7708340086951126
+319,Cleartext Transmission of Sensitive Information,Base,0.7526035841983814
+1391,Use of Weak Credentials,Class,0.7504903479907856
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7502880269721807
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7496925907531438
+312,Cleartext Storage of Sensitive Information,Base,0.7489078237798672
+799,Improper Control of Interaction Frequency,Class,0.7466393558163593
+311,Missing Encryption of Sensitive Data,Class,0.7440687643473191
+345,Insufficient Verification of Data Authenticity,Class,0.7427232114280199

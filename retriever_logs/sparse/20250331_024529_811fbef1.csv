@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+312,Cleartext Storage of Sensitive Information,4859.998155434151,base_query
+319,Cleartext Transmission of Sensitive Information,4815.401777707448,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,4719.537656223403,base_query
+472,External Control of Assumed-Immutable Web Parameter,4617.735043995604,base_query
+1390,Weak Authentication,4584.536965136047,base_query

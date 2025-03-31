@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8590.264510721332,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8402.255636277307,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,8272.084396104845,unknown
+863,Incorrect Authorization,8195.402505209968,unknown
+1390,Weak Authentication,8173.088402598179,unknown

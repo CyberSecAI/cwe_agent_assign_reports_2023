@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5392.245063296149,unknown
+226,Sensitive Information in Resource Not Removed Before Reuse,5358.936586497346,unknown
+295,Improper Certificate Validation,5275.428792148854,unknown
+863,Incorrect Authorization,5082.113695743626,unknown
+347,Improper Verification of Cryptographic Signature,5023.970985090663,unknown

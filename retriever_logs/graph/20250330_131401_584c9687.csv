@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+471,Modification of Assumed-Immutable Data (MAID),base,4.329000000000001,0
+606,Unchecked Input for Loop Condition,base,4.329000000000001,0
+1339,Insufficient Precision or Accuracy of a Real Number,base,4.329000000000001,0
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),variant,3.8784,0
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,base,3.6399999999999997,0
+502,Deserialization of Untrusted Data,base,3.6399999999999997,0
+178,Improper Handling of Case Sensitivity,base,3.6399999999999997,0
+193,Off-by-one Error,base,3.5698000000000003,0
+1284,Improper Validation of Specified Quantity in Input,base,3.302,0
+183,Permissive List of Allowed Inputs,base,3.2094400000000007,0

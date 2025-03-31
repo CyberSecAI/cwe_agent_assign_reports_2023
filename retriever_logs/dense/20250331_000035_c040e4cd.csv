@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7613004478539889
+617,Reachable Assertion,Base,0.7574866983977534
+404,Improper Resource Shutdown or Release,Class,0.7443307131153974
+799,Improper Control of Interaction Frequency,Class,0.7391815252236413
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.73807284968284
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7367332101871502
+789,Memory Allocation with Excessive Size Value,Variant,0.7339867748718654
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7333091253450968
+668,Exposure of Resource to Wrong Sphere,Class,0.7319503245653252
+691,Insufficient Control Flow Management,Pillar,0.730945873361728

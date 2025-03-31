@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,5496.770715583271,base_query
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),5455.156417800112,base_query
+918,Server-Side Request Forgery (SSRF),5395.260630265061,base_query
+502,Deserialization of Untrusted Data,5202.284258208735,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),5135.938200562713,base_query

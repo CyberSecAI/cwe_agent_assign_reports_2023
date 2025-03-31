@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,6302.896276410236,base_query
+770,Allocation of Resources Without Limits or Throttling,5862.81829836526,base_query
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),5806.145316393931,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5782.822167209914,base_query
+799,Improper Control of Interaction Frequency,5756.600762443614,base_query

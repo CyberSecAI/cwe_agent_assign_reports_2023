@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1270,Generation of Incorrect Security Tokens,5112.675842146815,unknown
+1390,Weak Authentication,5091.0401312189315,unknown
+863,Incorrect Authorization,4897.945628257764,unknown
+347,Improper Verification of Cryptographic Signature,4874.140434153333,unknown
+287,Improper Authentication,4827.0830813988905,unknown

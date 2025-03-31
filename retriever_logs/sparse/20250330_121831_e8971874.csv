@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6257.686736233801,unknown
+472,External Control of Assumed-Immutable Web Parameter,6008.053729538275,unknown
+425,Direct Request ('Forced Browsing'),5906.19785018773,unknown
+863,Incorrect Authorization,5904.546278407009,unknown
+1390,Weak Authentication,5793.109422267021,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,4543.60993545502,base_query
+285,Improper Authorization,4487.627607570253,base_query
+942,Permissive Cross-domain Policy with Untrusted Domains,4435.630668674775,base_query
+862,Missing Authorization,4362.166963381664,base_query
+639,Authorization Bypass Through User-Controlled Key,4338.266435618866,base_query

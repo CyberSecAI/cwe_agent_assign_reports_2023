@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+385,Covert Timing Channel,base,4.329000000000001,0
+208,Observable Timing Discrepancy,Base,2.896433502458793,0
+261,Weak Encoding for Password,base,2.4699999999999998,0
+804,Guessable CAPTCHA,base,2.2100000000000004,0
+1272,Sensitive Information Uncleared Before Debug/Power State Transition,base,2.2100000000000004,0
+5,J2EE Misconfiguration: Data Transmission Without Encryption,variant,2.1624,0
+327,Use of a Broken or Risky Cryptographic Algorithm,Class,2.09129862468074,0
+499,Serializable Class Containing Sensitive Data,variant,2.04,0
+498,Cloneable Class Containing Sensitive Information,variant,2.04,0
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,1.8234331908188302,0

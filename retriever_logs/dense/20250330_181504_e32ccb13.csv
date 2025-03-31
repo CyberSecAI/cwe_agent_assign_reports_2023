@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),Base,0.8240031451754758
+668,Exposure of Resource to Wrong Sphere,Class,0.7595719381208165
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7554812514408139
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.75273575100229
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7490070453784989
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7466894551751553
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.746536406361846
+213,Exposure of Sensitive Information Due to Incompatible Policies,Base,0.7465180576395459
+319,Cleartext Transmission of Sensitive Information,Base,0.7444121913266166
+200,Exposure of Sensitive Information to an Unauthorized Actor,Class,0.7434023928691664

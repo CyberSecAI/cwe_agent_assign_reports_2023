@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7772799772541694
+319,Cleartext Transmission of Sensitive Information,Base,0.7768564857687585
+312,Cleartext Storage of Sensitive Information,Base,0.7688353598212948
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.764095787687211
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7618582382648065
+668,Exposure of Resource to Wrong Sphere,Class,0.7605243665454964
+799,Improper Control of Interaction Frequency,Class,0.7550327455753003
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7530064431093192
+345,Insufficient Verification of Data Authenticity,Class,0.7526640109965707
+657,Violation of Secure Design Principles,Class,0.7525829629828178

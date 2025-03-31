@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+178,Improper Handling of Case Sensitivity,base,3.757,0
+309,Use of Password System for Primary Authentication,base,3.6399999999999997,0
+308,Use of Single-factor Authentication,base,3.6399999999999997,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+259,Use of Hard-coded Password,variant,3.3264,0
+321,Use of Hard-coded Cryptographic Key,variant,3.132,0
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+798,Use of Hard-coded Credentials,Base,2.488645619998528,0
+603,Use of Client-Side Authentication,Base,2.480191465272301,0

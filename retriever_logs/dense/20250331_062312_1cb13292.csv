@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+799,Improper Control of Interaction Frequency,Class,0.7727350235672126
+405,Asymmetric Resource Consumption (Amplification),Class,0.769989804670416
+406,Insufficient Control of Network Message Volume (Network Amplification),Class,0.767994656446659
+300,Channel Accessible by Non-Endpoint,Class,0.7564217079308959
+1391,Use of Weak Credentials,Class,0.7524691410199604
+330,Use of Insufficiently Random Values,Class,0.750972796010067
+319,Cleartext Transmission of Sensitive Information,Base,0.7493821990036437
+203,Observable Discrepancy,Base,0.746825395999639
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7457182018542252
+1204,Generation of Weak Initialization Vector (IV),Base,0.7423702859230257

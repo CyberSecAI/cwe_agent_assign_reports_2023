@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7782897886360272
+425,Direct Request ('Forced Browsing'),Base,0.778261319674425
+639,Authorization Bypass Through User-Controlled Key,Base,0.7756763278767163
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7732906822687746
+41,Improper Resolution of Path Equivalence,Base,0.7700561532612126
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7665565762306933
+184,Incomplete List of Disallowed Inputs,Base,0.7658879093640716
+552,Files or Directories Accessible to External Parties,Base,0.7654715470252499
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7641074505169092
+923,Improper Restriction of Communication Channel to Intended Endpoints,Class,0.7599547489605099

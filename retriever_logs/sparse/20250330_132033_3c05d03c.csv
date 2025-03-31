@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,5687.7374647015795,base_query
+754,Improper Check for Unusual or Exceptional Conditions,5562.870811182891,base_query
+863,Incorrect Authorization,5495.288941983279,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5420.038967868023,base_query
+287,Improper Authentication,5402.101713208197,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+639,Authorization Bypass Through User-Controlled Key,Base,0.7534991177178318
+274,Improper Handling of Insufficient Privileges,Base,0.7453123523964318
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7411334035542159
+1390,Weak Authentication,Class,0.7387758013237291
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7370810504154499
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.733385871278986
+668,Exposure of Resource to Wrong Sphere,Class,0.7321810923936241
+267,Privilege Defined With Unsafe Actions,Base,0.7297368619145472
+41,Improper Resolution of Path Equivalence,Base,0.727695080060891
+23,Relative Path Traversal,Base,0.7275291303167046

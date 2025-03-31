@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7869550486111327
+125,Out-of-bounds Read,Base,0.7814601408069997
+131,Incorrect Calculation of Buffer Size,Base,0.7808208317963861
+252,Unchecked Return Value,Base,0.7725067915811495
+788,Access of Memory Location After End of Buffer,Base,0.7692950582755738
+184,Incomplete List of Disallowed Inputs,Base,0.769209331931306
+129,Improper Validation of Array Index,Variant,0.7683959138170069
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7677769818749896
+824,Access of Uninitialized Pointer,Base,0.7659254296413869
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7658247275267731

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1390,Weak Authentication,5066.922685186544,base_query
+1007,Insufficient Visual Distinction of Homoglyphs Presented to User,5044.047642059063,base_query
+1391,Use of Weak Credentials,5013.47983715603,base_query
+178,Improper Handling of Case Sensitivity,4900.139477623422,base_query
+287,Improper Authentication,4828.0615694691805,base_query

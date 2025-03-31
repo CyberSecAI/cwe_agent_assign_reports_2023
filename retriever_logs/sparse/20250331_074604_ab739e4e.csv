@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,7189.285694187391,unknown
+226,Sensitive Information in Resource Not Removed Before Reuse,6560.272419292632,unknown
+1390,Weak Authentication,6533.14286230068,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,6528.287420562411,unknown
+863,Incorrect Authorization,6429.1583384459955,unknown

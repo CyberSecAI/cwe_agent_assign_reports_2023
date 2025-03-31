@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6011.339528624571,unknown
+918,Server-Side Request Forgery (SSRF),5657.831784238863,unknown
+502,Deserialization of Untrusted Data,5618.932176459076,unknown
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),5607.770658604956,unknown
+116,Improper Encoding or Escaping of Output,5596.8776750912475,unknown

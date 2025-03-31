@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6864.353715091358,unknown
+94,Improper Control of Generation of Code ('Code Injection'),6677.973859742532,unknown
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),6637.838487970382,unknown
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),6622.12068158628,unknown
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),6441.564357498936,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,7655.206945021923,base_query
+789,Memory Allocation with Excessive Size Value,7585.1327547180645,base_query
+770,Allocation of Resources Without Limits or Throttling,7547.500508914108,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),7447.58843609962,base_query
+190,Integer Overflow or Wraparound,7243.289449446015,base_query

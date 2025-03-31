@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1390,Weak Authentication,5966.919091847745,base_query
+287,Improper Authentication,5777.273818231984,base_query
+319,Cleartext Transmission of Sensitive Information,5763.536284003556,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5737.903413535529,base_query
+347,Improper Verification of Cryptographic Signature,5703.012455723969,base_query

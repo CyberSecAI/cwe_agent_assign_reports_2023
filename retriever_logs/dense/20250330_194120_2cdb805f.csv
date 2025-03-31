@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+434,Unrestricted Upload of File with Dangerous Type,Base,0.7664250741660138
+274,Improper Handling of Insufficient Privileges,Base,0.7640995163909227
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7597938249495124
+266,Incorrect Privilege Assignment,Base,0.7559222341241646
+552,Files or Directories Accessible to External Parties,Base,0.7547774968968259
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7535234802386901
+73,External Control of File Name or Path,Base,0.7510180445545485
+184,Incomplete List of Disallowed Inputs,Base,0.7494141682852477
+267,Privilege Defined With Unsafe Actions,Base,0.7468715407224835
+653,Improper Isolation or Compartmentalization,Class,0.7441171241638412

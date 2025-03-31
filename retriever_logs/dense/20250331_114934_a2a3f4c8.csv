@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.772868449017579
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7687287339861776
+319,Cleartext Transmission of Sensitive Information,Base,0.7666507871081742
+300,Channel Accessible by Non-Endpoint,Class,0.7659846095095557
+653,Improper Isolation or Compartmentalization,Class,0.7653867216419927
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.764944704714104
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.764008163807438
+345,Insufficient Verification of Data Authenticity,Class,0.7616544384657017
+639,Authorization Bypass Through User-Controlled Key,Base,0.7607943725867307
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7603852905219675

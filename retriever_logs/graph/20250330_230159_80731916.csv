@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+322,Key Exchange without Entity Authentication,base,5.031000000000001,0
+430,Deployment of Wrong Handler,base,4.505800000000001,0
+178,Improper Handling of Case Sensitivity,base,4.505800000000001,0
+295,Improper Certificate Validation,base,3.6399999999999997,0
+351,Insufficient Type Distinction,base,3.6399999999999997,0
+434,Unrestricted Upload of File with Dangerous Type,Base,3.3348036478917926,0
+184,Incomplete List of Disallowed Inputs,Base,3.2048950850539066,0
+183,Permissive List of Allowed Inputs,Base,3.196698208451763,0
+73,External Control of File Name or Path,Base,2.9045893036813553,0
+941,Incorrectly Specified Destination in a Communication Channel,Base,2.9022332330475415,0

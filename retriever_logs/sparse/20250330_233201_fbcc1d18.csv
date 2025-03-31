@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,5919.906448708144,unknown
+770,Allocation of Resources Without Limits or Throttling,5696.188281318674,unknown
+209,Generation of Error Message Containing Sensitive Information,5594.6797474604555,unknown
+789,Memory Allocation with Excessive Size Value,5569.594742363033,unknown
+23,Relative Path Traversal,5548.7819197016615,unknown

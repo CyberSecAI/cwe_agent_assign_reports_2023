@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,5642.025524433104,unknown
+319,Cleartext Transmission of Sensitive Information,5389.955924121931,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,5376.379139201845,unknown
+209,Generation of Error Message Containing Sensitive Information,5265.671836005419,unknown
+1236,Improper Neutralization of Formula Elements in a CSV File,5202.3018047132055,unknown

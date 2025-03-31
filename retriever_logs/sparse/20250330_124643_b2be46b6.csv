@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,7408.373135269586,base_query
+916,Use of Password Hash With Insufficient Computational Effort,7353.608823991039,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6906.416711685463,base_query
+863,Incorrect Authorization,6799.480551113181,base_query
+125,Out-of-bounds Read,6787.854394238361,base_query

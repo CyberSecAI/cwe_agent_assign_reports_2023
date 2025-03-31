@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+327,Use of a Broken or Risky Cryptographic Algorithm,5312.799874579188,unknown
+321,Use of Hard-coded Cryptographic Key,5212.418038794837,unknown
+798,Use of Hard-coded Credentials,5182.308036075003,unknown
+1391,Use of Weak Credentials,5158.392825205935,unknown
+1240,Use of a Cryptographic Primitive with a Risky Implementation,5129.394843713288,unknown

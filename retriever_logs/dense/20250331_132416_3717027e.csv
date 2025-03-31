@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+134,Use of Externally-Controlled Format String,Base,0.8069808055055344
+125,Out-of-bounds Read,Base,0.7669358334591229
+138,Improper Neutralization of Special Elements,Class,0.7638576113593403
+131,Incorrect Calculation of Buffer Size,Base,0.7633839179265651
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7605329703174648
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7585704412589851
+193,Off-by-one Error,Base,0.753954590919572
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7524644904441418
+252,Unchecked Return Value,Base,0.7523449122027661
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7518881129855187

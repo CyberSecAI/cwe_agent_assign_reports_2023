@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,6023.611364779551,unknown
+639,Authorization Bypass Through User-Controlled Key,5811.790481347866,unknown
+1390,Weak Authentication,5750.64346022098,unknown
+863,Incorrect Authorization,5458.68533781162,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,5349.568977063273,unknown

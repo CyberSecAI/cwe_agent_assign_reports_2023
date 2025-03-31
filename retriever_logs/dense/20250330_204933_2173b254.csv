@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7718632023689589
+667,Improper Locking,Class,0.7666680832911136
+789,Memory Allocation with Excessive Size Value,Variant,0.7607445976948747
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.75969536221127
+668,Exposure of Resource to Wrong Sphere,Class,0.7590329192213014
+125,Out-of-bounds Read,Base,0.7562781977233828
+405,Asymmetric Resource Consumption (Amplification),Class,0.7555547075923108
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7550234188060316
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7549114350504598
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7541793694448071

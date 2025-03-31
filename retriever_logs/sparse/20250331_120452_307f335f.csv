@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,4733.44517583292,unknown
+295,Improper Certificate Validation,4552.775384358294,unknown
+1390,Weak Authentication,4429.66898678321,unknown
+287,Improper Authentication,4382.8122502873175,unknown
+916,Use of Password Hash With Insufficient Computational Effort,4360.720617532878,unknown

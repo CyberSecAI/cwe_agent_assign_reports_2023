@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1390,Weak Authentication,5313.990229362742,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5250.55157165482,base_query
+178,Improper Handling of Case Sensitivity,5099.152730566755,base_query
+23,Relative Path Traversal,4993.624055331914,base_query
+347,Improper Verification of Cryptographic Signature,4984.950999594308,base_query

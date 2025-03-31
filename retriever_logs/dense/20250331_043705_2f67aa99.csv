@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+943,Improper Neutralization of Special Elements in Data Query Logic,Class,0.7728363683212489
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7421233010759901
+407,Inefficient Algorithmic Complexity,Class,0.7358407548258317
+653,Improper Isolation or Compartmentalization,Class,0.7333730587604217
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7296892912337747
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7275623184610638
+691,Insufficient Control Flow Management,Pillar,0.726327359473686
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7262731364072311
+668,Exposure of Resource to Wrong Sphere,Class,0.7236463716790158
+274,Improper Handling of Insufficient Privileges,Base,0.722901438522243

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+204,Observable Response Discrepancy,Base,0.7735013809299156
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7701811502295088
+668,Exposure of Resource to Wrong Sphere,Class,0.762302453455533
+41,Improper Resolution of Path Equivalence,Base,0.7616644343029377
+404,Improper Resource Shutdown or Release,Class,0.7614210499083301
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7590402122263498
+667,Improper Locking,Class,0.7582677625698371
+131,Incorrect Calculation of Buffer Size,Base,0.7579615296635416
+125,Out-of-bounds Read,Base,0.7574665601058577
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7565921512173207

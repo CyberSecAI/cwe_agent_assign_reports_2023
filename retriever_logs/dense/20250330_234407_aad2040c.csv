@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7648272073812564
+668,Exposure of Resource to Wrong Sphere,Class,0.7634968664939192
+613,Insufficient Session Expiration,Base,0.7584808237586766
+274,Improper Handling of Insufficient Privileges,Base,0.7526083294372998
+799,Improper Control of Interaction Frequency,Class,0.7504081069163046
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.749139446114802
+653,Improper Isolation or Compartmentalization,Class,0.7490304471035368
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7467976273596627
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7466209737781927
+41,Improper Resolution of Path Equivalence,Base,0.7463252790378636

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+187,Partial String Comparison,variant,3.888,0
+350,Reliance on Reverse DNS Resolution for a Security-Critical Action,variant,3.8784,0
+178,Improper Handling of Case Sensitivity,base,3.757,0
+625,Permissive Regular Expression,base,3.6399999999999997,0
+611,Improper Restriction of XML External Entity Reference,base,3.6399999999999997,0
+1336,Improper Neutralization of Special Elements Used in a Template Engine,base,3.6399999999999997,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,3.5671999999999997,0
+183,Permissive List of Allowed Inputs,Base,3.0000794308435235,0
+184,Incomplete List of Disallowed Inputs,Base,2.9411793536645123,0
+434,Unrestricted Upload of File with Dangerous Type,base,2.9120000000000004,0

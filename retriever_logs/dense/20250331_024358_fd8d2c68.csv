@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+502,Deserialization of Untrusted Data,Base,0.7578291398666139
+345,Insufficient Verification of Data Authenticity,Class,0.7568543329152305
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7503110523758528
+668,Exposure of Resource to Wrong Sphere,Class,0.7503044986133763
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7495937114604113
+204,Observable Response Discrepancy,Base,0.7421488270058283
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.740608282945113
+138,Improper Neutralization of Special Elements,Class,0.7402974967589216
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7402044087994655
+203,Observable Discrepancy,Base,0.7382422602874967

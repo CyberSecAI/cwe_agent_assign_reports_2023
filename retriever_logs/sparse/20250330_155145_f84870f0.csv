@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+312,Cleartext Storage of Sensitive Information,4946.307786062461,unknown
+522,Insufficiently Protected Credentials,4559.253558929719,unknown
+916,Use of Password Hash With Insufficient Computational Effort,4558.905209034287,unknown
+321,Use of Hard-coded Cryptographic Key,4522.490510263797,unknown
+532,Insertion of Sensitive Information into Log File,4520.634560250917,unknown

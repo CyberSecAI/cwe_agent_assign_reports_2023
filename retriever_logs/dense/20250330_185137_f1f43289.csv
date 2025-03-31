@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+613,Insufficient Session Expiration,Base,0.7575274726682868
+1220,Insufficient Granularity of Access Control,Base,0.7540398570809078
+274,Improper Handling of Insufficient Privileges,Base,0.7524472028539051
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7477339085410653
+404,Improper Resource Shutdown or Release,Class,0.7464220731404367
+653,Improper Isolation or Compartmentalization,Class,0.7451720929525079
+691,Insufficient Control Flow Management,Pillar,0.7434136326603507
+799,Improper Control of Interaction Frequency,Class,0.7416481563840205
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7387479423867906
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7357073638891691

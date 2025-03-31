@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+617,Reachable Assertion,Base,0.7766619875673988
+799,Improper Control of Interaction Frequency,Class,0.7456830913191109
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7449380386860781
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7447338989182792
+41,Improper Resolution of Path Equivalence,Base,0.7441181200378785
+668,Exposure of Resource to Wrong Sphere,Class,0.738877902351402
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7367856892213731
+184,Incomplete List of Disallowed Inputs,Base,0.7364227080422384
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7349523371784137
+404,Improper Resource Shutdown or Release,Class,0.7339025651864226

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,7062.765305695092,unknown
+285,Improper Authorization,6978.214139434309,unknown
+472,External Control of Assumed-Immutable Web Parameter,6897.684182117837,unknown
+116,Improper Encoding or Escaping of Output,6879.608396390456,unknown
+352,Cross-Site Request Forgery (CSRF),6859.963216663825,unknown

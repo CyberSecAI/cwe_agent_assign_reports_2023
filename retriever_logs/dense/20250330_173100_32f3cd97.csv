@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+667,Improper Locking,Class,0.8032559216258344
+404,Improper Resource Shutdown or Release,Class,0.7925446339793132
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7907916041518165
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7857567098924407
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7813140373874198
+665,Improper Initialization,Class,0.7797941513650992
+909,Missing Initialization of Resource,Class,0.7788417190209662
+908,Use of Uninitialized Resource,Base,0.7760889187836115
+662,Improper Synchronization,Class,0.7731213763634442
+824,Access of Uninitialized Pointer,Base,0.771072907022915

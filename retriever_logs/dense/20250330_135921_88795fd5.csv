@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.8081343284522831
+667,Improper Locking,Class,0.7726339645997984
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7671600562100924
+404,Improper Resource Shutdown or Release,Class,0.7670239710759399
+606,Unchecked Input for Loop Condition,Base,0.7670197876069614
+252,Unchecked Return Value,Base,0.7629334092915208
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7619404094726023
+184,Incomplete List of Disallowed Inputs,Base,0.7617023789738795
+183,Permissive List of Allowed Inputs,Base,0.7604661930302399
+125,Out-of-bounds Read,Base,0.7593782103932742

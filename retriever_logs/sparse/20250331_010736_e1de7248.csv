@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6237.476165060448,unknown
+1391,Use of Weak Credentials,6074.363057821506,unknown
+1390,Weak Authentication,5969.185556154773,unknown
+798,Use of Hard-coded Credentials,5921.825991461572,unknown
+259,Use of Hard-coded Password,5868.934584954593,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7890957475938731
+552,Files or Directories Accessible to External Parties,Base,0.7859202558711811
+425,Direct Request ('Forced Browsing'),Base,0.7813586844074568
+639,Authorization Bypass Through User-Controlled Key,Base,0.7769006378792298
+41,Improper Resolution of Path Equivalence,Base,0.7764137050734097
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7692579252856357
+668,Exposure of Resource to Wrong Sphere,Class,0.7670735275637144
+23,Relative Path Traversal,Base,0.7596641768388777
+799,Improper Control of Interaction Frequency,Class,0.7571911919058877
+1220,Insufficient Granularity of Access Control,Base,0.7570759450610485

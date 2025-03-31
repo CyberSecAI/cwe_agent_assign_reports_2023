@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+178,Improper Handling of Case Sensitivity,Base,0.7814353520794288
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7679373722632764
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7612795115106807
+274,Improper Handling of Insufficient Privileges,Base,0.760021457605423
+41,Improper Resolution of Path Equivalence,Base,0.7595612880752257
+639,Authorization Bypass Through User-Controlled Key,Base,0.7586687498515127
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7535209489611551
+668,Exposure of Resource to Wrong Sphere,Class,0.7503938462384195
+1220,Insufficient Granularity of Access Control,Base,0.749683904609157
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7495099876904929

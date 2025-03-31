@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+261,Weak Encoding for Password,base,2.4699999999999998,0
+208,Observable Timing Discrepancy,base,2.2100000000000004,0
+523,Unprotected Transport of Credentials,base,2.1762,0
+313,Cleartext Storage in a File or on Disk,variant,2.1624,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.1279999999999997,0
+312,Cleartext Storage of Sensitive Information,Base,1.772006185118083,0
+385,Covert Timing Channel,base,1.7680000000000005,0
+916,Use of Password Hash With Insufficient Computational Effort,Base,1.766446011680375,0
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,1.765236123460293,0
+328,Use of Weak Hash,Base,1.761742008194779,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+366,Race Condition within a Thread,Base,0.8002413020364595
+1021,Improper Restriction of Rendered UI Layers or Frames,Base,0.7863560578625943
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.777493279570924
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7770017444522472
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7763483421736457
+667,Improper Locking,Class,0.7747340996822474
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7703454810291223
+404,Improper Resource Shutdown or Release,Class,0.7692703529203864
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7616130482068297
+125,Out-of-bounds Read,Base,0.758166196090458

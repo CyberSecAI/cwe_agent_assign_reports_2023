@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+927,Use of Implicit Intent for Sensitive Communication,Variant,0.7794653193638356
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7529118235014159
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7412521324073991
+203,Observable Discrepancy,Base,0.7347729409116359
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7270222566834454
+667,Improper Locking,Class,0.7232674559431262
+668,Exposure of Resource to Wrong Sphere,Class,0.7227047583431816
+223,Omission of Security-relevant Information,Base,0.7218118040408622
+1021,Improper Restriction of Rendered UI Layers or Frames,Base,0.7192606478350935
+345,Insufficient Verification of Data Authenticity,Class,0.716472137449631

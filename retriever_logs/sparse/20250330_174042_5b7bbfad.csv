@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5403.367839802718,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,5384.501499162374,base_query
+319,Cleartext Transmission of Sensitive Information,5356.937848375077,base_query
+532,Insertion of Sensitive Information into Log File,5195.795730788564,base_query
+863,Incorrect Authorization,5179.3470060393165,base_query

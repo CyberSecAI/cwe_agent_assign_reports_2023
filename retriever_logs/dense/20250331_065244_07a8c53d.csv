@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7703125655228781
+653,Improper Isolation or Compartmentalization,Class,0.7643813272504095
+274,Improper Handling of Insufficient Privileges,Base,0.7601922340064204
+667,Improper Locking,Class,0.7568042788840939
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7538760062709671
+691,Insufficient Control Flow Management,Pillar,0.7530923920221128
+73,External Control of File Name or Path,Base,0.7502983792212463
+184,Incomplete List of Disallowed Inputs,Base,0.7491659455552124
+404,Improper Resource Shutdown or Release,Class,0.7490351078300971
+125,Out-of-bounds Read,Base,0.748955646640832

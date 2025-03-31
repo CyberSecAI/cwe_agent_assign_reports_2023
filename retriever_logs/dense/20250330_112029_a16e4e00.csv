@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+41,Improper Resolution of Path Equivalence,Base,0.773847298053688
+668,Exposure of Resource to Wrong Sphere,Class,0.772618328268489
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7715353827593983
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.768081918400702
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7679254500136856
+425,Direct Request ('Forced Browsing'),Base,0.7673522595920503
+552,Files or Directories Accessible to External Parties,Base,0.764562145216899
+639,Authorization Bypass Through User-Controlled Key,Base,0.7636759195549728
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7607861506125915
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7598923482259614

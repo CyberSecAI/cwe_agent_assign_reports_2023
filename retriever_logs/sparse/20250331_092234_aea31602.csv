@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,5047.137855923339,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),4698.43118998406,base_query
+617,Reachable Assertion,4652.380353927018,base_query
+407,Inefficient Algorithmic Complexity,4519.929424782156,base_query
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),4498.468556152107,base_query

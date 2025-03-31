@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+356,Product UI does not Warn User of Unsafe Actions,Base,0.7938990214494861
+667,Improper Locking,Class,0.7783601215564826
+404,Improper Resource Shutdown or Release,Class,0.7782612572191299
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7754322519273027
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7738061916995249
+366,Race Condition within a Thread,Base,0.7736738967156838
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7720898175647102
+665,Improper Initialization,Class,0.7701647797143363
+668,Exposure of Resource to Wrong Sphere,Class,0.7649477536398805
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7642134100660704

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.810625333858331
+822,Untrusted Pointer Dereference,Base,0.776310356833291
+252,Unchecked Return Value,Base,0.7731844977442455
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7726707512099892
+457,Use of Uninitialized Variable,Variant,0.7715175981494098
+606,Unchecked Input for Loop Condition,Base,0.7699335695547525
+183,Permissive List of Allowed Inputs,Base,0.7666937757413707
+824,Access of Uninitialized Pointer,Base,0.7664441387393888
+665,Improper Initialization,Class,0.7656410640236824
+1288,Improper Validation of Consistency within Input,Base,0.7653614429613439

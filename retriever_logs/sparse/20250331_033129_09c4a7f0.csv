@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,6301.394110257323,base_query
+1256,Improper Restriction of Software Interfaces to Hardware Features,6249.918728524369,base_query
+863,Incorrect Authorization,6221.874426707095,base_query
+639,Authorization Bypass Through User-Controlled Key,6167.186591605493,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6167.109567489609,base_query

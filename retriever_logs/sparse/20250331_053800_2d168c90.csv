@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,5817.137609171507,base_query
+203,Observable Discrepancy,5677.974546902655,base_query
+319,Cleartext Transmission of Sensitive Information,5673.826536975621,base_query
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,5594.8070455981015,base_query
+209,Generation of Error Message Containing Sensitive Information,5543.313357768717,base_query

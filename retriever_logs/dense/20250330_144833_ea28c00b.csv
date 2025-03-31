@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+782,Exposed IOCTL with Insufficient Access Control,Variant,0.8173937780741107
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7869383552112275
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7868483835209927
+41,Improper Resolution of Path Equivalence,Base,0.7850091129973675
+1220,Insufficient Granularity of Access Control,Base,0.7844041723881133
+667,Improper Locking,Class,0.7835839889793208
+274,Improper Handling of Insufficient Privileges,Base,0.7816314859413301
+345,Insufficient Verification of Data Authenticity,Class,0.7796891606930041
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7781669380409036
+755,Improper Handling of Exceptional Conditions,Class,0.77710681967766

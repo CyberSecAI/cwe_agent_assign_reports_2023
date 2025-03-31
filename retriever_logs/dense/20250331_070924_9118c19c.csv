@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+41,Improper Resolution of Path Equivalence,Base,0.7823325352328373
+73,External Control of File Name or Path,Base,0.7803469533418518
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7755482619124964
+184,Incomplete List of Disallowed Inputs,Base,0.7728692667340631
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7702453303154098
+23,Relative Path Traversal,Base,0.7612146879878456
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7611435452006421
+668,Exposure of Resource to Wrong Sphere,Class,0.7608871907696462
+425,Direct Request ('Forced Browsing'),Base,0.7599349426581363
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7596301074656638

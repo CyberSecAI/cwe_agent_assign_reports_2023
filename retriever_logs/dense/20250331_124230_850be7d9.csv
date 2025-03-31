@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7980434087403636
+345,Insufficient Verification of Data Authenticity,Class,0.7855330782248072
+1391,Use of Weak Credentials,Class,0.7801602029020813
+203,Observable Discrepancy,Base,0.7801427265592298
+319,Cleartext Transmission of Sensitive Information,Base,0.778504609535862
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.777771113101417
+303,Incorrect Implementation of Authentication Algorithm,Base,0.773061214320017
+330,Use of Insufficiently Random Values,Class,0.7718945724313401
+327,Use of a Broken or Risky Cryptographic Algorithm,Class,0.7673569548552219
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7653256336671592

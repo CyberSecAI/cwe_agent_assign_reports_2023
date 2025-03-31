@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,4708.336605664719,base_query
+754,Improper Check for Unusual or Exceptional Conditions,4549.891109316534,base_query
+1286,Improper Validation of Syntactic Correctness of Input,4162.813732231906,base_query
+755,Improper Handling of Exceptional Conditions,4159.252413554031,base_query
+404,Improper Resource Shutdown or Release,4083.093371700207,base_query

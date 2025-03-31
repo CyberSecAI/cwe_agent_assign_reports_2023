@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,5178.297095496119,unknown
+909,Missing Initialization of Resource,4899.626777791753,unknown
+665,Improper Initialization,4898.647725982071,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,4872.368567981011,unknown
+1284,Improper Validation of Specified Quantity in Input,4769.178603932836,unknown

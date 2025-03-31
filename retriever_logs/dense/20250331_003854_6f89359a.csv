@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7480046747666416
+691,Insufficient Control Flow Management,Pillar,0.746929801849915
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7444738385713132
+1220,Insufficient Granularity of Access Control,Base,0.7444503673883733
+653,Improper Isolation or Compartmentalization,Class,0.7439623052698225
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.740030852528417
+799,Improper Control of Interaction Frequency,Class,0.7370163149399136
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7365711102804067
+274,Improper Handling of Insufficient Privileges,Base,0.7364237550785987
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7348592371537888

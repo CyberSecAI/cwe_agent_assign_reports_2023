@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1390,Weak Authentication,4211.933986023179,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,4089.8185591174683,unknown
+287,Improper Authentication,3995.55199122435,unknown
+204,Observable Response Discrepancy,3948.5735163825425,unknown
+863,Incorrect Authorization,3899.9647328735264,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1256,Improper Restriction of Software Interfaces to Hardware Features,4638.302058282794,base_query
+863,Incorrect Authorization,4238.062649290724,base_query
+639,Authorization Bypass Through User-Controlled Key,4218.700216244463,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,4205.945737125214,base_query
+306,Missing Authentication for Critical Function,4172.718580291149,base_query

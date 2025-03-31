@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7649.1694539056125,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7495.628778669058,base_query
+116,Improper Encoding or Escaping of Output,7384.862374180254,base_query
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),7338.310830517134,base_query
+94,Improper Control of Generation of Code ('Code Injection'),7327.153228729281,base_query

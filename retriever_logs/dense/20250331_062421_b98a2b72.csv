@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+691,Insufficient Control Flow Management,Pillar,0.7667799503529381
+653,Improper Isolation or Compartmentalization,Class,0.7551898118606507
+131,Incorrect Calculation of Buffer Size,Base,0.751602581328521
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7510250267145941
+667,Improper Locking,Class,0.7483980929544368
+404,Improper Resource Shutdown or Release,Class,0.7463726333031445
+274,Improper Handling of Insufficient Privileges,Base,0.7460913266774384
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.744912878070156
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7442335233812212
+805,Buffer Access with Incorrect Length Value,Base,0.7436704763603903

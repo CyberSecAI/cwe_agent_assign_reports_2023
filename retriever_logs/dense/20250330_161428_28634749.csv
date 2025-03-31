@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7882736348588694
+798,Use of Hard-coded Credentials,Base,0.7881990686146467
+1391,Use of Weak Credentials,Class,0.7815255687881008
+1188,Initialization of a Resource with an Insecure Default,Base,0.777547431106483
+425,Direct Request ('Forced Browsing'),Base,0.7765361795826662
+1392,Use of Default Credentials,Base,0.7759211490279714
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7729104429420075
+41,Improper Resolution of Path Equivalence,Base,0.7702202818825306
+184,Incomplete List of Disallowed Inputs,Base,0.7643484948824654
+552,Files or Directories Accessible to External Parties,Base,0.7641115846717138

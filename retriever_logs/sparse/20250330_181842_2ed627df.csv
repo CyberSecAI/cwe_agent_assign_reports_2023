@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,11338.436475474324,unknown
+116,Improper Encoding or Escaping of Output,11102.24227415457,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),10998.90826943335,unknown
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),10895.425800349885,unknown
+138,Improper Neutralization of Special Elements,10698.70698645047,unknown

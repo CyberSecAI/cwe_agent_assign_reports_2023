@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,4548.1122990075555,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,4271.471271822575,base_query
+178,Improper Handling of Case Sensitivity,4264.125287829836,base_query
+347,Improper Verification of Cryptographic Signature,4180.939407669988,base_query
+350,Reliance on Reverse DNS Resolution for a Security-Critical Action,4177.049501878056,base_query

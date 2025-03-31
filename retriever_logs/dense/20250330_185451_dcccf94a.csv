@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+617,Reachable Assertion,Base,0.7842392682908665
+789,Memory Allocation with Excessive Size Value,Variant,0.7660880808670923
+404,Improper Resource Shutdown or Release,Class,0.7613815810212996
+131,Incorrect Calculation of Buffer Size,Base,0.7601001342680064
+129,Improper Validation of Array Index,Variant,0.7545626619558428
+667,Improper Locking,Class,0.753287479898417
+125,Out-of-bounds Read,Base,0.753172857535869
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.752912867064129
+824,Access of Uninitialized Pointer,Base,0.752715375001652
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7503617106384884

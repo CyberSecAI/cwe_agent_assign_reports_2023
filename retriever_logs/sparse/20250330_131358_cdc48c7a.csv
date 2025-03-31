@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,5487.850091061685,unknown
+407,Inefficient Algorithmic Complexity,5070.196626514679,unknown
+1333,Inefficient Regular Expression Complexity,4953.686957070297,unknown
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),4660.491187713239,unknown
+502,Deserialization of Untrusted Data,4609.406695017395,unknown

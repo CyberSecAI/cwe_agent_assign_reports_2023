@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+347,Improper Verification of Cryptographic Signature,7097.562765781296,unknown
+863,Incorrect Authorization,7088.777667413759,unknown
+287,Improper Authentication,7037.197506551603,unknown
+1390,Weak Authentication,7005.120797782223,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7001.118572600381,unknown

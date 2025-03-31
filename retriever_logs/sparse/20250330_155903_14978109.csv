@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,5154.366767709246,base_query
+617,Reachable Assertion,4599.022710631156,base_query
+407,Inefficient Algorithmic Complexity,4496.003309539081,base_query
+625,Permissive Regular Expression,4308.967019914748,base_query
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),4302.498782845176,base_query

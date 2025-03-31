@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+667,Improper Locking,5732.872464975627,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5720.88594428523,unknown
+911,Improper Update of Reference Count,5554.877940118211,unknown
+125,Out-of-bounds Read,5475.297626070949,unknown
+909,Missing Initialization of Resource,5474.889015316005,unknown

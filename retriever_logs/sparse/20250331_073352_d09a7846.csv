@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,6122.4476636308245,unknown
+1390,Weak Authentication,5654.982770257104,unknown
+319,Cleartext Transmission of Sensitive Information,5534.491052761845,unknown
+472,External Control of Assumed-Immutable Web Parameter,5479.90737334722,unknown
+287,Improper Authentication,5411.506864369877,unknown

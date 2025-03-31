@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+625,Permissive Regular Expression,Base,0.7523518276455102
+606,Unchecked Input for Loop Condition,Base,0.7457131523250864
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),Base,0.7404862225651059
+834,Excessive Iteration,Class,0.7382410992588617
+407,Inefficient Algorithmic Complexity,Class,0.7335662875966098
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7321155996274546
+41,Improper Resolution of Path Equivalence,Base,0.7304997213320057
+185,Incorrect Regular Expression,Class,0.7303939352187474
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7268975064363359
+799,Improper Control of Interaction Frequency,Class,0.7258426836268941

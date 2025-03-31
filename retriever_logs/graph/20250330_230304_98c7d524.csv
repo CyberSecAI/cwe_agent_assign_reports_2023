@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+804,Guessable CAPTCHA,base,4.329000000000001,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,3.653,0
+73,External Control of File Name or Path,base,2.7014000000000005,0
+41,Improper Resolution of Path Equivalence,Base,2.6337340785679855,0
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),base,2.4699999999999998,0
+1241,Use of Predictable Algorithm in Random Number Generator,base,2.4699999999999998,0
+276,Incorrect Default Permissions,base,2.4699999999999998,0
+1333,Inefficient Regular Expression Complexity,base,2.4699999999999998,0
+59,Improper Link Resolution Before File Access ('Link Following'),base,2.4232000000000005,0
+328,Use of Weak Hash,base,2.3998000000000004,0

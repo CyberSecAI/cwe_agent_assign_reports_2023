@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+804,Guessable CAPTCHA,base,4.329000000000001,0
+472,External Control of Assumed-Immutable Web Parameter,base,4.212000000000001,0
+341,Predictable from Observable State,base,3.6399999999999997,0
+384,Session Fixation,compound,3.0919999999999996,0
+471,Modification of Assumed-Immutable Data (MAID),base,2.7196000000000002,0
+441,Unintended Proxy or Intermediary ('Confused Deputy'),class,2.48,0
+346,Origin Validation Error,class,2.48,0
+386,Symbolic Name not Mapping to Correct Object,base,2.3764000000000003,0
+184,Incomplete List of Disallowed Inputs,base,2.3400000000000003,0
+73,External Control of File Name or Path,base,2.3400000000000003,0

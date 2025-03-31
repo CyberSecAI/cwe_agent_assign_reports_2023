@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+266,Incorrect Privilege Assignment,Base,0.755838158986167
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7549233495810382
+274,Improper Handling of Insufficient Privileges,Base,0.7525799659592785
+267,Privilege Defined With Unsafe Actions,Base,0.751268757455281
+1220,Insufficient Granularity of Access Control,Base,0.7435479611427936
+668,Exposure of Resource to Wrong Sphere,Class,0.7432672200050613
+639,Authorization Bypass Through User-Controlled Key,Base,0.7380967094073911
+653,Improper Isolation or Compartmentalization,Class,0.7380103576862032
+404,Improper Resource Shutdown or Release,Class,0.7331039756270381
+281,Improper Preservation of Permissions,Base,0.7325192910074183

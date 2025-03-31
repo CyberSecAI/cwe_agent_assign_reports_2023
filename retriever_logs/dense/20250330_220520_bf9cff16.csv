@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+191,Integer Underflow (Wrap or Wraparound),Base,0.7523018893236586
+606,Unchecked Input for Loop Condition,Base,0.7496233887800705
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7424898239232245
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),Base,0.741486994116596
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7408750030209681
+404,Improper Resource Shutdown or Release,Class,0.7368875292965491
+667,Improper Locking,Class,0.7351681714324396
+789,Memory Allocation with Excessive Size Value,Variant,0.7331952592790885
+691,Insufficient Control Flow Management,Pillar,0.7330473502933004
+131,Incorrect Calculation of Buffer Size,Base,0.7330404773603274

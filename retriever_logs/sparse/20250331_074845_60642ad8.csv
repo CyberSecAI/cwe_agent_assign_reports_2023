@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,7331.041944042966,base_query
+451,User Interface (UI) Misrepresentation of Critical Information,7016.916197875083,base_query
+125,Out-of-bounds Read,6443.8319617168,base_query
+190,Integer Overflow or Wraparound,6416.298034199584,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6288.723510228318,base_query

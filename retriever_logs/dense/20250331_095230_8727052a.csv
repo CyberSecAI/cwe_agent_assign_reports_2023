@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7813096467121587
+319,Cleartext Transmission of Sensitive Information,Base,0.769293828249537
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7686029533420085
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,Variant,0.7680762537989265
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7634283441666816
+1004,Sensitive Cookie Without 'HttpOnly' Flag,Variant,0.7590331932782965
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7583290022703959
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7564031657851623
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7556319969538028
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7550690326129353

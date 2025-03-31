@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6528.179218131239,base_query
+611,Improper Restriction of XML External Entity Reference,6287.451048753082,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),6215.45082143542,base_query
+94,Improper Control of Generation of Code ('Code Injection'),5998.14922285922,base_query
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),5997.566386303229,base_query

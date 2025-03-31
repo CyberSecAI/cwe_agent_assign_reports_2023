@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+327,Use of a Broken or Risky Cryptographic Algorithm,6128.02575934511,base_query
+941,Incorrectly Specified Destination in a Communication Channel,6110.367231861997,base_query
+1299,Missing Protection Mechanism for Alternate Hardware Interface,6007.1607501570425,base_query
+798,Use of Hard-coded Credentials,5957.984280564878,base_query
+291,Reliance on IP Address for Authentication,5955.931237181789,base_query

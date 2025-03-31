@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7387448729321258
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7353471631563898
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7334171245090373
+184,Incomplete List of Disallowed Inputs,Base,0.7265461432469152
+691,Insufficient Control Flow Management,Pillar,0.7247322908342723
+838,Inappropriate Encoding for Output Context,Base,0.7235281986287196
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.723484478056021
+606,Unchecked Input for Loop Condition,Base,0.718206020018334
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7155114531626623
+653,Improper Isolation or Compartmentalization,Class,0.7149834505888017

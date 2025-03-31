@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7613690490490688
+705,Incorrect Control Flow Scoping,Class,0.7583565751329567
+208,Observable Timing Discrepancy,Base,0.7577610884786203
+203,Observable Discrepancy,Base,0.7545386342570212
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7541684250812649
+41,Improper Resolution of Path Equivalence,Base,0.7535909373208369
+668,Exposure of Resource to Wrong Sphere,Class,0.7533227195994354
+667,Improper Locking,Class,0.7522633057110971
+345,Insufficient Verification of Data Authenticity,Class,0.748830410268269
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7485715209800485

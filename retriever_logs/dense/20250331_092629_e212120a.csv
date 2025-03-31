@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7674535833442464
+668,Exposure of Resource to Wrong Sphere,Class,0.7664900516341457
+340,Generation of Predictable Numbers or Identifiers,Class,0.7536974395751388
+404,Improper Resource Shutdown or Release,Class,0.7510223129065006
+41,Improper Resolution of Path Equivalence,Base,0.7473909131477383
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.747269835906533
+274,Improper Handling of Insufficient Privileges,Base,0.7452793797682422
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7447157296176874
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7447155743630038
+345,Insufficient Verification of Data Authenticity,Class,0.7435672658259274

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,7838.62509569613,base_query
+770,Allocation of Resources Without Limits or Throttling,7825.752709508704,base_query
+863,Incorrect Authorization,7781.752711856298,base_query
+789,Memory Allocation with Excessive Size Value,7707.096180072437,base_query
+639,Authorization Bypass Through User-Controlled Key,7689.868533772085,base_query

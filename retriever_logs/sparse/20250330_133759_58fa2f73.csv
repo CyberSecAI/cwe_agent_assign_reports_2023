@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,7851.171221289914,base_query
+1284,Improper Validation of Specified Quantity in Input,7848.935661524212,base_query
+863,Incorrect Authorization,7811.127365753802,base_query
+125,Out-of-bounds Read,7722.310977709666,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,7720.424715908603,base_query

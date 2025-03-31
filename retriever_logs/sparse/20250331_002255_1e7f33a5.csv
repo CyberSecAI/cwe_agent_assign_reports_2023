@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+653,Improper Isolation or Compartmentalization,4163.258945621345,base_query
+639,Authorization Bypass Through User-Controlled Key,4127.537042647995,base_query
+489,Active Debug Code,4114.609980230335,base_query
+863,Incorrect Authorization,4095.5563721664375,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,4050.8083674377995,base_query

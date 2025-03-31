@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,6764.67754875295,base_query
+190,Integer Overflow or Wraparound,6697.000353579212,base_query
+1284,Improper Validation of Specified Quantity in Input,6617.407849814598,base_query
+193,Off-by-one Error,6515.867552304808,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6466.438274022976,base_query

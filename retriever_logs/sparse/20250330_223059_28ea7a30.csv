@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,5986.329935999085,unknown
+472,External Control of Assumed-Immutable Web Parameter,5819.671629425259,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5776.3038682495935,unknown
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,5760.853826100956,unknown
+799,Improper Control of Interaction Frequency,5758.587361802868,unknown

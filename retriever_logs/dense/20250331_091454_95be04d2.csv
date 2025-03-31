@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7812069962811645
+653,Improper Isolation or Compartmentalization,Class,0.7742076713645054
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7709907654284608
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7693185691046496
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7680307948545477
+552,Files or Directories Accessible to External Parties,Base,0.7672450986233236
+1220,Insufficient Granularity of Access Control,Base,0.7667410808084645
+639,Authorization Bypass Through User-Controlled Key,Base,0.7667253393180645
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.766629208108832
+266,Incorrect Privilege Assignment,Base,0.7662402169079158

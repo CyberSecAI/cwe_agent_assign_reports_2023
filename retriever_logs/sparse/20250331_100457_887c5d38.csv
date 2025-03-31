@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+778,Insufficient Logging,3761.2185842211543,unknown
+1390,Weak Authentication,3689.3342335494744,unknown
+252,Unchecked Return Value,3660.007934299815,unknown
+639,Authorization Bypass Through User-Controlled Key,3628.729100288803,unknown
+863,Incorrect Authorization,3613.4761964988616,unknown

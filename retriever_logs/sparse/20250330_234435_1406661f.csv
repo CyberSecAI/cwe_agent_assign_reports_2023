@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1339,Insufficient Precision or Accuracy of a Real Number,5555.604423519417,unknown
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),5442.154145852409,unknown
+834,Excessive Iteration,5404.656011886069,unknown
+208,Observable Timing Discrepancy,5395.0613158513115,unknown
+193,Off-by-one Error,5315.679642354236,unknown

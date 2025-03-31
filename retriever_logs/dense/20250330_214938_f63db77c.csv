@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+617,Reachable Assertion,Base,0.7709523823524933
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7662180294070768
+667,Improper Locking,Class,0.7580086008803897
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7569907565930941
+125,Out-of-bounds Read,Base,0.7553366290749584
+668,Exposure of Resource to Wrong Sphere,Class,0.7551034114296343
+73,External Control of File Name or Path,Base,0.7543322306032936
+252,Unchecked Return Value,Base,0.7533967191944471
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7526072322032954
+404,Improper Resource Shutdown or Release,Class,0.7523240618416757

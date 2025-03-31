@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+668,Exposure of Resource to Wrong Sphere,4424.672318478215,unknown
+1333,Inefficient Regular Expression Complexity,4417.065285682223,unknown
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),4404.3216447011,unknown
+863,Incorrect Authorization,4378.278361981323,unknown
+552,Files or Directories Accessible to External Parties,4217.940922706598,unknown

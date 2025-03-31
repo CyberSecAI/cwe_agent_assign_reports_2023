@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,6640.038285161278,unknown
+667,Improper Locking,6477.31528301851,unknown
+770,Allocation of Resources Without Limits or Throttling,6447.399660813176,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6446.205571397339,unknown
+789,Memory Allocation with Excessive Size Value,6427.955751214237,unknown

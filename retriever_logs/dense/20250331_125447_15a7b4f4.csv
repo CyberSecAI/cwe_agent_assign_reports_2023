@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+784,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,Variant,0.7899161731598601
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,Variant,0.7850619118627754
+1004,Sensitive Cookie Without 'HttpOnly' Flag,Variant,0.7821458159585809
+565,Reliance on Cookies without Validation and Integrity Checking,Base,0.7780653192648938
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7780290039890185
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7737121440670018
+425,Direct Request ('Forced Browsing'),Base,0.7640282205009338
+639,Authorization Bypass Through User-Controlled Key,Base,0.758253983523601
+41,Improper Resolution of Path Equivalence,Base,0.7543631575371499
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7523558276027407

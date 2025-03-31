@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+406,Insufficient Control of Network Message Volume (Network Amplification),7770.411418641153,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7545.321349017086,unknown
+863,Incorrect Authorization,7420.245892293503,unknown
+347,Improper Verification of Cryptographic Signature,7339.929883707638,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7312.892953260687,unknown

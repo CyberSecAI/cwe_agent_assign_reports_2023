@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7903068175546839
+366,Race Condition within a Thread,Base,0.7709728575462618
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7706904803945369
+667,Improper Locking,Class,0.7696355810299134
+1421,Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution,Base,0.7614044314775041
+404,Improper Resource Shutdown or Release,Class,0.7606878007782062
+1420,Exposure of Sensitive Information during Transient Execution,Base,0.7591341911268152
+208,Observable Timing Discrepancy,Base,0.752375541118856
+662,Improper Synchronization,Class,0.7509840858016995
+1342,Information Exposure through Microarchitectural State after Transient Execution,Base,0.7490176618408353

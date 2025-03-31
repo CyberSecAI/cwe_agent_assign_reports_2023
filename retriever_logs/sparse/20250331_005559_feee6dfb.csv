@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,7668.409531292177,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7615.80785023411,unknown
+184,Incomplete List of Disallowed Inputs,7351.475629909146,unknown
+138,Improper Neutralization of Special Elements,7284.57894798713,unknown
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),7174.876947453176,unknown

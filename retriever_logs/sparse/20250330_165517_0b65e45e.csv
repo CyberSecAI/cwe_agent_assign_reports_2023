@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,5249.86604598407,unknown
+941,Incorrectly Specified Destination in a Communication Channel,5141.320109607178,unknown
+285,Improper Authorization,5126.54271772421,unknown
+319,Cleartext Transmission of Sensitive Information,5113.774955383872,unknown
+862,Missing Authorization,5110.367200337912,unknown

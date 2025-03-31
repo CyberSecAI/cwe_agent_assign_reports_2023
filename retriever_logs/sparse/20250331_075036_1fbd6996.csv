@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,4470.743815143497,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),4448.424086518318,base_query
+476,NULL Pointer Dereference,4405.699384786029,base_query
+665,Improper Initialization,4389.5235419363735,base_query
+909,Missing Initialization of Resource,4379.0970549696,base_query

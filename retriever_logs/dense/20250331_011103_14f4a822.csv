@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.782186863543956
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7416016773046601
+345,Insufficient Verification of Data Authenticity,Class,0.7355105311547312
+356,Product UI does not Warn User of Unsafe Actions,Base,0.7335129071787234
+668,Exposure of Resource to Wrong Sphere,Class,0.7306531909755883
+657,Violation of Secure Design Principles,Class,0.7304386581441756
+1021,Improper Restriction of Rendered UI Layers or Frames,Base,0.7299575083774091
+203,Observable Discrepancy,Base,0.7290513643089551
+1390,Weak Authentication,Class,0.7280955807052829
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7278253177704885

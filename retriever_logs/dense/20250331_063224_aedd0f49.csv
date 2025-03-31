@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+639,Authorization Bypass Through User-Controlled Key,Base,0.7867194664057942
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7812427798475858
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7784766941401551
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7721799253204613
+668,Exposure of Resource to Wrong Sphere,Class,0.7714862434124979
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7712753291538492
+116,Improper Encoding or Escaping of Output,Class,0.7702801485087782
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7697919184960016
+184,Incomplete List of Disallowed Inputs,Base,0.76837717895052
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7670131496248284

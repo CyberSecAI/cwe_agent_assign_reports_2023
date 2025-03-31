@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,7376.6622166813695,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,7328.703181990129,base_query
+61,UNIX Symbolic Link (Symlink) Following,7279.763792642941,base_query
+1333,Inefficient Regular Expression Complexity,7181.640347719866,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,7127.679913233085,base_query

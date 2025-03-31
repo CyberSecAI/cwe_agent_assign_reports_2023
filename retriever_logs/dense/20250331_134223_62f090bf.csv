@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7600080753896099
+203,Observable Discrepancy,Base,0.7594205520229985
+345,Insufficient Verification of Data Authenticity,Class,0.7577411629496402
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7569398441826785
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7536686789721226
+667,Improper Locking,Class,0.7483647492759447
+755,Improper Handling of Exceptional Conditions,Class,0.7446252523510576
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7432950659088718
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7425946705924897
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7425284304442555

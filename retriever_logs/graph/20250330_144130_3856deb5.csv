@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+613,Insufficient Session Expiration,base,4.329000000000001,0
+494,Download of Code Without Integrity Check,base,4.329000000000001,0
+178,Improper Handling of Case Sensitivity,base,3.757,0
+288,Authentication Bypass Using an Alternate Path or Channel,base,3.6399999999999997,0
+420,Unprotected Alternate Channel,base,3.6399999999999997,0
+1289,Improper Validation of Unsafe Equivalence in Input,base,3.6399999999999997,0
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),Base,3.324318583906715,0
+352,Cross-Site Request Forgery (CSRF),compound,3.1500000000000004,0
+441,Unintended Proxy or Intermediary ('Confused Deputy'),class,2.984,0
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0

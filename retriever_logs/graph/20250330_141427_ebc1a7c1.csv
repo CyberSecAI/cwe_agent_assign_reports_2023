@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,4.329000000000001,0
+385,Covert Timing Channel,base,4.329000000000001,0
+59,Improper Link Resolution Before File Access ('Link Following'),base,4.329000000000001,0
+325,Missing Cryptographic Step,base,3.6399999999999997,0
+358,Improperly Implemented Security Check for Standard,base,3.6399999999999997,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+20,Improper Input Validation,class,2.984,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.984,0
+41,Improper Resolution of Path Equivalence,Base,2.907646766206885,0
+73,External Control of File Name or Path,Base,2.902341414322829,0

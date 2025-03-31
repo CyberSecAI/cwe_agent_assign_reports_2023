@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,7305.511990562475,unknown
+208,Observable Timing Discrepancy,7122.562552950883,unknown
+1254,Incorrect Comparison Logic Granularity,6996.687430363371,unknown
+1256,Improper Restriction of Software Interfaces to Hardware Features,6875.294018080419,unknown
+799,Improper Control of Interaction Frequency,6869.48179323235,unknown

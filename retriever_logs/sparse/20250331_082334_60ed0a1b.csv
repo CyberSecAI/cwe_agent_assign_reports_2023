@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,8756.51081301327,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),8283.908280309972,unknown
+116,Improper Encoding or Escaping of Output,8182.481986156589,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7767.118650990481,unknown
+125,Out-of-bounds Read,7659.71764626781,unknown

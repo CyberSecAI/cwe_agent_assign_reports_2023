@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+691,Insufficient Control Flow Management,Pillar,0.7557784276056547
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7511547868339362
+1220,Insufficient Granularity of Access Control,Base,0.7482984583945546
+639,Authorization Bypass Through User-Controlled Key,Base,0.7477612773917363
+1390,Weak Authentication,Class,0.7475471035816055
+693,Protection Mechanism Failure,Pillar,0.7460976996128239
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.744949731194082
+274,Improper Handling of Insufficient Privileges,Base,0.74492282109204
+653,Improper Isolation or Compartmentalization,Class,0.7448140475771292
+668,Exposure of Resource to Wrong Sphere,Class,0.7438894130893254

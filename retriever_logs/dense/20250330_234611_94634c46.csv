@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+23,Relative Path Traversal,Base,0.8102363015730429
+36,Absolute Path Traversal,Base,0.8001474248805229
+24,Path Traversal: '../filedir',Variant,0.7866072989325735
+41,Improper Resolution of Path Equivalence,Base,0.785222256751699
+73,External Control of File Name or Path,Base,0.7815214511328403
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.777798010250099
+37,Path Traversal: '/absolute/pathname/here',Variant,0.7727999701757924
+552,Files or Directories Accessible to External Parties,Base,0.7598054801236425
+25,Path Traversal: '/../filedir',Variant,0.7587837610333243
+184,Incomplete List of Disallowed Inputs,Base,0.7504031857794585

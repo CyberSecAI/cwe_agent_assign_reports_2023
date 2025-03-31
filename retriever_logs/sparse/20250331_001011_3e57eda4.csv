@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+327,Use of a Broken or Risky Cryptographic Algorithm,5460.43739626134,base_query
+319,Cleartext Transmission of Sensitive Information,5459.976546398988,base_query
+611,Improper Restriction of XML External Entity Reference,5435.8089948072975,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5308.974117617326,base_query
+178,Improper Handling of Case Sensitivity,5303.81025916559,base_query

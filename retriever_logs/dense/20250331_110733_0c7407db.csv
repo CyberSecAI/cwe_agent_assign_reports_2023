@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+191,Integer Underflow (Wrap or Wraparound),Base,0.7816394571502568
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7656246354410293
+404,Improper Resource Shutdown or Release,Class,0.763157519261833
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7573373242325323
+252,Unchecked Return Value,Base,0.7484780531559572
+131,Incorrect Calculation of Buffer Size,Base,0.7483025792534068
+197,Numeric Truncation Error,Base,0.7468341036667269
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7460340546093263
+667,Improper Locking,Class,0.7449735598200252
+909,Missing Initialization of Resource,Class,0.7446950989640628

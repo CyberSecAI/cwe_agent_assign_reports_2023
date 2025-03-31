@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+823,Use of Out-of-range Pointer Offset,6559.451345439362,unknown
+125,Out-of-bounds Read,6512.640100699082,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6399.8264181125505,unknown
+822,Untrusted Pointer Dereference,6167.389692254417,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6143.984008923128,unknown

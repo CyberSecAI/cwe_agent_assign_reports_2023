@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+312,Cleartext Storage of Sensitive Information,5097.790036962176,unknown
+259,Use of Hard-coded Password,4637.300273195729,unknown
+798,Use of Hard-coded Credentials,4575.986384104929,unknown
+319,Cleartext Transmission of Sensitive Information,4523.639697973128,unknown
+472,External Control of Assumed-Immutable Web Parameter,4503.48069414705,unknown

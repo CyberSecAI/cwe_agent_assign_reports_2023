@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,4284.740873793432,base_query
+178,Improper Handling of Case Sensitivity,4258.601173523666,base_query
+789,Memory Allocation with Excessive Size Value,4258.132144163285,base_query
+1390,Weak Authentication,4164.153842318244,base_query
+617,Reachable Assertion,4114.160934604887,base_query

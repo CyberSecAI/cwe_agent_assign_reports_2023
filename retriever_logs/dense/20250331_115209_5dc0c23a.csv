@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+552,Files or Directories Accessible to External Parties,Base,0.7557655702211046
+378,Creation of Temporary File With Insecure Permissions,Base,0.7517101549720562
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.747835970870152
+274,Improper Handling of Insufficient Privileges,Base,0.7471911667773821
+41,Improper Resolution of Path Equivalence,Base,0.7465209355566772
+276,Incorrect Default Permissions,Base,0.7449170733470323
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7446822188038058
+73,External Control of File Name or Path,Base,0.7442864792624807
+668,Exposure of Resource to Wrong Sphere,Class,0.7398985089022376
+23,Relative Path Traversal,Base,0.7390227603052343

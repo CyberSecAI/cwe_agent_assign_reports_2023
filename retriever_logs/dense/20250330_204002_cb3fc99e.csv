@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+345,Insufficient Verification of Data Authenticity,Class,0.7640807552336706
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7593654765495794
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7553647361909003
+41,Improper Resolution of Path Equivalence,Base,0.7475232444694702
+657,Violation of Secure Design Principles,Class,0.7445562244455978
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7419199549617641
+203,Observable Discrepancy,Base,0.7414340353322986
+668,Exposure of Resource to Wrong Sphere,Class,0.74018502403099
+653,Improper Isolation or Compartmentalization,Class,0.7392340736473288
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7390011051432839

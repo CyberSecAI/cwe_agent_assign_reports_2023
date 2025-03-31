@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7799.916021837432,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),7751.161555829573,base_query
+611,Improper Restriction of XML External Entity Reference,7682.707777370905,base_query
+639,Authorization Bypass Through User-Controlled Key,7595.762458068311,base_query
+918,Server-Side Request Forgery (SSRF),7492.799862456654,base_query

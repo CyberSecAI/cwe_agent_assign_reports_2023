@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,7515.5845996246835,base_query
+184,Incomplete List of Disallowed Inputs,7513.191543577825,base_query
+99,Improper Control of Resource Identifiers ('Resource Injection'),6884.60401234134,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,6723.984402483418,base_query
+863,Incorrect Authorization,6701.537797895805,base_query

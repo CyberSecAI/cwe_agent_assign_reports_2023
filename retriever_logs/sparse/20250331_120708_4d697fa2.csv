@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,4516.5644103881195,unknown
+209,Generation of Error Message Containing Sensitive Information,4515.733273471578,unknown
+927,Use of Implicit Intent for Sensitive Communication,4495.478568140663,unknown
+667,Improper Locking,4447.747464297662,unknown
+863,Incorrect Authorization,4435.9726901598,unknown

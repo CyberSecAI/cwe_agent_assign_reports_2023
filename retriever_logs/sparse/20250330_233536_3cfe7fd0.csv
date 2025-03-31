@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,5764.5718494494595,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5728.944428687326,base_query
+190,Integer Overflow or Wraparound,5528.831435536904,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5474.574092341583,base_query
+667,Improper Locking,5432.541125559591,base_query

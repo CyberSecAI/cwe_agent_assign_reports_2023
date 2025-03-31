@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+209,Generation of Error Message Containing Sensitive Information,5101.850937996523,base_query
+1390,Weak Authentication,4953.961661304071,base_query
+312,Cleartext Storage of Sensitive Information,4856.5423231955165,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),4726.851947383857,base_query
+863,Incorrect Authorization,4688.191615586779,base_query

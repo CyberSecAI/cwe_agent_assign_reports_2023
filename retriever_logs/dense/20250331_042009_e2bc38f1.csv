@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+427,Uncontrolled Search Path Element,Base,0.7485992568944355
+278,Insecure Preserved Inherited Permissions,Variant,0.7381527040026128
+276,Incorrect Default Permissions,Base,0.7349034670466191
+266,Incorrect Privilege Assignment,Base,0.7265544993972406
+668,Exposure of Resource to Wrong Sphere,Class,0.7206067287177997
+267,Privilege Defined With Unsafe Actions,Base,0.7184197541705568
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7138830303812489
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7096505574320584
+274,Improper Handling of Insufficient Privileges,Base,0.7068724639546717
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7067843237569769

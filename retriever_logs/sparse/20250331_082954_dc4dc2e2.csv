@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7475.178359226865,unknown
+476,NULL Pointer Dereference,7366.521485696806,unknown
+125,Out-of-bounds Read,7332.95013144926,unknown
+1284,Improper Validation of Specified Quantity in Input,7331.4929830009305,unknown
+190,Integer Overflow or Wraparound,7277.93669322946,unknown

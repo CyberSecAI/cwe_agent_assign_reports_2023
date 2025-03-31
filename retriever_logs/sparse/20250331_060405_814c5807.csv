@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1390,Weak Authentication,5264.426135602089,unknown
+942,Permissive Cross-domain Policy with Untrusted Domains,5163.65590534042,unknown
+287,Improper Authentication,5115.085205938875,unknown
+613,Insufficient Session Expiration,5113.377837481747,unknown
+863,Incorrect Authorization,5111.261477807548,unknown

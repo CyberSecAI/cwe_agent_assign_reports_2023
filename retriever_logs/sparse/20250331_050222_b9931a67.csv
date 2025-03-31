@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,8303.62075299952,unknown
+789,Memory Allocation with Excessive Size Value,8038.4043600735995,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,8028.268722490183,unknown
+863,Incorrect Authorization,8026.705206216023,unknown
+639,Authorization Bypass Through User-Controlled Key,7990.027861807738,unknown

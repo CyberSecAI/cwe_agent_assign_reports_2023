@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+156,Improper Neutralization of Whitespace,7196.288389032825,unknown
+116,Improper Encoding or Escaping of Output,7110.155418057996,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7096.090904041484,unknown
+138,Improper Neutralization of Special Elements,6756.555921250103,unknown
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),6701.078743310749,unknown

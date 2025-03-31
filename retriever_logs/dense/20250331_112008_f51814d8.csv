@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7896439203405922
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7806733430741621
+131,Incorrect Calculation of Buffer Size,Base,0.7785750748253344
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7776045745684672
+170,Improper Null Termination,Base,0.7754811009667328
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7745847719043437
+295,Improper Certificate Validation,Base,0.7744676324825719
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.772682362265726
+404,Improper Resource Shutdown or Release,Class,0.7710329376983114
+193,Off-by-one Error,Base,0.7710209956682195

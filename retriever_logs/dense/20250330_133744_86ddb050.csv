@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+23,Relative Path Traversal,Base,0.8009137473890042
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7861164659703221
+41,Improper Resolution of Path Equivalence,Base,0.7853781002334315
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7797697422611805
+36,Absolute Path Traversal,Base,0.7779991515716677
+73,External Control of File Name or Path,Base,0.7758949948963685
+1336,Improper Neutralization of Special Elements Used in a Template Engine,Base,0.765693985301935
+552,Files or Directories Accessible to External Parties,Base,0.7644802608881126
+138,Improper Neutralization of Special Elements,Class,0.7643936468390026
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.764227382515767

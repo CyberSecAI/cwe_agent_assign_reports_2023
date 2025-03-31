@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,5616.69946814602,unknown
+927,Use of Implicit Intent for Sensitive Communication,5135.687510085408,unknown
+406,Insufficient Control of Network Message Volume (Network Amplification),5068.7284563855665,unknown
+863,Incorrect Authorization,5018.889249752637,unknown
+667,Improper Locking,4973.749961078886,unknown

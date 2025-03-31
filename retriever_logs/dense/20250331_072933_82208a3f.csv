@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+693,Protection Mechanism Failure,Pillar,0.773854845702701
+312,Cleartext Storage of Sensitive Information,Base,0.7668958436561863
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7547450143448606
+1391,Use of Weak Credentials,Class,0.7494106881469678
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.746489252088888
+319,Cleartext Transmission of Sensitive Information,Base,0.7450767540199205
+798,Use of Hard-coded Credentials,Base,0.7429679245747878
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7429043744441826
+657,Violation of Secure Design Principles,Class,0.7420655443981109
+668,Exposure of Resource to Wrong Sphere,Class,0.7401880049550909

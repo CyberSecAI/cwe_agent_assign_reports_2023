@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7743877421757344
+667,Improper Locking,Class,0.773837197251286
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7724749251095486
+267,Privilege Defined With Unsafe Actions,Base,0.7682300910733175
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7664730820882499
+274,Improper Handling of Insufficient Privileges,Base,0.7652063950995734
+266,Incorrect Privilege Assignment,Base,0.76334653845994
+668,Exposure of Resource to Wrong Sphere,Class,0.7616782062520313
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7608595338129123
+653,Improper Isolation or Compartmentalization,Class,0.7583833526035398

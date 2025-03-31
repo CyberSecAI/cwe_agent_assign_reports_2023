@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),5663.447629477091,unknown
+863,Incorrect Authorization,5633.600326212983,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,5620.054740070204,unknown
+770,Allocation of Resources Without Limits or Throttling,5592.503242656367,unknown
+306,Missing Authentication for Critical Function,5557.054631884069,unknown

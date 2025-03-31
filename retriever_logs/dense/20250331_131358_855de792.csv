@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+191,Integer Underflow (Wrap or Wraparound),Base,0.8029651821251225
+197,Numeric Truncation Error,Base,0.7826279271526961
+131,Incorrect Calculation of Buffer Size,Base,0.7633746534680993
+681,Incorrect Conversion between Numeric Types,Base,0.7573901020734171
+129,Improper Validation of Array Index,Variant,0.7464368757056734
+190,Integer Overflow or Wraparound,Base,0.7456028233722509
+125,Out-of-bounds Read,Base,0.742641995709722
+193,Off-by-one Error,Base,0.7407785474725415
+805,Buffer Access with Incorrect Length Value,Base,0.7383364855322648
+124,Buffer Underwrite ('Buffer Underflow'),Base,0.7365730754264965

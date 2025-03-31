@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,8017.19088079904,base_query
+347,Improper Verification of Cryptographic Signature,7249.907467173562,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7128.758818150538,base_query
+61,UNIX Symbolic Link (Symlink) Following,7027.189659994233,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7010.326334603318,base_query

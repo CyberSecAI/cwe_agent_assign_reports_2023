@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+366,Race Condition within a Thread,Base,0.7955402754525558
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7903747234813672
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7847207409188344
+125,Out-of-bounds Read,Base,0.7717155023259901
+667,Improper Locking,Class,0.7702944900205644
+404,Improper Resource Shutdown or Release,Class,0.7676185173848462
+908,Use of Uninitialized Resource,Base,0.7641504341720402
+131,Incorrect Calculation of Buffer Size,Base,0.7622721113450364
+191,Integer Underflow (Wrap or Wraparound),Base,0.7554249314178025
+824,Access of Uninitialized Pointer,Base,0.7518336519583084

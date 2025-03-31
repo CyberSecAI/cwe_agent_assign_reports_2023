@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+276,Incorrect Default Permissions,Base,0.7752520490830455
+274,Improper Handling of Insufficient Privileges,Base,0.7665237047226714
+266,Incorrect Privilege Assignment,Base,0.7655193902938613
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7605865661908587
+267,Privilege Defined With Unsafe Actions,Base,0.7585332090999133
+668,Exposure of Resource to Wrong Sphere,Class,0.756316280958654
+41,Improper Resolution of Path Equivalence,Base,0.7523577612400596
+281,Improper Preservation of Permissions,Base,0.7522071368090244
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7520722623762032
+378,Creation of Temporary File With Insecure Permissions,Base,0.7514786120608324

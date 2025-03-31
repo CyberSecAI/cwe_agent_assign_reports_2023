@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7815217375359387
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7631695475129359
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7606446242022078
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7582516379310852
+668,Exposure of Resource to Wrong Sphere,Class,0.7567214385239349
+274,Improper Handling of Insufficient Privileges,Base,0.7497738267652341
+359,Exposure of Private Personal Information to an Unauthorized Actor,Base,0.7465503677595868
+213,Exposure of Sensitive Information Due to Incompatible Policies,Base,0.745498108729712
+552,Files or Directories Accessible to External Parties,Base,0.7447041923926383
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7428907517361196

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7790752802919731
+131,Incorrect Calculation of Buffer Size,Base,0.7761772490065444
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.775476876855057
+274,Improper Handling of Insufficient Privileges,Base,0.7731065350357076
+691,Insufficient Control Flow Management,Pillar,0.7696008315942633
+41,Improper Resolution of Path Equivalence,Base,0.7695314298114657
+667,Improper Locking,Class,0.7692958619105859
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7682065630014463
+668,Exposure of Resource to Wrong Sphere,Class,0.7671473594923807
+404,Improper Resource Shutdown or Release,Class,0.7656033133987523

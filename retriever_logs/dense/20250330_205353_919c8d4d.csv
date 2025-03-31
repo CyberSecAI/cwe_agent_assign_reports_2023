@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+799,Improper Control of Interaction Frequency,Class,0.764146621374919
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7548940452123226
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7536295597656244
+653,Improper Isolation or Compartmentalization,Class,0.751933491232449
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7492238691183406
+668,Exposure of Resource to Wrong Sphere,Class,0.749091244761708
+639,Authorization Bypass Through User-Controlled Key,Base,0.7489459956606364
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7479894552490097
+184,Incomplete List of Disallowed Inputs,Base,0.7477757698699179
+274,Improper Handling of Insufficient Privileges,Base,0.7457188495837734

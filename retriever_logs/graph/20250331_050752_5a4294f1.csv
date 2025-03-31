@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+205,Observable Behavioral Discrepancy,Base,2.9020250676986317,0
+208,Observable Timing Discrepancy,Base,2.9016041118103537,0
+385,Covert Timing Channel,Base,2.888618875010483,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.5519999999999996,0
+514,Covert Channel,class,2.5519999999999996,0
+341,Predictable from Observable State,base,2.4699999999999998,0
+1272,Sensitive Information Uncleared Before Debug/Power State Transition,base,2.2100000000000004,0
+499,Serializable Class Containing Sensitive Data,variant,2.04,0
+498,Cloneable Class Containing Sensitive Information,variant,2.04,0
+244,Improper Clearing of Heap Memory Before Release ('Heap Inspection'),variant,2.04,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+208,Observable Timing Discrepancy,base,4.329000000000001,0
+385,Covert Timing Channel,base,4.329000000000001,0
+322,Key Exchange without Entity Authentication,base,3.6399999999999997,0
+325,Missing Cryptographic Step,base,3.2656,0
+295,Improper Certificate Validation,Base,2.479846489611751,0
+494,Download of Code Without Integrity Check,base,2.4699999999999998,0
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),base,2.4699999999999998,0
+184,Incomplete List of Disallowed Inputs,base,2.4232000000000005,0
+73,External Control of File Name or Path,base,2.3400000000000003,0
+393,Return of Wrong Status Code,base,2.3295999999999997,0

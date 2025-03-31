@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+259,Use of Hard-coded Password,6964.230685070246,unknown
+798,Use of Hard-coded Credentials,6903.414326668582,unknown
+321,Use of Hard-coded Cryptographic Key,6558.185264659656,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),6549.74735551246,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6471.211551563938,unknown

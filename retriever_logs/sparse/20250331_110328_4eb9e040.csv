@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6578.6617394533405,unknown
+863,Incorrect Authorization,6419.55042420283,unknown
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,6324.523926054616,unknown
+285,Improper Authorization,6312.8571604840445,unknown
+639,Authorization Bypass Through User-Controlled Key,6299.966516528648,unknown

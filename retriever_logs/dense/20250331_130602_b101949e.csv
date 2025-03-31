@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7817886565349558
+404,Improper Resource Shutdown or Release,Class,0.7696347183976983
+366,Race Condition within a Thread,Base,0.7586566544535747
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.750506112608072
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7480017423009364
+667,Improper Locking,Class,0.7466351081850013
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7466313940083347
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7414935220234081
+356,Product UI does not Warn User of Unsafe Actions,Base,0.7407439898129953
+668,Exposure of Resource to Wrong Sphere,Class,0.7399483437730144

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6071.020667874091,unknown
+1390,Weak Authentication,6024.695882638731,unknown
+285,Improper Authorization,6014.751664920391,unknown
+754,Improper Check for Unusual or Exceptional Conditions,5994.628753150952,unknown
+287,Improper Authentication,5950.6846031431005,unknown

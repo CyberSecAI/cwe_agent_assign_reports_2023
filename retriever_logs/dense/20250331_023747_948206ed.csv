@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7939475209014483
+404,Improper Resource Shutdown or Release,Class,0.7851644811671982
+667,Improper Locking,Class,0.7839512448892434
+662,Improper Synchronization,Class,0.7564605657447342
+668,Exposure of Resource to Wrong Sphere,Class,0.7559873804899245
+665,Improper Initialization,Class,0.7549446244913525
+653,Improper Isolation or Compartmentalization,Class,0.7533314589573074
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7506591268514289
+909,Missing Initialization of Resource,Class,0.7492209408479966
+203,Observable Discrepancy,Base,0.7480100911937606

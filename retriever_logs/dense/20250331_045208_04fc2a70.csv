@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+312,Cleartext Storage of Sensitive Information,Base,0.7668932043969995
+319,Cleartext Transmission of Sensitive Information,Base,0.7633808163192912
+1391,Use of Weak Credentials,Class,0.7622962257423624
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7613431863433247
+668,Exposure of Resource to Wrong Sphere,Class,0.7588580722826017
+203,Observable Discrepancy,Base,0.7580125157161055
+345,Insufficient Verification of Data Authenticity,Class,0.7577554278921288
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7569812775080542
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7557226630391728
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7545144288981589

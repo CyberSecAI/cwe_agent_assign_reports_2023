@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.8010471959938515
+476,NULL Pointer Dereference,Base,0.783634465676242
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7826640441907831
+667,Improper Locking,Class,0.7737747733309575
+404,Improper Resource Shutdown or Release,Class,0.772587598001601
+191,Integer Underflow (Wrap or Wraparound),Base,0.7682079098277458
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7672811171449349
+131,Incorrect Calculation of Buffer Size,Base,0.7641840216589559
+824,Access of Uninitialized Pointer,Base,0.7638727370636671
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7615587231501347

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+259,Use of Hard-coded Password,variant,4.0104,0
+804,Guessable CAPTCHA,base,2.8651999999999997,0
+321,Use of Hard-coded Cryptographic Key,Variant,2.6996445726555707,0
+499,Serializable Class Containing Sensitive Data,variant,2.6784000000000003,0
+498,Cloneable Class Containing Sensitive Information,variant,2.6784000000000003,0
+798,Use of Hard-coded Credentials,Base,2.4901635983781683,0
+257,Storing Passwords in a Recoverable Format,Base,2.4839848816150703,0
+344,Use of Invariant Value in Dynamically Changing Context,base,2.4699999999999998,0
+331,Insufficient Entropy,base,2.4699999999999998,0
+472,External Control of Assumed-Immutable Web Parameter,base,2.2921600000000004,0

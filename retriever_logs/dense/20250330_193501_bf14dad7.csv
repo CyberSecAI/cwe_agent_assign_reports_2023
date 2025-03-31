@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+41,Improper Resolution of Path Equivalence,Base,0.7870457056712883
+184,Incomplete List of Disallowed Inputs,Base,0.7834099529602795
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7803677446436603
+425,Direct Request ('Forced Browsing'),Base,0.780083635265868
+472,External Control of Assumed-Immutable Web Parameter,Base,0.776060301130131
+668,Exposure of Resource to Wrong Sphere,Class,0.7742718154001202
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7708469267741702
+923,Improper Restriction of Communication Channel to Intended Endpoints,Class,0.770428015781353
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7697061853210044
+798,Use of Hard-coded Credentials,Base,0.7688491648830136

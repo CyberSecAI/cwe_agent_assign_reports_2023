@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+73,External Control of File Name or Path,Base,0.7519436671652807
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7515974483692407
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7505521303881544
+184,Incomplete List of Disallowed Inputs,Base,0.7467481565449389
+691,Insufficient Control Flow Management,Pillar,0.7460789419413857
+653,Improper Isolation or Compartmentalization,Class,0.7432386207643547
+274,Improper Handling of Insufficient Privileges,Base,0.7431344378547051
+1220,Insufficient Granularity of Access Control,Base,0.7420115390378242
+41,Improper Resolution of Path Equivalence,Base,0.7415039018903591
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7403710242868413

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+823,Use of Out-of-range Pointer Offset,Base,0.7956341308250843
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.794187535082216
+822,Untrusted Pointer Dereference,Base,0.7904188689161831
+824,Access of Uninitialized Pointer,Base,0.7834946661888056
+681,Incorrect Conversion between Numeric Types,Base,0.7793475736035127
+131,Incorrect Calculation of Buffer Size,Base,0.7762334313399919
+404,Improper Resource Shutdown or Release,Class,0.7728447323465037
+667,Improper Locking,Class,0.7698845518904605
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7689435924287081
+191,Integer Underflow (Wrap or Wraparound),Base,0.7666847071170773

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,5855.893748134962,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,5574.365843269406,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5533.460942291489,unknown
+203,Observable Discrepancy,5489.9168781629405,unknown
+863,Incorrect Authorization,5449.215843787075,unknown

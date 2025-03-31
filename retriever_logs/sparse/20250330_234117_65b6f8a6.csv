@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6298.866652385908,unknown
+184,Incomplete List of Disallowed Inputs,5843.909655398251,unknown
+1299,Missing Protection Mechanism for Alternate Hardware Interface,5810.4052736746335,unknown
+863,Incorrect Authorization,5607.667301897422,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,5566.294045729945,unknown

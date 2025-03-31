@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,6175.488668557409,unknown
+863,Incorrect Authorization,6170.640768642584,unknown
+1390,Weak Authentication,6154.17157766929,unknown
+347,Improper Verification of Cryptographic Signature,6147.499636079636,unknown
+287,Improper Authentication,6130.109473039033,unknown

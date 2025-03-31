@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+73,External Control of File Name or Path,Base,0.7768412910878911
+427,Uncontrolled Search Path Element,Base,0.7745349300274617
+642,External Control of Critical State Data,Class,0.7731075841846666
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7720640542199364
+552,Files or Directories Accessible to External Parties,Base,0.7675619102630313
+41,Improper Resolution of Path Equivalence,Base,0.7633142252819651
+23,Relative Path Traversal,Base,0.7628541750260939
+668,Exposure of Resource to Wrong Sphere,Class,0.7591855130486174
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7532655419053267
+426,Untrusted Search Path,Base,0.7489561131639373

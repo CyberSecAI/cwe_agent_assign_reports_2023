@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+23,Relative Path Traversal,Base,0.7796542186769972
+41,Improper Resolution of Path Equivalence,Base,0.7740938652862601
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7718311799148093
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7713306561707912
+1390,Weak Authentication,Class,0.7703456533176056
+639,Authorization Bypass Through User-Controlled Key,Base,0.767661774925649
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.7648080449405963
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7618342699546897
+345,Insufficient Verification of Data Authenticity,Class,0.7594726042421195
+1391,Use of Weak Credentials,Class,0.7593365846478994

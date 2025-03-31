@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7957513015694435
+799,Improper Control of Interaction Frequency,Class,0.7917724536420776
+290,Authentication Bypass by Spoofing,Base,0.7844960755076245
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7835182701307707
+345,Insufficient Verification of Data Authenticity,Class,0.7827644129634419
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.7827096587198822
+294,Authentication Bypass by Capture-replay,Base,0.78014908029814
+1263,Improper Physical Access Control,Class,0.7799790383289354
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7779779358968013
+667,Improper Locking,Class,0.7746229031395554

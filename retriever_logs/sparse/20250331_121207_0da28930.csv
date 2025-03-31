@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+927,Use of Implicit Intent for Sensitive Communication,4040.564440459808,base_query
+191,Integer Underflow (Wrap or Wraparound),3886.495068169672,base_query
+252,Unchecked Return Value,3853.711082530634,base_query
+863,Incorrect Authorization,3835.402449483174,base_query
+203,Observable Discrepancy,3827.9018128920875,base_query

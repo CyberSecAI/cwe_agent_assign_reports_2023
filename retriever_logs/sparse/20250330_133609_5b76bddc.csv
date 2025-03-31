@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,6334.4724669115085,unknown
+863,Incorrect Authorization,6201.225113359238,unknown
+287,Improper Authentication,6104.578213209148,unknown
+285,Improper Authorization,6094.500181251382,unknown
+476,NULL Pointer Dereference,6069.860036704029,unknown

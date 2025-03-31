@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7800.583003858152,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,7555.797088998345,base_query
+201,Insertion of Sensitive Information Into Sent Data,7538.905972681313,base_query
+918,Server-Side Request Forgery (SSRF),7393.4896853294895,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,7294.8012066273595,base_query

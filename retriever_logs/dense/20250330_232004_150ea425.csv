@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+916,Use of Password Hash With Insufficient Computational Effort,Base,0.7801990560713123
+1391,Use of Weak Credentials,Class,0.7794547002162268
+328,Use of Weak Hash,Base,0.7716281400740392
+657,Violation of Secure Design Principles,Class,0.7673276944190139
+668,Exposure of Resource to Wrong Sphere,Class,0.7633337246715486
+405,Asymmetric Resource Consumption (Amplification),Class,0.7621307480747141
+798,Use of Hard-coded Credentials,Base,0.7613978447353797
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7581132163760661
+345,Insufficient Verification of Data Authenticity,Class,0.7555493959474548
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7553066821324476

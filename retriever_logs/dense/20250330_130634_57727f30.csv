@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7709719016548413
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.758112574977113
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7567834036176178
+274,Improper Handling of Insufficient Privileges,Base,0.7525051552832351
+653,Improper Isolation or Compartmentalization,Class,0.7486686047156437
+472,External Control of Assumed-Immutable Web Parameter,Base,0.747094018034618
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7470432128781488
+799,Improper Control of Interaction Frequency,Class,0.74619085285182
+1390,Weak Authentication,Class,0.7447004056076016
+639,Authorization Bypass Through User-Controlled Key,Base,0.7442495658605311

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1389,Incorrect Parsing of Numbers with Different Radices,6436.643875646915,unknown
+125,Out-of-bounds Read,6031.352361760249,unknown
+941,Incorrectly Specified Destination in a Communication Channel,5977.363297778224,unknown
+1284,Improper Validation of Specified Quantity in Input,5863.081633177253,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,5841.560071483184,unknown

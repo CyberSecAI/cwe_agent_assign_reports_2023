@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+59,Improper Link Resolution Before File Access ('Link Following'),5937.087957200233,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5860.679544763555,base_query
+61,UNIX Symbolic Link (Symlink) Following,5818.506639474819,base_query
+611,Improper Restriction of XML External Entity Reference,5721.633937959291,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5650.110054745245,base_query

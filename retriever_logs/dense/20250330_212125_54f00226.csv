@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7781390678150781
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7637946924585182
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7612808417343867
+184,Incomplete List of Disallowed Inputs,Base,0.7582392190252172
+134,Use of Externally-Controlled Format String,Base,0.7571143089763177
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7560635518308808
+138,Improper Neutralization of Special Elements,Class,0.7544641337746096
+41,Improper Resolution of Path Equivalence,Base,0.75222785957019
+471,Modification of Assumed-Immutable Data (MAID),Base,0.7497641226235401
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7459115530199099

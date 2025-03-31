@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,4805.719364012559,unknown
+252,Unchecked Return Value,4804.906708710303,unknown
+415,Double Free,4739.171380929505,unknown
+476,NULL Pointer Dereference,4710.623146677587,unknown
+863,Incorrect Authorization,4697.194216073926,unknown

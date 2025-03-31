@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7592759019593005
+41,Improper Resolution of Path Equivalence,Base,0.759201403717189
+674,Uncontrolled Recursion,Class,0.7587516177591219
+404,Improper Resource Shutdown or Release,Class,0.7541647922843191
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7533610422763408
+131,Incorrect Calculation of Buffer Size,Base,0.7524402180448607
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7505709031792794
+789,Memory Allocation with Excessive Size Value,Variant,0.7498427163415915
+125,Out-of-bounds Read,Base,0.7487338741693302
+129,Improper Validation of Array Index,Variant,0.7455473061269123

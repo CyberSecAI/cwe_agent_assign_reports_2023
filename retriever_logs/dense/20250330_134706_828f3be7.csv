@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7861918588876284
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7777047896537685
+345,Insufficient Verification of Data Authenticity,Class,0.7650262599947073
+294,Authentication Bypass by Capture-replay,Base,0.7614157961455366
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7606658697764541
+303,Incorrect Implementation of Authentication Algorithm,Base,0.754185888161247
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.754146476274256
+799,Improper Control of Interaction Frequency,Class,0.7533525150199454
+41,Improper Resolution of Path Equivalence,Base,0.752688183503715
+668,Exposure of Resource to Wrong Sphere,Class,0.751858722592712

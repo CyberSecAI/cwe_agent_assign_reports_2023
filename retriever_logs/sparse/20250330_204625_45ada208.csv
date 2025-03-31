@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+798,Use of Hard-coded Credentials,5465.897792985192,unknown
+294,Authentication Bypass by Capture-replay,5256.310034178734,unknown
+319,Cleartext Transmission of Sensitive Information,5192.449280623379,unknown
+1390,Weak Authentication,4934.452852864949,unknown
+287,Improper Authentication,4928.4114907811745,unknown

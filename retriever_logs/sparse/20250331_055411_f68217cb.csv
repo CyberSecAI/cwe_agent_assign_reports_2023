@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,8297.30227560126,unknown
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8041.321610148718,unknown
+116,Improper Encoding or Escaping of Output,7939.0500214256535,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,7532.99879124159,unknown
+863,Incorrect Authorization,7343.910458547847,unknown

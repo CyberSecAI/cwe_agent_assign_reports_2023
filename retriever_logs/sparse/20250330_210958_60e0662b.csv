@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7477.572242291377,base_query
+668,Exposure of Resource to Wrong Sphere,7409.353075480169,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,7367.1448215304645,base_query
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,7164.0448162963685,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7149.50381346293,base_query

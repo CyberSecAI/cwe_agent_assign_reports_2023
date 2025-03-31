@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+789,Memory Allocation with Excessive Size Value,6292.52023457511,unknown
+918,Server-Side Request Forgery (SSRF),6290.742142026192,unknown
+770,Allocation of Resources Without Limits or Throttling,6220.040328223233,unknown
+1284,Improper Validation of Specified Quantity in Input,6186.771877291567,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6157.281396531028,unknown

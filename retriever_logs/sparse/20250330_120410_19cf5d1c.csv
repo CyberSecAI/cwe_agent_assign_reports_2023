@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,4169.3733610753125,unknown
+927,Use of Implicit Intent for Sensitive Communication,4006.569538682716,unknown
+191,Integer Underflow (Wrap or Wraparound),3866.81987758416,unknown
+863,Incorrect Authorization,3843.303371594527,unknown
+252,Unchecked Return Value,3830.6563615238374,unknown

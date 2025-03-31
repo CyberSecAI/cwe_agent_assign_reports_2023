@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6589.585374695722,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,5899.596584577302,unknown
+201,Insertion of Sensitive Information Into Sent Data,5795.515490268167,unknown
+209,Generation of Error Message Containing Sensitive Information,5792.790340696342,unknown
+226,Sensitive Information in Resource Not Removed Before Reuse,5723.463702697243,unknown

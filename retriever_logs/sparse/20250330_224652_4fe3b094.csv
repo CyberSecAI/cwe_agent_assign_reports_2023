@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6571.0090121656485,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6542.319964163701,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6536.206780226966,base_query
+125,Out-of-bounds Read,6450.414826471498,base_query
+190,Integer Overflow or Wraparound,6409.740162678738,base_query

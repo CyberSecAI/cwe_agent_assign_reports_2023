@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+345,Insufficient Verification of Data Authenticity,Class,0.778270949713625
+657,Violation of Secure Design Principles,Class,0.7592759281829344
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7590354668407728
+347,Improper Verification of Cryptographic Signature,Base,0.7585972580676944
+649,Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking,Base,0.756782125818392
+1391,Use of Weak Credentials,Class,0.7518705482486248
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7513285221779394
+311,Missing Encryption of Sensitive Data,Class,0.7503287070424755
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7490644424265872
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7453686266472705

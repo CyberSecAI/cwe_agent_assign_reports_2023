@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7732091925163969
+617,Reachable Assertion,Base,0.7667145999988365
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7382789678041084
+252,Unchecked Return Value,Base,0.7375348176630232
+824,Access of Uninitialized Pointer,Base,0.7374762176119114
+1286,Improper Validation of Syntactic Correctness of Input,Base,0.736389865596904
+129,Improper Validation of Array Index,Variant,0.7332138895253664
+183,Permissive List of Allowed Inputs,Base,0.7329938466530941
+404,Improper Resource Shutdown or Release,Class,0.7321258330078193
+125,Out-of-bounds Read,Base,0.7315660607878085

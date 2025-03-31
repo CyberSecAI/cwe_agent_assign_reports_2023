@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+134,Use of Externally-Controlled Format String,Base,0.7916290061867853
+1391,Use of Weak Credentials,Class,0.7642703520925745
+798,Use of Hard-coded Credentials,Base,0.7530256480203537
+345,Insufficient Verification of Data Authenticity,Class,0.7381455266946468
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.734459571449803
+657,Violation of Secure Design Principles,Class,0.7332617386570731
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7325669139270543
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7316236010725996
+319,Cleartext Transmission of Sensitive Information,Base,0.7294621197391455
+330,Use of Insufficiently Random Values,Class,0.7277968517189846

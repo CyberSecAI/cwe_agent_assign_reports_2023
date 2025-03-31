@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.768428631168443
+402,Transmission of Private Resources into a New Sphere ('Resource Leak'),Class,0.7647668470002733
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7646296348347061
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7538094972464198
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7521762753586567
+404,Improper Resource Shutdown or Release,Class,0.7508868979109227
+669,Incorrect Resource Transfer Between Spheres,Class,0.7498778912218335
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7460705461597398
+552,Files or Directories Accessible to External Parties,Base,0.7440615255879626
+73,External Control of File Name or Path,Base,0.7409672977391991

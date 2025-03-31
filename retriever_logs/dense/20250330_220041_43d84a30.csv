@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+552,Files or Directories Accessible to External Parties,Base,0.79429186282236
+41,Improper Resolution of Path Equivalence,Base,0.7734393335188013
+425,Direct Request ('Forced Browsing'),Base,0.7666493158951848
+23,Relative Path Traversal,Base,0.7664847660136692
+639,Authorization Bypass Through User-Controlled Key,Base,0.7645447577616666
+668,Exposure of Resource to Wrong Sphere,Class,0.7631970922373479
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7603980540396551
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7563383719849054
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7531859058865076
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7505544248881293

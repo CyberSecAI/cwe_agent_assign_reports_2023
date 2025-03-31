@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+208,Observable Timing Discrepancy,Base,0.7736819735623894
+203,Observable Discrepancy,Base,0.7691320545265539
+204,Observable Response Discrepancy,Base,0.7682847629668133
+300,Channel Accessible by Non-Endpoint,Class,0.7540286460540206
+345,Insufficient Verification of Data Authenticity,Class,0.746386386446532
+205,Observable Behavioral Discrepancy,Base,0.7426342217090444
+668,Exposure of Resource to Wrong Sphere,Class,0.7396917907996011
+319,Cleartext Transmission of Sensitive Information,Base,0.7389996864921083
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7363438912282423
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7342226916484921

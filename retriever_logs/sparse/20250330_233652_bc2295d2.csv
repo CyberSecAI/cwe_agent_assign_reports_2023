@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,7397.679444102996,unknown
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),7266.997632909566,unknown
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),6895.646543295932,unknown
+116,Improper Encoding or Escaping of Output,6872.262731859442,unknown
+138,Improper Neutralization of Special Elements,6862.463898963182,unknown

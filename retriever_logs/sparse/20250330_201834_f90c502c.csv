@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,7842.32950587835,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7022.985925898247,base_query
+1289,Improper Validation of Unsafe Equivalence in Input,7012.194730695024,base_query
+116,Improper Encoding or Escaping of Output,6951.46425884353,base_query
+61,UNIX Symbolic Link (Symlink) Following,6918.47921056965,base_query

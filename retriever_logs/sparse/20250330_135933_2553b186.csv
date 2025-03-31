@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6472.055061054108,unknown
+863,Incorrect Authorization,6123.627832230667,unknown
+1333,Inefficient Regular Expression Complexity,6103.083828806456,unknown
+116,Improper Encoding or Escaping of Output,6043.666462187569,unknown
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),6022.770590411722,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6901.078634418684,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6828.394832176967,base_query
+863,Incorrect Authorization,6647.1771811364315,base_query
+285,Improper Authorization,6559.020164235152,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6508.660948333779,base_query

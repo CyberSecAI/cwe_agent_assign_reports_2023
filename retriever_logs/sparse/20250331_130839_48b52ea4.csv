@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1286,Improper Validation of Syntactic Correctness of Input,8247.049533209407,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8065.19652948948,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,7970.114467647074,base_query
+116,Improper Encoding or Escaping of Output,7936.81524332877,base_query
+472,External Control of Assumed-Immutable Web Parameter,7852.0436027922215,base_query

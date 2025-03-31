@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6680.762846298046,base_query
+138,Improper Neutralization of Special Elements,6558.411102462824,base_query
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),6509.699105527882,base_query
+943,Improper Neutralization of Special Elements in Data Query Logic,6460.220988698197,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6457.145719550674,base_query

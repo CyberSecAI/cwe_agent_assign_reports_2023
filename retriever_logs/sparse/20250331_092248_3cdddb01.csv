@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,5151.959463371242,base_query
+312,Cleartext Storage of Sensitive Information,5130.184933709546,base_query
+532,Insertion of Sensitive Information into Log File,4975.566609517983,base_query
+209,Generation of Error Message Containing Sensitive Information,4932.051744263497,base_query
+639,Authorization Bypass Through User-Controlled Key,4822.201969908725,base_query

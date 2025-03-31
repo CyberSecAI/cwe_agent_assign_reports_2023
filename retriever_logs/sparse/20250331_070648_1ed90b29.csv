@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+823,Use of Out-of-range Pointer Offset,5539.66825591809,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5489.7138759505515,unknown
+125,Out-of-bounds Read,5481.719131061386,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5445.9703451216665,unknown
+190,Integer Overflow or Wraparound,5185.565522198232,unknown

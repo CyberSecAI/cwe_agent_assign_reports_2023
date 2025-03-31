@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+918,Server-Side Request Forgery (SSRF),Base,0.7732582267847705
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7719695978844204
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7711581628988958
+319,Cleartext Transmission of Sensitive Information,Base,0.7707647871395408
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.768107197295856
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7668764592313067
+1391,Use of Weak Credentials,Class,0.7668297815944992
+639,Authorization Bypass Through User-Controlled Key,Base,0.766694773779768
+668,Exposure of Resource to Wrong Sphere,Class,0.7656409009639953
+204,Observable Response Discrepancy,Base,0.7649674744728687

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1007,Insufficient Visual Distinction of Homoglyphs Presented to User,5227.805424762515,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,4925.101268900146,base_query
+1257,Improper Access Control Applied to Mirrored or Aliased Memory Regions,4819.340775411566,base_query
+863,Incorrect Authorization,4736.130665388076,base_query
+639,Authorization Bypass Through User-Controlled Key,4725.774534587347,base_query

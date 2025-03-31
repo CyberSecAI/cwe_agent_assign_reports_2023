@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+457,Use of Uninitialized Variable,Variant,0.8051805568577538
+366,Race Condition within a Thread,Base,0.7806848814998112
+667,Improper Locking,Class,0.7739806252357124
+908,Use of Uninitialized Resource,Base,0.7714626177693931
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7700719455171926
+909,Missing Initialization of Resource,Class,0.7683648977970962
+665,Improper Initialization,Class,0.7646581791936593
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7594878856179879
+824,Access of Uninitialized Pointer,Base,0.7583458251191649
+131,Incorrect Calculation of Buffer Size,Base,0.7565348025667276

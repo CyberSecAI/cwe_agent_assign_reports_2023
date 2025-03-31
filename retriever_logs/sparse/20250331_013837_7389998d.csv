@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,6293.290627279432,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,5869.8379602976265,base_query
+319,Cleartext Transmission of Sensitive Information,5810.025635209184,base_query
+297,Improper Validation of Certificate with Host Mismatch,5797.074843141628,base_query
+300,Channel Accessible by Non-Endpoint,5769.528416408966,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5584.5020371420405,unknown
+415,Double Free,5078.18349018578,unknown
+125,Out-of-bounds Read,5074.928449512754,unknown
+190,Integer Overflow or Wraparound,5039.442621131074,unknown
+843,Access of Resource Using Incompatible Type ('Type Confusion'),5009.583733815797,unknown

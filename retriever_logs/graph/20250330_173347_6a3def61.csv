@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,5.031000000000001,0
+215,Insertion of Sensitive Information Into Debugging Code,base,4.329000000000001,0
+489,Active Debug Code,base,4.329000000000001,0
+494,Download of Code Without Integrity Check,base,4.329000000000001,0
+352,Cross-Site Request Forgery (CSRF),compound,3.1416000000000004,0
+201,Insertion of Sensitive Information Into Sent Data,base,2.8651999999999997,0
+184,Incomplete List of Disallowed Inputs,base,2.8651999999999997,0
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),base,2.821,0
+1272,Sensitive Information Uncleared Before Debug/Power State Transition,base,2.73416,0
+208,Observable Timing Discrepancy,base,2.73416,0

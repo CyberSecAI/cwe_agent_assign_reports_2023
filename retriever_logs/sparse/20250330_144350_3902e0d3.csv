@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,4458.724438059255,base_query
+345,Insufficient Verification of Data Authenticity,4429.593710052125,base_query
+125,Out-of-bounds Read,4379.81278234998,base_query
+347,Improper Verification of Cryptographic Signature,4374.183273851718,base_query
+295,Improper Certificate Validation,4304.096986259998,base_query

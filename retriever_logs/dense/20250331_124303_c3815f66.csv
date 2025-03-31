@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+345,Insufficient Verification of Data Authenticity,Class,0.7680993943126347
+657,Violation of Secure Design Principles,Class,0.7581531396405227
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7537058957095656
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7529274470040644
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7491690883026724
+653,Improper Isolation or Compartmentalization,Class,0.7438813629406557
+274,Improper Handling of Insufficient Privileges,Base,0.743867997632985
+1391,Use of Weak Credentials,Class,0.7430985428633934
+668,Exposure of Resource to Wrong Sphere,Class,0.7407075637977282
+404,Improper Resource Shutdown or Release,Class,0.7406261953913184

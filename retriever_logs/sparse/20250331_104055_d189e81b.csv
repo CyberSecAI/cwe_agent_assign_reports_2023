@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,6540.94811654221,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6199.510654424845,base_query
+312,Cleartext Storage of Sensitive Information,6118.736564172879,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5895.438465254035,base_query
+116,Improper Encoding or Escaping of Output,5799.698592879098,base_query

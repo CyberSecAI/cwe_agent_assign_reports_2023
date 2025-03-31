@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),6075.714786751171,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),6020.164038988935,base_query
+441,Unintended Proxy or Intermediary ('Confused Deputy'),5821.566581941153,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5555.418936224681,base_query
+201,Insertion of Sensitive Information Into Sent Data,5384.386184331035,base_query

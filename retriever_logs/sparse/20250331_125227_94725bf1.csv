@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+197,Numeric Truncation Error,6168.555733986176,unknown
+822,Untrusted Pointer Dereference,5922.654510087075,unknown
+193,Off-by-one Error,5892.583361655768,unknown
+125,Out-of-bounds Read,5844.520050052813,unknown
+190,Integer Overflow or Wraparound,5826.061954092009,unknown

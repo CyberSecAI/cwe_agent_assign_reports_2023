@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7848989356445499
+340,Generation of Predictable Numbers or Identifiers,Class,0.7592038786660552
+131,Incorrect Calculation of Buffer Size,Base,0.7589075601560887
+667,Improper Locking,Class,0.752483337582775
+341,Predictable from Observable State,Base,0.7511447073245319
+191,Integer Underflow (Wrap or Wraparound),Base,0.7507139994936827
+681,Incorrect Conversion between Numeric Types,Base,0.7499553309511187
+125,Out-of-bounds Read,Base,0.7474016887143407
+252,Unchecked Return Value,Base,0.7473007490816691
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7456945329801191

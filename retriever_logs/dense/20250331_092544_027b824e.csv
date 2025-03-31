@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7660559125013875
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7624924481236932
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.759606423675881
+668,Exposure of Resource to Wrong Sphere,Class,0.7576707339286213
+405,Asymmetric Resource Consumption (Amplification),Class,0.7571071084865222
+402,Transmission of Private Resources into a New Sphere ('Resource Leak'),Class,0.7487555638760265
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7474510346981249
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7456078413115426
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7413686966086006
+41,Improper Resolution of Path Equivalence,Base,0.7397776794152296

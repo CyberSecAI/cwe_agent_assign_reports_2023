@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+23,Relative Path Traversal,Base,0.8023497485803157
+41,Improper Resolution of Path Equivalence,Base,0.79600580790627
+36,Absolute Path Traversal,Base,0.7848813991439205
+552,Files or Directories Accessible to External Parties,Base,0.7803178289783932
+425,Direct Request ('Forced Browsing'),Base,0.7794990057974324
+184,Incomplete List of Disallowed Inputs,Base,0.7783750012410269
+73,External Control of File Name or Path,Base,0.7741772610486788
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7722185112413078
+639,Authorization Bypass Through User-Controlled Key,Base,0.7719819224183075
+668,Exposure of Resource to Wrong Sphere,Class,0.7717571265051926

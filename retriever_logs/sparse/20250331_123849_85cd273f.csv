@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,7771.569738953264,unknown
+125,Out-of-bounds Read,7279.567528732672,unknown
+190,Integer Overflow or Wraparound,7243.194844195519,unknown
+1284,Improper Validation of Specified Quantity in Input,7222.95494439211,unknown
+20,Improper Input Validation,7102.795459149033,unknown

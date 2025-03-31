@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+918,Server-Side Request Forgery (SSRF),4508.555501509586,base_query
+476,NULL Pointer Dereference,4456.025564486763,base_query
+1284,Improper Validation of Specified Quantity in Input,4449.618043292563,base_query
+639,Authorization Bypass Through User-Controlled Key,4441.746169551638,base_query
+863,Incorrect Authorization,4432.148860637442,base_query

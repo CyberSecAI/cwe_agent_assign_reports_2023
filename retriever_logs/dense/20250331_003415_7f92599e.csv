@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7770327032316798
+668,Exposure of Resource to Wrong Sphere,Class,0.7685538384754071
+41,Improper Resolution of Path Equivalence,Base,0.7585276405075531
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7557123924607135
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.7547528570625346
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.754204238501028
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7531686713647658
+289,Authentication Bypass by Alternate Name,Base,0.7518073351534849
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7505760837794969
+404,Improper Resource Shutdown or Release,Class,0.7504382918175487

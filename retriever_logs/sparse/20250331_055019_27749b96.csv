@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+798,Use of Hard-coded Credentials,7011.904828400103,unknown
+639,Authorization Bypass Through User-Controlled Key,6765.6674254390255,unknown
+259,Use of Hard-coded Password,6695.142901119353,unknown
+863,Incorrect Authorization,6510.451647500945,unknown
+1299,Missing Protection Mechanism for Alternate Hardware Interface,6506.7079355925825,unknown

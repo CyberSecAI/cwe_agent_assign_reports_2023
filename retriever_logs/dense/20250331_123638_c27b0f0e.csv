@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7661684705908713
+668,Exposure of Resource to Wrong Sphere,Class,0.7631233138691169
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7568429787267279
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7535191334719054
+73,External Control of File Name or Path,Base,0.7530545482692392
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7517375814957271
+1220,Insufficient Granularity of Access Control,Base,0.7504464576499277
+472,External Control of Assumed-Immutable Web Parameter,Base,0.748832106667806
+184,Incomplete List of Disallowed Inputs,Base,0.74702442691839
+552,Files or Directories Accessible to External Parties,Base,0.7463837208783266

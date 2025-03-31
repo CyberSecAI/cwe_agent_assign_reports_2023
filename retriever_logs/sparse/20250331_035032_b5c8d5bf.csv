@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,6190.4244417375585,base_query
+1286,Improper Validation of Syntactic Correctness of Input,5942.153808965312,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5781.782173243114,base_query
+1284,Improper Validation of Specified Quantity in Input,5764.951225318334,base_query
+789,Memory Allocation with Excessive Size Value,5761.030306876164,base_query

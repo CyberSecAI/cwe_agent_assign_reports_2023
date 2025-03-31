@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+190,Integer Overflow or Wraparound,base,4.329000000000001,0
+1284,Improper Validation of Specified Quantity in Input,base,4.329000000000001,0
+787,Out-of-bounds Write,base,4.329000000000001,0
+781,Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code,variant,3.8784,0
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),base,3.6399999999999997,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,3.6399999999999997,0
+170,Improper Null Termination,base,3.5671999999999997,0
+131,Incorrect Calculation of Buffer Size,Base,2.917996327283727,0
+125,Out-of-bounds Read,Base,2.913070828401663,0
+805,Buffer Access with Incorrect Length Value,Base,2.9128291008702574,0

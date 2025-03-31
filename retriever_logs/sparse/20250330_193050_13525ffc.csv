@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1299,Missing Protection Mechanism for Alternate Hardware Interface,7231.6160450625575,unknown
+184,Incomplete List of Disallowed Inputs,6747.148936028389,unknown
+319,Cleartext Transmission of Sensitive Information,6617.0027476722435,unknown
+287,Improper Authentication,6580.264261460777,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6553.124834473807,unknown

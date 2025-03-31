@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+274,Improper Handling of Insufficient Privileges,Base,0.7952772197303298
+653,Improper Isolation or Compartmentalization,Class,0.7773959593558493
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7733484408590521
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.770620529067795
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7653833589080786
+266,Incorrect Privilege Assignment,Base,0.764592953945008
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7623565122503575
+404,Improper Resource Shutdown or Release,Class,0.7594474453097444
+267,Privilege Defined With Unsafe Actions,Base,0.7576609954005412
+668,Exposure of Resource to Wrong Sphere,Class,0.7553767405872769

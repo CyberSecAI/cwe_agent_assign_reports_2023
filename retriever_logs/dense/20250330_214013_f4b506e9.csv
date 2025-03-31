@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+665,Improper Initialization,Class,0.7624188475245444
+404,Improper Resource Shutdown or Release,Class,0.7567857832395812
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7565854149035847
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7557105477010952
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7534491064594067
+667,Improper Locking,Class,0.7496328441935822
+252,Unchecked Return Value,Base,0.7472158475156937
+824,Access of Uninitialized Pointer,Base,0.7470539286736306
+755,Improper Handling of Exceptional Conditions,Class,0.7438120218080415
+909,Missing Initialization of Resource,Class,0.742543788513992

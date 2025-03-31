@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6305.115586645804,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,6275.376239299862,base_query
+285,Improper Authorization,6243.227913528291,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6218.373716375901,base_query
+668,Exposure of Resource to Wrong Sphere,6211.489741119066,base_query

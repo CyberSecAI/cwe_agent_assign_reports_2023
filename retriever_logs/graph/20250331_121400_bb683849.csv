@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,4.329000000000001,0
+73,External Control of File Name or Path,base,4.329000000000001,0
+59,Improper Link Resolution Before File Access ('Link Following'),base,4.329000000000001,0
+259,Use of Hard-coded Password,Variant,2.7118249218516883,0
+321,Use of Hard-coded Cryptographic Key,Variant,2.707114245975713,0
+20,Improper Input Validation,class,2.5519999999999996,0
+257,Storing Passwords in a Recoverable Format,Base,2.510617017190039,0
+798,Use of Hard-coded Credentials,Base,2.50440825770933,0
+344,Use of Invariant Value in Dynamically Changing Context,base,2.4699999999999998,0
+640,Weak Password Recovery Mechanism for Forgotten Password,base,2.4699999999999998,0

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+502,Deserialization of Untrusted Data,4851.981653175801,unknown
+918,Server-Side Request Forgery (SSRF),4820.764170029464,unknown
+425,Direct Request ('Forced Browsing'),4806.572899086424,unknown
+306,Missing Authentication for Critical Function,4762.946460859892,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),4707.409943639093,unknown

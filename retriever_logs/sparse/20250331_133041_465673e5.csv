@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,5117.944976093447,unknown
+285,Improper Authorization,5005.69651847679,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5002.751531852305,unknown
+287,Improper Authentication,4966.337863251993,unknown
+1390,Weak Authentication,4940.164416182132,unknown

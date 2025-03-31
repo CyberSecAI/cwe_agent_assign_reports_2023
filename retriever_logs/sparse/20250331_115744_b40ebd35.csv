@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,6441.885228032432,unknown
+1284,Improper Validation of Specified Quantity in Input,6272.266980022387,unknown
+1333,Inefficient Regular Expression Complexity,6258.043867902767,unknown
+789,Memory Allocation with Excessive Size Value,6250.022701226797,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6249.655041485431,unknown

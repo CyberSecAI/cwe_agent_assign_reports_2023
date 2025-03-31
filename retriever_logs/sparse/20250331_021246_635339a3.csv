@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,4696.824821969539,unknown
+191,Integer Underflow (Wrap or Wraparound),4584.4593582111565,unknown
+1284,Improper Validation of Specified Quantity in Input,4579.938923510105,unknown
+125,Out-of-bounds Read,4546.009763103829,unknown
+190,Integer Overflow or Wraparound,4487.956055219125,unknown

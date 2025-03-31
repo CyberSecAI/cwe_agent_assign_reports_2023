@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+347,Improper Verification of Cryptographic Signature,5540.966261707246,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,5429.991781219165,unknown
+203,Observable Discrepancy,5262.9956814180405,unknown
+757,Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade'),5069.005370182565,unknown
+1390,Weak Authentication,5059.691141972927,unknown

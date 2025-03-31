@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+191,Integer Underflow (Wrap or Wraparound),Base,0.7690379133499493
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7648546985855791
+131,Incorrect Calculation of Buffer Size,Base,0.7633707645039465
+823,Use of Out-of-range Pointer Offset,Base,0.7578336013020939
+125,Out-of-bounds Read,Base,0.7553718071203996
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7541659433418643
+193,Off-by-one Error,Base,0.7493385674569532
+129,Improper Validation of Array Index,Variant,0.748388297319018
+252,Unchecked Return Value,Base,0.7480114362767571
+197,Numeric Truncation Error,Base,0.747120848903937

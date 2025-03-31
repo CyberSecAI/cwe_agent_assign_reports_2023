@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+201,Insertion of Sensitive Information Into Sent Data,base,5.031000000000001,0
+471,Modification of Assumed-Immutable Data (MAID),base,4.329000000000001,0
+836,Use of Password Hash Instead of Password for Authentication,base,3.6399999999999997,0
+209,Generation of Error Message Containing Sensitive Information,base,3.6399999999999997,0
+202,Exposure of Sensitive Information Through Data Queries,base,3.6399999999999997,0
+602,Client-Side Enforcement of Server-Side Security,class,2.984,0
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,2.8980952420161143,0
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,2.8963585805435117,0
+425,Direct Request ('Forced Browsing'),base,2.8651999999999997,0
+73,External Control of File Name or Path,base,2.8651999999999997,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+657,Violation of Secure Design Principles,Class,0.7889704966918819
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7785880248572116
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7715858732585865
+798,Use of Hard-coded Credentials,Base,0.7671664283778419
+345,Insufficient Verification of Data Authenticity,Class,0.7669426711027387
+41,Improper Resolution of Path Equivalence,Base,0.7667862498514435
+1391,Use of Weak Credentials,Class,0.7663094738472128
+653,Improper Isolation or Compartmentalization,Class,0.766154771466333
+184,Incomplete List of Disallowed Inputs,Base,0.7625375050908871
+138,Improper Neutralization of Special Elements,Class,0.7598630620688887

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7883668013323866
+611,Improper Restriction of XML External Entity Reference,Base,0.7843965651547569
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7757985942911082
+41,Improper Resolution of Path Equivalence,Base,0.7655779366753178
+668,Exposure of Resource to Wrong Sphere,Class,0.7595353231767223
+799,Improper Control of Interaction Frequency,Class,0.7589188341414892
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),Base,0.757071677148843
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7558666100207894
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7510774469609425
+204,Observable Response Discrepancy,Base,0.7502937103795249

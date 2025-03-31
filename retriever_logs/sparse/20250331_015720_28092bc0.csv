@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+401,Missing Release of Memory after Effective Lifetime,6120.817829376041,base_query
+770,Allocation of Resources Without Limits or Throttling,6012.193373777,base_query
+754,Improper Check for Unusual or Exceptional Conditions,5919.986374590082,base_query
+789,Memory Allocation with Excessive Size Value,5700.3344659798595,base_query
+400,Uncontrolled Resource Consumption,5610.078636726094,base_query

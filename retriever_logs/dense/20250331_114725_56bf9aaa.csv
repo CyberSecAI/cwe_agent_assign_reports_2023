@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.8156518029617387
+427,Uncontrolled Search Path Element,Base,0.798948419409176
+73,External Control of File Name or Path,Base,0.7863026390203229
+41,Improper Resolution of Path Equivalence,Base,0.7821876999384951
+23,Relative Path Traversal,Base,0.7820489318411443
+552,Files or Directories Accessible to External Parties,Base,0.7659416791155871
+426,Untrusted Search Path,Base,0.7655450384786936
+378,Creation of Temporary File With Insecure Permissions,Base,0.7640075983489732
+379,Creation of Temporary File in Directory with Insecure Permissions,Base,0.7597980426534523
+668,Exposure of Resource to Wrong Sphere,Class,0.7585583591835294

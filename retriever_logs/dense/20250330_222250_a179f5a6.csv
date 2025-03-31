@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+798,Use of Hard-coded Credentials,Base,0.7997247489471279
+1391,Use of Weak Credentials,Class,0.7849658041797288
+312,Cleartext Storage of Sensitive Information,Base,0.782134732275444
+916,Use of Password Hash With Insufficient Computational Effort,Base,0.7710296362615172
+319,Cleartext Transmission of Sensitive Information,Base,0.7661548985590448
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7641959618124359
+259,Use of Hard-coded Password,Variant,0.7612500435988501
+328,Use of Weak Hash,Base,0.7606118172449342
+345,Insufficient Verification of Data Authenticity,Class,0.7549644305357004
+41,Improper Resolution of Path Equivalence,Base,0.7546709793213562

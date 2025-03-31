@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7766930702614643
+345,Insufficient Verification of Data Authenticity,Class,0.7715618785899349
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7698476416157864
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7695768451371207
+274,Improper Handling of Insufficient Privileges,Base,0.7688342637587637
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7685361402286081
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7677219192469811
+1391,Use of Weak Credentials,Class,0.7659987766014762
+203,Observable Discrepancy,Base,0.7655889060073389
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7649307165130188

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,4577.0937369372,unknown
+212,Improper Removal of Sensitive Information Before Storage or Transfer,4537.11993140709,unknown
+285,Improper Authorization,4494.370480748179,unknown
+1004,Sensitive Cookie Without 'HttpOnly' Flag,4474.481695645513,unknown
+201,Insertion of Sensitive Information Into Sent Data,4418.523054746253,unknown

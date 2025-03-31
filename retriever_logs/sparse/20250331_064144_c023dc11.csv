@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,10616.252082698029,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),10210.56821081304,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),10057.27321999316,base_query
+1007,Insufficient Visual Distinction of Homoglyphs Presented to User,9947.406884367956,base_query
+116,Improper Encoding or Escaping of Output,9777.643817131018,base_query

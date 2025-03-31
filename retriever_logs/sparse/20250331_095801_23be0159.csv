@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,5788.355636884866,unknown
+285,Improper Authorization,5714.0399385292785,unknown
+425,Direct Request ('Forced Browsing'),5652.663329310568,unknown
+639,Authorization Bypass Through User-Controlled Key,5604.704073383388,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5575.889662772108,unknown

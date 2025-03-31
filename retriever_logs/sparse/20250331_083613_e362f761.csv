@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+285,Improper Authorization,5363.885910767068,unknown
+1299,Missing Protection Mechanism for Alternate Hardware Interface,5355.558892758412,unknown
+863,Incorrect Authorization,5348.908696627809,unknown
+287,Improper Authentication,5266.936917031856,unknown
+927,Use of Implicit Intent for Sensitive Communication,5204.050795238145,unknown

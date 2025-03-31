@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5700.904472996085,unknown
+415,Double Free,5357.333338153495,unknown
+911,Improper Update of Reference Count,5272.681134137729,unknown
+190,Integer Overflow or Wraparound,5198.839892772811,unknown
+404,Improper Resource Shutdown or Release,5177.094123209687,unknown

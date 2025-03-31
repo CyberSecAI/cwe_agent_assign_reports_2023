@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1299,Missing Protection Mechanism for Alternate Hardware Interface,6903.893910506889,unknown
+259,Use of Hard-coded Password,6464.306166488217,unknown
+798,Use of Hard-coded Credentials,6395.3339761613815,unknown
+306,Missing Authentication for Critical Function,6336.897638705852,unknown
+863,Incorrect Authorization,6307.8384830226,unknown

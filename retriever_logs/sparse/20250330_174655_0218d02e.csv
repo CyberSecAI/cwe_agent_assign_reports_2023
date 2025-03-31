@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,5486.397509249441,unknown
+625,Permissive Regular Expression,5111.108096547515,unknown
+407,Inefficient Algorithmic Complexity,4712.085072089308,unknown
+186,Overly Restrictive Regular Expression,4653.62376398985,unknown
+637,Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism'),4488.5459560685995,unknown

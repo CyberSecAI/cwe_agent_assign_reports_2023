@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7996229397171448
+41,Improper Resolution of Path Equivalence,Base,0.7769083312441943
+334,Small Space of Random Values,Base,0.7720587019575057
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.769467920552642
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7688841144306181
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7655444285468649
+184,Incomplete List of Disallowed Inputs,Base,0.7633634003491172
+138,Improper Neutralization of Special Elements,Class,0.7629081420450953
+23,Relative Path Traversal,Base,0.7622437561488307
+73,External Control of File Name or Path,Base,0.7613683161118051

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7514441708051806
+667,Improper Locking,Class,0.7485912656194326
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7412278308388486
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7384866274605277
+1391,Use of Weak Credentials,Class,0.7330614060209505
+665,Improper Initialization,Class,0.7310403634710037
+404,Improper Resource Shutdown or Release,Class,0.7304195036182053
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7297028532372483
+824,Access of Uninitialized Pointer,Base,0.7296241809363422
+657,Violation of Secure Design Principles,Class,0.7236534030262327

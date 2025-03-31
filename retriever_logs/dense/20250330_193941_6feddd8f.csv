@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7881703080731423
+404,Improper Resource Shutdown or Release,Class,0.7845032764330331
+824,Access of Uninitialized Pointer,Base,0.7829542716471534
+908,Use of Uninitialized Resource,Base,0.776870799012412
+667,Improper Locking,Class,0.7750297571028049
+457,Use of Uninitialized Variable,Variant,0.7731201277967056
+909,Missing Initialization of Resource,Class,0.7719614520954339
+131,Incorrect Calculation of Buffer Size,Base,0.7712303554287958
+823,Use of Out-of-range Pointer Offset,Base,0.7699693320003418
+822,Untrusted Pointer Dereference,Base,0.7696193664761025

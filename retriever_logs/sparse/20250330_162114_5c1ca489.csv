@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,8688.737358360195,base_query
+190,Integer Overflow or Wraparound,8428.3147699876,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8340.13889559958,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,8196.345697011871,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,8191.865446433552,base_query

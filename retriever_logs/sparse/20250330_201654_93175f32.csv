@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,7349.4528346743145,unknown
+1284,Improper Validation of Specified Quantity in Input,7267.044829914604,unknown
+190,Integer Overflow or Wraparound,7249.653136520802,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,7103.67540938963,unknown
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),7044.486394806411,unknown

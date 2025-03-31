@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7787136390839686
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7780189741325447
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),Base,0.771254953412789
+41,Improper Resolution of Path Equivalence,Base,0.76991511262482
+73,External Control of File Name or Path,Base,0.7661052648689786
+184,Incomplete List of Disallowed Inputs,Base,0.7653180685176468
+427,Uncontrolled Search Path Element,Base,0.758266831720124
+61,UNIX Symbolic Link (Symlink) Following,Compound,0.7565522194178064
+138,Improper Neutralization of Special Elements,Class,0.7559879287260849
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7535316150205448

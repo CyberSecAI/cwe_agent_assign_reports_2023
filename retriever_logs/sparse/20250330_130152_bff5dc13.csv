@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+668,Exposure of Resource to Wrong Sphere,6658.069116542185,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,6473.914523494125,base_query
+941,Incorrectly Specified Destination in a Communication Channel,6418.188368464649,base_query
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,6334.850121474435,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,6219.7773343594445,base_query

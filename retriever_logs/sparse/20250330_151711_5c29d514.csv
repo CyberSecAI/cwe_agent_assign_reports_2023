@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,4205.732137763579,unknown
+863,Incorrect Authorization,4203.532877975695,unknown
+285,Improper Authorization,4134.7605973077225,unknown
+1390,Weak Authentication,4102.565393828274,unknown
+639,Authorization Bypass Through User-Controlled Key,4058.8033681192874,unknown

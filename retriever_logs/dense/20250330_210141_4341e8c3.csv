@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7709344396448676
+184,Incomplete List of Disallowed Inputs,Base,0.7486950683817766
+1236,Improper Neutralization of Formula Elements in a CSV File,Base,0.7486617772502837
+138,Improper Neutralization of Special Elements,Class,0.7417667246513089
+668,Exposure of Resource to Wrong Sphere,Class,0.7407456505978474
+41,Improper Resolution of Path Equivalence,Base,0.7381643941787882
+129,Improper Validation of Array Index,Variant,0.7379376698423223
+274,Improper Handling of Insufficient Privileges,Base,0.7375483573489657
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7362307743883139
+407,Inefficient Algorithmic Complexity,Class,0.7358384033542027

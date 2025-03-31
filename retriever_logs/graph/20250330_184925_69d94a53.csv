@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+190,Integer Overflow or Wraparound,base,4.329000000000001,0
+476,NULL Pointer Dereference,base,3.9182000000000006,0
+416,Use After Free,variant,3.52272,0
+1284,Improper Validation of Specified Quantity in Input,base,3.4200400000000006,0
+123,Write-what-where Condition,base,3.359200000000001,0
+120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),base,3.359200000000001,0
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),class,3.096,0
+1339,Insufficient Precision or Accuracy of a Real Number,base,2.9120000000000004,0
+128,Wrap-around Error,base,2.9120000000000004,0
+131,Incorrect Calculation of Buffer Size,Base,2.888104815720033,0

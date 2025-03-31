@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7761525489687222
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7713499075291399
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7684192239668801
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7533207861089886
+943,Improper Neutralization of Special Elements in Data Query Logic,Class,0.7529088603295229
+184,Incomplete List of Disallowed Inputs,Base,0.7488265520605166
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),Base,0.7477771424597519
+116,Improper Encoding or Escaping of Output,Class,0.7462993987742651
+138,Improper Neutralization of Special Elements,Class,0.7451245153799272
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7446021449917932

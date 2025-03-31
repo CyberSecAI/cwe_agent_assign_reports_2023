@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+798,Use of Hard-coded Credentials,5487.246406381077,unknown
+193,Off-by-one Error,5311.154219958561,unknown
+347,Improper Verification of Cryptographic Signature,5290.843274053231,unknown
+863,Incorrect Authorization,5281.340941530282,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5266.58621761139,unknown

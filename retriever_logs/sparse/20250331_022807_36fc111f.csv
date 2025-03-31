@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6495.972386766126,base_query
+116,Improper Encoding or Escaping of Output,6326.957398588167,base_query
+611,Improper Restriction of XML External Entity Reference,6315.176071960741,base_query
+863,Incorrect Authorization,6261.79635931225,base_query
+942,Permissive Cross-domain Policy with Untrusted Domains,6160.5049751221695,base_query

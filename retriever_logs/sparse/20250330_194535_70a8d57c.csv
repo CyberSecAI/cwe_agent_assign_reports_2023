@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),7491.687613265135,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7420.411996199738,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,7412.207807573058,base_query
+116,Improper Encoding or Escaping of Output,7410.212488770949,base_query
+1333,Inefficient Regular Expression Complexity,7001.244857718426,base_query

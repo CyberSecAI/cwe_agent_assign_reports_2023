@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,4600.180462770372,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,4559.350779984975,unknown
+639,Authorization Bypass Through User-Controlled Key,4542.29428344516,unknown
+732,Incorrect Permission Assignment for Critical Resource,4541.57933574312,unknown
+668,Exposure of Resource to Wrong Sphere,4513.186025151628,unknown

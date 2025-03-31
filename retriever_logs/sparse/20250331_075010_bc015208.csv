@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,5660.7020815150145,unknown
+798,Use of Hard-coded Credentials,5490.028781541603,unknown
+863,Incorrect Authorization,5415.5165698106075,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5363.003331958237,unknown
+306,Missing Authentication for Critical Function,5353.412691915245,unknown

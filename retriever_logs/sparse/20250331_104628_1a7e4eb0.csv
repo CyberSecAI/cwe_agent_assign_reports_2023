@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,5485.05283946837,unknown
+203,Observable Discrepancy,5218.6651314755745,unknown
+1284,Improper Validation of Specified Quantity in Input,5047.159772960765,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5046.430342089815,unknown
+927,Use of Implicit Intent for Sensitive Communication,5037.132787665813,unknown

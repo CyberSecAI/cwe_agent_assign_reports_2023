@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,6189.835434296189,unknown
+770,Allocation of Resources Without Limits or Throttling,5645.958326557841,unknown
+863,Incorrect Authorization,5626.390359665733,unknown
+406,Insufficient Control of Network Message Volume (Network Amplification),5623.3045491508165,unknown
+927,Use of Implicit Intent for Sensitive Communication,5544.887525734787,unknown

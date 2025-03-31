@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7698022051411035
+404,Improper Resource Shutdown or Release,Class,0.7656498166089636
+909,Missing Initialization of Resource,Class,0.7579109473763088
+131,Incorrect Calculation of Buffer Size,Base,0.7563100264178506
+667,Improper Locking,Class,0.7559030280048424
+665,Improper Initialization,Class,0.7534795960760239
+197,Numeric Truncation Error,Base,0.7521188301780133
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7455739356957322
+191,Integer Underflow (Wrap or Wraparound),Base,0.7450601085113793
+170,Improper Null Termination,Base,0.7443842860309979

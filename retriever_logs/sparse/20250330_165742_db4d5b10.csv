@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5310.948332283593,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,4779.422437868795,unknown
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,4667.005813245389,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),4459.639146233061,unknown
+201,Insertion of Sensitive Information Into Sent Data,4407.472621345792,unknown

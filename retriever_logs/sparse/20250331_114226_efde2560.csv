@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+226,Sensitive Information in Resource Not Removed Before Reuse,5291.25548291024,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5221.177094155881,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5099.678600891122,base_query
+125,Out-of-bounds Read,5096.053205669973,base_query
+822,Untrusted Pointer Dereference,5078.513777318491,base_query

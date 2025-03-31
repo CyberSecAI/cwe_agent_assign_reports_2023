@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1385,Missing Origin Validation in WebSockets,5467.975452905068,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5339.081672945455,base_query
+295,Improper Certificate Validation,5190.352377246063,base_query
+863,Incorrect Authorization,5026.020341649449,base_query
+346,Origin Validation Error,4992.82124984193,base_query

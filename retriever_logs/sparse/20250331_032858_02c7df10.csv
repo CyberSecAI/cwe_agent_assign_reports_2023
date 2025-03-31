@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,7633.8218926790605,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,7518.105447809262,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7489.813107474717,unknown
+116,Improper Encoding or Escaping of Output,7462.531185531209,unknown
+863,Incorrect Authorization,7377.781114885479,unknown

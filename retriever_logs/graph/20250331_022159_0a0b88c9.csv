@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+259,Use of Hard-coded Password,variant,4.5264,0
+472,External Control of Assumed-Immutable Web Parameter,base,4.329000000000001,0
+1291,Public Key Re-Use for Signing both Debug and Production Code,base,3.6399999999999997,0
+603,Use of Client-Side Authentication,base,3.6399999999999997,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+321,Use of Hard-coded Cryptographic Key,Variant,3.0135376918963868,0
+798,Use of Hard-coded Credentials,Base,2.4881688849983874,0
+344,Use of Invariant Value in Dynamically Changing Context,base,2.4699999999999998,0
+613,Insufficient Session Expiration,base,2.2100000000000004,0
+208,Observable Timing Discrepancy,base,2.2100000000000004,0

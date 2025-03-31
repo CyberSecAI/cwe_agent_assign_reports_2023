@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,5200.810642561268,unknown
+476,NULL Pointer Dereference,5187.625941354282,unknown
+190,Integer Overflow or Wraparound,5143.861223607495,unknown
+1325,Improperly Controlled Sequential Memory Allocation,5111.495725565463,unknown
+789,Memory Allocation with Excessive Size Value,5096.340735066812,unknown

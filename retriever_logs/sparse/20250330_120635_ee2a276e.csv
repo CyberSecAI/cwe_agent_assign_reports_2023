@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,6125.934481967542,base_query
+1284,Improper Validation of Specified Quantity in Input,6093.629280870966,base_query
+863,Incorrect Authorization,6091.920633159728,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6088.0670066923885,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6062.094617292052,base_query

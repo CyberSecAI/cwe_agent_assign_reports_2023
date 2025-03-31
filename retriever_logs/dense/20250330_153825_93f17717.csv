@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+606,Unchecked Input for Loop Condition,Base,0.7408587343943106
+41,Improper Resolution of Path Equivalence,Base,0.7292108844147316
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),Base,0.726242651822061
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7227054306088175
+691,Insufficient Control Flow Management,Pillar,0.7145146044048184
+834,Excessive Iteration,Class,0.7099692824988235
+184,Incomplete List of Disallowed Inputs,Base,0.707567739172731
+170,Improper Null Termination,Base,0.7073336630860941
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7063129599799643
+73,External Control of File Name or Path,Base,0.7055650670043421

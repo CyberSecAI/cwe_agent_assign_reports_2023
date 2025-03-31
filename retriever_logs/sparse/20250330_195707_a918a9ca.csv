@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,8171.511611371335,base_query
+99,Improper Control of Resource Identifiers ('Resource Injection'),7698.862671221172,base_query
+639,Authorization Bypass Through User-Controlled Key,7633.222846774489,base_query
+863,Incorrect Authorization,7614.895944098407,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7603.75723546348,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,7670.795362361489,unknown
+789,Memory Allocation with Excessive Size Value,7483.289390065158,unknown
+1284,Improper Validation of Specified Quantity in Input,7398.5207081621875,unknown
+770,Allocation of Resources Without Limits or Throttling,7335.096175030144,unknown
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7334.736067375012,unknown

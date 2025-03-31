@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+345,Insufficient Verification of Data Authenticity,Class,0.7784188871063722
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.753835231536301
+668,Exposure of Resource to Wrong Sphere,Class,0.7524554086717441
+203,Observable Discrepancy,Base,0.7472415145391331
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7469592194524282
+657,Violation of Secure Design Principles,Class,0.7466435025134186
+295,Improper Certificate Validation,Base,0.7466083059225153
+1391,Use of Weak Credentials,Class,0.7458444562804346
+330,Use of Insufficiently Random Values,Class,0.7455904187604864
+328,Use of Weak Hash,Base,0.7450871683056576

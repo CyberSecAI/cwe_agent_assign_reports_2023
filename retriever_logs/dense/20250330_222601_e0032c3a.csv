@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1220,Insufficient Granularity of Access Control,Base,0.7713398747015461
+274,Improper Handling of Insufficient Privileges,Base,0.7575196944982007
+653,Improper Isolation or Compartmentalization,Class,0.7564146092497144
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.75452886373622
+691,Insufficient Control Flow Management,Pillar,0.7481596080028547
+668,Exposure of Resource to Wrong Sphere,Class,0.7464080445331375
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7428920289359442
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7425647076452275
+799,Improper Control of Interaction Frequency,Class,0.7421867299471561
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7403911021280061

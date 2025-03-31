@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6063.511332721575,unknown
+319,Cleartext Transmission of Sensitive Information,5861.645426527693,unknown
+668,Exposure of Resource to Wrong Sphere,5856.699271397204,unknown
+226,Sensitive Information in Resource Not Removed Before Reuse,5803.838185058903,unknown
+201,Insertion of Sensitive Information Into Sent Data,5753.887706624731,unknown

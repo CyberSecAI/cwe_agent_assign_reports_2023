@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7572430258752731
+653,Improper Isolation or Compartmentalization,Class,0.7558398224883716
+41,Improper Resolution of Path Equivalence,Base,0.754307125022879
+693,Protection Mechanism Failure,Pillar,0.7520276740476087
+691,Insufficient Control Flow Management,Pillar,0.750449883216148
+667,Improper Locking,Class,0.748838984178553
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7477132851906948
+345,Insufficient Verification of Data Authenticity,Class,0.7466865722820133
+73,External Control of File Name or Path,Base,0.7430153007754917
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7419583977102175

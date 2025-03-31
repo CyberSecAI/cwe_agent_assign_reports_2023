@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,6946.666002417357,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5966.040199571322,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),5859.9607407723415,unknown
+1333,Inefficient Regular Expression Complexity,5819.552709104095,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),5816.900542714383,unknown

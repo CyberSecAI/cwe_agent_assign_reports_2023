@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),5435.942841544786,unknown
+1333,Inefficient Regular Expression Complexity,5433.128824886669,unknown
+863,Incorrect Authorization,5430.700880231675,unknown
+942,Permissive Cross-domain Policy with Untrusted Domains,5344.881589940263,unknown
+668,Exposure of Resource to Wrong Sphere,5270.377757311077,unknown

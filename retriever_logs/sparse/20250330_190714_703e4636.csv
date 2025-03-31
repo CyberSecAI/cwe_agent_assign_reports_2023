@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6629.918751382305,unknown
+863,Incorrect Authorization,6589.74999648746,unknown
+668,Exposure of Resource to Wrong Sphere,6531.709830264199,unknown
+639,Authorization Bypass Through User-Controlled Key,6490.846094832628,unknown
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),6460.6588905143835,unknown

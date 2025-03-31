@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),5738.501414788731,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5398.807372656816,unknown
+287,Improper Authentication,5398.177133525375,unknown
+863,Incorrect Authorization,5366.622186438521,unknown
+1390,Weak Authentication,5347.361175325759,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,6539.798745110134,base_query
+190,Integer Overflow or Wraparound,6425.471401202407,base_query
+667,Improper Locking,6388.431680887702,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6262.704658337141,base_query
+125,Out-of-bounds Read,6259.517733045325,base_query

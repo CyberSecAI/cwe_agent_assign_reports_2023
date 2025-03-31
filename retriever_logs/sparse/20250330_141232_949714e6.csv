@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,8159.466933961445,unknown
+125,Out-of-bounds Read,7954.387041390281,unknown
+259,Use of Hard-coded Password,7952.282545164635,unknown
+798,Use of Hard-coded Credentials,7940.314179637491,unknown
+1284,Improper Validation of Specified Quantity in Input,7730.646801451691,unknown

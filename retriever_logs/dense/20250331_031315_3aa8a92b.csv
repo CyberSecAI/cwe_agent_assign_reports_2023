@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+191,Integer Underflow (Wrap or Wraparound),Base,0.7261498945150291
+124,Buffer Underwrite ('Buffer Underflow'),Base,0.7250714701875787
+805,Buffer Access with Incorrect Length Value,Base,0.7224428906439884
+606,Unchecked Input for Loop Condition,Base,0.7217498230035782
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7210648504031348
+193,Off-by-one Error,Base,0.7161099612909911
+131,Incorrect Calculation of Buffer Size,Base,0.7136272059461164
+680,Integer Overflow to Buffer Overflow,Compound,0.7106987180165373
+674,Uncontrolled Recursion,Class,0.7099186087023284
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),Base,0.709879336310113

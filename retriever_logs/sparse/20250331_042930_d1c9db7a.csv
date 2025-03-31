@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,4802.951695485605,base_query
+863,Incorrect Authorization,4794.61337489621,base_query
+927,Use of Implicit Intent for Sensitive Communication,4752.276313765562,base_query
+203,Observable Discrepancy,4673.678792902778,base_query
+667,Improper Locking,4656.202807365427,base_query

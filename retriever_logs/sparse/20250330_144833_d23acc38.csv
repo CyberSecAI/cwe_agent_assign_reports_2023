@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1256,Improper Restriction of Software Interfaces to Hardware Features,4342.718070803429,unknown
+782,Exposed IOCTL with Insufficient Access Control,4045.489858467939,unknown
+1220,Insufficient Granularity of Access Control,4019.2938753363924,unknown
+863,Incorrect Authorization,3969.7603652939974,unknown
+639,Authorization Bypass Through User-Controlled Key,3936.7156627542486,unknown

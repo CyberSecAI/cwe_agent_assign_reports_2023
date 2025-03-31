@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+674,Uncontrolled Recursion,Class,0.7564428308054892
+667,Improper Locking,Class,0.7465332907454977
+131,Incorrect Calculation of Buffer Size,Base,0.7441139064254272
+125,Out-of-bounds Read,Base,0.7433435448809428
+404,Improper Resource Shutdown or Release,Class,0.7431623917248591
+668,Exposure of Resource to Wrong Sphere,Class,0.7422247492738929
+197,Numeric Truncation Error,Base,0.7368435597611789
+191,Integer Underflow (Wrap or Wraparound),Base,0.7363036754735677
+41,Improper Resolution of Path Equivalence,Base,0.7352421649478318
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7349676913696699

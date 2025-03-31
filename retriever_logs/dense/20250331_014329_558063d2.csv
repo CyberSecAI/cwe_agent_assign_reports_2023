@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+208,Observable Timing Discrepancy,Base,0.8052841486724647
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7879605924107779
+41,Improper Resolution of Path Equivalence,Base,0.768583228977315
+330,Use of Insufficiently Random Values,Class,0.7674843721965013
+667,Improper Locking,Class,0.7665764962597101
+203,Observable Discrepancy,Base,0.764683070024179
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7629634085723797
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7621687175629492
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7620501578312118
+697,Incorrect Comparison,Pillar,0.7598312551598789

@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+201,Insertion of Sensitive Information Into Sent Data,base,5.031000000000001,0
+202,Exposure of Sensitive Information Through Data Queries,base,3.6399999999999997,0
+209,Generation of Error Message Containing Sensitive Information,base,3.6399999999999997,0
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,2.8993482902428096,0
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,2.8977183315329245,0
+1272,Sensitive Information Uncleared Before Debug/Power State Transition,base,2.8651999999999997,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+116,Improper Encoding or Escaping of Output,class,2.5519999999999996,0
+1230,Exposure of Sensitive Information Through Metadata,base,2.4699999999999998,0
+612,Improper Authorization of Index Containing Sensitive Information,base,2.4699999999999998,0

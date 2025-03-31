@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,5086.6423475341635,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),4898.561866146062,base_query
+617,Reachable Assertion,4765.157810789168,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4749.248974681328,base_query
+754,Improper Check for Unusual or Exceptional Conditions,4711.172212341246,base_query

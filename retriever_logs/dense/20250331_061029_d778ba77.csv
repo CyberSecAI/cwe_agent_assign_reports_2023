@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7789822778021345
+404,Improper Resource Shutdown or Release,Class,0.7737009920431008
+1021,Improper Restriction of Rendered UI Layers or Frames,Base,0.7687136860948165
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7675398625630042
+667,Improper Locking,Class,0.7671387662977813
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7645213211964541
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7619835154710919
+665,Improper Initialization,Class,0.7527159337025662
+668,Exposure of Resource to Wrong Sphere,Class,0.7521994558108216
+653,Improper Isolation or Compartmentalization,Class,0.7512129469407323

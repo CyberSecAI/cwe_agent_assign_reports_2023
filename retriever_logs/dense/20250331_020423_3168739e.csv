@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+345,Insufficient Verification of Data Authenticity,Class,0.7596223169035137
+1204,Generation of Weak Initialization Vector (IV),Base,0.7550923858525144
+1391,Use of Weak Credentials,Class,0.7520022944447683
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7517452987258361
+330,Use of Insufficiently Random Values,Class,0.7464958950223695
+203,Observable Discrepancy,Base,0.7419248405129482
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7400312451983762
+657,Violation of Secure Design Principles,Class,0.7398904864019099
+331,Insufficient Entropy,Base,0.7380976786999087
+295,Improper Certificate Validation,Base,0.7364669397891647

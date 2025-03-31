@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,6344.532152806082,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6340.323531080626,base_query
+611,Improper Restriction of XML External Entity Reference,6132.636851097134,base_query
+1390,Weak Authentication,6110.354443550227,base_query
+287,Improper Authentication,6033.868309626341,base_query

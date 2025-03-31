@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6562.272638415778,unknown
+285,Improper Authorization,6520.487481242041,unknown
+639,Authorization Bypass Through User-Controlled Key,6264.843959436128,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6232.907459651934,unknown
+862,Missing Authorization,6222.010460638087,unknown

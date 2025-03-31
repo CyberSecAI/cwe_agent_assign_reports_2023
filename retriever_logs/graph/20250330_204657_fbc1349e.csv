@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+499,Serializable Class Containing Sensitive Data,variant,3.8784,0
+441,Unintended Proxy or Intermediary ('Confused Deputy'),class,2.984,0
+386,Symbolic Name not Mapping to Correct Object,base,2.9005600000000005,0
+322,Key Exchange without Entity Authentication,base,2.8651999999999997,0
+201,Insertion of Sensitive Information Into Sent Data,base,2.821,0
+498,Cloneable Class Containing Sensitive Information,variant,2.6784000000000003,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+350,Reliance on Reverse DNS Resolution for a Security-Critical Action,variant,2.5507200000000005,0
+611,Improper Restriction of XML External Entity Reference,Base,2.5025429242048403,0
+256,Plaintext Storage of a Password,base,2.4699999999999998,0

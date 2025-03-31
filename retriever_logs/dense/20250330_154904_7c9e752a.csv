@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+191,Integer Underflow (Wrap or Wraparound),Base,0.7762873256689273
+667,Improper Locking,Class,0.7686329301733054
+131,Incorrect Calculation of Buffer Size,Base,0.7685770682874535
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.763434210444123
+125,Out-of-bounds Read,Base,0.7624181051335247
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7610211569731692
+193,Off-by-one Error,Base,0.7593469732973697
+404,Improper Resource Shutdown or Release,Class,0.7590880467606321
+129,Improper Validation of Array Index,Variant,0.7587616399979402
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7579955767991768

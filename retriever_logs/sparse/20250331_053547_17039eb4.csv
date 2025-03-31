@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6594.751232922585,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6528.241055903783,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,6341.073816122687,base_query
+23,Relative Path Traversal,6258.904511949381,base_query
+918,Server-Side Request Forgery (SSRF),6250.167459074892,base_query

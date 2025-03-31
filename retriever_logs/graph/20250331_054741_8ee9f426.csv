@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+209,Generation of Error Message Containing Sensitive Information,base,3.6399999999999997,0
+201,Insertion of Sensitive Information Into Sent Data,base,3.6399999999999997,0
+202,Exposure of Sensitive Information Through Data Queries,base,3.6399999999999997,0
+502,Deserialization of Untrusted Data,base,3.6399999999999997,0
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,base,3.6399999999999997,0
+184,Incomplete List of Disallowed Inputs,base,2.831400000000001,0
+472,External Control of Assumed-Immutable Web Parameter,base,2.821,0
+325,Missing Cryptographic Step,base,2.7742,0
+208,Observable Timing Discrepancy,base,2.73416,0
+183,Permissive List of Allowed Inputs,base,2.6104000000000003,0

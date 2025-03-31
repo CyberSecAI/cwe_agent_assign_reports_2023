@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+799,Improper Control of Interaction Frequency,Class,0.7786893745773891
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7725928284736828
+653,Improper Isolation or Compartmentalization,Class,0.768376492135691
+41,Improper Resolution of Path Equivalence,Base,0.7644412259293889
+668,Exposure of Resource to Wrong Sphere,Class,0.7639655439858468
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7629056715266718
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7628250949701354
+73,External Control of File Name or Path,Base,0.7579185126536314
+300,Channel Accessible by Non-Endpoint,Class,0.7578080520739239
+184,Incomplete List of Disallowed Inputs,Base,0.7575471623858263

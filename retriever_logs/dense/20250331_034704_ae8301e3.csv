@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+693,Protection Mechanism Failure,Pillar,0.7703628802583403
+668,Exposure of Resource to Wrong Sphere,Class,0.7653790492545662
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7607998261336059
+552,Files or Directories Accessible to External Parties,Base,0.7604159814598612
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7485380089229988
+73,External Control of File Name or Path,Base,0.7479385815820732
+41,Improper Resolution of Path Equivalence,Base,0.7475009424487479
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7463094068883218
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7447280639131838
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7447199031104377

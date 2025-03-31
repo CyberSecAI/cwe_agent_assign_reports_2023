@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6452.566293421712,base_query
+285,Improper Authorization,6404.045766018487,base_query
+667,Improper Locking,6345.462352094911,base_query
+668,Exposure of Resource to Wrong Sphere,6345.391430890028,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6312.3333155513965,base_query

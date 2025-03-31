@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+425,Direct Request ('Forced Browsing'),6336.943045781578,base_query
+306,Missing Authentication for Critical Function,6291.930055931368,base_query
+863,Incorrect Authorization,6245.840505235837,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6232.1269988339645,base_query
+287,Improper Authentication,6211.282488617588,base_query

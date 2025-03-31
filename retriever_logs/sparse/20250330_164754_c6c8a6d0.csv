@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,6777.843730545292,unknown
+1284,Improper Validation of Specified Quantity in Input,6458.895928485262,unknown
+125,Out-of-bounds Read,6444.694393155944,unknown
+863,Incorrect Authorization,6330.068307422135,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6251.750802461236,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+697,Incorrect Comparison,Pillar,0.7510600860818746
+1254,Incorrect Comparison Logic Granularity,Base,0.7407740287871125
+1025,Comparison Using Wrong Factors,Base,0.7284246668582821
+41,Improper Resolution of Path Equivalence,Base,0.7212115568292128
+668,Exposure of Resource to Wrong Sphere,Class,0.7203111947807023
+1023,Incomplete Comparison with Missing Factors,Class,0.7163739672273859
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7084578618477577
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.705359484696027
+682,Incorrect Calculation,Pillar,0.7035541941702393
+187,Partial String Comparison,Variant,0.701796010323422

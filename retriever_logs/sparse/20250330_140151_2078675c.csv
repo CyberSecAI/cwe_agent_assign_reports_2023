@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,6426.139943404299,unknown
+1284,Improper Validation of Specified Quantity in Input,6383.008027591071,unknown
+789,Memory Allocation with Excessive Size Value,6290.528414075793,unknown
+863,Incorrect Authorization,6120.284770193435,unknown
+190,Integer Overflow or Wraparound,6112.077946506091,unknown

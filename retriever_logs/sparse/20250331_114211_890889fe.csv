@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,6892.917979660237,unknown
+639,Authorization Bypass Through User-Controlled Key,6884.0018577300425,unknown
+319,Cleartext Transmission of Sensitive Information,6876.956461233106,unknown
+212,Improper Removal of Sensitive Information Before Storage or Transfer,6837.291682385345,unknown
+226,Sensitive Information in Resource Not Removed Before Reuse,6677.55842781572,unknown

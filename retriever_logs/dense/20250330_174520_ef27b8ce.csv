@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+799,Improper Control of Interaction Frequency,Class,0.7628340090221586
+668,Exposure of Resource to Wrong Sphere,Class,0.7555931928041065
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7501658357192758
+1220,Insufficient Granularity of Access Control,Base,0.7496680412710961
+405,Asymmetric Resource Consumption (Amplification),Class,0.7488053517748304
+404,Improper Resource Shutdown or Release,Class,0.7475309585642302
+330,Use of Insufficiently Random Values,Class,0.7474668174555247
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7465336253000313
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7449201329955542
+653,Improper Isolation or Compartmentalization,Class,0.741936016319496

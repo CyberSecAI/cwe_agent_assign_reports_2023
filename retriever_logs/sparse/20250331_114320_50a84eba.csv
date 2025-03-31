@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1423,Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution,6007.554760408273,base_query
+823,Use of Out-of-range Pointer Offset,5529.834709721561,base_query
+125,Out-of-bounds Read,5496.022627925584,base_query
+863,Incorrect Authorization,5269.310636177642,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5249.886788089945,base_query

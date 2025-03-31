@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7696159450596378
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7660418311833594
+668,Exposure of Resource to Wrong Sphere,Class,0.7612748662369242
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7570423795166328
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7563635178415073
+276,Incorrect Default Permissions,Base,0.7545641563543053
+552,Files or Directories Accessible to External Parties,Base,0.7536705330032543
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7495426989015963
+274,Improper Handling of Insufficient Privileges,Base,0.7488349930101688
+266,Incorrect Privilege Assignment,Base,0.7462178573720339

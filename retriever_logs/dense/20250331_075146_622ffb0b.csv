@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7665830157525801
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7589520142603717
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7570166713158815
+441,Unintended Proxy or Intermediary ('Confused Deputy'),Class,0.7533490054948471
+668,Exposure of Resource to Wrong Sphere,Class,0.7529572813222548
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7523112761204501
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7520786653217305
+653,Improper Isolation or Compartmentalization,Class,0.7501782161433183
+319,Cleartext Transmission of Sensitive Information,Base,0.7493552699236974
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7487649726736847

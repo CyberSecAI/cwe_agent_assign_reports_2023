@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+625,Permissive Regular Expression,Base,0.7664532177120714
+131,Incorrect Calculation of Buffer Size,Base,0.75078160224008
+129,Improper Validation of Array Index,Variant,0.7500756593800035
+674,Uncontrolled Recursion,Class,0.7474358680205747
+191,Integer Underflow (Wrap or Wraparound),Base,0.7435632629110952
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7427874847960159
+185,Incorrect Regular Expression,Class,0.7407287564258973
+126,Buffer Over-read,Variant,0.7394032106882507
+186,Overly Restrictive Regular Expression,Base,0.7379497691044867
+407,Inefficient Algorithmic Complexity,Class,0.7364936232755115

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,5567.455232630684,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),5479.558555511628,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5469.243204030898,unknown
+732,Incorrect Permission Assignment for Critical Resource,5465.1107458584875,unknown
+863,Incorrect Authorization,5428.61179725495,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,6628.947916337212,unknown
+190,Integer Overflow or Wraparound,6580.035252317997,unknown
+1284,Improper Validation of Specified Quantity in Input,6531.847136023539,unknown
+184,Incomplete List of Disallowed Inputs,6471.382008934964,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6389.922021598887,unknown

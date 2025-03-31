@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+204,Observable Response Discrepancy,Base,0.7860621256595841
+303,Incorrect Implementation of Authentication Algorithm,Base,0.777565089940659
+345,Insufficient Verification of Data Authenticity,Class,0.7764272049532714
+208,Observable Timing Discrepancy,Base,0.7749736181644644
+203,Observable Discrepancy,Base,0.7719303369990472
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7624563418316497
+668,Exposure of Resource to Wrong Sphere,Class,0.7616828607649615
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7593769048627327
+1390,Weak Authentication,Class,0.7585839312524145
+1391,Use of Weak Credentials,Class,0.7545384924927024

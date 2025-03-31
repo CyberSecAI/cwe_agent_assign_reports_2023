@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+184,Incomplete List of Disallowed Inputs,Base,0.7819038230637436
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7803192428360575
+23,Relative Path Traversal,Base,0.7780992876233711
+183,Permissive List of Allowed Inputs,Base,0.7767326294772825
+73,External Control of File Name or Path,Base,0.7707602283949689
+41,Improper Resolution of Path Equivalence,Base,0.7677231640851722
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7667146653354209
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7653354483596351
+36,Absolute Path Traversal,Base,0.7635049349029442
+138,Improper Neutralization of Special Elements,Class,0.7591701609543375

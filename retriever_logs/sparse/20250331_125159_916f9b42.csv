@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+59,Improper Link Resolution Before File Access ('Link Following'),7458.857014131226,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7227.904072376737,base_query
+379,Creation of Temporary File in Directory with Insecure Permissions,7199.09235044458,base_query
+378,Creation of Temporary File With Insecure Permissions,7180.138618316682,base_query
+203,Observable Discrepancy,7106.754173020833,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),4604.526195640301,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,4598.831214806227,unknown
+1394,Use of Default Cryptographic Key,4586.542270585927,unknown
+326,Inadequate Encryption Strength,4434.5365512556,unknown
+472,External Control of Assumed-Immutable Web Parameter,4324.853222349085,unknown

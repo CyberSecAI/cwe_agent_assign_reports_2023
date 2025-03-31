@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+799,Improper Control of Interaction Frequency,Class,0.7971089138492796
+405,Asymmetric Resource Consumption (Amplification),Class,0.7607535562356709
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7570239140346782
+208,Observable Timing Discrepancy,Base,0.7531953325850118
+203,Observable Discrepancy,Base,0.7505198021497237
+667,Improper Locking,Class,0.7489848534500984
+131,Incorrect Calculation of Buffer Size,Base,0.7488997885882113
+755,Improper Handling of Exceptional Conditions,Class,0.7485324824659387
+668,Exposure of Resource to Wrong Sphere,Class,0.7466715193592522
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.746119575421251

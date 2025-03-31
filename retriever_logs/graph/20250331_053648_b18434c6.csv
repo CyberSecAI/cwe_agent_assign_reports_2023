@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+805,Buffer Access with Incorrect Length Value,base,4.329000000000001,0
+193,Off-by-one Error,base,4.329000000000001,0
+322,Key Exchange without Entity Authentication,base,3.5671999999999997,0
+126,Buffer Over-read,variant,3.4704,0
+787,Out-of-bounds Write,base,3.302,0
+1284,Improper Validation of Specified Quantity in Input,base,3.06904,0
+131,Incorrect Calculation of Buffer Size,Base,2.9084137174026963,0
+130,Improper Handling of Length Parameter Inconsistency,Base,2.905832805061607,0
+1257,Improper Access Control Applied to Mirrored or Aliased Memory Regions,base,2.8651999999999997,0
+1260,Improper Handling of Overlap Between Protected Memory Ranges,base,2.8651999999999997,0

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1256,Improper Restriction of Software Interfaces to Hardware Features,4802.887595098839,base_query
+863,Incorrect Authorization,4680.322551491112,base_query
+732,Incorrect Permission Assignment for Critical Resource,4667.910599605724,base_query
+639,Authorization Bypass Through User-Controlled Key,4606.711433981038,base_query
+668,Exposure of Resource to Wrong Sphere,4595.934087639579,base_query

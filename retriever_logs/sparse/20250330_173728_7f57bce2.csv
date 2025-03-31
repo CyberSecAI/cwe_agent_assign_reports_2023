@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1204,Generation of Weak Initialization Vector (IV),5165.431442290575,unknown
+203,Observable Discrepancy,4911.153746494975,unknown
+329,Generation of Predictable IV with CBC Mode,4831.326862335894,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,4819.775886726151,unknown
+1240,Use of a Cryptographic Primitive with a Risky Implementation,4709.026970982087,unknown

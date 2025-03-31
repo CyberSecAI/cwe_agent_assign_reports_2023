@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7548752364779783
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7479579153682172
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Base,0.743703005840329
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7425660740914009
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7312577089260488
+691,Insufficient Control Flow Management,Pillar,0.7302248560503841
+1220,Insufficient Granularity of Access Control,Base,0.7299966680395047
+653,Improper Isolation or Compartmentalization,Class,0.7281613016511943
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.726198545314477
+749,Exposed Dangerous Method or Function,Base,0.7260592332786815

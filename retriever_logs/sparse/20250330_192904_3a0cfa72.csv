@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+667,Improper Locking,6432.785629302083,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6339.847646760248,unknown
+1284,Improper Validation of Specified Quantity in Input,6307.642105788794,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6304.369771477341,unknown
+770,Allocation of Resources Without Limits or Throttling,6207.8989273008965,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7702642163616666
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7584114331154075
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7582155558767577
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7550836669106569
+639,Authorization Bypass Through User-Controlled Key,Base,0.748332871246876
+668,Exposure of Resource to Wrong Sphere,Class,0.74435469936514
+1220,Insufficient Granularity of Access Control,Base,0.7431021996643342
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7421822997161406
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7419154473840543
+552,Files or Directories Accessible to External Parties,Base,0.7404611003564776

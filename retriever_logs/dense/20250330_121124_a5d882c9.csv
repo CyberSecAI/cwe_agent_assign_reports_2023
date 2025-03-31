@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7663477233431305
+404,Improper Resource Shutdown or Release,Class,0.764298990827199
+405,Asymmetric Resource Consumption (Amplification),Class,0.7608357497022902
+799,Improper Control of Interaction Frequency,Class,0.7598451593124413
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7581136724719988
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7569572172942645
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7564956421685929
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.756035291915143
+668,Exposure of Resource to Wrong Sphere,Class,0.7556320149206247
+789,Memory Allocation with Excessive Size Value,Variant,0.7507854870062505

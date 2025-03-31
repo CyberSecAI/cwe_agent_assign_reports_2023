@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7770168110792819
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7500134000404067
+41,Improper Resolution of Path Equivalence,Base,0.7477697168367122
+184,Incomplete List of Disallowed Inputs,Base,0.7476998276893969
+183,Permissive List of Allowed Inputs,Base,0.7404962398350008
+191,Integer Underflow (Wrap or Wraparound),Base,0.7399919917257803
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7398181447377437
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7396604957556047
+1288,Improper Validation of Consistency within Input,Base,0.7395521666414295
+131,Incorrect Calculation of Buffer Size,Base,0.7394592423799691

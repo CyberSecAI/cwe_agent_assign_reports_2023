@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+407,Inefficient Algorithmic Complexity,2138.129627353423,base_query
+1333,Inefficient Regular Expression Complexity,2048.9705067991254,base_query
+1284,Improper Validation of Specified Quantity in Input,2018.0619905982862,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),1949.6850898460464,base_query
+347,Improper Verification of Cryptographic Signature,1893.561349645271,base_query

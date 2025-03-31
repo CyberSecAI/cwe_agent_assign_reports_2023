@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7667111127197406
+693,Protection Mechanism Failure,Pillar,0.7653689604309826
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7550219210925222
+668,Exposure of Resource to Wrong Sphere,Class,0.7488803741837696
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7457881896023812
+312,Cleartext Storage of Sensitive Information,Base,0.7446441633031676
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7428432393708688
+1391,Use of Weak Credentials,Class,0.7426461558055244
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.741701422042643
+1390,Weak Authentication,Class,0.7404537543045484

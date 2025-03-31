@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),5936.323884212287,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,5716.060785082745,unknown
+611,Improper Restriction of XML External Entity Reference,5709.190052628948,unknown
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),5562.370476899849,unknown
+863,Incorrect Authorization,5554.164102361891,unknown

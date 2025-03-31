@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),Variant,0.7661514091143051
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7551430257735163
+668,Exposure of Resource to Wrong Sphere,Class,0.753113115320692
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7524187450216244
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7484562393290316
+693,Protection Mechanism Failure,Pillar,0.7461965831186677
+41,Improper Resolution of Path Equivalence,Base,0.7410726974834629
+404,Improper Resource Shutdown or Release,Class,0.7380068619267245
+405,Asymmetric Resource Consumption (Amplification),Class,0.7373480059876973
+138,Improper Neutralization of Special Elements,Class,0.7359758479603052

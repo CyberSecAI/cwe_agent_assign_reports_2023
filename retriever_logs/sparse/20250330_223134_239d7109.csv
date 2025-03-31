@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,5016.424898041473,unknown
+863,Incorrect Authorization,5015.169842752931,unknown
+266,Incorrect Privilege Assignment,4982.66893148576,unknown
+639,Authorization Bypass Through User-Controlled Key,4891.74582463966,unknown
+732,Incorrect Permission Assignment for Critical Resource,4884.959616080418,unknown

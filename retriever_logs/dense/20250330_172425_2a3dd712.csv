@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.788608896388251
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7492830163577437
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7487893445854561
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Base,0.743195842619628
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7385699123755871
+838,Inappropriate Encoding for Output Context,Base,0.7370507735737617
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.73641509800813
+405,Asymmetric Resource Consumption (Amplification),Class,0.733001480443219
+184,Incomplete List of Disallowed Inputs,Base,0.7312066449884996
+913,Improper Control of Dynamically-Managed Code Resources,Class,0.7251179295462218

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,3101.439062514915,unknown
+352,Cross-Site Request Forgery (CSRF),2905.5928725826175,unknown
+434,Unrestricted Upload of File with Dangerous Type,2802.6879917224574,unknown
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),2708.3588478539064,unknown
+707,Improper Neutralization,2629.706012928686,unknown

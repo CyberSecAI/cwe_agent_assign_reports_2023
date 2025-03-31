@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,Variant,0.7779612072484818
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.77481822825776
+311,Missing Encryption of Sensitive Data,Class,0.7605437067480559
+319,Cleartext Transmission of Sensitive Information,Base,0.7570339446038881
+330,Use of Insufficiently Random Values,Class,0.7568044942163397
+203,Observable Discrepancy,Base,0.7568044781844107
+1391,Use of Weak Credentials,Class,0.7534207467157716
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7520549683655573
+208,Observable Timing Discrepancy,Base,0.749694337960847
+312,Cleartext Storage of Sensitive Information,Base,0.7476767633870909

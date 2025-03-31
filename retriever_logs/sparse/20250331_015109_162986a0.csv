@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1389,Incorrect Parsing of Numbers with Different Radices,7532.921657351958,base_query
+1284,Improper Validation of Specified Quantity in Input,7024.022950900526,base_query
+1286,Improper Validation of Syntactic Correctness of Input,7009.238566665442,base_query
+116,Improper Encoding or Escaping of Output,6955.183683203523,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6926.740413186362,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+295,Improper Certificate Validation,Base,0.7852703430583967
+668,Exposure of Resource to Wrong Sphere,Class,0.7839490566388694
+345,Insufficient Verification of Data Authenticity,Class,0.7786324984755437
+923,Improper Restriction of Communication Channel to Intended Endpoints,Class,0.777609263650688
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7745158704240732
+1390,Weak Authentication,Class,0.7730004741512474
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7718127602385814
+755,Improper Handling of Exceptional Conditions,Class,0.7695362577542488
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7687919827119282
+319,Cleartext Transmission of Sensitive Information,Base,0.768728648806932

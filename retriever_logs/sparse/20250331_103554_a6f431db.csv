@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),7416.352874951587,unknown
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7302.166998207158,unknown
+1390,Weak Authentication,6864.548515313357,unknown
+472,External Control of Assumed-Immutable Web Parameter,6851.695484123055,unknown
+201,Insertion of Sensitive Information Into Sent Data,6838.438741852734,unknown

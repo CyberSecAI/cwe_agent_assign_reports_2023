@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+184,Incomplete List of Disallowed Inputs,Base,0.7816822723676393
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7668254833525927
+41,Improper Resolution of Path Equivalence,Base,0.7636475064568451
+668,Exposure of Resource to Wrong Sphere,Class,0.7626696565204809
+274,Improper Handling of Insufficient Privileges,Base,0.7615907717613148
+356,Product UI does not Warn User of Unsafe Actions,Base,0.7614076276840596
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7609681089417186
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7601941598311812
+653,Improper Isolation or Compartmentalization,Class,0.7593185462557408
+183,Permissive List of Allowed Inputs,Base,0.7588111492071796

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,6153.778824258994,unknown
+776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),6123.310047180208,unknown
+116,Improper Encoding or Escaping of Output,5952.337678979537,unknown
+942,Permissive Cross-domain Policy with Untrusted Domains,5759.68279940738,unknown
+138,Improper Neutralization of Special Elements,5521.896276908438,unknown

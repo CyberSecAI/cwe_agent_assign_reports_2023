@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+73,External Control of File Name or Path,base,4.8204,0
+41,Improper Resolution of Path Equivalence,base,4.329000000000001,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,4.329000000000001,0
+184,Incomplete List of Disallowed Inputs,base,3.5698000000000003,0
+190,Integer Overflow or Wraparound,base,2.9250000000000003,0
+259,Use of Hard-coded Password,variant,2.9184000000000005,0
+804,Guessable CAPTCHA,base,2.8651999999999997,0
+59,Improper Link Resolution Before File Access ('Link Following'),base,2.8651999999999997,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,2.73416,0
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,2.73416,0

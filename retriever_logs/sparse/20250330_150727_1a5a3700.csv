@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+59,Improper Link Resolution Before File Access ('Link Following'),6793.913452154926,unknown
+23,Relative Path Traversal,6792.848335208971,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6763.256206368673,unknown
+73,External Control of File Name or Path,6244.005563685778,unknown
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),6144.262561796055,unknown

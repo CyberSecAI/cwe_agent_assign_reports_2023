@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+23,Relative Path Traversal,Base,0.7582865866595252
+41,Improper Resolution of Path Equivalence,Base,0.7570211288723376
+73,External Control of File Name or Path,Base,0.7528616766600091
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.749720801865329
+668,Exposure of Resource to Wrong Sphere,Class,0.7472630941740515
+276,Incorrect Default Permissions,Base,0.7471982251661646
+266,Incorrect Privilege Assignment,Base,0.7455132542285487
+274,Improper Handling of Insufficient Privileges,Base,0.7448962117190665
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7394602297625129
+653,Improper Isolation or Compartmentalization,Class,0.7393352015787

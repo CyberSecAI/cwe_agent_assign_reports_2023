@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7863896697212549
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7738973835125591
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7723154538042323
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7704180724040508
+639,Authorization Bypass Through User-Controlled Key,Base,0.7690244728191624
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7680349980638089
+319,Cleartext Transmission of Sensitive Information,Base,0.7677426773445452
+799,Improper Control of Interaction Frequency,Class,0.7667836948771918
+345,Insufficient Verification of Data Authenticity,Class,0.7665952518082062
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7654635400856693

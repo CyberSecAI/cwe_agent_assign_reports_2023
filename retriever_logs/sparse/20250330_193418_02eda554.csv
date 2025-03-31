@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+226,Sensitive Information in Resource Not Removed Before Reuse,5063.975433309775,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5030.948809580289,base_query
+863,Incorrect Authorization,4867.357866869757,base_query
+639,Authorization Bypass Through User-Controlled Key,4767.765249433365,base_query
+285,Improper Authorization,4692.258439758811,base_query

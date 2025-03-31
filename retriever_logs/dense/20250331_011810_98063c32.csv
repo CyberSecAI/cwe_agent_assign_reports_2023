@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+667,Improper Locking,Class,0.7720639324885056
+653,Improper Isolation or Compartmentalization,Class,0.7645940091741548
+274,Improper Handling of Insufficient Privileges,Base,0.7644300832319815
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7597619024747766
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7587962758362188
+404,Improper Resource Shutdown or Release,Class,0.7576563317725988
+662,Improper Synchronization,Class,0.7569003091849091
+782,Exposed IOCTL with Insufficient Access Control,Variant,0.7549999780824224
+648,Incorrect Use of Privileged APIs,Base,0.7537243491083453
+668,Exposure of Resource to Wrong Sphere,Class,0.753202328510391

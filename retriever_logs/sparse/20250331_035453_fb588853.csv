@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,7257.062786600221,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,7222.251569120068,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,7023.600331294411,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),7004.144831549485,base_query
+668,Exposure of Resource to Wrong Sphere,7003.44780187513,base_query

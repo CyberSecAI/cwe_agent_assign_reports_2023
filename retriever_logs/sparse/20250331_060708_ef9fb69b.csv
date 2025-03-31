@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+667,Improper Locking,6134.879124749158,base_query
+1284,Improper Validation of Specified Quantity in Input,6118.538691862161,base_query
+190,Integer Overflow or Wraparound,6103.634729312585,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6047.548729720935,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5956.117107644794,base_query

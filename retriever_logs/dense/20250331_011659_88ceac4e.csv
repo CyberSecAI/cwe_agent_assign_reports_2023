@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+662,Improper Synchronization,Class,0.774141793125125
+805,Buffer Access with Incorrect Length Value,Base,0.7650305897657835
+131,Incorrect Calculation of Buffer Size,Base,0.7643862872601672
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7561766816499114
+667,Improper Locking,Class,0.7498867310587664
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7464296391591809
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7461315835577544
+129,Improper Validation of Array Index,Variant,0.7449203968315337
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7440235076448973
+668,Exposure of Resource to Wrong Sphere,Class,0.7438127475603135

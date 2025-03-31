@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,5644.807390375215,base_query
+427,Uncontrolled Search Path Element,5443.42194683009,base_query
+863,Incorrect Authorization,5415.793142744919,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5408.51861202803,base_query
+269,Improper Privilege Management,5395.970404554194,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,6102.26960554842,base_query
+552,Files or Directories Accessible to External Parties,5980.166022910612,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5868.635911063903,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5738.558956964046,base_query
+863,Incorrect Authorization,5699.6242400768415,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,6779.567114270569,base_query
+190,Integer Overflow or Wraparound,6677.93783139513,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6642.443507985311,base_query
+1284,Improper Validation of Specified Quantity in Input,6606.167001698416,base_query
+843,Access of Resource Using Incompatible Type ('Type Confusion'),6374.253065024581,base_query

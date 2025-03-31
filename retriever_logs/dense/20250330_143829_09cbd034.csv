@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7650211224696523
+131,Incorrect Calculation of Buffer Size,Base,0.7616640301827807
+667,Improper Locking,Class,0.7563279722939587
+312,Cleartext Storage of Sensitive Information,Base,0.7562797675608464
+23,Relative Path Traversal,Base,0.7549225056721707
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.754227808132532
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7539059434597357
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7531322033221903
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7517771027499275
+41,Improper Resolution of Path Equivalence,Base,0.751464796910693

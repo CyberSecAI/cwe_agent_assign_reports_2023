@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7692544415244106
+606,Unchecked Input for Loop Condition,Base,0.7676557358600542
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7633350079364855
+799,Improper Control of Interaction Frequency,Class,0.7609514367231774
+667,Improper Locking,Class,0.7605358562210471
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),Base,0.7601953291564295
+404,Improper Resource Shutdown or Release,Class,0.7593186022647764
+41,Improper Resolution of Path Equivalence,Base,0.7584610066036888
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7584532297236759
+668,Exposure of Resource to Wrong Sphere,Class,0.7581976275265537

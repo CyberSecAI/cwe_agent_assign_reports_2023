@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7650887318674535
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7635303198971274
+319,Cleartext Transmission of Sensitive Information,Base,0.7495959814245281
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,Variant,0.7466160599544998
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7461709637175231
+312,Cleartext Storage of Sensitive Information,Base,0.7459190866867993
+1390,Weak Authentication,Class,0.7432579720603425
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7410320644884526
+1391,Use of Weak Credentials,Class,0.7399603036219661
+345,Insufficient Verification of Data Authenticity,Class,0.7346803505088961

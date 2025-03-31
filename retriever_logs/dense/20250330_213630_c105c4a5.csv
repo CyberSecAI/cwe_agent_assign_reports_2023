@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7730897630275453
+184,Incomplete List of Disallowed Inputs,Base,0.7730813239832075
+434,Unrestricted Upload of File with Dangerous Type,Base,0.76974956800451
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7607160309686511
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7567500029910795
+183,Permissive List of Allowed Inputs,Base,0.7528866124128222
+73,External Control of File Name or Path,Base,0.7471459395187479
+41,Improper Resolution of Path Equivalence,Base,0.7457837826329821
+404,Improper Resource Shutdown or Release,Class,0.7443032909545177
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7433076251822185

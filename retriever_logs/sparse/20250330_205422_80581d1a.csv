@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6176.371596254518,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6080.932201001707,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),6026.633635851411,base_query
+94,Improper Control of Generation of Code ('Code Injection'),5922.365783819001,base_query
+23,Relative Path Traversal,5894.34588357992,base_query

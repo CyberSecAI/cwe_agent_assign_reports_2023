@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,5833.290888249137,unknown
+1390,Weak Authentication,5766.337320515399,unknown
+287,Improper Authentication,5729.097847829732,unknown
+798,Use of Hard-coded Credentials,5712.849414583337,unknown
+863,Incorrect Authorization,5672.231734484389,unknown

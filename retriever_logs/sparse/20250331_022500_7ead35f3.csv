@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5812.4612660850125,unknown
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5639.822410976501,unknown
+789,Memory Allocation with Excessive Size Value,5469.552378369606,unknown
+125,Out-of-bounds Read,5454.970918441744,unknown
+667,Improper Locking,5419.149487727692,unknown

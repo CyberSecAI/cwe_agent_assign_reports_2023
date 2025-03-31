@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+799,Improper Control of Interaction Frequency,Class,0.7678499555849201
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7672357066903713
+319,Cleartext Transmission of Sensitive Information,Base,0.7628005849369992
+668,Exposure of Resource to Wrong Sphere,Class,0.7613258477598441
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7580178925764125
+405,Asymmetric Resource Consumption (Amplification),Class,0.7568877003671484
+312,Cleartext Storage of Sensitive Information,Base,0.7507605849702068
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7493898459559717
+345,Insufficient Verification of Data Authenticity,Class,0.7491139672831912
+696,Incorrect Behavior Order,Class,0.7480099628915133

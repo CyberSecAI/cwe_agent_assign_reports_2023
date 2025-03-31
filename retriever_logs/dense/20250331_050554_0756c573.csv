@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+366,Race Condition within a Thread,Base,0.78042983513734
+667,Improper Locking,Class,0.7648351129658225
+404,Improper Resource Shutdown or Release,Class,0.7644090646349968
+705,Incorrect Control Flow Scoping,Class,0.7542488677174632
+670,Always-Incorrect Control Flow Implementation,Class,0.7540300311765189
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7539705222235603
+691,Insufficient Control Flow Management,Pillar,0.7532952458709035
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7527355826705849
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7521406949600071
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7516116843002704

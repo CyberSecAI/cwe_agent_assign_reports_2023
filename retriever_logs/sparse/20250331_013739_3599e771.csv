@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1390,Weak Authentication,5981.546557605934,unknown
+319,Cleartext Transmission of Sensitive Information,5928.516381234238,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5903.213636727818,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,5845.341945254925,unknown
+203,Observable Discrepancy,5805.401202858715,unknown

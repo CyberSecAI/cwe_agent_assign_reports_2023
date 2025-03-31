@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6831.333537823044,base_query
+1004,Sensitive Cookie Without 'HttpOnly' Flag,6417.061931873841,base_query
+918,Server-Side Request Forgery (SSRF),6414.811956245239,base_query
+312,Cleartext Storage of Sensitive Information,6388.13788763664,base_query
+116,Improper Encoding or Escaping of Output,6306.689866043291,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6919.912016002345,base_query
+943,Improper Neutralization of Special Elements in Data Query Logic,6734.375054823756,base_query
+138,Improper Neutralization of Special Elements,6713.01293663499,base_query
+116,Improper Encoding or Escaping of Output,6664.770890187009,base_query
+1236,Improper Neutralization of Formula Elements in a CSV File,6611.692964509087,base_query

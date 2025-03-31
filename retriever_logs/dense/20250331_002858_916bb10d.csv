@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+345,Insufficient Verification of Data Authenticity,Class,0.7733109212905273
+274,Improper Handling of Insufficient Privileges,Base,0.7696014098938946
+653,Improper Isolation or Compartmentalization,Class,0.7640283152335449
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7638304374892839
+1220,Insufficient Granularity of Access Control,Base,0.7578098029263611
+657,Violation of Secure Design Principles,Class,0.7512410913221234
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7485379078776736
+1263,Improper Physical Access Control,Class,0.7472752601670809
+691,Insufficient Control Flow Management,Pillar,0.7470070720669502
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7445866666557013

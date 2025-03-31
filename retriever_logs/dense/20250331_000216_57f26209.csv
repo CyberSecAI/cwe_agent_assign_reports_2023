@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+405,Asymmetric Resource Consumption (Amplification),Class,0.7769316022752539
+404,Improper Resource Shutdown or Release,Class,0.7681570295580138
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7649562140339896
+799,Improper Control of Interaction Frequency,Class,0.7608321189924562
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7590176407090191
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7453790586154952
+407,Inefficient Algorithmic Complexity,Class,0.7453238065403799
+789,Memory Allocation with Excessive Size Value,Variant,0.7431169180623263
+668,Exposure of Resource to Wrong Sphere,Class,0.7424126981545311
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7419249914887551

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+353,Missing Support for Integrity Check,4592.303383384342,base_query
+347,Improper Verification of Cryptographic Signature,4570.413779579472,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,4514.404986024046,base_query
+1390,Weak Authentication,4349.533412285039,base_query
+863,Incorrect Authorization,4346.438658696163,base_query

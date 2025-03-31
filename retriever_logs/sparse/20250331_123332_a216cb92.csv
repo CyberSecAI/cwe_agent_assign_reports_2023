@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+364,Signal Handler Race Condition,6526.440977757073,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5808.947143179662,base_query
+476,NULL Pointer Dereference,5636.557583273748,base_query
+125,Out-of-bounds Read,5591.818621253426,base_query
+1284,Improper Validation of Specified Quantity in Input,5579.10186650572,base_query

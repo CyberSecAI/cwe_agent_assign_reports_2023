@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,8330.12324211619,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),7999.624854462825,unknown
+94,Improper Control of Generation of Code ('Code Injection'),7735.4360443634705,unknown
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),7666.4317581565765,unknown
+138,Improper Neutralization of Special Elements,7655.657832979211,unknown

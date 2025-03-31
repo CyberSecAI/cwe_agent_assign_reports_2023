@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,8092.741648818869,unknown
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7872.067210819729,unknown
+1333,Inefficient Regular Expression Complexity,7578.123342775037,unknown
+116,Improper Encoding or Escaping of Output,7448.107248555807,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,7442.531189254638,unknown

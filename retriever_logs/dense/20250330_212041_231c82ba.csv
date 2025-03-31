@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7409365124523529
+668,Exposure of Resource to Wrong Sphere,Class,0.7340750796935378
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7291443953817631
+799,Improper Control of Interaction Frequency,Class,0.728666810841049
+407,Inefficient Algorithmic Complexity,Class,0.7272724023732213
+404,Improper Resource Shutdown or Release,Class,0.727213228887152
+41,Improper Resolution of Path Equivalence,Base,0.7245801717972946
+405,Asymmetric Resource Consumption (Amplification),Class,0.7207831897306115
+129,Improper Validation of Array Index,Variant,0.7177908835457679
+667,Improper Locking,Class,0.7175687432301031

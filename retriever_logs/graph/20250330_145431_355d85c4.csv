@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+385,Covert Timing Channel,base,4.329000000000001,0
+804,Guessable CAPTCHA,base,4.329000000000001,0
+290,Authentication Bypass by Spoofing,base,3.2656,0
+471,Modification of Assumed-Immutable Data (MAID),base,3.055,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.984,0
+208,Observable Timing Discrepancy,Base,2.897337393226035,0
+259,Use of Hard-coded Password,variant,2.8104,0
+425,Direct Request ('Forced Browsing'),base,2.73416,0
+350,Reliance on Reverse DNS Resolution for a Security-Critical Action,variant,2.6784000000000003,0
+347,Improper Verification of Cryptographic Signature,base,2.4699999999999998,0

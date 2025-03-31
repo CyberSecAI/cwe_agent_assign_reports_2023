@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,6373.687097669785,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6348.962545124209,unknown
+252,Unchecked Return Value,6225.654250777626,unknown
+1284,Improper Validation of Specified Quantity in Input,6218.872529382641,unknown
+863,Incorrect Authorization,6065.46244674559,unknown

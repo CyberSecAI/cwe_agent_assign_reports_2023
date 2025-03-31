@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,5815.611602039731,unknown
+863,Incorrect Authorization,5677.910974976914,unknown
+285,Improper Authorization,5634.651062202527,unknown
+425,Direct Request ('Forced Browsing'),5561.781613316117,unknown
+352,Cross-Site Request Forgery (CSRF),5513.602986983975,unknown

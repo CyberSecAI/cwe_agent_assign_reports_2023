@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+385,Covert Timing Channel,base,4.329000000000001,0
+324,Use of a Key Past its Expiration Date,base,3.6399999999999997,0
+298,Improper Validation of Certificate Expiration,variant,3.2424,0
+259,Use of Hard-coded Password,variant,2.9184000000000005,0
+208,Observable Timing Discrepancy,Base,2.8890468710926287,0
+73,External Control of File Name or Path,base,2.7014000000000005,0
+916,Use of Password Hash With Insufficient Computational Effort,base,2.4699999999999998,0
+639,Authorization Bypass Through User-Controlled Key,base,2.4699999999999998,0
+798,Use of Hard-coded Credentials,base,2.4699999999999998,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,2.4699999999999998,0

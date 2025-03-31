@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1256,Improper Restriction of Software Interfaces to Hardware Features,5526.2625133723795,base_query
+1284,Improper Validation of Specified Quantity in Input,5435.247266534642,base_query
+20,Improper Input Validation,5374.1270291087,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5364.353038256811,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5359.218647696332,base_query

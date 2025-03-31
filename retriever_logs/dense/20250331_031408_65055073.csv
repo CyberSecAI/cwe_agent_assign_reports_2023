@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+252,Unchecked Return Value,Base,0.7823517332948318
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7704480249730505
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7650003934735502
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7641891637312385
+667,Improper Locking,Class,0.7633965958706164
+404,Improper Resource Shutdown or Release,Class,0.7623040910548171
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7561221704109964
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7547582345358341
+274,Improper Handling of Insufficient Privileges,Base,0.7528494203942129
+170,Improper Null Termination,Base,0.7507249647129942

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,5652.207317484129,unknown
+639,Authorization Bypass Through User-Controlled Key,5616.1795142021865,unknown
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),5496.5418046729965,unknown
+208,Observable Timing Discrepancy,5397.728427555138,unknown
+226,Sensitive Information in Resource Not Removed Before Reuse,5308.062515297539,unknown

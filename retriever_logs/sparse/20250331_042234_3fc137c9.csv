@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,7858.101228259258,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,6855.952469377366,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,6742.854235231282,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6730.256826680082,base_query
+347,Improper Verification of Cryptographic Signature,6671.68676461178,base_query

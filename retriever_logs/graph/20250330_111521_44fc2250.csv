@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+201,Insertion of Sensitive Information Into Sent Data,base,3.757,0
+288,Authentication Bypass Using an Alternate Path or Channel,base,3.6399999999999997,0
+1191,On-Chip Debug and Test Interface With Improper Access Control,base,3.6399999999999997,0
+274,Improper Handling of Insufficient Privileges,base,3.6399999999999997,0
+280,Improper Handling of Insufficient Permissions or Privileges ,base,3.6399999999999997,0
+209,Generation of Error Message Containing Sensitive Information,base,3.6399999999999997,0
+1295,Debug Messages Revealing Unnecessary Information,base,3.6399999999999997,0
+322,Key Exchange without Entity Authentication,base,2.8651999999999997,0
+756,Missing Custom Error Page,base,2.8651999999999997,0
+1272,Sensitive Information Uncleared Before Debug/Power State Transition,base,2.73416,0

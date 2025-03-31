@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+472,External Control of Assumed-Immutable Web Parameter,Base,0.770463959521526
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7638210620978912
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7630578609350742
+552,Files or Directories Accessible to External Parties,Base,0.7573221218629298
+639,Authorization Bypass Through User-Controlled Key,Base,0.7572878315610871
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7526624024780483
+668,Exposure of Resource to Wrong Sphere,Class,0.7501224754430363
+425,Direct Request ('Forced Browsing'),Base,0.748103968316934
+41,Improper Resolution of Path Equivalence,Base,0.7479719393208999
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7476058225998216

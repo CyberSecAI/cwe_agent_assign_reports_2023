@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7821727907727491
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7795009063748101
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7754397906528013
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7672666058777508
+657,Violation of Secure Design Principles,Class,0.7634523891767977
+345,Insufficient Verification of Data Authenticity,Class,0.7625281187151436
+668,Exposure of Resource to Wrong Sphere,Class,0.7594666719505621
+319,Cleartext Transmission of Sensitive Information,Base,0.7591132060187258
+204,Observable Response Discrepancy,Base,0.7572482592956428
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7539188687143061

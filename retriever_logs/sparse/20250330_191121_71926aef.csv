@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,8253.252015968508,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,8061.10387362365,unknown
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),7960.27109126488,unknown
+295,Improper Certificate Validation,7804.1241005587835,unknown
+319,Cleartext Transmission of Sensitive Information,7712.454644619895,unknown

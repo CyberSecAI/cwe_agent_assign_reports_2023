@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1251,Mirrored Regions with Different Values,6672.205309017016,base_query
+1299,Missing Protection Mechanism for Alternate Hardware Interface,5980.490033661334,base_query
+125,Out-of-bounds Read,5724.525676222283,base_query
+295,Improper Certificate Validation,5630.076622268227,base_query
+863,Incorrect Authorization,5591.233677480118,base_query

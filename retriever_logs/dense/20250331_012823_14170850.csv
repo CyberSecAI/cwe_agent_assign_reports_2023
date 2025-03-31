@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7961589836733887
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.774300689296121
+184,Incomplete List of Disallowed Inputs,Base,0.7647637462720895
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7647133386238338
+41,Improper Resolution of Path Equivalence,Base,0.7642065096418975
+73,External Control of File Name or Path,Base,0.7599107436081517
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7574214786759135
+183,Permissive List of Allowed Inputs,Base,0.7570636985760327
+606,Unchecked Input for Loop Condition,Base,0.7494735881860841
+667,Improper Locking,Class,0.7486152827568907

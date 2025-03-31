@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+625,Permissive Regular Expression,Base,0.7424630951385772
+41,Improper Resolution of Path Equivalence,Base,0.7419794737159876
+617,Reachable Assertion,Base,0.7415467734141872
+668,Exposure of Resource to Wrong Sphere,Class,0.7413221174806739
+674,Uncontrolled Recursion,Class,0.7389128132493545
+407,Inefficient Algorithmic Complexity,Class,0.738009852549245
+799,Improper Control of Interaction Frequency,Class,0.7360788502996471
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7355998912413495
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7347126609918775
+252,Unchecked Return Value,Base,0.7320051211933045

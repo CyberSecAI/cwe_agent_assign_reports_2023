@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+345,Insufficient Verification of Data Authenticity,Class,0.7694118884545045
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7548642965384794
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7542592765652034
+203,Observable Discrepancy,Base,0.7522669655325469
+502,Deserialization of Untrusted Data,Base,0.752254497006194
+1391,Use of Weak Credentials,Class,0.75164436867393
+138,Improper Neutralization of Special Elements,Class,0.7497374389871669
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7490343889726909
+668,Exposure of Resource to Wrong Sphere,Class,0.7488971359589189
+330,Use of Insufficiently Random Values,Class,0.7466632659120761

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+297,Improper Validation of Certificate with Host Mismatch,5307.656554202005,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5301.6560718380015,unknown
+193,Off-by-one Error,5276.973574736765,unknown
+295,Improper Certificate Validation,5257.652163621659,unknown
+1333,Inefficient Regular Expression Complexity,5192.542456127452,unknown

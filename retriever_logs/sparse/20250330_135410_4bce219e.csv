@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,6936.899014874216,unknown
+1286,Improper Validation of Syntactic Correctness of Input,6612.877624310517,unknown
+1284,Improper Validation of Specified Quantity in Input,6544.988351781104,unknown
+1285,Improper Validation of Specified Index  Position  or Offset in Input,6506.223384744313,unknown
+789,Memory Allocation with Excessive Size Value,6497.914380676977,unknown

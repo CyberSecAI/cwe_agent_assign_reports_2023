@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,6368.937700616421,unknown
+667,Improper Locking,6236.757666949665,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6189.4426730742625,unknown
+476,NULL Pointer Dereference,6152.786996410601,unknown
+665,Improper Initialization,6076.7573143855525,unknown

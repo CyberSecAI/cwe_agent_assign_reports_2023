@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+385,Covert Timing Channel,base,4.329000000000001,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.984,0
+259,Use of Hard-coded Password,variant,2.9184000000000005,0
+208,Observable Timing Discrepancy,Base,2.897013050851747,0
+804,Guessable CAPTCHA,base,2.8651999999999997,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+347,Improper Verification of Cryptographic Signature,base,2.4699999999999998,0
+798,Use of Hard-coded Credentials,base,2.4699999999999998,0
+321,Use of Hard-coded Cryptographic Key,variant,2.4432,0
+480,Use of Incorrect Operator,base,2.3998000000000004,0

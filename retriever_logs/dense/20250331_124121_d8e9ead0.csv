@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7979117210785043
+41,Improper Resolution of Path Equivalence,Base,0.7925398360119659
+782,Exposed IOCTL with Insufficient Access Control,Variant,0.7867802035549366
+73,External Control of File Name or Path,Base,0.7851898506865013
+23,Relative Path Traversal,Base,0.7772261259462956
+668,Exposure of Resource to Wrong Sphere,Class,0.7721281485662365
+427,Uncontrolled Search Path Element,Base,0.767476611675385
+274,Improper Handling of Insufficient Privileges,Base,0.7660109429726117
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7633291507862019
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7618253236230788

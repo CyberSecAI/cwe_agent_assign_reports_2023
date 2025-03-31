@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+386,Symbolic Name not Mapping to Correct Object,base,4.4954,0
+798,Use of Hard-coded Credentials,base,3.6399999999999997,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,base,3.6399999999999997,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+486,Comparison of Classes by Name,variant,2.6039999999999996,0
+648,Incorrect Use of Privileged APIs,base,2.4699999999999998,0
+250,Execution with Unnecessary Privileges,base,2.4699999999999998,0
+272,Least Privilege Violation,base,2.4699999999999998,0
+639,Authorization Bypass Through User-Controlled Key,base,2.4699999999999998,0

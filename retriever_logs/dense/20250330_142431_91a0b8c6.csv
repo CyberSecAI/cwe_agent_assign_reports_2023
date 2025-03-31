@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+208,Observable Timing Discrepancy,Base,0.8060198458649462
+203,Observable Discrepancy,Base,0.7847019586541173
+345,Insufficient Verification of Data Authenticity,Class,0.7840068116531801
+347,Improper Verification of Cryptographic Signature,Base,0.7736120523331317
+295,Improper Certificate Validation,Base,0.7725538783731373
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7683632829240781
+204,Observable Response Discrepancy,Base,0.7652902752331296
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7651103698797155
+1391,Use of Weak Credentials,Class,0.7644658077701354
+330,Use of Insufficiently Random Values,Class,0.764377919390226

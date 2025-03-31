@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+178,Improper Handling of Case Sensitivity,Base,0.8001049436683534
+274,Improper Handling of Insufficient Privileges,Base,0.7736681713193789
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7725418914166657
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7724082306953781
+41,Improper Resolution of Path Equivalence,Base,0.770713997320572
+73,External Control of File Name or Path,Base,0.7683094869401339
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7669350208715993
+668,Exposure of Resource to Wrong Sphere,Class,0.7647430318369988
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7636744054693612
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.763177620698333

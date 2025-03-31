@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),7256.2602868189715,unknown
+116,Improper Encoding or Escaping of Output,6757.754027655571,unknown
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),6735.055011743124,unknown
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),6704.818786040947,unknown
+138,Improper Neutralization of Special Elements,6694.3558408174795,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,8776.926136364315,unknown
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8348.616901787072,unknown
+1007,Insufficient Visual Distinction of Homoglyphs Presented to User,8073.597196592366,unknown
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),7945.9141631983775,unknown
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),7899.748462764807,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1240,Use of a Cryptographic Primitive with a Risky Implementation,7691.948216813876,unknown
+347,Improper Verification of Cryptographic Signature,6654.044876934636,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,6630.981761049435,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6618.792735443166,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6598.315957383325,unknown

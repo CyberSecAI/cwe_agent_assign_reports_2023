@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+787,Out-of-bounds Write,base,4.329000000000001,0
+825,Expired Pointer Dereference,base,4.329000000000001,0
+1260,Improper Handling of Overlap Between Protected Memory Ranges,base,4.329000000000001,0
+781,Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code,variant,3.8784,0
+822,Untrusted Pointer Dereference,Base,2.9166664320107403,0
+125,Out-of-bounds Read,Base,2.9123720440577716,0
+823,Use of Out-of-range Pointer Offset,Base,2.9118194615133994,0
+476,NULL Pointer Dereference,Base,2.909270966182915,0
+386,Symbolic Name not Mapping to Correct Object,base,2.9005600000000005,0
+1257,Improper Access Control Applied to Mirrored or Aliased Memory Regions,base,2.8651999999999997,0

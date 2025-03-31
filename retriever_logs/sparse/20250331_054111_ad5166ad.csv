@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1244,Internal Asset Exposed to Unsafe Debug Access Level or State,3517.809639519466,base_query
+267,Privilege Defined With Unsafe Actions,3300.7221570829965,base_query
+639,Authorization Bypass Through User-Controlled Key,3282.6774677946387,base_query
+863,Incorrect Authorization,3250.5758377204493,base_query
+778,Insufficient Logging,3212.4522742899335,base_query

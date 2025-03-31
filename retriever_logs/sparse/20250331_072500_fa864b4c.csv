@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,7992.568542838198,base_query
+789,Memory Allocation with Excessive Size Value,7962.139106619698,base_query
+1284,Improper Validation of Specified Quantity in Input,7608.75018281703,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),7568.829906556281,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7529.316258405509,base_query

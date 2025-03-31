@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+259,Use of Hard-coded Password,variant,4.0104,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+358,Improperly Implemented Security Check for Standard,base,3.6399999999999997,0
+804,Guessable CAPTCHA,base,2.73416,0
+321,Use of Hard-coded Cryptographic Key,Variant,2.699687753949258,0
+325,Missing Cryptographic Step,Base,2.48172663881226,0
+798,Use of Hard-coded Credentials,Base,2.4734118886235525,0
+344,Use of Invariant Value in Dynamically Changing Context,base,2.4699999999999998,0
+1392,Use of Default Credentials,base,2.4699999999999998,0
+613,Insufficient Session Expiration,base,2.2100000000000004,0

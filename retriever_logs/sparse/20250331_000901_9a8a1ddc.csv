@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7484.729599098014,base_query
+116,Improper Encoding or Escaping of Output,7048.352880290076,base_query
+941,Incorrectly Specified Destination in a Communication Channel,7024.519544688716,base_query
+184,Incomplete List of Disallowed Inputs,6966.913513312957,base_query
+927,Use of Implicit Intent for Sensitive Communication,6836.991671540174,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.8038091225202135
+552,Files or Directories Accessible to External Parties,Base,0.7813610003217737
+73,External Control of File Name or Path,Base,0.771513341210234
+41,Improper Resolution of Path Equivalence,Base,0.7681357604184103
+312,Cleartext Storage of Sensitive Information,Base,0.7676384474914671
+798,Use of Hard-coded Credentials,Base,0.7673349582424636
+23,Relative Path Traversal,Base,0.7648869372979634
+1391,Use of Weak Credentials,Class,0.7643334926830874
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7637767079968303
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7610237233001045

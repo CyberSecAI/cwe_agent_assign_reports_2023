@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),5924.6485298698835,base_query
+1284,Improper Validation of Specified Quantity in Input,5885.302375769949,base_query
+125,Out-of-bounds Read,5869.565399259808,base_query
+1333,Inefficient Regular Expression Complexity,5865.623457282457,base_query
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),5731.275747532742,base_query

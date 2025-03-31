@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,5972.028468153791,unknown
+1284,Improper Validation of Specified Quantity in Input,5935.394801402992,unknown
+190,Integer Overflow or Wraparound,5870.078014377454,unknown
+1390,Weak Authentication,5810.8526963766,unknown
+295,Improper Certificate Validation,5800.973400142733,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.8110540439728366
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7688023028779998
+331,Insufficient Entropy,Base,0.7653836055146106
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7600955150714155
+1391,Use of Weak Credentials,Class,0.7561088511174712
+665,Improper Initialization,Class,0.7557296424889894
+41,Improper Resolution of Path Equivalence,Base,0.7541189181833567
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7535689632737083
+138,Improper Neutralization of Special Elements,Class,0.7521709514185826
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),Base,0.7517796931051208

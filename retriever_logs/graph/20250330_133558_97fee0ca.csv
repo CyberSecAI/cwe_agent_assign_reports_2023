@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+385,Covert Timing Channel,base,4.329000000000001,0
+201,Insertion of Sensitive Information Into Sent Data,base,4.329000000000001,0
+290,Authentication Bypass by Spoofing,base,3.2656,0
+325,Missing Cryptographic Step,base,3.2656,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.984,0
+259,Use of Hard-coded Password,variant,2.9184000000000005,0
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,2.9039915717400144,0
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,2.8990008364801314,0
+208,Observable Timing Discrepancy,Base,2.894326157037801,0
+244,Improper Clearing of Heap Memory Before Release ('Heap Inspection'),variant,2.6784000000000003,0

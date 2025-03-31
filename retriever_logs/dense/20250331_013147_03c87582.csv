@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+799,Improper Control of Interaction Frequency,Class,0.7873151713253395
+405,Asymmetric Resource Consumption (Amplification),Class,0.780491528764667
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7513770207651568
+404,Improper Resource Shutdown or Release,Class,0.7434441660218399
+406,Insufficient Control of Network Message Volume (Network Amplification),Class,0.7335464983162004
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7287208602034594
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7281766495331337
+668,Exposure of Resource to Wrong Sphere,Class,0.7278803400479547
+691,Insufficient Control Flow Management,Pillar,0.7244727294267308
+1220,Insufficient Granularity of Access Control,Base,0.7221510718731208

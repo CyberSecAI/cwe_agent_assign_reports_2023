@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6248.848190905881,base_query
+319,Cleartext Transmission of Sensitive Information,6014.394866728499,base_query
+472,External Control of Assumed-Immutable Web Parameter,5982.755522975874,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5938.240273606448,base_query
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,5920.415164159255,base_query

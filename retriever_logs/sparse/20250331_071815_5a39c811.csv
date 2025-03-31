@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,8364.141312712976,unknown
+190,Integer Overflow or Wraparound,8143.798679826301,unknown
+125,Out-of-bounds Read,7881.074725283414,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,7802.27823580603,unknown
+1284,Improper Validation of Specified Quantity in Input,7725.035429853468,unknown

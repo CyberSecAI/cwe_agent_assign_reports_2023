@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+415,Double Free,Variant,0.7788215531548843
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7753764219820407
+366,Race Condition within a Thread,Base,0.7703386720223391
+404,Improper Resource Shutdown or Release,Class,0.7665728782268306
+131,Incorrect Calculation of Buffer Size,Base,0.7586969113188362
+667,Improper Locking,Class,0.7584753791779386
+191,Integer Underflow (Wrap or Wraparound),Base,0.751097161699336
+193,Off-by-one Error,Base,0.7476096946950586
+125,Out-of-bounds Read,Base,0.7458494275961454
+126,Buffer Over-read,Variant,0.742006675025785

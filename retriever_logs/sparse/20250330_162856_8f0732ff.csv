@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,6067.669264777583,base_query
+863,Incorrect Authorization,5747.850577966125,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),5627.814270852311,base_query
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),5622.829443820699,base_query
+285,Improper Authorization,5577.419255670109,base_query

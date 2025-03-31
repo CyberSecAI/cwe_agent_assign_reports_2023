@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+918,Server-Side Request Forgery (SSRF),Base,0.764428295807303
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7522720589002874
+799,Improper Control of Interaction Frequency,Class,0.7498371993310093
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),Base,0.7497985088608334
+405,Asymmetric Resource Consumption (Amplification),Class,0.7477981382374561
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7473371403064626
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7472922684171409
+668,Exposure of Resource to Wrong Sphere,Class,0.7441391538137261
+404,Improper Resource Shutdown or Release,Class,0.7413736699308228
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7412898443146586

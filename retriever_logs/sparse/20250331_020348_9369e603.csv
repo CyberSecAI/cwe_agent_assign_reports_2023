@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,7339.962097941849,base_query
+451,User Interface (UI) Misrepresentation of Critical Information,6886.867510173387,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6648.235499516258,base_query
+125,Out-of-bounds Read,6534.21763079454,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6477.41220482797,base_query

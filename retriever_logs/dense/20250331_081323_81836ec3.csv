@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7528085027119407
+131,Incorrect Calculation of Buffer Size,Base,0.7414372849008419
+129,Improper Validation of Array Index,Variant,0.7367364088579116
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7358913567420806
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7357839611562053
+668,Exposure of Resource to Wrong Sphere,Class,0.7353609291795482
+657,Violation of Secure Design Principles,Class,0.7335312862663863
+696,Incorrect Behavior Order,Class,0.7328172269915953
+824,Access of Uninitialized Pointer,Base,0.7327180997983919
+134,Use of Externally-Controlled Format String,Base,0.7304563914557358

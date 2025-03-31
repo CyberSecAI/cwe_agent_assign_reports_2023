@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+327,Use of a Broken or Risky Cryptographic Algorithm,5803.3517907259575,unknown
+626,Null Byte Interaction Error (Poison Null Byte),5788.318844980363,unknown
+203,Observable Discrepancy,5774.9149323066185,unknown
+125,Out-of-bounds Read,5691.556103803903,unknown
+1240,Use of a Cryptographic Primitive with a Risky Implementation,5637.57568916728,unknown

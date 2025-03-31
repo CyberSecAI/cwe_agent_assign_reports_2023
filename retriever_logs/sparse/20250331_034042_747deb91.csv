@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1342,Information Exposure through Microarchitectural State after Transient Execution,8992.548169925203,unknown
+1423,Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution,8150.069126344179,unknown
+190,Integer Overflow or Wraparound,7903.304275272083,unknown
+197,Numeric Truncation Error,7634.747828689497,unknown
+125,Out-of-bounds Read,7571.375984915998,unknown

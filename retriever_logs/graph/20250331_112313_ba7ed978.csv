@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+523,Unprotected Transport of Credentials,base,3.6399999999999997,0
+201,Insertion of Sensitive Information Into Sent Data,base,2.8651999999999997,0
+1272,Sensitive Information Uncleared Before Debug/Power State Transition,base,2.73416,0
+499,Serializable Class Containing Sensitive Data,variant,2.6784000000000003,0
+498,Cloneable Class Containing Sensitive Information,variant,2.6784000000000003,0
+312,Cleartext Storage of Sensitive Information,Base,2.4921284924731486,0
+1248,Semiconductor Defects in Hardware Logic with Security-Sensitive Implications,base,2.4699999999999998,0
+256,Plaintext Storage of a Password,base,2.4699999999999998,0
+276,Incorrect Default Permissions,base,2.4699999999999998,0
+532,Insertion of Sensitive Information into Log File,base,2.4699999999999998,0

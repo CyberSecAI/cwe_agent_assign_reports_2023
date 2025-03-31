@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,5258.0336240875395,unknown
+789,Memory Allocation with Excessive Size Value,5218.312598916183,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5210.6338959815,unknown
+476,NULL Pointer Dereference,5192.222824519858,unknown
+1284,Improper Validation of Specified Quantity in Input,5191.526840257876,unknown

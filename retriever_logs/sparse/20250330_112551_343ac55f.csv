@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,4587.05774480023,unknown
+667,Improper Locking,4546.24160654615,unknown
+927,Use of Implicit Intent for Sensitive Communication,4538.640342314653,unknown
+863,Incorrect Authorization,4479.23418074666,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4425.663622357069,unknown

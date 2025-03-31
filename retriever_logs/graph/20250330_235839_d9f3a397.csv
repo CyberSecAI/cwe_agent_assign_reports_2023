@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+190,Integer Overflow or Wraparound,base,4.329000000000001,0
+170,Improper Null Termination,base,4.329000000000001,0
+1284,Improper Validation of Specified Quantity in Input,base,4.329000000000001,0
+128,Wrap-around Error,base,3.5671999999999997,0
+1339,Insufficient Precision or Accuracy of a Real Number,base,3.5671999999999997,0
+120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),base,3.3566,0
+787,Out-of-bounds Write,base,3.302,0
+73,External Control of File Name or Path,base,3.0420000000000007,0
+805,Buffer Access with Incorrect Length Value,Base,2.9167143709721555,0
+130,Improper Handling of Length Parameter Inconsistency,Base,2.914313877855841,0

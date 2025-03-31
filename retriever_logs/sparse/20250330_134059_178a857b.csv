@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,5287.83371937579,unknown
+617,Reachable Assertion,4873.617870702642,unknown
+407,Inefficient Algorithmic Complexity,4814.512153945758,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),4709.692157876403,unknown
+626,Null Byte Interaction Error (Poison Null Byte),4706.1070842035415,unknown

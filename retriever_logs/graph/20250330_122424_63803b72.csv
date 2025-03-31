@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+364,Signal Handler Race Condition,base,4.329000000000001,0
+476,NULL Pointer Dereference,base,4.329000000000001,0
+609,Double-Checked Locking,base,4.329000000000001,0
+782,Exposed IOCTL with Insufficient Access Control,variant,3.8784,0
+416,Use After Free,variant,3.7507200000000003,0
+123,Write-what-where Condition,base,3.3566,0
+781,Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code,variant,3.24,0
+415,Double Free,variant,3.1987200000000002,0
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,3.1901950526546887,0
+386,Symbolic Name not Mapping to Correct Object,base,2.9005600000000005,0

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1391,Use of Weak Credentials,Class,0.7850874429046657
+345,Insufficient Verification of Data Authenticity,Class,0.7688582521067955
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.762771486907007
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7624443488322944
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7617400531458421
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7616764465020123
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7604543258412562
+1390,Weak Authentication,Class,0.7583701620937917
+603,Use of Client-Side Authentication,Base,0.7581991946840231
+295,Improper Certificate Validation,Base,0.7567390410661331

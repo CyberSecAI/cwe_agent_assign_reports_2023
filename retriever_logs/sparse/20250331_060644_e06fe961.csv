@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6638.672959265946,unknown
+639,Authorization Bypass Through User-Controlled Key,6362.895773930241,unknown
+863,Incorrect Authorization,6134.398649366419,unknown
+346,Origin Validation Error,6069.212672614411,unknown
+285,Improper Authorization,5992.332996518308,unknown

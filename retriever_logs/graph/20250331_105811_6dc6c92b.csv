@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+321,Use of Hard-coded Cryptographic Key,variant,4.0104,0
+259,Use of Hard-coded Password,variant,4.0104,0
+322,Key Exchange without Entity Authentication,base,3.757,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+502,Deserialization of Untrusted Data,base,3.6399999999999997,0
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,base,3.6399999999999997,0
+183,Permissive List of Allowed Inputs,base,2.7742,0
+295,Improper Certificate Validation,Base,2.4926187005902403,0
+798,Use of Hard-coded Credentials,Base,2.490022284569129,0
+306,Missing Authentication for Critical Function,base,2.4699999999999998,0

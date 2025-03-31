@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+1284,Improper Validation of Specified Quantity in Input,base,4.329000000000001,0
+476,NULL Pointer Dereference,base,4.329000000000001,0
+201,Insertion of Sensitive Information Into Sent Data,base,4.329000000000001,0
+410,Insufficient Resource Pool,base,4.329000000000001,0
+789,Memory Allocation with Excessive Size Value,variant,3.8784,0
+770,Allocation of Resources Without Limits or Throttling,base,3.7206,0
+1325,Improperly Controlled Sequential Memory Allocation,base,3.5671999999999997,0
+617,Reachable Assertion,base,3.4866,0
+190,Integer Overflow or Wraparound,base,3.3732400000000005,0
+290,Authentication Bypass by Spoofing,base,3.2656,0

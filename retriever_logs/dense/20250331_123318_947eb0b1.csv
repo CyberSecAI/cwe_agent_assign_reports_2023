@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7835047156063791
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7800961518415288
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7716351441651897
+295,Improper Certificate Validation,Base,0.7661450544781192
+345,Insufficient Verification of Data Authenticity,Class,0.765139725406834
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7618940921151179
+138,Improper Neutralization of Special Elements,Class,0.7611891059902323
+668,Exposure of Resource to Wrong Sphere,Class,0.7598105752055043
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),Base,0.757267660834018
+184,Incomplete List of Disallowed Inputs,Base,0.7560662664027824

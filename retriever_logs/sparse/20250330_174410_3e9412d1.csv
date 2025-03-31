@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,4092.09821813169,base_query
+184,Incomplete List of Disallowed Inputs,3985.1725629485686,base_query
+312,Cleartext Storage of Sensitive Information,3884.5321942896753,base_query
+311,Missing Encryption of Sensitive Data,3845.224040624525,base_query
+639,Authorization Bypass Through User-Controlled Key,3766.2928650271324,base_query

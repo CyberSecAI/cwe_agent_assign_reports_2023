@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7897628843719613
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7787018948768436
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7664868010484442
+274,Improper Handling of Insufficient Privileges,Base,0.7604925610201653
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7556548192606682
+184,Incomplete List of Disallowed Inputs,Base,0.753691460810538
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7519883034110899
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7470291765222485
+131,Incorrect Calculation of Buffer Size,Base,0.7469667929441922
+252,Unchecked Return Value,Base,0.7450682229846379

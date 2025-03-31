@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+639,Authorization Bypass Through User-Controlled Key,Base,0.7647852510069107
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.764267660557662
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.751915374722343
+1390,Weak Authentication,Class,0.7515970247798351
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7449476363847983
+405,Asymmetric Resource Consumption (Amplification),Class,0.7442768713776411
+307,Improper Restriction of Excessive Authentication Attempts,Base,0.7436345438456424
+799,Improper Control of Interaction Frequency,Class,0.7404021838228387
+1391,Use of Weak Credentials,Class,0.738785848452601
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7376889118690866

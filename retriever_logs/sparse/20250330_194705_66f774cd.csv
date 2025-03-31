@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+839,Numeric Range Comparison Without Minimum Check,5389.0567375308165,unknown
+130,Improper Handling of Length Parameter Inconsistency,5374.294831043027,unknown
+124,Buffer Underwrite ('Buffer Underflow'),5357.0450802609,unknown
+125,Out-of-bounds Read,5349.819587862321,unknown
+1284,Improper Validation of Specified Quantity in Input,5341.186013583384,unknown

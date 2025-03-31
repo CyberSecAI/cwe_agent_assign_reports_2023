@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+404,Improper Resource Shutdown or Release,4401.986983186663,unknown
+927,Use of Implicit Intent for Sensitive Communication,4373.872284641679,unknown
+667,Improper Locking,4355.641927554161,unknown
+252,Unchecked Return Value,4265.955329582643,unknown
+863,Incorrect Authorization,4261.752578945738,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,7958.799420811387,base_query
+770,Allocation of Resources Without Limits or Throttling,7797.282496380841,base_query
+789,Memory Allocation with Excessive Size Value,7714.680551812291,base_query
+1284,Improper Validation of Specified Quantity in Input,7682.02135523595,base_query
+668,Exposure of Resource to Wrong Sphere,7644.317527902519,base_query

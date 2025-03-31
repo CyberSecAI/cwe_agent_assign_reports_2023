@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+184,Incomplete List of Disallowed Inputs,Base,0.736838747650693
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7353579032402382
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Base,0.7251633748680488
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.723819568616336
+73,External Control of File Name or Path,Base,0.7201876060058554
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7163034491332748
+41,Improper Resolution of Path Equivalence,Base,0.7160390384060715
+691,Insufficient Control Flow Management,Pillar,0.7141591249583551
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7135588026689739
+183,Permissive List of Allowed Inputs,Base,0.7131874629363237

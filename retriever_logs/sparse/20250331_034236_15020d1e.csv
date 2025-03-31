@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+226,Sensitive Information in Resource Not Removed Before Reuse,5694.039791666583,unknown
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5675.556946719501,unknown
+319,Cleartext Transmission of Sensitive Information,5630.089905542135,unknown
+918,Server-Side Request Forgery (SSRF),5489.421438124623,unknown
+201,Insertion of Sensitive Information Into Sent Data,5425.305229299137,unknown

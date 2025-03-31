@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),4874.300078952881,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4770.152410885603,unknown
+770,Allocation of Resources Without Limits or Throttling,4737.2229307731295,unknown
+252,Unchecked Return Value,4719.470597545513,unknown
+476,NULL Pointer Dereference,4703.058435887777,unknown

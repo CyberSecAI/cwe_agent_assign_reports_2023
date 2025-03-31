@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,7247.397876180915,unknown
+190,Integer Overflow or Wraparound,7167.01508247546,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,7159.618282879986,unknown
+1284,Improper Validation of Specified Quantity in Input,7089.743329940924,unknown
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),6851.47508885169,unknown

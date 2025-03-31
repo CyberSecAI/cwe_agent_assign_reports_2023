@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,7808.417294471445,unknown
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),7067.238431917801,unknown
+863,Incorrect Authorization,7022.519893458917,unknown
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7015.301193550144,unknown
+116,Improper Encoding or Escaping of Output,7015.165518607053,unknown

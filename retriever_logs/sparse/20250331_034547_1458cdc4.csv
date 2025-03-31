@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+364,Signal Handler Race Condition,7687.290050066868,base_query
+451,User Interface (UI) Misrepresentation of Critical Information,6763.774850324499,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6728.891653535982,base_query
+415,Double Free,6554.650371179141,base_query
+828,Signal Handler with Functionality that is not Asynchronous-Safe,6450.563980760194,base_query

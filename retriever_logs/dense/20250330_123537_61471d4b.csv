@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7707811830030364
+668,Exposure of Resource to Wrong Sphere,Class,0.7686473991792495
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7636454973281771
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7626072549361945
+209,Generation of Error Message Containing Sensitive Information,Base,0.7620027604692009
+639,Authorization Bypass Through User-Controlled Key,Base,0.7608731911394886
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7587739300938319
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7571536824744524
+1390,Weak Authentication,Class,0.7551740766282311
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7521896731274544

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+226,Sensitive Information in Resource Not Removed Before Reuse,6144.879278401369,unknown
+404,Improper Resource Shutdown or Release,5866.910244432799,unknown
+770,Allocation of Resources Without Limits or Throttling,5742.0612376200415,unknown
+1390,Weak Authentication,5690.589468540954,unknown
+863,Incorrect Authorization,5678.997046249616,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6828.823910971097,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,6627.442958268538,base_query
+201,Insertion of Sensitive Information Into Sent Data,6598.502750086778,base_query
+209,Generation of Error Message Containing Sensitive Information,6492.484559041243,base_query
+863,Incorrect Authorization,6476.0041501318365,base_query

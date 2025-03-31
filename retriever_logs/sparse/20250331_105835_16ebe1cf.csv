@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+668,Exposure of Resource to Wrong Sphere,6588.245445360317,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,6541.4199507558515,unknown
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,6483.618122928565,unknown
+23,Relative Path Traversal,6438.873052087786,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6412.655618802331,unknown

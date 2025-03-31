@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,5278.837786713581,base_query
+178,Improper Handling of Case Sensitivity,4979.919769612328,base_query
+863,Incorrect Authorization,4856.199688233626,base_query
+285,Improper Authorization,4730.948613497837,base_query
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),4566.659946121913,base_query

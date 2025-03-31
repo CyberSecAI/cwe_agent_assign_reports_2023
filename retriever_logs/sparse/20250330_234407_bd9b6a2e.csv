@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,5774.612550646344,unknown
+863,Incorrect Authorization,5606.968671831677,unknown
+1284,Improper Validation of Specified Quantity in Input,5593.649113791395,unknown
+668,Exposure of Resource to Wrong Sphere,5575.175813139946,unknown
+942,Permissive Cross-domain Policy with Untrusted Domains,5572.7445966071655,unknown

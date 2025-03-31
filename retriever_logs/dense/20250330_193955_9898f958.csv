@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7760506608259632
+208,Observable Timing Discrepancy,Base,0.7650869785501053
+203,Observable Discrepancy,Base,0.7586777153643891
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7572129674607785
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7553897820484597
+331,Insufficient Entropy,Base,0.7538579886291141
+341,Predictable from Observable State,Base,0.7516268402247096
+1391,Use of Weak Credentials,Class,0.7510775998426698
+345,Insufficient Verification of Data Authenticity,Class,0.7482928028115154
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7465062093456504

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.753254911825741
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7515280128621964
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7434277702991987
+319,Cleartext Transmission of Sensitive Information,Base,0.7304395360493304
+138,Improper Neutralization of Special Elements,Class,0.726891745432495
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7245073984186685
+41,Improper Resolution of Path Equivalence,Base,0.724023746777857
+653,Improper Isolation or Compartmentalization,Class,0.7238714184592447
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7231945652410904
+312,Cleartext Storage of Sensitive Information,Base,0.7231499459106032

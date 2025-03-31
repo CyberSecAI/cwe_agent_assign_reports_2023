@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6896.632040649897,base_query
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),6870.999990929429,base_query
+285,Improper Authorization,6814.948589088464,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,6795.400870316642,base_query
+639,Authorization Bypass Through User-Controlled Key,6687.862645704276,base_query

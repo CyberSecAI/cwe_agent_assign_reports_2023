@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7757102055154297
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7691533636110973
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7686709432755247
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7680914522123938
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7680055276193851
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7658432244875981
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7654942853947417
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7654809183166207
+319,Cleartext Transmission of Sensitive Information,Base,0.7642692652881018
+639,Authorization Bypass Through User-Controlled Key,Base,0.7631646363691946

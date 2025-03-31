@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,7950.097143826062,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7893.587788172306,base_query
+346,Origin Validation Error,7681.205284668781,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,7606.934437687104,base_query
+295,Improper Certificate Validation,7468.872738704841,base_query

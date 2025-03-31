@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5857.313487408258,base_query
+667,Improper Locking,5218.13785532016,base_query
+252,Unchecked Return Value,5116.667025309381,base_query
+927,Use of Implicit Intent for Sensitive Communication,5090.7977456898025,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5062.123738225894,base_query

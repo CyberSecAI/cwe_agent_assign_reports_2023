@@ -1,0 +1,70 @@
+{
+  "retriever": "dense",
+  "query": "# Vulnerability Description\n\n    The Library File Manager WordPress plugin before 5.2.3 is using an outdated version of the elFinder library, which is know to be affected by security issues (CVE-2021-32682), and does not have any authorisation as well as CSRF checks in its connector AJAX action, allowing any authenticated users, such as subscriber to call it. Furthermore, as the options passed to the elFinder library does not restrict any file type, users with a role as low as subscriber can Create/Upload/Delete Arbitrary files and folders.\n\n    # Keyphrase-Specific CWE Analysis\n    This vulnerability contains multiple keyphrases that may map to different CWEs. \n    Please analyze each keyphrase separately and determine the most appropriate CWE(s) for each.\n\n    ## ROOTCAUSE: 'outdated elFinder library'\n\nRelevant CWEs for this ROOTCAUSE:\n\n### 1. CWE-352: Cross-Site Request Forgery (CSRF) (Score: 755.26)\n\nThe web application does not, or can not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request....\n\n### 2. CWE-862: Missing Authorization (Score: 601.90)\n\nThe product does not perform an authorization check when an actor attempts to access a resource or perform an action....\n\n### 3. CWE-434: Unrestricted Upload of File with Dangerous Type (Score: 593.63)\n\nThe product allows the upload or transfer of dangerous file types that are automatically processed within its environment....\n\n### 4. CWE-863: Incorrect Authorization (Score: 565.23)\n\nThe product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check....\n\n### 5. CWE-285: Improper Authorization (Score: 553.67)\n\nThe product does not perform or incorrectly performs an authorization check when an actor attempts to access a resource or perform an action....\n\n## ROOTCAUSE: 'missing authorization and CSRF checks'\n\nRelevant CWEs for this ROOTCAUSE:\n\n### 1. CWE-352: Cross-Site Request Forgery (CSRF) (Score: 755.26)\n\nThe web application does not, or can not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request....\n\n### 2. CWE-862: Missing Authorization (Score: 601.90)\n\nThe product does not perform an authorization check when an actor attempts to access a resource or perform an action....\n\n### 3. CWE-434: Unrestricted Upload of File with Dangerous Type (Score: 593.63)\n\nThe product allows the upload or transfer of dangerous file types that are automatically processed within its environment....\n\n### 4. CWE-863: Incorrect Authorization (Score: 565.23)\n\nThe product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check....\n\n### 5. CWE-285: Improper Authorization (Score: 553.67)\n\nThe product does not perform or incorrectly performs an authorization check when an actor attempts to access a resource or perform an action....\n\n## IMPACT: 'arbitrary file upload, deletion'\n\nRelevant CWEs for this IMPACT:\n\n### 1. CWE-352: Cross-Site Request Forgery (CSRF) (Score: 755.26)\n\nThe web application does not, or can not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request....\n\n### 2. CWE-862: Missing Authorization (Score: 601.90)\n\nThe product does not perform an authorization check when an actor attempts to access a resource or perform an action....\n\n### 3. CWE-434: Unrestricted Upload of File with Dangerous Type (Score: 593.63)\n\nThe product allows the upload or transfer of dangerous file types that are automatically processed within its environment....\n\n### 4. CWE-863: Incorrect Authorization (Score: 565.23)\n\nThe product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check....\n\n### 5. CWE-285: Improper Authorization (Score: 553.67)\n\nThe product does not perform or incorrectly performs an authorization check when an actor attempts to access a resource or perform an action....\n\n## VECTOR: 'connector AJAX action'\n\nRelevant CWEs for this VECTOR:\n\n### 1. CWE-352: Cross-Site Request Forgery (CSRF) (Score: 755.26)\n\nThe web application does not, or can not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request....\n\n### 2. CWE-862: Missing Authorization (Score: 601.90)\n\nThe product does not perform an authorization check when an actor attempts to access a resource or perform an action....\n\n### 3. CWE-434: Unrestricted Upload of File with Dangerous Type (Score: 593.63)\n\nThe product allows the upload or transfer of dangerous file types that are automatically processed within its environment....\n\n### 4. CWE-863: Incorrect Authorization (Score: 565.23)\n\nThe product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check....\n\n### 5. CWE-285: Improper Authorization (Score: 553.67)\n\nThe product does not perform or incorrectly performs an authorization check when an actor attempts to access a resource or perform an action....\n\n## ATTACKER: 'authenticated users'\n\nRelevant CWEs for this ATTACKER:\n\n### 1. CWE-352: Cross-Site Request Forgery (CSRF) (Score: 755.26)\n\nThe web application does not, or can not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request....\n\n### 2. CWE-862: Missing Authorization (Score: 601.90)\n\nThe product does not perform an authorization check when an actor attempts to access a resource or perform an action....\n\n### 3. CWE-434: Unrestricted Upload of File with Dangerous Type (Score: 593.63)\n\nThe product allows the upload or transfer of dangerous file types that are automatically processed within its environment....\n\n### 4. CWE-863: Incorrect Authorization (Score: 565.23)\n\nThe product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check....\n\n### 5. CWE-285: Improper Authorization (Score: 553.67)\n\nThe product does not perform or incorrectly performs an authorization check when an actor attempts to access a resource or perform an action....\n\n## PRODUCT: 'Library File Manager WordPress plugin'\n\nRelevant CWEs for this PRODUCT:\n\n### 1. CWE-352: Cross-Site Request Forgery (CSRF) (Score: 755.26)\n\nThe web application does not, or can not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request....\n\n### 2. CWE-862: Missing Authorization (Score: 601.90)\n\nThe product does not perform an authorization check when an actor attempts to access a resource or perform an action....\n\n### 3. CWE-434: Unrestricted Upload of File with Dangerous Type (Score: 593.63)\n\nThe product allows the upload or transfer of dangerous file types that are automatically processed within its environment....\n\n### 4. CWE-863: Incorrect Authorization (Score: 565.23)\n\nThe product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check....\n\n### 5. CWE-285: Improper Authorization (Score: 553.67)\n\nThe product does not perform or incorrectly performs an authorization check when an actor attempts to access a resource or perform an action....\n\n## VERSION: 'before 5.2.3'\n\nRelevant CWEs for this VERSION:\n\n### 1. CWE-352: Cross-Site Request Forgery (CSRF) (Score: 755.26)\n\nThe web application does not, or can not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request....\n\n### 2. CWE-862: Missing Authorization (Score: 601.90)\n\nThe product does not perform an authorization check when an actor attempts to access a resource or perform an action....\n\n### 3. CWE-434: Unrestricted Upload of File with Dangerous Type (Score: 593.63)\n\nThe product allows the upload or transfer of dangerous file types that are automatically processed within its environment....\n\n### 4. CWE-863: Incorrect Authorization (Score: 565.23)\n\nThe product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check....\n\n### 5. CWE-285: Improper Authorization (Score: 553.67)\n\nThe product does not perform or incorrectly performs an authorization check when an actor attempts to access a resource or perform an action....\n\n\n    # Analysis Instructions\n    1. For each keyphrase, identify the most appropriate CWE(s) that represent the weakness.\n    2. Consider how the different keyphrases might relate to each other in the vulnerability chain.\n    3. Provide a final determination of primary CWE(s) and any secondary CWEs.\n    4. Format your response using the standard analysis template.\n\n    Please analyze how these different weaknesses interact and provide a comprehensive CWE classification.\n    ",
+  "keyphrases": {},
+  "timestamp": "2025-03-31 07:19:43",
+  "cve_id": "unknown",
+  "result_count": 10,
+  "results": [
+    {
+      "cwe_id": "434",
+      "name": "Unrestricted Upload of File with Dangerous Type",
+      "type": "Base",
+      "score": 0.7609058625078189
+    },
+    {
+      "cwe_id": "425",
+      "name": "Direct Request ('Forced Browsing')",
+      "type": "Base",
+      "score": 0.7493975384158322
+    },
+    {
+      "cwe_id": "352",
+      "name": "Cross-Site Request Forgery (CSRF)",
+      "type": "Compound",
+      "score": 0.7321486141157402
+    },
+    {
+      "cwe_id": "639",
+      "name": "Authorization Bypass Through User-Controlled Key",
+      "type": "Base",
+      "score": 0.7308577094678433
+    },
+    {
+      "cwe_id": "472",
+      "name": "External Control of Assumed-Immutable Web Parameter",
+      "type": "Base",
+      "score": 0.7308337443069011
+    },
+    {
+      "cwe_id": "552",
+      "name": "Files or Directories Accessible to External Parties",
+      "type": "Base",
+      "score": 0.7272681275499516
+    },
+    {
+      "cwe_id": "178",
+      "name": "Improper Handling of Case Sensitivity",
+      "type": "Base",
+      "score": 0.718018662002909
+    },
+    {
+      "cwe_id": "303",
+      "name": "Incorrect Implementation of Authentication Algorithm",
+      "type": "Base",
+      "score": 0.7171791164881186
+    },
+    {
+      "cwe_id": "184",
+      "name": "Incomplete List of Disallowed Inputs",
+      "type": "Base",
+      "score": 0.7167649863209109
+    },
+    {
+      "cwe_id": "807",
+      "name": "Reliance on Untrusted Inputs in a Security Decision",
+      "type": "Base",
+      "score": 0.7143080118787859
+    }
+  ]
+}

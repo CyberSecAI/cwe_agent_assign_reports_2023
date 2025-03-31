@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+787,Out-of-bounds Write,base,4.329000000000001,0
+130,Improper Handling of Length Parameter Inconsistency,base,4.329000000000001,0
+190,Integer Overflow or Wraparound,base,4.329000000000001,0
+1284,Improper Validation of Specified Quantity in Input,base,4.329000000000001,0
+781,Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code,variant,3.8784,0
+280,Improper Handling of Insufficient Permissions or Privileges ,base,3.6399999999999997,0
+274,Improper Handling of Insufficient Privileges,base,3.6399999999999997,0
+823,Use of Out-of-range Pointer Offset,Base,2.918908991983785,0
+131,Incorrect Calculation of Buffer Size,Base,2.915589998417498,0
+125,Out-of-bounds Read,Base,2.914274805322774,0

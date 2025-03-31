@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+639,Authorization Bypass Through User-Controlled Key,Base,0.7801746112059416
+425,Direct Request ('Forced Browsing'),Base,0.7732021147066352
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7700665135862068
+41,Improper Resolution of Path Equivalence,Base,0.7674004008870847
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7654828895416076
+552,Files or Directories Accessible to External Parties,Base,0.761227896177417
+799,Improper Control of Interaction Frequency,Class,0.7604086969236374
+668,Exposure of Resource to Wrong Sphere,Class,0.7598270178375296
+1220,Insufficient Granularity of Access Control,Base,0.7574987048340585
+1390,Weak Authentication,Class,0.754452753324131

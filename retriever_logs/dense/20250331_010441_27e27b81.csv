@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7855007950617927
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.785296493860969
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7786437312795871
+824,Access of Uninitialized Pointer,Base,0.7744334862904849
+125,Out-of-bounds Read,Base,0.774037961370562
+667,Improper Locking,Class,0.7727546551870942
+665,Improper Initialization,Class,0.7726434172221077
+131,Incorrect Calculation of Buffer Size,Base,0.7713852340919201
+908,Use of Uninitialized Resource,Base,0.7709985719446681
+909,Missing Initialization of Resource,Class,0.7663885543646916

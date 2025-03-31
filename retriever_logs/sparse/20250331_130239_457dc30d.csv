@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,5966.889417190727,unknown
+916,Use of Password Hash With Insufficient Computational Effort,5686.4187900784555,unknown
+204,Observable Response Discrepancy,5497.453869160838,unknown
+208,Observable Timing Discrepancy,5455.942288595522,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),5100.366059297269,unknown

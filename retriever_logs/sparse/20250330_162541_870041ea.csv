@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+59,Improper Link Resolution Before File Access ('Link Following'),6350.961237586503,unknown
+61,UNIX Symbolic Link (Symlink) Following,5978.93215904488,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5638.547983378828,unknown
+23,Relative Path Traversal,5532.841640546379,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5342.157711204993,unknown

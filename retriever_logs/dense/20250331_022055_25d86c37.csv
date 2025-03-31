@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7676777592510603
+274,Improper Handling of Insufficient Privileges,Base,0.7671531032361112
+653,Improper Isolation or Compartmentalization,Class,0.7632894894810596
+266,Incorrect Privilege Assignment,Base,0.7607187195188239
+1390,Weak Authentication,Class,0.7604749645316466
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7592418555199842
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7550301055424827
+668,Exposure of Resource to Wrong Sphere,Class,0.7529909142178146
+267,Privilege Defined With Unsafe Actions,Base,0.7529521541686719
+41,Improper Resolution of Path Equivalence,Base,0.7499580703980253

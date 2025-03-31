@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7897484998798137
+1390,Weak Authentication,Class,0.7824528198636902
+1391,Use of Weak Credentials,Class,0.774696611921813
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7712443069361183
+305,Authentication Bypass by Primary Weakness,Base,0.7661053888599778
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.7639783678096151
+639,Authorization Bypass Through User-Controlled Key,Base,0.763807020047742
+204,Observable Response Discrepancy,Base,0.7623617262268396
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),Base,0.7610848482736308
+274,Improper Handling of Insufficient Privileges,Base,0.7588729285367154

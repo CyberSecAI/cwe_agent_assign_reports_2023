@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,6480.098567506884,unknown
+789,Memory Allocation with Excessive Size Value,6352.359683415053,unknown
+770,Allocation of Resources Without Limits or Throttling,6310.747178523397,unknown
+407,Inefficient Algorithmic Complexity,6057.517260789161,unknown
+1284,Improper Validation of Specified Quantity in Input,5869.206774598124,unknown

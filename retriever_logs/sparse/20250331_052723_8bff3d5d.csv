@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,4888.732747535519,base_query
+319,Cleartext Transmission of Sensitive Information,4786.873279170494,base_query
+863,Incorrect Authorization,4767.457689781356,base_query
+306,Missing Authentication for Critical Function,4661.905768482184,base_query
+838,Inappropriate Encoding for Output Context,4621.283240317143,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6224.261562148409,unknown
+942,Permissive Cross-domain Policy with Untrusted Domains,5498.221434732142,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,5244.989894533679,unknown
+863,Incorrect Authorization,5240.177455944953,unknown
+356,Product UI does not Warn User of Unsafe Actions,5191.443284592084,unknown

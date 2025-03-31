@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7829187450073782
+404,Improper Resource Shutdown or Release,Class,0.7801547548950071
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7731681670471028
+908,Use of Uninitialized Resource,Base,0.7730920019868958
+665,Improper Initialization,Class,0.7726476441176084
+457,Use of Uninitialized Variable,Variant,0.7714543215595855
+909,Missing Initialization of Resource,Class,0.767115925943775
+668,Exposure of Resource to Wrong Sphere,Class,0.7616422299196024
+667,Improper Locking,Class,0.7613616177859608
+252,Unchecked Return Value,Base,0.7547884381216181

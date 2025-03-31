@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7194.035998737662,unknown
+789,Memory Allocation with Excessive Size Value,6980.108697695359,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6944.746385985723,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,6845.756414387305,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,6843.88781531998,unknown

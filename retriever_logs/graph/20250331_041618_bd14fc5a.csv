@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+1325,Improperly Controlled Sequential Memory Allocation,base,5.031000000000001,0
+187,Partial String Comparison,variant,4.5264,0
+183,Permissive List of Allowed Inputs,base,4.505800000000001,0
+182,Collapse of Data into Unsafe Value,base,4.329000000000001,0
+1284,Improper Validation of Specified Quantity in Input,base,4.329000000000001,0
+476,NULL Pointer Dereference,base,4.329000000000001,0
+94,Improper Control of Generation of Code ('Code Injection'),base,3.8870000000000005,0
+625,Permissive Regular Expression,base,3.6399999999999997,0
+41,Improper Resolution of Path Equivalence,Base,3.3185205137461296,0
+770,Allocation of Resources Without Limits or Throttling,base,3.302,0

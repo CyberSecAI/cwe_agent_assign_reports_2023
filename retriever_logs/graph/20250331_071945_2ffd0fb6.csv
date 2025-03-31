@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+471,Modification of Assumed-Immutable Data (MAID),base,2.7196000000000002,0
+434,Unrestricted Upload of File with Dangerous Type,Base,2.399930996465046,0
+183,Permissive List of Allowed Inputs,base,2.2100000000000004,0
+425,Direct Request ('Forced Browsing'),Base,2.143298910961902,0
+472,External Control of Assumed-Immutable Web Parameter,Base,2.1322250293055878,0
+613,Insufficient Session Expiration,base,2.0930000000000004,0
+1275,Sensitive Cookie with Improper SameSite Attribute,variant,2.04,0
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),variant,2.04,0
+639,Authorization Bypass Through User-Controlled Key,Base,1.7757856942307713,0
+59,Improper Link Resolution Before File Access ('Link Following'),base,1.7680000000000005,0

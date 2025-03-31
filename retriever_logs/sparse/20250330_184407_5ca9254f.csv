@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+59,Improper Link Resolution Before File Access ('Link Following'),6591.767646372362,base_query
+379,Creation of Temporary File in Directory with Insecure Permissions,6585.887069710681,base_query
+330,Use of Insufficiently Random Values,6287.371788884528,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6269.882982593044,base_query
+732,Incorrect Permission Assignment for Critical Resource,6145.453982911758,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7802639366897068
+799,Improper Control of Interaction Frequency,Class,0.7613972129672821
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7601611326739366
+41,Improper Resolution of Path Equivalence,Base,0.7576413479370518
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7547178386925357
+405,Asymmetric Resource Consumption (Amplification),Class,0.7541090610990134
+668,Exposure of Resource to Wrong Sphere,Class,0.7529545462876627
+184,Incomplete List of Disallowed Inputs,Base,0.7495940366850786
+300,Channel Accessible by Non-Endpoint,Class,0.7468958779768713
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.746023107128553

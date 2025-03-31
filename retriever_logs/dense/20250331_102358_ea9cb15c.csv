@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7938282040172717
+300,Channel Accessible by Non-Endpoint,Class,0.7906994982030391
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7760348634197678
+295,Improper Certificate Validation,Base,0.7757156593297707
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7659335846844283
+1391,Use of Weak Credentials,Class,0.7657803669114673
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7626998036854866
+1390,Weak Authentication,Class,0.762236296056984
+757,Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade'),Base,0.7619856928600981
+345,Insufficient Verification of Data Authenticity,Class,0.758105269273139

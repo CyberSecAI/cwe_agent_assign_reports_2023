@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,8234.590083403555,unknown
+1284,Improper Validation of Specified Quantity in Input,7999.453316388944,unknown
+789,Memory Allocation with Excessive Size Value,7974.207884747626,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,7912.927856802223,unknown
+1333,Inefficient Regular Expression Complexity,7875.445931306704,unknown

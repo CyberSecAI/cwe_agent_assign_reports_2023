@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,8419.900573014696,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7791.090922021851,base_query
+863,Incorrect Authorization,7788.284011554461,base_query
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),7694.398124205742,base_query
+116,Improper Encoding or Escaping of Output,7653.204660677193,base_query

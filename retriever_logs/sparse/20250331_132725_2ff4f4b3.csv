@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,8464.806110118778,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7790.637730560464,unknown
+125,Out-of-bounds Read,7613.520351941992,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,7568.4278377476285,unknown
+1284,Improper Validation of Specified Quantity in Input,7536.150684140776,unknown

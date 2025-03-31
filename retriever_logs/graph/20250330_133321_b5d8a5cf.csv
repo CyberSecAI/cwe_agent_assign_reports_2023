@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+178,Improper Handling of Case Sensitivity,base,3.6399999999999997,0
+1289,Improper Validation of Unsafe Equivalence in Input,base,3.6399999999999997,0
+94,Improper Control of Generation of Code ('Code Injection'),base,3.4866,0
+457,Use of Uninitialized Variable,variant,2.97312,0
+252,Unchecked Return Value,base,2.821,0
+625,Permissive Regular Expression,base,2.7742,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),variant,2.5507200000000005,0
+456,Missing Initialization of a Variable,variant,2.5507200000000005,0
+274,Improper Handling of Insufficient Privileges,Base,2.497739298411749,0

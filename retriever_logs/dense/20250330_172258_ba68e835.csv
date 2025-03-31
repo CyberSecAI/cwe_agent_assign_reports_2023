@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7821390503306855
+691,Insufficient Control Flow Management,Pillar,0.7639855763907726
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.763730697996581
+1173,Improper Use of Validation Framework,Base,0.7602103446247295
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7574296070107785
+131,Incorrect Calculation of Buffer Size,Base,0.7530186968366669
+191,Integer Underflow (Wrap or Wraparound),Base,0.7514677146657217
+667,Improper Locking,Class,0.7513763434360922
+693,Protection Mechanism Failure,Pillar,0.7505246197154194
+653,Improper Isolation or Compartmentalization,Class,0.7496114479055401

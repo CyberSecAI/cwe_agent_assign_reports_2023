@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+697,Incorrect Comparison,Pillar,0.7580183735540168
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7566610425374956
+274,Improper Handling of Insufficient Privileges,Base,0.7554238693600772
+295,Improper Certificate Validation,Base,0.7514638141520205
+1390,Weak Authentication,Class,0.749587217017887
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7487602878424455
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.747492273052442
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7469232827667156
+345,Insufficient Verification of Data Authenticity,Class,0.7465515508428071
+691,Insufficient Control Flow Management,Pillar,0.7461876085773469

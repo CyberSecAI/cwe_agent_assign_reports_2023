@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,7031.77502504918,base_query
+285,Improper Authorization,6996.678181270638,base_query
+116,Improper Encoding or Escaping of Output,6952.646013663917,base_query
+472,External Control of Assumed-Immutable Web Parameter,6781.433349446465,base_query
+352,Cross-Site Request Forgery (CSRF),6758.151417794337,base_query

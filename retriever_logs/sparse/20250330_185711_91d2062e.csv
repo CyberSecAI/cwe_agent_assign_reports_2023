@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8373.920915199085,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),8339.098227789233,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),8084.425401503002,base_query
+379,Creation of Temporary File in Directory with Insecure Permissions,8053.251819746535,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,8018.431301985613,base_query

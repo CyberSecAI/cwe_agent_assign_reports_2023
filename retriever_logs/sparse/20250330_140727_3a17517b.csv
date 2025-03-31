@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,6590.805951304621,base_query
+116,Improper Encoding or Escaping of Output,6244.814519289757,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6086.706971550022,base_query
+770,Allocation of Resources Without Limits or Throttling,5885.607153883077,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),5800.098826036526,base_query

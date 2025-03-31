@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,6881.242913202098,base_query
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),6876.475232424045,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6866.481406913606,base_query
+1284,Improper Validation of Specified Quantity in Input,6706.158672466994,base_query
+1390,Weak Authentication,6703.909275263792,base_query

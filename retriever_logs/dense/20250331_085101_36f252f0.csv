@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.8098360417650219
+274,Improper Handling of Insufficient Privileges,Base,0.8087036164857662
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7875472295004795
+667,Improper Locking,Class,0.7834555492487413
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7799277285612525
+404,Improper Resource Shutdown or Release,Class,0.7771622153168055
+653,Improper Isolation or Compartmentalization,Class,0.7755174281561784
+41,Improper Resolution of Path Equivalence,Base,0.7744675372706281
+131,Incorrect Calculation of Buffer Size,Base,0.7732641303783682
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7731562848974818

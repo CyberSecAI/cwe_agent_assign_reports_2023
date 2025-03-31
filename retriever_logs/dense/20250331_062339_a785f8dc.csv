@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1391,Use of Weak Credentials,Class,0.7916679404700813
+798,Use of Hard-coded Credentials,Base,0.7876392481017018
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7844278513872721
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7838252644362729
+472,External Control of Assumed-Immutable Web Parameter,Base,0.782410051190491
+1390,Weak Authentication,Class,0.7765823677885725
+345,Insufficient Verification of Data Authenticity,Class,0.7729159049872556
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7718899512934578
+425,Direct Request ('Forced Browsing'),Base,0.7716365289994596
+639,Authorization Bypass Through User-Controlled Key,Base,0.7709317603670529

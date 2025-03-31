@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5696.773725201445,base_query
+295,Improper Certificate Validation,5565.275930817946,base_query
+1333,Inefficient Regular Expression Complexity,5519.4347318070695,base_query
+1390,Weak Authentication,5416.995328517908,base_query
+116,Improper Encoding or Escaping of Output,5414.259205179037,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7799714752908786
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7683490886026126
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7463693357447162
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7461633787579385
+184,Incomplete List of Disallowed Inputs,Base,0.7449692568439014
+41,Improper Resolution of Path Equivalence,Base,0.7446792355055696
+73,External Control of File Name or Path,Base,0.7424237467971464
+653,Improper Isolation or Compartmentalization,Class,0.7417735520341717
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7407023532335315
+274,Improper Handling of Insufficient Privileges,Base,0.7403462491138306

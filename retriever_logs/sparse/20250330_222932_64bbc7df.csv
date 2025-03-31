@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+918,Server-Side Request Forgery (SSRF),4848.882043753942,unknown
+863,Incorrect Authorization,4755.634861802054,unknown
+116,Improper Encoding or Escaping of Output,4751.906026624075,unknown
+125,Out-of-bounds Read,4747.513835890458,unknown
+190,Integer Overflow or Wraparound,4738.019927553074,unknown

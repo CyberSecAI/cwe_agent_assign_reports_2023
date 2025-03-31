@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+941,Incorrectly Specified Destination in a Communication Channel,6799.66585180156,base_query
+1284,Improper Validation of Specified Quantity in Input,6665.797437788217,base_query
+252,Unchecked Return Value,6584.18290912279,base_query
+770,Allocation of Resources Without Limits or Throttling,6514.415517521724,base_query
+863,Incorrect Authorization,6504.805573991007,base_query

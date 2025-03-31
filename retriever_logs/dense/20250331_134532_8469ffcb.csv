@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7890884275202212
+1389,Incorrect Parsing of Numbers with Different Radices,Base,0.7718409852065781
+799,Improper Control of Interaction Frequency,Class,0.769626110685524
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7659640442164335
+184,Incomplete List of Disallowed Inputs,Base,0.765958260310566
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7647709280247127
+41,Improper Resolution of Path Equivalence,Base,0.7642593238893444
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7642350823068471
+755,Improper Handling of Exceptional Conditions,Class,0.7632305578627708
+668,Exposure of Resource to Wrong Sphere,Class,0.7614275178078309

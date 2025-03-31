@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,6655.285047740748,unknown
+863,Incorrect Authorization,6566.792015557813,unknown
+434,Unrestricted Upload of File with Dangerous Type,6491.749349288,unknown
+285,Improper Authorization,6473.908073936377,unknown
+425,Direct Request ('Forced Browsing'),6434.46403238619,unknown

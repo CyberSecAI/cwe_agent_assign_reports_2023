@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+471,Modification of Assumed-Immutable Data (MAID),base,4.329000000000001,0
+322,Key Exchange without Entity Authentication,base,3.6399999999999997,0
+290,Authentication Bypass by Spoofing,base,3.6399999999999997,0
+476,NULL Pointer Dereference,base,3.4866,0
+193,Off-by-one Error,base,3.4200400000000006,0
+602,Client-Side Enforcement of Server-Side Security,class,2.984,0
+1322,Use of Blocking Code in Single-threaded  Non-blocking Context,base,2.8651999999999997,0
+571,Expression is Always True,base,2.8651999999999997,0
+570,Expression is Always False,base,2.8651999999999997,0
+252,Unchecked Return Value,base,2.8651999999999997,0

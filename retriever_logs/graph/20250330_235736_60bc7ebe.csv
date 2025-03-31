@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+256,Plaintext Storage of a Password,base,2.4699999999999998,0
+328,Use of Weak Hash,base,2.4699999999999998,0
+208,Observable Timing Discrepancy,base,2.2100000000000004,0
+301,Reflection Attack in an Authentication Protocol,base,2.1762,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.1279999999999997,0
+303,Incorrect Implementation of Authentication Algorithm,Base,1.777295730668851,0
+307,Improper Restriction of Excessive Authentication Attempts,Base,1.7696323454625944,0
+916,Use of Password Hash With Insufficient Computational Effort,Base,1.7693061677928374,0
+385,Covert Timing Channel,base,1.7680000000000005,0
+807,Reliance on Untrusted Inputs in a Security Decision,Base,1.7318690957518472,0

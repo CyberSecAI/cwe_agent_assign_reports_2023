@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1421,Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution,Base,0.8320779045856104
+1420,Exposure of Sensitive Information during Transient Execution,Base,0.818241963456225
+1342,Information Exposure through Microarchitectural State after Transient Execution,Base,0.7891502207378469
+1422,Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution,Base,0.7860418414149961
+1423,Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution,Base,0.7834826761459521
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7573592600882365
+208,Observable Timing Discrepancy,Base,0.7523077249675916
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7515639341116473
+203,Observable Discrepancy,Base,0.748279434856744
+667,Improper Locking,Class,0.7478445685761672

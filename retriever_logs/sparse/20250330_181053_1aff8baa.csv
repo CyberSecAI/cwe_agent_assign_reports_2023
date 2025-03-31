@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,6884.186299679825,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6689.516396170669,unknown
+789,Memory Allocation with Excessive Size Value,6621.876298701621,unknown
+1284,Improper Validation of Specified Quantity in Input,6541.83332262993,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6519.882390538183,unknown

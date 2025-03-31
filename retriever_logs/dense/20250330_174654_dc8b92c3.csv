@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+185,Incorrect Regular Expression,Class,0.7610640158083041
+625,Permissive Regular Expression,Base,0.7570421514173732
+186,Overly Restrictive Regular Expression,Base,0.7546996832392618
+637,Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism'),Class,0.7303074976911149
+156,Improper Neutralization of Whitespace,Variant,0.7262058879330313
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.721145474803591
+184,Incomplete List of Disallowed Inputs,Base,0.7163101993398513
+777,Regular Expression without Anchors,Variant,0.7161019791343138
+407,Inefficient Algorithmic Complexity,Class,0.7146305436381173
+41,Improper Resolution of Path Equivalence,Base,0.7096665946969627

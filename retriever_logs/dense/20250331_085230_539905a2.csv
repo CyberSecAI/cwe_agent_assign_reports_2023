@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7654244681436096
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7561601292096332
+552,Files or Directories Accessible to External Parties,Base,0.7452918813743794
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7425809196963735
+41,Improper Resolution of Path Equivalence,Base,0.7405994162633771
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7389039500829135
+404,Improper Resource Shutdown or Release,Class,0.7386892546280516
+23,Relative Path Traversal,Base,0.738177063523055
+73,External Control of File Name or Path,Base,0.7347169938115137
+405,Asymmetric Resource Consumption (Amplification),Class,0.7315969735876127

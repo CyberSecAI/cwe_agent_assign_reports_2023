@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+327,Use of a Broken or Risky Cryptographic Algorithm,5405.716541413771,unknown
+290,Authentication Bypass by Spoofing,5312.818944605473,unknown
+321,Use of Hard-coded Cryptographic Key,5260.927550583848,unknown
+863,Incorrect Authorization,5258.351190879916,unknown
+770,Allocation of Resources Without Limits or Throttling,5198.088639264289,unknown

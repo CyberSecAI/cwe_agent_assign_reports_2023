@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+668,Exposure of Resource to Wrong Sphere,4272.852286637689,unknown
+1391,Use of Weak Credentials,4196.97087019851,unknown
+321,Use of Hard-coded Cryptographic Key,4173.299293541665,unknown
+798,Use of Hard-coded Credentials,4171.322312750069,unknown
+639,Authorization Bypass Through User-Controlled Key,4158.743111514964,unknown

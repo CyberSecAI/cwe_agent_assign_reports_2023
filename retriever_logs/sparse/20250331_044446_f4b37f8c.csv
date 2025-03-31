@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+839,Numeric Range Comparison Without Minimum Check,4953.443051950029,unknown
+191,Integer Underflow (Wrap or Wraparound),4848.191753693576,unknown
+125,Out-of-bounds Read,4677.142903156348,unknown
+190,Integer Overflow or Wraparound,4674.453376789253,unknown
+1284,Improper Validation of Specified Quantity in Input,4658.836695728169,unknown

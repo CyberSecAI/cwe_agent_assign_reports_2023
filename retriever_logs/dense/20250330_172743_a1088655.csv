@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1391,Use of Weak Credentials,Class,0.7861584080139584
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7837919489356999
+784,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,Variant,0.7675160245965358
+565,Reliance on Cookies without Validation and Integrity Checking,Base,0.7627551132983145
+208,Observable Timing Discrepancy,Base,0.760163420520179
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.757096435300979
+330,Use of Insufficiently Random Values,Class,0.7567446882390747
+656,Reliance on Security Through Obscurity,Class,0.7557184915579376
+798,Use of Hard-coded Credentials,Base,0.7552040114615819
+603,Use of Client-Side Authentication,Base,0.7497126421519011

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,7341.88780501585,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,7051.159704096108,unknown
+328,Use of Weak Hash,6868.813451386944,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6807.007157451741,unknown
+863,Incorrect Authorization,6771.066642082261,unknown

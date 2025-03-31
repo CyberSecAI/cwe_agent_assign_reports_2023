@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+693,Protection Mechanism Failure,Pillar,0.7759243473839186
+691,Insufficient Control Flow Management,Pillar,0.7713498829771055
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7613745895390114
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7539292219334366
+653,Improper Isolation or Compartmentalization,Class,0.7531573053190774
+274,Improper Handling of Insufficient Privileges,Base,0.7454497458188405
+667,Improper Locking,Class,0.7453974245226005
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7415260150318355
+668,Exposure of Resource to Wrong Sphere,Class,0.7381746159334633
+697,Incorrect Comparison,Pillar,0.7371570260286335

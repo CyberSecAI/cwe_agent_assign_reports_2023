@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7494.90424121452,unknown
+1333,Inefficient Regular Expression Complexity,7423.21954796593,unknown
+770,Allocation of Resources Without Limits or Throttling,7335.92500406462,unknown
+789,Memory Allocation with Excessive Size Value,7233.155580560871,unknown
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),7004.700772665053,unknown

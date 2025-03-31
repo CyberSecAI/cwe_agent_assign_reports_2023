@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+345,Insufficient Verification of Data Authenticity,5453.821990258951,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5107.918015542381,unknown
+125,Out-of-bounds Read,4839.972121197518,unknown
+347,Improper Verification of Cryptographic Signature,4817.16414103787,unknown
+287,Improper Authentication,4692.466167442925,unknown

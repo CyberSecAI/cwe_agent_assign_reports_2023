@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,6194.015552455669,base_query
+1420,Exposure of Sensitive Information during Transient Execution,5917.161958990396,base_query
+208,Observable Timing Discrepancy,5690.270344221098,base_query
+204,Observable Response Discrepancy,5527.13883137862,base_query
+1256,Improper Restriction of Software Interfaces to Hardware Features,5500.871346526475,base_query

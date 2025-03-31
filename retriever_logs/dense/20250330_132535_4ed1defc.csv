@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7638909019788671
+639,Authorization Bypass Through User-Controlled Key,Base,0.7576760152302187
+1390,Weak Authentication,Class,0.7529663305768508
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7519360012398096
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7511368874745064
+204,Observable Response Discrepancy,Base,0.7488515977822352
+1391,Use of Weak Credentials,Class,0.7476704841439271
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7474453518634543
+289,Authentication Bypass by Alternate Name,Base,0.7474129869662232
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7449499235380148

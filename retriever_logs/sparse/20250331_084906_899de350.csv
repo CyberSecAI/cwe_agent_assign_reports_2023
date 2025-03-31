@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,5599.657797566247,unknown
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,5586.435511388775,unknown
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5430.336860151427,unknown
+201,Insertion of Sensitive Information Into Sent Data,5361.198110807985,unknown
+1004,Sensitive Cookie Without 'HttpOnly' Flag,5338.764362089921,unknown

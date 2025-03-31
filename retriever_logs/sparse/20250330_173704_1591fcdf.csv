@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+923,Improper Restriction of Communication Channel to Intended Endpoints,5239.2638541793995,base_query
+306,Missing Authentication for Critical Function,5228.391769781098,base_query
+863,Incorrect Authorization,5108.03082059826,base_query
+1390,Weak Authentication,5070.1802779989,base_query
+668,Exposure of Resource to Wrong Sphere,4954.713674402321,base_query

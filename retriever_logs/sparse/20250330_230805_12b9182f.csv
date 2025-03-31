@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,4430.757249369742,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,4231.40104990782,unknown
+190,Integer Overflow or Wraparound,4226.142540015342,unknown
+843,Access of Resource Using Incompatible Type ('Type Confusion'),4116.745150842631,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4097.989324478041,unknown

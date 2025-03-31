@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1423,Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution,8359.960381547544,base_query
+1420,Exposure of Sensitive Information during Transient Execution,8101.712480383505,base_query
+1421,Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution,7455.424237963928,base_query
+1422,Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution,6946.765497452054,base_query
+203,Observable Discrepancy,6796.088948672341,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+328,Use of Weak Hash,Base,0.7936941150654191
+330,Use of Insufficiently Random Values,Class,0.7883505953595176
+405,Asymmetric Resource Consumption (Amplification),Class,0.7878128364957641
+1391,Use of Weak Credentials,Class,0.7839033805783877
+208,Observable Timing Discrepancy,Base,0.7734278916195698
+799,Improper Control of Interaction Frequency,Class,0.7715759068996307
+345,Insufficient Verification of Data Authenticity,Class,0.7695440380618481
+916,Use of Password Hash With Insufficient Computational Effort,Base,0.7684316980799327
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7677401396978919
+331,Insufficient Entropy,Base,0.7646075744751306

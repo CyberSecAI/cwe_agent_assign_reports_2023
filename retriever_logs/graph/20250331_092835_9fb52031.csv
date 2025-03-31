@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+476,NULL Pointer Dereference,base,4.329000000000001,0
+178,Improper Handling of Case Sensitivity,base,3.757,0
+290,Authentication Bypass by Spoofing,base,3.6399999999999997,0
+354,Improper Validation of Integrity Check Value,base,3.6399999999999997,0
+353,Missing Support for Integrity Check,base,3.6399999999999997,0
+358,Improperly Implemented Security Check for Standard,base,3.6399999999999997,0
+325,Missing Cryptographic Step,base,3.6399999999999997,0
+1289,Improper Validation of Unsafe Equivalence in Input,base,3.6399999999999997,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,3.4866,0
+456,Missing Initialization of a Variable,variant,3.24,0

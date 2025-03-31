@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7699852800827005
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7544433780244578
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7372799223814109
+668,Exposure of Resource to Wrong Sphere,Class,0.7368860869404118
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7345553800638502
+356,Product UI does not Warn User of Unsafe Actions,Base,0.7298420401503982
+184,Incomplete List of Disallowed Inputs,Base,0.7285535478968148
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7271194814730043
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7260108142142797
+1021,Improper Restriction of Rendered UI Layers or Frames,Base,0.7251772019490073

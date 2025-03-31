@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1220,Insufficient Granularity of Access Control,Base,0.7626620975106536
+73,External Control of File Name or Path,Base,0.7623279312265173
+639,Authorization Bypass Through User-Controlled Key,Base,0.7621642162197104
+552,Files or Directories Accessible to External Parties,Base,0.755103630501365
+668,Exposure of Resource to Wrong Sphere,Class,0.7541378510327317
+274,Improper Handling of Insufficient Privileges,Base,0.7536538295919405
+653,Improper Isolation or Compartmentalization,Class,0.7514996304561261
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7505494988047622
+691,Insufficient Control Flow Management,Pillar,0.7503709584839421
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7463217571348807

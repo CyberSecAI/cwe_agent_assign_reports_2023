@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7452298073951631
+345,Insufficient Verification of Data Authenticity,Class,0.7419140758456229
+203,Observable Discrepancy,Base,0.7414316877671407
+926,Improper Export of Android Application Components,Variant,0.7409947122963321
+668,Exposure of Resource to Wrong Sphere,Class,0.740447235876085
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7342553129887395
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7326374441471832
+667,Improper Locking,Class,0.7294455594158593
+404,Improper Resource Shutdown or Release,Class,0.7291971465145773
+653,Improper Isolation or Compartmentalization,Class,0.7290441168994305

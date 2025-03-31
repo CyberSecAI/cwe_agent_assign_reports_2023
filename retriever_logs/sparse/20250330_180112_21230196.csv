@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,7163.221491185196,unknown
+116,Improper Encoding or Escaping of Output,6526.125636693352,unknown
+346,Origin Validation Error,6182.80326699191,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,6173.563510644223,unknown
+125,Out-of-bounds Read,6165.150349387069,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,5587.413145001984,base_query
+863,Incorrect Authorization,5565.392684705381,base_query
+532,Insertion of Sensitive Information into Log File,5535.770664545392,base_query
+285,Improper Authorization,5504.835548654906,base_query
+306,Missing Authentication for Critical Function,5456.049075691337,base_query

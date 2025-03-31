@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+259,Use of Hard-coded Password,5435.142394228149,base_query
+611,Improper Restriction of XML External Entity Reference,5411.590679327045,base_query
+203,Observable Discrepancy,5401.599636078349,base_query
+754,Improper Check for Unusual or Exceptional Conditions,5395.868972409158,base_query
+798,Use of Hard-coded Credentials,5348.069743137548,base_query

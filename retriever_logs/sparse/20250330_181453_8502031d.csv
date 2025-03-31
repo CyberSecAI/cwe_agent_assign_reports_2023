@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),9214.910994907643,unknown
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),9126.04011297933,unknown
+116,Improper Encoding or Escaping of Output,8989.202438792476,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),8784.95796130845,unknown
+611,Improper Restriction of XML External Entity Reference,8709.239198376157,unknown

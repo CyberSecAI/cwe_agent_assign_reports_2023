@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7574784892772295
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7548327283773905
+184,Incomplete List of Disallowed Inputs,Base,0.7402666545644949
+73,External Control of File Name or Path,Base,0.7368413576157984
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.734108807561768
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7333999161537295
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7320515896689209
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.728772952753951
+691,Insufficient Control Flow Management,Pillar,0.7273668160690947
+41,Improper Resolution of Path Equivalence,Base,0.7273223287406867

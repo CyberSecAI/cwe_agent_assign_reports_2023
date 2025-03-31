@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7899994675600785
+1391,Use of Weak Credentials,Class,0.7844898684590242
+613,Insufficient Session Expiration,Base,0.7834101430569703
+1390,Weak Authentication,Class,0.7816555419798238
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7815523060015971
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.7756445156278926
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7732589221361157
+345,Insufficient Verification of Data Authenticity,Class,0.7688537697737171
+294,Authentication Bypass by Capture-replay,Base,0.7670212931662761
+639,Authorization Bypass Through User-Controlled Key,Base,0.7669683801999164

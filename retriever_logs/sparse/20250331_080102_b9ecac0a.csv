@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,5174.27876208156,unknown
+754,Improper Check for Unusual or Exceptional Conditions,4836.7259943523495,unknown
+1250,Improper Preservation of Consistency Between Independent Representations of Shared State,4724.491568836831,unknown
+404,Improper Resource Shutdown or Release,4440.743381170286,unknown
+1284,Improper Validation of Specified Quantity in Input,4436.09352004668,unknown

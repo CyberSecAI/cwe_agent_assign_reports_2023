@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7746836303865658
+341,Predictable from Observable State,Base,0.7597892842990499
+667,Improper Locking,Class,0.7584803933232072
+340,Generation of Predictable Numbers or Identifiers,Class,0.7563148662549558
+208,Observable Timing Discrepancy,Base,0.7475683105397813
+203,Observable Discrepancy,Base,0.7437127530720044
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7402151517977239
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7391423722000524
+755,Improper Handling of Exceptional Conditions,Class,0.7371573362716496
+345,Insufficient Verification of Data Authenticity,Class,0.7346601092159687

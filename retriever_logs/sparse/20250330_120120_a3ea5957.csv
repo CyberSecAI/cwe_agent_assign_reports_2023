@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8721.462972384697,base_query
+116,Improper Encoding or Escaping of Output,8444.40118110796,base_query
+942,Permissive Cross-domain Policy with Untrusted Domains,8197.391191445688,base_query
+352,Cross-Site Request Forgery (CSRF),7905.320015291707,base_query
+319,Cleartext Transmission of Sensitive Information,7897.363879061181,base_query

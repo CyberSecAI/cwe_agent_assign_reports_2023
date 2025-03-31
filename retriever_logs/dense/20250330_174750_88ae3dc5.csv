@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+457,Use of Uninitialized Variable,Variant,0.766518623373061
+191,Integer Underflow (Wrap or Wraparound),Base,0.7664522760540142
+131,Incorrect Calculation of Buffer Size,Base,0.7624660506802629
+665,Improper Initialization,Class,0.7574600756349505
+909,Missing Initialization of Resource,Class,0.7527032289570147
+197,Numeric Truncation Error,Base,0.750931814533038
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7507380250867413
+667,Improper Locking,Class,0.7504768330220972
+681,Incorrect Conversion between Numeric Types,Base,0.7495406127993688
+456,Missing Initialization of a Variable,Variant,0.7493344396939211

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,5902.839744367374,base_query
+190,Integer Overflow or Wraparound,5865.801230190284,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5848.4411063463085,base_query
+285,Improper Authorization,5815.881818370841,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5812.704228582133,base_query

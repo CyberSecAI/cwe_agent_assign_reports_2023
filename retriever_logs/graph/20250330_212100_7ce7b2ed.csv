@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+613,Insufficient Session Expiration,base,4.329000000000001,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,4.329000000000001,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+798,Use of Hard-coded Credentials,base,3.6399999999999997,0
+502,Deserialization of Untrusted Data,base,3.6399999999999997,0
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,base,3.6399999999999997,0
+183,Permissive List of Allowed Inputs,base,3.523,0
+441,Unintended Proxy or Intermediary ('Confused Deputy'),class,2.984,0
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,base,2.9614000000000003,0
+41,Improper Resolution of Path Equivalence,Base,2.9132819178426566,0

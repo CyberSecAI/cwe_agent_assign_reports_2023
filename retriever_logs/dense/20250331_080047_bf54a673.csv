@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+73,External Control of File Name or Path,Base,0.7491755236898582
+274,Improper Handling of Insufficient Privileges,Base,0.7473016477600558
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7456501307083752
+41,Improper Resolution of Path Equivalence,Base,0.7451401543230075
+653,Improper Isolation or Compartmentalization,Class,0.7432238195047163
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7407840244611288
+23,Relative Path Traversal,Base,0.7404801813084178
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7404076723769553
+1220,Insufficient Granularity of Access Control,Base,0.7389287575399612
+668,Exposure of Resource to Wrong Sphere,Class,0.736964332846157

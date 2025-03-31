@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+657,Violation of Secure Design Principles,5166.23938309595,base_query
+287,Improper Authentication,4927.206177360353,base_query
+653,Improper Isolation or Compartmentalization,4819.740674187882,base_query
+1390,Weak Authentication,4677.045678401022,base_query
+732,Incorrect Permission Assignment for Critical Resource,4669.751947172915,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6272.377081140564,unknown
+203,Observable Discrepancy,6223.3445793757855,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,6158.5702044700065,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6104.217488581364,unknown
+125,Out-of-bounds Read,6048.366767260753,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,5619.695613405878,base_query
+472,External Control of Assumed-Immutable Web Parameter,5596.566232792771,base_query
+639,Authorization Bypass Through User-Controlled Key,5536.898749422549,base_query
+285,Improper Authorization,5528.071076370183,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),5500.1549073029555,base_query

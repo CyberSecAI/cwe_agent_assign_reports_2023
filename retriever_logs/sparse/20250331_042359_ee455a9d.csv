@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6329.652267424019,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,6326.807803101612,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,6246.849574627637,base_query
+668,Exposure of Resource to Wrong Sphere,6204.280822735286,base_query
+285,Improper Authorization,6167.626720656962,base_query

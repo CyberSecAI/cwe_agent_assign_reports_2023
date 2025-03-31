@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6116.678933900881,unknown
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,5943.497872880155,unknown
+668,Exposure of Resource to Wrong Sphere,5920.054989657615,unknown
+927,Use of Implicit Intent for Sensitive Communication,5721.164083550881,unknown
+201,Insertion of Sensitive Information Into Sent Data,5715.786382897326,unknown

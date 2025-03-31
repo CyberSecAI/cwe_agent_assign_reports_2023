@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),9220.621996344988,base_query
+116,Improper Encoding or Escaping of Output,8925.235420628791,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),8511.029762700216,base_query
+352,Cross-Site Request Forgery (CSRF),8457.61743194138,base_query
+61,UNIX Symbolic Link (Symlink) Following,8432.799217341166,base_query

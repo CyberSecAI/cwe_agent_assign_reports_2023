@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,5059.843006453698,unknown
+1269,Product Released in Non-Release Configuration,5032.344528067099,unknown
+1392,Use of Default Credentials,4832.78449172839,unknown
+611,Improper Restriction of XML External Entity Reference,4824.518002194569,unknown
+1391,Use of Weak Credentials,4793.036370920513,unknown

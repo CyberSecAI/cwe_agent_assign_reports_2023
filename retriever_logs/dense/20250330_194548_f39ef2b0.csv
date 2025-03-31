@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+356,Product UI does not Warn User of Unsafe Actions,Base,0.7902968413094466
+366,Race Condition within a Thread,Base,0.7849968303605748
+667,Improper Locking,Class,0.7820392124782802
+404,Improper Resource Shutdown or Release,Class,0.7782756487470812
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7768970213169891
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7678409921425919
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7672773120542287
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7650446437752934
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7630537259756136
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7627450318215582

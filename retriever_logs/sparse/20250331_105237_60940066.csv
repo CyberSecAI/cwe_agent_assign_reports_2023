@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6528.3556141474055,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,6400.307554523649,base_query
+319,Cleartext Transmission of Sensitive Information,6362.6822189532995,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,6314.470261962881,base_query
+312,Cleartext Storage of Sensitive Information,6224.025013885655,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+798,Use of Hard-coded Credentials,5166.68029873261,unknown
+287,Improper Authentication,4903.6502672758215,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,4881.4636622102,unknown
+1390,Weak Authentication,4877.262528279471,unknown
+294,Authentication Bypass by Capture-replay,4873.863946525323,unknown

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+611,Improper Restriction of XML External Entity Reference,Base,0.8161242160820021
+41,Improper Resolution of Path Equivalence,Base,0.7778332981711196
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7772674569620798
+23,Relative Path Traversal,Base,0.7750142313744336
+668,Exposure of Resource to Wrong Sphere,Class,0.771778307120974
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7703402376516119
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7694524772594191
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7647444350797289
+184,Incomplete List of Disallowed Inputs,Base,0.7639615989922394
+73,External Control of File Name or Path,Base,0.7583128656711062

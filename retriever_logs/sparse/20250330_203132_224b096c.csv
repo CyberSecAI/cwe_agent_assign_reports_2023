@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,7624.295854065763,unknown
+59,Improper Link Resolution Before File Access ('Link Following'),6663.578256663912,unknown
+798,Use of Hard-coded Credentials,6550.18038132305,unknown
+259,Use of Hard-coded Password,6541.9615860028225,unknown
+184,Incomplete List of Disallowed Inputs,6432.391723179483,unknown

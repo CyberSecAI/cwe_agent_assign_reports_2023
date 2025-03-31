@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+787,Out-of-bounds Write,base,4.329000000000001,0
+617,Reachable Assertion,base,3.8870000000000005,0
+416,Use After Free,variant,3.7507200000000003,0
+123,Write-what-where Condition,base,3.3566,0
+126,Buffer Over-read,variant,3.1008,0
+824,Access of Uninitialized Pointer,Base,2.9141683329011294,0
+908,Use of Uninitialized Resource,Base,2.913618452776877,0
+252,Unchecked Return Value,Base,2.908669996405746,0
+823,Use of Out-of-range Pointer Offset,Base,2.9031632428351575,0
+476,NULL Pointer Dereference,Base,2.903058049271025,0

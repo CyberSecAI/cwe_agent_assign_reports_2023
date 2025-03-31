@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,6241.25626393794,unknown
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),6116.68551449679,unknown
+1284,Improper Validation of Specified Quantity in Input,5996.7036017391165,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5991.000513769203,unknown
+23,Relative Path Traversal,5957.392669349601,unknown

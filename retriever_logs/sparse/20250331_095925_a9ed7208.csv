@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,5629.8966277280415,base_query
+927,Use of Implicit Intent for Sensitive Communication,5601.890386127013,base_query
+285,Improper Authorization,5577.563524284178,base_query
+287,Improper Authentication,5520.017648999744,base_query
+639,Authorization Bypass Through User-Controlled Key,5474.904946584237,base_query

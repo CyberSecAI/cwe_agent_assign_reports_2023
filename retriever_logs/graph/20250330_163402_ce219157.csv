@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+1240,Use of a Cryptographic Primitive with a Risky Implementation,base,2.4699999999999998,0
+267,Privilege Defined With Unsafe Actions,base,2.4699999999999998,0
+306,Missing Authentication for Critical Function,base,2.4699999999999998,0
+1327,Binding to an Unrestricted IP Address,base,2.4699999999999998,0
+208,Observable Timing Discrepancy,base,2.2100000000000004,0
+613,Insufficient Session Expiration,base,2.2100000000000004,0
+313,Cleartext Storage in a File or on Disk,variant,2.1624,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.1279999999999997,0
+472,External Control of Assumed-Immutable Web Parameter,base,2.1257600000000005,0

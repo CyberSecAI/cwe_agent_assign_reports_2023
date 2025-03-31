@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1390,Weak Authentication,Class,0.7675623232587664
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7653889550171867
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7647724666867921
+639,Authorization Bypass Through User-Controlled Key,Base,0.763023999415525
+1391,Use of Weak Credentials,Class,0.7615318927194965
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7588746030021472
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.758434102101772
+799,Improper Control of Interaction Frequency,Class,0.7565820443097737
+300,Channel Accessible by Non-Endpoint,Class,0.7553794059361396
+668,Exposure of Resource to Wrong Sphere,Class,0.7523364857385407

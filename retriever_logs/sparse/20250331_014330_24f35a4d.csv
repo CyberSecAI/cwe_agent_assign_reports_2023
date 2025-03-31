@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1254,Incorrect Comparison Logic Granularity,5064.858913151684,base_query
+208,Observable Timing Discrepancy,4995.333210408218,base_query
+697,Incorrect Comparison,4720.8988916986855,base_query
+203,Observable Discrepancy,4677.01370525832,base_query
+1390,Weak Authentication,4640.463947922611,base_query

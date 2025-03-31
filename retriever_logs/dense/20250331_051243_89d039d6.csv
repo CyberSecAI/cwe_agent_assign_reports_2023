@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7754771060756067
+41,Improper Resolution of Path Equivalence,Base,0.753282840161867
+23,Relative Path Traversal,Base,0.752894080748258
+73,External Control of File Name or Path,Base,0.7474151757247149
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.745791212651123
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7369500974039855
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),Base,0.7347033341614986
+184,Incomplete List of Disallowed Inputs,Base,0.7259675445545652
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7253809140279082
+36,Absolute Path Traversal,Base,0.7242186238299461

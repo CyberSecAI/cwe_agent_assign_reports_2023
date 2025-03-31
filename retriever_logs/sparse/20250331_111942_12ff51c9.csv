@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+352,Cross-Site Request Forgery (CSRF),4204.673182196,base_query
+285,Improper Authorization,4062.807901603665,base_query
+862,Missing Authorization,4019.40337727091,base_query
+863,Incorrect Authorization,4017.395415392062,base_query
+116,Improper Encoding or Escaping of Output,3802.3725714160905,base_query

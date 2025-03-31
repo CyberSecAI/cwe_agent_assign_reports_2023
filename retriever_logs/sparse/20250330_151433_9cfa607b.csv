@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,4516.744434138833,unknown
+191,Integer Underflow (Wrap or Wraparound),4374.41769062804,unknown
+252,Unchecked Return Value,4305.117165152109,unknown
+703,Improper Check or Handling of Exceptional Conditions,4302.895071746165,unknown
+125,Out-of-bounds Read,4271.5068099231485,unknown

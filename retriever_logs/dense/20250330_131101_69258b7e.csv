@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+407,Inefficient Algorithmic Complexity,Class,0.7475489112950993
+668,Exposure of Resource to Wrong Sphere,Class,0.7415337423028672
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7389779735677788
+625,Permissive Regular Expression,Base,0.737853613268266
+799,Improper Control of Interaction Frequency,Class,0.7374372214076816
+1333,Inefficient Regular Expression Complexity,Base,0.7368095819336062
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7358407976084587
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7357059720713865
+330,Use of Insufficiently Random Values,Class,0.7354751490711757
+138,Improper Neutralization of Special Elements,Class,0.7342815012438346

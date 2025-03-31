@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,7007.13645583257,unknown
+125,Out-of-bounds Read,6688.39546349856,unknown
+1423,Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution,6519.276683751672,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6487.419969087687,unknown
+1284,Improper Validation of Specified Quantity in Input,6464.639072454103,unknown

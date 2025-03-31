@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6233.383782874911,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6157.440427686861,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6092.820193971994,base_query
+203,Observable Discrepancy,6072.43582440136,base_query
+863,Incorrect Authorization,6000.976797864528,base_query

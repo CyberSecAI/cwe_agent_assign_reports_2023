@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,6259.27596807403,unknown
+863,Incorrect Authorization,6149.94685687922,unknown
+639,Authorization Bypass Through User-Controlled Key,6099.359234783931,unknown
+425,Direct Request ('Forced Browsing'),6049.614535986699,unknown
+306,Missing Authentication for Critical Function,6032.794112483921,unknown

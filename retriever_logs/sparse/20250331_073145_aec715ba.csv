@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,6473.6727722022115,unknown
+407,Inefficient Algorithmic Complexity,6195.969633703009,unknown
+789,Memory Allocation with Excessive Size Value,5924.634382181365,unknown
+328,Use of Weak Hash,5914.365031764585,unknown
+1336,Improper Neutralization of Special Elements Used in a Template Engine,5737.014448783446,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,4964.124307296349,base_query
+252,Unchecked Return Value,4960.553123179869,base_query
+863,Incorrect Authorization,4954.931654752604,base_query
+1333,Inefficient Regular Expression Complexity,4939.538618904335,base_query
+770,Allocation of Resources Without Limits or Throttling,4918.88170350703,base_query

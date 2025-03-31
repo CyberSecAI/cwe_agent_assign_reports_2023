@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+312,Cleartext Storage of Sensitive Information,3903.3451451481174,base_query
+256,Plaintext Storage of a Password,3855.397702193017,base_query
+522,Insufficiently Protected Credentials,3775.4292885463997,base_query
+863,Incorrect Authorization,3772.7736388361072,base_query
+639,Authorization Bypass Through User-Controlled Key,3688.9440923771663,base_query

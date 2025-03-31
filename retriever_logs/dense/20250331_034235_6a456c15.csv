@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+436,Interpretation Conflict,Class,0.7622143182681705
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7512077197656214
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7495999753088656
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),Base,0.7484999357472072
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7467477647786247
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7454977602370533
+41,Improper Resolution of Path Equivalence,Base,0.7428525062534126
+668,Exposure of Resource to Wrong Sphere,Class,0.7391117952969657
+184,Incomplete List of Disallowed Inputs,Base,0.73699127442179
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.736099584591039

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+312,Cleartext Storage of Sensitive Information,Base,0.791652971700454
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7797009135728057
+316,Cleartext Storage of Sensitive Information in Memory,Variant,0.7764769256956539
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7739296629988297
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7600790182166977
+922,Insecure Storage of Sensitive Information,Class,0.7557205097014361
+319,Cleartext Transmission of Sensitive Information,Base,0.7479679287884198
+311,Missing Encryption of Sensitive Data,Class,0.742482441883188
+313,Cleartext Storage in a File or on Disk,Variant,0.7414547045451173
+459,Incomplete Cleanup,Base,0.7317142981853303

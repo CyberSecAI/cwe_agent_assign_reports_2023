@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+457,Use of Uninitialized Variable,Variant,0.7618332694665372
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7589774837613398
+404,Improper Resource Shutdown or Release,Class,0.7588449701134956
+405,Asymmetric Resource Consumption (Amplification),Class,0.758655398239593
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7561902210348568
+799,Improper Control of Interaction Frequency,Class,0.7541880350092589
+667,Improper Locking,Class,0.7511664032966217
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7500926473899963
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7437044050470635
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7431915252336306

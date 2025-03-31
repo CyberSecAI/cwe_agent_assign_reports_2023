@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+131,Incorrect Calculation of Buffer Size,Base,0.7664700146372179
+682,Incorrect Calculation,Pillar,0.7631894642080745
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7615089746811841
+667,Improper Locking,Class,0.7612176668357162
+404,Improper Resource Shutdown or Release,Class,0.7584701423202713
+274,Improper Handling of Insufficient Privileges,Base,0.7530165459442342
+653,Improper Isolation or Compartmentalization,Class,0.7512254143944657
+665,Improper Initialization,Class,0.7509367429529957
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7461478340571561
+191,Integer Underflow (Wrap or Wraparound),Base,0.7436534905395624

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7580193553245009
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7556464066816986
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7553548229595175
+667,Improper Locking,Class,0.7511797209088329
+274,Improper Handling of Insufficient Privileges,Base,0.7471176328451523
+1220,Insufficient Granularity of Access Control,Base,0.7439725702774806
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7428240190525821
+405,Asymmetric Resource Consumption (Amplification),Class,0.7419739908325631
+203,Observable Discrepancy,Base,0.7417187072680063
+345,Insufficient Verification of Data Authenticity,Class,0.7414660981448524

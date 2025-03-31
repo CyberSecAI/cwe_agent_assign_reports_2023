@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1299,Missing Protection Mechanism for Alternate Hardware Interface,4399.361472842078,unknown
+203,Observable Discrepancy,4067.611213131192,unknown
+420,Unprotected Alternate Channel,3832.070158386727,unknown
+459,Incomplete Cleanup,3770.5728838474533,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,3757.6093734416495,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+59,Improper Link Resolution Before File Access ('Link Following'),6246.060323492908,base_query
+204,Observable Response Discrepancy,6127.39881730712,base_query
+61,UNIX Symbolic Link (Symlink) Following,6011.7216462186625,base_query
+203,Observable Discrepancy,5951.2959799002765,base_query
+190,Integer Overflow or Wraparound,5937.725650588445,base_query

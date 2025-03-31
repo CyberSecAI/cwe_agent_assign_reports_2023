@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7713950149805603
+209,Generation of Error Message Containing Sensitive Information,Base,0.7713551492617905
+668,Exposure of Resource to Wrong Sphere,Class,0.7712811592348188
+1391,Use of Weak Credentials,Class,0.7675559103129876
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.766125593001446
+639,Authorization Bypass Through User-Controlled Key,Base,0.7660287082129211
+345,Insufficient Verification of Data Authenticity,Class,0.7627716358991712
+319,Cleartext Transmission of Sensitive Information,Base,0.760604496019182
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.760564467322745
+274,Improper Handling of Insufficient Privileges,Base,0.7605059492755627

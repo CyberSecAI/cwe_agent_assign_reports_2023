@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+407,Inefficient Algorithmic Complexity,Class,0.7568706719423935
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.747251857552602
+404,Improper Resource Shutdown or Release,Class,0.7417445682281638
+667,Improper Locking,Class,0.740806988669886
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7390185398602271
+653,Improper Isolation or Compartmentalization,Class,0.7348572851724668
+41,Improper Resolution of Path Equivalence,Base,0.7342054741791254
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.7336789866392093
+405,Asymmetric Resource Consumption (Amplification),Class,0.7313443029713904
+668,Exposure of Resource to Wrong Sphere,Class,0.7304476179630608

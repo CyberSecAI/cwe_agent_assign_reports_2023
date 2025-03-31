@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7685050783060443
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7674305317987031
+705,Incorrect Control Flow Scoping,Class,0.7654465785422848
+691,Insufficient Control Flow Management,Pillar,0.760332469129481
+73,External Control of File Name or Path,Base,0.7510737402375776
+653,Improper Isolation or Compartmentalization,Class,0.7507331889761901
+404,Improper Resource Shutdown or Release,Class,0.7484258641230362
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7462813427430441
+41,Improper Resolution of Path Equivalence,Base,0.7452827618901068
+913,Improper Control of Dynamically-Managed Code Resources,Class,0.7452156265711878

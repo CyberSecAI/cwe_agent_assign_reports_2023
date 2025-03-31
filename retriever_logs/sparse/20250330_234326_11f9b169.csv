@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+204,Observable Response Discrepancy,4202.469383403254,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,4200.390912385122,base_query
+203,Observable Discrepancy,4180.881995051269,base_query
+208,Observable Timing Discrepancy,4150.050802963735,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4062.461630798884,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,5641.02703335151,unknown
+798,Use of Hard-coded Credentials,5564.091122827046,unknown
+259,Use of Hard-coded Password,5466.9423923352315,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5456.681618285909,unknown
+347,Improper Verification of Cryptographic Signature,5448.0815112333785,unknown

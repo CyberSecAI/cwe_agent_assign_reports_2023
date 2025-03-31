@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+798,Use of Hard-coded Credentials,5959.084669248022,base_query
+259,Use of Hard-coded Password,5903.027898080275,base_query
+347,Improper Verification of Cryptographic Signature,5657.107171720379,base_query
+1269,Product Released in Non-Release Configuration,5604.242187174928,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,5595.88882826469,base_query

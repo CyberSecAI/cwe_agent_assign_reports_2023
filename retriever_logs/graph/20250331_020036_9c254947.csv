@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,5.031000000000001,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,5.031000000000001,0
+494,Download of Code Without Integrity Check,base,4.329000000000001,0
+208,Observable Timing Discrepancy,base,4.329000000000001,0
+385,Covert Timing Channel,base,4.329000000000001,0
+625,Permissive Regular Expression,base,3.6399999999999997,0
+184,Incomplete List of Disallowed Inputs,Base,3.3210493245748203,0
+94,Improper Control of Generation of Code ('Code Injection'),base,3.302,0
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,2.8896417359485307,0
+190,Integer Overflow or Wraparound,base,2.8651999999999997,0

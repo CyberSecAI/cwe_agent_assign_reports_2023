@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,8115.046480167834,base_query
+789,Memory Allocation with Excessive Size Value,8108.915713482246,base_query
+1325,Improperly Controlled Sequential Memory Allocation,7729.664009633889,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,7663.730362076027,base_query
+668,Exposure of Resource to Wrong Sphere,7632.244941852623,base_query

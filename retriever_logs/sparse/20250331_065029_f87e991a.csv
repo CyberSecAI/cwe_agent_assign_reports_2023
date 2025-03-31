@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+319,Cleartext Transmission of Sensitive Information,4669.869836837223,base_query
+799,Improper Control of Interaction Frequency,4498.97839430359,base_query
+306,Missing Authentication for Critical Function,4482.314833157652,base_query
+863,Incorrect Authorization,4421.856313579614,base_query
+1300,Improper Protection of Physical Side Channels,4398.198787042771,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6135.728912828969,base_query
+1333,Inefficient Regular Expression Complexity,5918.988555947057,base_query
+863,Incorrect Authorization,5914.2284351007265,base_query
+770,Allocation of Resources Without Limits or Throttling,5867.6685237728625,base_query
+1284,Improper Validation of Specified Quantity in Input,5813.929248820334,base_query

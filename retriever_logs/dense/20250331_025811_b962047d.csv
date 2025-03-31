@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7828488660552178
+434,Unrestricted Upload of File with Dangerous Type,Base,0.7746630450976781
+184,Incomplete List of Disallowed Inputs,Base,0.7716266328623747
+183,Permissive List of Allowed Inputs,Base,0.7678633523825771
+125,Out-of-bounds Read,Base,0.7677166650900873
+789,Memory Allocation with Excessive Size Value,Variant,0.7648767914996654
+252,Unchecked Return Value,Base,0.7590963223528839
+73,External Control of File Name or Path,Base,0.7576101728265411
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7526224573395517
+552,Files or Directories Accessible to External Parties,Base,0.7525960741570124

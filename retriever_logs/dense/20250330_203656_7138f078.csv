@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+125,Out-of-bounds Read,Base,0.7748598322829512
+191,Integer Underflow (Wrap or Wraparound),Base,0.7688458042419083
+611,Improper Restriction of XML External Entity Reference,Base,0.7673425295022404
+776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),Base,0.7672355863883537
+130,Improper Handling of Length Parameter Inconsistency,Base,0.7669739159904148
+131,Incorrect Calculation of Buffer Size,Base,0.7582374977721401
+668,Exposure of Resource to Wrong Sphere,Class,0.7580512907502482
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7568104234251916
+129,Improper Validation of Array Index,Variant,0.7558058905100729
+197,Numeric Truncation Error,Base,0.7556891855926221

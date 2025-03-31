@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+798,Use of Hard-coded Credentials,Base,0.7972438468875284
+1391,Use of Weak Credentials,Class,0.7856787775352814
+912,Hidden Functionality,Class,0.7774993133054904
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7744954521333339
+41,Improper Resolution of Path Equivalence,Base,0.771388346460562
+1188,Initialization of a Resource with an Insecure Default,Base,0.7709965245808544
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7683640324080909
+345,Insufficient Verification of Data Authenticity,Class,0.7664523981604563
+668,Exposure of Resource to Wrong Sphere,Class,0.7664502922453025
+330,Use of Insufficiently Random Values,Class,0.766402385458745

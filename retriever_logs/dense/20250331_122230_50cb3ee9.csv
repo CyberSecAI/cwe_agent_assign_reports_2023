@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1299,Missing Protection Mechanism for Alternate Hardware Interface,Base,0.7956923952839918
+319,Cleartext Transmission of Sensitive Information,Base,0.7792350116064322
+798,Use of Hard-coded Credentials,Base,0.7773671378758037
+345,Insufficient Verification of Data Authenticity,Class,0.7719987618354556
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7719918243850753
+312,Cleartext Storage of Sensitive Information,Base,0.7696589005973016
+1263,Improper Physical Access Control,Class,0.7669995463363809
+1391,Use of Weak Credentials,Class,0.7661088614182845
+657,Violation of Secure Design Principles,Class,0.7659562925335901
+799,Improper Control of Interaction Frequency,Class,0.7637700281508429

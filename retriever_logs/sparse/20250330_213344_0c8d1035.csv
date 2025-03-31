@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+668,Exposure of Resource to Wrong Sphere,6536.279162710113,unknown
+863,Incorrect Authorization,6192.506873019451,unknown
+639,Authorization Bypass Through User-Controlled Key,6100.100840600055,unknown
+287,Improper Authentication,6038.152139352982,unknown
+306,Missing Authentication for Critical Function,6031.609129377183,unknown

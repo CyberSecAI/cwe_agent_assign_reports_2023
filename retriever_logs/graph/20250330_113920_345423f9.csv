@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,5.031000000000001,0
+494,Download of Code Without Integrity Check,base,4.329000000000001,0
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,base,3.6399999999999997,0
+502,Deserialization of Untrusted Data,base,3.6399999999999997,0
+623,Unsafe ActiveX Control Marked Safe For Scripting,variant,3.2424,0
+183,Permissive List of Allowed Inputs,base,2.998840000000001,0
+804,Guessable CAPTCHA,base,2.8651999999999997,0
+352,Cross-Site Request Forgery (CSRF),compound,2.8280000000000003,0
+184,Incomplete List of Disallowed Inputs,base,2.7014000000000005,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0

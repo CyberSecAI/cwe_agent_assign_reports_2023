@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,5738.891691828985,base_query
+125,Out-of-bounds Read,5694.109113120764,base_query
+789,Memory Allocation with Excessive Size Value,5574.881417104881,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5473.519545809655,base_query
+1284,Improper Validation of Specified Quantity in Input,5428.156695996635,base_query

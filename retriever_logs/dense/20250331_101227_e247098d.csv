@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.78651948506041
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.779250297837429
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7787688499736
+639,Authorization Bypass Through User-Controlled Key,Base,0.776182090141894
+73,External Control of File Name or Path,Base,0.7746399533327866
+1390,Weak Authentication,Class,0.772263451519281
+41,Improper Resolution of Path Equivalence,Base,0.7719342789399004
+345,Insufficient Verification of Data Authenticity,Class,0.7715874506498761
+552,Files or Directories Accessible to External Parties,Base,0.7686485275090154
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7685240902910835

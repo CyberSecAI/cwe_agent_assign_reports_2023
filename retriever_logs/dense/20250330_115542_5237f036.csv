@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+691,Insufficient Control Flow Management,Pillar,0.8067967545678496
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7839090780592946
+274,Improper Handling of Insufficient Privileges,Base,0.7660837962068338
+653,Improper Isolation or Compartmentalization,Class,0.7656944414554336
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7574111775392462
+1220,Insufficient Granularity of Access Control,Base,0.7566475064815256
+667,Improper Locking,Class,0.7510888975690484
+404,Improper Resource Shutdown or Release,Class,0.7508786478181764
+668,Exposure of Resource to Wrong Sphere,Class,0.7504047727468026
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7496046706678234

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,5050.039817802155,base_query
+1336,Improper Neutralization of Special Elements Used in a Template Engine,4971.198965433056,base_query
+297,Improper Validation of Certificate with Host Mismatch,4817.896869317506,base_query
+295,Improper Certificate Validation,4690.115767477927,base_query
+918,Server-Side Request Forgery (SSRF),4679.880284251497,base_query

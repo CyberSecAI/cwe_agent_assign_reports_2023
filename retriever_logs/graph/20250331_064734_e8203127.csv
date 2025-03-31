@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+523,Unprotected Transport of Credentials,base,3.6399999999999997,0
+274,Improper Handling of Insufficient Privileges,base,3.6399999999999997,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.5507200000000005,0
+312,Cleartext Storage of Sensitive Information,Base,2.505839294039869,0
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,2.4926430635038166,0
+549,Missing Password Field Masking,base,2.4699999999999998,0
+261,Weak Encoding for Password,base,2.4699999999999998,0
+256,Plaintext Storage of a Password,base,2.4699999999999998,0
+305,Authentication Bypass by Primary Weakness,base,2.4699999999999998,0
+378,Creation of Temporary File With Insecure Permissions,base,2.4699999999999998,0

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,5984.673388397545,base_query
+190,Integer Overflow or Wraparound,5935.64953497599,base_query
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),5881.241360810655,base_query
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),5837.509342315903,base_query
+94,Improper Control of Generation of Code ('Code Injection'),5747.643078895724,base_query

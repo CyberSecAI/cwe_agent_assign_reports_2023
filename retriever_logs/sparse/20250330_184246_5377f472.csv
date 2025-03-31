@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+927,Use of Implicit Intent for Sensitive Communication,5436.975130952477,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,5231.423761919346,base_query
+295,Improper Certificate Validation,5208.74888119662,base_query
+863,Incorrect Authorization,5150.409858200309,base_query
+941,Incorrectly Specified Destination in a Communication Channel,5047.359943820005,base_query

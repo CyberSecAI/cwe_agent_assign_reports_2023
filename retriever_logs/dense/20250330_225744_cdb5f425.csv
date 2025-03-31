@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.773882253548676
+667,Improper Locking,Class,0.7737839301571943
+662,Improper Synchronization,Class,0.7674521924110982
+404,Improper Resource Shutdown or Release,Class,0.7637172008604571
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7596139655772999
+274,Improper Handling of Insufficient Privileges,Base,0.7582359268962799
+653,Improper Isolation or Compartmentalization,Class,0.7527360002491401
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7505665293796575
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7443947419561778
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7415027278758848

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+617,Reachable Assertion,5249.268970359708,unknown
+193,Off-by-one Error,5110.701710239847,unknown
+125,Out-of-bounds Read,5051.442157408533,unknown
+1284,Improper Validation of Specified Quantity in Input,5046.088871081332,unknown
+190,Integer Overflow or Wraparound,5021.384048584803,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,4369.948985120581,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,4360.691395112426,unknown
+918,Server-Side Request Forgery (SSRF),4342.675610575928,unknown
+863,Incorrect Authorization,4341.166569632155,unknown
+321,Use of Hard-coded Cryptographic Key,4295.929590031959,unknown

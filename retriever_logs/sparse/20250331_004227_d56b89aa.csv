@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,6565.725606155983,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6452.162195619263,base_query
+667,Improper Locking,6442.461506552407,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6416.459194234507,base_query
+770,Allocation of Resources Without Limits or Throttling,6400.995724327417,base_query

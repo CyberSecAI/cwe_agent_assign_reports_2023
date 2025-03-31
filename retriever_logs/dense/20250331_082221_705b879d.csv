@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+425,Direct Request ('Forced Browsing'),Base,0.7528740454920562
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7377699465012939
+352,Cross-Site Request Forgery (CSRF),Compound,0.7262682667713429
+96,Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection'),Base,0.7197387681741051
+434,Unrestricted Upload of File with Dangerous Type,Base,0.7142670768750001
+178,Improper Handling of Case Sensitivity,Base,0.7135776737176699
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7116881629689069
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7074524214470737
+552,Files or Directories Accessible to External Parties,Base,0.7067502446466104
+116,Improper Encoding or Escaping of Output,Class,0.7056777212596919

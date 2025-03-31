@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),6084.109661375621,base_query
+319,Cleartext Transmission of Sensitive Information,5639.2067252945335,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,5610.531585857577,base_query
+295,Improper Certificate Validation,5535.374107277032,base_query
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),5433.692962396607,base_query

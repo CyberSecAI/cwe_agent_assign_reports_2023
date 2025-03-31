@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+190,Integer Overflow or Wraparound,7387.1132842231455,base_query
+125,Out-of-bounds Read,7046.683354908523,base_query
+1284,Improper Validation of Specified Quantity in Input,7036.537754359551,base_query
+1423,Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution,6955.884580405064,base_query
+193,Off-by-one Error,6910.813192352461,base_query

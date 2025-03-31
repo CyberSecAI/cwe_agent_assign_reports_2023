@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7816974936688126
+203,Observable Discrepancy,Base,0.7687238240290928
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7628723258833678
+208,Observable Timing Discrepancy,Base,0.7616995130841602
+204,Observable Response Discrepancy,Base,0.7593335799337038
+209,Generation of Error Message Containing Sensitive Information,Base,0.7591098229086849
+345,Insufficient Verification of Data Authenticity,Class,0.7566526699192936
+668,Exposure of Resource to Wrong Sphere,Class,0.7528062342357226
+331,Insufficient Entropy,Base,0.7522940458493673
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7519539313820809

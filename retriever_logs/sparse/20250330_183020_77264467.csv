@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7270.311531553712,unknown
+754,Improper Check for Unusual or Exceptional Conditions,7197.992969341802,unknown
+1286,Improper Validation of Syntactic Correctness of Input,6999.896847205323,unknown
+1250,Improper Preservation of Consistency Between Independent Representations of Shared State,6958.550685664113,unknown
+184,Incomplete List of Disallowed Inputs,6956.753961208588,unknown

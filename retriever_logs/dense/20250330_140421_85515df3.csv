@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+789,Memory Allocation with Excessive Size Value,Variant,0.8007558301091949
+667,Improper Locking,Class,0.7994045680677737
+404,Improper Resource Shutdown or Release,Class,0.7967400327468561
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7881194260412787
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7838183174092519
+131,Incorrect Calculation of Buffer Size,Base,0.780242866518436
+1325,Improperly Controlled Sequential Memory Allocation,Base,0.779195125276507
+909,Missing Initialization of Resource,Class,0.7766433603084784
+366,Race Condition within a Thread,Base,0.7762690557381218
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,Base,0.7757765846517752

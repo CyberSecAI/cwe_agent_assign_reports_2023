@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,7649.356493048436,unknown
+476,NULL Pointer Dereference,7074.548754703548,unknown
+190,Integer Overflow or Wraparound,7029.78285510664,unknown
+824,Access of Uninitialized Pointer,6728.956216266568,unknown
+789,Memory Allocation with Excessive Size Value,6699.008297337561,unknown

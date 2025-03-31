@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7729025799087819
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7671866512788127
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7632500423467845
+184,Incomplete List of Disallowed Inputs,Base,0.7626747844264029
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7578982732683852
+138,Improper Neutralization of Special Elements,Class,0.7573449996324928
+73,External Control of File Name or Path,Base,0.749922400524651
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),Base,0.7498683713795374
+41,Improper Resolution of Path Equivalence,Base,0.749419578631079
+1286,Improper Validation of Syntactic Correctness of Input,Base,0.7492340611645378

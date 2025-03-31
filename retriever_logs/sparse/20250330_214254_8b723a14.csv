@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,5202.479676673278,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),5187.0544080579175,base_query
+1386,Insecure Operation on Windows Junction / Mount Point,5141.119619420399,base_query
+285,Improper Authorization,5136.64416390047,base_query
+732,Incorrect Permission Assignment for Critical Resource,5125.843876834737,base_query

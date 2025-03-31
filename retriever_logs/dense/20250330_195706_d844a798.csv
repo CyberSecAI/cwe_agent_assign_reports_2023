@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7685684670996658
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7541927571217555
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7374304498836455
+653,Improper Isolation or Compartmentalization,Class,0.7331607069147973
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7292625362837362
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7283614704029171
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7268730168766153
+657,Violation of Secure Design Principles,Class,0.7260617278677847
+274,Improper Handling of Insufficient Privileges,Base,0.7249066926892997
+300,Channel Accessible by Non-Endpoint,Class,0.7246035993366375

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+59,Improper Link Resolution Before File Access ('Link Following'),6122.813977481489,unknown
+1333,Inefficient Regular Expression Complexity,5944.214091175527,unknown
+61,UNIX Symbolic Link (Symlink) Following,5912.723133121707,unknown
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),5668.828598902288,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5667.2209961212,unknown

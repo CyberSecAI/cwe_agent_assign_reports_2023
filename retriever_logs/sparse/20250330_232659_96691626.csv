@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,5321.567150725834,unknown
+125,Out-of-bounds Read,5246.606331023013,unknown
+681,Incorrect Conversion between Numeric Types,5195.381500284276,unknown
+190,Integer Overflow or Wraparound,5186.830098272421,unknown
+824,Access of Uninitialized Pointer,5179.740709675112,unknown

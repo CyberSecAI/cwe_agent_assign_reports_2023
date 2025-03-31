@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+347,Improper Verification of Cryptographic Signature,5474.447193875215,unknown
+203,Observable Discrepancy,5332.283828093002,unknown
+208,Observable Timing Discrepancy,5122.505894169484,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,5048.713735035269,unknown
+1333,Inefficient Regular Expression Complexity,4905.28949720716,unknown

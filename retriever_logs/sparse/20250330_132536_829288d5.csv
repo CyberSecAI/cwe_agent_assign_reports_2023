@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+212,Improper Removal of Sensitive Information Before Storage or Transfer,6793.250866152224,base_query
+639,Authorization Bypass Through User-Controlled Key,6531.612295470808,base_query
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),6306.3773033888565,base_query
+863,Incorrect Authorization,6235.799330380032,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,6227.092808778605,base_query

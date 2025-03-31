@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6314.158476734132,base_query
+782,Exposed IOCTL with Insufficient Access Control,6238.6686192255265,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),6224.366564368514,base_query
+285,Improper Authorization,6179.173772473299,base_query
+639,Authorization Bypass Through User-Controlled Key,6143.587246256272,base_query

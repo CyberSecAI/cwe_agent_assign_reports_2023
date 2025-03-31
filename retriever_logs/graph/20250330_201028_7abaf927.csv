@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+201,Insertion of Sensitive Information Into Sent Data,base,4.329000000000001,0
+215,Insertion of Sensitive Information Into Debugging Code,base,4.329000000000001,0
+489,Active Debug Code,base,4.329000000000001,0
+73,External Control of File Name or Path,base,3.2255600000000006,0
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,2.9066666160245265,0
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,2.9019003169095843,0
+1272,Sensitive Information Uncleared Before Debug/Power State Transition,base,2.8651999999999997,0
+244,Improper Clearing of Heap Memory Before Release ('Heap Inspection'),variant,2.6784000000000003,0
+214,Invocation of Process Using Visible Sensitive Information,base,2.6104000000000003,0
+499,Serializable Class Containing Sensitive Data,variant,2.5507200000000005,0

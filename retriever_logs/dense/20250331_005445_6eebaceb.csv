@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+611,Improper Restriction of XML External Entity Reference,Base,0.7912692547928474
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7747934061474597
+668,Exposure of Resource to Wrong Sphere,Class,0.7723937368170779
+345,Insufficient Verification of Data Authenticity,Class,0.7712503029446641
+138,Improper Neutralization of Special Elements,Class,0.7696382697832742
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7649036192256552
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7634479611291961
+41,Improper Resolution of Path Equivalence,Base,0.7628430606700944
+203,Observable Discrepancy,Base,0.76193594215099
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7614387394225809

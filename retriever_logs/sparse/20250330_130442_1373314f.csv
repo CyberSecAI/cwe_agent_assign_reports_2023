@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6843.499604079095,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,6746.48490803712,base_query
+798,Use of Hard-coded Credentials,6612.5909019554765,base_query
+1391,Use of Weak Credentials,6553.49247373984,base_query
+321,Use of Hard-coded Cryptographic Key,6551.696125371026,base_query

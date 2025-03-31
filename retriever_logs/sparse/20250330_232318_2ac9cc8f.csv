@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6879.476210458287,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,6664.456336940183,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6305.525187869922,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,6176.133709392779,base_query
+770,Allocation of Resources Without Limits or Throttling,6094.824139079512,base_query

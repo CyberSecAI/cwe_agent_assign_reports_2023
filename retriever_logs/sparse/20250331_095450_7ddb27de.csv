@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,5449.796988001847,base_query
+1390,Weak Authentication,5196.894956619655,base_query
+798,Use of Hard-coded Credentials,5145.09146597918,base_query
+287,Improper Authentication,5068.57624373123,base_query
+863,Incorrect Authorization,5064.750224343794,base_query

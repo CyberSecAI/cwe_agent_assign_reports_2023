@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,7919.809891271933,unknown
+1284,Improper Validation of Specified Quantity in Input,7867.422393233525,unknown
+328,Use of Weak Hash,7814.462169208453,unknown
+789,Memory Allocation with Excessive Size Value,7745.572652951481,unknown
+190,Integer Overflow or Wraparound,7703.648760971209,unknown

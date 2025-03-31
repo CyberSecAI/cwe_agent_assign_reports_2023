@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7617784996038305
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7506365214628133
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.749918312132478
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7389192749823534
+405,Asymmetric Resource Consumption (Amplification),Class,0.738567441892088
+669,Incorrect Resource Transfer Between Spheres,Class,0.7374409194368314
+404,Improper Resource Shutdown or Release,Class,0.7346546010540858
+653,Improper Isolation or Compartmentalization,Class,0.7344892100749996
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7281183595064982
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7268466729295299

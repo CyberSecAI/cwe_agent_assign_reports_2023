@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+378,Creation of Temporary File With Insecure Permissions,Base,0.7632539488393499
+552,Files or Directories Accessible to External Parties,Base,0.7586454941695518
+281,Improper Preservation of Permissions,Base,0.7555237181736965
+276,Incorrect Default Permissions,Base,0.7546734736021804
+639,Authorization Bypass Through User-Controlled Key,Base,0.748175376079386
+73,External Control of File Name or Path,Base,0.7467531399230443
+23,Relative Path Traversal,Base,0.7450717159458299
+668,Exposure of Resource to Wrong Sphere,Class,0.7450140991894116
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7447656168839065
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7437192080396234

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+295,Improper Certificate Validation,5954.740524733276,base_query
+296,Improper Following of a Certificate's Chain of Trust,5759.381648880649,base_query
+297,Improper Validation of Certificate with Host Mismatch,5749.86566762064,base_query
+328,Use of Weak Hash,5684.1884701608105,base_query
+347,Improper Verification of Cryptographic Signature,5481.901436101307,base_query

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6577.961847553168,unknown
+116,Improper Encoding or Escaping of Output,6356.5255699282525,unknown
+184,Incomplete List of Disallowed Inputs,6208.67531166294,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6118.4436347200135,unknown
+138,Improper Neutralization of Special Elements,6083.554680646847,unknown

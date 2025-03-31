@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+552,Files or Directories Accessible to External Parties,Base,0.7856823026635509
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7835941084392837
+434,Unrestricted Upload of File with Dangerous Type,Base,0.7764507362982628
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.775880705910194
+73,External Control of File Name or Path,Base,0.7692347549342635
+23,Relative Path Traversal,Base,0.7648559922000118
+184,Incomplete List of Disallowed Inputs,Base,0.7639188786165872
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7611327983254043
+668,Exposure of Resource to Wrong Sphere,Class,0.7597508818669725
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7592220083080663

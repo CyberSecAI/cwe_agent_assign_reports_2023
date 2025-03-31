@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,6600.024358202921,base_query
+212,Improper Removal of Sensitive Information Before Storage or Transfer,6522.881788409254,base_query
+1390,Weak Authentication,5947.148723946848,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5891.115886648171,base_query
+863,Incorrect Authorization,5850.562405147352,base_query

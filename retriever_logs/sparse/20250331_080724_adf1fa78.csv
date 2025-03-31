@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,6925.055272731725,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6704.3124524193645,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6561.887817951215,unknown
+125,Out-of-bounds Read,6541.026578237552,unknown
+190,Integer Overflow or Wraparound,6520.802847540752,unknown

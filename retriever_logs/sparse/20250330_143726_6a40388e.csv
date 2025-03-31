@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+923,Improper Restriction of Communication Channel to Intended Endpoints,5356.308103770285,base_query
+798,Use of Hard-coded Credentials,5229.840625735307,base_query
+259,Use of Hard-coded Password,5199.3701860099045,base_query
+1390,Weak Authentication,5196.086027564467,base_query
+287,Improper Authentication,5150.95080389457,base_query

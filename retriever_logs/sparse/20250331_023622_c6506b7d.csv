@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+259,Use of Hard-coded Password,5597.4437717705105,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),5552.822764166103,unknown
+798,Use of Hard-coded Credentials,5512.8105727483635,unknown
+321,Use of Hard-coded Cryptographic Key,5440.767175477416,unknown
+427,Uncontrolled Search Path Element,5404.808087054615,unknown

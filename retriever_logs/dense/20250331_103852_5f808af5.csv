@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+312,Cleartext Storage of Sensitive Information,Base,0.7380368482885036
+653,Improper Isolation or Compartmentalization,Class,0.7087404617811174
+257,Storing Passwords in a Recoverable Format,Base,0.7064859222930387
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7057629028577699
+23,Relative Path Traversal,Base,0.7040033746811003
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7021787851594697
+41,Improper Resolution of Path Equivalence,Base,0.7012966841927604
+1391,Use of Weak Credentials,Class,0.7001335186751809
+73,External Control of File Name or Path,Base,0.6998420729665914
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.6998147915966485

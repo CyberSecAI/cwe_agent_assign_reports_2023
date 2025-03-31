@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+611,Improper Restriction of XML External Entity Reference,base,3.6399999999999997,0
+202,Exposure of Sensitive Information Through Data Queries,base,3.6399999999999997,0
+209,Generation of Error Message Containing Sensitive Information,base,3.6399999999999997,0
+201,Insertion of Sensitive Information Into Sent Data,base,3.6399999999999997,0
+73,External Control of File Name or Path,base,3.3566,0
+178,Improper Handling of Case Sensitivity,Base,3.315222270505926,0
+433,Unparsed Raw Web Content Delivery,variant,3.24,0
+289,Authentication Bypass by Alternate Name,Base,2.9013344251348125,0
+52,Path Equivalence: '/multiple/trailing/slash//',variant,2.5507200000000005,0
+46,Path Equivalence: 'filename ' (Trailing Space),variant,2.5507200000000005,0

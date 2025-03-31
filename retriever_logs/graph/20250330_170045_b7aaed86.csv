@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+178,Improper Handling of Case Sensitivity,base,5.031000000000001,0
+209,Generation of Error Message Containing Sensitive Information,base,3.6399999999999997,0
+201,Insertion of Sensitive Information Into Sent Data,base,3.6399999999999997,0
+202,Exposure of Sensitive Information Through Data Queries,base,3.6399999999999997,0
+433,Unparsed Raw Web Content Delivery,variant,3.24,0
+289,Authentication Bypass by Alternate Name,Base,2.9120485138833865,0
+481,Assigning instead of Comparing,variant,2.6784000000000003,0
+52,Path Equivalence: '/multiple/trailing/slash//',variant,2.5507200000000005,0
+46,Path Equivalence: 'filename ' (Trailing Space),variant,2.5507200000000005,0
+1289,Improper Validation of Unsafe Equivalence in Input,Base,2.478655994195519,0

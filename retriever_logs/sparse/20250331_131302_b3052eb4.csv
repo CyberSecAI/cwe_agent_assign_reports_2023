@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+59,Improper Link Resolution Before File Access ('Link Following'),7202.395567272931,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6903.2972244208695,base_query
+61,UNIX Symbolic Link (Symlink) Following,6879.7110294870845,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6569.050032550163,base_query
+116,Improper Encoding or Escaping of Output,6482.089533115504,base_query

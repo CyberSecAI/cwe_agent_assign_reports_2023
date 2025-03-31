@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7895078880181348
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.7740758972720605
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7718914897947302
+471,Modification of Assumed-Immutable Data (MAID),Base,0.7590699106845611
+639,Authorization Bypass Through User-Controlled Key,Base,0.7576771302349621
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.756766627118222
+1220,Insufficient Granularity of Access Control,Base,0.7555252004682227
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7535340707232857
+799,Improper Control of Interaction Frequency,Class,0.751635436370055
+41,Improper Resolution of Path Equivalence,Base,0.7506822124376646

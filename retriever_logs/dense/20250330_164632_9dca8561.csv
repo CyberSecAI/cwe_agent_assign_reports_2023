@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+345,Insufficient Verification of Data Authenticity,Class,0.7617767527543606
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7548276705130621
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7474213986592393
+668,Exposure of Resource to Wrong Sphere,Class,0.7473106589684255
+203,Observable Discrepancy,Base,0.7460702319799668
+657,Violation of Secure Design Principles,Class,0.745242405761575
+330,Use of Insufficiently Random Values,Class,0.7443639411690833
+667,Improper Locking,Class,0.7441432095802479
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7414023053133569
+755,Improper Handling of Exceptional Conditions,Class,0.7397800933241678

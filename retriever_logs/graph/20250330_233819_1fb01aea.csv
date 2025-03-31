@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+178,Improper Handling of Case Sensitivity,base,4.329000000000001,0
+433,Unparsed Raw Web Content Delivery,variant,3.24,0
+289,Authentication Bypass by Alternate Name,Base,2.8931510261552544,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+52,Path Equivalence: '/multiple/trailing/slash//',variant,2.5507200000000005,0
+46,Path Equivalence: 'filename ' (Trailing Space),variant,2.5507200000000005,0
+274,Improper Handling of Insufficient Privileges,Base,2.4926789222431327,0
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,2.491558237310428,0
+306,Missing Authentication for Critical Function,base,2.4699999999999998,0
+565,Reliance on Cookies without Validation and Integrity Checking,base,2.4699999999999998,0

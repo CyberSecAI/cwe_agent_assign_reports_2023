@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+312,Cleartext Storage of Sensitive Information,4503.631189826475,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,4498.02912324286,base_query
+916,Use of Password Hash With Insufficient Computational Effort,4322.901338968389,base_query
+639,Authorization Bypass Through User-Controlled Key,4293.0604666184,base_query
+1240,Use of a Cryptographic Primitive with a Risky Implementation,4291.3987981495,base_query

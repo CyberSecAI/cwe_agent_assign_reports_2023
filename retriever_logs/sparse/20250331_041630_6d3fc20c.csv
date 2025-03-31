@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),8283.136775128238,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),7979.867955687745,base_query
+337,Predictable Seed in Pseudo-Random Number Generator (PRNG),7940.418582482563,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7918.564458221921,base_query
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),7778.078617898646,base_query

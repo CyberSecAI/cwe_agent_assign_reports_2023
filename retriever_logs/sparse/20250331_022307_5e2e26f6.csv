@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1204,Generation of Weak Initialization Vector (IV),6381.675791146407,unknown
+328,Use of Weak Hash,6328.870666532171,unknown
+1391,Use of Weak Credentials,6230.890550252882,unknown
+916,Use of Password Hash With Insufficient Computational Effort,6204.047732340311,unknown
+798,Use of Hard-coded Credentials,6142.584215885499,unknown

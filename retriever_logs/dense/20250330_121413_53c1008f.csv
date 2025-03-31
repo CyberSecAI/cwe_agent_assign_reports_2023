@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7786887082669227
+667,Improper Locking,Class,0.759380633718602
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7568580943315482
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.75450066997623
+131,Incorrect Calculation of Buffer Size,Base,0.7524682726023049
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7515835470669816
+668,Exposure of Resource to Wrong Sphere,Class,0.7486933035161403
+129,Improper Validation of Array Index,Variant,0.747873318375694
+404,Improper Resource Shutdown or Release,Class,0.7474494764891979
+125,Out-of-bounds Read,Base,0.7431301523737395

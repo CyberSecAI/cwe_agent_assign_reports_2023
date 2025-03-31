@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),5627.546457443273,base_query
+203,Observable Discrepancy,5453.342919491826,base_query
+226,Sensitive Information in Resource Not Removed Before Reuse,5371.7097583509985,base_query
+1284,Improper Validation of Specified Quantity in Input,5321.990293536937,base_query
+863,Incorrect Authorization,5214.516356277881,base_query

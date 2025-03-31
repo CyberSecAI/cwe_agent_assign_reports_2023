@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+197,Numeric Truncation Error,Base,0.781319535388731
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7607868148207315
+191,Integer Underflow (Wrap or Wraparound),Base,0.7599994689519324
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7560134529659696
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7540164446387585
+681,Incorrect Conversion between Numeric Types,Base,0.7519972901609185
+131,Incorrect Calculation of Buffer Size,Base,0.7470350961418422
+129,Improper Validation of Array Index,Variant,0.7468648525347144
+138,Improper Neutralization of Special Elements,Class,0.7453465662122232
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7453033035076654

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+637,Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism'),Class,0.7878371585389239
+407,Inefficient Algorithmic Complexity,Class,0.7496454153998645
+653,Improper Isolation or Compartmentalization,Class,0.7479205123884076
+274,Improper Handling of Insufficient Privileges,Base,0.7407148959975931
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7345136401605297
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7329375595722918
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7324553506432586
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7320645395334635
+668,Exposure of Resource to Wrong Sphere,Class,0.7319488348119668
+41,Improper Resolution of Path Equivalence,Base,0.7318750338964213

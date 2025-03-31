@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,5908.6987945938035,base_query
+772,Missing Release of Resource after Effective Lifetime,5903.507040013852,base_query
+775,Missing Release of File Descriptor or Handle after Effective Lifetime,5756.480347073473,base_query
+404,Improper Resource Shutdown or Release,5688.467771311716,base_query
+789,Memory Allocation with Excessive Size Value,5577.527312655874,base_query

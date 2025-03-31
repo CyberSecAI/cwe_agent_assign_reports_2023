@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+667,Improper Locking,3962.0124954240946,unknown
+191,Integer Underflow (Wrap or Wraparound),3953.5842291179542,unknown
+863,Incorrect Authorization,3929.9710268566246,unknown
+252,Unchecked Return Value,3915.6800710219404,unknown
+1021,Improper Restriction of Rendered UI Layers or Frames,3908.0445612082767,unknown

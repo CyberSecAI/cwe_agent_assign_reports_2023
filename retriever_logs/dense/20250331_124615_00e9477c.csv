@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+203,Observable Discrepancy,Base,0.8017921002547499
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7946154515499367
+205,Observable Behavioral Discrepancy,Base,0.7910056237238561
+204,Observable Response Discrepancy,Base,0.789252582362332
+208,Observable Timing Discrepancy,Base,0.7732852111020342
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7712003938374017
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7707511938470288
+207,Observable Behavioral Discrepancy With Equivalent Products,Variant,0.7594813318028422
+668,Exposure of Resource to Wrong Sphere,Class,0.7592351983963259
+345,Insufficient Verification of Data Authenticity,Class,0.7581720069303268

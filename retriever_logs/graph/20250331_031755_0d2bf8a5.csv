@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+804,Guessable CAPTCHA,base,4.329000000000001,0
+325,Missing Cryptographic Step,base,3.2656,0
+916,Use of Password Hash With Insufficient Computational Effort,base,2.4699999999999998,0
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),base,2.4699999999999998,0
+1272,Sensitive Information Uncleared Before Debug/Power State Transition,base,2.2100000000000004,0
+301,Reflection Attack in an Authentication Protocol,base,2.1762,0
+358,Improperly Implemented Security Check for Standard,base,2.1762,0
+603,Use of Client-Side Authentication,base,2.1762,0
+311,Missing Encryption of Sensitive Data,class,2.1279999999999997,0
+499,Serializable Class Containing Sensitive Data,variant,2.04,0

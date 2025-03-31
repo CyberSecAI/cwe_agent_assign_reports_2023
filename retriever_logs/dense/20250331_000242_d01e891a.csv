@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7748977253419675
+639,Authorization Bypass Through User-Controlled Key,Base,0.7746111403210797
+1390,Weak Authentication,Class,0.7697387064118243
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7695921058292516
+319,Cleartext Transmission of Sensitive Information,Base,0.768826261686545
+203,Observable Discrepancy,Base,0.7671579089281787
+345,Insufficient Verification of Data Authenticity,Class,0.7670825715205228
+1391,Use of Weak Credentials,Class,0.7656995407332483
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7645209909373907
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7635777520342213

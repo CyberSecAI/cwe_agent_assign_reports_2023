@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+697,Incorrect Comparison,Pillar,0.772563363429401
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7664000253659432
+682,Incorrect Calculation,Pillar,0.7599468475583195
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7534859027452202
+1254,Incorrect Comparison Logic Granularity,Base,0.739656840711445
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7392235760021908
+131,Incorrect Calculation of Buffer Size,Base,0.732848054788724
+667,Improper Locking,Class,0.7325596273641464
+691,Insufficient Control Flow Management,Pillar,0.7286400134496537
+41,Improper Resolution of Path Equivalence,Base,0.7271770800972639

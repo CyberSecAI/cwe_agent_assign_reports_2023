@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+927,Use of Implicit Intent for Sensitive Communication,5135.006906064953,unknown
+770,Allocation of Resources Without Limits or Throttling,4717.699669667506,unknown
+941,Incorrectly Specified Destination in a Communication Channel,4710.821645735116,unknown
+863,Incorrect Authorization,4691.573311504701,unknown
+667,Improper Locking,4639.520336110447,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+209,Generation of Error Message Containing Sensitive Information,5710.592176023658,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,5699.1244693613935,unknown
+116,Improper Encoding or Escaping of Output,5602.096979341732,unknown
+125,Out-of-bounds Read,5427.915045085094,unknown
+863,Incorrect Authorization,5375.54003800738,unknown

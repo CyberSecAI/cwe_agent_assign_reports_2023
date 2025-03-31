@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,5579.799147449749,unknown
+611,Improper Restriction of XML External Entity Reference,5405.353693438794,unknown
+863,Incorrect Authorization,5101.77034054093,unknown
+306,Missing Authentication for Critical Function,5076.715698807104,unknown
+640,Weak Password Recovery Mechanism for Forgotten Password,4998.840658692394,unknown

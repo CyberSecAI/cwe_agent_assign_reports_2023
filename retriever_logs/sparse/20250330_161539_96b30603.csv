@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,5020.377542541917,unknown
+863,Incorrect Authorization,5014.197193300657,unknown
+918,Server-Side Request Forgery (SSRF),4957.551016091277,unknown
+1390,Weak Authentication,4942.016359574626,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,4885.816601991168,unknown

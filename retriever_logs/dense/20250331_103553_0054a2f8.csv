@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.788989230120862
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7810334310341212
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7669246139559327
+319,Cleartext Transmission of Sensitive Information,Base,0.7626424941114796
+303,Incorrect Implementation of Authentication Algorithm,Base,0.761888633180818
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7618709136989106
+1391,Use of Weak Credentials,Class,0.7606059879115088
+784,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,Variant,0.7583726527560041
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7576816238894694
+1390,Weak Authentication,Class,0.7575238868241445

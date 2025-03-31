@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,4737.89611274134,base_query
+259,Use of Hard-coded Password,4391.643828915257,base_query
+125,Out-of-bounds Read,4384.932344561099,base_query
+798,Use of Hard-coded Credentials,4347.063917044989,base_query
+347,Improper Verification of Cryptographic Signature,4341.902816928032,base_query

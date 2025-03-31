@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+184,Incomplete List of Disallowed Inputs,Base,0.7549843971374517
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.754279489141702
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7518066077385429
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7496201460390457
+653,Improper Isolation or Compartmentalization,Class,0.7490145973033446
+183,Permissive List of Allowed Inputs,Base,0.7445910866495276
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.744342358350246
+799,Improper Control of Interaction Frequency,Class,0.7440874200987395
+1220,Insufficient Granularity of Access Control,Base,0.741524034921513
+405,Asymmetric Resource Consumption (Amplification),Class,0.7374137999848045

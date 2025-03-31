@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+184,Incomplete List of Disallowed Inputs,6473.699063967029,unknown
+798,Use of Hard-coded Credentials,6242.0339864741445,unknown
+863,Incorrect Authorization,6240.87458355957,unknown
+259,Use of Hard-coded Password,6224.309466592323,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),6203.567691002609,unknown

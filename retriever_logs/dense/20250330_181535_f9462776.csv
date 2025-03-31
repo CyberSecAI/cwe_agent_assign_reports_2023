@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+405,Asymmetric Resource Consumption (Amplification),Class,0.7818844675062667
+404,Improper Resource Shutdown or Release,Class,0.7745808532487661
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7743849070354899
+668,Exposure of Resource to Wrong Sphere,Class,0.7677820940970974
+799,Improper Control of Interaction Frequency,Class,0.7614187539748916
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7612341743663529
+639,Authorization Bypass Through User-Controlled Key,Base,0.7582339881801462
+1220,Insufficient Granularity of Access Control,Base,0.7506440526791727
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.746370119753835
+274,Improper Handling of Insufficient Privileges,Base,0.7459889934996289

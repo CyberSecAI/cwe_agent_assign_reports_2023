@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,7401.521051583434,unknown
+190,Integer Overflow or Wraparound,7133.2330552742105,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),6723.470921265297,unknown
+125,Out-of-bounds Read,6720.917723464267,unknown
+415,Double Free,6620.009283002395,unknown

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1299,Missing Protection Mechanism for Alternate Hardware Interface,4844.212928731852,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,4780.9130670470895,unknown
+295,Improper Certificate Validation,4749.991461873334,unknown
+798,Use of Hard-coded Credentials,4691.5955038148295,unknown
+259,Use of Hard-coded Password,4572.4902108873275,unknown

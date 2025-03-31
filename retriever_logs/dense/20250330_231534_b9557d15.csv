@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.782748658541569
+667,Improper Locking,Class,0.746637659903584
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7463703071579411
+331,Insufficient Entropy,Base,0.7452487225706088
+345,Insufficient Verification of Data Authenticity,Class,0.7446527918751826
+755,Improper Handling of Exceptional Conditions,Class,0.7439615234065042
+131,Incorrect Calculation of Buffer Size,Base,0.7420769296789658
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.740502230990812
+203,Observable Discrepancy,Base,0.740124946610228
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),Base,0.7393959704563957

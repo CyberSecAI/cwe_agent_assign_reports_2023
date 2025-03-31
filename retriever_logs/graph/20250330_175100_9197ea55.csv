@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+1304,Improperly Preserved Integrity of Hardware Configuration State During a Power Save/Restore Operation,base,3.6399999999999997,0
+1271,Uninitialized Value on Reset for Registers Holding Security Settings,base,3.6399999999999997,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+259,Use of Hard-coded Password,variant,3.2227200000000003,0
+410,Insufficient Resource Pool,base,2.8651999999999997,0
+184,Incomplete List of Disallowed Inputs,base,2.8651999999999997,0
+321,Use of Hard-coded Cryptographic Key,variant,2.7907200000000008,0
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,base,2.6104000000000003,0
+274,Improper Handling of Insufficient Privileges,Base,2.50809237456585,0
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,2.503350455454665,0

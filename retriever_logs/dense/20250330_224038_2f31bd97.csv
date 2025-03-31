@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7737017609860981
+274,Improper Handling of Insufficient Privileges,Base,0.7675395177596627
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7674082935886083
+404,Improper Resource Shutdown or Release,Class,0.7657605782727993
+653,Improper Isolation or Compartmentalization,Class,0.7649581666036788
+668,Exposure of Resource to Wrong Sphere,Class,0.7636438417674214
+266,Incorrect Privilege Assignment,Base,0.75403657823265
+267,Privilege Defined With Unsafe Actions,Base,0.7538547016378654
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7532962597266856
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7502893261651742

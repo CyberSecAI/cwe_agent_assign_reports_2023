@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+125,Out-of-bounds Read,base,4.329000000000001,0
+787,Out-of-bounds Write,base,4.329000000000001,0
+825,Expired Pointer Dereference,base,4.329000000000001,0
+908,Use of Uninitialized Resource,base,4.329000000000001,0
+295,Improper Certificate Validation,base,3.6399999999999997,0
+322,Key Exchange without Entity Authentication,base,3.6399999999999997,0
+476,NULL Pointer Dereference,base,3.4866,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.984,0
+20,Improper Input Validation,class,2.92,0
+208,Observable Timing Discrepancy,Base,2.905939218387993,0

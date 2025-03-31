@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,5482.834156291052,base_query
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,5350.825038094843,base_query
+319,Cleartext Transmission of Sensitive Information,5329.555835788209,base_query
+532,Insertion of Sensitive Information into Log File,5279.421981287252,base_query
+639,Authorization Bypass Through User-Controlled Key,5189.161231784304,base_query

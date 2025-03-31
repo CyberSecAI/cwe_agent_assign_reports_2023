@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,8236.054743664723,base_query
+798,Use of Hard-coded Credentials,8204.879397549814,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),8202.405975870292,base_query
+259,Use of Hard-coded Password,8162.350698560462,base_query
+639,Authorization Bypass Through User-Controlled Key,8147.779250459536,base_query

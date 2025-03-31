@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+116,Improper Encoding or Escaping of Output,5505.006099728097,unknown
+256,Plaintext Storage of a Password,5332.16755649074,unknown
+1390,Weak Authentication,5298.0280817176335,unknown
+863,Incorrect Authorization,5265.345944483233,unknown
+306,Missing Authentication for Critical Function,5181.8176396808985,unknown

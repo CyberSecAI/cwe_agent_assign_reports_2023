@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,7132.100601439314,base_query
+1321,Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),7111.726550007803,base_query
+190,Integer Overflow or Wraparound,7091.617545960167,base_query
+1284,Improper Validation of Specified Quantity in Input,7046.732070224321,base_query
+184,Incomplete List of Disallowed Inputs,6911.353251525098,base_query

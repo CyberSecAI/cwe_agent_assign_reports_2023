@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+208,Observable Timing Discrepancy,base,4.329000000000001,0
+385,Covert Timing Channel,base,4.329000000000001,0
+73,External Control of File Name or Path,base,3.2255600000000006,0
+327,Use of a Broken or Risky Cryptographic Algorithm,class,2.984,0
+259,Use of Hard-coded Password,variant,2.8104,0
+916,Use of Password Hash With Insufficient Computational Effort,base,2.4699999999999998,0
+347,Improper Verification of Cryptographic Signature,base,2.4699999999999998,0
+261,Weak Encoding for Password,base,2.4699999999999998,0
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,2.4699999999999998,0
+321,Use of Hard-coded Cryptographic Key,variant,2.4432,0

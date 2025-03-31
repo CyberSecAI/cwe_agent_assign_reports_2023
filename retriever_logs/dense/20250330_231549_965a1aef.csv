@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7772631396470756
+204,Observable Response Discrepancy,Base,0.7681880144815014
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7647142388641102
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7510908803153868
+41,Improper Resolution of Path Equivalence,Base,0.7469066623422719
+668,Exposure of Resource to Wrong Sphere,Class,0.7463370890049297
+404,Improper Resource Shutdown or Release,Class,0.7450917381319828
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7447167253516539
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7440497075931708
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7432783002545543

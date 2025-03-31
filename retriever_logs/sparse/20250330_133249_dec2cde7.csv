@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),6035.467919690662,unknown
+789,Memory Allocation with Excessive Size Value,5644.296520374982,unknown
+125,Out-of-bounds Read,5600.812607481567,unknown
+295,Improper Certificate Validation,5596.571896009285,unknown
+116,Improper Encoding or Escaping of Output,5576.169062211455,unknown

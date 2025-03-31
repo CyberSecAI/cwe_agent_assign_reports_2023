@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+23,Relative Path Traversal,Base,0.7739692510504483
+41,Improper Resolution of Path Equivalence,Base,0.7734533823342805
+73,External Control of File Name or Path,Base,0.7573172358259652
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7561150294822889
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7510023287399642
+138,Improper Neutralization of Special Elements,Class,0.7509261200327737
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7495105005839912
+184,Incomplete List of Disallowed Inputs,Base,0.7485277508510882
+668,Exposure of Resource to Wrong Sphere,Class,0.7484118411592346
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7366345576588443

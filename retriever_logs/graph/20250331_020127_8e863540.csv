@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+187,Partial String Comparison,variant,4.5264,0
+183,Permissive List of Allowed Inputs,base,4.505800000000001,0
+182,Collapse of Data into Unsafe Value,base,4.329000000000001,0
+184,Incomplete List of Disallowed Inputs,Base,2.9225945550368704,0
+434,Unrestricted Upload of File with Dangerous Type,base,2.9120000000000004,0
+481,Assigning instead of Comparing,variant,2.5507200000000005,0
+625,Permissive Regular Expression,Base,2.4803804348734615,0
+186,Overly Restrictive Regular Expression,Base,2.477086250217372,0
+170,Improper Null Termination,base,2.4700000000000006,0
+392,Missing Report of Error Condition,base,2.4699999999999998,0

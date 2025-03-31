@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,6616.586977988854,base_query
+259,Use of Hard-coded Password,6026.8805085264,base_query
+798,Use of Hard-coded Credentials,5903.065904761635,base_query
+1391,Use of Weak Credentials,5719.182772956816,base_query
+321,Use of Hard-coded Cryptographic Key,5663.020450806761,base_query

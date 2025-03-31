@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,6413.9187382016935,base_query
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),6291.265105217895,base_query
+116,Improper Encoding or Escaping of Output,6225.322294130797,base_query
+863,Incorrect Authorization,6131.093235338458,base_query
+472,External Control of Assumed-Immutable Web Parameter,6120.3734324258,base_query

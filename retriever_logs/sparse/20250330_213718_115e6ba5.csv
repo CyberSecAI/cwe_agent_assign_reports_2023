@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+306,Missing Authentication for Critical Function,8100.952309652176,base_query
+20,Improper Input Validation,7986.284836553205,base_query
+116,Improper Encoding or Escaping of Output,7940.803072802773,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7761.659762474269,base_query
+668,Exposure of Resource to Wrong Sphere,7630.460771536922,base_query

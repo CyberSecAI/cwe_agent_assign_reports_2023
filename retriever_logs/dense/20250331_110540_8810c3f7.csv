@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+350,Reliance on Reverse DNS Resolution for a Security-Critical Action,Variant,0.7823082120968192
+291,Reliance on IP Address for Authentication,Variant,0.777773066779321
+289,Authentication Bypass by Alternate Name,Base,0.7771747031102438
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7685695049972152
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7681229757565774
+302,Authentication Bypass by Assumed-Immutable Data,Base,0.763772854118612
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.7633300655384796
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7621746939930496
+1391,Use of Weak Credentials,Class,0.7596222913809925
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7595914030939707

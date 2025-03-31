@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1423,Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution,Base,0.8444727692082128
+1342,Information Exposure through Microarchitectural State after Transient Execution,Base,0.805981005733578
+1420,Exposure of Sensitive Information during Transient Execution,Base,0.7958424357903637
+1421,Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution,Base,0.7957524089455197
+1422,Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution,Base,0.7658811520974504
+805,Buffer Access with Incorrect Length Value,Base,0.742280897767059
+124,Buffer Underwrite ('Buffer Underflow'),Base,0.7418438408633121
+131,Incorrect Calculation of Buffer Size,Base,0.7417784939518033
+1303,Non-Transparent Sharing of Microarchitectural Resources,Base,0.7415806390887509
+126,Buffer Over-read,Variant,0.7399224636974392

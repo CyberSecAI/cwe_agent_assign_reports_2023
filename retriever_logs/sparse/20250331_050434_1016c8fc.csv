@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,7468.308935028233,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,7389.447869668718,base_query
+770,Allocation of Resources Without Limits or Throttling,7252.8015855313415,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,7037.395038405173,base_query
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,6970.268376568003,base_query

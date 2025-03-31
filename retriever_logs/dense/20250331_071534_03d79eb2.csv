@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+208,Observable Timing Discrepancy,Base,0.8061731575250122
+204,Observable Response Discrepancy,Base,0.7886959649391092
+330,Use of Insufficiently Random Values,Class,0.7795446349683177
+203,Observable Discrepancy,Base,0.774300464163528
+341,Predictable from Observable State,Base,0.7711067523212894
+668,Exposure of Resource to Wrong Sphere,Class,0.7593754587276424
+1391,Use of Weak Credentials,Class,0.7543602895106292
+345,Insufficient Verification of Data Authenticity,Class,0.7536392056900723
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7495936764352926
+340,Generation of Predictable Numbers or Identifiers,Class,0.7493240121488284

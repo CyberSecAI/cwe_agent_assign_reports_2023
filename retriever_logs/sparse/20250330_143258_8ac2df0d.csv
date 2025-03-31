@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1336,Improper Neutralization of Special Elements Used in a Template Engine,6848.241618709462,unknown
+502,Deserialization of Untrusted Data,6646.259677527552,unknown
+116,Improper Encoding or Escaping of Output,6620.285675892572,unknown
+138,Improper Neutralization of Special Elements,6550.80482048734,unknown
+94,Improper Control of Generation of Code ('Code Injection'),6489.99898251984,unknown

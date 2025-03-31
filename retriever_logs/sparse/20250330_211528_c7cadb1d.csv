@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+286,Incorrect User Management,4958.727467153576,unknown
+863,Incorrect Authorization,4796.130666932287,unknown
+285,Improper Authorization,4677.441697789136,unknown
+266,Incorrect Privilege Assignment,4554.480986514115,unknown
+732,Incorrect Permission Assignment for Critical Resource,4548.245967675954,unknown

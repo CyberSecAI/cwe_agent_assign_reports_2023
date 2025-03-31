@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,7099.505150982302,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,7011.761441003274,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6994.684806347454,base_query
+789,Memory Allocation with Excessive Size Value,6981.401018502992,base_query
+190,Integer Overflow or Wraparound,6967.764750766606,base_query

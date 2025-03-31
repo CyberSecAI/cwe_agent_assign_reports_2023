@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7526523879052783
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7485215771701718
+1391,Use of Weak Credentials,Class,0.7447037264208932
+288,Authentication Bypass Using an Alternate Path or Channel,Base,0.7423984617476007
+289,Authentication Bypass by Alternate Name,Base,0.7420186194764922
+1390,Weak Authentication,Class,0.7410545456639971
+1220,Insufficient Granularity of Access Control,Base,0.7402803658956308
+307,Improper Restriction of Excessive Authentication Attempts,Base,0.7379240963771931
+305,Authentication Bypass by Primary Weakness,Base,0.7368592217854595
+274,Improper Handling of Insufficient Privileges,Base,0.7368030574199474

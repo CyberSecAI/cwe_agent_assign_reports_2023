@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+319,Cleartext Transmission of Sensitive Information,Base,0.781492412305269
+312,Cleartext Storage of Sensitive Information,Base,0.7771097638490662
+1240,Use of a Cryptographic Primitive with a Risky Implementation,Base,0.7758508005663053
+345,Insufficient Verification of Data Authenticity,Class,0.7745634247628215
+311,Missing Encryption of Sensitive Data,Class,0.7644653870619456
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7539795119447903
+1391,Use of Weak Credentials,Class,0.7534490219497784
+295,Improper Certificate Validation,Base,0.7531570877408649
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7527261710681972
+303,Incorrect Implementation of Authentication Algorithm,Base,0.7524769148158871

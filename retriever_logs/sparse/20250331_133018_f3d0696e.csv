@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1390,Weak Authentication,4495.63786822425,base_query
+863,Incorrect Authorization,4430.228187211672,base_query
+287,Improper Authentication,4403.880013788345,base_query
+1333,Inefficient Regular Expression Complexity,4381.410313677844,base_query
+918,Server-Side Request Forgery (SSRF),4309.245431146306,base_query

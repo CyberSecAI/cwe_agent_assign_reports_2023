@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+611,Improper Restriction of XML External Entity Reference,Base,0.7929400783411586
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7849914494010055
+668,Exposure of Resource to Wrong Sphere,Class,0.7753476204414562
+41,Improper Resolution of Path Equivalence,Base,0.7692547506184116
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7667387734200828
+799,Improper Control of Interaction Frequency,Class,0.7626989125745318
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.759542324546056
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7586321305014088
+203,Observable Discrepancy,Base,0.7576251911503621
+776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),Base,0.7574419952747092

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+611,Improper Restriction of XML External Entity Reference,6969.746633814319,unknown
+116,Improper Encoding or Escaping of Output,6565.592486672168,unknown
+941,Incorrectly Specified Destination in a Communication Channel,6427.965938592159,unknown
+138,Improper Neutralization of Special Elements,6180.381714169573,unknown
+125,Out-of-bounds Read,6170.722449913814,unknown

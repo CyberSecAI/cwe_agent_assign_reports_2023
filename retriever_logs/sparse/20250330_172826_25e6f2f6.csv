@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,7833.665946400006,unknown
+319,Cleartext Transmission of Sensitive Information,7540.083387547697,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,7531.213085966114,unknown
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,7496.2407796908,unknown
+201,Insertion of Sensitive Information Into Sent Data,7242.02153185238,unknown

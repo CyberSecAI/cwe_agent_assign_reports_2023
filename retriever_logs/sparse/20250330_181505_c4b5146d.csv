@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,6160.332682968571,base_query
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),6110.723939245313,base_query
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,6010.407023944914,base_query
+668,Exposure of Resource to Wrong Sphere,5985.817121488805,base_query
+201,Insertion of Sensitive Information Into Sent Data,5971.149193956964,base_query

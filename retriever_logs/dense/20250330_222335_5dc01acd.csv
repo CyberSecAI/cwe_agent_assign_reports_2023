@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+170,Improper Null Termination,Base,0.7697008234778917
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.740858389350381
+606,Unchecked Input for Loop Condition,Base,0.7267828601710129
+653,Improper Isolation or Compartmentalization,Class,0.7241423709126222
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7240170013477993
+158,Improper Neutralization of Null Byte or NUL Character,Variant,0.7229885714303583
+404,Improper Resource Shutdown or Release,Class,0.7226117165104504
+131,Incorrect Calculation of Buffer Size,Base,0.7225798480501953
+691,Insufficient Control Flow Management,Pillar,0.7217022752014124
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7206589913491889

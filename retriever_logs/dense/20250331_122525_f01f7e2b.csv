@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+782,Exposed IOCTL with Insufficient Access Control,Variant,0.7738717684808555
+131,Incorrect Calculation of Buffer Size,Base,0.769782680991572
+125,Out-of-bounds Read,Base,0.7638706134511857
+805,Buffer Access with Incorrect Length Value,Base,0.7636133113166765
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7622849655892816
+191,Integer Underflow (Wrap or Wraparound),Base,0.761834277885555
+667,Improper Locking,Class,0.7611779915461149
+126,Buffer Over-read,Variant,0.759935500567597
+823,Use of Out-of-range Pointer Offset,Base,0.7582485415500992
+908,Use of Uninitialized Resource,Base,0.7523634198392568

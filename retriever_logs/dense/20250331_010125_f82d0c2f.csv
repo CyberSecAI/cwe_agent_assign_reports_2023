@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7726361147807119
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7687831608261747
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7663455340451446
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7600119355526493
+41,Improper Resolution of Path Equivalence,Base,0.7592189522984427
+274,Improper Handling of Insufficient Privileges,Base,0.7558412103785412
+653,Improper Isolation or Compartmentalization,Class,0.753663405508646
+668,Exposure of Resource to Wrong Sphere,Class,0.75313192233431
+252,Unchecked Return Value,Base,0.7522353349418093
+184,Incomplete List of Disallowed Inputs,Base,0.7516774476129389

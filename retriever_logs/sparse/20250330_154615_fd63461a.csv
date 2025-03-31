@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+400,Uncontrolled Resource Consumption,7437.3266804686245,base_query
+20,Improper Input Validation,7019.381689419994,base_query
+770,Allocation of Resources Without Limits or Throttling,6931.005751242854,base_query
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,6911.093431676161,base_query
+789,Memory Allocation with Excessive Size Value,6891.447257176845,base_query

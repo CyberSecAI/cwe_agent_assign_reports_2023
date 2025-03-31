@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7828797856984375
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7722304622292551
+41,Improper Resolution of Path Equivalence,Base,0.7665431722627188
+184,Incomplete List of Disallowed Inputs,Base,0.7644710959798295
+668,Exposure of Resource to Wrong Sphere,Class,0.760217596822272
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7595324751890304
+138,Improper Neutralization of Special Elements,Class,0.7591655600190557
+204,Observable Response Discrepancy,Base,0.7556345546073909
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7550628431370205
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7541653581758727

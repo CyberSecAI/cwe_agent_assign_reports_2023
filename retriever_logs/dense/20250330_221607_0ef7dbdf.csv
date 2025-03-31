@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7541934996017292
+668,Exposure of Resource to Wrong Sphere,Class,0.7358655586309069
+405,Asymmetric Resource Consumption (Amplification),Class,0.735335405656412
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7350422076404391
+404,Improper Resource Shutdown or Release,Class,0.7335838819518721
+41,Improper Resolution of Path Equivalence,Base,0.7318230498788629
+297,Improper Validation of Certificate with Host Mismatch,Variant,0.7314245544572118
+653,Improper Isolation or Compartmentalization,Class,0.7309852593446098
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7292171502815585
+657,Violation of Secure Design Principles,Class,0.7287960852287354

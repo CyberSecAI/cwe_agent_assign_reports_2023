@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,8150.053685642182,unknown
+836,Use of Password Hash Instead of Password for Authentication,7360.893850867042,unknown
+294,Authentication Bypass by Capture-replay,7072.938443797038,unknown
+130,Improper Handling of Length Parameter Inconsistency,6961.835712722686,unknown
+400,Uncontrolled Resource Consumption,6468.311533499637,unknown

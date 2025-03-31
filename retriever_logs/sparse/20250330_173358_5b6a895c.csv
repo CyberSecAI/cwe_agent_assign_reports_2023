@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,7628.611412937042,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,7475.604744416145,base_query
+789,Memory Allocation with Excessive Size Value,7287.00710320349,base_query
+863,Incorrect Authorization,7284.017698000415,base_query
+1284,Improper Validation of Specified Quantity in Input,7258.369916968108,base_query

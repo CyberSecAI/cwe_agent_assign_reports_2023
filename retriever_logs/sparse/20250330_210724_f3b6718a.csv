@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,7663.799293071128,unknown
+125,Out-of-bounds Read,7371.307635498276,unknown
+190,Integer Overflow or Wraparound,7318.106313349933,unknown
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,7273.848332044874,unknown
+1284,Improper Validation of Specified Quantity in Input,7190.229702089893,unknown

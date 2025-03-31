@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+502,Deserialization of Untrusted Data,4358.647770637344,base_query
+116,Improper Encoding or Escaping of Output,4319.581277500621,base_query
+138,Improper Neutralization of Special Elements,4285.166702389575,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),4266.855829071591,base_query
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),4259.111559157445,base_query

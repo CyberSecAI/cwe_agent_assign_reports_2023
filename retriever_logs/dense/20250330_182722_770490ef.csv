@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+204,Observable Response Discrepancy,Base,0.7815715744888074
+668,Exposure of Resource to Wrong Sphere,Class,0.7805290331283363
+209,Generation of Error Message Containing Sensitive Information,Base,0.7738214291270367
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7676935029461542
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7675538077250652
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7674243945916561
+639,Authorization Bypass Through User-Controlled Key,Base,0.7650537441892529
+1390,Weak Authentication,Class,0.7647767048001102
+41,Improper Resolution of Path Equivalence,Base,0.7635412442701273
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7616632727930244

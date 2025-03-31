@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+668,Exposure of Resource to Wrong Sphere,6502.578662757252,unknown
+863,Incorrect Authorization,6471.335716505509,unknown
+639,Authorization Bypass Through User-Controlled Key,6415.57855323383,unknown
+923,Improper Restriction of Communication Channel to Intended Endpoints,6363.704373567016,unknown
+285,Improper Authorization,6342.761735466366,unknown

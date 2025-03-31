@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+804,Guessable CAPTCHA,base,4.329000000000001,0
+190,Integer Overflow or Wraparound,base,2.821,0
+480,Use of Incorrect Operator,base,2.4699999999999998,0
+681,Incorrect Conversion between Numeric Types,base,2.4699999999999998,0
+843,Access of Resource Using Incompatible Type ('Type Confusion'),base,2.3400000000000003,0
+128,Wrap-around Error,base,2.2698,0
+1339,Insufficient Precision or Accuracy of a Real Number,base,2.2698,0
+195,Signed to Unsigned Conversion Error,variant,2.1936,0
+597,Use of Wrong Operator in String Comparison,variant,2.1624,0
+770,Allocation of Resources Without Limits or Throttling,base,1.8917600000000003,0

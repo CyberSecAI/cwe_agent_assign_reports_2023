@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,5.031000000000001,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,4.472,0
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),base,4.329000000000001,0
+117,Improper Output Neutralization for Logs,base,4.329000000000001,0
+494,Download of Code Without Integrity Check,base,4.329000000000001,0
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),base,3.6399999999999997,0
+126,Buffer Over-read,variant,3.3168,0
+190,Integer Overflow or Wraparound,base,2.8651999999999997,0
+170,Improper Null Termination,base,2.8651999999999997,0
+805,Buffer Access with Incorrect Length Value,base,2.8651999999999997,0

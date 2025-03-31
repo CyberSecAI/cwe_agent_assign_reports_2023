@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1333,Inefficient Regular Expression Complexity,5222.192096451242,base_query
+625,Permissive Regular Expression,5021.890114177675,base_query
+617,Reachable Assertion,4803.002140312347,base_query
+770,Allocation of Resources Without Limits or Throttling,4593.290600072856,base_query
+186,Overly Restrictive Regular Expression,4567.903623343786,base_query

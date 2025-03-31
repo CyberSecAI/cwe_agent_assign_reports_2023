@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6234.543356159014,base_query
+1284,Improper Validation of Specified Quantity in Input,6190.985664885847,base_query
+770,Allocation of Resources Without Limits or Throttling,6155.514905341555,base_query
+639,Authorization Bypass Through User-Controlled Key,6135.6526039658265,base_query
+789,Memory Allocation with Excessive Size Value,6120.360832292181,base_query

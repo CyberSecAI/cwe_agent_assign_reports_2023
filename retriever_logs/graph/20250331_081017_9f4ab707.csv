@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),base,5.213,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,3.4866,0
+41,Improper Resolution of Path Equivalence,Base,2.8992902810875925,0
+73,External Control of File Name or Path,Base,2.8938030887002606,0
+59,Improper Link Resolution Before File Access ('Link Following'),Base,2.8934348375855508,0
+363,Race Condition Enabling Link Following,base,2.8651999999999997,0
+386,Symbolic Name not Mapping to Correct Object,base,2.7950000000000004,0
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,base,2.7742,0
+36,Absolute Path Traversal,base,2.4699999999999998,0
+94,Improper Control of Generation of Code ('Code Injection'),base,2.4232000000000005,0

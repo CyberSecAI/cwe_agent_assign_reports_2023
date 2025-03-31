@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),base,4.8204,0
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),base,4.589,0
+183,Permissive List of Allowed Inputs,base,4.23904,0
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),base,3.653,0
+464,Addition of Data Structure Sentinel,base,3.6399999999999997,0
+463,Deletion of Data Structure Sentinel,base,3.6399999999999997,0
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),base,3.6399999999999997,0
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),base,3.6399999999999997,0
+502,Deserialization of Untrusted Data,base,3.6399999999999997,0
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,base,3.6399999999999997,0

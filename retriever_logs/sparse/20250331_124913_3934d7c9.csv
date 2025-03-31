@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+770,Allocation of Resources Without Limits or Throttling,6606.268461121882,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,6455.131085269789,base_query
+400,Uncontrolled Resource Consumption,6430.578073552121,base_query
+863,Incorrect Authorization,6327.70357852384,base_query
+789,Memory Allocation with Excessive Size Value,6223.936696922791,base_query

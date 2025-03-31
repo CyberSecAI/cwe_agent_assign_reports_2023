@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+178,Improper Handling of Case Sensitivity,4920.909186700273,unknown
+863,Incorrect Authorization,4883.31806021817,unknown
+1390,Weak Authentication,4879.996251125681,unknown
+285,Improper Authorization,4825.409318245768,unknown
+226,Sensitive Information in Resource Not Removed Before Reuse,4801.749843758894,unknown

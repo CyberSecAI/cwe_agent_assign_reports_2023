@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+824,Access of Uninitialized Pointer,Base,0.754083304331721
+674,Uncontrolled Recursion,Class,0.7470824642186666
+125,Out-of-bounds Read,Base,0.7461678840151661
+404,Improper Resource Shutdown or Release,Class,0.7461622909694776
+252,Unchecked Return Value,Base,0.7431457453136225
+617,Reachable Assertion,Base,0.7423661137603245
+667,Improper Locking,Class,0.7420097250843858
+691,Insufficient Control Flow Management,Pillar,0.7413914674661638
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7383043087744363
+131,Incorrect Calculation of Buffer Size,Base,0.7380144479323048

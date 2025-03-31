@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),7446.479314972397,unknown
+23,Relative Path Traversal,7169.836105713981,unknown
+209,Generation of Error Message Containing Sensitive Information,7042.076222324351,unknown
+200,Exposure of Sensitive Information to an Unauthorized Actor,6980.394126282291,unknown
+184,Incomplete List of Disallowed Inputs,6880.330054656664,unknown

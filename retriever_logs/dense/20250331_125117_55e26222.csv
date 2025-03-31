@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7664516749411973
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),Base,0.7633798370960301
+41,Improper Resolution of Path Equivalence,Base,0.7629630938023915
+330,Use of Insufficiently Random Values,Class,0.7599125203989837
+204,Observable Response Discrepancy,Base,0.7569774010301434
+923,Improper Restriction of Communication Channel to Intended Endpoints,Class,0.7554090337566862
+184,Incomplete List of Disallowed Inputs,Base,0.753000780164783
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7510907470157127
+203,Observable Discrepancy,Base,0.7465294029473941
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7464995291053045

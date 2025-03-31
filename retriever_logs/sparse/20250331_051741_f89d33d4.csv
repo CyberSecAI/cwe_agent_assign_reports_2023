@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1204,Generation of Weak Initialization Vector (IV),5790.863800716722,unknown
+327,Use of a Broken or Risky Cryptographic Algorithm,5683.098776775922,unknown
+1391,Use of Weak Credentials,5578.520040431397,unknown
+321,Use of Hard-coded Cryptographic Key,5557.116379161775,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),5551.390434390711,unknown

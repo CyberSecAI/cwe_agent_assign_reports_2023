@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+276,Incorrect Default Permissions,Base,0.7630178696534615
+1391,Use of Weak Credentials,Class,0.7621225497863844
+798,Use of Hard-coded Credentials,Base,0.7574605911629534
+639,Authorization Bypass Through User-Controlled Key,Base,0.7555426191604481
+668,Exposure of Resource to Wrong Sphere,Class,0.753002990222037
+1390,Weak Authentication,Class,0.7520771703345979
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7513221598982393
+345,Insufficient Verification of Data Authenticity,Class,0.7503637584544989
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7490470898266002
+312,Cleartext Storage of Sensitive Information,Base,0.7485456814577334

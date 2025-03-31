@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,5632.913294877642,base_query
+184,Incomplete List of Disallowed Inputs,5600.285949413996,base_query
+441,Unintended Proxy or Intermediary ('Confused Deputy'),5579.596192524789,base_query
+285,Improper Authorization,5329.328816381483,base_query
+306,Missing Authentication for Critical Function,5303.915772074747,base_query

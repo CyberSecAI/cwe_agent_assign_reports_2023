@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7775966432519454
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7673144476962144
+404,Improper Resource Shutdown or Release,Class,0.7628640479270876
+203,Observable Discrepancy,Base,0.7620285549366579
+703,Improper Check or Handling of Exceptional Conditions,Pillar,0.7607505846624552
+668,Exposure of Resource to Wrong Sphere,Class,0.7603328596056029
+667,Improper Locking,Class,0.7563841096634303
+665,Improper Initialization,Class,0.750720675152561
+459,Incomplete Cleanup,Base,0.7472567038768498
+755,Improper Handling of Exceptional Conditions,Class,0.7471833400911219

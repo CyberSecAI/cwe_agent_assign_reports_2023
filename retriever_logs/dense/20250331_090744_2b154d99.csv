@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+266,Incorrect Privilege Assignment,Base,0.7578691314325711
+653,Improper Isolation or Compartmentalization,Class,0.7575231645420005
+274,Improper Handling of Insufficient Privileges,Base,0.7491119402074045
+668,Exposure of Resource to Wrong Sphere,Class,0.7467400797194881
+1220,Insufficient Granularity of Access Control,Base,0.741274278694485
+267,Privilege Defined With Unsafe Actions,Base,0.7397106784507506
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,0.7382598055485932
+280,Improper Handling of Insufficient Permissions or Privileges ,Base,0.7378256109167989
+472,External Control of Assumed-Immutable Web Parameter,Base,0.734494073931965
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7344167575856531

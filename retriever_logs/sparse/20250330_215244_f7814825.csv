@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+639,Authorization Bypass Through User-Controlled Key,4976.956399134893,unknown
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,4858.900544048602,unknown
+502,Deserialization of Untrusted Data,4571.972730988806,unknown
+863,Incorrect Authorization,4528.766943801196,unknown
+427,Uncontrolled Search Path Element,4521.856693927237,unknown

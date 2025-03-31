@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7815412073640687
+1391,Use of Weak Credentials,Class,0.7720314685620984
+319,Cleartext Transmission of Sensitive Information,Base,0.7710678619621123
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7698436260248978
+312,Cleartext Storage of Sensitive Information,Base,0.7693050962088085
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7658629299261852
+639,Authorization Bypass Through User-Controlled Key,Base,0.7613917168657703
+1390,Weak Authentication,Class,0.7606728763203581
+798,Use of Hard-coded Credentials,Base,0.7597689856827806
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7590519747668922

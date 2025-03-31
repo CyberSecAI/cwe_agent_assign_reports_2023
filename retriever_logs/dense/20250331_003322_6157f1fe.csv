@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+330,Use of Insufficiently Random Values,Class,0.7950538323077425
+340,Generation of Predictable Numbers or Identifiers,Class,0.7663874882504843
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7537325936206829
+203,Observable Discrepancy,Base,0.7464559341620952
+341,Predictable from Observable State,Base,0.7446654406923097
+208,Observable Timing Discrepancy,Base,0.7444004029584477
+331,Insufficient Entropy,Base,0.7426578180165959
+345,Insufficient Verification of Data Authenticity,Class,0.7418763923460937
+204,Observable Response Discrepancy,Base,0.73837216959476
+668,Exposure of Resource to Wrong Sphere,Class,0.7381690975294517

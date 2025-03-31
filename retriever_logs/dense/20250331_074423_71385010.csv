@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+434,Unrestricted Upload of File with Dangerous Type,Base,0.7652171504990077
+552,Files or Directories Accessible to External Parties,Base,0.7642612789555565
+639,Authorization Bypass Through User-Controlled Key,Base,0.7641859348890482
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7638592137235076
+184,Incomplete List of Disallowed Inputs,Base,0.7606079285120582
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7591480550137635
+73,External Control of File Name or Path,Base,0.7540003789612032
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7536665386511295
+274,Improper Handling of Insufficient Privileges,Base,0.7512607602580441
+41,Improper Resolution of Path Equivalence,Base,0.7503948783475263

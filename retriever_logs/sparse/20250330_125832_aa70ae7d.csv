@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+252,Unchecked Return Value,5801.215289744933,base_query
+476,NULL Pointer Dereference,5748.269479560631,base_query
+824,Access of Uninitialized Pointer,5543.414651469227,base_query
+822,Untrusted Pointer Dereference,5431.606146743416,base_query
+125,Out-of-bounds Read,5290.121706421035,base_query

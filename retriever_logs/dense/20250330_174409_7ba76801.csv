@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting'),Variant,0.7667165681874013
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7506825581411793
+184,Incomplete List of Disallowed Inputs,Base,0.7500723721341285
+312,Cleartext Storage of Sensitive Information,Base,0.7500543324909237
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7483295118105641
+319,Cleartext Transmission of Sensitive Information,Base,0.7476034301893062
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),Base,0.7426234811748271
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7393885959877036
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7362682492429709
+311,Missing Encryption of Sensitive Data,Class,0.7360884560609857

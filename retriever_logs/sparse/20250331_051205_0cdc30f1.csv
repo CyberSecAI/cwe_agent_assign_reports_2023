@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+345,Insufficient Verification of Data Authenticity,7845.548243891378,base_query
+328,Use of Weak Hash,7547.2526493198975,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,7415.695718366448,base_query
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),7292.425174068296,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,7252.388469055194,base_query

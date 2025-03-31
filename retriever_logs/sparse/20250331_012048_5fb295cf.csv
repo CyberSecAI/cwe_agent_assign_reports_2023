@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+916,Use of Password Hash With Insufficient Computational Effort,6523.79629010134,unknown
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6180.130352626159,unknown
+259,Use of Hard-coded Password,6003.280020836523,unknown
+798,Use of Hard-coded Credentials,5912.143633063279,unknown
+23,Relative Path Traversal,5782.447597637271,unknown

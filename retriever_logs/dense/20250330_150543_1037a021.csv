@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7720800386752467
+943,Improper Neutralization of Special Elements in Data Query Logic,Class,0.7649385498124215
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7617335074608247
+184,Incomplete List of Disallowed Inputs,Base,0.7569543942834289
+138,Improper Neutralization of Special Elements,Class,0.7565886667978605
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.752745201942977
+653,Improper Isolation or Compartmentalization,Class,0.7521356956879953
+150,Improper Neutralization of Escape  Meta  or Control Sequences,Variant,0.751324571094903
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7489110079599315
+204,Observable Response Discrepancy,Base,0.7482518644124845

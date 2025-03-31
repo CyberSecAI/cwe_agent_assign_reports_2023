@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+41,Improper Resolution of Path Equivalence,Base,0.7613817179721951
+625,Permissive Regular Expression,Base,0.7598276903709643
+204,Observable Response Discrepancy,Base,0.7573121185912739
+668,Exposure of Resource to Wrong Sphere,Class,0.7543437807475651
+407,Inefficient Algorithmic Complexity,Class,0.7537906905771825
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.752626076005519
+185,Incorrect Regular Expression,Class,0.7470446132211299
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.743378012866917
+799,Improper Control of Interaction Frequency,Class,0.7405457995400436
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7399984576162848

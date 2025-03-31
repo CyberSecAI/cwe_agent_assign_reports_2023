@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+639,Authorization Bypass Through User-Controlled Key,Base,0.7579604589266711
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7573284962463089
+404,Improper Resource Shutdown or Release,Class,0.7563249548522385
+41,Improper Resolution of Path Equivalence,Base,0.7558220019691017
+668,Exposure of Resource to Wrong Sphere,Class,0.7541416329525522
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7510886274271528
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7452821635377704
+1390,Weak Authentication,Class,0.7448305673446141
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7445591482067971
+405,Asymmetric Resource Consumption (Amplification),Class,0.7440111601134607

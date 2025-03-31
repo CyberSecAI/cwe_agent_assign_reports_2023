@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+404,Improper Resource Shutdown or Release,Class,0.7829226450207796
+415,Double Free,Variant,0.7778853701906624
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7766186865706409
+41,Improper Resolution of Path Equivalence,Base,0.770439833584931
+667,Improper Locking,Class,0.7692588390602626
+366,Race Condition within a Thread,Base,0.7662367618453307
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7640055860185029
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7556046057850975
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.75387585180796
+125,Out-of-bounds Read,Base,0.7535858820619432

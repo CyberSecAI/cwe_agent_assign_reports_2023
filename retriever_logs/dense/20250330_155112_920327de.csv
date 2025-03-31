@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+312,Cleartext Storage of Sensitive Information,Base,0.7719337596931447
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7635936316319147
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,0.7635236251399488
+319,Cleartext Transmission of Sensitive Information,Base,0.7578383104250149
+1391,Use of Weak Credentials,Class,0.7549264047184485
+668,Exposure of Resource to Wrong Sphere,Class,0.7520090922469163
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.749628113925555
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7488348104029587
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7458252112091689
+345,Insufficient Verification of Data Authenticity,Class,0.7458095367608495

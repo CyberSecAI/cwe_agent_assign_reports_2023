@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.8046773924928952
+1021,Improper Restriction of Rendered UI Layers or Frames,Base,0.796089201434065
+356,Product UI does not Warn User of Unsafe Actions,Base,0.7861885202265386
+843,Access of Resource Using Incompatible Type ('Type Confusion'),Base,0.7783819941007132
+668,Exposure of Resource to Wrong Sphere,Class,0.7686781786097534
+41,Improper Resolution of Path Equivalence,Base,0.7676057828655385
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7646771830248056
+667,Improper Locking,Class,0.7625086628373694
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7623529836276692
+404,Improper Resource Shutdown or Release,Class,0.7609903173185377

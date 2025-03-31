@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+41,Improper Resolution of Path Equivalence,Base,0.7651232906309512
+131,Incorrect Calculation of Buffer Size,Base,0.7571062505151662
+404,Improper Resource Shutdown or Release,Class,0.7559195235937728
+667,Improper Locking,Class,0.7554766992435447
+668,Exposure of Resource to Wrong Sphere,Class,0.7549708896078153
+653,Improper Isolation or Compartmentalization,Class,0.7534568923628892
+59,Improper Link Resolution Before File Access ('Link Following'),Base,0.7473159283229651
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,Class,0.7470935780021711
+125,Out-of-bounds Read,Base,0.7465177665053299
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7461438141299852

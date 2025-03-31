@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,6707.672590679891,unknown
+208,Observable Timing Discrepancy,6689.19375905426,unknown
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),6636.041016733854,unknown
+918,Server-Side Request Forgery (SSRF),6319.505165943695,unknown
+116,Improper Encoding or Escaping of Output,6199.144422811778,unknown

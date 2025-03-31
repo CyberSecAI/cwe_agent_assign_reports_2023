@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,5240.320251036447,unknown
+285,Improper Authorization,5151.262661014913,unknown
+639,Authorization Bypass Through User-Controlled Key,5094.750761111672,unknown
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),5081.322288940443,unknown
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5000.65856783236,unknown

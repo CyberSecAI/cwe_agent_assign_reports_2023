@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+798,Use of Hard-coded Credentials,Base,0.7871548947927172
+667,Improper Locking,Class,0.7796409239917785
+1391,Use of Weak Credentials,Class,0.7731117545927976
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.763772144357962
+755,Improper Handling of Exceptional Conditions,Class,0.7610891219155702
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7556779702859127
+668,Exposure of Resource to Wrong Sphere,Class,0.7552683171365682
+404,Improper Resource Shutdown or Release,Class,0.7550073977680785
+319,Cleartext Transmission of Sensitive Information,Base,0.7546662392114927
+345,Insufficient Verification of Data Authenticity,Class,0.75428987007921

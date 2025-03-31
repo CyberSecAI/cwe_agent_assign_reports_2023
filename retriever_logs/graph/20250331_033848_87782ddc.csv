@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+259,Use of Hard-coded Password,variant,4.0104,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+471,Modification of Assumed-Immutable Data (MAID),base,2.821,0
+425,Direct Request ('Forced Browsing'),base,2.73416,0
+321,Use of Hard-coded Cryptographic Key,Variant,2.700294429910558,0
+472,External Control of Assumed-Immutable Web Parameter,Base,2.6264906873457936,0
+798,Use of Hard-coded Credentials,Base,2.4934768136214873,0
+344,Use of Invariant Value in Dynamically Changing Context,base,2.4699999999999998,0
+306,Missing Authentication for Critical Function,base,2.4699999999999998,0
+392,Missing Report of Error Condition,base,2.4699999999999998,0

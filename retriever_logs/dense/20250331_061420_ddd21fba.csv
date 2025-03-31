@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+691,Insufficient Control Flow Management,Pillar,0.8062657504634274
+664,Improper Control of a Resource Through its Lifetime,Pillar,0.7749222915456602
+274,Improper Handling of Insufficient Privileges,Base,0.761605595561772
+653,Improper Isolation or Compartmentalization,Class,0.7605186446307832
+73,External Control of File Name or Path,Base,0.7601551231787591
+41,Improper Resolution of Path Equivalence,Base,0.7601407330509572
+1220,Insufficient Granularity of Access Control,Base,0.751988661980229
+639,Authorization Bypass Through User-Controlled Key,Base,0.7518140336693826
+668,Exposure of Resource to Wrong Sphere,Class,0.7515000578694552
+1390,Weak Authentication,Class,0.7498621768759455

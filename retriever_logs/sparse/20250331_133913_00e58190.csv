@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,9391.253350466268,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,8459.996738113132,base_query
+200,Exposure of Sensitive Information to an Unauthorized Actor,8393.519950721558,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),8289.63505081902,base_query
+321,Use of Hard-coded Cryptographic Key,8263.611501754138,base_query

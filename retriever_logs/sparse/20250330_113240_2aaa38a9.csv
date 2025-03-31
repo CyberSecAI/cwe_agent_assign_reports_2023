@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+125,Out-of-bounds Read,5004.646027577628,base_query
+476,NULL Pointer Dereference,4972.826152354458,base_query
+248,Uncaught Exception,4943.309513452487,base_query
+190,Integer Overflow or Wraparound,4899.592947228551,base_query
+252,Unchecked Return Value,4860.77341878776,base_query

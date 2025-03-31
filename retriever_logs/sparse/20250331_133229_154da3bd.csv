@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,7397.986767104857,base_query
+426,Untrusted Search Path,6480.602987615093,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6262.271366244753,base_query
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),6194.672184130615,base_query
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),6099.506751647728,base_query

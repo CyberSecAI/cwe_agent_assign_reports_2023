@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,6026.666750411232,base_query
+59,Improper Link Resolution Before File Access ('Link Following'),5399.175611998304,base_query
+1386,Insecure Operation on Windows Junction / Mount Point,5371.6358844167435,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,5250.733895043753,base_query
+190,Integer Overflow or Wraparound,5174.591068456502,base_query

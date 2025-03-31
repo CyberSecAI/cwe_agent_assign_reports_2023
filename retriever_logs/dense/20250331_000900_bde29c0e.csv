@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7771376120787293
+184,Incomplete List of Disallowed Inputs,Base,0.7734451320953426
+41,Improper Resolution of Path Equivalence,Base,0.7676182980899926
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.765512633354992
+138,Improper Neutralization of Special Elements,Class,0.7626716133516087
+668,Exposure of Resource to Wrong Sphere,Class,0.7617937509637831
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7582848285190492
+923,Improper Restriction of Communication Channel to Intended Endpoints,Class,0.7570186830503476
+23,Relative Path Traversal,Base,0.7553293141878837
+116,Improper Encoding or Escaping of Output,Class,0.7537970711279754

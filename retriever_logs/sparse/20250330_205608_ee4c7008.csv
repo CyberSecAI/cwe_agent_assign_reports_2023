@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+203,Observable Discrepancy,6963.355055346833,base_query
+327,Use of a Broken or Risky Cryptographic Algorithm,6733.213536563531,base_query
+319,Cleartext Transmission of Sensitive Information,6518.242922243791,base_query
+295,Improper Certificate Validation,6382.776692889167,base_query
+941,Incorrectly Specified Destination in a Communication Channel,6377.402229651481,base_query

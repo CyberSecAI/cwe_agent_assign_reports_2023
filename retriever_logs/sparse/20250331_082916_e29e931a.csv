@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+789,Memory Allocation with Excessive Size Value,5506.521047809235,unknown
+770,Allocation of Resources Without Limits or Throttling,5436.271176187956,unknown
+1284,Improper Validation of Specified Quantity in Input,5432.524385384482,unknown
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),5367.822536850757,unknown
+834,Excessive Iteration,5280.1081644344695,unknown

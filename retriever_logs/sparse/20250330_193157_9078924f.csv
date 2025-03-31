@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+427,Uncontrolled Search Path Element,8852.284613508487,base_query
+639,Authorization Bypass Through User-Controlled Key,8460.306620637022,base_query
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),8453.27291684534,base_query
+863,Incorrect Authorization,8227.885850936616,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,8099.815111458357,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+425,Direct Request ('Forced Browsing'),Base,0.7792347066662865
+798,Use of Hard-coded Credentials,Base,0.7755246695405797
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7749355370563
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7729887964870625
+1391,Use of Weak Credentials,Class,0.772874637285401
+639,Authorization Bypass Through User-Controlled Key,Base,0.772784214226161
+668,Exposure of Resource to Wrong Sphere,Class,0.7708758205514876
+41,Improper Resolution of Path Equivalence,Base,0.7701315737840496
+552,Files or Directories Accessible to External Parties,Base,0.7660369754465902
+23,Relative Path Traversal,Base,0.7617007379780734

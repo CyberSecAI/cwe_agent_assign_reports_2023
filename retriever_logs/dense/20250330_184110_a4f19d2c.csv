@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+668,Exposure of Resource to Wrong Sphere,Class,0.7495564661591034
+754,Improper Check for Unusual or Exceptional Conditions,Class,0.7460246682888134
+345,Insufficient Verification of Data Authenticity,Class,0.7443304431882616
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7437059961049919
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7426266257717725
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7417754951169875
+41,Improper Resolution of Path Equivalence,Base,0.7401711123331822
+203,Observable Discrepancy,Base,0.7396338413154285
+941,Incorrectly Specified Destination in a Communication Channel,Base,0.7391289360533233
+138,Improper Neutralization of Special Elements,Class,0.7383728905599736

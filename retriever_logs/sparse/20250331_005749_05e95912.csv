@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+754,Improper Check for Unusual or Exceptional Conditions,5734.710704833925,unknown
+770,Allocation of Resources Without Limits or Throttling,5678.407895416953,unknown
+617,Reachable Assertion,5630.541247528291,unknown
+252,Unchecked Return Value,5457.032551903138,unknown
+789,Memory Allocation with Excessive Size Value,5451.09024790333,unknown

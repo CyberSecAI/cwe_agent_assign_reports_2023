@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+328,Use of Weak Hash,6815.695633945835,unknown
+130,Improper Handling of Length Parameter Inconsistency,6420.629392562668,unknown
+400,Uncontrolled Resource Consumption,6028.515665187439,unknown
+770,Allocation of Resources Without Limits or Throttling,5887.770691649365,unknown
+1284,Improper Validation of Specified Quantity in Input,5881.0873093963755,unknown

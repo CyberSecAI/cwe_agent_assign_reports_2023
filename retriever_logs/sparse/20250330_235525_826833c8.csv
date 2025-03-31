@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+1284,Improper Validation of Specified Quantity in Input,8185.74492258883,unknown
+190,Integer Overflow or Wraparound,8173.788774348286,unknown
+125,Out-of-bounds Read,8135.84718922748,unknown
+116,Improper Encoding or Escaping of Output,8043.664230870608,unknown
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),8006.898168962832,unknown

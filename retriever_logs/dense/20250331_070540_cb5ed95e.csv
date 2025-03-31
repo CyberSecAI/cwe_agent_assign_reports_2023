@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+319,Cleartext Transmission of Sensitive Information,Base,0.7957119767903652
+668,Exposure of Resource to Wrong Sphere,Class,0.7835227599549788
+312,Cleartext Storage of Sensitive Information,Base,0.7819037556392858
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7780382668964436
+451,User Interface (UI) Misrepresentation of Critical Information,Class,0.7720119721899079
+345,Insufficient Verification of Data Authenticity,Class,0.7691709644819523
+311,Missing Encryption of Sensitive Data,Class,0.7684596000333577
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,0.7668789346355993
+610,Externally Controlled Reference to a Resource in Another Sphere,Class,0.7657405339010307
+212,Improper Removal of Sensitive Information Before Storage or Transfer,Base,0.7655446035381583

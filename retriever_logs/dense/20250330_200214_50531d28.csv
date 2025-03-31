@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7983263327652583
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.779556199353287
+208,Observable Timing Discrepancy,Base,0.7662181911948223
+183,Permissive List of Allowed Inputs,Base,0.7569625752727931
+184,Incomplete List of Disallowed Inputs,Base,0.7565033809396972
+204,Observable Response Discrepancy,Base,0.7552413895295805
+41,Improper Resolution of Path Equivalence,Base,0.7546451725086284
+1288,Improper Validation of Consistency within Input,Base,0.7499211178515812
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),Base,0.7492214785635654
+138,Improper Neutralization of Special Elements,Class,0.7474735834224484

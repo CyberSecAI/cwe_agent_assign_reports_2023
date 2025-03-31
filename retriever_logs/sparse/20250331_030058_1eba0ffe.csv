@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+823,Use of Out-of-range Pointer Offset,4916.465402296897,base_query
+667,Improper Locking,4881.490173526892,base_query
+662,Improper Synchronization,4818.973463240079,base_query
+125,Out-of-bounds Read,4649.1758005638485,base_query
+190,Integer Overflow or Wraparound,4625.748066648462,base_query

@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+23,Relative Path Traversal,Base,0.7732070738250998
+73,External Control of File Name or Path,Base,0.7713873740264221
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7616373741396233
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7612492563582564
+184,Incomplete List of Disallowed Inputs,Base,0.761216779896398
+639,Authorization Bypass Through User-Controlled Key,Base,0.7596345372139103
+41,Improper Resolution of Path Equivalence,Base,0.7584933235716907
+183,Permissive List of Allowed Inputs,Base,0.7571385748654349
+472,External Control of Assumed-Immutable Web Parameter,Base,0.7558743050327086
+552,Files or Directories Accessible to External Parties,Base,0.7553614176292257

@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+863,Incorrect Authorization,6874.935960204973,base_query
+639,Authorization Bypass Through User-Controlled Key,6745.482631566983,base_query
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),6730.913743708208,base_query
+285,Improper Authorization,6725.600869502837,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,6653.914194735841,base_query

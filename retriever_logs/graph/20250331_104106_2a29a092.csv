@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+613,Insufficient Session Expiration,base,4.329000000000001,0
+178,Improper Handling of Case Sensitivity,base,3.757,0
+352,Cross-Site Request Forgery (CSRF),compound,3.002,0
+41,Improper Resolution of Path Equivalence,Base,2.985007208806217,0
+73,External Control of File Name or Path,base,2.8651999999999997,0
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0
+472,External Control of Assumed-Immutable Web Parameter,Base,2.5774475255161535,0
+287,Improper Authentication,class,2.5519999999999996,0
+441,Unintended Proxy or Intermediary ('Confused Deputy'),class,2.5519999999999996,0

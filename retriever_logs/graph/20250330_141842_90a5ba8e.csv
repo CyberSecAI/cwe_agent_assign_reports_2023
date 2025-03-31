@@ -1,0 +1,11 @@
+cwe_id,name,type,score,relationship_count
+259,Use of Hard-coded Password,variant,4.1184,0
+321,Use of Hard-coded Cryptographic Key,variant,4.0104,0
+178,Improper Handling of Case Sensitivity,base,3.757,0
+257,Storing Passwords in a Recoverable Format,base,3.6399999999999997,0
+94,Improper Control of Generation of Code ('Code Injection'),base,3.1356,0
+41,Improper Resolution of Path Equivalence,base,2.9941600000000004,0
+457,Use of Uninitialized Variable,variant,2.97312,0
+289,Authentication Bypass by Alternate Name,base,2.8651999999999997,0
+252,Unchecked Return Value,base,2.821,0
+942,Permissive Cross-domain Policy with Untrusted Domains,variant,2.6784000000000003,0

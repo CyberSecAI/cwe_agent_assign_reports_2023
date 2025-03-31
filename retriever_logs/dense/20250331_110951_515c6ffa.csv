@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.7685648007452539
+184,Incomplete List of Disallowed Inputs,Base,0.7572202038867341
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),Variant,0.7402012469772115
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,0.7377992918479566
+99,Improper Control of Resource Identifiers ('Resource Injection'),Class,0.7366706873952426
+138,Improper Neutralization of Special Elements,Class,0.7364759687595321
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),Base,0.7284800920179756
+653,Improper Isolation or Compartmentalization,Class,0.7206696881647996
+183,Permissive List of Allowed Inputs,Base,0.7206345129191862
+134,Use of Externally-Controlled Format String,Base,0.7197005208202536

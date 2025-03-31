@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+807,Reliance on Untrusted Inputs in a Security Decision,Base,0.7836917979274078
+345,Insufficient Verification of Data Authenticity,Class,0.7655350544221199
+1391,Use of Weak Credentials,Class,0.7636280207405284
+798,Use of Hard-coded Credentials,Base,0.7635825515991949
+1289,Improper Validation of Unsafe Equivalence in Input,Base,0.7612068216662033
+73,External Control of File Name or Path,Base,0.7571813227982457
+668,Exposure of Resource to Wrong Sphere,Class,0.7566177846416908
+330,Use of Insufficiently Random Values,Class,0.7540781641280995
+184,Incomplete List of Disallowed Inputs,Base,0.7529620812131269
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),Class,0.752927891284326

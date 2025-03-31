@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+200,Exposure of Sensitive Information to an Unauthorized Actor,5696.944543472713,base_query
+923,Improper Restriction of Communication Channel to Intended Endpoints,5657.053642380351,base_query
+863,Incorrect Authorization,5626.578914424882,base_query
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),5568.268139960976,base_query
+340,Generation of Predictable Numbers or Identifiers,5430.796306586041,base_query

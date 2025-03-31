@@ -1,0 +1,6 @@
+cwe_id,name,score,search_source
+451,User Interface (UI) Misrepresentation of Critical Information,5611.010334504552,base_query
+404,Improper Resource Shutdown or Release,4844.826699547181,base_query
+356,Product UI does not Warn User of Unsafe Actions,4821.149375840675,base_query
+911,Improper Update of Reference Count,4797.534213990898,base_query
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,4776.777071948271,base_query

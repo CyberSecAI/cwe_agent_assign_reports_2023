@@ -1,0 +1,11 @@
+cwe_id,name,type,score
+226,Sensitive Information in Resource Not Removed Before Reuse,Base,0.7809590044368007
+131,Incorrect Calculation of Buffer Size,Base,0.7783290348544712
+667,Improper Locking,Class,0.7764807831138296
+909,Missing Initialization of Resource,Class,0.7747541535952274
+191,Integer Underflow (Wrap or Wraparound),Base,0.774357622967478
+404,Improper Resource Shutdown or Release,Class,0.7720776648578824
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),Class,0.7690218236699607
+908,Use of Uninitialized Resource,Base,0.7682103311905807
+366,Race Condition within a Thread,Base,0.7623713774108406
+824,Access of Uninitialized Pointer,Base,0.7613757535784504
