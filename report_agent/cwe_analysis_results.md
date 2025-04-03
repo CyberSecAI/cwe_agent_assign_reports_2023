@@ -425,8 +425,8 @@ Source: CVE-2021-34473_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 0.90 | Base | Primary CWE. The application is making a request to a server based on a URI provided by the user, but it does not properly validate that URI. |
-| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Secondary Candidate. The **rootcause** of the vulnerability is **improper input validation** of URIs, but CWE-918 is more specific. |
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 0.90 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary CWE |
 
 ## CVE-2022-25512
 
@@ -648,9 +648,8 @@ Source: CVE-2021-3560_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 0.85 | Base | Primary CWE |
-| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 0.65 | Base | Secondary Candidate |
-| CWE-754 | Improper Check for Unusual or Exceptional Conditions | Primary | 0.50 | Class | Secondary Candidate |
+| CWE-285 | Improper Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-754 | Improper Check for Unusual or Exceptional Conditions | Secondary | 0.70 | Class | Allowed-with-Review |
 
 ## CVE-2022-26486
 
@@ -1789,8 +1788,8 @@ Source: CVE-2021-21551_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-782 | Exposed IOCTL with Insufficient Access Control | Primary | 0.90 | Variant | Allowed |
-| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Discouraged |
+| CWE-782 | Exposed IOCTL with Insufficient Access Control | Primary | 0.90 | Variant | Primary CWE |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 0.60 | Base | Secondary Candidate |
 
 ## CVE-2022-36325
 
@@ -5044,8 +5043,8 @@ Source: CVE-2021-0920_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-416 | Use After Free | Primary | 0.90 | Variant | Primary CWE |
-| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | Primary | 0.90 | Class | Secondary CWE |
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | Primary | 1.00 | Class | Secondary CWE |
 
 ## CVE-2022-20736
 
@@ -5275,9 +5274,8 @@ Source: CVE-2021-25370_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-773 | Missing Reference to Active File Descriptor or Handle | Primary | 0.85 | Variant | Allowed |
-| CWE-404 | Improper Resource Shutdown or Release | Secondary | 0.60 | Class | Allowed-with-Review |
-| CWE-775 | Missing Release of File Descriptor or Handle after Effective Lifetime | Secondary | 0.50 | Variant | Allowed |
+| CWE-773 | Missing Reference to Active File Descriptor or Handle | Primary | 0.75 | Variant | Primary CWE |
+| CWE-404 | Improper Resource Shutdown or Release | Primary | 0.50 | Class | Secondary Candidate |
 
 ## CVE-2021-3803
 
@@ -7564,8 +7562,9 @@ Source: CVE-2021-45382_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
-| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE: The vulnerability involves injecting OS commands via the DDNS function in the `ncc2` binary due to **lack of sanitization** of `ddnshostname` and `ddnusername` variables. |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.60 | Class | Secondary CWE: Considered due to the injection aspect, but CWE-78 is more specific to OS command injection. |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.50 | Class | Secondary CWE: Considered because the vulnerability is a command injection. However, CWE-78 is a better fit because it is OS command injection. |
 
 ## CVE-2022-25912
 
@@ -7619,8 +7618,8 @@ Source: CVE-2021-39144_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-502 | Deserialization of Untrusted Data | Primary | 0.90 | Base | Primary CWE: The vulnerability involves deserializing untrusted data leading to command execution. |
-| CWE-915 | Improperly Controlled Modification of Dynamically-Determined Object Attributes | Primary | 0.60 | Base | Secondary CWE: The vulnerability allows modification of object attributes during deserialization, which can lead to code execution. |
+| CWE-502 | Deserialization of Untrusted Data | Primary | 1.00 | Base | Allowed |
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Secondary | 0.70 | Base | Allowed-with-Review |
 
 ## CVE-2021-28918
 
@@ -7637,9 +7636,9 @@ Source: CVE-2021-36741_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
-| CWE-434 | Unrestricted Upload of File with Dangerous Type | Secondary | 0.50 | Base | Allowed |
-| CWE-73 | External Control of File Name or Path | Secondary | 0.30 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Unknown | 0.90 | Class | The vulnerability description states "**improper input validation**" which aligns directly with CWE-20. However, due to the discouraged usage of CWE-20, a more specific child is considered. |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.70 | Base | The vulnerability allows a remote attacker to "upload arbitrary files," aligning with the dangerous file type aspect of CWE-434. This is a secondary candidate pending further evidence of the dangerous type. |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | An attacker can upload arbitrary files. This suggests external control over the file name or path. This is a secondary candidate. |
 
 ## CVE-2022-3723
 
@@ -7681,9 +7680,9 @@ Source: CVE-2021-37976_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-787 | **Out-of-bounds Write** | Primary | 0.70 | Base | Allowed |
-| CWE-416 | Use After Free | Secondary | 0.60 | Variant | Allowed |
-| CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Secondary | 0.50 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Primary CWE |
+| CWE-125 | Out-of-bounds Read | Primary | 0.50 | Base | Secondary Candidate |
+| CWE-416 | Use After Free | Primary | 0.40 | Variant | Secondary Candidate |
 
 ## CVE-2022-4257
 
@@ -8863,7 +8862,7 @@ Source: CVE-2021-22900_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 1.00 | Base | Primary CWE |
-| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-274 | Improper Handling of Insufficient Privileges | Secondary | 0.50 | Base | Secondary Candidate |
 
 ## CVE-2022-25795
 
@@ -9241,7 +9240,7 @@ Source: CVE-2021-22502_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
-| CWE-20 | Improper Input Validation | Primary | 0.75 | Base | Secondary Candidate |
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Base | Secondary Candidate |
 
 ## CVE-2022-0819
 
@@ -9331,19 +9330,23 @@ Source: CVE-2021-33742_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-184 | - | Primary | - | - | - |
-| CWE-838 | - | Primary | - | - | - |
+| CWE-197 | - | Primary | - | - | - |
+| CWE-823 | - | Primary | - | - | - |
+| CWE-178 | - | Primary | - | - | - |
+| CWE-23 | - | Primary | - | - | - |
+| CWE-732 | - | Primary | - | - | - |
 | CWE-80 | - | Primary | - | - | - |
+| CWE-98 | - | Primary | - | - | - |
+| CWE-184 | - | Primary | - | - | - |
+| CWE-427 | - | Primary | - | - | - |
 | CWE-116 | - | Primary | - | - | - |
+| CWE-838 | - | Primary | - | - | - |
 | CWE-1289 | - | Primary | - | - | - |
 | CWE-74 | - | Primary | - | - | - |
 | CWE-138 | - | Primary | - | - | - |
 | CWE-41 | - | Primary | - | - | - |
 | CWE-73 | - | Primary | - | - | - |
-| CWE-23 | - | Primary | - | - | - |
-| CWE-427 | - | Primary | - | - | - |
 | CWE-22 | - | Primary | - | - | - |
-| CWE-178 | - | Primary | - | - | - |
 
 ## CVE-2022-25809
 
@@ -9881,9 +9884,7 @@ Source: CVE-2021-40449_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-269 | **Improper Privilege Management** | Primary | 0.70 | Class | Allowed-with-Review |
-| CWE-787 | Out-of-bounds Write | Secondary | 0.40 | Base | Allowed |
-| CWE-266 | Incorrect Privilege Assignment | Secondary | 0.30 | Base | Allowed |
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.70 | Base | Allowed |
 
 ## CVE-2021-20872
 
@@ -10203,7 +10204,9 @@ Source: CVE-2021-25337_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-284 | Improper Access Control | Unknown | 0.80 | Pillar | The vulnerability description explicitly mentions "**Improper access control**" as the root cause. While CWE-284 is a high-level Pillar, it aligns directly with the described weakness. |
+| CWE-284 | Improper Access Control | Primary | 0.80 | Pillar | This is the Primary CWE because **Improper Access Control** is explicitly mentioned in the description. It is however a Pillar and should be replaced by something more specific. |
+| CWE-863 | Incorrect Authorization | Primary | 0.60 | Class | This is a secondary CWE because it's a child of CWE-284 and more specific, but still a Class. |
+| CWE-926 | Improper Export of Android Application Components | Primary | 0.50 | Variant | This is a secondary CWE because it is specific to Android components and the description mentions a clipboard service which is an Android component. |
 
 ## CVE-2022-34364
 
@@ -10372,8 +10375,8 @@ Source: CVE-2021-31207_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 0.80 | Base | Primary CWE |
-| CWE-184 | Incomplete List of Disallowed Inputs | Primary | 0.50 | Base | Secondary Candidate |
+| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 0.90 | Base | Primary CWE |
+| CWE-184 | Incomplete List of Disallowed Inputs | Primary | 0.70 | Base | Secondary CWE |
 
 ## CVE-2022-20300
 
@@ -12230,9 +12233,8 @@ Source: CVE-2021-20090_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Allowed |
-| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Secondary | 0.70 | Base | Allowed |
-| CWE-73 | External Control of File Name or Path | Secondary | 0.60 | Base | Allowed |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Primary CWE |
+| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 0.70 | Base | Secondary Candidate |
 
 ## CVE-2022-25866
 
@@ -13821,10 +13823,8 @@ Source: CVE-2021-36934_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.90 | Class | Primary CWE |
-| CWE-285 | Improper Authorization | Secondary | 0.70 | Class | Secondary Candidate |
-| CWE-1386 | Insecure Operation on Windows Junction / Mount Point | Primary | 0.60 | Base | Secondary Candidate |
-| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 0.50 | Base | Secondary Candidate |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 1.00 | Class | Primary CWE |
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.70 | Base | Secondary Candidate |
 
 ## CVE-2022-31156
 
@@ -17129,7 +17129,7 @@ Source: CVE-2021-36742_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Allowed-with-Review |
 | CWE-269 | Improper Privilege Management | Secondary | 0.50 | Class | Discouraged |
 
 ## CVE-2021-46482
@@ -17806,9 +17806,8 @@ Source: CVE-2021-41773_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Primary CWE |
-| CWE-23 | Relative Path Traversal | Primary | 0.75 | Base | Secondary CWE |
-| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Discouraged |
 
 ## CVE-2022-42925
 
@@ -18381,8 +18380,8 @@ Source: CVE-2021-38163_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.90 | Base | Primary CWE |
-| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.70 | Base | Secondary CWE |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 1.00 | Base | Allowed |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Secondary | 0.90 | Base | Allowed |
 
 ## CVE-2022-46773
 
@@ -18398,8 +18397,8 @@ Source: CVE-2021-38647_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
-| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Secondary | 0.50 | Base | Allowed-with-Review |
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Secondary | 0.40 | Base | Allowed-with-Review |
 
 ## CVE-2022-1441
 
@@ -18730,9 +18729,9 @@ Source: CVE-2021-21017_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Allowed |
-| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
-| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary Candidate |
 
 ## CVE-2022-40994
 
@@ -19396,7 +19395,7 @@ Source: CVE-2021-22991_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.80 | Base | Primary CWE |
-| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.50 | Class | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary CWE |
 
 ## CVE-2022-40991
 
@@ -19582,7 +19581,7 @@ Source: CVE-2021-30563_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Primary | 1.00 | Base | Primary CWE |
-| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
 
 ## CVE-2021-35090
 
@@ -19756,7 +19755,7 @@ Source: CVE-2021-28550_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Allowed |
 
 ## CVE-2022-1593
 
@@ -20273,7 +20272,9 @@ Source: CVE-2021-20022_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 1.00 | Base | Primary CWE |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.90 | Base | Allowed |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.60 | Base | Allowed |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Secondary | 0.50 | Base | Allowed |
 
 ## CVE-2022-1855
 
@@ -20723,8 +20724,8 @@ Source: CVE-2021-21148_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
-| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
-| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.75 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
 
 ## CVE-2022-3660
 
@@ -21010,7 +21011,7 @@ Source: CVE-2021-1497_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
-| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary CWE |
 
 ## CVE-2022-21140
 
@@ -21110,7 +21111,7 @@ Source: CVE-2021-1789_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Primary | 1.00 | Base | Primary CWE |
-| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary Candidate |
 
 ## CVE-2022-20298
 
@@ -21239,7 +21240,7 @@ Source: CVE-2021-30554_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
-| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary Candidate CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
 
 ## CVE-2022-4555
 
@@ -22474,7 +22475,7 @@ Source: CVE-2021-22899_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 1.00 | Class | Primary CWE |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
 
 ## CVE-2022-29773
 
@@ -23629,8 +23630,8 @@ Source: CVE-2021-1905_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-416 | Use After Free | Primary | 0.75 | Variant | Primary CWE |
-| CWE-667 | Improper Locking | Primary | 0.50 | Class | Secondary Candidate |
+| CWE-416 | Use After Free | Primary | 0.80 | Variant | Primary CWE |
+| CWE-667 | Improper Locking | Primary | 0.60 | Class | Secondary Candidate |
 
 ## CVE-2021-21315
 
@@ -23692,8 +23693,8 @@ Source: CVE-2021-40438_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 1.00 | Base | Primary CWE |
-| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 0.90 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Discouraged |
 
 ## CVE-2022-44550
 
@@ -24565,8 +24566,7 @@ Source: CVE-2021-42013_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Primary CWE |
-| CWE-24 | Path Traversal: '../filedir' | Primary | 0.70 | Variant | Secondary Candidate |
-| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-24 | Path Traversal: '../filedir' | Primary | 0.75 | Variant | Secondary Candidate |
 
 ## CVE-2022-23737
 
@@ -24852,7 +24852,8 @@ Source: CVE-2021-1048_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
-| CWE-413 | Improper Resource Locking | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | Primary | 0.60 | Class | Secondary Candidate |
+| CWE-404 | Improper Resource Shutdown or Release | Primary | 0.50 | Class | Secondary Candidate |
 
 ## CVE-2022-2353
 
@@ -24887,8 +24888,8 @@ Source: CVE-2021-30761_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-416 | Use After Free | Primary | 0.90 | Variant | Primary CWE |
-| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary CWE |
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary CWE |
 
 ## CVE-2021-0943
 
@@ -25942,7 +25943,8 @@ Source: CVE-2021-27104_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
-| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Discouraged |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.60 | Class | Discouraged |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Discouraged |
 
 ## CVE-2021-30807
 
@@ -25950,8 +25952,8 @@ Source: CVE-2021-30807_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
-| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Discouraged |
 
 ## CVE-2022-0235
 
@@ -27866,7 +27868,7 @@ Source: CVE-2021-20021_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-306 | Missing Authentication for Critical Function | Primary | 0.80 | Base | Allowed |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Allowed |
 | CWE-269 | Improper Privilege Management | Secondary | 0.50 | Class | Discouraged |
 | CWE-863 | Incorrect Authorization | Secondary | 0.50 | Class | Allowed-with-Review |
 
@@ -29616,7 +29618,8 @@ Source: CVE-2021-22986_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Allowed |
+| CWE-287 | Improper Authentication | Primary | 0.90 | Base | Allowed |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Secondary | 0.70 | Base | Allowed |
 
 ## CVE-2021-41849
 
@@ -29699,6 +29702,7 @@ Source: CVE-2021-1647_analysis.md
 | CWE-807 | - | Primary | - | - | - |
 | CWE-131 | - | Primary | - | - | - |
 | CWE-22 | - | Primary | - | - | - |
+| CWE-88 | - | Primary | - | - | - |
 
 ## CVE-2021-42526
 
@@ -30755,7 +30759,6 @@ Source: CVE-2021-25296_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
-| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Secondary Candidate |
 
 ## CVE-2022-2295
 
@@ -31671,8 +31674,7 @@ Source: CVE-2021-30533_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-1021 | Improper Restriction of Rendered UI Layers or Frames | Primary | 0.80 | Base | Primary CWE |
-| CWE-451 | User Interface (UI) Misrepresentation of Critical Information | Primary | 0.50 | Class | Secondary CWE |
-| CWE-863 | Incorrect Authorization | Primary | 0.40 | Class | Secondary CWE |
+| CWE-451 | User Interface (UI) Misrepresentation of Critical Information | Primary | 0.50 | Class | Secondary Candidate |
 
 ## CVE-2022-25662
 
@@ -33231,8 +33233,8 @@ Source: CVE-2021-21224_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-843 | **Access of Resource Using Incompatible Type ('Type Confusion')** | Primary | 1.00 | Base | Allowed |
-| CWE-787 | Out-of-bounds Write | Secondary | 0.50 | Base | Allowed |
+| CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Primary | 1.00 | Base | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary CWE |
 
 ## CVE-2022-31884
 
@@ -33627,9 +33629,8 @@ Source: CVE-2021-3156_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-193 | Off-by-one Error | Primary | 0.90 | Base | Primary CWE |
-| CWE-122 | Heap-based Buffer Overflow | Primary | 0.80 | Variant | Secondary Candidate |
-| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-193 | Off-by-one Error | Primary | 1.00 | Base | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Secondary Candidate CWE |
 
 ## CVE-2022-35874
 
@@ -33883,7 +33884,7 @@ Source: CVE-2021-21973_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 1.00 | Base | Allowed |
-| CWE-20 | Improper Input Validation | Secondary | 0.75 | Class | Discouraged |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Discouraged |
 
 ## CVE-2021-43405
 
@@ -34491,7 +34492,9 @@ Source: CVE-2021-20023_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.90 | Base | Primary CWE. The vulnerability allows reading arbitrary files due to a path traversal issue. |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.80 | Base | Primary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.50 | Class | Secondary Candidate |
 
 ## CVE-2022-0530
 
@@ -34751,8 +34754,9 @@ Source: CVE-2021-26084_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-917 | Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection') | Primary | 1.00 | Base | Allowed |
-| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Secondary | 0.70 | Base | Allowed-with-Review |
+| CWE-917 | Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection') | Primary | 0.90 | Base | Primary CWE: This CWE directly addresses the **OGNL injection** vulnerability described. |
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.70 | Base | Secondary Candidate: The **OGNL injection** leads to arbitrary code execution, which aligns with the impact of this CWE. |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.60 | Class | Secondary Candidate: This is a more general injection class, the more specific CWE-917 is preferred. |
 
 ## CVE-2021-35134
 
@@ -36340,9 +36344,8 @@ Source: CVE-2021-44228_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-917 | Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection') | Primary | 0.90 | Base | Primary CWE |
-| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.60 | Base | Secondary Candidate |
-| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.50 | Class | Secondary Candidate |
+| CWE-917 | Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection') | Primary | 0.90 | Base | Allowed |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.60 | Class | Discouraged |
 
 ## CVE-2022-0572
 
@@ -38225,8 +38228,8 @@ Source: CVE-2021-1675_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Primary CWE |
-| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Discouraged |
 
 ## CVE-2022-4768
 
@@ -38288,6 +38291,7 @@ Source: CVE-2021-30858_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary Candidate |
 
 ## CVE-2022-33708
 
@@ -38479,8 +38483,8 @@ Source: CVE-2021-39793_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE. The vulnerability description explicitly states "out of bounds write" due to a logic error. |
-| CWE-682 | Incorrect Calculation | Primary | 0.70 | Class | Secondary CWE. The root cause is a logic error which would result in an incorrect calculation. |
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-682 | Incorrect Calculation | Primary | 0.70 | Class | Secondary Candidate |
 
 ## CVE-2021-41844
 
@@ -38598,9 +38602,8 @@ Source: CVE-2021-21166_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-366 | Race Condition within a Thread | Primary | 0.75 | Base | Primary CWE |
-| CWE-416 | Use After Free | Primary | 0.65 | Variant | Secondary Candidate |
-| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary Candidate |
+| CWE-416 | Use After Free | Primary | 0.80 | Variant | Primary CWE |
+| CWE-366 | Race Condition within a Thread | Primary | 0.70 | Base | Secondary Candidate |
 
 ## CVE-2022-2661
 
@@ -38977,7 +38980,7 @@ Source: CVE-2021-28663_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
-| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary Candidate |
 
 ## CVE-2022-1345
 
@@ -39265,8 +39268,8 @@ Source: CVE-2021-34486_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-269 | Improper Privilege Management | Primary | 0.70 | Base | Allowed |
-| CWE-360 | Trust of System Event Data | Secondary | 0.60 | Base | Allowed |
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.60 | Base | Allowed |
+| CWE-360 | Trust of System Event Data | Secondary | 0.40 | Base | Allowed |
 
 ## CVE-2021-46480
 
@@ -39593,9 +39596,7 @@ Source: CVE-2021-21206_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-416 | Use After Free | Primary | 1.00 | Variant | Allowed |
-| CWE-787 | Out-of-bounds Write | Secondary | 0.40 | Base | Allowed |
-| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.30 | Variant | Allowed |
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
 
 ## CVE-2022-0521
 
@@ -39731,7 +39732,9 @@ Source: CVE-2021-31755_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-121 | **Stack-based Buffer Overflow** | Primary | 0.90 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.50 | Base | Allowed |
 
 ## CVE-2022-24309
 
@@ -39903,8 +39906,8 @@ Source: CVE-2021-27561_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
-| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 0.80 | Base | Secondary CWE |
-| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary CWE |
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 0.70 | Base | Secondary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.60 | Base | Secondary CWE |
 
 ## CVE-2022-20799
 
@@ -40228,8 +40231,9 @@ Source: CVE-2021-3493_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-267 | Privilege Defined With Unsafe Actions | Primary | 0.80 | Base | Primary CWE |
-| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+| CWE-267 | Privilege Defined With Unsafe Actions | Primary | 0.85 | Base | Allowed |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Secondary | 0.75 | Base | Allowed |
+| CWE-274 | Improper Handling of Insufficient Privileges | Secondary | 0.70 | Base | Discouraged |
 
 ## CVE-2022-0808
 
@@ -40812,7 +40816,7 @@ Source: CVE-2021-30869_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Primary | 1.00 | Base | Primary CWE |
-| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary Candidate |
 
 ## CVE-2022-45942
 
@@ -40856,6 +40860,7 @@ Source: CVE-2021-25298_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Primary | 0.60 | Base | Secondary CWE |
 
 ## CVE-2021-0313
 
@@ -41570,8 +41575,8 @@ Source: CVE-2021-40870_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 1.00 | Base | Primary CWE |
-| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.80 | Base | Secondary Candidate |
-| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.80 | Base | Secondary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary CWE |
 
 ## CVE-2022-23055
 
@@ -42821,7 +42826,7 @@ Source: CVE-2021-37973_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Allowed |
 
 ## CVE-2022-31503
 
@@ -43136,9 +43141,8 @@ Source: CVE-2021-38003_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-787 | Out-of-bounds Write | Primary | 0.75 | Base | Allowed |
-| CWE-416 | Use After Free | Secondary | 0.50 | Variant | Allowed |
+| CWE-416 | Use After Free | Secondary | 0.60 | Variant | Allowed |
 | CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Secondary | 0.50 | Base | Allowed |
-| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.50 | Variant | Allowed |
 
 ## CVE-2022-33276
 
@@ -43555,8 +43559,8 @@ Source: CVE-2021-30665_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Primary CWE |
-| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
 
 ## CVE-2022-31568
 
@@ -44137,8 +44141,8 @@ Source: CVE-2021-42237_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-502 | Deserialization of Untrusted Data | Primary | 1.00 | Base | Allowed |
-| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.75 | Base | Allowed |
+| CWE-502 | Deserialization of Untrusted Data | Primary | 1.00 | Base | Primary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary CWE |
 
 ## CVE-2022-29893
 
@@ -44875,7 +44879,7 @@ Source: CVE-2021-22894_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 1.00 | Base | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.90 | Base | Primary CWE: The vulnerability description explicitly mentions a "buffer overflow" and the CWE description matches this. |
 
 ## CVE-2022-23156
 
@@ -44993,7 +44997,7 @@ Source: CVE-2021-34523_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-269 | Improper Privilege Management | Primary | 0.90 | Class | Allowed-with-Review |
-| CWE-287 | Improper Authentication | Secondary | 0.70 | Base | Allowed |
+| CWE-287 | Improper Authentication | Secondary | 0.80 | Base | Allowed |
 
 ## CVE-2022-41197
 
@@ -45306,7 +45310,7 @@ Source: CVE-2021-30663_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-190 | Integer Overflow or Wraparound | Primary | 1.00 | Base | Allowed |
-| CWE-787 | Out-of-bounds Write | Secondary | 0.60 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.70 | Base | Allowed |
 
 ## CVE-2022-48067
 
@@ -45364,7 +45368,6 @@ Source: CVE-2021-22941_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-284 | Improper Access Control | Primary | 0.75 | Pillar | Discouraged |
-| CWE-863 | Incorrect Authorization | Secondary | 0.60 | Class | Allowed-with-Review |
 
 ## CVE-2022-24521
 
@@ -49157,8 +49160,9 @@ Source: CVE-2021-30632_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
-| CWE-122 | Heap-based Buffer Overflow | Primary | 0.70 | Variant | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.60 | Variant | Allowed |
 
 ## CVE-2022-40443
 
@@ -49616,6 +49620,7 @@ Source: CVE-2021-27852_analysis.md
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
 | CWE-502 | Deserialization of Untrusted Data | Primary | 1.00 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Discouraged |
 
 ## CVE-2022-36864
 
@@ -49669,10 +49674,9 @@ Source: CVE-2021-37415_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Primary CWE |
-| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 0.70 | Base | Secondary Candidate |
-| CWE-425 | Direct Request ('Forced Browsing') | Primary | 0.60 | Base | Secondary Candidate |
-| CWE-287 | Improper Authentication | Secondary | 0.40 | Class | Secondary Candidate |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Allowed |
+| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Secondary | 0.70 | Base | Allowed |
+| CWE-425 | Direct Request ('Forced Browsing') | Secondary | 0.60 | Base | Allowed |
 
 ## CVE-2022-2604
 
@@ -50467,7 +50471,7 @@ Source: CVE-2021-34448_analysis.md
 
 | CWE ID | Name | Classification | Confidence | Abstraction | Notes |
 |--------|------|---------------|------------|-------------|-------|
-| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE Match |
 
 ## CVE-2022-1270
 
@@ -50740,4 +50744,13038 @@ Source: CVE-2022-42461_analysis.md
 | CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.60 | Base | Matches the scenario where a user can manipulate a key to access another user's data but less applicable since it is an unprivileged user gaining more privileges. |
 | CWE-863 | Incorrect Authorization | Primary | 0.80 | Class | The plugin performs an authorization check, but it is performed incorrectly. |
 | CWE-306 | Missing Authentication for Critical Function | Primary | 0.50 | Base | Not applicable since the weakness is **broken access control** and not **missing authentication**. |
+
+## CVE-2022-34338
+
+Source: CVE-2022-34338_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.80 | Class | Discouraged |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2021-0978
+
+Source: CVE-2021-0978_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-203 | Observable Discrepancy | Primary | 0.90 | Base | Allowed |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-3881
+
+Source: CVE-2022-3881_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.90 | Compound | Allowed |
+| CWE-862 | Missing Authorization | Secondary | 0.90 | Class | Allowed-with-Review |
+
+## CVE-2022-41024
+
+Source: CVE-2022-41024_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-43695
+
+Source: CVE-2022-43695_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-25914
+
+Source: CVE-2021-25914_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1321 | Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-23488
+
+Source: CVE-2022-23488_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Primary | 0.90 | Base | Primary CWE |
+| CWE-863 | Incorrect Authorization | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-3482
+
+Source: CVE-2022-3482_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.60 | Base | Allowed |
+| CWE-285 | Improper Authorization | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-31509
+
+Source: CVE-2022-31509_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Primary CWE |
+| CWE-36 | Absolute Path Traversal | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-3605
+
+Source: CVE-2021-3605_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 1.00 | Base | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-34659
+
+Source: CVE-2022-34659_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-29908
+
+Source: CVE-2022-29908_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-295 | Improper Certificate Validation | Primary | 0.90 | Base | Primary CWE |
+| CWE-250 | Execution with Unnecessary Privileges | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-24778
+
+Source: CVE-2022-24778_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Discouraged |
+
+## CVE-2021-44364
+
+Source: CVE-2021-44364_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 1.00 | Class | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.60 | Class | Secondary |
+
+## CVE-2022-20053
+
+Source: CVE-2022-20053_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-269 | Improper Privilege Management | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-22648
+
+Source: CVE-2021-22648_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-35468
+
+Source: CVE-2022-35468_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
+
+## CVE-2022-26477
+
+Source: CVE-2022-26477_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-834 | Excessive Iteration | Primary | 0.90 | Class | Allowed |
+| CWE-606 | Unchecked Input for Loop Condition | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-23095
+
+Source: CVE-2022-23095_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Allowed |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-3276
+
+Source: CVE-2022-3276_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-20796
+
+Source: CVE-2022-20796_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-476 | NULL Pointer Dereference | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-20826
+
+Source: CVE-2021-20826_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-523 | Unprotected Transport of Credentials | Primary | 1.00 | Base | Primary CWE |
+| CWE-319 | Cleartext Transmission of Sensitive Information | Primary | 0.75 | Base | Secondary Candidate |
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.65 | Class | Secondary Candidate |
+
+## CVE-2022-0671
+
+Source: CVE-2022-0671_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.75 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-611 | Improper Restriction of XML External Entity Reference | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-34160
+
+Source: CVE-2022-34160_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-80 | Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) | Primary | 0.70 | Variant | Secondary Candidate |
+| CWE-116 | Improper Encoding or Escaping of Output | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-30883
+
+Source: CVE-2021-30883_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-32328
+
+Source: CVE-2022-32328_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-73 | External Control of File Name or Path | Primary | 1.00 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.80 | Base | Secondary CWE |
+
+## CVE-2021-1594
+
+Source: CVE-2021-1594_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary CWE |
+
+## CVE-2022-40816
+
+Source: CVE-2022-40816_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-359 | Exposure of Private Personal Information to an Unauthorized Actor | Primary | 0.75 | Base | Secondary Candidate |
+
+## CVE-2022-35896
+
+Source: CVE-2022-35896_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Primary | 0.90 | Base | Primary CWE |
+| CWE-316 | Cleartext Storage of Sensitive Information in Memory | Primary | 0.60 | Variant | Secondary Candidate |
+| CWE-822 | Untrusted Pointer Dereference | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2021-40649
+
+Source: CVE-2021-40649_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1004 | Sensitive Cookie Without 'HttpOnly' Flag | Primary | 1.00 | Variant | Primary CWE. Matches the vulnerability description perfectly. |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.70 | Base | Secondary CWE. The CVE Reference Links Content Summary indicates that XSS is an attack vector. |
+
+## CVE-2022-29244
+
+Source: CVE-2022-29244_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.70 | Class | Discouraged |
+| CWE-184 | Incomplete List of Disallowed Inputs | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-37020
+
+Source: CVE-2021-37020_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-22005
+
+Source: CVE-2021-22005_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 1.00 | Base | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-39111
+
+Source: CVE-2022-39111_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-23433
+
+Source: CVE-2022-23433_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.75 | Pillar | Discouraged |
+| CWE-926 | Improper Export of Android Application Components | Secondary | 0.60 | Variant | Allowed |
+
+## CVE-2022-22899
+
+Source: CVE-2022-22899_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.70 | Class | Primary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.60 | Base | Secondary CWE |
+
+## CVE-2022-39366
+
+Source: CVE-2022-39366_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-347 | Improper Verification of Cryptographic Signature | Primary | 1.00 | Base | Primary CWE |
+| CWE-287 | Improper Authentication | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-36150
+
+Source: CVE-2022-36150_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-43567
+
+Source: CVE-2022-43567_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-502 | Deserialization of Untrusted Data | Primary | 1.00 | Base | Primary CWE |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2021-20087
+
+Source: CVE-2021-20087_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1321 | Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-29642
+
+Source: CVE-2022-29642_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-44850
+
+Source: CVE-2021-44850_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-120 | **Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')** | Primary | 0.80 | Base | Allowed-with-Review |
+| CWE-190 | Integer Overflow or Wraparound | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-41211
+
+Source: CVE-2022-41211_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.60 | Variant | Secondary Candidate |
+
+## CVE-2022-35289
+
+Source: CVE-2022-35289_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-190 | Integer Overflow or Wraparound | Primary | 1.00 | Base | Allowed |
+| CWE-123 | Write-what-where Condition | Secondary | 0.90 | Base | Allowed |
+
+## CVE-2022-20522
+
+Source: CVE-2022-20522_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-23681
+
+Source: CVE-2022-23681_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-32655
+
+Source: CVE-2022-32655_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-754 | Improper Check for Unusual or Exceptional Conditions | Primary | 0.75 | Class | Allowed-with-Review |
+| CWE-20 | Improper Input Validation | Secondary | 0.65 | Base | Allowed |
+
+## CVE-2022-36836
+
+Source: CVE-2022-36836_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Primary CWE |
+
+## CVE-2022-34300
+
+Source: CVE-2022-34300_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 1.00 | Variant | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.80 | Variant | Secondary Candidate |
+| CWE-125 | Out-of-bounds Read | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-44928
+
+Source: CVE-2022-44928_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.80 | Class | Secondary Candidate |
+
+## CVE-2022-24562
+
+Source: CVE-2022-24562_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Allowed |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-2382
+
+Source: CVE-2022-2382_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.90 | Compound | Primary CWE |
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Secondary Candidate |
+
+## CVE-2022-26837
+
+Source: CVE-2022-26837_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-1256 | Improper Restriction of Software Interfaces to Hardware Features | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-22072
+
+Source: CVE-2022-22072_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.90 | Base | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-30666
+
+Source: CVE-2021-30666_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE. The vulnerability description specifically mentions a **buffer overflow** which leads to writing data past the end or before the beginning of the intended buffer. |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary candidate. CWE-119 is a more general category that encompasses out-of-bounds read and write issues. While technically applicable, it is less specific than CWE-787. |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.60 | Base | Secondary candidate. The description mentions a **buffer overflow** due to processing maliciously crafted web content. This CWE applies when a buffer is copied without checking the size of the input, which can lead to an overflow. |
+
+## CVE-2022-0489
+
+Source: CVE-2022-0489_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-1333 | Inefficient Regular Expression Complexity | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-37108
+
+Source: CVE-2022-37108_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-32506
+
+Source: CVE-2021-32506_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.90 | Base | Primary CWE |
+| CWE-36 | Absolute Path Traversal | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-30607
+
+Source: CVE-2022-30607_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.80 | Class | Discouraged |
+| CWE-522 | Insufficiently Protected Credentials | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2021-32435
+
+Source: CVE-2021-32435_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-40276
+
+Source: CVE-2022-40276_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-668 | Exposure of Resource to Wrong Sphere | Primary | 0.75 | Class | Allowed-with-Review |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-3212
+
+Source: CVE-2022-3212_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Primary CWE |
+| CWE-789 | Memory Allocation with Excessive Size Value | Primary | 0.80 | Variant | Secondary CWE |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-0107
+
+Source: CVE-2022-0107_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.50 | Variant | Secondary Candidate |
+
+## CVE-2022-20143
+
+Source: CVE-2022-20143_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-45908
+
+Source: CVE-2021-45908_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-20586
+
+Source: CVE-2022-20586_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Allowed |
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-21793
+
+Source: CVE-2022-21793_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-691 | Insufficient Control Flow Management | Primary | 0.90 | Pillar | Discouraged |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2021-0416
+
+Source: CVE-2021-0416_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-3575
+
+Source: CVE-2021-3575_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.70 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-1907
+
+Source: CVE-2022-1907_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 1.00 | Base | Primary CWE |
+| CWE-126 | Buffer Over-read | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2021-41583
+
+Source: CVE-2021-41583_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.90 | Base | Allowed |
+| CWE-88 | Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') | Secondary | 0.80 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-3716
+
+Source: CVE-2022-3716_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-36756
+
+Source: CVE-2022-36756_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-35132
+
+Source: CVE-2021-35132_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-29496
+
+Source: CVE-2022-29496_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.90 | Variant | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-32045
+
+Source: CVE-2022-32045_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-21952
+
+Source: CVE-2022-21952_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Allowed |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-22344
+
+Source: CVE-2022-22344_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-113 | Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting') | Primary | 0.90 | Variant | Primary CWE |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.60 | Compound | Secondary Candidate |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-40785
+
+Source: CVE-2022-40785_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2022-21141
+
+Source: CVE-2022-21141_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-285 | Improper Authorization | Secondary | 0.70 | Class | Discouraged |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Discouraged |
+
+## CVE-2022-39113
+
+Source: CVE-2022-39113_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-28960
+
+Source: CVE-2022-28960_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.90 | Base | Primary CWE |
+| CWE-473 | PHP External Variable Modification | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2021-0109
+
+Source: CVE-2021-0109_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-277 | Insecure Inherited Permissions | Primary | 1.00 | Variant | Primary CWE |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-0977
+
+Source: CVE-2022-0977_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-34259
+
+Source: CVE-2022-34259_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-285 | Improper Authorization | Secondary | 0.70 | Class | Discouraged |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Discouraged |
+
+## CVE-2022-25335
+
+Source: CVE-2022-25335_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-283 | Unverified Ownership | Primary | 0.80 | Base | Primary CWE |
+| CWE-863 | Incorrect Authorization | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-29193
+
+Source: CVE-2022-29193_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-1016
+
+Source: CVE-2022-1016_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-909 | Missing Initialization of Resource | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-40263
+
+Source: CVE-2022-40263_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-798 | Use of Hard-coded Credentials | Primary | 1.00 | Base | Primary CWE |
+| CWE-259 | Use of Hard-coded Password | Primary | 0.75 | Variant | Secondary Candidate |
+| CWE-321 | Use of Hard-coded Cryptographic Key | Primary | 0.50 | Variant | Secondary Candidate |
+
+## CVE-2022-24190
+
+Source: CVE-2022-24190_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.75 | Pillar | Discouraged |
+
+## CVE-2022-29477
+
+Source: CVE-2022-29477_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-798 | Use of Hard-coded Credentials | Primary | 1.00 | Base | Primary CWE |
+| CWE-259 | Use of Hard-coded Password | Primary | 0.80 | Variant | Secondary Candidate |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-29465
+
+Source: CVE-2022-29465_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-131 | Incorrect Calculation of Buffer Size | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-24919
+
+Source: CVE-2022-24919_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.50 | Compound | Secondary CWE |
+
+## CVE-2022-33012
+
+Source: CVE-2022-33012_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Primary | 0.70 | Class | Allowed-with-Review |
+| CWE-290 | Authentication Bypass by Spoofing | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-32630
+
+Source: CVE-2022-32630_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-131 | Incorrect Calculation of Buffer Size | Secondary | 0.90 | Base | Allowed |
+
+## CVE-2022-40316
+
+Source: CVE-2022-40316_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-28580
+
+Source: CVE-2022-28580_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-20590
+
+Source: CVE-2022-20590_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 1.00 | Class | Discouraged |
+
+## CVE-2021-23993
+
+Source: CVE-2021-23993_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-347 | Improper Verification of Cryptographic Signature | Primary | 0.90 | Base | Allowed |
+| CWE-295 | Improper Certificate Validation | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-34387
+
+Source: CVE-2022-34387_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.70 | Class | Primary CWE. The vulnerability is a privilege escalation, indicating a problem with how privileges are managed. |
+| CWE-863 | Incorrect Authorization | Primary | 0.50 | Class | Secondary CWE. The vulnerability leads to privilege escalation, which indicates that authorization checks are not correctly implemented. |
+| CWE-284 | Improper Access Control | Secondary | 0.30 | Pillar | Secondary CWE. The vulnerability is a privilege escalation which is a form of access control issue. |
+
+## CVE-2022-3174
+
+Source: CVE-2022-3174_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-614 | Sensitive Cookie in HTTPS Session Without 'Secure' Attribute | Primary | 1.00 | Variant | Primary CWE |
+| CWE-319 | Cleartext Transmission of Sensitive Information | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-42418
+
+Source: CVE-2022-42418_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 0.90 | Variant | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.70 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.40 | Class | Discouraged |
+
+## CVE-2022-20054
+
+Source: CVE-2022-20054_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Secondary Candidate |
+
+## CVE-2022-33747
+
+Source: CVE-2022-33747_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Primary CWE |
+| CWE-789 | Memory Allocation with Excessive Size Value | Primary | 0.70 | Variant | Secondary Candidate |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-28993
+
+Source: CVE-2022-28993_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.75 | Base | Primary CWE |
+| CWE-472 | External Control of Assumed-Immutable Web Parameter | Primary | 0.60 | Base | Secondary CWE |
+| CWE-425 | Direct Request ('Forced Browsing') | Primary | 0.50 | Base | Secondary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.50 | Base | Secondary CWE |
+
+## CVE-2022-22535
+
+Source: CVE-2022-22535_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2022-1045
+
+Source: CVE-2022-1045_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2021-45938
+
+Source: CVE-2021-45938_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-21814
+
+Source: CVE-2022-21814_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 1.00 | Base | Primary CWE |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-28186
+
+Source: CVE-2022-28186_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged: Consider lower-level children. |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-31019
+
+Source: CVE-2022-31019_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.90 | Variant | Primary CWE |
+| CWE-674 | Uncontrolled Recursion | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-40757
+
+Source: CVE-2022-40757_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-805 | Buffer Access with Incorrect Length Value | Primary | 1.00 | Base | Primary CWE |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.90 | Base | Secondary Candidate |
+
+## CVE-2022-33876
+
+Source: CVE-2022-33876_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.90 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-28708
+
+Source: CVE-2022-28708_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.80 | Class | The primary weakness is the uncontrolled consumption of resources leading to termination of the TMM process. |
+
+## CVE-2022-21944
+
+Source: CVE-2022-21944_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-61 | UNIX Symbolic Link (Symlink) Following | Primary | 1.00 | Compound | Primary CWE |
+| CWE-59 | Improper Link Resolution Before File Access ('Link Following') | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-1139
+
+Source: CVE-2022-1139_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-346 | Origin Validation Error | Primary | 0.60 | Class | Secondary Candidate |
+| CWE-204 | Observable Response Discrepancy | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-21126
+
+Source: CVE-2022-21126_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-379 | Creation of Temporary File in Directory with Insecure Permissions | Primary | 1.00 | Base | Primary CWE |
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-25825
+
+Source: CVE-2022-25825_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.75 | Pillar | Discouraged |
+| CWE-863 | Incorrect Authorization | Secondary | 0.60 | Class | Allowed-with-Review |
+| CWE-285 | Improper Authorization | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2021-38399
+
+Source: CVE-2021-38399_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Primary CWE |
+| CWE-23 | Relative Path Traversal | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-0158
+
+Source: CVE-2021-0158_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged, but selected due to the explicit mention of "**Improper input validation**" as the root cause and the high count of CWE-20 in similar CVE descriptions. |
+| CWE-1256 | Improper Restriction of Software Interfaces to Hardware Features | Secondary | 0.60 | Base | Allowed. Considered because the vulnerability occurs in the BIOS firmware for Intel processors, potentially related to controlling hardware features. |
+
+## CVE-2022-28269
+
+Source: CVE-2022-28269_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-401 | Missing Release of Memory after Effective Lifetime | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2022-35235
+
+Source: CVE-2022-35235_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.90 | Base | Allowed |
+
+## CVE-2021-30347
+
+Source: CVE-2021-30347_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 0.80 | Base | Primary CWE |
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-754 | Improper Check for Unusual or Exceptional Conditions | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-45025
+
+Source: CVE-2021-45025_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-315 | Cleartext Storage of Sensitive Information in a Cookie | Primary | 1.00 | Variant | Primary CWE |
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-311 | Missing Encryption of Sensitive Data | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-44370
+
+Source: CVE-2021-44370_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1287 | Improper Validation of Specified Type of Input | Primary | 0.90 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-30586
+
+Source: CVE-2022-30586_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.90 | Base | Allowed |
+| CWE-214 | Invocation of Process Using Visible Sensitive Information | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-42820
+
+Source: CVE-2022-42820_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.80 | Base | Primary CWE |
+| CWE-415 | Double Free | Primary | 0.50 | Variant | Secondary Candidate |
+| CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-27176
+
+Source: CVE-2022-27176_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-791 | Incomplete Filtering of Special Elements | Primary | 0.90 | Base | Allowed |
+| CWE-1236 | Improper Neutralization of Formula Elements in a CSV File | Secondary | 0.70 | Base | Allowed |
+| CWE-792 | Incomplete Filtering of One or More Instances of Special Elements | Secondary | 0.60 | Variant | Allowed |
+
+## CVE-2022-27216
+
+Source: CVE-2022-27216_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-256 | Plaintext Storage of a Password | Primary | 1.00 | Base | Allowed |
+| CWE-260 | Password in Configuration File | Secondary | 0.90 | Base | Allowed |
+| CWE-312 | Cleartext Storage of Sensitive Information | Secondary | 0.80 | Base | Allowed |
+| CWE-522 | Insufficiently Protected Credentials | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-22724
+
+Source: CVE-2022-22724_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.70 | Class | Discouraged |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-27199
+
+Source: CVE-2022-27199_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-522 | Insufficiently Protected Credentials | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-1983
+
+Source: CVE-2022-1983_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Primary CWE |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Secondary Candidate |
+
+## CVE-2022-37083
+
+Source: CVE-2022-37083_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-45606
+
+Source: CVE-2021-45606_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-0488
+
+Source: CVE-2022-0488_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 0.75 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-4228
+
+Source: CVE-2022-4228_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Information Exposure | Primary | 0.60 | Class | Allowed-with-Review |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.30 | Base | Allowed |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Secondary | 0.20 | Base | Allowed |
+
+## CVE-2022-2859
+
+Source: CVE-2022-2859_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-29085
+
+Source: CVE-2022-29085_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-256 | Plaintext Storage of a Password | Primary | 1.00 | Base | Primary CWE |
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-45573
+
+Source: CVE-2021-45573_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.90 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-26143
+
+Source: CVE-2022-26143_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Allowed |
+| CWE-284 | Improper Access Control | Secondary | 0.75 | Pillar | Discouraged |
+
+## CVE-2021-27103
+
+Source: CVE-2021-27103_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-39055
+
+Source: CVE-2022-39055_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-1967
+
+Source: CVE-2022-1967_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Primary CWE |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Secondary CWE |
+
+## CVE-2022-42344
+
+Source: CVE-2022-42344_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-41833
+
+Source: CVE-2022-41833_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.80 | Class | Allowed-with-Review |
+
+## CVE-2021-0051
+
+Source: CVE-2021-0051_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2021-28310
+
+Source: CVE-2021-28310_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Allowed |
+| CWE-266 | Incorrect Privilege Assignment | Secondary | 0.40 | Base | Allowed |
+
+## CVE-2021-31876
+
+Source: CVE-2021-31876_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-38450
+
+Source: CVE-2021-38450_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 1.00 | Base | Allowed-with-Review |
+| CWE-138 | Improper Neutralization of Special Elements | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-3083
+
+Source: CVE-2022-3083_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-784 | Reliance on Cookies without Validation and Integrity Checking in a Security Decision | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-2533
+
+Source: CVE-2022-2533_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-285 | Improper Authorization | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-1390 | Weak Authentication | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2021-26085
+
+Source: CVE-2021-26085_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-552 | Files or Directories Accessible to External Parties | Primary | 0.90 | Base | Primary CWE |
+| CWE-284 | Improper Access Control | Secondary | 0.70 | Pillar | Secondary Candidate |
+
+## CVE-2022-0210
+
+Source: CVE-2022-0210_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-116 | Improper Encoding or Escaping of Output | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-20305
+
+Source: CVE-2022-20305_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-3337
+
+Source: CVE-2022-3337_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Primary CWE: The product does not perform an authorization check when an actor attempts to access a resource or perform an action. |
+| CWE-472 | External Control of Assumed-Immutable Web Parameter | Primary | 0.70 | Base | Secondary CWE: The web application does not sufficiently verify inputs that are assumed to be immutable but are actually externally controllable. |
+
+## CVE-2022-46879
+
+Source: CVE-2022-46879_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Primary CWE |
+| CWE-416 | Use After Free | Primary | 0.70 | Variant | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-34663
+
+Source: CVE-2022-34663_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-36539
+
+Source: CVE-2021-36539_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.90 | Base | Allowed |
+| CWE-552 | Files or Directories Accessible to External Parties | Secondary | 0.70 | Base | Allowed |
+| CWE-184 | Incomplete List of Disallowed Inputs | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-41228
+
+Source: CVE-2022-41228_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-522 | Insufficiently Protected Credentials | Secondary | 0.50 | Class | Allowed-with-Review |
+
+## CVE-2022-2303
+
+Source: CVE-2022-2303_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1390 | Weak Authentication | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.70 | Base | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2021-42889
+
+Source: CVE-2021-42889_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Allowed |
+
+## CVE-2022-24768
+
+Source: CVE-2022-24768_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 1.00 | Class | Primary CWE: The **improper access control bug** in Argo CD leads to potential privilege escalation, which aligns with the definition of CWE-863. |
+| CWE-269 | Improper Privilege Management | Secondary | 0.60 | Class | Secondary Candidate: While privilege escalation is mentioned, it's the result of **improper access control**, making CWE-269 less direct. |
+| CWE-1220 | Insufficient Granularity of Access Control | Primary | 0.50 | Base | Secondary Candidate: The vulnerability stems from insufficient enforcement of project restrictions, which could be seen as a lack of granularity in access control. |
+
+## CVE-2022-1572
+
+Source: CVE-2022-1572_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.90 | Compound | Allowed |
+| CWE-862 | Missing Authorization | Secondary | 0.90 | Class | Allowed-with-Review |
+
+## CVE-2022-1406
+
+Source: CVE-2022-1406_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-285 | Improper Authorization | Primary | 0.90 | Class | Primary CWE |
+| CWE-863 | Incorrect Authorization | Primary | 0.80 | Class | Secondary Candidate |
+| CWE-1286 | Improper Validation of Syntactic Correctness of Input | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-36482
+
+Source: CVE-2022-36482_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Secondary | 0.50 | Class | Allowed-with-Review |
+
+## CVE-2022-39283
+
+Source: CVE-2022-39283_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-457 | Use of Uninitialized Variable | Primary | 0.90 | Variant | Primary CWE |
+| CWE-908 | Use of Uninitialized Resource | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-125 | Out-of-bounds Read | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-36617
+
+Source: CVE-2022-36617_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-257 | Storing Passwords in a Recoverable Format | Primary | 1.00 | Base | Allowed |
+| CWE-312 | Cleartext Storage of Sensitive Information | Secondary | 0.80 | Base | Allowed |
+| CWE-522 | Insufficiently Protected Credentials | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-32031
+
+Source: CVE-2022-32031_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.90 | Variant | Primary CWE |
+| CWE-190 | Integer Overflow or Wraparound | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-26095
+
+Source: CVE-2022-26095_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Primary CWE |
+| CWE-476 | NULL Pointer Dereference | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-26006
+
+Source: CVE-2022-26006_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-1412
+
+Source: CVE-2022-1412_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-552 | Files or Directories Accessible to External Parties | Primary | 0.90 | Base | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-1484
+
+Source: CVE-2022-1484_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-46421
+
+Source: CVE-2022-46421_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Secondary | 0.70 | Class | Allowed-with-Review, Use CWE-78 instead if OS command injection is confirmed. |
+
+## CVE-2022-40997
+
+Source: CVE-2022-40997_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.75 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-3730
+
+Source: CVE-2022-3730_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-45193
+
+Source: CVE-2022-45193_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.90 | Class | Primary CWE |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-4177
+
+Source: CVE-2022-4177_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary Candidate |
+| CWE-123 | Write-what-where Condition | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-45095
+
+Source: CVE-2022-45095_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-42266
+
+Source: CVE-2022-42266_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.90 | Class | Discouraged |
+| CWE-782 | Exposed IOCTL with Insufficient Access Control | Secondary | 0.70 | Variant | Allowed |
+
+## CVE-2021-20148
+
+Source: CVE-2021-20148_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-552 | Files or Directories Accessible to External Parties | Primary | 0.90 | Base | Primary CWE |
+| CWE-425 | Direct Request ('Forced Browsing') | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-4708
+
+Source: CVE-2022-4708_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Secondary | 0.80 | Compound | Allowed |
+
+## CVE-2022-22730
+
+Source: CVE-2022-22730_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 0.80 | Class | Discouraged |
+| CWE-269 | Improper Privilege Management | Secondary | 0.60 | Class | Discouraged |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Discouraged |
+
+## CVE-2021-22205
+
+Source: CVE-2021-22205_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1286 | Improper Validation of Syntactic Correctness of Input | Primary | 0.80 | Base | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.50 | Base | Secondary CWE |
+
+## CVE-2021-25916
+
+Source: CVE-2021-25916_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1321 | Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-46303
+
+Source: CVE-2022-46303_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-46157
+
+Source: CVE-2022-46157_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 1.00 | Base | Primary CWE. |
+| CWE-494 | Download of Code Without Integrity Check | Primary | 0.50 | Base | Secondary CWE. |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.40 | Base | Secondary CWE. |
+
+## CVE-2021-30762
+
+Source: CVE-2021-30762_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2021-41114
+
+Source: CVE-2021-41114_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Secondary | 0.70 | Base | Allowed |
+| CWE-1390 | Weak Authentication | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-36874
+
+Source: CVE-2022-36874_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 1.00 | Base | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-34102
+
+Source: CVE-2022-34102_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Discouraged |
+
+## CVE-2021-26857
+
+Source: CVE-2021-26857_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.75 | Class | Primary CWE |
+
+## CVE-2022-35558
+
+Source: CVE-2022-35558_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-34376
+
+Source: CVE-2022-34376_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | CWE-20: Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-1285 | CWE-1285: Improper Validation of Specified Index, Position, or Offset in Input | Secondary | 0.70 | Base | Allowed |
+| CWE-787 | CWE-787: Out-of-bounds Write | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-4428
+
+Source: CVE-2022-4428_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-250 | Execution with Unnecessary Privileges | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-0159
+
+Source: CVE-2021-0159_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | **Improper Input Validation** | Primary | 0.75 | Class | Discouraged: CWE-20 is commonly misused in low-information vulnerability reports when lower-level CWEs could be used instead, or when more details about the vulnerability are available. |
+| CWE-1289 | Improper Validation of Unsafe Equivalence in Input | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-32053
+
+Source: CVE-2022-32053_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Primary | 0.75 | Class | Secondary CWE |
+| CWE-20 | Improper Input Validation | Primary | 0.75 | Class | Secondary CWE |
+
+## CVE-2021-4120
+
+Source: CVE-2021-4120_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged - but applicable as root cause is **fails to perform sufficient validation** |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Secondary | 0.70 | Base | Allowed - AppArmor policy rules injection |
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Secondary | 0.60 | Base | Allowed-with-Review - arbitrary AppArmor policy rules injection |
+
+## CVE-2022-0815
+
+Source: CVE-2022-0815_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.80 | Pillar | Primary CWE. The vulnerability description explicitly states "**Improper access control**". |
+| CWE-863 | Incorrect Authorization | Primary | 0.70 | Class | Secondary Candidate. A more specific child of CWE-284. The vulnerability allows a remote attacker to gain access to McAfee WebAdvisor settings, indicating an authorization issue. |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.60 | Class | Secondary Candidate. The vulnerability could lead to fingerprinting of the system, which is exposure of sensitive information. However, it's more of an impact than the root cause. |
+
+## CVE-2021-42216
+
+Source: CVE-2021-42216_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-1240 | Use of a Cryptographic Primitive with a Risky Implementation | Secondary | 0.70 | Base | Allowed |
+| CWE-328 | Use of Weak Hash | Secondary | 0.60 | Base | Allowed |
+| CWE-338 | Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG) | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-38682
+
+Source: CVE-2022-38682_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2021-41418
+
+Source: CVE-2021-41418_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Primary CWE |
+| CWE-862 | Missing Authorization | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-22704
+
+Source: CVE-2022-22704_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-250 | Execution with Unnecessary Privileges | Primary | 0.90 | Base | Primary CWE |
+| CWE-269 | Improper Privilege Management | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-3844
+
+Source: CVE-2022-3844_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.80 | Base | Secondary CWE |
+
+## CVE-2021-44406
+
+Source: CVE-2021-44406_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 1.00 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-29089
+
+Source: CVE-2022-29089_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.80 | Class | Discouraged due to being high-level, but applicable as a starting point. |
+| CWE-912 | Hidden Functionality | Secondary | 0.60 | Class | Allowed-with-Review, represents the potential for undocumented or unintended functionality that could be exploited. |
+| CWE-522 | Insufficiently Protected Credentials | Secondary | 0.50 | Class | Allowed-with-Review, represents the potential for credentials to be exposed through reverse engineering. |
+
+## CVE-2021-31001
+
+Source: CVE-2021-31001_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.90 | Pillar | Discouraged |
+| CWE-862 | Missing Authorization | Secondary | 0.70 | Base | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-34045
+
+Source: CVE-2022-34045_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-321 | Use of Hard-coded Cryptographic Key | Primary | 1.00 | Variant | Primary CWE |
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-4304
+
+Source: CVE-2022-4304_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-208 | Observable Timing Discrepancy | Primary | 0.90 | Base | Primary CWE. The vulnerability is due to variations in the time it takes to perform the RSA decryption operation, which can be measured by an attacker to extract information about the secret data being decrypted. |
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 0.60 | Class | Secondary CWE. RSA decryption is susceptible to timing analysis |
+
+## CVE-2021-28112
+
+Source: CVE-2021-28112_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-489 | Active Debug Code | Primary | 1.00 | Base | Allowed |
+| CWE-798 | Use of Hard-coded Credentials | Secondary | 0.90 | Base | Allowed |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-45141
+
+Source: CVE-2022-45141_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-328 | Use of Weak Hash | Primary | 0.90 | Base | Allowed |
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-42903
+
+Source: CVE-2022-42903_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Base | Allowed |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2021-39190
+
+Source: CVE-2021-39190_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-552 | Files or Directories Accessible to External Parties | Secondary | 0.80 | Base | Allowed |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-1354
+
+Source: CVE-2022-1354_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-2778
+
+Source: CVE-2022-2778_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-307 | Improper Restriction of Excessive Authentication Attempts | Primary | 0.90 | Base | Allowed |
+| CWE-158 | Improper Neutralization of Null Byte or NUL Character | Secondary | 0.70 | Variant | Allowed |
+| CWE-799 | Improper Control of Interaction Frequency | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2021-32591
+
+Source: CVE-2021-32591_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-325 | Missing Cryptographic Step | Primary | 1.00 | Base | Allowed |
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Secondary | 0.50 | Class | Allowed-with-Review |
+| CWE-916 | Use of Password Hash With Insufficient Computational Effort | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-0604
+
+Source: CVE-2022-0604_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-4595
+
+Source: CVE-2022-4595_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-20301
+
+Source: CVE-2022-20301_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-200 | Information Exposure | Secondary | 0.40 | Class | Discouraged |
+
+## CVE-2021-22968
+
+Source: CVE-2021-22968_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.90 | Base | Primary CWE |
+| CWE-863 | Incorrect Authorization | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-40161
+
+Source: CVE-2021-40161_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Primary CWE |
+
+## CVE-2022-31696
+
+Source: CVE-2022-31696_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Primary CWE |
+| CWE-416 | Use After Free | Primary | 0.50 | Variant | Secondary Candidate |
+| CWE-125 | Out-of-bounds Read | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-4098
+
+Source: CVE-2022-4098_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-291 | Reliance on IP Address for Authentication | Primary | 0.90 | Variant | Primary CWE |
+| CWE-290 | Authentication Bypass by Spoofing | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-44040
+
+Source: CVE-2021-44040_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-444 | Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-37415
+
+Source: CVE-2022-37415_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-29832
+
+Source: CVE-2022-29832_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-316 | Cleartext Storage of Sensitive Information in Memory | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-3635
+
+Source: CVE-2022-3635_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | Primary | 0.80 | Class | Secondary Candidate |
+
+## CVE-2022-4124
+
+Source: CVE-2022-4124_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.90 | Compound | Primary CWE |
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Secondary Candidate |
+
+## CVE-2022-45326
+
+Source: CVE-2022-45326_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-611 | Improper Restriction of XML External Entity Reference | Primary | 1.00 | Base | Primary CWE |
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 0.80 | Base | Secondary CWE |
+
+## CVE-2022-3388
+
+Source: CVE-2022-3388_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Unknown | 0.70 | Class | The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly. |
+| CWE-269 | Improper Privilege Management | Unknown | 0.60 | Class | The product does not properly assign, modify, track, or check privileges for an actor, creating an unintended sphere of control for that actor. |
+
+## CVE-2022-34397
+
+Source: CVE-2022-34397_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.70 | Pillar | Discouraged |
+
+## CVE-2022-36404
+
+Source: CVE-2022-36404_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.90 | Compound | Allowed |
+| CWE-862 | Missing Authorization | Secondary | 0.90 | Class | Allowed-with-Review |
+
+## CVE-2022-28713
+
+Source: CVE-2022-28713_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 1.00 | Class | Discouraged |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.75 | Base | Allowed |
+
+## CVE-2022-27551
+
+Source: CVE-2022-27551_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | **Incorrect Authorization** | Primary | 0.70 | Class | Allowed-with-Review |
+| CWE-285 | Improper Authorization | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-43945
+
+Source: CVE-2022-43945_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.90 | Base | Primary CWE |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-789 | Memory Allocation with Excessive Size Value | Primary | 0.60 | Variant | Secondary Candidate |
+
+## CVE-2022-40999
+
+Source: CVE-2022-40999_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-39190
+
+Source: CVE-2022-39190_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-675 | Multiple Operations on Resource in Single-Operation Context | Primary | 0.75 | Class | Primary CWE. The vulnerability occurs because of binding to an already bound chain. |
+| CWE-404 | Improper Resource Shutdown or Release | Primary | 0.60 | Class | Secondary candidate. A resource isn't properly released. |
+
+## CVE-2021-25944
+
+Source: CVE-2021-25944_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1321 | Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') | Primary | 1.00 | Variant | Allowed |
+
+## CVE-2021-25927
+
+Source: CVE-2021-25927_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1321 | Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-29444
+
+Source: CVE-2022-29444_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE: The plugin does not neutralize user-controllable input before placing it in output used as a web page, leading to XSS. |
+| CWE-425 | Direct Request ('Forced Browsing') | Primary | 0.70 | Base | Secondary CWE: Users with subscriber roles can directly request wp_ajax actions without proper authorization checks. |
+
+## CVE-2022-3283
+
+Source: CVE-2022-3283_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 0.90 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-23114
+
+Source: CVE-2022-23114_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-256 | Plaintext Storage of a Password | Primary | 1.00 | Base | Primary CWE |
+| CWE-260 | Password in Configuration File | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-31628
+
+Source: CVE-2022-31628_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-835 | Loop with Unreachable Exit Condition ('Infinite Loop') | Primary | 1.00 | Base | Primary CWE |
+| CWE-409 | Improper Handling of Highly Compressed Data (Data Amplification) | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-674 | Uncontrolled Recursion | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-29843
+
+Source: CVE-2022-29843_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-42467
+
+Source: CVE-2022-42467_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1188 | Initialization of a Resource with an Insecure Default | Primary | 0.95 | Base | Allowed |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.85 | Base | Allowed |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.75 | Class | Discouraged |
+
+## CVE-2022-35843
+
+Source: CVE-2022-35843_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-302 | Authentication Bypass by Assumed-Immutable Data | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-1929
+
+Source: CVE-2022-1929_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Primary CWE |
+| CWE-407 | Inefficient Algorithmic Complexity | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-0725
+
+Source: CVE-2022-0725_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-532 | Insertion of Sensitive Information into Log File | Primary | 1.00 | Base | Primary CWE |
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-34426
+
+Source: CVE-2022-34426_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.90 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-36848
+
+Source: CVE-2022-36848_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-285 | Improper Authorization | Primary | 1.00 | Class | Allowed |
+| CWE-862 | Missing Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-2908
+
+Source: CVE-2022-2908_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 0.90 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-32489
+
+Source: CVE-2022-32489_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-1274 | Improper Access Control for Volatile Memory Containing Boot Code | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-24418
+
+Source: CVE-2022-24418_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-40100
+
+Source: CVE-2022-40100_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE. The vulnerability involves **command injection** via the FormexeCommand function, indicating that the product constructs an OS command using externally influenced input without proper neutralization. |
+
+## CVE-2022-1313
+
+Source: CVE-2022-1313_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Allowed |
+
+## CVE-2022-1262
+
+Source: CVE-2022-1262_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-1930
+
+Source: CVE-2022-1930_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Allowed |
+
+## CVE-2021-4255
+
+Source: CVE-2021-4255_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-31510
+
+Source: CVE-2022-31510_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 0.90 | Base | N/A |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary |
+
+## CVE-2022-27480
+
+Source: CVE-2022-27480_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Allowed |
+| CWE-425 | Direct Request ('Forced Browsing') | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-24942
+
+Source: CVE-2021-24942_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.90 | Base | Primary CWE |
+| CWE-184 | Incomplete List of Disallowed Inputs | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-24408
+
+Source: CVE-2022-24408_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.80 | Class | Discouraged |
+| CWE-250 | Execution with Unnecessary Privileges | Secondary | 0.60 | Base | Allowed |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Secondary | 0.50 | Class | Allowed-with-Review |
+
+## CVE-2022-46664
+
+Source: CVE-2022-46664_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-41934
+
+Source: CVE-2022-41934_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | Primary | 1.00 | Base | Primary CWE. The **improper escaping of macro content and parameters** allows arbitrary code execution through the template engine. |
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.70 | Base | Secondary CWE. The **improper escaping** leads to the ability to inject code. While code execution is the impact, the root cause is the improper handling of template elements. |
+
+## CVE-2022-20484
+
+Source: CVE-2022-20484_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Discouraged |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-41318
+
+Source: CVE-2022-41318_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-190 | Integer Overflow or Wraparound | Primary | 0.90 | Base | Allowed |
+| CWE-126 | Buffer Over-read | Secondary | 0.80 | Variant | Allowed |
+
+## CVE-2022-1310
+
+Source: CVE-2022-1310_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-35651
+
+Source: CVE-2022-35651_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.90 | Base | Allowed |
+| CWE-918 | Server-Side Request Forgery (SSRF) | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-25959
+
+Source: CVE-2022-25959_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-119 | Improper Restriction of Operations Within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-32648
+
+Source: CVE-2022-32648_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | Primary | 0.90 | Class | Secondary Candidate |
+
+## CVE-2021-23354
+
+Source: CVE-2021-23354_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Primary CWE |
+| CWE-407 | Inefficient Algorithmic Complexity | Primary | 0.70 | Class | Secondary CWE |
+
+## CVE-2022-0588
+
+Source: CVE-2022-0588_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Secondary Candidate |
+
+## CVE-2022-20824
+
+Source: CVE-2022-20824_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Unknown | 0.80 | Class | The vulnerability is due to **improper input validation**, which is a Class-level CWE and discouraged for direct mapping when more specific options exist. However, the available information does not allow for a more specific classification. |
+| CWE-787 | Out-of-bounds Write | Primary | 0.30 | Base | This CWE was considered as a potential secondary issue, but the provided information lacks specific details about memory corruption or buffer overflows. |
+| CWE-400 | Uncontrolled Resource Consumption | Unknown | 0.30 | Class | This CWE was considered, but the evidence only mentions DoS as an impact, not necessarily due to uncontrolled resource allocation directly related to the **improper input validation**. |
+
+## CVE-2022-20281
+
+Source: CVE-2022-20281_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-29457
+
+Source: CVE-2022-29457_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.90 | Class | Primary CWE |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-204 | Observable Response Discrepancy | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-39806
+
+Source: CVE-2022-39806_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 0.80 | Variant | Primary CWE |
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2022-0463
+
+Source: CVE-2022-0463_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-366 | Race Condition within a Thread | Primary | 0.40 | Base | Secondary Candidate |
+
+## CVE-2022-20569
+
+Source: CVE-2022-20569_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.80 | Class | Discouraged |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-42258
+
+Source: CVE-2021-42258_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Primary CWE: The vulnerability is explicitly described as SQL injection. |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.70 | Base | Secondary CWE: Successful SQL injection leads to remote code execution via `xp_cmdshell`. |
+
+## CVE-2021-37112
+
+Source: CVE-2021-37112_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-15 | External Control of System or Configuration Setting | Primary | 0.80 | Base | Primary CWE |
+
+## CVE-2022-29776
+
+Source: CVE-2022-29776_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE. Matches the vulnerability description of a stack overflow and the retriever results. |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.70 | Variant | Secondary CWE. The CVE Reference mentions a heap buffer overflow, but the primary description mentions a stack overflow. |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.60 | Base | Secondary CWE. The root cause is a missing bounds check, which can lead to an out-of-bounds write. |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary CWE. The root cause is a missing bounds check, which is an improper restriction of operations within the bounds of a memory buffer. |
+
+## CVE-2022-23503
+
+Source: CVE-2022-23503_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.90 | Base | Primary CWE |
+| CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.40 | Class | Secondary Candidate |
+
+## CVE-2022-24002
+
+Source: CVE-2022-24002_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.85 | Class | Allowed-with-Review |
+| CWE-285 | Improper Authorization | Secondary | 0.75 | Class | Discouraged |
+| CWE-284 | Improper Access Control | Secondary | 0.65 | Pillar | Discouraged |
+
+## CVE-2022-40715
+
+Source: CVE-2022-40715_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-27658
+
+Source: CVE-2022-27658_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-36915
+
+Source: CVE-2022-36915_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2021-21972
+
+Source: CVE-2021-21972_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.95 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.75 | Class | Discouraged |
+
+## CVE-2022-32777
+
+Source: CVE-2022-32777_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1004 | Sensitive Cookie Without 'HttpOnly' Flag | Primary | 1.00 | Variant | Allowed |
+| CWE-614 | Sensitive Cookie in HTTPS Session Without 'Secure' Attribute | Secondary | 1.00 | Variant | Allowed |
+
+## CVE-2022-3244
+
+Source: CVE-2022-3244_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-34314
+
+Source: CVE-2022-34314_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.90 | Class | Primary CWE |
+| CWE-276 | Incorrect Default Permissions | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-32218
+
+Source: CVE-2022-32218_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Unknown | 0.80 | Class | Based on the information disclosure and the ability to enumerate Message IDs via Regex MongoDB queries. |
+
+## CVE-2022-44251
+
+Source: CVE-2022-44251_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-21817
+
+Source: CVE-2021-21817_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.90 | Class | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-20519
+
+Source: CVE-2022-20519_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2021-22240
+
+Source: CVE-2021-22240_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Primary CWE |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-1390 | Weak Authentication | Primary | 0.50 | Class | Secondary Candidate |
+| CWE-285 | Improper Authorization | Secondary | 0.40 | Class | Secondary Candidate |
+
+## CVE-2022-44438
+
+Source: CVE-2022-44438_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.50 | Base | Secondary CWE |
+
+## CVE-2021-33582
+
+Source: CVE-2021-33582_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-407 | Inefficient Algorithmic Complexity | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-32593
+
+Source: CVE-2021-32593_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2021-0185
+
+Source: CVE-2021-0185_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-269 | Improper Privilege Management | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2021-4204
+
+Source: CVE-2021-4204_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-129 | Improper Validation of Array Index | Primary | 0.80 | Variant | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-1703
+
+Source: CVE-2022-1703_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-21218
+
+Source: CVE-2022-21218_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-248 | Uncaught Exception | Primary | 1.00 | Base | Primary CWE |
+| CWE-209 | Generation of Error Message Containing Sensitive Information | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-32744
+
+Source: CVE-2022-32744_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-620 | Unverified Password Change | Primary | 0.90 | Base | Allowed |
+| CWE-290 | Authentication Bypass by Spoofing | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-0363
+
+Source: CVE-2022-0363_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Primary CWE |
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Secondary Candidate |
+
+## CVE-2022-31157
+
+Source: CVE-2022-31157_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-338 | Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG) | Primary | 1.00 | Base | Primary CWE |
+| CWE-294 | Authentication Bypass by Capture-replay | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-330 | Use of Insufficiently Random Values | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2021-38006
+
+Source: CVE-2021-38006_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2021-24859
+
+Source: CVE-2021-24859_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.90 | Base | Allowed |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.70 | Base | Allowed |
+| CWE-1230 | Exposure of Sensitive Information Through Metadata | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-22289
+
+Source: CVE-2021-22289_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Secondary | 0.60 | Base | Allowed-with-Review |
+
+## CVE-2022-34885
+
+Source: CVE-2022-34885_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.80 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-0435
+
+Source: CVE-2022-0435_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-41669
+
+Source: CVE-2022-41669_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-347 | Improper Verification of Cryptographic Signature | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-3001
+
+Source: CVE-2022-3001_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged Usage: Consider lower-level children or alternatives. |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Discouraged Usage: Often misused, consider more specific children. |
+
+## CVE-2021-25510
+
+Source: CVE-2021-25510_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1289 | Improper Validation of Unsafe Equivalence in Input | Primary | 0.75 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-35453
+
+Source: CVE-2022-35453_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2021-23138
+
+Source: CVE-2021-23138_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Secondary | 0.70 | Base | Allowed-with-Review |
+
+## CVE-2022-26372
+
+Source: CVE-2022-26372_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.80 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-39894
+
+Source: CVE-2022-39894_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-927 | Use of Implicit Intent for Sensitive Communication | Primary | 0.90 | Variant | Primary CWE |
+| CWE-285 | Improper Authorization | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Secondary Candidate |
+
+## CVE-2022-20303
+
+Source: CVE-2022-20303_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-203 | Observable Discrepancy | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-33190
+
+Source: CVE-2022-33190_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-269 | Improper Privilege Management | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2021-36260
+
+Source: CVE-2021-36260_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-35716
+
+Source: CVE-2022-35716_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-24331
+
+Source: CVE-2022-24331_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 0.90 | Class | Discouraged, but chosen due to lack of a more specific Base or Variant CWE |
+| CWE-1390 | Weak Authentication | Secondary | 0.70 | Class | Allowed-with-Review, consider if a more specific child exists |
+| CWE-290 | Authentication Bypass by Spoofing | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-40990
+
+Source: CVE-2022-40990_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-29820
+
+Source: CVE-2022-29820_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1327 | Binding to an Unrestricted IP Address | Primary | 0.90 | Base | Allowed |
+| CWE-497 | Exposure of Sensitive System Information to an Unauthorized Control Sphere | Secondary | 0.60 | Base | Allowed |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.40 | Class | Discouraged |
+
+## CVE-2022-0796
+
+Source: CVE-2022-0796_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | The product reuses or references memory after it has been freed. |
+| CWE-366 | Race Condition within a Thread | Primary | 0.50 | Base | If two threads of execution use a resource simultaneously, there exists the possibility that resources may be used while invalid, in turn making the state of execution undefined. |
+
+## CVE-2022-39910
+
+Source: CVE-2022-39910_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.75 | Pillar | Discouraged |
+| CWE-1263 | Improper Physical Access Control | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-42745
+
+Source: CVE-2022-42745_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-611 | Improper Restriction of XML External Entity Reference | Primary | 1.00 | Base | Primary CWE |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.70 | Base | Secondary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.60 | Base | Secondary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.50 | Base | Secondary CWE |
+
+## CVE-2022-32560
+
+Source: CVE-2022-32560_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Primary CWE |
+| CWE-285 | Improper Authorization | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-862 | Missing Authorization | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-3024
+
+Source: CVE-2022-3024_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Primary CWE |
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Secondary CWE |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.80 | Base | Secondary CWE |
+
+## CVE-2022-23389
+
+Source: CVE-2022-23389_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-45307
+
+Source: CVE-2022-45307_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 1.00 | Class | Primary CWE |
+| CWE-276 | Incorrect Default Permissions | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-277 | Insecure Inherited Permissions | Primary | 0.60 | Variant | Secondary Candidate |
+
+## CVE-2022-25216
+
+Source: CVE-2022-25216_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-44709
+
+Source: CVE-2021-44709_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.75 | Base | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-24098
+
+Source: CVE-2022-24098_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-0896
+
+Source: CVE-2022-0896_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | Primary | 1.00 | Base | Primary CWE |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-41214
+
+Source: CVE-2022-41214_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-494 | Download of Code Without Integrity Check | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-48297
+
+Source: CVE-2022-48297_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.90 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-24885
+
+Source: CVE-2022-24885_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-459 | Incomplete Cleanup | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-20760
+
+Source: CVE-2022-20760_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.80 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-799 | Improper Control of Interaction Frequency | Primary | 0.50 | Class | Secondary Candidate |
+| CWE-20 | Improper Input Validation | Secondary | 0.40 | Class | Secondary Candidate |
+
+## CVE-2021-26567
+
+Source: CVE-2021-26567_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Discouraged |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Secondary | 0.60 | Base | Allowed-with-Review |
+
+## CVE-2022-0073
+
+Source: CVE-2022-0073_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-44009
+
+Source: CVE-2022-44009_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-34199
+
+Source: CVE-2022-34199_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-256 | Plaintext Storage of a Password | Primary | 1.00 | Base | Allowed |
+| CWE-522 | Insufficiently Protected Credentials | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-260 | Password in Configuration File | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-21658
+
+Source: CVE-2022-21658_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 1.00 | Base | Allowed |
+| CWE-59 | Improper Link Resolution Before File Access ('Link Following') | Secondary | 0.90 | Base | Allowed |
+
+## CVE-2022-24881
+
+Source: CVE-2022-24881_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-0076
+
+Source: CVE-2021-0076_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Primary | 1.00 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-42439
+
+Source: CVE-2022-42439_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-532 | Insertion of Sensitive Information into Log File | Primary | 0.90 | Base | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-1054
+
+Source: CVE-2022-1054_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-359 | Exposure of Private Personal Information to an Unauthorized Actor | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-39104
+
+Source: CVE-2022-39104_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-39227
+
+Source: CVE-2022-39227_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-290 | Authentication Bypass by Spoofing | Primary | 1.00 | Base | Allowed |
+| CWE-347 | Improper Verification of Cryptographic Signature | Secondary | 0.70 | Base | Allowed |
+| CWE-1390 | Weak Authentication | Secondary | 0.50 | Class | Allowed-with-Review |
+
+## CVE-2022-22564
+
+Source: CVE-2022-22564_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-39322
+
+Source: CVE-2022-39322_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.70 | Base | Allowed |
+| CWE-1220 | Insufficient Granularity of Access Control | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-33715
+
+Source: CVE-2022-33715_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Primary CWE |
+| CWE-284 | Improper Access Control | Secondary | 0.70 | Pillar | Secondary Candidate |
+
+## CVE-2022-24820
+
+Source: CVE-2022-24820_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information | Primary | 0.90 | Class | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-28583
+
+Source: CVE-2022-28583_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-22572
+
+Source: CVE-2021-22572_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-378 | Creation of Temporary File With Insecure Permissions | Primary | 1.00 | Base | Primary |
+| CWE-377 | Insecure Temporary File | Primary | 0.70 | Class | Secondary |
+| CWE-552 | Files or Directories Accessible to External Parties | Primary | 0.60 | Base | Secondary |
+
+## CVE-2021-4083
+
+Source: CVE-2021-4083_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 0.90 | Variant | Primary CWE |
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | Primary | 0.80 | Class | Secondary CWE |
+
+## CVE-2022-35712
+
+Source: CVE-2022-35712_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.80 | Variant | Secondary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary CWE |
+
+## CVE-2022-4704
+
+Source: CVE-2022-4704_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE. The product does not perform an authorization check when an actor attempts to access a resource or perform an action. |
+| CWE-284 | Improper Access Control | Secondary | 0.70 | Pillar | Secondary candidate. The product does not restrict or incorrectly restricts access to a resource from an unauthorized actor. |
+
+## CVE-2022-0780
+
+Source: CVE-2022-0780_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.75 | Compound | Secondary Candidate |
+| CWE-862 | Missing Authorization | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-24774
+
+Source: CVE-2022-24774_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-27273
+
+Source: CVE-2022-27273_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.80 | Base | Primary CWE. The vulnerability description mentions "remote code execution (RCE) vulnerability via the function sub_12168. This vulnerability is triggered via a **crafted packet**.". |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary CWE. A **crafted packet** that triggers a function to write outside the intended buffer, could lead to remote code execution. |
+
+## CVE-2022-41395
+
+Source: CVE-2022-41395_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-3941
+
+Source: CVE-2022-3941_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-117 | Improper Output Neutralization for Logs | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-27756
+
+Source: CVE-2021-27756_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 0.90 | Class | Primary CWE |
+| CWE-1240 | Use of a Cryptographic Primitive with a Risky Implementation | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-757 | Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade') | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-319 | Cleartext Transmission of Sensitive Information | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-2613
+
+Source: CVE-2022-2613_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Allowed |
+
+## CVE-2021-0934
+
+Source: CVE-2021-0934_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-29191
+
+Source: CVE-2022-29191_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.90 | Base | Allowed |
+
+## CVE-2021-43317
+
+Source: CVE-2021-43317_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.80 | Variant | Secondary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary CWE |
+
+## CVE-2022-2480
+
+Source: CVE-2022-2480_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.30 | Base | Secondary Candidate |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.20 | Variant | Secondary Candidate |
+
+## CVE-2021-30988
+
+Source: CVE-2021-30988_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.80 | Class | Primary CWE |
+| CWE-285 | Improper Authorization | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-28811
+
+Source: CVE-2022-28811_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-32639
+
+Source: CVE-2022-32639_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 1.00 | Base | Allowed |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-22127
+
+Source: CVE-2022-22127_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.70 | Pillar | Discouraged |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.60 | Base | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.50 | Class | Allowed-with-Review |
+
+## CVE-2022-24189
+
+Source: CVE-2022-24189_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-27764
+
+Source: CVE-2021-27764_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1004 | Sensitive Cookie Without 'HttpOnly' Flag | Primary | 1.00 | Variant | Primary CWE |
+| CWE-614 | Sensitive Cookie in HTTPS Session Without 'Secure' Attribute | Primary | 0.90 | Variant | Secondary Candidate |
+
+## CVE-2022-2332
+
+Source: CVE-2022-2332_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.90 | Class | Primary CWE |
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-33720
+
+Source: CVE-2022-33720_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 1.00 | Class | Allowed |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-24552
+
+Source: CVE-2022-24552_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-250 | Execution with Unnecessary Privileges | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-43427
+
+Source: CVE-2022-43427_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.70 | Class | Discouraged |
+| CWE-285 | Improper Authorization | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-1781
+
+Source: CVE-2022-1781_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Allowed |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Secondary | 1.00 | Base | Allowed |
+
+## CVE-2022-3961
+
+Source: CVE-2022-3961_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-39301
+
+Source: CVE-2022-39301_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.90 | Base | Secondary Candidate |
+
+## CVE-2022-31555
+
+Source: CVE-2022-31555_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-30466
+
+Source: CVE-2022-30466_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-294 | Authentication Bypass by Capture-replay | Primary | 1.00 | Base | Primary CWE |
+| CWE-319 | Cleartext Transmission of Sensitive Information | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-31463
+
+Source: CVE-2022-31463_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-603 | Use of Client-Side Authentication | Primary | 1.00 | Base | Primary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-2552
+
+Source: CVE-2022-2552_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Allowed |
+| CWE-425 | Direct Request ('Forced Browsing') | Secondary | 0.70 | Base | Allowed |
+| CWE-862 | Missing Authorization | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-40295
+
+Source: CVE-2022-40295_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-759 | Use of a One-Way Hash without a Salt | Primary | 1.00 | Variant | Primary CWE |
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-28126
+
+Source: CVE-2022-28126_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-269 | Improper Privilege Management | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2021-44077
+
+Source: CVE-2021-44077_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Allowed |
+| CWE-502 | Deserialization of Untrusted Data | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-40647
+
+Source: CVE-2021-40647_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.70 | Variant | Allowed |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-32166
+
+Source: CVE-2022-32166_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-41136
+
+Source: CVE-2022-41136_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Allowed |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Secondary | 1.00 | Base | Allowed |
+
+## CVE-2022-26971
+
+Source: CVE-2022-26971_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Allowed |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-26859
+
+Source: CVE-2022-26859_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('**Race Condition**') | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-45384
+
+Source: CVE-2022-45384_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-256 | Plaintext Storage of a Password | Primary | 1.00 | Base | Primary CWE |
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.80 | Class | Secondary Candidate |
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-260 | Password in Configuration File | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-32846
+
+Source: CVE-2021-32846_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-457 | Use of Uninitialized Variable | Primary | 0.90 | Variant | Primary CWE |
+| CWE-252 | Unchecked Return Value | Primary | 0.80 | Base | Secondary CWE |
+
+## CVE-2022-36063
+
+Source: CVE-2022-36063_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-191 | Integer Underflow (Wrap or Wraparound) | Primary | 1.00 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.75 | Class | Discouraged |
+
+## CVE-2022-2088
+
+Source: CVE-2022-2088_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.75 | Pillar | Discouraged |
+| CWE-269 | Improper Privilege Management | Secondary | 0.65 | Class | Discouraged |
+| CWE-250 | Execution with Unnecessary Privileges | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-22612
+
+Source: CVE-2022-22612_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-789 | Memory Allocation with Excessive Size Value | Primary | 0.70 | Variant | Secondary CWE |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.60 | Base | Secondary CWE |
+
+## CVE-2022-0236
+
+Source: CVE-2022-0236_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-4433
+
+Source: CVE-2022-4433_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 0.90 | Variant | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.70 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.40 | Class | Discouraged |
+
+## CVE-2021-20414
+
+Source: CVE-2021-20414_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-799 | Improper Control of Interaction Frequency | Primary | 1.00 | Class | Primary CWE |
+| CWE-307 | Improper Restriction of Excessive Authentication Attempts | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-0184
+
+Source: CVE-2022-0184_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-522 | Insufficiently Protected Credentials | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-259 | Use of Hard-coded Password | Secondary | 0.70 | Variant | Allowed |
+| CWE-798 | Use of Hard-coded Credentials | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-30755
+
+Source: CVE-2022-30755_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-927 | Use of Implicit Intent for Sensitive Communication | Primary | 0.90 | Variant | Primary CWE |
+| CWE-287 | Improper Authentication | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-33243
+
+Source: CVE-2022-33243_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-29846
+
+Source: CVE-2021-29846_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-613 | Insufficient Session Expiration | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-20329
+
+Source: CVE-2022-20329_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2021-43536
+
+Source: CVE-2021-43536_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1022 | Use of Web Link to Untrusted Target with window.opener Access | Primary | 0.80 | Variant | Primary CWE |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-909 | Missing Initialization of Resource | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-22521
+
+Source: CVE-2022-22521_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.90 | Class | Primary CWE |
+| CWE-269 | Improper Privilege Management | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-427 | Uncontrolled Search Path Element | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-27814
+
+Source: CVE-2022-27814_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information | Primary | 0.80 | Class | Allowed |
+| CWE-204 | Observable Response Discrepancy | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-20030
+
+Source: CVE-2022-20030_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-121 | Stack-based Buffer Overflow | Secondary | 0.90 | Variant | Allowed |
+
+## CVE-2021-43299
+
+Source: CVE-2021-43299_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.80 | Base | Secondary CWE |
+
+## CVE-2022-26205
+
+Source: CVE-2022-26205_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.90 | Base | Primary CWE. The vulnerability allows attackers to execute arbitrary code via injection of a crafted payload, which aligns with the CWE's focus on improper neutralization of special elements that could modify the syntax or behavior of the intended code segment. |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Primary | 0.70 | Class | Secondary Candidate. The vulnerability involves the injection of a crafted payload, suggesting a failure to neutralize special elements in output used by a downstream component. However, CWE-94 is more specific to code injection, making it the primary choice. |
+
+## CVE-2022-0366
+
+Source: CVE-2022-0366_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-269 | Improper Privilege Management | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-24866
+
+Source: CVE-2022-24866_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-359 | Exposure of Private Personal Information to an Unauthorized Actor | Primary | 1.00 | Base | Primary CWE |
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-863 | Incorrect Authorization | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-28374
+
+Source: CVE-2022-28374_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-184 | Incomplete List of Disallowed Inputs | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-38385
+
+Source: CVE-2022-38385_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-40658
+
+Source: CVE-2021-40658_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-80 | Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2022-32040
+
+Source: CVE-2022-32040_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary CWE - Parent of CWE-121 |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.60 | Base | Secondary CWE - Related to buffer overflows |
+
+## CVE-2021-42728
+
+Source: CVE-2021-42728_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.90 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-22088
+
+Source: CVE-2022-22088_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-48298
+
+Source: CVE-2022-48298_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.90 | Base | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-22300
+
+Source: CVE-2022-22300_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 1.00 | Base | Allowed |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-39900
+
+Source: CVE-2022-39900_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.75 | Pillar | Discouraged |
+| CWE-863 | Incorrect Authorization | Secondary | 0.65 | Class | Allowed-with-Review |
+
+## CVE-2022-46538
+
+Source: CVE-2022-46538_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-184 | Incomplete List of Disallowed Inputs | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-35147
+
+Source: CVE-2022-35147_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 0.90 | Base | Primary CWE |
+| CWE-287 | Improper Authentication | Secondary | 0.60 | Class | Secondary CWE |
+
+## CVE-2022-1256
+
+Source: CVE-2022-1256_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-59 | Improper Link Resolution Before File Access ('Link Following') | Primary | 0.90 | Base | Primary CWE |
+| CWE-379 | Creation of Temporary File in Directory with Insecure Permissions | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-250 | Execution with Unnecessary Privileges | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-25783
+
+Source: CVE-2022-25783_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-778 | Insufficient Logging | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-37056
+
+Source: CVE-2022-37056_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-31362
+
+Source: CVE-2021-31362_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-693 | Protection Mechanism Failure | Primary | 1.00 | Pillar | Allowed: The vulnerability description explicitly states "Protection Mechanism Failure". While this is a high-level CWE, it accurately reflects the stated root cause. |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Discouraged: The vulnerability leads to a Denial of Service (DoS) condition, which can be seen as a form of uncontrolled resource consumption. However, it's a consequence of the protection mechanism failure. |
+
+## CVE-2021-25263
+
+Source: CVE-2021-25263_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-379 | Creation of Temporary File in Directory with Insecure Permissions | Secondary | 0.70 | Base | Allowed |
+| CWE-277 | Insecure Inherited Permissions | Secondary | 0.60 | Variant | Allowed |
+
+## CVE-2022-20589
+
+Source: CVE-2022-20589_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-25807
+
+Source: CVE-2022-25807_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-321 | Use of Hard-coded Cryptographic Key | Primary | 1.00 | Variant | Primary CWE |
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-20918
+
+Source: CVE-2022-20918_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1392 | Use of Default Credentials | Primary | 1.00 | Base | Primary CWE |
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-36938
+
+Source: CVE-2022-36938_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.70 | Base | Secondary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary CWE |
+
+## CVE-2021-35211
+
+Source: CVE-2021-35211_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.80 | Base | Primary CWE. The **Remote Memory Escape** vulnerability indicates a memory safety issue, specifically writing outside the intended buffer. |
+| CWE-825 | Expired Pointer Dereference | Primary | 0.60 | Base | Secondary CWE. A **Remote Memory Escape** could involve using a pointer to memory that has been freed. |
+| CWE-250 | Execution with Unnecessary Privileges | Primary | 0.50 | Base | Secondary CWE. The attacker's ability to "gain privileged access" after exploiting the RCE suggests the Serv-U process might be running with more privileges than necessary. |
+
+## CVE-2022-25751
+
+Source: CVE-2022-25751_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-36613
+
+Source: CVE-2022-36613_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-259 | Use of Hard-coded Password | Primary | 1.00 | Variant | Allowed |
+
+## CVE-2022-1936
+
+Source: CVE-2022-1936_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Discouraged |
+
+## CVE-2022-30305
+
+Source: CVE-2022-30305_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-778 | Insufficient Logging | Primary | 1.00 | Base | Allowed |
+| CWE-307 | Improper Restriction of Excessive Authentication Attempts | Secondary | 0.90 | Base | Allowed |
+
+## CVE-2021-3442
+
+Source: CVE-2021-3442_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary CWE |
+
+## CVE-2022-33284
+
+Source: CVE-2022-33284_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-3639
+
+Source: CVE-2022-3639_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.95 | Class | Discouraged |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.85 | Base | Allowed |
+| CWE-407 | Inefficient Algorithmic Complexity | Secondary | 0.75 | Class | Allowed-with-Review |
+
+## CVE-2022-4616
+
+Source: CVE-2022-4616_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-21935
+
+Source: CVE-2022-21935_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-620 | Unverified Password Change | Primary | 1.00 | Base | Primary CWE |
+| CWE-1390 | Weak Authentication | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-37193
+
+Source: CVE-2022-37193_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.90 | Base | Primary CWE |
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Secondary Candidate |
+
+## CVE-2021-40896
+
+Source: CVE-2021-40896_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-0304
+
+Source: CVE-2022-0304_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-23064
+
+Source: CVE-2022-23064_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Primary | 0.90 | Class | Allowed with Review |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Secondary | 0.75 | Base | Allowed |
+
+## CVE-2022-20186
+
+Source: CVE-2022-20186_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.70 | Base | Allowed with Review |
+
+## CVE-2021-21220
+
+Source: CVE-2021-21220_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.75 | Class | Discouraged |
+| CWE-416 | Use After Free | Secondary | 0.50 | Variant | Allowed |
+
+## CVE-2021-32040
+
+Source: CVE-2021-32040_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.80 | Variant | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-1431
+
+Source: CVE-2022-1431_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-41168
+
+Source: CVE-2021-41168_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-407 | Inefficient Algorithmic Complexity | Primary | 0.90 | Class | Primary CWE |
+| CWE-328 | Use of Weak Hash | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-1325 | Improperly Controlled Sequential Memory Allocation | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-20748
+
+Source: CVE-2022-20748_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-755 | Improper Handling of Exceptional Conditions | Primary | 0.80 | Class | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-23118
+
+Source: CVE-2022-23118_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-862 | Missing Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-21827
+
+Source: CVE-2022-21827_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.90 | Base | Allowed |
+| CWE-250 | Execution with Unnecessary Privileges | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-43615
+
+Source: CVE-2021-43615_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Primary CWE. The **SMM memory corruption** vulnerability allows an attacker to write fixed or predictable data to SMRAM. |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary CWE. The vulnerability allows operations outside of memory boundaries because of the **SMM memory corruption**. |
+
+## CVE-2022-0217
+
+Source: CVE-2022-0217_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-776 | Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion') | Primary | 1.00 | Base | Allowed |
+| CWE-611 | Improper Restriction of XML External Entity Reference | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-36913
+
+Source: CVE-2022-36913_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | This is the Primary CWE because the vulnerability occurs due to the absence of an authorization check. |
+| CWE-552 | Files or Directories Accessible to External Parties | Primary | 0.50 | Base | This is a secondary CWE because it describes the impact of missing authorization. |
+
+## CVE-2022-35459
+
+Source: CVE-2022-35459_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.70 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-38210
+
+Source: CVE-2022-38210_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-45717
+
+Source: CVE-2022-45717_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-42730
+
+Source: CVE-2021-42730_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-45196
+
+Source: CVE-2022-45196_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-667 | Improper Locking | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-754 | Improper Check for Unusual or Exceptional Conditions | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-0984
+
+Source: CVE-2022-0984_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Primary CWE. The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check. |
+| CWE-472 | External Control of Assumed-Immutable Web Parameter | Primary | 0.60 | Base | Secondary candidate. The web application does not sufficiently verify inputs that are assumed to be immutable but are actually externally controllable, such as hidden form fields. |
+
+## CVE-2022-41015
+
+Source: CVE-2022-41015_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Secondary | 0.80 | Base | Allowed-with-Review |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-29492
+
+Source: CVE-2022-29492_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-0579
+
+Source: CVE-2022-0579_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-285 | Improper Authorization | Secondary | 0.50 | Class | Discouraged |
+| CWE-284 | Improper Access Control | Secondary | 0.30 | Pillar | Discouraged |
+
+## CVE-2021-44714
+
+Source: CVE-2021-44714_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-356 | Product UI does not Warn User of Unsafe Actions | Primary | 0.90 | Base | Primary CWE |
+| CWE-657 | Violation of Secure Design Principles | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-24306
+
+Source: CVE-2022-24306_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-285 | Improper Authorization | Primary | 0.90 | Class | Discouraged |
+| CWE-863 | Incorrect Authorization | Secondary | 0.80 | Class | Allowed-with-Review |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-2458
+
+Source: CVE-2022-2458_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-611 | Improper Restriction of XML External Entity Reference | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-25354
+
+Source: CVE-2021-25354_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-926 | Improper Export of Android Application Components | Primary | 0.80 | Variant | Primary CWE |
+
+## CVE-2022-25089
+
+Source: CVE-2022-25089_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-648 | Incorrect Use of Privileged APIs | Primary | 1.00 | Base | Primary CWE |
+| CWE-250 | Execution with Unnecessary Privileges | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-46328
+
+Source: CVE-2022-46328_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed |
+| CWE-1286 | Improper Validation of Syntactic Correctness of Input | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-26862
+
+Source: CVE-2022-26862_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Secondary | 0.60 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.40 | Base | Allowed |
+
+## CVE-2022-1815
+
+Source: CVE-2022-1815_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 0.90 | Base | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-47328
+
+Source: CVE-2022-47328_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-45438
+
+Source: CVE-2022-45438_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-26452
+
+Source: CVE-2022-26452_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-667 | Improper Locking | Primary | 0.80 | Class | Secondary CWE |
+
+## CVE-2022-45977
+
+Source: CVE-2022-45977_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-0975
+
+Source: CVE-2022-0975_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-40269
+
+Source: CVE-2022-40269_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-290 | Authentication Bypass by Spoofing | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-37070
+
+Source: CVE-2022-37070_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate, considered due to its broader scope, but less specific than CWE-78. |
+
+## CVE-2021-27291
+
+Source: CVE-2021-27291_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Primary CWE |
+| CWE-407 | Inefficient Algorithmic Complexity | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-38823
+
+Source: CVE-2022-38823_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-259 | Use of Hard-coded Password | Primary | 1.00 | Variant | Primary CWE |
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-25297
+
+Source: CVE-2021-25297_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-2394
+
+Source: CVE-2022-2394_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-532 | Insertion of Sensitive Information into Log File | Primary | 1.00 | Base | Primary CWE |
+| CWE-214 | Invocation of Process Using Visible Sensitive Information | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-526 | Cleartext Storage of Sensitive Information in an Environment Variable | Primary | 0.60 | Variant | Secondary Candidate |
+
+## CVE-2022-1981
+
+Source: CVE-2022-1981_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-842 | Placement of User into Incorrect Group | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-4331
+
+Source: CVE-2021-4331_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.90 | Base | Primary CWE |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.60 | Class | Secondary CWE |
+
+## CVE-2022-41901
+
+Source: CVE-2022-41901_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-617 | Reachable Assertion | Primary | 0.80 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-2376
+
+Source: CVE-2022-2376_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.90 | Class | Secondary Candidate |
+| CWE-359 | Exposure of Private Personal Information to an Unauthorized Actor | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-45061
+
+Source: CVE-2022-45061_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-407 | Inefficient Algorithmic Complexity | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Discouraged |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-44158
+
+Source: CVE-2021-44158_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-130 | Improper Handling of Length Parameter Inconsistency | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-28780
+
+Source: CVE-2022-28780_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-285 | Improper Authorization | Primary | 0.80 | Class | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-862 | Missing Authorization | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-34174
+
+Source: CVE-2022-34174_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-208 | Observable Timing Discrepancy | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-20676
+
+Source: CVE-2022-20676_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged due to being a Class level CWE, but directly matches the root cause. |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Secondary | 0.60 | Base | Allowed, as the attacker is able to execute arbitrary commands as root. |
+| CWE-250 | Execution with Unnecessary Privileges | Secondary | 0.50 | Base | Allowed, as the attacker escalates to root privileges. |
+
+## CVE-2022-23509
+
+Source: CVE-2022-23509_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-319 | Cleartext Transmission of Sensitive Information | Primary | 1.00 | Base | Primary CWE |
+| CWE-552 | Files or Directories Accessible to External Parties | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-41335
+
+Source: CVE-2022-41335_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-23 | Relative Path Traversal | Primary | 1.00 | Base | Allowed |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-2553
+
+Source: CVE-2022-2553_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Allowed |
+| CWE-287 | Improper Authentication | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-27499
+
+Source: CVE-2022-27499_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-826 | Premature Release of Resource During Expected Lifetime | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-21743
+
+Source: CVE-2022-21743_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 0.90 | Variant | Primary CWE |
+| CWE-190 | Integer Overflow or Wraparound | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-25832
+
+Source: CVE-2022-25832_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 1.00 | Class | Discouraged |
+
+## CVE-2022-28741
+
+Source: CVE-2022-28741_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.90 | Base | Primary CWE. The vulnerability involves **missing input validation** that leads to a local file inclusion, which is a type of path traversal. |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary CWE. The root cause is **missing input validation**, but CWE-20 is too general. CWE-22 is a more specific child of CWE-20 and is more appropriate. |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary CWE. The user controls the file path, but the main issue is the **missing input validation** that allows the path traversal, making CWE-22 a more direct fit. |
+
+## CVE-2021-46522
+
+Source: CVE-2021-46522_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-1243
+
+Source: CVE-2022-1243_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-156 | Improper Neutralization of Whitespace | Primary | 0.90 | Variant | Allowed |
+| CWE-113 | Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting') | Secondary | 0.70 | Variant | Allowed |
+
+## CVE-2022-43460
+
+Source: CVE-2022-43460_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-257 | Storing Passwords in a Recoverable Format | Primary | 1.00 | Base | Primary CWE |
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-256 | Plaintext Storage of a Password | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-1138
+
+Source: CVE-2022-1138_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-451 | User Interface (UI) Misrepresentation of Critical Information | Primary | 0.75 | Class | Allowed-with-Review |
+| CWE-1021 | Improper Restriction of Rendered UI Layers or Frames | Secondary | 0.65 | Base | Allowed |
+
+## CVE-2022-39272
+
+Source: CVE-2022-39272_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.90 | Base | Allowed |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.70 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Allowed |
+
+## CVE-2022-1545
+
+Source: CVE-2022-1545_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.80 | Class | Primary CWE |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-48306
+
+Source: CVE-2022-48306_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-297 | Improper Validation of Certificate with Host Mismatch | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-31520
+
+Source: CVE-2022-31520_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Primary CWE |
+| CWE-36 | Absolute Path Traversal | Primary | 0.80 | Base | Secondary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary CWE |
+
+## CVE-2022-30315
+
+Source: CVE-2022-30315_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-345 | Insufficient Verification of Data Authenticity | Primary | 1.00 | Class | Allowed with Review |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-41923
+
+Source: CVE-2022-41923_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-3384
+
+Source: CVE-2022-3384_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.90 | Base | Primary CWE |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2021-0183
+
+Source: CVE-2021-0183_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-48175
+
+Source: CVE-2022-48175_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-95 | Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') | Primary | 0.90 | Variant | Primary CWE: The application dynamically evaluates code based on unsanitized input, allowing for arbitrary code execution. |
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 0.80 | Base | Secondary CWE: The attacker leverages an SQL Injection to insert the malicious code into the database. This is a prerequisite for CWE-95. |
+
+## CVE-2021-21975
+
+Source: CVE-2021-21975_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-3047
+
+Source: CVE-2022-3047_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.75 | Class | Allowed-with-Review |
+| CWE-356 | Product UI does not Warn User of Unsafe Actions | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-39370
+
+Source: CVE-2022-39370_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Primary CWE |
+| CWE-540 | Inclusion of Sensitive Information in Source Code | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-21890
+
+Source: CVE-2021-21890_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-0104
+
+Source: CVE-2022-0104_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.80 | Variant | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-3580
+
+Source: CVE-2022-3580_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-31515
+
+Source: CVE-2022-31515_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-42140
+
+Source: CVE-2022-42140_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-184 | Incomplete List of Disallowed Inputs | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2021-41559
+
+Source: CVE-2021-41559_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-776 | Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion') | Primary | 0.90 | Base | Primary CWE |
+| CWE-407 | Inefficient Algorithmic Complexity | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-674 | Uncontrolled Recursion | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-20121
+
+Source: CVE-2022-20121_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-223 | Omission of Security-relevant Information | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-43690
+
+Source: CVE-2022-43690_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1024 | Comparison of Incompatible Types | Primary | 0.80 | Base | Primary CWE: The **root cause** is the use of a non-strict comparison (== instead of ===) when checking legacy password salts. |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.50 | Base | Secondary CWE: Limited authentication bypass is possible. |
+| CWE-287 | Improper Authentication | Secondary | 0.30 | Class | Secondary CWE: The product does not prove or insufficiently proves that the claim is correct. |
+
+## CVE-2022-20282
+
+Source: CVE-2022-20282_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-4687
+
+Source: CVE-2022-4687_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-648 | Incorrect Use of Privileged APIs | Primary | 0.80 | Base | Primary CWE |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-472 | External Control of Assumed-Immutable Web Parameter | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-25219
+
+Source: CVE-2022-25219_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-626 | **Null Byte Interaction Error (Poison Null Byte)** | Primary | 1.00 | Variant | Allowed |
+| CWE-170 | Improper Null Termination | Secondary | 0.70 | Base | Allowed |
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-4610
+
+Source: CVE-2022-4610_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-916 | Use of Password Hash With Insufficient Computational Effort | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-41932
+
+Source: CVE-2022-41932_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements Used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2021-46408
+
+Source: CVE-2021-46408_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.75 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
+| CWE-676 | Use of Potentially Dangerous Function | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-41172
+
+Source: CVE-2022-41172_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Allowed |
+| CWE-416 | Use After Free | Secondary | 0.80 | Variant | Allowed |
+| CWE-121 | Stack-based Buffer Overflow | Secondary | 0.70 | Variant | Allowed |
+
+## CVE-2022-29052
+
+Source: CVE-2022-29052_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 1.00 | Base | Primary CWE |
+| CWE-260 | Password in Configuration File | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-538 | Insertion of Sensitive Information into Externally-Accessible File or Directory | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-20942
+
+Source: CVE-2022-20942_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2021-25863
+
+Source: CVE-2021-25863_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1393 | Use of Default Password | Primary | 1.00 | Base | Primary CWE |
+| CWE-1188 | Initialization of a Resource with an Insecure Default | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-23874
+
+Source: CVE-2021-23874_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.75 | Class | Discouraged |
+| CWE-250 | Execution with Unnecessary Privileges | Secondary | 0.60 | Base | Allowed |
+| CWE-427 | Uncontrolled Search Path Element | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-22111
+
+Source: CVE-2022-22111_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-285 | Improper Authorization | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Secondary Candidate |
+
+## CVE-2021-37209
+
+Source: CVE-2021-37209_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-326 | Inadequate Encryption Strength | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-32043
+
+Source: CVE-2022-32043_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary Candidate |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-24389
+
+Source: CVE-2022-24389_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-3795
+
+Source: CVE-2021-3795_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-0676
+
+Source: CVE-2022-0676_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.75 | Variant | Secondary CWE |
+| CWE-131 | Incorrect Calculation of Buffer Size | Primary | 0.75 | Base | Secondary CWE |
+
+## CVE-2021-39693
+
+Source: CVE-2021-39693_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-272 | Least Privilege Violation | Primary | 0.70 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Class | Allowed-with-Review |
+| CWE-862 | Missing Authorization | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-38375
+
+Source: CVE-2022-38375_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-285 | Improper Authorization | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-44638
+
+Source: CVE-2022-44638_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-190 | Integer Overflow or Wraparound | Primary | 1.00 | Base | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Secondary CWE |
+
+## CVE-2021-45475
+
+Source: CVE-2021-45475_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-497 | Exposure of Sensitive System Information to an Unauthorized Control Sphere | Primary | 0.70 | Base | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-40342
+
+Source: CVE-2021-40342_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1394 | Use of Default Cryptographic Key | Primary | 1.00 | Base | Allowed |
+| CWE-326 | Inadequate Encryption Strength | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2021-41143
+
+Source: CVE-2021-41143_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.80 | Class | Discouraged |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.80 | Base | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-40735
+
+Source: CVE-2022-40735_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-405 | Asymmetric Resource Consumption (Amplification) | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.80 | Base | Allowed |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-4252
+
+Source: CVE-2022-4252_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE. The product does not neutralize user-controllable input before placing it in output used as a web page. |
+
+## CVE-2022-24729
+
+Source: CVE-2022-24729_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Primary CWE |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.50 | Base | Secondary CWE Candidate |
+
+## CVE-2022-41049
+
+Source: CVE-2022-41049_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 0.70 | Base | Allowed |
+| CWE-420 | Unprotected Alternate Channel | Secondary | 0.50 | Base | Allowed |
+| CWE-1299 | Missing Protection Mechanism for Alternate Hardware Interface | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-1854
+
+Source: CVE-2022-1854_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2021-40794
+
+Source: CVE-2021-40794_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-125 | Out-of-bounds Read | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-39971
+
+Source: CVE-2021-39971_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-15 | External Control of System or Configuration Setting | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-0528
+
+Source: CVE-2022-0528_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Primary | 0.70 | Class | Secondary CWE |
+
+## CVE-2022-0450
+
+Source: CVE-2022-0450_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Secondary CWE |
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Secondary CWE |
+
+## CVE-2022-21939
+
+Source: CVE-2022-21939_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1004 | Sensitive Cookie Without 'HttpOnly' Flag | Primary | 1.00 | Variant | Allowed |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-30334
+
+Source: CVE-2022-30334_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Primary | 0.90 | Base | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-42321
+
+Source: CVE-2021-42321_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.70 | Base | Allowed |
+
+## CVE-2022-22565
+
+Source: CVE-2022-22565_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-612 | Improper Authorization of Index Containing Sensitive Information | Primary | 0.90 | Base | Allowed |
+| CWE-497 | Exposure of Sensitive System Information to an Unauthorized Control Sphere | Secondary | 0.60 | Base | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.50 | Class | Allowed-with-Review |
+
+## CVE-2021-44151
+
+Source: CVE-2021-44151_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-334 | Small Space of Random Values | Primary | 1.00 | Base | Allowed |
+| CWE-784 | Reliance on Cookies without Validation and Integrity Checking in a Security Decision | Secondary | 0.70 | Variant | Allowed |
+| CWE-614 | Sensitive Cookie in HTTPS Session Without 'Secure' Attribute | Secondary | 0.60 | Variant | Allowed |
+
+## CVE-2022-23734
+
+Source: CVE-2022-23734_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-502 | Deserialization of Untrusted Data | Primary | 1.00 | Base | Primary CWE |
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-0318
+
+Source: CVE-2022-0318_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-1185
+
+Source: CVE-2022-1185_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 0.90 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-22780
+
+Source: CVE-2022-22780_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-409 | Improper Handling of Highly Compressed Data (Data Amplification) | Primary | 0.90 | Base | Primary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-25926
+
+Source: CVE-2022-25926_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Secondary | 0.70 | Class | Allowed-with-Review, consider if the command language is not OS-specific |
+| CWE-88 | Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') | Secondary | 0.60 | Base | Allowed, CanAlsoBe relationship with CWE-78, consider if arguments are not properly delimited |
+| CWE-138 | Improper Neutralization of Special Elements | Secondary | 0.50 | Class | Discouraged, High-level, consider if a more specific CWE is not applicable |
+
+## CVE-2021-26112
+
+Source: CVE-2021-26112_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-25667
+
+Source: CVE-2022-25667_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 0.75 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2021-2351
+
+Source: CVE-2021-2351_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.75 | Base | Primary CWE |
+| CWE-345 | Insufficient Verification of Data Authenticity | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-319 | Cleartext Transmission of Sensitive Information | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2021-39048
+
+Source: CVE-2021-39048_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.50 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.40 | Class | Discouraged |
+
+## CVE-2022-30730
+
+Source: CVE-2022-30730_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.85 | Base | Primary CWE |
+| CWE-284 | Improper Access Control | Secondary | 0.70 | Pillar | Secondary Candidate |
+| CWE-285 | Improper Authorization | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-45910
+
+Source: CVE-2022-45910_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-90 | Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-943 | Improper Neutralization of Special Elements in Data Query Logic | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-36083
+
+Source: CVE-2022-36083_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-834 | Excessive Iteration | Primary | 0.90 | Class | The product performs an iteration or loop without sufficiently limiting the number of times that the loop is executed. |
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.60 | Class | Resource exhaustion due to attacker controlled inputs. |
+
+## CVE-2022-26868
+
+Source: CVE-2022-26868_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE: This is the root cause of the vulnerability. |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary CWE: Considered because the specific command language isn't explicitly OS, but the context suggests it. |
+
+## CVE-2022-20722
+
+Source: CVE-2022-20722_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.90 | Base | Allowed |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Secondary | 0.60 | Base | Allowed |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-40992
+
+Source: CVE-2022-40992_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.90 | Variant | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-31548
+
+Source: CVE-2022-31548_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-3804
+
+Source: CVE-2021-3804_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-22069
+
+Source: CVE-2022-22069_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-36099
+
+Source: CVE-2022-36099_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-917 | Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection') | Primary | 0.90 | Base | Allowed |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.60 | Class | Discouraged |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Secondary | 0.50 | Base | Allowed |
+| CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-31546
+
+Source: CVE-2022-31546_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Allowed |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Secondary | 0.80 | Base | Allowed |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-22223
+
+Source: CVE-2022-22223_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Primary | 1.00 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-27549
+
+Source: CVE-2022-27549_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 1.00 | Base | Primary CWE |
+| CWE-256 | Plaintext Storage of a Password | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-257 | Storing Passwords in a Recoverable Format | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-43417
+
+Source: CVE-2022-43417_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-39015
+
+Source: CVE-2022-39015_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-668 | Exposure of Resource to Wrong Sphere | Primary | 0.70 | Class | The product exposes a resource to the wrong control sphere, providing unintended actors with inappropriate access to the resource. |
+
+## CVE-2022-25163
+
+Source: CVE-2022-25163_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 1.00 | Class | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-20777
+
+Source: CVE-2022-20777_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-653 | Improper Isolation or Compartmentalization | Primary | 0.75 | Class | The product does not properly compartmentalize or isolate functionality, processes, or resources that require different privilege levels, rights, or permissions. |
+| CWE-20 | Improper Input Validation | Unknown | 0.50 | Class | The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly. |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.50 | Base | The product constructs all or part of an OS command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended OS command when it is sent to a downstream component. |
+
+## CVE-2022-21174
+
+Source: CVE-2022-21174_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-285 | Improper Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-653 | Improper Isolation or Compartmentalization | Secondary | 0.70 | Class | Allowed |
+| CWE-274 | Improper Handling of Insufficient Privileges | Secondary | 0.60 | Base | Discouraged |
+
+## CVE-2022-3033
+
+Source: CVE-2022-3033_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-610 | Externally Controlled Reference to a Resource in Another Sphere | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-26447
+
+Source: CVE-2022-26447_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | **Out-of-bounds Read** | Primary | 0.90 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-36106
+
+Source: CVE-2022-36106_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-613 | Insufficient Session Expiration | Primary | 0.80 | Base | Primary CWE |
+| CWE-287 | Improper Authentication | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-43571
+
+Source: CVE-2022-43571_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-26730
+
+Source: CVE-2022-26730_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-44410
+
+Source: CVE-2021-44410_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1287 | Improper Validation of Specified Type of Input | Primary | 0.90 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2021-31010
+
+Source: CVE-2021-31010_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1289 | Improper Validation of Unsafe Equivalence in Input | Primary | 0.85 | Base | Allowed |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Secondary | 0.75 | Base | Allowed |
+
+## CVE-2022-34779
+
+Source: CVE-2022-34779_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Allowed |
+
+## CVE-2022-27803
+
+Source: CVE-2022-27803_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 1.00 | Class | Discouraged |
+
+## CVE-2022-25017
+
+Source: CVE-2022-25017_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-33271
+
+Source: CVE-2022-33271_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-31087
+
+Source: CVE-2022-31087_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Secondary | 0.70 | Base | Allowed |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-44838
+
+Source: CVE-2021-44838_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-30900
+
+Source: CVE-2021-30900_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.75 | Class | Discouraged |
+
+## CVE-2021-35531
+
+Source: CVE-2021-35531_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-23615
+
+Source: CVE-2022-23615_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 1.00 | Class | The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check. This vulnerability stems from how XWiki handles access rights when saving documents via its API. Specifically, when a user without "programming rights" saves a document, the API checks the rights of the *current user viewing the content* instead of the rights of the *script author*. |
+| CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | Primary | 0.70 | Base | The product uses a template engine to insert or process externally-influenced input, but it does not neutralize or incorrectly neutralizes special elements or syntax that can be interpreted as template expressions or other code directives when processed by the engine. This is a secondary CWE because the vulnerability is exploited through the use of malicious Velocity scripts. |
+
+## CVE-2022-1142
+
+Source: CVE-2022-1142_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-35114
+
+Source: CVE-2022-35114_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-476 | NULL Pointer Dereference | Primary | 0.90 | Base | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-26411
+
+Source: CVE-2021-26411_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-20296
+
+Source: CVE-2022-20296_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2022-0594
+
+Source: CVE-2022-0594_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-425 | Direct Request ('Forced Browsing') | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-0875
+
+Source: CVE-2022-0875_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Allowed |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Secondary | 1.00 | Base | Allowed |
+
+## CVE-2022-32768
+
+Source: CVE-2022-32768_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 1.00 | Base | Primary CWE |
+| CWE-862 | Missing Authorization | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-287 | Improper Authentication | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-28690
+
+Source: CVE-2022-28690_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-824 | Access of Uninitialized Pointer | Primary | 1.00 | Base | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Secondary Candidate |
+
+## CVE-2022-32966
+
+Source: CVE-2022-32966_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2021-37094
+
+Source: CVE-2021-37094_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.75 | Class | Discouraged |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.65 | Base | Allowed |
+
+## CVE-2022-22433
+
+Source: CVE-2022-22433_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-918 | Server-Side Request Forgery (SSRF) | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-3008
+
+Source: CVE-2022-3008_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary CWE |
+
+## CVE-2022-23725
+
+Source: CVE-2022-23725_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.90 | Class | Primary CWE |
+
+## CVE-2021-46520
+
+Source: CVE-2021-46520_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.90 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-190 | Integer Overflow or Wraparound | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-31522
+
+Source: CVE-2022-31522_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-31514
+
+Source: CVE-2022-31514_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-1888
+
+Source: CVE-2022-1888_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-29013
+
+Source: CVE-2022-29013_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-184 | Incomplete List of Disallowed Inputs | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-22220
+
+Source: CVE-2022-22220_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 1.00 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.50 | Class | Secondary CWE |
+
+## CVE-2022-40737
+
+Source: CVE-2022-40737_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 0.90 | Variant | Primary CWE |
+| CWE-125 | Out-of-bounds Read | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-805 | Buffer Access with Incorrect Length Value | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-26660
+
+Source: CVE-2022-26660_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-321 | Use of Hard-coded Cryptographic Key | Primary | 1.00 | Variant | Primary CWE |
+| CWE-257 | Storing Passwords in a Recoverable Format | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-28776
+
+Source: CVE-2022-28776_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.80 | Pillar | Discouraged |
+| CWE-926 | Improper Export of Android Application Components | Secondary | 0.60 | Variant | Allowed |
+
+## CVE-2022-24891
+
+Source: CVE-2022-24891_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-185 | Incorrect Regular Expression | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-31574
+
+Source: CVE-2021-31574_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE. The vulnerability description states "command injection due to improper input validation" |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary CWE. The vulnerability description indicates **improper input validation** as the root cause. |
+
+## CVE-2022-24730
+
+Source: CVE-2022-24730_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Allowed |
+| CWE-284 | Improper Access Control | Secondary | 0.90 | Base | Allowed |
+
+## CVE-2022-20715
+
+Source: CVE-2022-20715_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-754 | Improper Check for Unusual or Exceptional Conditions | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-41420
+
+Source: CVE-2022-41420_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2021-43996
+
+Source: CVE-2021-43996_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.80 | Class | Primary CWE |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-32664
+
+Source: CVE-2022-32664_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary CWE |
+
+## CVE-2022-37081
+
+Source: CVE-2022-37081_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-4409
+
+Source: CVE-2022-4409_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-614 | Sensitive Cookie in HTTPS Session Without 'Secure' Attribute | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-34442
+
+Source: CVE-2022-34442_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-321 | Use of Hard-coded Cryptographic Key | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-25439
+
+Source: CVE-2022-25439_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-24697
+
+Source: CVE-2022-24697_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-36347
+
+Source: CVE-2021-36347_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-28714
+
+Source: CVE-2021-28714_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 1.00 | Base | Primary CWE |
+| CWE-789 | Memory Allocation with Excessive Size Value | Primary | 0.80 | Variant | Secondary Candidate |
+| CWE-401 | Missing Release of Memory after Effective Lifetime | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2022-40320
+
+Source: CVE-2022-40320_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 0.90 | Variant | Primary CWE |
+| CWE-125 | Out-of-bounds Read | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-45918
+
+Source: CVE-2022-45918_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-73 | External Control of File Name or Path | Primary | 1.00 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-4186
+
+Source: CVE-2022-4186_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-494 | Download of Code Without Integrity Check | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-30296
+
+Source: CVE-2022-30296_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.90 | Class | Examine children of this entry to see if there is a better fit |
+| CWE-256 | Plaintext Storage of a Password | Primary | 0.70 | Base | The application may be storing the credentials in plaintext. |
+| CWE-257 | Storing Passwords in a Recoverable Format | Primary | 0.60 | Base | The application may be storing the credentials in a recoverable format. |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Unknown | 0.50 | Class | High-level, consider more specific CWEs. |
+
+## CVE-2022-27209
+
+Source: CVE-2022-27209_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-497 | Exposure of Sensitive System Information to an Unauthorized Control Sphere | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-47012
+
+Source: CVE-2022-47012_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-457 | Use of Uninitialized Variable | Primary | 0.90 | Variant | Primary CWE |
+| CWE-908 | Use of Uninitialized Resource | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-252 | Unchecked Return Value | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-38070
+
+Source: CVE-2022-38070_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.80 | Base | Primary CWE |
+| CWE-863 | Incorrect Authorization | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-41518
+
+Source: CVE-2022-41518_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-35726
+
+Source: CVE-2022-35726_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1390 | Weak Authentication | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Discouraged |
+
+## CVE-2022-3911
+
+Source: CVE-2022-3911_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.90 | Compound | Allowed |
+| CWE-862 | Missing Authorization | Secondary | 0.90 | Class | Allowed-with-Review |
+
+## CVE-2022-25440
+
+Source: CVE-2022-25440_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-31554
+
+Source: CVE-2022-31554_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-34399
+
+Source: CVE-2022-34399_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 0.90 | Variant | Allowed |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-26051
+
+Source: CVE-2022-26051_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-285 | Improper Authorization | Primary | 0.90 | Class | Primary CWE |
+
+## CVE-2022-39355
+
+Source: CVE-2022-39355_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1390 | Weak Authentication | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-35928
+
+Source: CVE-2022-35928_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.90 | Base | Primary CWE: The **root cause** is the **lack of password length validation** before reading it. |
+| CWE-787 | Out-of-bounds Write | Primary | 0.80 | Base | Secondary CWE: The **weakness** is a **buffer overrun**, which is a type of out-of-bounds write. |
+
+## CVE-2021-0127
+
+Source: CVE-2021-0127_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-691 | Insufficient Control Flow Management | Primary | 0.80 | Pillar | Allowed-with-Review |
+
+## CVE-2022-35513
+
+Source: CVE-2022-35513_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-326 | Inadequate Encryption Strength | Primary | 0.90 | Base | Primary CWE for **weak password encryption** |
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 0.90 | Base | Secondary CWE for **insecure method of storage** |
+
+## CVE-2022-20585
+
+Source: CVE-2022-20585_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | The vulnerability is due to **improper input validation**. |
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Primary | 0.70 | Base | Input validation is missing for an index, position, or offset. |
+
+## CVE-2022-2793
+
+Source: CVE-2022-2793_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-353 | Missing Support for Integrity Check | Primary | 1.00 | Base | Primary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-33750
+
+Source: CVE-2022-33750_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 0.80 | Class | Discouraged |
+| CWE-305 | Authentication Bypass by Primary Weakness | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-1794
+
+Source: CVE-2022-1794_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-256 | Plaintext Storage of a Password | Primary | 1.00 | Base | Allowed |
+| CWE-312 | Cleartext Storage of Sensitive Information | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-26121
+
+Source: CVE-2022-26121_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-668 | Exposure of Resource to Wrong Sphere | Primary | 0.90 | Class | Discouraged due to its high-level nature, but directly referenced in the vulnerability description. |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Discouraged as it often represents the impact, but relevant as unauthorized access leads to potential sensitive data exposure. |
+| CWE-497 | Exposure of Sensitive System Information to an Unauthorized Control Sphere | Secondary | 0.60 | Base | Allowed, but less specific than CWE-668 as it focuses on system-level information, whereas the vulnerability involves report template images. |
+
+## CVE-2022-39376
+
+Source: CVE-2022-39376_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | Primary | 0.80 | Base | Allowed |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-2422
+
+Source: CVE-2022-2422_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-48125
+
+Source: CVE-2022-48125_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-4700
+
+Source: CVE-2022-4700_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-285 | Improper Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-862 | Missing Authorization | Secondary | 0.80 | Class | Allowed-with-Review |
+
+## CVE-2022-23471
+
+Source: CVE-2022-23471_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-401 | Missing Release of Memory after Effective Lifetime | Primary | 0.90 | Variant | Allowed |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.70 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2021-26624
+
+Source: CVE-2021-26624_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-88 | Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') | Primary | 0.90 | Base | Primary CWE |
+| CWE-250 | Execution with Unnecessary Privileges | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-36668
+
+Source: CVE-2021-36668_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-1022 | Use of Web Link to Untrusted Target with window.opener Access | Secondary | 0.70 | Variant | Allowed |
+
+## CVE-2022-45597
+
+Source: CVE-2022-45597_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-295 | Improper Certificate Validation | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-0950
+
+Source: CVE-2022-0950_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 1.00 | Base | Primary CWE |
+| CWE-184 | Incomplete List of Disallowed Inputs | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-646 | Reliance on File Name or Extension of Externally-Supplied File | Primary | 0.60 | Variant | Secondary Candidate |
+
+## CVE-2022-20037
+
+Source: CVE-2022-20037_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 0.90 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.40 | Class | Discouraged |
+
+## CVE-2022-20775
+
+Source: CVE-2022-20775_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.90 | Base | Primary CWE |
+| CWE-269 | Improper Privilege Management | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-38757
+
+Source: CVE-2022-38757_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-269 | Improper Privilege Management | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-2675
+
+Source: CVE-2022-2675_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.80 | Base | Primary CWE |
+| CWE-287 | Improper Authentication | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2021-0214
+
+Source: CVE-2021-0214_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.80 | Class | Discouraged: but best fit based on available information |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.60 | Base | Allowed: but not the best fit |
+
+## CVE-2022-30542
+
+Source: CVE-2022-30542_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 1.00 | Base | Allowed |
+| CWE-269 | Improper Privilege Management | Secondary | 0.75 | Class | Allowed-with-Review |
+
+## CVE-2022-31206
+
+Source: CVE-2022-31206_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-347 | Improper Verification of Cryptographic Signature | Primary | 0.90 | Base | Allowed |
+| CWE-345 | Insufficient Verification of Data Authenticity | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-33253
+
+Source: CVE-2022-33253_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 1.00 | Variant | Primary CWE |
+| CWE-125 | Out-of-bounds Read | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-43527
+
+Source: CVE-2021-43527_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.90 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Allowed |
+
+## CVE-2022-20132
+
+Source: CVE-2022-20132_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 1.00 | Base | - |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | - |
+
+## CVE-2021-37116
+
+Source: CVE-2021-37116_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-657 | Violation of Secure Design Principles | Primary | 0.80 | Class | Allowed-with-Review |
+
+## CVE-2022-33692
+
+Source: CVE-2022-33692_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-532 | Insertion of Sensitive Information into Log File | Primary | 1.00 | Base | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-4219
+
+Source: CVE-2021-4219_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.80 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.60 | Class | Secondary CWE |
+
+## CVE-2022-22656
+
+Source: CVE-2022-22656_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 0.80 | Class | Discouraged, but selected due to the explicit mention of an **authentication issue** in the vulnerability description. |
+| CWE-667 | Improper Locking | Secondary | 0.50 | Class | Allowed-with-Review. Considered due to potential issues related to resource state and concurrent access. |
+
+## CVE-2022-40022
+
+Source: CVE-2022-40022_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-45414
+
+Source: CVE-2022-45414_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-610 | Externally Controlled Reference to a Resource in Another Sphere | Primary | 0.80 | Class | This is the Primary CWE because it identifies the root cause of the vulnerability: Thunderbird uses an externally controlled reference (the URL in the VIDEO or OBJECT tag) that resolves to a resource outside of its intended control sphere, leading to the loading of remote content despite settings to block it. |
+| CWE-184 | Incomplete List of Disallowed Inputs | Primary | 0.60 | Base | This is a secondary CWE because the vulnerability could be viewed as Thunderbird having an incomplete list of disallowed inputs, specifically failing to block the loading of remote content from VIDEO and OBJECT tags in quoted emails. |
+
+## CVE-2022-38683
+
+Source: CVE-2022-38683_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-23599
+
+Source: CVE-2022-23599_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-113 | Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting') | Primary | 0.70 | Variant | Secondary Candidate |
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.60 | Compound | Secondary Candidate |
+
+## CVE-2022-27576
+
+Source: CVE-2022-27576_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.75 | Class | Discouraged |
+
+## CVE-2022-34345
+
+Source: CVE-2022-34345_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 1.00 | Class | Discouraged |
+| CWE-1256 | Improper Restriction of Software Interfaces to Hardware Features | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-32747
+
+Source: CVE-2022-32747_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-290 | Authentication Bypass by Spoofing | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-0794
+
+Source: CVE-2022-0794_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-27275
+
+Source: CVE-2022-27275_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.80 | Base | Allowed |
+
+## CVE-2022-4640
+
+Source: CVE-2022-4640_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-30731
+
+Source: CVE-2022-30731_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.90 | Pillar | Discouraged |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.70 | Class | Discouraged |
+| CWE-863 | Incorrect Authorization | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-30298
+
+Source: CVE-2022-30298_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-250 | Execution with Unnecessary Privileges | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-26308
+
+Source: CVE-2022-26308_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-285 | Improper Authorization | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-0334
+
+Source: CVE-2022-0334_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-863 | Incorrect Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-3445
+
+Source: CVE-2022-3445_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-20483
+
+Source: CVE-2022-20483_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-190 | Integer Overflow or Wraparound | Primary | 0.90 | Base | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-30155
+
+Source: CVE-2022-30155_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Secondary | 0.45 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.35 | Class | Discouraged |
+
+## CVE-2022-40258
+
+Source: CVE-2022-40258_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-916 | Use of Password Hash With Insufficient Computational Effort | Primary | 1.00 | Base | Primary CWE |
+| CWE-328 | Use of Weak Hash | Primary | 0.90 | Base | Secondary Candidate |
+| CWE-1390 | Weak Authentication | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-36363
+
+Source: CVE-2022-36363_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Primary | 0.90 | Base | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.60 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-31030
+
+Source: CVE-2022-31030_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-789 | Memory Allocation with Excessive Size Value | Primary | 0.60 | Variant | Secondary Candidate |
+
+## CVE-2022-2234
+
+Source: CVE-2022-2234_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-25156
+
+Source: CVE-2022-25156_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-328 | Use of Weak Hash | Primary | 1.00 | Base | Allowed |
+| CWE-836 | Use of Password Hash Instead of Password for Authentication | Secondary | 0.70 | Base | Allowed |
+| CWE-294 | Authentication Bypass by Capture-replay | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-42999
+
+Source: CVE-2022-42999_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-21892
+
+Source: CVE-2021-21892_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.70 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-0793
+
+Source: CVE-2022-0793_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.50 | Variant | Secondary Candidate |
+
+## CVE-2022-38511
+
+Source: CVE-2022-38511_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-36296
+
+Source: CVE-2022-36296_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Primary CWE |
+| CWE-285 | Improper Authorization | Secondary | 0.50 | Class | Secondary Candidate |
+| CWE-284 | Improper Access Control | Secondary | 0.30 | Pillar | Secondary Candidate |
+
+## CVE-2022-36897
+
+Source: CVE-2022-36897_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-200 | Exposure of Sensitive Information | Secondary | 0.70 | Class | Allowed |
+
+## CVE-2022-2185
+
+Source: CVE-2022-2185_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-31511
+
+Source: CVE-2022-31511_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 0.90 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-30721
+
+Source: CVE-2022-30721_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-22934
+
+Source: CVE-2022-22934_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-325 | Missing Cryptographic Step | Primary | 0.85 | Base | Allowed |
+| CWE-345 | Insufficient Verification of Data Authenticity | Secondary | 0.65 | Class | Discouraged |
+
+## CVE-2022-4561
+
+Source: CVE-2022-4561_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-2623
+
+Source: CVE-2022-2623_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Allowed |
+| CWE-787 | CWE-787: Out-of-bounds Write | Secondary | 0.50 | Base | Allowed |
+| CWE-122 | CWE-122: Heap-based Buffer Overflow | Secondary | 0.40 | Variant | Allowed |
+
+## CVE-2022-35884
+
+Source: CVE-2022-35884_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-134 | Use of Externally-Controlled Format String | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-39409
+
+Source: CVE-2021-39409_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 1.00 | Base | Primary CWE |
+| CWE-472 | External Control of Assumed-Immutable Web Parameter | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-425 | Direct Request ('Forced Browsing') | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-21671
+
+Source: CVE-2022-21671_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-941 | Incorrectly Specified Destination in a Communication Channel | Primary | 0.95 | Base | Allowed |
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2021-20016
+
+Source: CVE-2021-20016_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2021-31676
+
+Source: CVE-2021-31676_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE: Reflected XSS vulnerability due to lack of input sanitization and output encoding. |
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Secondary CWE: Multiple instances of CSRF vulnerabilities due to missing CSRF protection mechanisms. |
+
+## CVE-2021-46020
+
+Source: CVE-2021-46020_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-822 | Untrusted Pointer Dereference | Primary | 1.00 | Base | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary Candidate |
+| CWE-125 | Out-of-bounds Read | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2021-41694
+
+Source: CVE-2021-41694_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-620 | Unverified Password Change | Primary | 0.90 | Base | Primary CWE |
+| CWE-341 | Predictable from Observable State | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-284 | Improper Access Control | Secondary | 0.30 | Pillar | Secondary Candidate |
+
+## CVE-2021-45078
+
+Source: CVE-2021-45078_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.80 | Variant | Secondary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary CWE |
+
+## CVE-2022-27128
+
+Source: CVE-2022-27128_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-285 | Improper Authorization | Primary | 0.75 | Class | Discouraged |
+| CWE-425 | Direct Request ('Forced Browsing') | Secondary | 0.60 | Base | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.50 | Class | Allowed-with-Review |
+
+## CVE-2022-23600
+
+Source: CVE-2022-23600_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-347 | Improper Verification of Cryptographic Signature | Primary | 0.90 | Base | Primary CWE |
+| CWE-1390 | Weak Authentication | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-287 | Improper Authentication | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2021-39426
+
+Source: CVE-2021-39426_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-96 | Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection') | Primary | 0.90 | Base | Primary CWE |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-184 | Incomplete List of Disallowed Inputs | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-31581
+
+Source: CVE-2022-31581_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Primary |
+| CWE-36 | Absolute Path Traversal | Primary | 0.70 | Base | Secondary |
+| CWE-73 | External Control of File Name or Path | Primary | 0.50 | Base | Secondary |
+
+## CVE-2022-35276
+
+Source: CVE-2022-35276_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Discouraged |
+
+## CVE-2021-22644
+
+Source: CVE-2021-22644_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-321 | Use of Hard-coded Cryptographic Key | Primary | 1.00 | Variant | Primary CWE |
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-259 | Use of Hard-coded Password | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2022-26495
+
+Source: CVE-2022-26495_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-190 | Integer Overflow or Wraparound | Primary | 1.00 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.90 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
+
+## CVE-2022-25165
+
+Source: CVE-2022-25165_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 0.90 | Base | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-532 | Insertion of Sensitive Information into Log File | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-28328
+
+Source: CVE-2022-28328_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.70 | Class | Discouraged |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-2947
+
+Source: CVE-2022-2947_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE. The description clearly states the vulnerability involves writing outside the intended buffer boundary. |
+| CWE-125 | Out-of-bounds Read | Primary | 0.70 | Base | Secondary CWE. The description also mentions the potential for reading outside the intended buffer boundary. |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary CWE. While the CVE summary mentions this, it's a higher-level abstraction than CWE-787 and CWE-125. |
+
+## CVE-2022-41193
+
+Source: CVE-2022-41193_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 0.80 | Variant | Primary CWE |
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.70 | Variant | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-20355
+
+Source: CVE-2022-20355_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-1287 | Improper Validation of Specified Type | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-48318
+
+Source: CVE-2022-48318_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-20503
+
+Source: CVE-2022-20503_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2022-47873
+
+Source: CVE-2022-47873_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-611 | Improper Restriction of XML External Entity Reference | Primary | 1.00 | Base | Primary CWE |
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-44366
+
+Source: CVE-2021-44366_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-1287 | Improper Validation of Specified Type of Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-29960
+
+Source: CVE-2022-29960_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-321 | Use of Hard-coded Cryptographic Key | Primary | 1.00 | Variant | Primary CWE |
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-1240 | Use of a Cryptographic Primitive with a Risky Implementation | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-37931
+
+Source: CVE-2022-37931_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 0.75 | Class | Discouraged. See analysis below. |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.75 | Base | Allowed. See analysis below. |
+
+## CVE-2022-29501
+
+Source: CVE-2022-29501_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.80 | Base | Primary CWE |
+| CWE-250 | Execution with Unnecessary Privileges | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-284 | Improper Access Control | Secondary | 0.40 | Pillar | Secondary Candidate |
+| CWE-863 | Incorrect Authorization | Primary | 0.40 | Class | Secondary Candidate |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.40 | Class | Secondary Candidate |
+
+## CVE-2022-31570
+
+Source: CVE-2022-31570_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.60 | Base | Secondary CWE |
+
+## CVE-2022-28577
+
+Source: CVE-2022-28577_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-0453
+
+Source: CVE-2022-0453_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-48365
+
+Source: CVE-2022-48365_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-266 | Incorrect Privilege Assignment | Primary | 1.00 | Base | Primary CWE |
+| CWE-863 | Incorrect Authorization | Primary | 0.70 | Class | Secondary CWE |
+
+## CVE-2022-31517
+
+Source: CVE-2022-31517_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-38598
+
+Source: CVE-2021-38598_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-290 | Authentication Bypass by Spoofing | Primary | 0.80 | Base | Primary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-33202
+
+Source: CVE-2022-33202_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 1.00 | Base | Allowed |
+
+## CVE-2021-45097
+
+Source: CVE-2021-45097_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-552 | Files or Directories Accessible to External Parties | Secondary | 0.80 | Base | Allowed |
+| CWE-256 | Plaintext Storage of a Password | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-35448
+
+Source: CVE-2022-35448_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-3880
+
+Source: CVE-2022-3880_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Allowed |
+| CWE-862 | Missing Authorization | Secondary | 0.90 | Class | Allowed-with-Review |
+
+## CVE-2021-21962
+
+Source: CVE-2021-21962_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-35260
+
+Source: CVE-2022-35260_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-193 | Off-by-one Error | Primary | 0.90 | Base | Primary CWE |
+| CWE-125 | Out-of-bounds Read | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-38567
+
+Source: CVE-2021-38567_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-476 | NULL Pointer Dereference | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-27835
+
+Source: CVE-2022-27835_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.70 | Base | Allowed |
+| CWE-823 | Use of Out-of-range Pointer Offset | Secondary | 0.60 | Base | Allowed |
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-35249
+
+Source: CVE-2022-35249_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.90 | Class | Discouraged, but the most appropriate based on the description. |
+| CWE-359 | Exposure of Private Personal Information to an Unauthorized Actor | Secondary | 0.70 | Base | Allowed, as a more specific child of CWE-200 but less descriptive. |
+
+## CVE-2022-35296
+
+Source: CVE-2022-35296_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.80 | Class | Discouraged, but selected as the best fit given the limited information. |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.60 | Class | Discouraged. |
+| CWE-213 | Exposure of Sensitive Information Due to Incompatible Policies | Secondary | 0.50 | Base | Allowed. |
+
+## CVE-2022-34411
+
+Source: CVE-2022-34411_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.80 | Base | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-24066
+
+Source: CVE-2022-24066_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-88 | Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') | Primary | 0.80 | Base | Secondary CWE |
+
+## CVE-2022-25060
+
+Source: CVE-2022-25060_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.30 | Class | Secondary Candidate |
+
+## CVE-2022-28611
+
+Source: CVE-2022-28611_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Unknown | 1.00 | Class | Allowed-with-Review |
+| CWE-269 | Improper Privilege Management | Unknown | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-0479
+
+Source: CVE-2022-0479_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Primary CWE. The root cause is the **improper sanitization and escaping** of the `sgpb-subscription-popup-id` parameter before using it in a SQL statement. |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.70 | Base | Secondary CWE. The vulnerability description mentions that the SQL injection could also be used to perform Reflected Cross-Site Scripting (XSS) attack against a logged-in admin. |
+
+## CVE-2021-45939
+
+Source: CVE-2021-45939_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.70 | Variant | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.40 | Class | Secondary Candidate |
+
+## CVE-2022-25363
+
+Source: CVE-2022-25363_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.80 | Base | Allowed |
+| CWE-267 | Privilege Defined With Unsafe Actions | Secondary | 0.70 | Base | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.50 | Class | Allowed-with-Review |
+
+## CVE-2022-1636
+
+Source: CVE-2022-1636_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2021-27783
+
+Source: CVE-2021-27783_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 0.90 | Base | Primary CWE |
+| CWE-311 | Missing Encryption of Sensitive Data | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-532 | Insertion of Sensitive Information into Log File | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-4254
+
+Source: CVE-2021-4254_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-40513
+
+Source: CVE-2022-40513_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-44741
+
+Source: CVE-2022-44741_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Primary CWE.  The vulnerability stems from a **lack of CSRF protection** in the plugin, specifically the missing nonce check. |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Secondary CWE. The CSRF vulnerability can lead to Cross-Site Scripting (XSS) because an attacker could manipulate the plugin's admin area by tricking an admin into clicking a malicious link and inputting arbitrary HTML. |
+
+## CVE-2022-37076
+
+Source: CVE-2022-37076_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-46142
+
+Source: CVE-2022-46142_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-257 | Storing Passwords in a Recoverable Format | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-3861
+
+Source: CVE-2021-3861_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Discouraged |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Secondary | 0.60 | Base | Allowed-with-Review |
+
+## CVE-2022-21934
+
+Source: CVE-2022-21934_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-620 | Unverified Password Change | Primary | 1.00 | Base | Primary CWE |
+| CWE-269 | Improper Privilege Management | Secondary | 0.50 | Class | Secondary Candidate |
+| CWE-287 | Improper Authentication | Secondary | 0.40 | Class | Secondary Candidate |
+
+## CVE-2022-33214
+
+Source: CVE-2022-33214_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 0.90 | Base | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-41806
+
+Source: CVE-2022-41806_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.80 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-47477
+
+Source: CVE-2022-47477_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.70 | Class | Allowed |
+
+## CVE-2022-42797
+
+Source: CVE-2022-42797_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Primary | 0.70 | Class | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-22543
+
+Source: CVE-2022-22543_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-38371
+
+Source: CVE-2022-38371_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-401 | Missing Release of Memory after Effective Lifetime | Primary | 1.00 | Variant | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.80 | Class | Secondary Candidate |
+
+## CVE-2022-47474
+
+Source: CVE-2022-47474_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-29831
+
+Source: CVE-2022-29831_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-259 | Use of Hard-coded Password | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-39857
+
+Source: CVE-2022-39857_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-925 | Improper Verification of Intent by Broadcast Receiver | Primary | 0.80 | Variant | Primary CWE |
+| CWE-285 | Improper Authorization | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-25130
+
+Source: CVE-2022-25130_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-26731
+
+Source: CVE-2021-26731_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.90 | Base | Allowed |
+| CWE-121 | Stack-based Buffer Overflow | Secondary | 0.90 | Variant | Allowed |
+
+## CVE-2022-35291
+
+Source: CVE-2022-35291_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-269 | Improper Privilege Management | Secondary | 0.60 | Class | Discouraged |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-33941
+
+Source: CVE-2022-33941_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-25355
+
+Source: CVE-2022-25355_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-913 | Improper Control of Dynamically-Managed Code Resources | Primary | 0.80 | Class | Primary CWE |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-113 | Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting') | Primary | 0.50 | Variant | Secondary Candidate |
+
+## CVE-2021-39023
+
+Source: CVE-2021-39023_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-209 | Generation of Error Message Containing Sensitive Information | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-46169
+
+Source: CVE-2022-46169_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.90 | Base | Allowed |
+
+## CVE-2022-1638
+
+Source: CVE-2022-1638_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-20043
+
+Source: CVE-2022-20043_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 1.00 | Class | Primary CWE |
+| CWE-862 | Missing Authorization | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-250 | Execution with Unnecessary Privileges | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-0465
+
+Source: CVE-2022-0465_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-31567
+
+Source: CVE-2022-31567_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-46634
+
+Source: CVE-2022-46634_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-31558
+
+Source: CVE-2022-31558_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Primary CWE. The description clearly indicates a failure to properly restrict pathnames, allowing traversal outside the intended directory. |
+| CWE-36 | Absolute Path Traversal | Primary | 0.90 | Base | Secondary CWE. The vulnerability involves the use of absolute paths in the traversal. |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary CWE. User input influences the file name or path used in filesystem operations. |
+
+## CVE-2021-30116
+
+Source: CVE-2021-30116_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.90 | Base | Primary CWE |
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-37163
+
+Source: CVE-2022-37163_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-759 | Use of a One-Way Hash without a Salt | Primary | 1.00 | Variant | Allowed |
+| CWE-307 | Improper Restriction of Excessive Authentication Attempts | Secondary | 0.80 | Base | Allowed |
+| CWE-1390 | Weak Authentication | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2021-20147
+
+Source: CVE-2021-20147_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-204 | Observable Response Discrepancy | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-27102
+
+Source: CVE-2021-27102_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-30187
+
+Source: CVE-2022-30187_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-311 | Missing Encryption of Sensitive Data | Secondary | 0.40 | Class | Discouraged |
+
+## CVE-2022-23508
+
+Source: CVE-2022-23508_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-552 | Files or Directories Accessible to External Parties | Primary | 0.90 | Base | Primary CWE. The local S3 bucket was accessible to unauthorized local users. |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary CWE. The endpoint had no security controls to block unauthorized access. |
+
+## CVE-2022-22559
+
+Source: CVE-2022-22559_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-1240 | Use of a Cryptographic Primitive with a Risky Implementation | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-29906
+
+Source: CVE-2022-29906_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | The product does not perform an authorization check when an actor attempts to access a resource or perform an action. |
+
+## CVE-2022-43563
+
+Source: CVE-2022-43563_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.80 | Base | Primary CWE. The vulnerability allows an attacker to bypass SPL safeguards and execute risky commands, which aligns with the nature of OS Command Injection. |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Primary | 0.60 | Base | Secondary CWE. The `rex` command's handling of field names allows bypassing safeguards, indicating reliance on untrusted input for security decisions. |
+
+## CVE-2022-30310
+
+Source: CVE-2022-30310_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE: The vulnerability allows execution of arbitrary OS commands due to **improper neutralization** of special elements. |
+| CWE-863 | Incorrect Authorization | Primary | 0.70 | Class | Secondary CWE: The vulnerability involves **improper access control**, which can be seen as a form of incorrect authorization. |
+
+## CVE-2022-21128
+
+Source: CVE-2022-21128_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-691 | Insufficient Control Flow Management | Primary | 0.75 | Pillar | Discouraged |
+| CWE-269 | Improper Privilege Management | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2021-46023
+
+Source: CVE-2021-46023_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-822 | Untrusted Pointer Dereference | Primary | 0.90 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-33700
+
+Source: CVE-2022-33700_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-532 | Insertion of Sensitive Information into Log File | Primary | 1.00 | Base | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-38817
+
+Source: CVE-2022-38817_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Primary CWE |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Secondary Candidate |
+
+## CVE-2021-43404
+
+Source: CVE-2021-43404_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.90 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Base | Allowed |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-34571
+
+Source: CVE-2022-34571_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-425 | Direct Request ('Forced Browsing') | Primary | 1.00 | Base | Primary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-0885
+
+Source: CVE-2022-0885_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-46597
+
+Source: CVE-2022-46597_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-40881
+
+Source: CVE-2022-40881_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | **Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')** | Primary | 1.00 | Base | Allowed |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-184 | Incomplete List of Disallowed Inputs | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-30683
+
+Source: CVE-2022-30683_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-657 | Violation of Secure Design Principles | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2022-25372
+
+Source: CVE-2022-25372_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-277 | Insecure Inherited Permissions | Primary | 0.85 | Variant | Primary CWE |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.75 | Class | Secondary Candidate |
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.65 | Base | Secondary Candidate |
+
+## CVE-2022-30473
+
+Source: CVE-2022-30473_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Secondary | 0.70 | Base | Allowed-with-Review |
+| CWE-676 | Use of Potentially Dangerous Function | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-31311
+
+Source: CVE-2022-31311_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-38689
+
+Source: CVE-2022-38689_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Primary CWE |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Primary | 0.60 | Class | Secondary CWE Candidate |
+
+## CVE-2022-25716
+
+Source: CVE-2022-25716_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Primary CWE |
+| CWE-823 | Use of Out-of-range Pointer Offset | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-22557
+
+Source: CVE-2022-22557_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-256 | Plaintext Storage of a Password | Primary | 1.00 | Base | Allowed |
+| CWE-312 | Cleartext Storage of Sensitive Information | Secondary | 0.70 | Base | Allowed |
+| CWE-522 | Insufficiently Protected Credentials | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-30601
+
+Source: CVE-2022-30601_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.90 | Class | Primary CWE |
+| CWE-287 | Improper Authentication | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-20750
+
+Source: CVE-2022-20750_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.75 | Class | Discouraged |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-3049
+
+Source: CVE-2022-3049_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-3330
+
+Source: CVE-2022-3330_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.90 | Base | Primary CWE |
+| CWE-863 | Incorrect Authorization | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-21891
+
+Source: CVE-2021-21891_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.70 | Base | Allowed |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Secondary | 0.60 | Base | Allowed-with-Review |
+
+## CVE-2022-34568
+
+Source: CVE-2022-34568_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Allowed |
+| CWE-825 | Expired Pointer Dereference | Secondary | 0.50 | Base | Allowed |
+| CWE-672 | Operation on a Resource after Expiration or Release | Secondary | 0.50 | Class | Allowed |
+
+## CVE-2022-42778
+
+Source: CVE-2022-42778_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Primary CWE |
+| CWE-279 | Incorrect Execution-Assigned Permissions | Primary | 0.60 | Variant | Secondary Candidate |
+
+## CVE-2022-30957
+
+Source: CVE-2022-30957_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE. The product does not perform an authorization check when an actor attempts to access a resource or perform an action. |
+
+## CVE-2022-36226
+
+Source: CVE-2022-36226_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-425 | Direct Request ('Forced Browsing') | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-22462
+
+Source: CVE-2022-22462_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 0.90 | Class | Primary CWE. The product uses weaker than expected cryptographic algorithms. |
+| CWE-1240 | Use of a Cryptographic Primitive with a Risky Implementation | Primary | 0.70 | Base | Secondary Candidate. The vulnerability description indicates the use of a potentially risky cryptographic implementation, but it does not provide specific details. |
+| CWE-326 | Inadequate Encryption Strength | Primary | 0.60 | Class | Secondary Candidate. This CWE is related to using encryption that is not strong enough, which aligns with the description of weaker than expected cryptographic algorithms. |
+
+## CVE-2022-35108
+
+Source: CVE-2022-35108_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 0.80 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.60 | Base | Allowed |
+| CWE-476 | NULL Pointer Dereference | Secondary | 0.50 | Base | Allowed |
+| CWE-401 | Missing Release of Memory after Effective Lifetime | Secondary | 0.40 | Variant | Allowed |
+
+## CVE-2021-33115
+
+Source: CVE-2021-33115_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.75 | Class | Discouraged |
+
+## CVE-2022-24682
+
+Source: CVE-2022-24682_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Allowed |
+| CWE-80 | Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) | Secondary | 0.80 | Variant | Allowed |
+
+## CVE-2022-20017
+
+Source: CVE-2022-20017_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.70 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-22675
+
+Source: CVE-2022-22675_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+
+## CVE-2021-0350
+
+Source: CVE-2021-0350_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.75 | Class | Discouraged |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-0915
+
+Source: CVE-2022-0915_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-36565
+
+Source: CVE-2022-36565_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.90 | Class | Primary CWE |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Secondary Candidate |
+
+## CVE-2022-28651
+
+Source: CVE-2022-28651_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-497 | Exposure of Sensitive System Information to an Unauthorized Control Sphere | Primary | 0.75 | Base | Primary CWE |
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-24952
+
+Source: CVE-2022-24952_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption ('Denial of Service') | Primary | 0.70 | Class | Allowed-with-Review |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.60 | Base | Allowed |
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-27633
+
+Source: CVE-2022-27633_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Primary | 0.90 | Base | Primary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-33286
+
+Source: CVE-2022-33286_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-45090
+
+Source: CVE-2022-45090_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-34179
+
+Source: CVE-2022-34179_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-23 | Relative Path Traversal | Primary | 1.00 | Base | Allowed |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-23505
+
+Source: CVE-2022-23505_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-347 | Improper Verification of Cryptographic Signature | Primary | 1.00 | Base | Primary CWE |
+| CWE-287 | Improper Authentication | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-27772
+
+Source: CVE-2022-27772_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-377 | Insecure Temporary File | Primary | 0.90 | Class | Allowed-with-Review, examine children for a better fit |
+| CWE-379 | Creation of Temporary File in Directory with Insecure Permissions | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-31564
+
+Source: CVE-2022-31564_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Allowed |
+| CWE-36 | Absolute Path Traversal | Secondary | 0.90 | Base | Allowed |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-41176
+
+Source: CVE-2022-41176_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-401 | Missing Release of Memory after Effective Lifetime | Primary | 0.80 | Variant | Primary CWE |
+
+## CVE-2022-47935
+
+Source: CVE-2022-47935_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-26252
+
+Source: CVE-2021-26252_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.80 | Variant | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-34830
+
+Source: CVE-2022-34830_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 1.00 | Base | Allowed |
+| CWE-416 | Use After Free | Secondary | 0.40 | Variant | Allowed |
+
+## CVE-2022-31624
+
+Source: CVE-2022-31624_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-833 | Deadlock | Primary | 0.90 | Base | Primary CWE |
+| CWE-667 | Improper Locking | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-47476
+
+Source: CVE-2022-47476_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2022-3250
+
+Source: CVE-2022-3250_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-614 | Sensitive Cookie in HTTPS Session Without 'Secure' Attribute | Primary | 1.00 | Variant | Primary CWE |
+| CWE-319 | Cleartext Transmission of Sensitive Information | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-1275 | Sensitive Cookie with Improper SameSite Attribute | Primary | 0.60 | Variant | Secondary Candidate |
+
+## CVE-2021-31955
+
+Source: CVE-2021-31955_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Information Exposure | Primary | 0.70 | Class | Allowed-with-Review |
+| CWE-226 | Sensitive Information in Resource Not Removed Before Reuse | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-20723
+
+Source: CVE-2022-20723_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.90 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Discouraged |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-2742
+
+Source: CVE-2022-2742_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Allowed |
+
+## CVE-2022-31090
+
+Source: CVE-2022-31090_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-212 | Improper Removal of Sensitive Information Before Storage or Transfer | Primary | 0.90 | Base | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-25818
+
+Source: CVE-2022-25818_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 0.80 | Base | Primary CWE |
+| CWE-823 | Use of Out-of-range Pointer Offset | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-34794
+
+Source: CVE-2022-34794_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Secondary | 0.70 | Compound | Allowed |
+
+## CVE-2021-46324
+
+Source: CVE-2021-46324_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.80 | Variant | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-33113
+
+Source: CVE-2021-33113_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2021-4093
+
+Source: CVE-2021-4093_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.70 | Base | Allowed |
+| CWE-131 | Incorrect Calculation of Buffer Size | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-22988
+
+Source: CVE-2022-22988_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 1.00 | Class | Primary CWE |
+| CWE-277 | Insecure Inherited Permissions | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2022-28701
+
+Source: CVE-2022-28701_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.80 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2021-44358
+
+Source: CVE-2021-44358_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1287 | Improper Validation of Specified Type of Input | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-4439
+
+Source: CVE-2022-4439_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-26904
+
+Source: CVE-2022-26904_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1386 | Insecure Operation on Windows Junction / Mount Point | Primary | 0.70 | Base | Primary CWE |
+| CWE-59 | Improper Link Resolution Before File Access ('Link Following') | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-25211
+
+Source: CVE-2022-25211_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-319 | Cleartext Transmission of Sensitive Information | Secondary | 0.40 | Base | Allowed |
+
+## CVE-2021-0679
+
+Source: CVE-2021-0679_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-703 | Improper Check or Handling of Exceptional Conditions | Secondary | 0.70 | Pillar | Secondary Candidate |
+
+## CVE-2022-2399
+
+Source: CVE-2022-2399_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2021-40017
+
+Source: CVE-2021-40017_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1286 | Improper Validation of Syntactic Correctness of Input | Primary | 0.90 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-34596
+
+Source: CVE-2022-34596_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.75 | Class | Secondary Candidate |
+
+## CVE-2022-46832
+
+Source: CVE-2022-46832_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-1240 | Use of a Cryptographic Primitive with a Risky Implementation | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-30743
+
+Source: CVE-2022-30743_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.80 | Class | Discouraged |
+| CWE-285 | Improper Authorization | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-38677
+
+Source: CVE-2022-38677_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-30150
+
+Source: CVE-2022-30150_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-26762
+
+Source: CVE-2022-26762_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-39959
+
+Source: CVE-2022-39959_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-428 | Unquoted Search Path or Element | Primary | 1.00 | Base | Primary CWE |
+| CWE-427 | Uncontrolled Search Path Element | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-24664
+
+Source: CVE-2022-24664_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-96 | Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection') | Primary | 0.90 | Base | Primary CWE |
+| CWE-425 | Direct Request ('Forced Browsing') | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-24986
+
+Source: CVE-2022-24986_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 0.80 | Base | Primary CWE: The vulnerability involves a race condition where the state of a temporary file is checked before use, but can be altered by an attacker in between, leading to unauthorized command execution. |
+| CWE-379 | Creation of Temporary File in Directory with Insecure Permissions | Primary | 0.70 | Base | Secondary CWE: The vulnerability involves the creation of a temporary file with insecure permissions in a shared directory (/tmp), enabling unauthorized access and modification. |
+
+## CVE-2022-24440
+
+Source: CVE-2022-24440_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-88 | Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-3740
+
+Source: CVE-2022-3740_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-35943
+
+Source: CVE-2022-35943_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Primary CWE |
+| CWE-942 | Permissive Cross-domain Policy with Untrusted Domains | Primary | 0.75 | Variant | Secondary Candidate |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.65 | Base | Secondary Candidate |
+
+## CVE-2022-34146
+
+Source: CVE-2022-34146_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.90 | Base | Allowed |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.60 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-1543
+
+Source: CVE-2022-1543_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-130 | Improper Handling of Length Parameter Inconsistency | Primary | 0.90 | Base | Primary CWE |
+| CWE-789 | Memory Allocation with Excessive Size Value | Primary | 0.70 | Variant | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-1240
+
+Source: CVE-2022-1240_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 0.90 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.60 | Variant | Allowed |
+
+## CVE-2022-22080
+
+Source: CVE-2022-22080_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Primary | 0.80 | Base | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.40 | Class | Secondary Candidate |
+
+## CVE-2022-27891
+
+Source: CVE-2022-27891_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Allowed |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-0455
+
+Source: CVE-2022-0455_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1021 | Improper Restriction of Rendered UI Layers or Frames | Primary | 0.80 | Base | Primary CWE |
+| CWE-451 | User Interface (UI) Misrepresentation of Critical Information | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-29644
+
+Source: CVE-2022-29644_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-259 | Use of Hard-coded Password | Primary | 1.00 | Variant | Primary CWE |
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-1392 | Use of Default Credentials | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-41736
+
+Source: CVE-2021-41736_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-29395
+
+Source: CVE-2022-29395_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.70 | Base | Secondary Candidate. Considered because of the buffer copy operation, but CWE-121 is a better fit. |
+
+## CVE-2022-31102
+
+Source: CVE-2022-31102_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-45833
+
+Source: CVE-2021-45833_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-41770
+
+Source: CVE-2022-41770_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary CWE |
+
+## CVE-2022-33704
+
+Source: CVE-2022-33704_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+
+## CVE-2022-37164
+
+Source: CVE-2022-37164_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-916 | Use of Password Hash With Insufficient Computational Effort | Primary | 1.00 | Base | Primary CWE |
+| CWE-307 | Improper Restriction of Excessive Authentication Attempts | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-28471
+
+Source: CVE-2022-28471_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-190 | Integer Overflow or Wraparound | Primary | 1.00 | Base | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.80 | Base | Secondary CWE |
+
+## CVE-2022-35243
+
+Source: CVE-2022-35243_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-269 | Improper Privilege Management | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-44715
+
+Source: CVE-2022-44715_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 1.00 | Class | Primary CWE |
+| CWE-276 | Incorrect Default Permissions | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-35244
+
+Source: CVE-2022-35244_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-134 | Use of Externally-Controlled Format String | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-4366
+
+Source: CVE-2022-4366_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Primary CWE |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Secondary Candidate |
+| CWE-863 | Incorrect Authorization | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-28799
+
+Source: CVE-2021-28799_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.70 | Pillar | Discouraged |
+
+## CVE-2022-29204
+
+Source: CVE-2022-29204_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 1.00 | Base | Allowed |
+| CWE-617 | Reachable Assertion | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-1232
+
+Source: CVE-2022-1232_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Primary | 1.00 | Base | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary CWE |
+
+## CVE-2022-46351
+
+Source: CVE-2022-46351_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2022-27548
+
+Source: CVE-2022-27548_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-256 | Plaintext Storage of a Password | Primary | 1.00 | Base | Primary CWE |
+| CWE-313 | Cleartext Storage in a File or on Disk | Primary | 0.70 | Variant | Secondary Candidate |
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-38687
+
+Source: CVE-2022-38687_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-25402
+
+Source: CVE-2022-25402_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-285 | Improper Authorization | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-862 | Missing Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-33314
+
+Source: CVE-2022-33314_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-26413
+
+Source: CVE-2022-26413_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-25658
+
+Source: CVE-2022-25658_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-823 | Use of Out-of-range Pointer Offset | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-20084
+
+Source: CVE-2022-20084_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-29633
+
+Source: CVE-2022-29633_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-784 | Reliance on Cookies without Validation and Integrity Checking in a Security Decision | Primary | 0.70 | Variant | Primary CWE |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-284 | Improper Access Control | Secondary | 0.40 | Pillar | Secondary Candidate |
+
+## CVE-2022-35881
+
+Source: CVE-2022-35881_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-134 | Use of Externally-Controlled Format String | Primary | 1.00 | Base | Primary CWE |
+| CWE-125 | Out-of-bounds Read | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-31539
+
+Source: CVE-2022-31539_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 0.90 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-39666
+
+Source: CVE-2021-39666_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 0.90 | Base | Allowed |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-30736
+
+Source: CVE-2022-30736_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.90 | Class | Discouraged |
+| CWE-285 | Improper Authorization | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-20219
+
+Source: CVE-2022-20219_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 0.80 | Base | Primary CWE |
+| CWE-252 | Unchecked Return Value | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-223 | Omission of Security-relevant Information | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-29815
+
+Source: CVE-2022-29815_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.75 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-37435
+
+Source: CVE-2022-37435_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.80 | Class | Primary CWE |
+| CWE-269 | Improper Privilege Management | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-3471
+
+Source: CVE-2022-3471_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | **Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')** | Primary | 1.00 | Base | Allowed |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-21169
+
+Source: CVE-2022-21169_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1321 | Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') | Primary | 1.00 | Variant | Primary CWE |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-0457
+
+Source: CVE-2022-0457_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Primary | 1.00 | Base | Primary CWE |
+| CWE-416 | Use After Free | Primary | 0.50 | Variant | Secondary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.30 | Base | Secondary CWE |
+
+## CVE-2022-3818
+
+Source: CVE-2022-3818_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.60 | Base | Allowed |
+| CWE-1333 | Inefficient Regular Expression Complexity | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-27941
+
+Source: CVE-2022-27941_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-1944
+
+Source: CVE-2022-1944_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Discouraged |
+
+## CVE-2022-3400
+
+Source: CVE-2022-3400_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-863 | Incorrect Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-25369
+
+Source: CVE-2021-25369_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.80 | Pillar | Discouraged |
+| CWE-532 | Insertion of Sensitive Information into Log File | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-23842
+
+Source: CVE-2021-23842_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-321 | Use of Hard-coded Cryptographic Key | Primary | 1.00 | Variant | Primary CWE |
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-39892
+
+Source: CVE-2022-39892_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-285 | Improper Authorization | Primary | 0.90 | Class | Discouraged |
+| CWE-863 | Incorrect Authorization | Secondary | 0.80 | Class | Allowed-with-Review |
+
+## CVE-2021-40604
+
+Source: CVE-2021-40604_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-502 | Deserialization of Untrusted Data | Primary | 1.00 | Base | Primary CWE |
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 0.90 | Base | Secondary Candidate |
+
+## CVE-2022-25435
+
+Source: CVE-2022-25435_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2021-30267
+
+Source: CVE-2021-30267_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-190 | Integer Overflow or Wraparound | Primary | 0.90 | Base | Primary CWE |
+| CWE-131 | Incorrect Calculation of Buffer Size | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-43686
+
+Source: CVE-2022-43686_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.80 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-41010
+
+Source: CVE-2022-41010_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.80 | Base | Secondary CWE |
+
+## CVE-2022-3644
+
+Source: CVE-2022-3644_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 1.00 | Base | Primary CWE. The vulnerability description states that tokens are stored in plaintext, which directly matches the CWE's description. |
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Primary | 0.50 | Base | Secondary CWE. The vulnerability description says the plaintext tokens are exposed in read/write mode via the API. |
+
+## CVE-2022-25622
+
+Source: CVE-2022-25622_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.80 | Class | Discouraged |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-1407
+
+Source: CVE-2022-1407_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Allowed |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Secondary | 1.00 | Base | Allowed |
+
+## CVE-2022-38684
+
+Source: CVE-2022-38684_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.40 | Base | Secondary Candidate |
+
+## CVE-2022-35460
+
+Source: CVE-2022-35460_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-31502
+
+Source: CVE-2022-31502_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 0.90 | Base | Allowed |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Secondary | 0.70 | Base | Allowed |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-29897
+
+Source: CVE-2022-29897_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-0106
+
+Source: CVE-2022-0106_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.50 | Variant | Secondary Candidate |
+
+## CVE-2022-26102
+
+Source: CVE-2022-26102_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-28052
+
+Source: CVE-2021-28052_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-26134
+
+Source: CVE-2022-26134_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-917 | Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-24065
+
+Source: CVE-2022-24065_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-88 | Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-39119
+
+Source: CVE-2022-39119_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Primary CWE |
+
+## CVE-2022-42777
+
+Source: CVE-2022-42777_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-279 | Incorrect Execution-Assigned Permissions | Secondary | 0.50 | Variant | Allowed |
+
+## CVE-2022-23795
+
+Source: CVE-2022-23795_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-305 | Authentication Bypass by Primary Weakness | Primary | 0.80 | Base | Primary CWE |
+| CWE-1390 | Weak Authentication | Primary | 0.60 | Class | Secondary Candidate |
+| CWE-287 | Improper Authentication | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-0417
+
+Source: CVE-2021-0417_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-44676
+
+Source: CVE-2021-44676_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-425 | Direct Request ('Forced Browsing') | Primary | 0.85 | Base | Primary CWE |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.65 | Base | Secondary Candidate |
+
+## CVE-2022-1066
+
+Source: CVE-2022-1066_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-522 | Insufficiently Protected Credentials | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-20221
+
+Source: CVE-2022-20221_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 1.00 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.75 | Class | Discouraged |
+
+## CVE-2021-25947
+
+Source: CVE-2021-25947_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1321 | Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-34298
+
+Source: CVE-2022-34298_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 0.75 | Class | Discouraged |
+| CWE-290 | Authentication Bypass by Spoofing | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-2141
+
+Source: CVE-2022-2141_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Primary CWE |
+| CWE-287 | Improper Authentication | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-26639
+
+Source: CVE-2021-26639_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.70 | Class | Discouraged: Consider lower-level children. |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Secondary | 0.60 | Base | Allowed: Could be a potential impact if the lack of validation allows access outside the intended directory. |
+| CWE-425 | Direct Request ('Forced Browsing') | Secondary | 0.50 | Base | Allowed: Could be a potential impact if the lack of validation allows direct access to restricted resources. |
+
+## CVE-2022-23437
+
+Source: CVE-2022-23437_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-835 | Loop with Unreachable Exit Condition ('Infinite Loop') | Primary | 1.00 | Base | Allowed |
+| CWE-776 | Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion') | Secondary | 0.50 | Base | Allowed |
+| CWE-674 | Uncontrolled Recursion | Secondary | 0.40 | Class | Allowed-with-Review |
+
+## CVE-2021-43754
+
+Source: CVE-2021-43754_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-31701
+
+Source: CVE-2022-31701_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Primary CWE |
+| CWE-497 | Exposure of Sensitive System Information to an Unauthorized Control Sphere | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-42138
+
+Source: CVE-2021-42138_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-331 | Insufficient Entropy | Primary | 0.90 | Base | Allowed |
+
+## CVE-2021-21947
+
+Source: CVE-2021-21947_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-34919
+
+Source: CVE-2022-34919_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Allowed |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Secondary | 0.90 | Base | Allowed |
+
+## CVE-2022-37438
+
+Source: CVE-2022-37438_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Primary | 0.90 | Base | Allowed |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-20525
+
+Source: CVE-2022-20525_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.80 | Class | Primary CWE |
+| CWE-209 | Generation of Error Message Containing Sensitive Information | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-2598
+
+Source: CVE-2022-2598_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Allowed |
+
+## CVE-2022-34377
+
+Source: CVE-2022-34377_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.80 | Base | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2021-38703
+
+Source: CVE-2021-38703_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.90 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-28858
+
+Source: CVE-2022-28858_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Primary | 0.70 | Class | Discouraged usage, but chosen due to the high-level nature of the description. |
+
+## CVE-2021-44828
+
+Source: CVE-2021-44828_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-269 | Improper Privilege Management | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-39294
+
+Source: CVE-2022-39294_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 1.00 | Base | Primary CWE |
+| CWE-789 | Memory Allocation with Excessive Size Value | Primary | 0.80 | Variant | Secondary Candidate |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-45488
+
+Source: CVE-2021-45488_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-330 | Use of Insufficiently Random Values | Primary | 0.90 | Class | Allowed |
+| CWE-338 | Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG) | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-3060
+
+Source: CVE-2022-3060_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-24 | Path Traversal: '../filedir' | Primary | 1.00 | Variant | Primary CWE |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-863 | Incorrect Authorization | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-0903
+
+Source: CVE-2022-0903_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-674 | Uncontrolled Recursion | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-0523
+
+Source: CVE-2022-0523_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-42534
+
+Source: CVE-2022-42534_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | The vulnerability description explicitly mentions "improper input validation" as the root cause. |
+
+## CVE-2022-20923
+
+Source: CVE-2022-20923_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-303 | Incorrect Implementation of Authentication Algorithm | Primary | 1.00 | Base | Primary CWE |
+| CWE-287 | Improper Authentication | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-1390 | Weak Authentication | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-22519
+
+Source: CVE-2022-22519_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-26290
+
+Source: CVE-2022-26290_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-21193
+
+Source: CVE-2021-21193_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-41882
+
+Source: CVE-2022-41882_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.80 | Base | Primary CWE |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.60 | Class | Secondary CWE |
+
+## CVE-2021-41278
+
+Source: CVE-2021-41278_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 1.00 | Class | Primary CWE |
+| CWE-1240 | Use of a Cryptographic Primitive with a Risky Implementation | Primary | 0.90 | Base | Secondary Candidate |
+| CWE-1204 | Generation of Weak Initialization Vector (IV) | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-21773
+
+Source: CVE-2022-21773_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | Primary | 0.90 | Class | Allowed-with-Review: This CWE entry is a Class and might have Base-level children that would be more appropriate |
+| CWE-416 | Use After Free | Secondary | 0.80 | Variant | Allowed: This CWE entry is at the Variant level of abstraction, which is a preferred level of abstraction for mapping to the root causes of vulnerabilities. |
+
+## CVE-2022-27669
+
+Source: CVE-2022-27669_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.75 | Base | Allowed |
+
+## CVE-2021-1624
+
+Source: CVE-2021-1624_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-799 | Improper Control of Interaction Frequency | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-41028
+
+Source: CVE-2022-41028_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-20315
+
+Source: CVE-2022-20315_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Primary CWE |
+| CWE-223 | Omission of Security-relevant Information | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-0833
+
+Source: CVE-2022-0833_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.90 | Compound | Allowed |
+| CWE-862 | Missing Authorization | Secondary | 0.90 | Class | Allowed-with-Review |
+| CWE-530 | Exposure of Backup File to an Unauthorized Control Sphere | Secondary | 0.70 | Variant | Allowed |
+
+## CVE-2022-33689
+
+Source: CVE-2022-33689_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | **Missing Authorization** | Primary | 0.90 | Base | Allowed |
+| CWE-285 | Improper Authorization | Secondary | 0.70 | Class | Discouraged |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Discouraged |
+
+## CVE-2022-31571
+
+Source: CVE-2022-31571_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-39114
+
+Source: CVE-2022-39114_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.50 | Base | Secondary Candidate |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-41168
+
+Source: CVE-2022-41168_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 0.90 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary CWE Candidate |
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.60 | Variant | Secondary CWE Candidate |
+
+## CVE-2021-43267
+
+Source: CVE-2021-43267_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.95 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.85 | Base | Allowed |
+
+## CVE-2021-4056
+
+Source: CVE-2021-4056_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-843 | Access of Resource Using Incompatible Type ('Type **Confusion**') | Primary | 1.00 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-34838
+
+Source: CVE-2022-34838_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-257 | Storing Passwords in a Recoverable Format | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-1133
+
+Source: CVE-2022-1133_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-41254
+
+Source: CVE-2022-41254_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-319 | Cleartext Transmission of Sensitive Information | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-4932
+
+Source: CVE-2022-4932_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-22303
+
+Source: CVE-2022-22303_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-497 | Exposure of Sensitive System Information to an Unauthorized Control Sphere | Primary | 1.00 | Base | Allowed |
+| CWE-522 | Insufficiently Protected Credentials | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2021-40824
+
+Source: CVE-2021-40824_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-322 | Key Exchange without Entity Authentication | Primary | 0.90 | Base | Primary CWE |
+| CWE-290 | Authentication Bypass by Spoofing | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-34488
+
+Source: CVE-2022-34488_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Primary | 0.70 | Class | Primary CWE |
+
+## CVE-2022-3770
+
+Source: CVE-2022-3770_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-34407
+
+Source: CVE-2022-34407_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.80 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-32249
+
+Source: CVE-2022-32249_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-668 | Exposure of Resource to Wrong Sphere | Primary | 0.75 | Class | Discouraged |
+| CWE-213 | Exposure of Sensitive Information Due to Incompatible Policies | Secondary | 0.50 | Base | Allowed |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.30 | Class | Discouraged |
+
+## CVE-2021-44734
+
+Source: CVE-2021-44734_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.90 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-26451
+
+Source: CVE-2022-26451_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Allowed |
+| CWE-667 | Improper Locking | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-42766
+
+Source: CVE-2022-42766_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-33079
+
+Source: CVE-2021-33079_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-693 | Protection Mechanism Failure | Primary | 0.85 | Pillar | Discouraged |
+
+## CVE-2022-45385
+
+Source: CVE-2022-45385_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Primary CWE |
+| CWE-862 | Missing Authorization | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-22914
+
+Source: CVE-2022-22914_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Allowed |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Discouraged |
+
+## CVE-2022-21764
+
+Source: CVE-2022-21764_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2021-26350
+
+Source: CVE-2021-26350_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 0.90 | Base | Allowed |
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-21729
+
+Source: CVE-2022-21729_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-190 | Integer Overflow or Wraparound | Primary | 0.90 | Base | Allowed |
+| CWE-369 | Divide By Zero | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-47326
+
+Source: CVE-2022-47326_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-23170
+
+Source: CVE-2022-23170_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-611 | Improper Restriction of XML External Entity Reference | Primary | 1.00 | Base | Primary CWE. The vulnerability description explicitly states that it is an **XML External Entity Injection** vulnerability. |
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 0.80 | Base | Secondary CWE. The vulnerability description states that an attacker can escalate the XXE attack to perform server-side request forgery (SSRF) attacks. |
+
+## CVE-2022-32200
+
+Source: CVE-2022-32200_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 0.90 | Variant | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.70 | Variant | Secondary Candidate |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-2792
+
+Source: CVE-2022-2792_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.90 | Class | Primary CWE. The product specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors. |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Secondary Candidate. The product does not restrict or incorrectly restricts access to a resource from an unauthorized actor. This is a high-level CWE. |
+
+## CVE-2022-42964
+
+Source: CVE-2022-42964_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-22311
+
+Source: CVE-2022-22311_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-347 | Improper Verification of Cryptographic Signature | Primary | 0.90 | Base | Allowed |
+| CWE-319 | Cleartext Transmission of Sensitive Information | Secondary | 0.60 | Base | Allowed |
+| CWE-649 | Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2021-3690
+
+Source: CVE-2021-3690_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-401 | Missing Release of Memory after Effective Lifetime | Primary | 1.00 | Variant | Primary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-45036
+
+Source: CVE-2021-45036_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-290 | Authentication Bypass by Spoofing | Primary | 1.00 | Base | Primary CWE |
+| CWE-916 | Use of Password Hash With Insufficient Computational Effort | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-836 | Use of Password Hash Instead of Password for Authentication | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-44034
+
+Source: CVE-2022-44034_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | Primary | 1.00 | Class | Secondary CWE |
+
+## CVE-2022-34811
+
+Source: CVE-2022-34811_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-20772
+
+Source: CVE-2022-20772_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-113 | Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting') | Primary | 1.00 | Variant | Primary CWE |
+| CWE-93 | Improper Neutralization of CRLF Sequences ('CRLF Injection') | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-41329
+
+Source: CVE-2022-41329_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-25745
+
+Source: CVE-2021-25745_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Allowed |
+| CWE-200 | Exposure of Sensitive Information | Secondary | 0.80 | Class | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-35471
+
+Source: CVE-2022-35471_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.80 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-23913
+
+Source: CVE-2022-23913_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.90 | Class | Discouraged |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-29221
+
+Source: CVE-2022-29221_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | Primary | 1.00 | Base | Primary CWE |
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-23611
+
+Source: CVE-2022-23611_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-0110
+
+Source: CVE-2022-0110_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-451 | User Interface (UI) Misrepresentation of Critical Information | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-1021 | Improper Restriction of Rendered UI Layers or Frames | Secondary | 0.70 | Base | Allowed |
+| CWE-356 | Product UI does not Warn User of Unsafe Actions | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-39970
+
+Source: CVE-2021-39970_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Unknown | 0.75 | Class | Root cause |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 0.50 | Base | Secondary candidate |
+
+## CVE-2022-32971
+
+Source: CVE-2022-32971_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-269 | Improper Privilege Management | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-43557
+
+Source: CVE-2022-43557_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 0.80 | Base | Allowed |
+| CWE-1299 | Missing Protection Mechanism for Alternate Hardware Interface | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-1128
+
+Source: CVE-2022-1128_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1385 | Missing Origin Validation in WebSockets | Primary | 0.80 | Variant | Primary CWE |
+| CWE-346 | Origin Validation Error | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2021-0984
+
+Source: CVE-2021-0984_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-404 | Improper Resource Shutdown or Release | Primary | 0.75 | Class | Primary CWE |
+| CWE-862 | Missing Authorization | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-47977
+
+Source: CVE-2022-47977_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Primary CWE.  The **memory corruption** is due to writing data past the end or before the beginning of the intended buffer. |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary CWE. The vulnerability is caused by not properly validating or restricting memory access operations. |
+
+## CVE-2022-2741
+
+Source: CVE-2022-2741_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-835 | Infinite Loop | Primary | 0.90 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2021-25943
+
+Source: CVE-2021-25943_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1321 | Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') | Primary | 1.00 | Variant | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.40 | Class | Secondary CWE |
+
+## CVE-2021-46264
+
+Source: CVE-2021-46264_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.75 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-39803
+
+Source: CVE-2022-39803_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.80 | Variant | Primary CWE |
+| CWE-416 | Use After Free | Primary | 0.60 | Variant | Secondary CWE |
+
+## CVE-2022-20422
+
+Source: CVE-2022-20422_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('**Race Condition**') | Primary | 1.00 | Class | Primary CWE: The core issue is a **race condition** due to improper synchronization. |
+| CWE-416 | Use After Free | Primary | 0.60 | Variant | Secondary CWE: The race condition can lead to a use-after-free condition, which results in memory corruption. |
+
+## CVE-2022-3251
+
+Source: CVE-2022-3251_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-614 | Sensitive Cookie in HTTPS Session Without 'Secure' Attribute | Primary | 1.00 | Variant | Primary CWE |
+| CWE-319 | Cleartext Transmission of Sensitive Information | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-2301
+
+Source: CVE-2022-2301_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 1.00 | Variant | Primary CWE. The vulnerability is caused by reading data past the end of the intended buffer. |
+| CWE-805 | Buffer Access with Incorrect Length Value | Primary | 0.70 | Base | Secondary candidate. The vulnerability involves accessing a buffer with an incorrect length value, which leads to reading memory outside the bounds of the buffer. |
+| CWE-130 | Improper Handling of Length Parameter Inconsistency | Primary | 0.60 | Base | Secondary candidate. The vulnerability involves an inconsistency between the length parameter and the actual data length, which leads to a buffer over-read. |
+
+## CVE-2022-37259
+
+Source: CVE-2022-37259_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption ('Resource Exhaustion') | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2021-44852
+
+Source: CVE-2021-44852_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-782 | Exposed IOCTL with Insufficient Access Control | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.80 | Base | Secondary CWE |
+| CWE-125 | Out-of-bounds Read | Primary | 0.80 | Base | Secondary CWE |
+
+## CVE-2021-23277
+
+Source: CVE-2021-23277_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-95 | Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2021-26732
+
+Source: CVE-2021-26732_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.75 | Pillar | Discouraged |
+| CWE-863 | Incorrect Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.65 | Base | Allowed |
+
+## CVE-2022-37260
+
+Source: CVE-2022-37260_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Primary CWE |
+| CWE-625 | Permissive Regular Expression | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-25171
+
+Source: CVE-2022-25171_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-27779
+
+Source: CVE-2021-27779_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-319 | Cleartext Transmission of Sensitive Information | Primary | 0.90 | Base | Primary CWE |
+| CWE-322 | Key Exchange without Entity Authentication | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-311 | Missing Encryption of Sensitive Data | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2021-3835
+
+Source: CVE-2021-3835_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2021-45927
+
+Source: CVE-2021-45927_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2021-41564
+
+Source: CVE-2021-41564_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Primary CWE |
+| CWE-425 | Direct Request ('Forced Browsing') | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-863 | Incorrect Authorization | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-47517
+
+Source: CVE-2022-47517_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-193 | Off-by-one Error | Primary | 1.00 | Base | Primary CWE |
+| CWE-126 | Buffer Over-read | Primary | 0.90 | Variant | Secondary CWE |
+
+## CVE-2022-38355
+
+Source: CVE-2022-38355_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.90 | Pillar | Allowed |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-42522
+
+Source: CVE-2021-42522_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-401 | Missing Release of Memory after Effective Lifetime | Primary | 1.00 | Variant | Allowed |
+
+## CVE-2022-20285
+
+Source: CVE-2022-20285_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-203 | Observable Discrepancy | Primary | 0.90 | Base | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.60 | Class | Secondary CWE |
+
+## CVE-2022-27076
+
+Source: CVE-2022-27076_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-35530
+
+Source: CVE-2021-35530_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 0.80 | Class | Allowed-with-Review |
+| CWE-798 | Use of Hard-coded Credentials | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-25519
+
+Source: CVE-2021-25519_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.70 | Pillar | Discouraged |
+
+## CVE-2022-39271
+
+Source: CVE-2022-39271_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.75 | Class | Discouraged |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.60 | Base | Allowed |
+| CWE-755 | Improper Handling of Exceptional Conditions | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-21707
+
+Source: CVE-2022-21707_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.70 | Pillar | Discouraged |
+
+## CVE-2022-26236
+
+Source: CVE-2022-26236_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 1.00 | Class | Primary CWE |
+| CWE-276 | Incorrect Default Permissions | Primary | 0.90 | Base | Secondary Candidate |
+
+## CVE-2021-26388
+
+Source: CVE-2021-26388_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 1.00 | Base | Primary CWE |
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-44608
+
+Source: CVE-2022-44608_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.90 | Class | The vulnerability is due to **uncontrolled resource consumption** in Cybozu Remote Service, leading to a denial-of-service condition. |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.70 | Base | A logged-in user can consume excessive storage space without any restrictions, which leads to a denial-of-service condition. |
+| CWE-789 | Memory Allocation with Excessive Size Value | Primary | 0.60 | Variant | The service does not ensure that the size is within expected limits, allowing arbitrary amounts of memory to be allocated, contributing to the **uncontrolled resource consumption**. |
+
+## CVE-2022-0377
+
+Source: CVE-2022-0377_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-73 | External Control of File Name or Path | Primary | 0.90 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-31185
+
+Source: CVE-2022-31185_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-359 | Exposure of Private Personal Information to an Unauthorized Actor | Primary | 0.90 | Base | Primary CWE |
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-863 | Incorrect Authorization | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-35132
+
+Source: CVE-2022-35132_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary CWE |
+
+## CVE-2022-34854
+
+Source: CVE-2022-34854_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.75 | Class | Primary CWE |
+
+## CVE-2022-0932
+
+Source: CVE-2022-0932_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2021-41437
+
+Source: CVE-2021-41437_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-113 | Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting') | Primary | 1.00 | Variant | Allowed |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-46161
+
+Source: CVE-2022-46161_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-95 | Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') | Primary | 1.00 | Variant | Primary CWE |
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.75 | Base | Secondary Candidate |
+
+## CVE-2022-25161
+
+Source: CVE-2022-25161_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-26612
+
+Source: CVE-2022-26612_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-59 | Improper Link Resolution Before File Access ('Link Following') | Primary | 0.90 | Base | Primary CWE. The vulnerability involves **improper handling of symbolic links** during file extraction, leading to files being written outside the intended directory. |
+| CWE-64 | Windows Shortcut Following (.LNK) | Primary | 0.70 | Variant | Secondary CWE. This variant applies specifically to Windows, where the **improper handling of symbolic links** occurs due to how Windows resolves shortcuts. |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.60 | Base | Secondary CWE. The vulnerability allows writing outside the expected base directory on Windows, which can be considered a form of path traversal. |
+
+## CVE-2022-24299
+
+Source: CVE-2022-24299_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-3040
+
+Source: CVE-2022-3040_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Allowed |
+
+## CVE-2022-36875
+
+Source: CVE-2022-36875_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-925 | Improper Verification of Intent by Broadcast Receiver | Primary | 0.90 | Variant | Primary CWE |
+| CWE-285 | Improper Authorization | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2021-34405
+
+Source: CVE-2021-34405_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-252 | Unchecked Return Value | Primary | 1.00 | Base | Primary CWE |
+| CWE-476 | NULL Pointer Dereference | Primary | 0.80 | Base | Secondary CWE |
+
+## CVE-2022-25986
+
+Source: CVE-2022-25986_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.90 | Pillar | Discouraged |
+| CWE-863 | Incorrect Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-22975
+
+Source: CVE-2022-22975_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-90 | Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-842 | Placement of User into Incorrect Group | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-0382
+
+Source: CVE-2022-0382_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-908 | Use of Uninitialized Resource | Primary | 0.90 | Base | Primary CWE |
+| CWE-226 | Sensitive Information in Resource Not Removed Before Reuse | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-29179
+
+Source: CVE-2022-29179_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.80 | Class | The product does not properly assign, modify, track, or check privileges for an actor, creating an unintended sphere of control for that actor. |
+| CWE-250 | Execution with Unnecessary Privileges | Secondary | 0.70 | Base | The product performs an operation at a privilege level that is higher than the minimum level required, which creates new weaknesses or amplifies the consequences of other weaknesses. |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Secondary | 0.60 | Class | The product specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors. |
+
+## CVE-2022-4141
+
+Source: CVE-2022-4141_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+
+## CVE-2022-3332
+
+Source: CVE-2022-3332_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-0902
+
+Source: CVE-2021-0902_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 1.00 | Base | Allowed |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-31218
+
+Source: CVE-2022-31218_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.80 | Class | Discouraged |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.60 | Base | Allowed |
+| CWE-59 | Improper Link Resolution Before File Access ('Link Following') | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-23743
+
+Source: CVE-2022-23743_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.90 | Class | Primary CWE |
+| CWE-276 | Incorrect Default Permissions | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-250 | Execution with Unnecessary Privileges | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-24932
+
+Source: CVE-2022-24932_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-424 | Improper Protection of Alternate Path | Primary | 1.00 | Class | Primary CWE |
+| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-1299 | Missing Protection Mechanism for Alternate Hardware Interface | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-31574
+
+Source: CVE-2022-31574_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Primary CWE |
+| CWE-36 | Absolute Path Traversal | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-33183
+
+Source: CVE-2022-33183_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-30338
+
+Source: CVE-2021-30338_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.70 | Class | Discouraged |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-3714
+
+Source: CVE-2022-3714_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-40196
+
+Source: CVE-2022-40196_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.70 | Pillar | Discouraged |
+| CWE-863 | Incorrect Authorization | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-4767
+
+Source: CVE-2022-4767_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.80 | Base | Primary CWE |
+
+## CVE-2022-28215
+
+Source: CVE-2022-28215_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1022 | Use of Web Link to Untrusted Target with window.opener Access | Primary | 0.75 | Variant | Primary CWE |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-20 | Improper Input Validation | Secondary | 0.30 | Class | Secondary Candidate |
+
+## CVE-2022-41018
+
+Source: CVE-2022-41018_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-3043
+
+Source: CVE-2022-3043_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.80 | Variant | Secondary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary CWE |
+
+## CVE-2022-32569
+
+Source: CVE-2022-32569_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Primary | 0.80 | Class | Discouraged |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-43983
+
+Source: CVE-2021-43983_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-3584
+
+Source: CVE-2022-3584_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2021-41458
+
+Source: CVE-2021-41458_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.90 | Variant | Primary CWE |
+| CWE-125 | Out-of-bounds Read | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-22991
+
+Source: CVE-2022-22991_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary CWE |
+
+## CVE-2022-42160
+
+Source: CVE-2022-42160_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-41199
+
+Source: CVE-2022-41199_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.80 | Base | Primary CWE |
+| CWE-416 | Use After Free | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2021-3675
+
+Source: CVE-2021-3675_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2021-3759
+
+Source: CVE-2021-3759_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-4033
+
+Source: CVE-2022-4033_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1287 | Improper Validation of Specified Type of Input | Primary | 0.90 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-24740
+
+Source: CVE-2022-24740_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-784 | Reliance on Cookies without Validation and Integrity Checking in a Security Decision | Primary | 0.80 | Variant | Primary CWE |
+| CWE-287 | Improper Authentication | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-1390 | Weak Authentication | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-29213
+
+Source: CVE-2022-29213_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.95 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.60 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-4582
+
+Source: CVE-2022-4582_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-80 | Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2021-34874
+
+Source: CVE-2021-34874_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-31523
+
+Source: CVE-2022-31523_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-29194
+
+Source: CVE-2022-29194_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.90 | Base | Primary CWE |
+| CWE-617 | Reachable Assertion | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-29945
+
+Source: CVE-2022-29945_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-319 | Cleartext Transmission of Sensitive Information | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-33942
+
+Source: CVE-2022-33942_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-693 | Protection Mechanism Failure | Primary | 0.80 | Pillar | Allowed-with-Review |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Discouraged |
+
+## CVE-2022-36562
+
+Source: CVE-2022-36562_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.80 | Class | Primary CWE |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Secondary Candidate |
+
+## CVE-2022-1758
+
+Source: CVE-2022-1758_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Allowed |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Secondary | 0.90 | Base | Allowed |
+| CWE-96 | Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection') | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-26850
+
+Source: CVE-2022-26850_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-379 | Creation of Temporary File in Directory with Insecure Permissions | Primary | 0.90 | Base | Primary CWE |
+| CWE-377 | Insecure Temporary File | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-36454
+
+Source: CVE-2022-36454_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-41040
+
+Source: CVE-2022-41040_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 1.00 | Base | Primary CWE |
+| CWE-269 | Improper Privilege Management | Primary | 0.70 | Class | Secondary CWE |
+
+## CVE-2022-39861
+
+Source: CVE-2022-39861_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-925 | Improper Verification of Intent by Broadcast Receiver | Primary | 0.90 | Variant | Primary CWE |
+| CWE-940 | Improper Neutralization of Special Elements in a Data Query Language | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-39887
+
+Source: CVE-2022-39887_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.75 | Pillar | Discouraged |
+| CWE-863 | Incorrect Authorization | Secondary | 0.60 | Class | Allowed-with-Review |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-38465
+
+Source: CVE-2022-38465_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-522 | Insufficiently Protected Credentials | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-326 | Inadequate Encryption Strength | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-24903
+
+Source: CVE-2022-24903_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Primary CWE |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-46158
+
+Source: CVE-2021-46158_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.70 | Base | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-20683
+
+Source: CVE-2022-20683_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.70 | Class | Discouraged |
+| CWE-799 | Improper Control of Interaction Frequency | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-4703
+
+Source: CVE-2022-4703_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.90 | Pillar | Discouraged |
+| CWE-862 | Missing Authorization | Secondary | 0.80 | Class | Allowed-with-Review |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-1732
+
+Source: CVE-2021-1732_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.70 | Base | Primary CWE |
+| CWE-272 | Least Privilege Violation | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-35458
+
+Source: CVE-2022-35458_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.70 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-41263
+
+Source: CVE-2022-41263_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-45789
+
+Source: CVE-2022-45789_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-294 | Authentication Bypass by Capture-replay | Primary | 1.00 | Base | Allowed |
+
+## CVE-2021-32974
+
+Source: CVE-2021-32974_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-26017
+
+Source: CVE-2022-26017_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Primary CWE |
+| CWE-269 | Improper Privilege Management | Secondary | 0.60 | Class | Secondary CWE |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Secondary CWE |
+
+## CVE-2022-33169
+
+Source: CVE-2022-33169_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.90 | Class | Primary CWE |
+| CWE-256 | Plaintext Storage of a Password | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2021-3781
+
+Source: CVE-2021-3781_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.90 | Base | Allowed |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-20088
+
+Source: CVE-2021-20088_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1321 | Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') | Primary | 1.00 | Variant | Allowed |
+
+## CVE-2022-0654
+
+Source: CVE-2022-0654_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Primary | 0.90 | Base | Allowed |
+| CWE-212 | Improper Removal of Sensitive Information Before Storage or Transfer | Secondary | 0.70 | Base | Allowed |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2021-0735
+
+Source: CVE-2021-0735_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-223 | Omission of Security-relevant Information | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-40760
+
+Source: CVE-2022-40760_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-805 | Buffer Access with Incorrect Length Value | Primary | 0.90 | Base | Primary CWE |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-37042
+
+Source: CVE-2021-37042_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 0.75 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-47986
+
+Source: CVE-2022-47986_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-502 | Deserialization of Untrusted Data | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-25159
+
+Source: CVE-2022-25159_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-294 | Authentication Bypass by Capture-replay | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-35394
+
+Source: CVE-2021-35394_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.90 | Base | Allowed |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Secondary | 0.90 | Base | Allowed |
+
+## CVE-2022-35293
+
+Source: CVE-2022-35293_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-613 | Insufficient Session Expiration | Primary | 0.75 | Base | Primary CWE |
+| CWE-384 | Session Fixation | Primary | 0.50 | Compound | Secondary Candidate |
+| CWE-287 | Improper Authentication | Secondary | 0.30 | Class | Secondary Candidate |
+
+## CVE-2022-37079
+
+Source: CVE-2022-37079_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-40650
+
+Source: CVE-2021-40650_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-614 | Sensitive Cookie in HTTPS Session Without 'Secure' Attribute | Primary | 1.00 | Variant | Primary CWE |
+| CWE-319 | Cleartext Transmission of Sensitive Information | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-20341
+
+Source: CVE-2022-20341_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-36918
+
+Source: CVE-2022-36918_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+
+## CVE-2022-20703
+
+Source: CVE-2022-20703_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-295 | Improper Certificate Validation | Primary | 0.90 | Base | Primary CWE |
+| CWE-494 | Download of Code Without Integrity Check | Primary | 0.70 | Base | Secondary CWE |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Primary | 0.60 | Base | Secondary CWE |
+
+## CVE-2022-41517
+
+Source: CVE-2022-41517_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-31006
+
+Source: CVE-2022-31006_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-34570
+
+Source: CVE-2022-34570_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.75 | Class | Allowed-with-Review |
+| CWE-425 | Direct Request ('Forced Browsing') | Secondary | 0.60 | Base | Allowed |
+| CWE-1295 | Debug Messages Revealing Unnecessary Information | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-25827
+
+Source: CVE-2022-25827_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-532 | Insertion of Sensitive Information into Log File | Primary | 1.00 | Base | Allowed |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-31553
+
+Source: CVE-2022-31553_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Allowed |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Secondary | 0.90 | Base | Allowed |
+
+## CVE-2022-4015
+
+Source: CVE-2022-4015_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-36152
+
+Source: CVE-2022-36152_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-401 | Missing Release of Memory after Effective Lifetime | Primary | 1.00 | Variant | Primary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2022-48198
+
+Source: CVE-2022-48198_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-15 | External Control of System or Configuration Setting | Primary | 0.90 | Base | Primary CWE. The vulnerability stems from the **topic name depending on the attacker-controlled time_ref_topic parameter**. |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Primary | 0.70 | Base | Secondary CWE. The application relies on an input (`time_ref_topic`) which can be modified by an untrusted actor, leading to the bypass of security mechanisms. |
+
+## CVE-2022-27194
+
+Source: CVE-2022-27194_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.90 | Class | Discouraged |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-40985
+
+Source: CVE-2022-40985_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-34294
+
+Source: CVE-2022-34294_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-331 | Insufficient Entropy | Primary | 0.90 | Base | Primary CWE |
+
+## CVE-2022-20430
+
+Source: CVE-2022-20430_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2022-1740
+
+Source: CVE-2022-1740_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1283 | Mutable Attestation or Measurement Reporting Data | Primary | 0.90 | Base | Allowed |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-21290
+
+Source: CVE-2021-21290_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-378 | Creation of Temporary File With Insecure Permissions | Primary | 1.00 | Base | Primary CWE |
+| CWE-377 | Insecure Temporary File | Primary | 0.75 | Class | Secondary Candidate |
+
+## CVE-2022-22536
+
+Source: CVE-2022-22536_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-444 | Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') | Primary | 0.90 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-33624
+
+Source: CVE-2021-33624_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Primary | 1.00 | Base | Primary CWE |
+| CWE-1342 | Information Exposure through Microarchitectural State after Transient Execution | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-34796
+
+Source: CVE-2022-34796_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-522 | Insufficiently Protected Credentials | Secondary | 0.50 | Class | Allowed-with-Review |
+
+## CVE-2022-40259
+
+Source: CVE-2022-40259_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1392 | Use of Default Credentials | Primary | 0.90 | Base | Primary CWE |
+| CWE-1391 | Use of Weak Credentials | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-25206
+
+Source: CVE-2022-25206_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-20 | Improper Input Validation | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-32199
+
+Source: CVE-2022-32199_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-3242
+
+Source: CVE-2022-3242_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.90 | Base | Primary CWE |
+
+## CVE-2022-41575
+
+Source: CVE-2022-41575_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-256 | Plaintext Storage of a Password | Primary | 1.00 | Base | Primary CWE |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-532 | Insertion of Sensitive Information into Log File | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-34422
+
+Source: CVE-2022-34422_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.80 | Base | Primary CWE.  The **improper verification** leads to writing outside the intended buffer. |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary CWE.  The vulnerability involves operations on a memory buffer without proper bounds checking. |
+
+## CVE-2022-20279
+
+Source: CVE-2022-20279_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-203 | Observable Discrepancy | Primary | 0.85 | Base | Allowed |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.65 | Class | Discouraged |
+
+## CVE-2021-3798
+
+Source: CVE-2021-3798_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-325 | Missing Cryptographic Step | Primary | 0.90 | Base | Primary CWE |
+| CWE-295 | Improper Certificate Validation | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-22301
+
+Source: CVE-2022-22301_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-46170
+
+Source: CVE-2022-46170_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.90 | Base | Allowed |
+| CWE-565 | Reliance on Cookies without Validation and Integrity Checking | Secondary | 0.70 | Base | Allowed |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Secondary | 0.60 | Base | Allowed |
+| CWE-425 | Direct Request ('Forced Browsing') | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-45770
+
+Source: CVE-2022-45770_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Primary | 0.90 | Base | Primary CWE |
+| CWE-781 | Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code | Primary | 0.70 | Variant | Secondary Candidate |
+| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-23507
+
+Source: CVE-2022-23507_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-347 | Improper Verification of Cryptographic Signature | Primary | 1.00 | Base | Allowed |
+| CWE-295 | Improper Certificate Validation | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-3677
+
+Source: CVE-2021-3677_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.80 | Class | Allowed-with-Review, but considered best fit due to the explicit mention of reading arbitrary bytes of server memory. |
+
+## CVE-2022-30292
+
+Source: CVE-2022-30292_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.75 | Base | Secondary CWE |
+
+## CVE-2021-20086
+
+Source: CVE-2021-20086_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1321 | Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2021-42786
+
+Source: CVE-2021-42786_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Unknown | 0.80 | Class | The vulnerability description states "**lack of input validation**" which directly relates to CWE-20. However, as a Class level CWE it is often misused when a more specific CWE is available. |
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.70 | Base | The vulnerability description states that the **lack of input validation** allowed a malicious payload to be injected. The payload was then used to execute code. |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.60 | Base | API requests are vulnerable due to **lack of input validation**, potentially leading to OS command injection. |
+
+## CVE-2022-29866
+
+Source: CVE-2022-29866_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.90 | Class | Discouraged |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.70 | Base | Allowed |
+| CWE-789 | Memory Allocation with Excessive Size Value | Secondary | 0.60 | Variant | Allowed |
+
+## CVE-2022-25887
+
+Source: CVE-2022-25887_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption ('Resource Exhaustion') | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-23708
+
+Source: CVE-2022-23708_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-45094
+
+Source: CVE-2022-45094_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-31178
+
+Source: CVE-2022-31178_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2022-22106
+
+Source: CVE-2022-22106_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-805 | Buffer Access with Incorrect Length Value | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-36797
+
+Source: CVE-2022-36797_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-693 | Protection Mechanism Failure | Primary | 0.80 | Pillar | Allowed-with-Review |
+| CWE-863 | Incorrect Authorization | Secondary | 0.50 | Class | Allowed-with-Review |
+
+## CVE-2022-30271
+
+Source: CVE-2022-30271_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-321 | Use of Hard-coded Cryptographic Key | Primary | 1.00 | Variant | Primary CWE |
+| CWE-798 | Use of Hard-coded Credentials | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-259 | Use of Hard-coded Password | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2022-40512
+
+Source: CVE-2022-40512_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-1640
+
+Source: CVE-2022-1640_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-3579
+
+Source: CVE-2022-3579_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-0550
+
+Source: CVE-2022-0550_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Secondary | 0.60 | Base | Allowed |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-35226
+
+Source: CVE-2021-35226_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-260 | Password in Configuration File | Primary | 0.90 | Base | Allowed |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-41694
+
+Source: CVE-2022-41694_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.80 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2021-45489
+
+Source: CVE-2021-45489_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-338 | Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG) | Primary | 1.00 | Base | Allowed |
+| CWE-330 | Use of Insufficiently Random Values | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-20001
+
+Source: CVE-2022-20001_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-0315
+
+Source: CVE-2022-0315_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 0.90 | Base | Primary CWE: The vulnerability stems from the use of `tempfile.mktemp()`, which creates a temporary file name but does not create the file itself. This can lead to race conditions and potential for attackers to create files with the same name before the application does. |
+| CWE-377 | Insecure Temporary File | Primary | 0.70 | Class | Secondary CWE: This class covers the general issue of insecure temporary files. |
+| CWE-378 | Creation of Temporary File With Insecure Permissions | Primary | 0.60 | Base | Secondary CWE: This describes creating temporary files without appropriate controls. |
+| CWE-59 | Improper Link Resolution Before File Access ('Link Following') | Primary | 0.50 | Base | Secondary CWE: An attacker could create a symlink with the same name as the intended temporary file, leading to the application accessing an unintended resource. |
+
+## CVE-2022-0214
+
+Source: CVE-2022-0214_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.90 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Allowed with Review |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-48259
+
+Source: CVE-2022-48259_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-20073
+
+Source: CVE-2022-20073_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-191 | Integer Underflow (Wrap or Wraparound) | Primary | 1.00 | Base | Primary CWE: Directly reflects the root cause. |
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Secondary CWE: Represents the resulting weakness from the integer underflow. |
+
+## CVE-2021-36689
+
+Source: CVE-2021-36689_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-307 | Improper Restriction of Excessive Authentication Attempts | Primary | 1.00 | Base | Primary CWE |
+| CWE-521 | Weak Password Requirements | Primary | 0.90 | Base | Secondary Candidate |
+| CWE-916 | Use of Password Hash With Insufficient Computational Effort | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-23490
+
+Source: CVE-2022-23490_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.80 | Class | Discouraged |
+| CWE-863 | Incorrect Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-1935
+
+Source: CVE-2022-1935_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-0423
+
+Source: CVE-2022-0423_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.90 | Compound | Secondary Candidate |
+| CWE-862 | Missing Authorization | Primary | 0.80 | Class | Secondary Candidate |
+
+## CVE-2022-20105
+
+Source: CVE-2022-20105_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-121 | Stack-based Buffer Overflow | Secondary | 0.70 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-36786
+
+Source: CVE-2022-36786_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-38191
+
+Source: CVE-2022-38191_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-3518
+
+Source: CVE-2022-3518_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-32528
+
+Source: CVE-2021-32528_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-205 | Observable Behavioral Discrepancy | Primary | 0.90 | Base | Primary CWE |
+| CWE-203 | Observable Discrepancy | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-33309
+
+Source: CVE-2022-33309_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2021-35109
+
+Source: CVE-2021-35109_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1316 | Fabric-Address Map Allows Programming of Unwarranted Overlaps of Protected and Unprotected Ranges | Primary | 0.75 | Base | - |
+
+## CVE-2021-45958
+
+Source: CVE-2021-45958_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-42124
+
+Source: CVE-2022-42124_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-42278
+
+Source: CVE-2021-42278_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-367 | - | Primary | - | - | - |
+| CWE-667 | - | Primary | - | - | - |
+| CWE-362 | - | Primary | - | - | - |
+| CWE-59 | - | Primary | - | - | - |
+| CWE-662 | - | Primary | - | - | - |
+| CWE-366 | - | Primary | - | - | - |
+| CWE-73 | - | Primary | - | - | - |
+| CWE-404 | - | Primary | - | - | - |
+| CWE-41 | - | Primary | - | - | - |
+| CWE-664 | - | Primary | - | - | - |
+| CWE-1386 | - | Primary | - | - | - |
+| CWE-22 | - | Primary | - | - | - |
+
+## CVE-2022-29399
+
+Source: CVE-2022-29399_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-24857
+
+Source: CVE-2022-24857_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 1.00 | Base | Allowed |
+| CWE-613 | Insufficient Session Expiration | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-31542
+
+Source: CVE-2022-31542_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 0.90 | Base | Allowed |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Secondary | 0.70 | Base | Allowed |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-21153
+
+Source: CVE-2022-21153_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Unknown | 0.75 | Pillar | The description indicates **Improper Access Control**, but the CWE is a Pillar. More specific children should be considered |
+| CWE-926 | Improper Export of Android Application Components | Primary | 0.70 | Variant | A more specific child of the suggested alternatives to CWE-284 |
+
+## CVE-2021-25971
+
+Source: CVE-2021-25971_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-248 | Uncaught Exception | Primary | 1.00 | Base | Primary CWE |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-755 | Improper Handling of Exceptional Conditions | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-3733
+
+Source: CVE-2022-3733_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-21794
+
+Source: CVE-2022-21794_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-863 | Incorrect Authorization | Secondary | 0.70 | Class | Allowed-with-Review |
+| CWE-693 | Protection Mechanism Failure | Secondary | 0.60 | Pillar | Discouraged |
+
+## CVE-2021-0084
+
+Source: CVE-2021-0084_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-269 | Improper Privilege Management | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-31587
+
+Source: CVE-2022-31587_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 1.00 | Base | Allowed |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Secondary | 0.70 | Base | Allowed |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-4179
+
+Source: CVE-2022-4179_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-1787
+
+Source: CVE-2022-1787_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Allowed |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Secondary | 1.00 | Base | Allowed |
+
+## CVE-2022-2163
+
+Source: CVE-2022-2163_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-20089
+
+Source: CVE-2022-20089_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-489 | Active Debug Code | Primary | 0.90 | Base | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary CWE |
+
+## CVE-2022-29828
+
+Source: CVE-2022-29828_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-321 | Use of Hard-coded Cryptographic Key | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-31074
+
+Source: CVE-2022-31074_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 1.00 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-789 | Memory Allocation with Excessive Size Value | Primary | 0.60 | Variant | Secondary Candidate |
+
+## CVE-2022-36084
+
+Source: CVE-2022-36084_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-943 | Improper Neutralization of Special Elements in Data Query Logic | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Secondary | 0.75 | Class | Discouraged |
+
+## CVE-2022-37401
+
+Source: CVE-2022-37401_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-331 | Insufficient Entropy | Primary | 1.00 | Base | Primary CWE |
+| CWE-172 | Encoding Error | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-3541
+
+Source: CVE-2022-3541_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-26238
+
+Source: CVE-2022-26238_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 1.00 | Class | Primary CWE |
+| CWE-276 | Incorrect Default Permissions | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-44732
+
+Source: CVE-2022-44732_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | **Incorrect Permission Assignment for Critical Resource** | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-276 | Incorrect Default Permissions | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-37769
+
+Source: CVE-2022-37769_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-476 | NULL Pointer Dereference | Primary | 1.00 | Base | Primary CWE |
+| CWE-754 | Improper Check for Unusual or Exceptional Conditions | Primary | 0.70 | Class | Secondary CWE |
+
+## CVE-2022-45113
+
+Source: CVE-2022-45113_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1286 | Improper Validation of Syntactic Correctness of Input | Primary | 1.00 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-47482
+
+Source: CVE-2022-47482_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-3082
+
+Source: CVE-2022-3082_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 0.90 | Compound | Primary CWE.  The vulnerability description explicitly mentions the absence of CSRF protection. |
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Secondary candidate. The vulnerability description explicitly mentions the absence of authorization. |
+
+## CVE-2021-38648
+
+Source: CVE-2021-38648_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.60 | Class | Discouraged |
+
+## CVE-2021-43309
+
+Source: CVE-2021-43309_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | Allowed |
+| CWE-617 | Reachable Assertion | Secondary | 0.50 | Base | Allowed |
+| CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-23015
+
+Source: CVE-2022-23015_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.80 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2021-4253
+
+Source: CVE-2021-4253_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+| CWE-80 | Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) | Primary | 0.70 | Variant | Secondary Candidate |
+
+## CVE-2022-4169
+
+Source: CVE-2022-4169_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-43762
+
+Source: CVE-2022-43762_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.80 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-20958
+
+Source: CVE-2022-20958_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-918 | Server-Side Request Forgery (SSRF) | Primary | 1.00 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.75 | Class | Discouraged |
+
+## CVE-2022-24165
+
+Source: CVE-2022-24165_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-0261
+
+Source: CVE-2022-0261_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.70 | Variant | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-26781
+
+Source: CVE-2022-26781_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-120 | Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') | Primary | 0.95 | Base | Allowed-with-Review |
+| CWE-20 | Improper Input Validation | Secondary | 0.75 | Class | Discouraged |
+
+## CVE-2022-2019
+
+Source: CVE-2022-2019_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Base | Primary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.60 | Base | Secondary CWE |
+
+## CVE-2022-34368
+
+Source: CVE-2022-34368_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 1.00 | Base | Primary CWE |
+| CWE-274 | Improper Handling of Insufficient Privileges | Secondary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-30551
+
+Source: CVE-2021-30551_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Primary | 1.00 | Base | Primary CWE. The vulnerability description explicitly states "Type confusion in V8". |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate.  The vulnerability description mentions "**heap corruption**" which may be caused by an out-of-bounds write. |
+
+## CVE-2021-30539
+
+Source: CVE-2021-30539_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-358 | Improperly Implemented Security Check for Standard | Primary | 0.90 | Base | Allowed |
+| CWE-942 | Permissive Cross-domain Policy with Untrusted Domains | Secondary | 0.70 | Variant | Allowed |
+| CWE-863 | Incorrect Authorization | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-29514
+
+Source: CVE-2022-29514_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.90 | Pillar | Primary CWE |
+| CWE-862 | Missing Authorization | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-863 | Incorrect Authorization | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-43538
+
+Source: CVE-2022-43538_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.90 | Base | Primary CWE |
+| CWE-269 | Improper Privilege Management | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2021-36631
+
+Source: CVE-2021-36631_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-426 | Untrusted Search Path | Primary | 1.00 | Base | Primary CWE |
+| CWE-427 | Uncontrolled Search Path Element | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2021-4287
+
+Source: CVE-2021-4287_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-59 | Improper Link Resolution Before File Access ('Link Following') | Primary | 1.00 | Base | Primary CWE |
+| CWE-61 | UNIX Symbolic Link (Symlink) Following | Primary | 0.70 | Compound | Secondary Candidate |
+
+## CVE-2022-20686
+
+Source: CVE-2022-20686_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.95 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-28953
+
+Source: CVE-2021-28953_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-427 | Uncontrolled Search Path Element | Primary | 0.90 | Base | The extension allows workspace settings to override user settings, which allows an attacker to specify arbitrary executables to run. This makes a location in the search path controllable by an attacker. |
+| CWE-284 | Improper Access Control | Primary | 0.70 | Base | The extension does not sufficiently restrict the source of configuration settings for the linting tools. It allows workspace settings to override user settings without proper validation. |
+
+## CVE-2022-23602
+
+Source: CVE-2022-23602_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-23 | Relative Path Traversal | Primary | 0.90 | Base | Primary CWE |
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-36354
+
+Source: CVE-2022-36354_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-193 | Off-by-one Error | Primary | 0.90 | Base | Primary CWE |
+| CWE-125 | Out-of-bounds Read | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-31131
+
+Source: CVE-2022-31131_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.90 | Base | Primary CWE |
+| CWE-862 | Missing Authorization | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-37902
+
+Source: CVE-2022-37902_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary CWE |
+
+## CVE-2022-33255
+
+Source: CVE-2022-33255_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-126 | Buffer Over-read | Primary | 0.90 | Variant | Primary CWE |
+| CWE-125 | Out-of-bounds Read | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-0297
+
+Source: CVE-2022-0297_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Allowed |
+
+## CVE-2022-23683
+
+Source: CVE-2022-23683_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-47700
+
+Source: CVE-2022-47700_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | **Missing Authentication for Critical Function** | Primary | 0.90 | Base | Allowed |
+| CWE-287 | Improper Authentication | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2022-20516
+
+Source: CVE-2022-20516_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-190 | Integer Overflow or Wraparound | Primary | 1.00 | Base | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-38796
+
+Source: CVE-2022-38796_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') | Primary | 0.75 | Class | Allowed with Review |
+| CWE-113 | Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting') | Secondary | 0.65 | Variant | Allowed |
+| CWE-290 | Authentication Bypass by Spoofing | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2021-20028
+
+Source: CVE-2021-20028_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-23143
+
+Source: CVE-2022-23143_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.90 | Class | Primary CWE. The vulnerability is caused by **improper permission settings** that allows an attacker with high permissions to delete and modify files. |
+
+## CVE-2022-23331
+
+Source: CVE-2022-23331_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-285 | Improper Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-620 | Unverified Password Change | Secondary | 0.70 | Base | Allowed |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.60 | Class | Discouraged |
+
+## CVE-2021-29845
+
+Source: CVE-2021-29845_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.75 | Class | Primary CWE |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-46519
+
+Source: CVE-2021-46519_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-190 | Integer Overflow or Wraparound | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-41924
+
+Source: CVE-2022-41924_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-319 | **Cleartext Transmission of Sensitive Information** | Primary | 0.90 | Base | Allowed |
+| CWE-346 | Origin Validation Error | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-42463
+
+Source: CVE-2022-42463_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-305 | Authentication Bypass by Primary Weakness | Primary | 0.90 | Base | Primary CWE |
+| CWE-290 | Authentication Bypass by Spoofing | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.50 | Base | Secondary Candidate |
+
+## CVE-2021-1879
+
+Source: CVE-2021-1879_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 0.90 | Variant | Primary CWE |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-31621
+
+Source: CVE-2022-31621_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-833 | Deadlock | Primary | 1.00 | Base | Primary CWE |
+| CWE-667 | Improper Locking | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-45916
+
+Source: CVE-2021-45916_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-46679
+
+Source: CVE-2022-46679_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-410 | Insufficient Resource Pool | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-35507
+
+Source: CVE-2022-35507_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-113 | Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting') | Primary | 1.00 | Variant | Primary CWE |
+| CWE-93 | Improper Neutralization of CRLF Sequences ('CRLF Injection') | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2021-42341
+
+Source: CVE-2021-42341_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-170 | Improper Null Termination | Primary | 1.00 | Base | Primary CWE |
+| CWE-131 | Incorrect Calculation of Buffer Size | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-787 | Out-of-bounds Write | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-31508
+
+Source: CVE-2022-31508_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-36 | Absolute Path Traversal | Primary | 0.90 | Base | Primary CWE |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.70 | Base | Secondary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.60 | Base | Secondary CWE |
+
+## CVE-2022-1863
+
+Source: CVE-2022-1863_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-664 | Improper Control of a Resource Through its Lifetime | Secondary | 0.40 | Pillar | Secondary Candidate |
+
+## CVE-2022-43927
+
+Source: CVE-2022-43927_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.90 | Class | Discouraged usage. |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Discouraged usage. Represents impact. |
+
+## CVE-2022-46172
+
+Source: CVE-2022-46172_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.85 | Base | Primary CWE |
+| CWE-285 | Improper Authorization | Secondary | 0.60 | Class | Secondary CWE |
+| CWE-287 | Improper Authentication | Secondary | 0.60 | Class | Secondary CWE |
+
+## CVE-2021-44388
+
+Source: CVE-2021-44388_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1287 | Improper Validation of Specified Type of Input | Primary | 0.90 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-22978
+
+Source: CVE-2022-22978_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.85 | Class | Allowed-with-Review |
+| CWE-185 | Incorrect Regular Expression | Secondary | 0.75 | Class | Allowed-with-Review |
+
+## CVE-2021-46483
+
+Source: CVE-2021-46483_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.75 | Class | Secondary CWE |
+
+## CVE-2022-47358
+
+Source: CVE-2022-47358_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 0.50 | Base | Secondary Candidate |
+| CWE-274 | Improper Handling of Insufficient Privileges | Secondary | 0.30 | Base | Secondary Candidate |
+
+## CVE-2021-0066
+
+Source: CVE-2021-0066_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+| CWE-1288 | Improper Validation of Consistency within Input | Secondary | 0.60 | Base | Allowed |
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Secondary | 0.60 | Base | Allowed |
+| CWE-1173 | Improper Use of Validation Framework | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-20574
+
+Source: CVE-2022-20574_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 1.00 | Base | Allowed |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-27819
+
+Source: CVE-2022-27819_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Primary CWE |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.80 | Base | Secondary Candidate |
+
+## CVE-2022-36058
+
+Source: CVE-2022-36058_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-754 | Improper Check for Unusual or Exceptional Conditions | Primary | 0.80 | Class | Primary CWE |
+| CWE-252 | Unchecked Return Value | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-25644
+
+Source: CVE-2022-25644_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-46744
+
+Source: CVE-2021-46744_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1421 | Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution | Primary | 0.85 | Base | Primary CWE |
+| CWE-203 | Observable Discrepancy | Primary | 0.75 | Base | Secondary Candidate |
+| CWE-1420 | Exposure of Sensitive Information during Transient Execution | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-24946
+
+Source: CVE-2022-24946_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-413 | Improper Resource Locking | Primary | 1.00 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-37311
+
+Source: CVE-2022-37311_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.90 | Class | Discouraged, but most appropriate based on the available evidence. |
+| CWE-789 | Memory Allocation with Excessive Size Value | Secondary | 0.70 | Variant | Allowed, but less specific than CWE-400 in this context. |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed, can precede CWE-789 |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.60 | Base | Allowed, could be a more specific alternative to CWE-400. |
+
+## CVE-2021-37863
+
+Source: CVE-2021-37863_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Unknown | 0.80 | Class | Consider lower-level children |
+| CWE-233 | Improper Handling of Parameters | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-29330
+
+Source: CVE-2022-29330_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.90 | Base | Allowed |
+| CWE-425 | Direct Request ('Forced Browsing') | Secondary | 0.70 | Base | Allowed |
+| CWE-321 | Use of Hard-coded Cryptographic Key | Secondary | 0.60 | Variant | Allowed |
+
+## CVE-2022-25578
+
+Source: CVE-2022-25578_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-96 | Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection') | Primary | 0.90 | Base | Primary CWE. The vulnerability allows code injection by editing the `.htaccess` file, which is a statically saved code. |
+| CWE-434 | Unrestricted Upload of File with Dangerous Type | Primary | 0.70 | Base | Secondary CWE. The attacker uploads a `.php3` file after modifying the `.htaccess` to execute it as a PHP file. |
+
+## CVE-2022-25133
+
+Source: CVE-2022-25133_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 1.00 | Class | Primary CWE. The vulnerability involves command injection via a crafted MQTT packet, indicating that the application is constructing a command and failing to neutralize special elements. |
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 0.80 | Base | Secondary candidate. Could be used if the command injection is specifically an OS command. Further investigation would be needed to confirm if the crafted MQTT packet results in the construction of an OS command. |
+| CWE-20 | Improper Input Validation | Secondary | 0.60 | Class | Secondary candidate. The vulnerability description mentions "**improper input validation**" but lacks specifics. CWE-20 is a high-level classification and more specific CWEs might be applicable. |
+
+## CVE-2022-29538
+
+Source: CVE-2022-29538_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-284 | Improper Access Control | Primary | 0.80 | Pillar | Primary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-425 | Direct Request ('Forced Browsing') | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-28129
+
+Source: CVE-2022-28129_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Unknown | 0.90 | Class | Consider lower-level children. |
+| CWE-444 | Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') | Primary | 0.70 | Base | Secondary candidate. |
+| CWE-1286 | Improper Validation of Syntactic Correctness of Input | Primary | 0.60 | Base | Secondary candidate. |
+
+## CVE-2022-0854
+
+Source: CVE-2022-0854_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-401 | Missing Release of Memory after Effective Lifetime | Primary | 0.90 | Variant | Primary CWE |
+| CWE-125 | Out-of-bounds Read | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-38505
+
+Source: CVE-2021-38505_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-313 | Cleartext Storage in a File or on Disk | Primary | 0.90 | Variant | Primary CWE |
+| CWE-668 | Exposure of Resource to Wrong Sphere | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-25817
+
+Source: CVE-2022-25817_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-926 | Improper Export of Android Application Components | Primary | 0.80 | Variant | Primary CWE. The application does not properly restrict which applications can launch the component. |
+| CWE-287 | Improper Authentication | Secondary | 0.60 | Class | Secondary CWE. The product does not sufficiently prove that the claim is correct. |
+
+## CVE-2021-22799
+
+Source: CVE-2021-22799_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-331 | Insufficient Entropy | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-44385
+
+Source: CVE-2021-44385_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 1.00 | Class | Allowed |
+| CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-35454
+
+Source: CVE-2022-35454_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.70 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.40 | Class | Discouraged |
+
+## CVE-2022-25364
+
+Source: CVE-2022-25364_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-276 | Incorrect Default Permissions | Primary | 1.00 | Base | Primary CWE |
+| CWE-306 | Missing Authentication for Critical Function | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-36830
+
+Source: CVE-2022-36830_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-927 | Use of Implicit Intent for Sensitive Communication | Primary | 0.90 | Variant | Primary CWE |
+| CWE-285 | Improper Authorization | Secondary | 0.60 | Class | Secondary CWE |
+
+## CVE-2021-28510
+
+Source: CVE-2021-28510_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 1.00 | Class | Allowed |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-26508
+
+Source: CVE-2022-26508_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 0.90 | Class | Discouraged |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Discouraged |
+
+## CVE-2021-21943
+
+Source: CVE-2021-21943_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+| CWE-122 | Heap-based Buffer Overflow | Primary | 0.80 | Variant | Secondary Candidate |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-44574
+
+Source: CVE-2022-44574_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 0.75 | Class | Discouraged |
+| CWE-306 | Missing Authentication for Critical Function | Secondary | 0.65 | Base | Allowed |
+
+## CVE-2021-36777
+
+Source: CVE-2021-36777_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Primary | 1.00 | Base | Primary CWE |
+| CWE-522 | Insufficiently Protected Credentials | Primary | 0.70 | Class | Secondary candidate |
+| CWE-863 | Incorrect Authorization | Primary | 0.60 | Class | Secondary candidate |
+
+## CVE-2022-24842
+
+Source: CVE-2022-24842_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.90 | Base | Primary CWE. The vulnerability stems from the **incorrect assignment** of the privilege to create service accounts to non-admin users, leading to privilege escalation. |
+| CWE-639 | Authorization Bypass Through User-Controlled Key | Primary | 0.70 | Base | Secondary CWE. A non-admin user is able to create service accounts for root or other admin users and then is able to assume their access policies via the generated credentials. |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 0.60 | Base | Secondary CWE. The product does not properly handle the case where the non-admin user should not have the permission to create service accounts for admin users. |
+
+## CVE-2022-24737
+
+Source: CVE-2022-24737_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-201 | Insertion of Sensitive Information Into Sent Data | Primary | 0.90 | Base | Primary CWE |
+| CWE-212 | Improper Removal of Sensitive Information Before Storage or Transfer | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-614 | Sensitive Cookie in HTTPS Session Without 'Secure' Attribute | Primary | 0.60 | Variant | Secondary Candidate |
+
+## CVE-2021-44367
+
+Source: CVE-2021-44367_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 1.00 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-29256
+
+Source: CVE-2022-29256_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-21810
+
+Source: CVE-2022-21810_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-4211
+
+Source: CVE-2021-4211_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Primary CWE |
+| CWE-782 | Exposed IOCTL with Insufficient Access Control | Primary | 0.50 | Variant | Secondary Candidate |
+
+## CVE-2021-27420
+
+Source: CVE-2021-27420_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.80 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary Candidate |
+| CWE-20 | Improper Input Validation | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-25718
+
+Source: CVE-2022-25718_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-252 | Unchecked Return Value | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-22464
+
+Source: CVE-2022-22464_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 1.00 | Class | Primary CWE |
+| CWE-326 | Inadequate Encryption Strength | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2021-44375
+
+Source: CVE-2021-44375_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged |
+
+## CVE-2022-48337
+
+Source: CVE-2022-48337_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-3882
+
+Source: CVE-2022-3882_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) | Primary | 1.00 | Compound | Primary CWE.  The AJAX action does not validate the nonce. |
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Secondary CWE. The AJAX action `wpmemory_install_plugin` can be accessed by any authenticated user. |
+
+## CVE-2022-2922
+
+Source: CVE-2022-2922_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-41727
+
+Source: CVE-2022-41727_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-789 | Memory Allocation with Excessive Size Value | Primary | 0.90 | Variant | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-47325
+
+Source: CVE-2022-47325_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-24150
+
+Source: CVE-2022-24150_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE. The vulnerability allows attackers to execute arbitrary commands via the remoteIp parameter due to **command injection**. |
+
+## CVE-2022-36919
+
+Source: CVE-2022-36919_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+
+## CVE-2022-22081
+
+Source: CVE-2022-22081_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-190 | Integer Overflow or Wraparound | Primary | 0.90 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.80 | Base | Allowed |
+
+## CVE-2022-39267
+
+Source: CVE-2022-39267_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-287 | Improper Authentication | Primary | 0.90 | Class | Discouraged |
+| CWE-1390 | Weak Authentication | Secondary | 0.80 | Class | Allowed-with-Review |
+| CWE-863 | Incorrect Authorization | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-33280
+
+Source: CVE-2022-33280_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-824 | Access of Uninitialized Pointer | Primary | 1.00 | Base | Primary CWE |
+| CWE-908 | Use of Uninitialized Resource | Primary | 0.75 | Base | Secondary Candidate |
+| CWE-457 | Use of Uninitialized Variable | Primary | 0.60 | Variant | Secondary Candidate |
+
+## CVE-2022-29502
+
+Source: CVE-2022-29502_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-266 | Incorrect Privilege Assignment | Primary | 0.90 | Base | Primary CWE |
+| CWE-269 | Improper Privilege Management | Secondary | 0.70 | Class | Secondary Candidate |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Secondary Candidate |
+| CWE-863 | Incorrect Authorization | Primary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-31032
+
+Source: CVE-2022-31032_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-285 | Improper Authorization | Secondary | 0.70 | Class | Discouraged |
+| CWE-284 | Improper Access Control | Secondary | 0.50 | Pillar | Discouraged |
+
+## CVE-2022-29307
+
+Source: CVE-2022-29307_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-94 | Improper Control of Generation of Code ('Code Injection') | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-4556
+
+Source: CVE-2022-4556_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-22276
+
+Source: CVE-2022-22276_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Primary | 0.90 | Class | Discouraged due to being high-level, but chosen as most fitting based on available information. |
+| CWE-497 | Exposure of Sensitive System Information to an Unauthorized Control Sphere | Secondary | 0.70 | Base | Allowed, but less likely given the general description. |
+
+## CVE-2022-27924
+
+Source: CVE-2022-27924_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-150 | Improper Neutralization of Escape, Meta, or Control Sequences | Primary | 0.80 | Variant | Primary CWE |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-807 | Reliance on Untrusted Inputs in a Security Decision | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-25226
+
+Source: CVE-2022-25226_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-306 | Missing Authentication for Critical Function | Primary | 1.00 | Base | Primary CWE |
+| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 0.80 | Base | Secondary CWE |
+
+## CVE-2022-1134
+
+Source: CVE-2022-1134_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-843 | Access of Resource Using Incompatible Type ('Type Confusion') | Primary | 1.00 | Base | Allowed |
+| CWE-787 | Out-of-bounds Write | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2021-3305
+
+Source: CVE-2021-3305_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-426 | Untrusted Search Path | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-33329
+
+Source: CVE-2022-33329_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-20156
+
+Source: CVE-2022-20156_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | **Improper Input Validation** | Primary | 0.90 | Class | Allowed-with-Review, but Discouraged due to being too general.  Selecting due to explicit mention in the source vulnerability description and lack of more specific details. |
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Secondary | 0.60 | Base | Allowed, but less likely to be the correct CWE given the general nature of the vulnerability description. |
+
+## CVE-2022-2062
+
+Source: CVE-2022-2062_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-209 | Generation of Error Message Containing Sensitive Information | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-46523
+
+Source: CVE-2021-46523_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-122 | Heap-based Buffer Overflow | Primary | 1.00 | Variant | Allowed |
+
+## CVE-2022-41290
+
+Source: CVE-2022-41290_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-250 | Execution with Unnecessary Privileges | Primary | 0.85 | Base | Allowed |
+| CWE-269 | Improper Privilege Management | Secondary | 0.65 | Class | Discouraged |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Secondary | 0.60 | Class | Allowed-with-Review |
+
+## CVE-2022-40036
+
+Source: CVE-2022-40036_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-359 | Exposure of Private Personal Information to an Unauthorized Actor | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-25271
+
+Source: CVE-2022-25271_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-42576
+
+Source: CVE-2021-42576_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-184 | Incomplete List of Disallowed Inputs | Primary | 0.80 | Base | Allowed |
+| CWE-183 | Permissive List of Allowed Inputs | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-1974
+
+Source: CVE-2022-1974_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | The vulnerability description explicitly mentions a **use-after-free** flaw, which aligns directly with the description of CWE-416. This is the primary weakness. |
+| CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | Primary | 0.90 | Class | The vulnerability description mentions a **race condition** between kobject creation and delete, which is a concurrent execution issue. CWE-362 is a good fit as a contributing factor. |
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 0.70 | Base | The CVE reference summary indicates a TOCTOU **race condition** due to unsynchronized access to device state, making CWE-367 a relevant, though less direct, mapping. |
+
+## CVE-2022-30951
+
+Source: CVE-2022-30951_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | The primary weakness is the **lack of access control**, which allows unauthorized users to start processes. |
+
+## CVE-2022-23563
+
+Source: CVE-2022-23563_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 1.00 | Base | Allowed |
+| CWE-379 | Creation of Temporary File in Directory with Insecure Permissions | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-30330
+
+Source: CVE-2022-30330_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 0.90 | Base | Primary CWE |
+| CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input | Primary | 0.70 | Base | Secondary CWE |
+
+## CVE-2022-45103
+
+Source: CVE-2022-45103_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.90 | Class | Discouraged Usage |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Secondary | 0.80 | Base | Allowed Usage |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Discouraged Usage |
+
+## CVE-2022-23531
+
+Source: CVE-2022-23531_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-23 | Relative Path Traversal | Primary | 1.00 | Base | Primary CWE |
+| CWE-73 | External Control of File Name or Path | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-26404
+
+Source: CVE-2021-26404_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-125 | Out-of-bounds Read | Primary | 0.80 | Base | Primary CWE |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.60 | Base | Secondary Candidate |
+| CWE-20 | Improper Input Validation | Secondary | 0.40 | Class | Secondary Candidate |
+
+## CVE-2022-28226
+
+Source: CVE-2022-28226_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-379 | Creation of Temporary File in Directory with Insecure Permissions | Primary | 0.90 | Base | Primary CWE |
+| CWE-732 | Incorrect Permission Assignment for Critical Resource | Primary | 0.70 | Class | Secondary Candidate |
+| CWE-276 | Incorrect Default Permissions | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-20937
+
+Source: CVE-2022-20937_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Primary CWE |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-35886
+
+Source: CVE-2022-35886_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-134 | Use of Externally-Controlled Format String | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-35631
+
+Source: CVE-2022-35631_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-59 | Improper Link Resolution Before File Access ('Link Following') | Primary | 0.90 | Base | Primary CWE |
+| CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-330 | Use of Insufficiently Random Values | Secondary | 0.50 | Class | Secondary Candidate |
+
+## CVE-2022-26129
+
+Source: CVE-2022-26129_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 0.90 | Variant | Allowed |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.70 | Base | Allowed |
+| CWE-125 | Out-of-bounds Read | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2022-25371
+
+Source: CVE-2022-25371_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-26390
+
+Source: CVE-2022-26390_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-312 | Cleartext Storage of Sensitive Information | Primary | 1.00 | Base | Allowed |
+
+## CVE-2022-23854
+
+Source: CVE-2022-23854_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-23 | Relative Path Traversal | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2021-0511
+
+Source: CVE-2021-0511_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 0.80 | Class | Discouraged |
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Secondary | 0.60 | Base | Allowed |
+
+## CVE-2021-3700
+
+Source: CVE-2021-3700_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Acceptable-Use |
+| CWE-415 | Double Free | Primary | 0.60 | Variant | Acceptable-Use |
+
+## CVE-2022-24904
+
+Source: CVE-2022-24904_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-61 | UNIX Symbolic Link (Symlink) Following | Primary | 1.00 | Compound | Primary CWE |
+| CWE-59 | Improper Link Resolution Before File Access ('Link Following') | Primary | 0.80 | Base | Secondary Candidate |
+| CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2021-44407
+
+Source: CVE-2021-44407_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1287 | Improper Validation of Specified Type of Input | Primary | 0.90 | Base | Primary CWE |
+| CWE-20 | Improper Input Validation | Secondary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-21684
+
+Source: CVE-2022-21684_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-1390 | Weak Authentication | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-39086
+
+Source: CVE-2022-39086_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE |
+| CWE-280 | Improper Handling of Insufficient Permissions or Privileges | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-34385
+
+Source: CVE-2022-34385_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-327 | Use of a Broken or Risky Cryptographic Algorithm | Primary | 0.85 | Class | Allowed-with-Review |
+| CWE-1394 | Use of Default Cryptographic Key | Secondary | 0.75 | Base | Allowed |
+| CWE-326 | Inadequate Encryption Strength | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2021-44196
+
+Source: CVE-2021-44196_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-80 | Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) | Primary | 1.00 | Variant | Primary CWE |
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2021-37909
+
+Source: CVE-2021-37909_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-20 | Improper Input Validation | Primary | 1.00 | Base | Primary CWE |
+| CWE-269 | Improper Privilege Management | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-32228
+
+Source: CVE-2022-32228_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-943 | Improper Neutralization of Special Elements in Data Query Logic | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-790 | Improper Filtering of Special Elements | Secondary | 0.70 | Class | Allowed-with-Review |
+
+## CVE-2022-35247
+
+Source: CVE-2022-35247_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Primary CWE. The product does not perform an authorization check when an actor attempts to access a resource or perform an action. |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Secondary CWE. The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information. |
+
+## CVE-2022-36537
+
+Source: CVE-2022-36537_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-288 | Authentication Bypass Using an Alternate Path or Channel | Primary | 0.90 | Base | Allowed |
+| CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-23035
+
+Source: CVE-2022-23035_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-416 | Use After Free | Primary | 1.00 | Variant | Primary CWE |
+| CWE-459 | Incomplete Cleanup | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-39338
+
+Source: CVE-2022-39338_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | Primary | 1.00 | Base | Allowed |
+| CWE-1289 | Improper Validation of Unsafe Equivalence in Input | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-31219
+
+Source: CVE-2022-31219_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-269 | Improper Privilege Management | Primary | 0.70 | Class | Discouraged |
+| CWE-73 | External Control of File Name or Path | Secondary | 0.60 | Base | Allowed |
+| CWE-59 | Improper Link Resolution Before File Access ('Link Following') | Secondary | 0.50 | Base | Allowed |
+
+## CVE-2022-28965
+
+Source: CVE-2022-28965_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-427 | Uncontrolled Search Path Element | Primary | 0.90 | Base | Primary CWE |
+| CWE-250 | Execution with Unnecessary Privileges | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-0675
+
+Source: CVE-2022-0675_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-184 | Incomplete List of Disallowed Inputs | Primary | 0.80 | Base | Primary CWE |
+
+## CVE-2022-32893
+
+Source: CVE-2022-32893_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-48122
+
+Source: CVE-2022-48122_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+| CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | Primary | 0.70 | Class | Secondary Candidate |
+
+## CVE-2022-32041
+
+Source: CVE-2022-32041_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+
+## CVE-2022-41274
+
+Source: CVE-2022-41274_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-668 | Exposure of Resource to Wrong Sphere | Unknown | 0.80 | Class | The **misconfigured application endpoints** led to the exposure of sensitive data |
+
+## CVE-2022-22291
+
+Source: CVE-2022-22291_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-779 | Logging of Excessive Data | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-35452
+
+Source: CVE-2022-35452_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.75 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.50 | Class | Discouraged |
+
+## CVE-2022-35885
+
+Source: CVE-2022-35885_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-134 | Use of Externally-Controlled Format String | Primary | 1.00 | Base | Primary CWE |
+| CWE-787 | Out-of-bounds Write | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-123 | Write-what-where Condition | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-22228
+
+Source: CVE-2022-22228_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1284 | Improper Validation of Specified Quantity in Input | Primary | 0.90 | Base | Allowed |
+| CWE-401 | Missing Release of Memory after Effective Lifetime | Secondary | 0.70 | Variant | Allowed |
+
+## CVE-2022-23621
+
+Source: CVE-2022-23621_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-552 | Files or Directories Accessible to External Parties | Primary | 1.00 | Base | Primary CWE. The **weakness** allows access to files that should not be accessible. |
+| CWE-863 | Incorrect Authorization | Primary | 0.70 | Class | Secondary CWE. The vulnerability exists due to **insufficient access control**, which is a form of incorrect authorization. |
+
+## CVE-2022-3923
+
+Source: CVE-2022-3923_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-862 | Missing Authorization | Primary | 1.00 | Class | Allowed-with-Review |
+| CWE-425 | Direct Request ('Forced Browsing') | Secondary | 0.70 | Base | Allowed |
+
+## CVE-2022-26267
+
+Source: CVE-2022-26267_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-359 | Exposure of Private Personal Information to an Unauthorized Actor | Primary | 0.70 | Base | Primary CWE |
+| CWE-425 | Direct Request ('Forced Browsing') | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-41952
+
+Source: CVE-2022-41952_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Primary CWE |
+| CWE-772 | Missing Release of Resource after Effective Lifetime | Primary | 0.70 | Base | Secondary Candidate |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.60 | Class | Secondary Candidate |
+
+## CVE-2022-32047
+
+Source: CVE-2022-32047_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.70 | Class | Secondary CWE, Parent of CWE-121 |
+
+## CVE-2022-21680
+
+Source: CVE-2022-21680_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1333 | Inefficient Regular Expression Complexity | Primary | 1.00 | Base | - |
+| CWE-400 | Uncontrolled Resource Consumption | Primary | 0.70 | Class | - |
+
+## CVE-2022-35534
+
+Source: CVE-2022-35534_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | Primary | 1.00 | Base | Primary CWE |
+
+## CVE-2022-0454
+
+Source: CVE-2022-0454_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-787 | Out-of-bounds Write | Primary | 1.00 | Base | Allowed |
+| CWE-122 | Heap-based Buffer Overflow | Secondary | 0.70 | Variant | Allowed |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.40 | Class | Discouraged |
+
+## CVE-2022-20491
+
+Source: CVE-2022-20491_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-770 | Allocation of Resources Without Limits or Throttling | Primary | 0.90 | Base | Allowed |
+| CWE-400 | Uncontrolled Resource Consumption | Secondary | 0.70 | Class | Discouraged |
+
+## CVE-2022-33701
+
+Source: CVE-2022-33701_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-285 | Improper Authorization | Secondary | 0.70 | Class | Discouraged |
+| CWE-284 | Improper Access Control | Secondary | 0.60 | Pillar | Discouraged |
+| CWE-927 | Use of Implicit Intent for Sensitive Communication | Secondary | 0.50 | Variant | Allowed |
+
+## CVE-2021-29424
+
+Source: CVE-2021-29424_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-1389 | Incorrect Parsing of Numbers with Different Radices | Primary | 1.00 | Base | Primary CWE |
+| CWE-1286 | Improper Validation of Syntactic Correctness of Input | Primary | 0.70 | Base | Secondary Candidate |
+
+## CVE-2022-41981
+
+Source: CVE-2022-41981_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-121 | Stack-based Buffer Overflow | Primary | 1.00 | Variant | Primary CWE |
+| CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | Secondary | 0.75 | Class | Secondary Candidate |
+| CWE-170 | Improper Null Termination | Primary | 0.60 | Base | Secondary Candidate |
+
+## CVE-2022-2456
+
+Source: CVE-2022-2456_analysis.md
+
+| CWE ID | Name | Classification | Confidence | Abstraction | Notes |
+|--------|------|---------------|------------|-------------|-------|
+| CWE-863 | Incorrect Authorization | Primary | 0.90 | Class | Allowed-with-Review |
+| CWE-1286 | Improper Validation of Syntactic Correctness of Input | Secondary | 0.70 | Base | Allowed |
+| CWE-696 | Incorrect Behavior Order | Secondary | 0.60 | Class | Allowed-with-Review |
 

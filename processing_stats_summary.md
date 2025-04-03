@@ -1,16 +1,17 @@
 # Batch Processing Summary
 
     ## Overall Statistics
-    - **Total CVEs Processed**: 6941
-    - **Successful**: 6940
-    - **Failed**: 1
-    - **Total Batch Time**: 95798.90s
+    - **Total CVEs Found**: 6940
+    - **Successful**: 0
+    - **Failed**: 0
+    - **Skipped**: 6940
+    - **Total Batch Time**: 79.05s
 
     ## Timing Statistics
-    - **Average Processing Time**: 13.79s per CVE
-    - **Average Retrieval Time**: 4.69s per CVE
-    - **Average Total Time**: 18.47s per CVE
-    - **Total Processing Time**: 95694.20s
-    - **Total Retrieval Time**: 32520.37s
-    - **Total Combined Time**: 128214.57s
+    - **Average Processing Time**: 0.00s per CVE
+    - **Average Retrieval Time**: 0.00s per CVE
+    - **Average Total Time**: 0.00s per CVE
+    - **Total Processing Time**: 0.00s
+    - **Total Retrieval Time**: 0.00s
+    - **Total Combined Time**: 0.00s
     
